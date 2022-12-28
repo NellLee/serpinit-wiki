@@ -1,10 +1,11 @@
 # Die Lateralen
 
- Allgemein
+# Allgemein
 
 Die Lateralen entstanden nach dem Fall der [Sgrisignier](sgrisignier.md) über Jahrmillionen durch natürliche Evolution
-aus dem _homo primian_ auf dem Planeten [Agranum](../himmelskoerper/agranum.md). Die Vertreter des _homo primian_ auf
-Agranum wurden jedoch beim Fall der Sgrisignier **psychisch verstümmelt**, was einen starken Einfluss auf die Evolution
+aus dem _homo primian_ auf dem Planeten [Agranum](../himmelskoerper/agranum.md). 
+
+Die Psyche des _homo primian_ auf Agranum wurde jedoch beim Fall der Sgrisignier **genetisch verstümmelt**, was einen starken Einfluss auf die Evolution
 sowie auf die Entwicklung von magischen Fähigkeiten der Lateralen hatte.
 Die Sgrisignier experimentierten vor ihrem Fall zu ihrer Belustigung auf magische Weise mit den _homo primian_ auf
 Agranum. Sie erschufen kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier
