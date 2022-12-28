@@ -25,7 +25,7 @@ sphärischen Schub annullierter Gravitation, sodass diese sogenannte **Gravidbla
 Höhe trug und schließlich in ca. 35 km Höhe zum Stehen kam.
 Auf dieser Blase schwebten fortan die Kontinentalplatten von Agranum und mit ihr die verbleibenden 60 % allen Lebens.
 Die magische Antwort Aerions auf den Verrat führte jedoch nicht nur zu diesem katastrophalen Massenaussterben auf
-Agranum, sondern auch zur psychischen Verstümmelung der Lateralen (siehe [Lateralen](../voelker/Lateralen.md)).
+Agranum, sondern auch zur psychischen Verstümmelung der Lateralen (siehe [Lateralen](../voelker/lateralen.md)).
 
 Die Gravidblase war ein Ergebnis komplexer Magie und war lediglich durchlässig für Gase, sowie *für Tjosand*. Auf diese
 Weise filterte Aerion bei der Expansion sämtliches Tjosand und sammelte es um den Kern.

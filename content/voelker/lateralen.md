@@ -4,16 +4,16 @@
 
 Die Lateralen entstanden nach dem Fall der [Sgrisignier](sgrisignier.md) über Jahrmillionen durch natürliche Evolution aus dem _homo primian_ auf dem Planeten [Agranum](../himmelskoerper/agranum.md). 
 
-Die Psyche des _homo primian_ auf Agranum wurde beim **genetisch verstümmelt**, was einen starken Einfluss auf die Evolution
+Die Psyche des _homo primian_ auf Agranum wurde jedoch schon früh **genetisch verstümmelt**, was einen starken Einfluss auf die Evolution
 sowie auf die Entwicklung der magischen Fähigkeiten der Lateralen hatte.
 
 Zu ihren Lebzeiten experimentierten die Sgrisignier auf magische Weise zu ihrer Belustigung mit den _homo primian_ auf
 Agranum. Sie erschufen kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier
 verwandelten. Zuerst waren die Affen-Artigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fingen sie an
-die Runensteine für die Jagd zu nutzen, um sich an ihre Opfer unbemerkt anschleichen zu können.
-Doch als die Sgrisignier schließlich von Aerion vernichtet wurden, so richtete sich seine Magie leider auch gegen die
+die Runensteine für die Jagd zu nutzen.
+Als die Sgrisignier schließlich von Aerion vernichtet wurden, so richtete sich seine Magie leider auch gegen die
 unschuldigen _homo primian_ von Agranum. Die Magie der Runensteine hatte ihre Spur hinterlassen. Zwar wurden die _homo
-primian_ nicht vernichtet, doch der Einfluss von Aerions Magie hatte zur Folge, dass alle gegenwärtigen und künftig
+primian_ nicht vernichtet, doch der Sferin-Stoß von Aerion hatte zur Folge, dass alle gegenwärtigen und künftig
 gezeugten Lateralen eine Spaltung ihres Geistes durchmachen mussten. Hinzu kam, dass die Spaltung des Planeten Agranum
 nicht nur ein Massenaussterben nach sich zog, welches die meisten Lebewesen umbrachte, sondern für die Überlebenden
 gleichwohl einen komplett neuen Lebensraum schuf, an den sie sich anpassen mussten.

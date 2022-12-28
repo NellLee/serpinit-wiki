@@ -132,26 +132,26 @@
 [WER BEHÄLT SEINE MAGIE???]</description>
       <default_color>192,192,192</default_color>
     </event>
-      <event>
-          <start>0.0</start>
-          <end>0.0</end>
-          <text>Beginn der Ikusation</text>
-          <progress>0</progress>
-          <fuzzy>False</fuzzy>
-          <fuzzy_start>False</fuzzy_start>
-          <fuzzy_end>False</fuzzy_end>
-          <locked>False</locked>
-          <ends_today>False</ends_today>
-          <category>Ikusation</category>
-          <description>Die Resrubor-Lateralen haben die Funktionsweise der Sgrisignier-Portale erfolgreich analysiert
+    <event>
+      <start>0.0</start>
+      <end>0.0</end>
+      <text>Beginn der Ikusation</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Ikusation</category>
+      <description>Die Resrubor-Lateralen haben die Funktionsweise der Sgrisignier-Portale erfolgreich analysiert
               und ermöglichen eine gefahrlose Nutzung dieser. Sie starten außerdem gemeinsam mit ihren Artgenossen, den
               Sodili, eine Initiative um sämtliche bewohnten Planeten des Sonnensystems zu vernetzen und einen Austausch
               von Kultur, Gütern und Wissen zu ermöglichen. Dabei etablieren sie das Jahr 0 und eine neue Zeitrechnung
               basierend auf dem Herzschlag des Planeten Navura.
           </description>
-          <labels>Agranum</labels>
-          <default_color>192,192,192</default_color>
-      </event>
+      <labels>Agranum</labels>
+      <default_color>192,192,192</default_color>
+    </event>
     <event>
       <start>-12.577508819600794</start>
       <end>-12.577508819600794</end>
@@ -167,7 +167,7 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>-349700.0</start>
+      <start>-349705.70080763614</start>
       <end>-16.0</end>
       <text>Magisch beeinflusste Evolution der modernen Völker</text>
       <progress>0</progress>
@@ -195,8 +195,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>-349739.0</start>
-      <end>-349739.0</end>
+      <start>-349704.0</start>
+      <end>-349704.0</end>
       <text>Detonation der Agranum-Rune</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -317,29 +317,29 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Agranum</category>
-        <description>Die Conius-Lateralen spalten sich aufgrund ihrer unterschiedlichen Sichtweisen von den Sodili ab
+      <description>Die Conius-Lateralen spalten sich aufgrund ihrer unterschiedlichen Sichtweisen von den Sodili ab
             und gründen die Resrubor-Akademie. Hier werden junge Vertreter ihres Volkes von Ihrer Identitätsstörung
             geheilt um weiterführend die Theorie der Magie zu studieren.
         </description>
       <default_color>192,192,192</default_color>
     </event>
-      <event>
-          <start>0.07053290728198958</start>
-          <end>0.07053290728198958</end>
-          <text>(14)Drachen-Sodili Elikta landet auf Navura</text>
-          <progress>0</progress>
-          <fuzzy>False</fuzzy>
-          <fuzzy_start>False</fuzzy_start>
-          <fuzzy_end>False</fuzzy_end>
-          <locked>False</locked>
-          <ends_today>False</ends_today>
-          <category>Ikusation</category>
-          <description>Die Drachen-Sodili-Elfin Elikta meldet sich freiwillig bei der Ikusations-Kampagne der
+    <event>
+      <start>0.07053290728198958</start>
+      <end>0.07053290728198958</end>
+      <text>(14)Drachen-Sodili Elikta landet auf Navura</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Ikusation</category>
+      <description>Die Drachen-Sodili-Elfin Elikta meldet sich freiwillig bei der Ikusations-Kampagne der
               Conius-Lateralen. Das gezähmte Chaos-Portal der Conius-Lateralen bringt sie auf den Planeten Navura.
               Elikta entdeckt nach und nach die Gechichte der Drachenkinder und möchte dem Volk hLateralen.
           </description>
-          <default_color>192,192,192</default_color>
-      </event>
+      <default_color>192,192,192</default_color>
+    </event>
     <event>
       <start>-0.6943464122282921</start>
       <end>-0.6943464122282921</end>
@@ -351,10 +351,9 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Agranum</category>
-        <description>Die Conius-Lateralen haben die Rune eines Chaos-Portals zum ersten Mal erfolgreich manipuliert.
+      <description>Die Conius-Lateralen haben die Rune eines Chaos-Portals zum ersten Mal erfolgreich manipuliert.
             Dabei konnten sie die Dauer einer Chaos-Verbindung stark erhöhen und haben so erfolgreich einen Lateralen
-            durch das gesamte Teleportations-Dreieck schicken können bevor die Verbindung wieder wechselte.
-        </description>
+            durch das gesamte Teleportations-Dreieck schicken können bevor die Verbindung wieder wechselte.</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -371,12 +370,26 @@
       <description>Die neue Königin findet Anklang bei den jüngeren Drachenkindern, da diese hoffen, dass so endlich die Streitigkeiten mit den anderen Rassen beigelegt werden können. Viele konservative Drachenkinder respektieren die neue Königin jedoch nicht und rebellieren.</description>
       <default_color>192,192,192</default_color>
     </event>
+    <event>
+      <start>-349703.999</start>
+      <end>-349703.999</end>
+      <text>Psychische Verstümmelung der Lateralen</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>Die Sgrisignier hatten bei ihren magischen Experimenten mit den Lateralen Spuren hinterlassen. Als die Agranum-Rune detonierte und der Elementdrache Aerion den Sferin-Stoß als Antwort entsendete, vernichtete er auch einen Teil des Verstandes der Lateralen. Er löschte die Nutzung der Tjomanten einfach aus ihren Gehirnen, und zwar auf einer genetischen Ebene. Die Folge war jedoch, dass neugeborene Lateralen eine genetisch bedingte dissoziative Identitätsstörung entwickelten. Jedem geborenen Lateralen wurde auf intuitive magische Art und Weise ein Teil ihres Verstandes genommen, die sie jedoch nie besaßen. Meist äußerte sich diese Störung in nur einer einzigen weiteren Persönlichkeit, häufig in Tiergestalt.</description>
+      <default_color>192,192,192</default_color>
+    </event>
   </events>
   <view>
-      <displayed_period>
-          <start>-691032.6138056078</start>
-          <end>571116.2710072419</end>
-      </displayed_period>
+    <displayed_period>
+      <start>-691032.6138056078</start>
+      <end>571116.2710072419</end>
+    </displayed_period>
     <hidden_categories>
     </hidden_categories>
   </view>
