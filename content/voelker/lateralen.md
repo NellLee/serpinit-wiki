@@ -2,12 +2,12 @@
 
 # Allgemein
 
-Die Lateralen entstanden nach dem Fall der [Sgrisignier](sgrisignier.md) über Jahrmillionen durch natürliche Evolution
-aus dem _homo primian_ auf dem Planeten [Agranum](../himmelskoerper/agranum.md). 
+Die Lateralen entstanden nach dem Fall der [Sgrisignier](sgrisignier.md) über Jahrmillionen durch natürliche Evolution aus dem _homo primian_ auf dem Planeten [Agranum](../himmelskoerper/agranum.md). 
 
-Die Psyche des _homo primian_ auf Agranum wurde jedoch beim Fall der Sgrisignier **genetisch verstümmelt**, was einen starken Einfluss auf die Evolution
-sowie auf die Entwicklung von magischen Fähigkeiten der Lateralen hatte.
-Die Sgrisignier experimentierten vor ihrem Fall zu ihrer Belustigung auf magische Weise mit den _homo primian_ auf
+Die Psyche des _homo primian_ auf Agranum wurde beim **genetisch verstümmelt**, was einen starken Einfluss auf die Evolution
+sowie auf die Entwicklung der magischen Fähigkeiten der Lateralen hatte.
+
+Zu ihren Lebzeiten experimentierten die Sgrisignier auf magische Weise zu ihrer Belustigung mit den _homo primian_ auf
 Agranum. Sie erschufen kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier
 verwandelten. Zuerst waren die Affen-Artigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fingen sie an
 die Runensteine für die Jagd zu nutzen, um sich an ihre Opfer unbemerkt anschleichen zu können.
