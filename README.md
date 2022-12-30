@@ -1,1 +1,1 @@
-[Das Planetensystem](content/index.md)
+# [Das Planetensystem](content/index.md)
