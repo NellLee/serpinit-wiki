@@ -6,11 +6,11 @@ Invasion der Drachenkinder erst nach der Ikusation
 
 - ### Zeit-Messung
 
-Die kleinste messbare und konstante Zeiteinheit im Serpinit-Sonnensystem ist der Herzschlag des Planeten Navura. Dieser wird Pulsene genannt und dauert exakt 1,8675 Erd-Sekunden.
+Die kleinste messbare und konstante Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura. Dieser wird Pulsene genannt und dauert exakt 1,8675 Erd-Sekunden.
 
 Je nach Zahlenbasis und Rechnungsart der Völker wurden aus der Pulsene verschiedene größere Zeiteinheiten abgeleitet, wie z.B. Die Duzete der Orcs (1 200 Pulsenen = ca. 37 Minuten) oder die Fossura der Dampfzwerge (10 300 Pulsenen = ca. 5,3 Stunden). Eine Etablierung der Pulsene als einheitliche Zeiteinheit
 
-Um die Geschichte des Serpinit-Sonnensystems einheitlicher aufzeichnen zu können wurde außerdem schon früh von einigen Forschern eine weitere universelle Zeiteinheit eingeführt, basierend auf einer gesamten Umdrehung des schwarzen Loches Mavorak. Dieser sogenannte Mavorak-Zyklus wurde ursprünglich auf 8 471 000 Pulsenen geschätzt, diese Angabe wurde jedoch später auf 8 470 984,295581 korrigiert. Damit entspricht ein Mavorak-Zyklus in etwa 52,5 Tagen der Erde. Des Weiteren wurden 1000 Zyklen zu einer Serpe zusammengefasst (14,3 Jahre).
+Um die Geschichte des Serpinit-Systems einheitlicher aufzeichnen zu können wurde außerdem schon früh von einigen Forschern eine weitere universelle Zeiteinheit eingeführt, basierend auf einer gesamten Umdrehung des schwarzen Loches Mavorak. Dieser sogenannte Mavorak-Zyklus wurde ursprünglich auf 8 471 000 Pulsenen geschätzt, diese Angabe wurde jedoch später auf 8 470 984,295581 korrigiert. Damit entspricht ein Mavorak-Zyklus in etwa 52,5 Tagen der Erde. Des Weiteren wurden 1000 Zyklen zu einer Serpe zusammengefasst (14,3 Jahre).
 Für historische Zwecke wurde mit S = „Serpe“ & Z = „Zyklus“ das Format S|Z festgelegt.
 Diese Art der modernen Zeitaufzeichnung wird seither weitergeführt.
 

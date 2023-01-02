@@ -59,7 +59,7 @@ Dieser Zirkel bildet das Verbindungsglied zwischen den Vapornanos und den Fluctr
 
 ## Zirkel der Stahlschmiede
 
-Dieser Zirkel hat sich auf die traditionelle Schmiedekunst fokussiert, für die die Zwerge bereits vor der Gründung der Zirkel bekannt waren. Mit Klingen die von den Dampfzwergen dieses Zirkels hergestellt werden können sich nur sehr wenige andere Waffen im Serpinit-Sonnensytem messen, denn die Zwerge hatten viel Zeit ihre Methoden zu perfektionieren. In die Griffe von Waffen die für Zwerge hergestellt werden sind häufig Edelsteine eingelassen, welche die Waffe mit zusätzlicher Kraft des Trägers versehen. Der Kern solcher Klingen besteht außerdem aus Tjosandt-Quarz, um die Magie in die Schneide leiten zu können. Damit das Klingenblatt trotz des Quarzes stabil bleibt muss die Stahlummantelung in vielen besonderen Verfahren gehärtet werden.
+Dieser Zirkel hat sich auf die traditionelle Schmiedekunst fokussiert, für die die Zwerge bereits vor der Gründung der Zirkel bekannt waren. Mit Klingen die von den Dampfzwergen dieses Zirkels hergestellt werden können sich nur sehr wenige andere Waffen im Serpinit-System messen, denn die Zwerge hatten viel Zeit ihre Methoden zu perfektionieren. In die Griffe von Waffen die für Zwerge hergestellt werden sind häufig Edelsteine eingelassen, welche die Waffe mit zusätzlicher Kraft des Trägers versehen. Der Kern solcher Klingen besteht außerdem aus Tjosandt-Quarz, um die Magie in die Schneide leiten zu können. Damit das Klingenblatt trotz des Quarzes stabil bleibt muss die Stahlummantelung in vielen besonderen Verfahren gehärtet werden.
 
 Auch für andere Völker stellen die Dampfzwerge gelegentlich Waffen her, doch diese sind den magischen Edelsteinklingen weit unterlegen.
 
@@ -123,7 +123,7 @@ magische Kräfte, da sie von keinem der Elementdrachen geformt wurden. Daher kan
 jedes Lebewesen Edelsteine mit magischer Kraft aufladen. Die Zwerge haben ihr Verfahren jedoch über die Zeit
 perfektioniert um mit der Magie der anderen Völkern mithalten zu können
 
-Zwergen sind zwar von Magie durchdrungen, haben aber trotzdem nicht im direkten Sinne magische Kräfte. Stattdessen haben Zwerge nur das unglaublich starke Verlangen Edelsteine zu erlangen. Berührt ein Zwerg einen reinen Edelstein kann er intuitiv eine Verbindung zu diesem Stein aufbauen und ist nun in der Lage seine magische Energie auf den Stein zu übertragen. Aufgeladene Edelsteine können genutzt werden um Magie in die Technologien der Vapornanos zu integrieren. Besonders in Verbindung mit Metall und durch die leitenden Fähigkeiten des Tjosandt-Quarzes konnten die Zwerge Erfindungen entwickeln die so bahnbrechend waren, dass sie auch ohne intuitive magische Fähigkeiten schnell zu einem der mächtigsten Völker im Serpinit-Sonnensystem werden konnten.
+Zwergen sind zwar von Magie durchdrungen, haben aber trotzdem nicht im direkten Sinne magische Kräfte. Stattdessen haben Zwerge nur das unglaublich starke Verlangen Edelsteine zu erlangen. Berührt ein Zwerg einen reinen Edelstein kann er intuitiv eine Verbindung zu diesem Stein aufbauen und ist nun in der Lage seine magische Energie auf den Stein zu übertragen. Aufgeladene Edelsteine können genutzt werden um Magie in die Technologien der Vapornanos zu integrieren. Besonders in Verbindung mit Metall und durch die leitenden Fähigkeiten des Tjosandt-Quarzes konnten die Zwerge Erfindungen entwickeln die so bahnbrechend waren, dass sie auch ohne intuitive magische Fähigkeiten schnell zu einem der mächtigsten Völker im Serpinit-System werden konnten.
 
  
 

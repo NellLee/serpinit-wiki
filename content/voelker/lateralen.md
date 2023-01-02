@@ -26,7 +26,7 @@ ihre Bewohner.
 <span style="color: red;">TODO:</span> Entwicklung der Hybrid-Fähigkeiten erklären, leichtere Anpassung.
 
 Während die Conius-Lateralen auch nach der Ikusation hauptsächlich auf Agranum leben, haben sich die Sodili mit der Zeit
-stark verbreitet und sind fast im gesamten Serpinit-Sonnensystem vertreten. Besonders die Hybridform der Sodili
+stark verbreitet und sind fast im gesamten Serpinit-System vertreten. Besonders die Hybridform der Sodili
 ermöglicht es ihnen je nach Tiergestalt auch in äußerst unwirtlichen Gebieten zu überleben. Häufig leben gleichgesinnte
 Sodili in kleineren Dörfern oder Städten zusammen.
 
@@ -51,7 +51,7 @@ entsprechender Bildung weiterentwickeln.
 
 Während Sgrisignier die Fähigkeit hatten Runen mit ihren Gedanken zu *erschaffen*, entwickelten Conius-Lateralen eine
 Ausprägung der magischen Intelligenz, welche es ihnen zumindest ermöglichte Runen mit ihren Gedanken zu *erfühlen*.
-Damit verstanden sie die Magie des Serpinit-Sonnensystems besser als jedes andere moderne Volk und konnten auf äußerst
+Damit verstanden sie die Magie des Serpinit-Systems besser als jedes andere moderne Volk und konnten auf äußerst
 wissenschaftliche Art und Weise weitere Erkenntnisse gewinnen.
 
 Ihre Theorien fanden mit der Zeit Einzug in die magischen Techniken aller Völker, da ihre wissenschaftliche Korrektheit
@@ -70,14 +70,14 @@ Portalsteine zu erspüren. Nach einiger Forschung waren sie sogar imstande zu er
 intakte Verbindung zu seinem Gegenstück hat. Dadurch konnten die Portalverbindungen mit der Zeit systematisch
 erschlossen werden.
 
-Es trat eine interplanetare Globalisierung im Serpinit-Sonnensystem ein (die sog. "Ikusation"), welche einen großen
+Es trat eine interplanetare Globalisierung im Serpinit-System ein (die sog. "Ikusation"), welche einen großen
 kulturellen und intellektuellen Aufschwung mit sich brachte. Die technologischen Kenntnisse sowei die magische
 Intelligenz nahezu aller Völker vergrößerten sich bedeutend, da nun interplanetarer Handel von Gütern und der Austausch
 von Wissen möglich waren.
 
 ### Carpebur
 
-Trotz der starken Streuung der Sodili über das Serpinit-Sonnensystem existiert eine Hauptstadt in der ein großer Teil
+Trotz der starken Streuung der Sodili über das Serpinit-System existiert eine Hauptstadt in der ein großer Teil
 ihrer Bevölkerung lebt. Diese Hauptstadt heißt Carpebur und wurde bereits vor der neuen Zeitrechnung gegründet. Carpebur
 befindet sich auf dem Agranum-Gürtel und ist darauf ausgelegt der großen Diversität an Micus und Hybridformen gerecht zu
 werden. Die Stadt liegt daher genau am Rand einer der schwebenden Kontinentalplatte und ragt zum Teil sogar darüber

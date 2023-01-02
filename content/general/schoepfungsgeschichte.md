@@ -3,14 +3,14 @@
 # Die Gottheiten
 
 Mit dem Universum entstanden beim Urknall ca. 50 konzentrierte Vorkommen der [Magischen Substanz](magie.md#Allgemein), welche über Billionen Jahre hinweg Bewusstseine mit magischer Intelligenz entwickelten und zu Gottheiten wurden, die Fortan das Universum nach Belieben formten.
-Die Götter konnten nicht nur die physische Welt formen, sondern auch ihre Naturgesetze und die Funktionsweise der Magie selbst beeinflussen. So konnten sie ganz eigene Welten schaffen. Die meisten Gottheiten respektierten sich gegenseitig und sahen keinen Grund in die Galaxien und Sonnensysteme der anderen einzudringen.
+Die Götter konnten nicht nur die physische Welt formen, sondern auch ihre Naturgesetze und die Funktionsweise der Magie selbst beeinflussen. So konnten sie ganz eigene Welten schaffen. Die meisten Gottheiten respektierten sich gegenseitig und sahen keinen Grund in die Galaxien und Planetensysteme der anderen einzudringen.
 
 ## Creapatos
-In einer Galaxis entwickelte sich die konzentrierte magische Substanz zu der Gottheit Creapatos. Ein Wesen, welches gerne die Gestalt eines Drachen annahm und welches im Laufe der Zeit das Serpinit-Sonnensystem formte.
+In einer Galaxis entwickelte sich die konzentrierte magische Substanz zu der Gottheit Creapatos. Ein Wesen, welches gerne die Gestalt eines Drachen annahm und welches im Laufe der Zeit das Serpinit-System formte.
 
-### Das Serpinit-Sonnensystem
-Die Naturgesetze des Serpinit-Sonnensystems entsprechen im groben, denen des Universums welches wir kennen.
-Creapatos belebte sein Sonnensystem zu Anfang mit einer Vielzahl nicht magisch-intelligenter Lebewesen und Pflanzen. 
+### Das Serpinit-Planetensystem
+Die Naturgesetze des Serpinit-Systems entsprechen im groben, denen des Universums welches wir kennen.
+Creapatos belebte sein System zu Anfang mit einer Vielzahl nicht magisch-intelligenter Lebewesen und Pflanzen. 
 Creapatos musste jedoch, wie jede Gottheit, festellen, dass seine Lebewesen sich durch natürliche Evolution auch ohne seinen direkten Einfluss weiterentwickelten. Bei einigen Wesen entdeckte Creapatos nach vielen Jahrmillionen sogar die Entwicklung von Intelligenz.
 Diese "normale" Intelligenz erinnerte Creapatos in ihren Grundzügen an seine eigene magische Intelligenz. Er überlegte, ob es ihm möglich wäre diese Form der Intelligenz zu modifizieren, sodass sie seiner eigenen entspräche. Er entdeckte schnell die Grenzen dieser abgewandelten Form der magischen Intelligenz und das diese niemals an sein eigenes Potenzial heranreichen könnte. 
 Schließlich schuf er trotz dessen das Volk der Sgrisignier. Er stattete sie mit dem maximalen Maß an magischer Intelligenz aus, die ein sterbliches Lebewesen zu besitzen in der Lage war.
@@ -51,7 +51,7 @@ dar.
 Die Sgrisignier wussten um ihre "Verwandschaft" mit den Affen-Artigen und brachten daher dem _homo primian_ ein gewisses
 Maß an Interesse entgegen. Manche Sgrisignier hielten sich sogar ihre eigene "Herde" dieser Art und beschützten sie vor
 natürlichen Fressfeinden. Durch die Sgrisignier und ihre Portale hat sich so der _homo primian_ auf fast allen
-bewohnbaren Planeten des Serpinit-Sonnensystems verbreitet, lange bevor diese Art selbst die Portale verstehen und zu
+bewohnbaren Planeten des Serpinit-Systems verbreitet, lange bevor diese Art selbst die Portale verstehen und zu
 ihrem Vorteil nutzen konnte. Die Sgrisignier auf Agranum fingen sogar an zu ihrer Belustigung auf magische Weise mit
 den _homo primian_ zu experimentieren. Sie erschufen z. B. kleine Runensteine, welche bei Berührung den Träger temporär
 in ein vordefiniertes Tier verwandelten. Als die Sgrisignier schließlich von Aerion vernichtet wurden, so richtete sich

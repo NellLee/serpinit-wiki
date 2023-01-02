@@ -49,7 +49,7 @@ eine auf zwei Dimensionen reduzierte Version der tatsächlichen Rune.
 
 Das Wissen um die Dreidimensionalität der magischen Runen erlangten nach den Sgrisigniern erstmals wieder die
 Conius-Lateralen, welche so den elementaren Zusammenhang zwischen diesen Runen und der Funktionsweise der Magie im
-Serpinit-Sonnensystem verstanden. Sie waren außerdem mit der Zeit in der Lage unzählige zweidimensionale "Querschnitte"
+Serpinit-System verstanden. Sie waren außerdem mit der Zeit in der Lage unzählige zweidimensionale "Querschnitte"
 von den Runenschatten zu analysieren.
 
 ## Mögliche Magieformen <span style="color: red;">(TODO)</span>
