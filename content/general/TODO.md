@@ -1,29 +1,26 @@
 Invasion der Drachenkinder erst nach der Ikusation
 
+Replace „Ovulär“ mit „Ovelär“
+
 
 <link rel="stylesheet" type="text/css" href="/md-wiki/style.css">
-<script src="/timeline/dist/js/main.js"></script>
+<script src="./timeline.js"></script>
+<div id=“testDiv“></div>
 
 - ### Zeit-Messung
 
-Die kleinste messbare und konstante Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura. Dieser wird Pulsene genannt und dauert exakt 1,8675 Erd-Sekunden.
-
-Je nach Zahlenbasis und Rechnungsart der Völker wurden aus der Pulsene verschiedene größere Zeiteinheiten abgeleitet, wie z.B. Die Duzete der Orcs (1 200 Pulsenen = ca. 37 Minuten) oder die Fossura der Dampfzwerge (10 300 Pulsenen = ca. 5,3 Stunden). Eine Etablierung der Pulsene als einheitliche Zeiteinheit
-
-Um die Geschichte des Serpinit-Systems einheitlicher aufzeichnen zu können wurde außerdem schon früh von einigen Forschern eine weitere universelle Zeiteinheit eingeführt, basierend auf einer gesamten Umdrehung des schwarzen Loches Mavorak. Dieser sogenannte Mavorak-Zyklus wurde ursprünglich auf 8 471 000 Pulsenen geschätzt, diese Angabe wurde jedoch später auf 8 470 984,295581 korrigiert. Damit entspricht ein Mavorak-Zyklus in etwa 52,5 Tagen der Erde. Des Weiteren wurden 1000 Zyklen zu einer Serpe zusammengefasst (14,3 Jahre).
-Für historische Zwecke wurde mit S = „Serpe“ & Z = „Zyklus“ das Format S|Z festgelegt.
+Die kleinste messbare und konstante Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura. Dieser wird Pulsene genannt und dauert exakt 1,8675 Erd-Sekunden. Die Pulsene konnte jedoch erst nach der Ikusation durchgesetzt werden. Die Zeiteinheit die stattdessen auf fast jedem Planeten genutzt wurde basiert auf einer Umdrehung des schwarzen Loches Mavorak. Ein Mavorak-Zyklus entspricht in etwa 52,5 Tagen der Erde. Des Weiteren wurden 1000 Zyklen zu einer Serpe zusammengefasst (14,3 Jahre).
 Diese Art der modernen Zeitaufzeichnung wird seither weitergeführt.
-
+Je nach Zahlenbasis und Rechnungsart der Völker wurden verschiedene Varianten des Mavorak Zyklus genutzt, wie z.B. Die Duzete der Orcs (12 Zyklen = ca. 1,7 Jahre) oder die Fossura der Dampfzwerge (103 Zyklen = ca. 14,8 Jahre). 
+Der Mavorak-Zyklus wurde ursprünglich von Conius-Lateralen auf 8 471 000 Pulsenen geschätzt, diese Angabe wurde in der Resrubor Akademie jedoch später auf 8 470 984,295581 korrigiert.
 
 - ### 2D Runen?
-So fanden sie heraus, dass bestimmte Querschnitte jeweils einen ganz bestimmten Aspekt eines Zaubers darstellten. Wird ein solcher zweidimensionale Querschnitt wie ein Schriftzeichen auf einer Oberfläche aufgebracht, so kann diese simple Rune wie eine Schablone für die Durchführung eines Zaubers fungieren.
 
-Es wird zwischen stumpfen, scharfen und aktiven Runen unterschieden. Stumpfe Runen sind z.B. aufgemalt oder eingeritzt und haben keinen eigenständigen magischen Effekt. Sie machen den Untergrund empfänglicher für die jeweilige Magie und können von einem Lebewesen mit den entsprechenden magischen Fähigkeiten aktiviert werden. Scharfe Runen können durch direkte magische Katalyse oder durch das aufladen einer stumpfen Rune erschaffen werden. Um sie zu aktivieren ist lediglich ein äußerer Energieeinfluss vonnöten. Scharfe Runen werden bei fehlender Auslösung mit der Zeit schwächer und stumpfen ab.
 
 
 - ### Funktionsweise moderne Magie Pre-Conius
 
-Alle Lebewesen der **Ovulären Planeten** im Serpinitsystem entwickelten nach dem Fall der Sgrisignier ein Sinnesorgan im Gehirn welches sie befähigt mithilfe der "magitiven Wahrnehmung" die magische Potenz in ihrer Umgebung zu erfühlen. Diese ist dabei für den Wahrnehmenden immer relativ zum Potenzpunkt eines jeweiligen Elementes. Die meisten dieser Lebewesen sind außerdem in der Lage die magische Potenz der Stoffe die lokal an ihrem Körper anliegen leicht zu beeinflussen.
+
 
 
 
