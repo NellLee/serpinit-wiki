@@ -1,3 +1,6 @@
+Magische Substanz durch Quasi-Sterne entstanden? 
+
+
 Invasion der Drachenkinder erst nach der Ikusation
 
 Replace „Ovulär“ mit „Ovelär“
