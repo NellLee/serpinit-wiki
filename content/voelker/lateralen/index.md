@@ -120,7 +120,7 @@ Sodili leben häufig auch Vertreter der anderen Völker.
 
 # Aussehen
 
-<img src="images/male_portrait_pre-and-post-magilution.png" style="zoom: 33%;" />
+<img src="images/maennlich_portrait_vor-und-nach-magilution.png" style="zoom: 33%;" />
 Typischer, moderner, männlicher Lateraler (rechts) und sein evolutionärer Vorgänger *homo primian fracti* (links)
 
 Laterale zeigen ihre Gefühle generell weniger offen als andere Völker. Die Mimik eines Sodili gibt selten Aufschluss

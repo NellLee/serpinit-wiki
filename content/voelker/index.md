@@ -6,9 +6,9 @@
 # Die modernen Völker
 - [Die Drachenkinder](drachenkinder.md)
 - [Die Elementare](elementare.md)
-- [Die Lateralen](lateralen.md)
+- [Die Lateralen](lateralen/index.md)
 - [Die Feen](feen.md)
 - [Die Fluctro](fluctro.md)
 - [Die Orcs](orcs.md)
 - [Die Spirits](spirits.md)
-- [Die Zwerge](zwerge.md)
+- [Die Zwerge](vapornans/index.md)
