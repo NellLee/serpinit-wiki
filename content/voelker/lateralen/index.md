@@ -2,7 +2,7 @@
 
 # Allgemein
 
-Die Lateralen entstanden nach dem Fall der [Sgrisignier](sgrisignier.md) über Jahrmillionen durch natürliche Evolution aus dem _homo primian_ auf dem Planeten [Agranum](../himmelskoerper/agranum.md). 
+Die Lateralen entstanden nach dem Fall der [Sgrisignier](sgrisignier.md) über Jahrmillionen durch natürliche Evolution aus dem _homo primian fract_ auf dem Planeten [Agranum](../himmelskoerper/agranum.md). 
 
 Die Psyche des _homo primian_ auf Agranum wurde jedoch schon früh **genetisch verstümmelt**, was einen starken Einfluss auf die Evolution
 sowie auf die Entwicklung der magischen Fähigkeiten der Lateralen hatte.
