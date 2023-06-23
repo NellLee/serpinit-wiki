@@ -1,7 +1,17 @@
+Die Orcs ernten riesige Baumperlen. 
+
 Magische Substanz durch Quasi-Sterne entstanden? 
 
+Es existieren zwar die tausenden magischen Portale verstreut über alle 9 Planeten, aber das hohe Vorkommen an Chaos-Portalen macht Portal-Reisen (bis zur Ikusation) unmöglich, da Lebwesen unkontrolliert zerrissen werden bei den Inferenzen eines Chaos-Portals. Als die Ikusation beginnt werden die erschlossenen Portale vor Chaos-Inferenzen geschützt. Dies ermöglichte erste sichere Kommunikationswege zwischen den Planeten. 
 
-Invasion der Drachenkinder erst nach der Ikusation
+Bei der Ikusation sterben jedoch häufig freiwillige Sodilis wenn die Umgebung des Ziels eines Portal gefährlich ist. Den Sodili der das erste Portal nach Mognar fand, ereilte beispielsweise ein schneller Tod durch Verbrennung. Die Drachenkinder die wiederum diesen Sodili fanden wurden neugierig und trauten sich durch das Portal, woraufhin sie mit Navura den ersten der anderen Planeten entdeckten und durch ihre feurige Art langsam begannen ihn zu zerstören. 
+
+Auch andere Portale auf Mognar die mit der Zeit erschlossen wurden, nutzten die Drachenkinder als Möglichkeit der Invasion. Doch während sie auf Navura nach einiger Zeit einen aktiven Angriffskrieg gegen die Orcs führten, errichteten sie um die anderen Portale vorerst nur Stützpunkte. 
+
+Schließlich formulierten die Orcs einen der größten Naturzauber in der Geschichte, womit sie die angreifenden Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magie gegen ALLE Drachenkinder?] 
+
+
+
 
 Replace „Ovulär“ mit „Ovelär“
 
