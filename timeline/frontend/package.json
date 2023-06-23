@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "chart.js": "^4.3.0",
+    "ts-json-schema-generator": "^1.2.0",
     "vue": "^3.2.47",
-    "xml2js": "^0.6.0"
+    "vue-chartjs": "^5.2.0"
   },
   "devDependencies": {
+    "@types/node": "^20.3.1",
     "@vitejs/plugin-vue": "^4.1.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
