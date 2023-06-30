@@ -1,1 +1,0 @@
-document.querySelector("#testDiv").html = test;
