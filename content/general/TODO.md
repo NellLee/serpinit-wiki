@@ -1,35 +1,38 @@
 Creapatos hat zuerst ein nicht-magisches Planetensystem erschaffen, welches dem unseren nicht unähnlich war.
-Es durchlief die typischen Phasen der Evolution auf einem Erd-ähnlichen Planeten, mit periodischen Ereignissen wie Meteor-Einschlägen die Massenaussterben nach sich zogen.
+Es durchlief die typischen Phasen der Evolution auf einem Erd-ähnlichen Planeten, mit periodischen Ereignissen wie
+Meteor-Einschlägen die Massenaussterben nach sich zogen.
 Erst als Creapatos anfing sich des Anblicks seiner simplen ersten Welt zu langweilen, erschuf er das Serpinit-System.
+
+Mavorak und Ikus würden prinzipiell keine habitable Zone zulassen. Creapatos hat das Zentrum des Serpinit-Systems jedoch
+mit einer starken Magie-Blase umgeben, welche die tödliche Strahlung abfängt und in einer unnatürlich breiten habitablen
+Zone resultierte, um genügend Spielraum für seine Kreaturen zu schaffen.
 
 Die Orcs ernten riesige Baumperlen.
 
 Magische Substanz durch Quasi-Sterne entstanden?
 
 Es existieren zwar die tausenden magischen Portale verstreut über alle 9 Planeten, aber das hohe Vorkommen an
-Chaos-Portalen macht Portal-Reisen (bis zur Ikusation) unmöglich, da Lebwesen unkontrolliert zerrissen werden bei den
+Chaos-Portalen macht Portal-Reisen (bis zur Ikusation) unmöglich, da Lebewesen unkontrolliert zerrissen werden bei den
 Inferenzen eines Chaos-Portals. Als die Ikusation beginnt werden die erschlossenen Portale vor Chaos-Inferenzen
 geschützt. Dies ermöglichte erste sichere Kommunikationswege zwischen den Planeten.
 
-Bei der Ikusation wird eine spezielle Abfolge vom Tests genutzt um die Habitabilität des erreichten Portals einzuordnen.
-Für die Ikusation wurden akribisch regelmäßige Berichterstattungsketten geplant, um interplanetare Kommunikationswege zu
-etablieren. Jeder dieser Tests der ein Portal nach Mognar betraf, ergab aus Sicht der Sodili eine klare Imhabilität. Die
+Bei der Ikusation wird eine spezielle Abfolge vom Tests genutzt, um die Habitabilität des erreichten Portals
+einzuordnen.
+Für die Ikusation wurden akribisch regelmäßige Berichterstattungsketten geplant, um stabile interplanetare
+Kommunikationswege zu
+etablieren. Jeder dieser Tests, der ein Portal nach Mognar betraf, ergab aus Sicht der Sodili eine klare
+Unbewohnbarkeit. Die
 ersten Drachenkinder die auf Mognar wiederum die Ergebnisse dieser Tests fanden wurden neugierig und trauten sich
 schließlich durch eines dieser Portale und fanden damit den Planeten Navura. Für das feurige Volk der Drachenkinder war
-Navura ein Schlaraffenland mit leicht zu fangender Beute und voller Wälder die leicht brennen. Dadurch fingen sie quasi
+Navura ein Schlaraffenland mit leicht zu fangender Beute und voller Wälder die leicht brennen. Dadurch fingen sie fast
 augenblicklich einen verbitterten Krieg mit den Orcs an.
 
-Auch andere Portale auf Mognar die mit der Zeit erschlossen wurden, nutzten die Drachenkinder zur Möglichkeit der
-Invasion. Doch während sie auf Navuraeinen aktiven Krieg gegen die Orcs führten, errichteten sie um die anderen Portale
+Auch andere Portale auf Mognar, die mit der Zeit erschlossen wurden, nutzten die Drachenkinder zur Möglichkeit der
+Invasion. Doch während sie auf Navura einen aktiven Krieg gegen die Orcs führten, errichteten sie um die anderen Portale
 vorerst nur Stützpunkte.
 
 Schließlich formulierten die Orcs einen der größten Naturzauber in der Geschichte, womit sie die angreifenden
 Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magie gegen ALLE Drachenkinder?]
-
-
-<link rel="stylesheet" type="text/css" href="/md-wiki/style.css">
-<script src="./timeline.js"></script>
-<div id=“testDiv“></div>
 
 - ### Zeit-Messung
 
@@ -70,15 +73,15 @@ Hybride (vgl. Liger, Maultier, etc.).
 - ### Orc macht sich zum Artefakt
 
 Latericas - eine geheime "Insel" von Navura, wo ein Orc mit Runen auf Lebewesen experimentiert. Er wurde verbannt, da er
-seinen Stamm hereingelegt hat um sich selbst in ein Artefakt zu verwandeln. Daher sieht er aus wie Groot. Im umliegenden
-Gebiet leben teilweise von ihm erschaffene Monster die er als harmlos ansieht (Hagrid style).
+seinen Stamm hereingelegt hat, um sich selbst in ein Artefakt zu verwandeln. Daher sieht er aus wie Groot. Im umliegenden
+Gebiet leben teilweise von ihm erschaffene Monster, die er als harmlos ansieht (Hagrid style).
 
 - ### Ikusations <-> Navura Plot
 
-Auserwählte Drachen Sodili, mit Hybridform die einem Drachenkind gleicht. Sie legt den Krieg ziwschen den Drachenkindern
-und den anderen Völkern bei indem sie neue Königin der Drachenkinder wird.
+Auserwählte Drachen Sodili, mit Hybridform die einem Drachenkind gleicht. Sie legt den Krieg zwischen den Drachenkindern
+und den anderen Völkern bei, indem sie neue Königin der Drachenkinder wird.
 
-Viele Drachenkinder wenden sich ab und akzeptieren die Sodili nicht als Anführerin nachdem ihre wahre Identität ans
+Viele Drachenkinder wenden sich ab und akzeptieren die Sodili nicht als Anführerin, nachdem ihre wahre Identität ans
 Licht kommt. Die Abtrünnigen starten neue Angriffe auf die Orcs auf Navura, doch diese wirken einen starken Bannfluch
 und rauben so allen angreifenden Drachenkindern ihre Magie.
 
@@ -86,13 +89,13 @@ und rauben so allen angreifenden Drachenkindern ihre Magie.
 
 ### Artefakte:
 
-- Lumpenkugel mit Kohlekern (Rune auf Kohlekern: brennt, wenn an der Luft => explodiert bei aufprall)
+- Lumpenkugel mit Kohlekern (Rune auf Kohlekern: brennt, wenn an der Luft, explodiert bei Aufprall)
 - Handschuh dessen Stoff bei hautkontakt stahlhart wird. (inlets sorgen dafür, dass die Hand selbst nicht zur Härtung
   führt)
 
 ### Flora:
 
-- Gras-Aquivalent
+- Gras-Äquivalent
 - Gewebepflanze (Pflaster das schnell verwächst)
 
  
