@@ -1,12 +1,14 @@
 Die Orcs ernten riesige Baumperlen. 
 
+
 Magische Substanz durch Quasi-Sterne entstanden? 
+
 
 Es existieren zwar die tausenden magischen Portale verstreut über alle 9 Planeten, aber das hohe Vorkommen an Chaos-Portalen macht Portal-Reisen (bis zur Ikusation) unmöglich, da Lebwesen unkontrolliert zerrissen werden bei den Inferenzen eines Chaos-Portals. Als die Ikusation beginnt werden die erschlossenen Portale vor Chaos-Inferenzen geschützt. Dies ermöglichte erste sichere Kommunikationswege zwischen den Planeten. 
 
-Bei der Ikusation sterben jedoch häufig freiwillige Sodilis wenn die Umgebung des Ziels eines Portal gefährlich ist. Den Sodili der das erste Portal nach Mognar fand, ereilte beispielsweise ein schneller Tod durch Verbrennung. Die Drachenkinder die wiederum diesen Sodili fanden wurden neugierig und trauten sich durch das Portal, woraufhin sie mit Navura den ersten der anderen Planeten entdeckten und durch ihre feurige Art langsam begannen ihn zu zerstören. 
+Bei der Ikusation wird eine spezielle Abfolge vom Tests genutzt um die Habitabilität des erreichten Portals einzuordnen. Für die Ikusation wurden akribisch regelmäßige Berichterstattungsketten geplant, um interplanetare Kommunikationswege zu etablieren. Jeder dieser Tests der ein Portal nach Mognar betraf, ergab aus Sicht der Sodili eine klare Imhabilität. Die ersten Drachenkinder die  auf Mognar wiederum die Ergebnisse dieser Tests fanden wurden neugierig und trauten sich schließlich durch eines dieser Portale und fanden damit den Planeten Navura. Für das feurige Volk der Drachenkinder war Navura ein Schlaraffenland mit leicht zu fangender Beute und voller Wälder die leicht brennen. Dadurch fingen sie quasi augenblicklich einen verbitterten Krieg mit den Orcs an. 
 
-Auch andere Portale auf Mognar die mit der Zeit erschlossen wurden, nutzten die Drachenkinder als Möglichkeit der Invasion. Doch während sie auf Navura nach einiger Zeit einen aktiven Angriffskrieg gegen die Orcs führten, errichteten sie um die anderen Portale vorerst nur Stützpunkte. 
+Auch andere Portale auf Mognar die mit der Zeit erschlossen wurden, nutzten die Drachenkinder zur Möglichkeit der Invasion. Doch während sie auf Navuraeinen aktiven Krieg gegen die Orcs führten, errichteten sie um die anderen Portale vorerst nur Stützpunkte. 
 
 Schließlich formulierten die Orcs einen der größten Naturzauber in der Geschichte, womit sie die angreifenden Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magie gegen ALLE Drachenkinder?] 
 
@@ -22,7 +24,9 @@ Replace „Ovulär“ mit „Ovelär“
 
 - ### Zeit-Messung
 
-Die kleinste messbare und konstante Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura. Dieser wird Pulsene genannt und dauert exakt 1,8675 Erd-Sekunden. Die Pulsene konnte jedoch erst nach der Ikusation durchgesetzt werden. Die Zeiteinheit die stattdessen auf fast jedem Planeten genutzt wurde basiert auf einer Umdrehung des schwarzen Loches Mavorak. Ein Mavorak-Zyklus entspricht in etwa 52,5 Tagen der Erde. Des Weiteren wurden 1024 Zyklen zu einer Serpe zusammengefasst (~15 Jahre).
+Die kleinste messbare und konstante Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura. Dieser wird Pulsene genannt und dauert exakt 1,8675 Erd-Sekunden. Die Pulsene konnte jedoch erst nach der Ikusation durchgesetzt werden. 
+
+Die Zeiteinheit die initial auf fast jedem Planeten genutzt wurde basiert auf einer Umdrehung des schwarzen Loches Mavorak. Ein Mavorak-Zyklus entspricht in etwa 52,5 Tagen der Erde. Des Weiteren wurden 1024 Zyklen zu einer Serpe zusammengefasst (~15 Jahre).
 
 Diese Art der modernen Zeitaufzeichnung wird seither weitergeführt.
 Je nach Zahlenbasis und Rechnungsart der Völker wurden verschiedene Varianten des Mavorak Zyklus genutzt, wie z.B. Die Duzete der Orcs (12 Zyklen = ca. 1,7 Jahre) oder die Fossura der Dampfzwerge (103 Zyklen = ca. 14,8 Jahre). 
