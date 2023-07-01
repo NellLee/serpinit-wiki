@@ -40,9 +40,9 @@ zeitgesteuerte Effekte aufweist, u.v.m.
 <img src="D:\My_Files\Programming\serpinit-wiki\content\general\magie\images\sgrisignier-rune-erstellung.png" style="zoom: 33%;" />
 Sgrisignier Rune in einem Runenstein bevor (links) und nachdem (rechts) die Kraft des magischen Substanz-Kerns programmiert wurde
 
-### Ovuläre Magie
+### Oveläre Magie
 
-Alle Lebewesen der **Ovulären Planeten** entwickelten im Verlauf der magisch beeinflussten Evolution nach dem Fall der Sgrisignier ein Sinnesorgan im Gehirn, welches sie befähigt die magische Potenz in ihrer Umgebung zu erfühlen. Diese „magitive Wahrnehmung“ ist dabei für den Wahrnehmenden immer relativ zum Potenzpunkt eines jeweiligen Elementes. Die meisten dieser Lebewesen sind außerdem in der Lage die magische Potenz der Stoffe die lokal an ihrem Körper anliegen mehr oder minder stark zu beeinflussen.
+Alle Lebewesen der **Ovelären Planeten** entwickelten im Verlauf der magisch beeinflussten Evolution nach dem Fall der Sgrisignier ein Sinnesorgan im Gehirn, welches sie befähigt die magische Potenz in ihrer Umgebung zu erfühlen. Diese „magitive Wahrnehmung“ ist dabei für den Wahrnehmenden immer relativ zum Potenzpunkt eines jeweiligen Elementes. Die meisten dieser Lebewesen sind außerdem in der Lage die magische Potenz der Stoffe die lokal an ihrem Körper anliegen mehr oder minder stark zu beeinflussen.
 
 Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war jedoch für die modernen Völker lange Zeit unbekannt. Einige Völker entdeckten lediglich die Runenschatten auf einigen der antiken Strukturen der Sgrisignier, doch konnten sie nur wenig mit diesen für sie kryptischen Schriftzeichen anfangen.
 Die Conius-Lateralen widmeten sich als erstes Volk der Funktionsweise der Runen, indem sie die Steine der Sgrisignier-Portale analysierten.
@@ -57,7 +57,7 @@ Es wird zwischen stumpfen, scharfen und aktiven Runen unterschieden. Stumpfe Run
 
 ### Elementar
 
-Zusammenhang mit den ovulären Planeten
+Zusammenhang mit den Ovelären Planeten
 
 ### Radiativ
 

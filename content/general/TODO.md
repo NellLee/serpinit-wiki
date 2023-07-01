@@ -26,8 +26,6 @@ vorerst nur Stützpunkte.
 Schließlich formulierten die Orcs einen der größten Naturzauber in der Geschichte, womit sie die angreifenden
 Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magie gegen ALLE Drachenkinder?]
 
-Replace „Ovulär“ mit „Ovelär“
-
 
 <link rel="stylesheet" type="text/css" href="/md-wiki/style.css">
 <script src="./timeline.js"></script>

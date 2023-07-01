@@ -15,4 +15,4 @@
 - [Navura](navura.md)<span style="color: red;">*</span>, der Herzplanet
 - [Venoxi](venoxi.md), der Giftriese
 
-<span style="color: red;">*</span> = ovuläre Planeten. Die vier Planeten die seit Creapatos Teilung ein Drachenei aus magischer Substanz in sich tragen.  
+<span style="color: red;">*</span> = Oveläre Planeten. Die vier Planeten die seit Creapatos Teilung ein Drachenei aus magischer Substanz in sich tragen.  

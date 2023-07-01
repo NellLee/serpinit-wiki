@@ -16,7 +16,7 @@ Diese "normale" Intelligenz erinnerte Creapatos in ihren Grundzügen an seine ei
 Schließlich schuf er trotz dessen das Volk der Sgrisignier. Er stattete sie mit dem maximalen Maß an magischer Intelligenz aus, die ein sterbliches Lebewesen zu besitzen in der Lage war.
 Damit gab Creapatos ihnen eine äußerst abgeschwächte Form seiner eigenen Fähigkeit die Magie in der Welt zu lenken.
 
-### Die ovulären Planeten & die Elementdrachen
+### Die Ovelären Planeten & die Elementdrachen
 
 Nachdem Creapatos die Sgrisignier erschaffen hatte, beschloss er sich zur Ruhe zu setzen und seine Welt von nun nicht mehr aktiv zu beeinflussen.
 Daher spaltete er sein magisches Wesen in 4 göttliche Teile. Jedes Teil band sich an einen der folgenden Himmelskörper des Planetensystems:
@@ -26,7 +26,7 @@ Daher spaltete er sein magisches Wesen in 4 göttliche Teile. Jedes Teil band si
 - [Mognar](../himmelskoerper/mognar.md)
 - [Navura](../himmelskoerper/navura.md)
 
-Diese 4 Planeten nahmen die Kraft Creapatos' in ihren Kern auf und wurden zu den vier **ovulären** Himmelskörpern. Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und zum anderen einen Persönlichkeitsaspekt des ursprünglichen Drachengottes.
+Diese 4 Planeten nahmen die Kraft Creapatos' in ihren Kern auf und wurden zu den vier **Ovelären** Himmelskörpern. Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und zum anderen einen Persönlichkeitsaspekt des ursprünglichen Drachengottes.
 Dabei kann man sich jeden dieser 4 Planetenkerne als ein riesiges Drachenei bestehend aus göttlicher magischer Substanz vorstellen. Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
 
 - Luft: **Aerion**, das Vertrauen (Agranum)
@@ -38,7 +38,7 @@ Seit jeher fürchten die modernen Völker, dass die göttlichen Elementardrachen
 sich unvorhergesehene Folgen für das gesamte Serpinit-System manifestieren. Doch schon der magische Einfluss der Eier
 innerhalb ihres jeweiligen Planeten veränderte diese mit den Jahrtausenden grundlegend.
 Da die Sgrisignier auf Agranum jedoch nach Creapatos Spaltung eine riesige Rune anbrachten, um den Kern aus göttlicher
-magischer Substanz zu bannen, waren auf Agranum deutlich schneller Veränderungen zu spüren als auf den anderen ovulären
+magischer Substanz zu bannen, waren auf Agranum deutlich schneller Veränderungen zu spüren als auf den anderen Ovelären
 Planeten. (siehe [Agranum](../himmelskoerper/agranum.md))
 
 ### Evolution
@@ -59,7 +59,7 @@ seine Magie jedoch daher auch gegen die _homo primian_ von Agranum. Zwar wurden 
 Einfluss von Aerions Magie war groß genug um bleibende psychische Schäden bei allen Vertretern dieser Art auf Agranum zu
 verursachen.
 Der _homo primian_ hat sich nach dem fall der Sgrisignier über Jahrtausende auf den jeweiligen Planeten zu den modernen
-Arten entwickelt. Dabei wurde die natürliche Evolution auf den ovulären Planeten extrem von der jeweiligen Kernmagie
+Arten entwickelt. Dabei wurde die natürliche Evolution auf den Ovelären Planeten extrem von der jeweiligen Kernmagie
 beeinflusst, sodass die meisten Wesen dieser Planeten später ein gewisses Maß an intuitiver Magie in sich trugen.
 Die Fluctro sind das einzige intelligente Volk welches nicht vom _homo primian_ abstammt. Sie haben sich auf dem
 Wasserplaneten Luqua unter Einfluss des Elementardrachens Fluero aus einer Oktopusart entwickelt.
