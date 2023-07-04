@@ -1,7 +1,4 @@
-Creapatos hat zuerst ein nicht-magisches Planetensystem erschaffen, welches dem unseren nicht unähnlich war.
-Es durchlief die typischen Phasen der Evolution auf einem Erd-ähnlichen Planeten, mit periodischen Ereignissen wie
-Meteor-Einschlägen die Massenaussterben nach sich zogen.
-Erst als Creapatos anfing sich des Anblicks seiner simplen ersten Welt zu langweilen, erschuf er das Serpinit-System.
+
 
 Mavorak und Ikus würden prinzipiell keine habitable Zone zulassen. Creapatos hat das Zentrum des Serpinit-Systems jedoch
 mit einer starken Magie-Blase umgeben, welche die tödliche Strahlung abfängt und in einer unnatürlich breiten habitablen

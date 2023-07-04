@@ -6,7 +6,7 @@ Mit dem Universum entstanden beim Urknall ca. 50 konzentrierte Vorkommen der [Ma
 Die Götter konnten nicht nur die physische Welt formen, sondern auch ihre Naturgesetze und die Funktionsweise der Magie selbst beeinflussen. So konnten sie ganz eigene Welten schaffen. Die meisten Gottheiten respektierten sich gegenseitig und sahen keinen Grund in die Galaxien und Planetensysteme der anderen einzudringen.
 
 ## Creapatos
-In einer Galaxis entwickelte sich die konzentrierte magische Substanz zu der Gottheit Creapatos. Ein Wesen, welches gerne die Gestalt eines Drachen annahm und welches im Laufe der Zeit das Serpinit-System formte.
+In einer Galaxis entwickelte sich die konzentrierte magische Substanz zu einer namenlosen Gottheit, welche später die Bezeichnung Creapatos von ihren Völkern erhält. Die Gottheit nimmt gerne die Gestalt eines Drachen an und formt im Laufe der Zeit unter Anderem auch das Serpinit-System.
 
 ### Das Serpinit-Planetensystem
 Die Naturgesetze des Serpinit-Systems entsprechen im groben, denen des Universums welches wir kennen.
