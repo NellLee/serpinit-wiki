@@ -1,9 +1,24 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import {onMounted, ref} from 'vue'
+import {parseTimeline} from "../scripts/timeline-parser.ts";
 
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+const xml = ref<string | null>(null)
+
+onMounted(() => {
+  fetch("http://localhost:5173/timeline.xml").then(result =>
+    result.text()
+  ).then(result => {
+    // console.log(result)
+
+    xml.value = result;
+    parseTimeline(xml.value!)
+  })
+})
+
+
 </script>
 
 <template>

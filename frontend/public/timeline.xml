@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+  <version>2.8.0 (a5d1a524551b 2023-01-01)</version>
+  <timetype>dectime</timetype>
+  <categories>
+    <category>
+      <name>Planetar</name>
+      <color>27,27,27</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>255,255,255</font_color>
+    </category>
+    <category>
+      <name>Agranum</name>
+      <color>202,132,2</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Aridess</name>
+      <color>255,241,185</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Collot &amp; Linunar</name>
+      <color>104,117,151</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Luqua</name>
+      <color>0,128,192</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Mognar</name>
+      <color>128,0,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>255,255,255</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Navura</name>
+      <color>73,128,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Venoxi</name>
+      <color>128,255,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Ikus</name>
+      <color>206,183,255</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Mavorak</name>
+      <color>0,10,40</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>255,255,255</font_color>
+      <parent>Planetar</parent>
+    </category>
+    <category>
+      <name>Universal</name>
+      <color>136,136,136</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Interplanetar</name>
+      <color>63,63,63</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>255,255,255</font_color>
+    </category>
+    <category>
+      <name>Ikusation</name>
+      <color>255,128,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+      <parent>Interplanetar</parent>
+    </category>
+  </categories>
+  <events>
+    <event>
+      <start>-12.230136219371174</start>
+      <end>1.5577254667248868</end>
+      <text>[14]Krieg um Navura</text>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Navura</category>
+    </event>
+    <event>
+      <start>1.5577254667248868</start>
+      <end>1.5577254667248868</end>
+      <text>(14)Das Volk der Drachenkinder teilt sich</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Interplanetar</category>
+      <description>Da die Lage für die Drachenkinder immer verzweifelter wird, versucht die neue Königin der Drachenkinder einen Friedensvertrag mit den Orcs auszuhandeln. 
+[WER BEHÄLT SEINE MAGIE???]</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>0.0</start>
+      <end>0.0</end>
+      <text>Beginn der Ikusation</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Ikusation</category>
+      <description>Die Resrubor-Lateralen haben die Funktionsweise der Sgrisignier-Portale erfolgreich analysiert
+              und ermöglichen eine gefahrlose Nutzung dieser. Sie starten außerdem gemeinsam mit ihren Artgenossen, den
+              Sodili, eine Initiative um sämtliche bewohnten Planeten des Sonnensystems zu vernetzen und einen Austausch
+              von Kultur, Gütern und Wissen zu ermöglichen. Dabei etablieren sie das Jahr 0 und eine neue Zeitrechnung
+              basierend auf dem Herzschlag des Planeten Navura.
+          </description>
+      <labels>Agranum</labels>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-12.577508819600794</start>
+      <end>-12.577508819600794</end>
+      <text>Die Drachenkinder entstehen</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Mognar</category>
+      <description>Aus den Körpern verbannter und verbrannter Orcs auf Mognar erschafft der Neiderfüllte Ignatius ein neues Volk nach seinem Abbild. Das entstandene Volk der Drachenkinder kann dank seiner Magie selbst die unwirtlichen Bedingungen des Lavaplaneten aushalten. Doch die Drachenkinder treibt die Wut auf die Orcs, sowohl aus Neid auf ihren fruchtbaren Planeten, als auch aus Rachsucht, für ihre ursprüngliche Verbannung</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-349705.70080763614</start>
+      <end>-16.0</end>
+      <text>Magisch beeinflusste Evolution der modernen Völker</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Interplanetar</category>
+      <description>Die modernen Völker haben sich durch natürliche Evolution aus der Affenart "homo primian" entwickelt. Bei einigen Völkern wurde dieser Prozess durch die Magie des jeweiligen Planeten beeinflusst.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-12.230136219371174</start>
+      <end>-12.230136219371174</end>
+      <text>(14)Erster Angriff der Drachenkinder auf die Orcs</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Navura</category>
+      <description>Die Drachenkinder greifen schon bald die Orcs auf ihrem Heimatplaneten an. Sie siegten ohne Anstrengung dank des Überaschungsmomentes und nehmen das Land rund um das Sgrisignier-Portal ein durch welches sie verbannt wurden.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-349704.0</start>
+      <end>-349704.0</end>
+      <text>Detonation der Agranum-Rune</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>Die Sgrisigner aktivieren die gigantische Rune welche sie im Geheimen im Planeten Agranum angebracht haben. Statt den Drachengott Creapatos zu vernichten, bannt die Rune ihn jedoch nur, unfähig seine Kräfte zu manifestieren.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-372606.0</start>
+      <end>-372606.0</end>
+      <text>Creapatos' Vier-Teilung</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Interplanetar</category>
+      <description>Der Drachengott Creapatos setzt sich zur Ruhe und teilt sich dafür in die 4 Elementdrachen</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-372606.0</start>
+      <end>-349704.0</end>
+      <text>Ära der Sgrisignier</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Interplanetar</category>
+      <description>Die Sgrisingier sind die mächtigste Spezies des Serpinit-Sonnensystems. Sie erkunden die Planeten nach belieben und erleben einen stetigen magischen Fortschritt. Ihre Mächte gleichen denen von Halbgöttern wenn man sie mit den späteren Völkern vergleicht.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-21000000.0</start>
+      <end>-372707.0</end>
+      <text>Evolution unter Creapatos" Aufsicht</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Interplanetar</category>
+      <description>Nachdem Creapatos die ersten Lebewesen in seinem Sonnensystem geschaffen hatte, lässt er der natürlich Evolution ihre Zeit. Nachdem er passende Startbedingungen hergestellt hatte, war es nur eine Frage der Zeit bis die natürliche Evolution unzählige Tiere und Pflanzen entwicklen würde. Hin und wieder greift er nach Belieben ein, um besonders intressante Wesen zu erschaffen oder Prozesse zu korrigieren.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-21006404.0</start>
+      <end>-21006404.0</end>
+      <text>Creapatos erschaft das Serpinit-Sonnensystem</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Interplanetar</category>
+      <description>Der Drachengott Creapatos formt ein eigenes Sonnensystem und definiert magische Gesetze.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-1018934342.0</start>
+      <end>-21129957.0</end>
+      <text>Entstehung der Gottheiten</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Universal</category>
+      <description>Aus den konzentrierten Vorkommen der magischen Substanz entwickeln sich unzählige Gottheiten im Universum. Parallel zu diesem langwieriegen Prozess entstehen auch die meisten Galaxien u.ä. Die Götter sind letztendlich in der Lage die Galaxien zu manipulieren, neue Objekte im Universum zu erschaffen, Leben zu kreieren und Geltungszonen für eigene Gesetze der Magie zu definieren.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-1045611458.0</start>
+      <end>-1045611458.0</end>
+      <text>Urknall</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Universal</category>
+      <description>Das Universum entsteht. Mit dem Urknall werden unzählige, stark konzentrierte Vorkommen von magischer Substanz im Unviserum verteilt.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>0.19642655464612768</start>
+      <end>1.5430230896416435</end>
+      <text>(14)Polarisierung der Drachenkinder</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Navura</category>
+      <description>Die jüngeren Generationen der Drachenkinder können den Hass auf die Orcs nicht nachvollziehen und möchten, dass der Krieg um Navura endet. Mit der Zeit werden die Streitigkeiten innerhalb des Volkes der Drachenkinder immer hitziger und es kommt zu Verlusten hinter den eigenen Reihen. Diese interne Schwächung führt dazu, dass die Drachenkinder immer größere Niederlagen vermerken müssen, was die Polarisierung noch verstärkt</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-1.699240658925089</start>
+      <end>-1.699240658925089</end>
+      <text>Gründung der Resrubor-Akademie</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>Die Conius-Lateralen spalten sich aufgrund ihrer unterschiedlichen Sichtweisen von den Sodili ab
+            und gründen die Resrubor-Akademie. Hier werden junge Vertreter ihres Volkes von Ihrer Identitätsstörung
+            geheilt um weiterführend die Theorie der Magie zu studieren.
+        </description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>0.07053290728198958</start>
+      <end>0.07053290728198958</end>
+      <text>(14)Drachen-Sodili Elikta landet auf Navura</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Ikusation</category>
+      <description>Die Drachen-Sodili-Elfin Elikta meldet sich freiwillig bei der Ikusations-Kampagne der
+              Conius-Lateralen. Das gezähmte Chaos-Portal der Conius-Lateralen bringt sie auf den Planeten Navura.
+              Elikta entdeckt nach und nach die Gechichte der Drachenkinder und möchte dem Volk hLateralen.
+          </description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-0.6943464122282921</start>
+      <end>-0.6943464122282921</end>
+      <text>Erster Erfolg beim Reisen durch ein Chaos-Portal</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>Die Conius-Lateralen haben die Rune eines Chaos-Portals zum ersten Mal erfolgreich manipuliert.
+            Dabei konnten sie die Dauer einer Chaos-Verbindung stark erhöhen und haben so erfolgreich einen Lateralen
+            durch das gesamte Teleportations-Dreieck schicken können bevor die Verbindung wieder wechselte.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>0.19642655464612768</start>
+      <end>0.19642655464612768</end>
+      <text>(14)Elikta wird neue Königin der Drachenkinder</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Navura</category>
+      <description>Die neue Königin findet Anklang bei den jüngeren Drachenkindern, da diese hoffen, dass so endlich die Streitigkeiten mit den anderen Rassen beigelegt werden können. Viele konservative Drachenkinder respektieren die neue Königin jedoch nicht und rebellieren.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-349703.999</start>
+      <end>-349703.999</end>
+      <text>Psychische Verstümmelung der Lateralen</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>Die Sgrisignier hatten bei ihren magischen Experimenten mit den Lateralen Spuren hinterlassen. Als die Agranum-Rune detonierte und der Elementdrache Aerion den Sferin-Stoß als Antwort entsendete, vernichtete er auch einen Teil des Verstandes der Lateralen. Er löschte die Nutzung der Tjomanten einfach aus ihren Gehirnen, und zwar auf einer genetischen Ebene. Die Folge war jedoch, dass neugeborene Lateralen eine genetisch bedingte dissoziative Identitätsstörung entwickelten. Jedem geborenen Lateralen wurde auf intuitive magische Art und Weise ein Teil ihres Verstandes genommen, die sie jedoch nie besaßen. Meist äußerte sich diese Störung in nur einer einzigen weiteren Persönlichkeit, häufig in Tiergestalt.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+  </events>
+  <view>
+    <displayed_period>
+      <start>-576500.9173501121</start>
+      <end>633646.6797006959</end>
+    </displayed_period>
+    <hidden_categories>
+    </hidden_categories>
+  </view>
+</timeline>

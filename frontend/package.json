@@ -9,9 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "browserify-zlib": "^0.2.0",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "vue": "^3.2.47",
+    "xml2js": "^0.6.0"
   },
   "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@types/xml2js": "^0.4.11",
     "@vitejs/plugin-vue": "^4.1.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
