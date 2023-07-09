@@ -1,53 +1,34 @@
-<script setup lang="ts">
-import {onMounted, ref} from 'vue'
-import {parseTimeline} from "../scripts/timeline-parser.ts";
-
-defineProps<{ msg: string }>()
-
-const count = ref(0)
-const xml = ref<string | null>(null)
-
-onMounted(() => {
-  fetch("http://localhost:5173/timeline.xml").then(result =>
-    result.text()
-  ).then(result => {
-    // console.log(result)
-
-    xml.value = result;
-    parseTimeline(xml.value!)
-  })
-})
-
-
-</script>
-
 <template>
-  <h1>{{ msg }}</h1>
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
-  </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
-</template>
-
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
+    <div>
+      <p>{{ message }}</p>
+      <button @click="incrementCounter">Increment Counter</button>
+    </div>
+  </template>
+  
+  <script setup lang="ts">
+  import { ref, onMounted, computed, Ref } from 'vue';
+  
+  // Props
+  const props = defineProps({
+    helloText: {
+      type: String,
+      default: 'Hello World',
+    },
+  });
+  
+  // Variables
+  const counter: Ref<number> = ref(0);
+  const message: Ref<string> = computed(() => `${props.helloText}! Counter: ${counter.value}`);
+  
+  // Functions
+  function incrementCounter(): void {
+    counter.value++;
+  }
+  
+  // Hooks
+  onMounted((): void => {
+    // Perform some actions when the component is mounted
+  });
+  
+  </script>
+  
