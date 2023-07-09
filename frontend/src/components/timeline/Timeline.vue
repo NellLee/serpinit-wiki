@@ -17,7 +17,7 @@ const eventHeight = ref(40);
 </script>
 
 <template>
-  <Grid :layerSize="layerSize" :stageWidth="stageWidth" :stageHeight="stageHeight" :stepSize="stepSize">
+  <Grid :layerSize="layerSize" :initialStageWidth="stageWidth" :initialStageHeight="stageHeight" :stepSize="stepSize">
     <XmlVisualizer :originX="originX" :originY="originY" :availableHeight="stageHeight" :availableWidth="stageWidth" :eventHeight="eventHeight"/>
   </Grid>
 </template>

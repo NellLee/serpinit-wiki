@@ -1,5 +1,5 @@
 <template>
-  <v-stage :config="stageConfig" :width="stageWidth" :height="stageHeight">
+  <v-stage ref="konva" @wheel="zoom" :config="stageConfig" :width="initialStageWidth" :height="initialStageHeight">
     <v-layer :config="layerConfig">
       <v-rect
         :config="{ x: 0, y: 0, width: props.layerSize, height: props.layerSize, fill: 'white' }"
@@ -26,6 +26,7 @@
 import { ref } from 'vue';
 
 // import { Stage, Layer, Line, Rect } from 'vue-konva';
+// import Konva from 'konva';
 
 // Props
 const props = defineProps({
@@ -33,11 +34,11 @@ const props = defineProps({
     type: Number,
     default: 30000,
   },
-  stageWidth: {
+  initialStageWidth: {
     type: Number,
     default: 1200,
   },
-  stageHeight: {
+  initialStageHeight: {
     type: Number,
     default: 600,
   },
@@ -48,14 +49,15 @@ const props = defineProps({
 });
 
 const middle = ref<number>(props.layerSize / 2);
-
+const konva = ref<any | null>(null)
+// const stageWidth = ref<number>(props.initialStageWidth);
+// const stageHeight = ref<number>(props.initialStageHeight);
 
 // Stage configuration
 const stageConfig = {
   draggable: true,
-  scalable: true,
-  offsetX: middle.value - (props.stageWidth / 2),
-  offsetY: middle.value - (props.stageHeight / 2)
+  offsetX: middle.value - (props.initialStageWidth / 2),
+  offsetY: middle.value - (props.initialStageHeight / 2)
 };
 
 // Layer configuration
@@ -68,6 +70,39 @@ const layerConfig = {
 const gridLinesX = Array.from({ length: Math.ceil(props.layerSize / props.stepSize) }, (_, index) =>
   index * props.stepSize
 );
+
+function zoom(e: {evt: WheelEvent}) {
+  var scaleBy = 1.1;
+
+  // stop default scrolling
+  e.evt.preventDefault();
+
+  let stage = konva.value!.getStage();
+
+  var oldScale = stage.scaleX();
+  var pointer = stage.getPointerPosition()!;
+
+  var mousePointTo = {
+    x: (pointer.x - stage.x()) / oldScale,
+    y: (pointer.y - stage.y()) / oldScale,
+  };
+
+  let direction = e.evt.deltaY > 0 ? -1 : 1;
+
+  if (e.evt.ctrlKey) {
+    direction = -direction;
+  }
+
+  var newScale = direction > 0 ? oldScale * scaleBy : oldScale / scaleBy;
+
+  stage.scale({ x: newScale, y: newScale });
+
+  var newPos = {
+    x: pointer.x - mousePointTo.x * newScale,
+    y: pointer.y - mousePointTo.y * newScale,
+  };
+  stage.position(newPos);
+}
 </script>
 
 <style scoped>
