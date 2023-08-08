@@ -1,5 +1,15 @@
 
 
+
+
+Test für Ikusation:
+
+- Kerze hineinhalten und Auswirkungen auf Flamme beobachten
+- Pendel hineinschwingen und Gravitation einschätzen
+- Zwei Metallstäbe (erhitzt / gekühlt); einen hineinhalten und Temperaturveränderung vergleichen
+- Wasser hineinhalten und Verfärbungen o.ä. einschätzen
+- Auswirkungen auf Pflanzen
+
 Mavorak und Ikus würden prinzipiell keine habitable Zone zulassen. Creapatos hat das Zentrum des Serpinit-Systems jedoch
 mit einer starken Magie-Blase umgeben, welche die tödliche Strahlung abfängt und in einer unnatürlich breiten habitablen
 Zone resultierte, um genügend Spielraum für seine Kreaturen zu schaffen.

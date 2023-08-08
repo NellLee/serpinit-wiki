@@ -69,7 +69,7 @@ zeitgesteuerte Effekte aufweist, u.v.m.
 <img src="D:\My_Files\Programming\serpinit-wiki\content\general\magie\images\sgrisignier-rune-erstellung.png" style="zoom: 33%;"  alt="Erstellung einer Sgrisignier Rune"/>
 Sgrisignier Rune in einem Runenstein bevor (links) und nachdem (rechts) die Kraft des magischen Substanz-Kerns programmiert wurde
 
-### Oveläre Magie
+### Allgemeine Oveläre Magie
 
 Alle Lebewesen der **Ovelären Planeten** entwickelten im Verlauf der magisch beeinflussten Evolution nach dem Fall der
 Sgrisignier ein Sinnesorgan im Gehirn, welches sie befähigt die magische Potenz in ihrer Umgebung zu erfühlen. Diese
@@ -93,6 +93,10 @@ können von einem Lebewesen mit den entsprechenden magischen Fähigkeiten aktivi
 direkte magische Katalyse oder durch das aufladen einer stumpfen Rune erschaffen werden. Um sie zu aktivieren ist
 lediglich ein äußerer Energieeinfluss vonnöten. Scharfe Runen werden bei fehlender Auslösung mit der Zeit schwächer und
 stumpfen ab.
+
+### Arcanogene Evolution
+
+ <span style="color: red;">(TODO)</span>
 
 ## Mögliche Magieformen <span style="color: red;">(TODO)</span>
 

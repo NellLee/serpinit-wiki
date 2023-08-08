@@ -1,68 +1,29 @@
 # Die Lateralen
 
-# Allgemein
+# Entwicklung
 
-Die Lateralen entstanden nach dem Fall der [Sgrisignier](sgrisignier.md) über Jahrmillionen durch natürliche Evolution aus dem _homo primian fract_ auf dem Planeten [Agranum](../himmelskoerper/agranum.md). 
+## Verstümmelung der *homo primian*
 
-Die Psyche des _homo primian_ auf Agranum wurde jedoch schon früh **genetisch verstümmelt**, was einen starken Einfluss auf die Evolution
-sowie auf die Entwicklung der magischen Fähigkeiten der Lateralen hatte.
-
-Zu ihren Lebzeiten experimentierten die Sgrisignier auf magische Weise zu ihrer Belustigung mit den _homo primian_ auf
+Die Psyche des _homo primian_ auf Agranum wurde schon früh **genetisch verstümmelt** weshalb die betroffenen als *homo primian fractus* bezeichnet werden. Zu ihren Lebzeiten experimentierten die Sgrisignier auf magische Weise zu ihrer Belustigung mit den _homo primian_ auf
 Agranum. Sie erschufen kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier
 verwandelten. Zuerst waren die Affen-Artigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fingen sie an
 die Runensteine für die Jagd zu nutzen.
 Als die Sgrisignier schließlich von Aerion vernichtet wurden, so richtete sich seine Magie kollateral gegen die
-unschuldigen _homo primian_ von Agranum. Die Magie der Runensteine hatte ihre Spur hinterlassen. Zwar wurden die _homo
-primian_ nicht vernichtet, doch der Sferin-Stoß von Aerion hatte zur Folge, dass alle gegenwärtigen und künftig
-gezeugten Lateralen eine Spaltung ihres Geistes durchmachen mussten. Hinzu kam außerdem, dass die Spaltung des Planeten
-zum Einen ein Massenaussterben nach sich zog, welches die meisten Lebewesen auf Agranum umbrachte und zum Anderen für die Überlebenden
-einen komplett neuen Lebensraum schuf, an den sie sich anpassen mussten.
+unschuldigen _homo primian_ von Agranum. Die Magie der Runensteine hatte direkte Spuren in der Genetik der *homo primian* hinterlassen. Zwar wurden die _homo primian_ durch die Magie Aerions nicht vernichtet, doch der gegen die Sgrisignier gerichtete, magische Impuls von Aerion hatte auch so zur Folge, dass alle gegenwärtigen und künftig gezeugten Lateralen ein psychisches Trauma erlitten und eine Spaltung ihres Geistes durchmachen mussten. Hinzu kam außerdem, dass die Fraktur des Planeten zum Einen ein Massenaussterben nach sich zog, welches die meisten Lebewesen auf Agranum umbrachte und zum Anderen für die Überlebenden einen komplett neuen Lebensraum schuf, an den sie sich anpassen mussten. Die Lateralen entstanden aus den überlebenden *homo primian fractus* nach dem Fall der [Sgrisignier](sgrisignier.md) über Jahrmillionen hinweg. 
 
-# Lebensraum
+## Entwicklung der Sodili-Lateralen
 
-Die schwebenden Kontinente von Agranum waren nach der Spaltung des Planeten ein vergleichsweise unwirtliche Umgebung für die wenigen Lebewesen die den Sferin-Stoß überlebt haben.
+Die [Arcanogene Evolution](../../general/magie/index.md#arcanogene-evolution), welche sich nach dem Fall der Sgrisignier vollzog, hatte auf die geistig verstümmelten Lateralen einen besonderen Einfluss. Das psychische Traume, welches allen Affenartigen auf Agranum angeboren war, führte zur Bildung einer zweiten inneren Persönlichkeit welche sie seit der Geburt begleitet. Diese Persönlichkeit wurde von den Betroffenen häufig als ein bestimmtes Tier empfunden. Die Arcanogene Evolution führte schließlich dazu, dass diese Persönlichkeit sich nicht nur auf einer geistigen Ebene bildete, sondern sich im Jugendalter sogar vom Körper des Betroffenen abspaltete und so einen eigenen Körper manifestierte. Die Lateralen werden ab diesem Evolutionsschritt als **Sodili-Laterale** bezeichnet, während die Verkörperung der zweiten Persönlichkeit **Micu** genannt wird. Der Körper aller Micu ist dabei ausschließlich von entsprechender, tierischer Natur. Die Geister der beiden Lebewesen sind auch nach der Abspaltung weiterhin untrennbar miteinander verbunden, da sie nach wie vor zwei Persönlichkeiten eines Wesens darstellen. Außerdem ist jedem Sodili-Lateralen eine Hybridisierung mit seiner manifestierten, zweiten Persönlichkeit möglich. Diese Form der Hybridisierung der Lateralen führte zu einer ungeahnten Vielfalt, womit die Lateralen schließlich ganz Agranum besiedelten.
 
-<span style="color: red;">TODO:</span> 
+## Abspaltung der Conius-Lateralen
 
-- Semi-realistische Auswirkungen der Spaltung (Tektonisch, klimatisch, theologisch, ...)
-- Entwicklung der Hybrid-Fähigkeiten durch Magielution erklären: leichtere Anpassung.
-
-Während die Conius-Lateralen auch nach der Ikusation hauptsächlich auf Agranum leben, haben sich die Sodili mit der Zeit
-stark verbreitet und sind fast im gesamten Serpinit-System vertreten. Besonders die Hybridform der Sodili
-ermöglicht es ihnen je nach Tiergestalt auch in äußerst unwirtlichen Gebieten zu überleben. Häufig leben gleichgesinnte
-Sodili in kleineren Dörfern oder Städten zusammen.
-
-# Gesellschaft
-
-## Sodili-Lateralen
-
-Die Lateralen die ihre zweite Persönlichkeit abspalten und in einem Micu manifestieren, werden Sodili genannt. Diese
-Bezeichnung wurde eingeführt als sich die Gruppierung der Conius-Lateralen abspaltete.
-
-### Carpebur
-
-Selbst nach starken Streuung der Sodili über das Serpinit-System blieb ihre Hauptstadt in der ein großer Teil
-ihrer Bevölkerung lebt bestehen. Diese Hauptstadt heißt Carpebur und wurde bereits vor der Ikusation gegründet. Carpebur
-befindet sich auf dem Agranum-Gürtel und ist darauf ausgelegt der großen Diversität an Micus und Hybridformen gerecht zu
-werden. Die Stadt liegt daher genau am Rand einer der schwebenden Kontinentalplatte und ragt zum Teil sogar darüber
-hinaus. Dabei werden die äußeren Bauwerke komplett vom Gravid-Ring getragen, da sie ansonsten frei in der Luft hängen.
-Dies macht die Stadt attraktiv für alle Sodili die einen fliegenden Micu, bzw. eine flugfähige Hybridform besitzen.
-Außerdem erstreckt sich die Stadt in den angrenzenden See und besitzt einige Bauwerke die gänzlich unter der
-Wasseroberfläche liegen, sodass auch Micus die Wasser benötigen berücksichtigt wurden.
-
-## Conius-Lateralen
-
-An Zeitpunkt <span style="color: red;">X</span> hat sich eine Gruppierung der Lateralen, von ihren Artgenossen abgelegen, auf einem der Kontinente von Agranum niedergelassen. Diese Lateralen waren der Überzeugung, dass das
+Irgendwann hat sich eine spezielle Gruppierung der Lateralen von ihren Artgenossen distanziert. Diese Lateralen waren der Überzeugung, dass das
 Auftreten der zweiten Persönlichkeit unnatürlich sei und einer geistigen Krankheit entspringt, die das gesamte Volk der
 Lateralen in sich trägt. Sie erkannten, das der geteilte Geist eines Sodili in gewisser Weise sogar die Entwicklung seiner magischen
-Intelligenz beeinträchtigt. Sie fingen an junge Lateralen zu therapieren, sodass sich ihre Persönlichkeit wieder
-vereinten lange bevor es zum ersten Magieausbruch kam.
-
-Nachdem sie diese Identitätsstörung erfolgreich therapiert haben, konnten sie ihre magische Intelligenz in der Tat mit
-entsprechender Bildung weiterentwickeln.
-
-Während Sgrisignier die Fähigkeit hatten Runen mit ihren Gedanken zu *erschaffen*, entwickelten Conius-Lateralen eine
-Ausprägung der magischen Intelligenz, welche es ihnen zumindest ermöglichte Runen mit ihren Gedanken zu *erfühlen*.
+Intelligenz beeinträchtigt. Die Gruppierung begann junge Laterale zu therapieren, sodass sich ihre Persönlichkeit wieder
+vereinten lange bevor es zum ersten Magieausbruch kam. Nachdem sie diese Identitätsstörung erfolgreich therapiert haben, konnten sie ihre magische Intelligenz in der Tat mit
+entsprechender Bildung weiterentwickeln. Während Sgrisignier die Fähigkeit hatten Runen mit ihren Gedanken zu *erschaffen*, entwickelten Conius-Laterale eine
+Ausprägung der magischen Intelligenz, welche es ihnen ermöglichte nicht nur die magische Potenz ihrer Umgebung , sondern auch Sgrisignier-Runen mit ihren Gedanken zu *erfühlen*.
 Damit verstanden sie die Magie des Serpinit-Systems besser als jedes andere moderne Volk und konnten auf äußerst
 wissenschaftliche Art und Weise weitere Erkenntnisse gewinnen.
 
@@ -87,7 +48,21 @@ kulturellen und intellektuellen Aufschwung mit sich brachte. Die technologischen
 Intelligenz nahezu aller Völker vergrößerten sich bedeutend, da nun interplanetarer Handel von Gütern und der Austausch
 von Wissen möglich waren.
 
-### Resrubor-Akademie
+# Lebensraum
+
+Die schwebenden Kontinente von Agranum waren nach der Spaltung des Planeten ein vergleichsweise unwirtliche Umgebung für die wenigen Lebewesen die den Aufstieg überlebt haben. Trotzdem haben es die Lateralen geschafft sich an die neuen Bedingungen anzupassen. Während es zu Beginn nur wenige, kleine Populationen gab die weit über die schwebenden Kontinente verstreut waren, führte die Hybridisierung der Lateralen dazu, dass mit der Zeit auch die letzten Winkel der schwebenden Kontinente von Lateralen besiedelt wurden. Dabei leben häufig Laterale mit ähnlichen Hybridformen in kleineren Dörfern oder Städten zusammen. Nach der [Ikusation](../../general/ikusation.md) breiteten sich die Sodili-Lateralen sogar auf den anderen Planeten rapide aus, während die Conius-Lateralen auch nach der Ikusation hauptsächlich auf Agranum blieben. 
+
+## Carpebur
+
+Trotz der starken Streuung der Sodili blieb ihre Hauptstadt Wohnsitz eines großen Teils ihrer Bevölkerung. Diese Hauptstadt heißt Carpebur,
+befindet sich auf dem Agranum-Gürtel und ist darauf ausgelegt der großen Diversität an Micus und Hybridformen gerecht zu
+werden. Die Stadt liegt daher genau am Rand einer der schwebenden Kontinentalplatten und ragt zum Teil sogar darüber
+hinaus. Dabei werden einige der äußeren Bauwerke komplett von der Gravidblase getragen.
+Dies macht die Stadt attraktiv für alle Sodili die einen fliegenden Micu, bzw. eine flugfähige Hybridform besitzen.
+Außerdem erstreckt sich die Stadt in den angrenzenden See und besitzt einige Bauwerke die gänzlich unter der
+Wasseroberfläche liegen, sodass auch Micus die Wasser benötigen berücksichtigt wurden.
+
+## Resrubor-Akademie
 
 Dieser Ort ist das gesellschaftliche Zentrum der Conius-Lateralen. Hier werden junge Lateralen therapiert und
 ausgewachsene Lateralen in der Theorie der Magie ausgebildet.
@@ -192,3 +167,8 @@ darstellt. Kaum ein Elf bleibt rational und zurechnungsfähig wenn das Leben ode
 steht, da beide tiefgreifend miteinander verbunden sind. Einige Lateralen entscheiden sich aufgrund der Vorzüge der
 Hybridisierung sogar dauerhaft für eine solche Lebensweise. Nur so gelang es unterschiedlichen Gruppen von Sodili sich
 in nahezu jedem Lebensraum niederzulassen, ob in tiefen Ozeanen, auf den höchsten Berggipfeln oder sogar in den Lüften.
+
+# Notizen
+
+![Konzeptentwürfe für die Resrubor-Akademie](./images/konzeptentwuerfe_resrubor-akademie.png)
+

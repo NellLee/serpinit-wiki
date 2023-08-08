@@ -17,16 +17,27 @@
       <v-line
         :config="{ points: [0, middle, layerSize, middle], stroke: 'black', strokeWidth: 1 }"
       />
+      <v-line
+        v-for="x in gridLinesX"
+        :key="x"
+        :config="{ points: [x, middle - 10, x, middle + 10], stroke: 'black', strokeWidth: 1 }"
+      />
+      <v-text
+        v-for="x in gridLinesX"
+        :key="x"
+        :config="{ text: x, x: x, y: middle + 10, fill: 'black', fontSize: 18,
+        fontFamily: 'Calibri', align: 'center' }"
+        />
       <slot></slot>
     </v-layer>
   </v-stage>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
-// import { Stage, Layer, Line, Rect } from 'vue-konva';
-// import Konva from 'konva';
+
+import Konva from 'konva';
 
 // Props
 const props = defineProps({
@@ -42,16 +53,20 @@ const props = defineProps({
     type: Number,
     default: 600,
   },
-  stepSize: {
+  initialStepSize: {
     type: Number,
     default: 50,
   },
 });
 
 const middle = ref<number>(props.layerSize / 2);
+const stepSize = ref<number>(props.initialStepSize)
+
 const konva = ref<any | null>(null)
-// const stageWidth = ref<number>(props.initialStageWidth);
-// const stageHeight = ref<number>(props.initialStageHeight);
+const stage = computed(() => konva.value?.getStage() as Konva.Stage | null)
+// const layer = computed(() => stage.value?.getLayers()[0])
+
+
 
 // Stage configuration
 const stageConfig = {
@@ -67,9 +82,9 @@ const layerConfig = {
 };
 
 // Computed properties for grid lines
-const gridLinesX = Array.from({ length: Math.ceil(props.layerSize / props.stepSize) }, (_, index) =>
-  index * props.stepSize
-);
+const gridLinesX = computed(() => Array.from({ length: Math.ceil(props.layerSize / stepSize.value) }, (_, index) =>
+  index * stepSize.value
+));
 
 function zoom(e: {evt: WheelEvent}) {
   var scaleBy = 1.1;
@@ -77,14 +92,15 @@ function zoom(e: {evt: WheelEvent}) {
   // stop default scrolling
   e.evt.preventDefault();
 
-  let stage = konva.value!.getStage();
+  let st = stage.value;
+  if(!st) return
 
-  var oldScale = stage.scaleX();
-  var pointer = stage.getPointerPosition()!;
+  var oldScale = st.scaleX();
+  var pointer = st.getPointerPosition()!;
 
   var mousePointTo = {
-    x: (pointer.x - stage.x()) / oldScale,
-    y: (pointer.y - stage.y()) / oldScale,
+    x: (pointer.x - st.x()) / oldScale,
+    y: (pointer.y - st.y()) / oldScale,
   };
 
   let direction = e.evt.deltaY > 0 ? -1 : 1;
@@ -95,13 +111,27 @@ function zoom(e: {evt: WheelEvent}) {
 
   var newScale = direction > 0 ? oldScale * scaleBy : oldScale / scaleBy;
 
-  stage.scale({ x: newScale, y: newScale });
+  st.scale({ x: newScale, y: newScale });
 
   var newPos = {
     x: pointer.x - mousePointTo.x * newScale,
     y: pointer.y - mousePointTo.y * newScale,
   };
-  stage.position(newPos);
+  st.position(newPos);
+  
+
+  let visibleStepAmount = Math.floor((props.initialStageWidth / newScale) / stepSize.value)
+  console.log("---")
+  console.log(visibleStepAmount)
+  console.log("---")
+
+  if(visibleStepAmount > 100) {
+    stepSize.value *= 10
+  }
+
+  if(visibleStepAmount < 10) {
+    stepSize.value /= 10
+  }
 }
 </script>
 
