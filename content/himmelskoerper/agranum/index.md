@@ -2,7 +2,7 @@
 
 # Geschichte
 
-Agranum ist ein Planet, welcher von einem Ereignis kosmischen Ausmaßes definiert wurde, welches kurz nach dem Fall der Sgrisignier stattfand. Vor dem Fall der Sgrisignier war Agranum ein erdähnlicher Planet mit einer vergleichbaren Atmosphäre und Schwerkraft.
+Agranum ist ein Planet, der maßgeblich von einem Ereignis kosmischen Ausmaßes definiert wurde, welches kurz nach dem Fall der Sgrisignier stattfand. Vor diesem Ereignis war Agranum ein erdähnlicher Planet mit einer vergleichbaren Atmosphäre und Schwerkraft.
 Agranum war zudem der einzige Planet mit natürlichen [Tjosand](../../general/magie/tjosand.md)-Vorkommen. Es gab ursprünglich einige Tjosand-Wüsten
 unterschiedlicher Größe auf Agranum, in welchen die Sgrisignier schließlich auf die natürlich entstehenden Quarz-Strukturen
 aufmerksam geworden sind. Die Sgrisignier erkannten schnell, dass es sich bei dem entstandenen Quarzkristall um einen hochgradig magisch-reaktiven Stoff handelt. Sie begannen den Tjosand-Quarz zu erforschen und entwickelten so schließlich die Runensteine, mit deren Hilfe besonders komplizierte und mächtige Runen permanent verschriftlicht werden konnten, was schließlich auch die Entwicklung der
@@ -12,12 +12,12 @@ Agranum. Doch sie nahmen dabei keine Rücksicht auf den Planeten selbst und zers
 ## Die Impuls-Eruption
 
 Der Luftdrache Aerion der sich im Kern des Planeten niedergelassen hatte, ließ die Sgrisignier lange gewähren,
-insbesondere da er das Vertrauen von Creapatos zu all seine Kreationen verkörperte. Die Sgrisignier begannen ihre Bohrungen immer weiter zu expandieren und begannen auch außerhalb der Wüsten bei ihrer Suche nach Tjosand den Planeten zu verwüsten. Zum Höhepunkt dieses Wahnsinns, als sich fast alle Sgrisignier auf Agranum befanden weil eine besonders große und besonders tiefliegende Tjosand-Quelle gefunden wurde, entschied der Luftdrache Aerion die Sgrisignier endgültig auszulöschen. Der Creapatos' Vertrauen verkörpernde Elementdrache feuerte einen mächtigen Schub seiner Magie aus dem Kern,
+insbesondere da er das Vertrauen von Creapatos zu all seine Kreationen verkörperte. Die Sgrisignier expandierten ihre Bohrungen jedoch immer weiter und begannen auch außerhalb der Wüsten bei ihrer Suche nach Tjosand den Planeten zu verwüsten. Zum Höhepunkt dieses Wahnsinns, als sich fast alle Sgrisignier auf Agranum befanden weil eine besonders große und besonders tiefliegende Tjosand-Quelle gefunden wurde, entschied der Luftdrache Aerion die Sgrisignier endgültig auszulöschen. Der Creapatos' Vertrauen verkörpernde Elementdrache feuerte einen mächtigen Schub seiner Magie aus dem Kern,
 welcher auf die magische Intelligenz der Sgrisignier abzielte und sie so in Sekundenschnelle tötete. Der magische Schub
 war so energiereich, dass Agranums Oberfläche förmlich zerrissen wurde, weshalb dieses Ereignis als **Impuls-Eruption** bekannt wurde. Um die anderen Lebewesen auf Agranum weitesgehend von den Auswirkungen seines impulsiven Handelns zu bewahren, entlud Aerion zudem einen
 sphärischen Schub annullierter Gravitation. Diese sogenannte **Gravidblase** trug sämtliche Landmassen mit sich in die
 Höhe, wo sie schließlich in ca. 35 km Höhe zum Stehen kamen.
-Auf dieser Blase schwebten fortan die Kontinentalplatten von Agranum und mit ihr die verbleibenden 60 % allen Lebens.
+Auf dieser Blase schwebten fortan die Kontinentalplatten von Agranum und mit ihr die verbleibenden 15 % allen Lebens.
 Die magische Reaktion Aerions führte jedoch nicht nur zu diesem katastrophalen Massenaussterben auf
 Agranum, sondern auch zur psychischen Verstümmelung der Lateralen (siehe [Laterale](../voelker/lateralen.md)).
 
@@ -31,22 +31,19 @@ Da die Gravidblase für die meisten Gase durchlässig ist, sammelten sich unterh
 
 Die schwebenden Kontinente werden natürlich nicht durch herkömmliche Plattentektonik bewegt. Die Gravidblase weißt jedoch komplexe Wechselwirkungen an ihren Grenzen auf, welche die Positionen der Kontinente langsam verändern und so trotzdem plattentektonische Effekte verursachen.
 
-# Carbebur
+# Orte
 
-Willkommen in der zauberhaften Stadt "Carpebur", einer fiktiven Version des Mittelalters, die speziell für die Bedürfnisse und Fähigkeiten humanoider Tier-Hybriden geschaffen wurde. Hier ist, wie Carpebur aussehen könnte:
+## Carpebur
 
-**Architektur und Design:** Die Architektur von Carpebur ist von handwerklichem Können und traditionellem Design geprägt. Die Gebäude sind aus natürlichen Materialien wie Stein, Holz und Lehm errichtet. Spitzbögen, kunstvolle Schnitzereien und verzierte Türme verleihen der Stadt eine einzigartige Ästhetik. Straßen sind gepflastert und von historischen Laternen beleuchtet.
+Carpebur ist die Hauptstadt der Sodili-Lateralen und stetiger Wohnsitz des Königshauses. Die Stadt liegt am Rand einer der schwebenden Kontinentalplatten und ragt zum Teil sogar darüber hinaus, wobei die äußeren Bauwerke komplett von der Gravidblase getragen werden. Außerdem erstreckt sich die Stadt in einen angrenzenden See und wird von vielen Kanälen durchzogen. Viele Bauwerke liegen teilweise unter der Wasseroberfläche. Insgesamt ist Carpebur somit speziell für die Bedürfnisse und Fähigkeiten der Tier-Hybriden zugeschnitten. 
 
-**Landbereich:** Auf dem Land erstrecken sich bewirtschaftete Felder, Wiesen und Handwerksbetriebe. Wohnviertel bieten eine Vielzahl von Unterkünften, darunter strohgedeckte Hütten, Fachwerkhäuser und erhöhte Plattformen für flugfähige Bewohner. Gemeinschaftsgärten und Marktplätze sind zentrale Treffpunkte.
+Die Architektur von Carpebur ist von handwerklichem Können und traditionellem Design geprägt. Die Gebäude sind aus natürlichen Materialien wie Stein, Holz und Lehm errichtet. Spitzbögen, kunstvolle Schnitzereien und verzierte Türme verleihen der Stadt eine einzigartige Ästhetik. Straßen sind gepflastert und von historischen Laternen beleuchtet. Auf dem Land erstrecken sich bewirtschaftete Felder, Wiesen und Handwerksbetriebe. Wohnviertel bieten eine Vielzahl von Unterkünften, darunter strohgedeckte Hütten, Fachwerkhäuser und erhöhte Plattformen für flugfähige Bewohner. Gemeinschaftsgärten und Marktplätze sind zentrale Treffpunkte. Viele Bauwerke sind haben ausladende Balkone, Dachterrassen und Brücken die sie mit anderen Ebenen der Stadt verbinden. Klare Bäche und Kanäle durchziehen die Stadt und dienen als Wasserwege. Steinbrücken, flache Stege und Treppen ermöglichen den Bewohnern Zugang zu den Wasserstraßen. Carpebur ist trotz seiner Vielfalt eine Stadt der Traditionen und des Handwerks. Werkstätten, Tavernen und Handelsposten bilden das Herzstück der Stadt. Märkte bieten eine Fülle von Waren, während Tempel und Schreine den Tier-Hybriden spirituelle Heimatstätten bieten.
 
-**Luftbereich:** Carpebur verfügt über erhöhte Plattformen, schwebende Gärten und luftige Pavillons, die den flugfähigen Bewohnern eine sichere Umgebung bieten. Hier können sie sich frei bewegen und in schwindelerregender Höhe einen Blick auf die Stadt genießen.
+## Resrubor-Akademie
 
-**Wasserbereich:** Klare Bäche und Kanäle durchziehen die Stadt und dienen als Wasserwege und Trinkquellen. Steinbrücken und flache Stege ermöglichen es den Bewohnern, die Wasserstraßen zu überqueren. Entlang der Ufer gibt es gemütliche Rastplätze und Fischereiplätze.
+Dieser Ort ist das gesellschaftliche Zentrum der Conius-Lateralen. Hier werden junge Lateralen therapiert und
+ausgewachsene Lateralen in der Theorie der Magie ausgebildet.
 
-**Verbindungselemente:** Die Fortbewegung in Carpebur erfolgt hauptsächlich zu Fuß, auf Pferden oder mit speziellen Wagen. Schwebende Körbe, die von Ballons getragen werden, bieten flugfähigen Bewohnern die Möglichkeit, in der Luft zu reisen. Wasserfahrzeuge wie Boote und kleine Fähren erleichtern die Bewegung entlang der Kanäle.
-
-**Kulturelle Vielfalt:** Carpebur ist eine Stadt der Traditionen und des Handwerks. Werkstätten, Tavernen und Handelsposten bilden das Herzstück der Stadt. Märkte bieten eine Fülle von Waren, während Tempel und Schreine den Tier-Hybriden spirituelle Heimatstätten bieten.
-
-**Magische Akzente:** Inmitten der mittelalterlichen Kulisse sind magische Elemente präsent. Leuchtende Kristalle, die als Laternen dienen, magische Pflanzen, die auf den Dächern blühen, und sanfte Glüheffekte, die Plätze und Gebäude in einem zauberhaften Licht erstrahlen lassen.
-
-Carpebur ist eine Stadt, in der Tradition und Fantasie miteinander verschmelzen. Hier können humanoiden Tier-Hybriden ein Leben in einer märchenhaften Umgebung führen, ihre einzigartigen Fähigkeiten entfalten und in einer eng vernetzten Gemeinschaft Gleichgesinnter leben.
+Resrubor hat Einzelzimmer für seine Schüler in denen nicht-destruktive Magie erlaubt ist. So gestalten die Schüler
+kreativ ein eigenes Reich. Dabei wird die Magie durch eine spezielle **Rune** reguliert.
+Es gab jedoch immer wieder Schüler die diese Rune unbemerkt manipuliert haben.
