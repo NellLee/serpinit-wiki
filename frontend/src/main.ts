@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import './style.css'
 import App from './App.vue';
 import Home from './views/Home.vue';
+import VueKonva from 'vue-konva';
 
 const routes = [
   { path: '/', component: Home },
@@ -18,6 +19,7 @@ const router = createRouter({
 const app = createApp(App);
 
 app.use(router);
+app.use(VueKonva)
 
 app.mount('#app');
 
