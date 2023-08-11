@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import Grid from "./Grid.vue";
-import XmlVisualizer from "./XmlVisualizer.vue";
+import Grid from "../components/timeline/Grid.vue";
+import XmlVisualizer from "../components/timeline/XmlVisualizer.vue";
 
 
 const layerSize = ref(30000);
@@ -17,11 +17,10 @@ const eventHeight = ref(40);
 </script>
 
 <template>
-  <Grid :layerSize="layerSize" :initialStageWidth="stageWidth" :initialStageHeight="stageHeight" :stepSize="stepSize">
+  <Grid id="grid" :layerSize="layerSize" :initialStageWidth="stageWidth" :initialStageHeight="stageHeight" :stepSize="stepSize">
     <XmlVisualizer :originX="originX" :originY="originY" :availableHeight="stageHeight" :availableWidth="stageWidth" :eventHeight="eventHeight"/>
   </Grid>
 </template>
 
 <style scoped>
-
 </style>

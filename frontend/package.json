@@ -17,6 +17,7 @@
     "util": "^0.12.5",
     "vue": "^3.2.47",
     "vue-konva": "^3.0.2",
+    "vue-router": "4",
     "xml2js": "^0.6.0"
   },
   "devDependencies": {
