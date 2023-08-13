@@ -5,39 +5,20 @@ import { marked } from "marked";
 import express from "express";
 import path from "path";
 import jsdom from "jsdom";
-const { JSDOM } = jsdom;
+import { getFilePathsInFolder } from "../scripts/utilities";
 
 const router = express.Router();
 
-
-function getFilePathsInFolder(folderPath, fileType = "") {
-    let folderStat = fs.lstatSync(folderPath);
-    if (folderStat && folderStat.isDirectory()) {
-        let aggregator = [];
-        return getFilePathsInFolderRec(aggregator, folderPath, fileType);
-    } else {
-        throw "InvalidArgument. Argument 'folderPath' is not a path to a directory!";
-    }
+interface LinkContent {
+    href: string,
+    text: string,
 }
 
-function getFilePathsInFolderRec(aggregator, folderPath, fileType = "", startPath = folderPath) {
-    fs.readdirSync(folderPath).forEach(fileOrFolder => {
-        let fullPath = folderPath + "/" + fileOrFolder;
-        let stat = fs.lstatSync(fullPath);
-        if (stat.isDirectory()) {
-            return getFilePathsInFolderRec(aggregator, fullPath, fileType, startPath);
-        } else if (stat.isFile()) {
-            if (!fileType || path.extname(fileOrFolder) === fileType) {
-                aggregator.push(fullPath.replace(startPath, ""));
-                // console.log(fullPath.replace(startPath, ""))
-            }
-        }
-    });
-    return aggregator;
-}
-
+const { JSDOM } = jsdom;
 let $: JQueryStatic;
+
 let wikiPath = __dirname + "/../../../content";
+
 getFilePathsInFolder(wikiPath).forEach(file => {
     if (path.extname(file) === ".md") {
         router.get(file, (req, res) => {
@@ -45,6 +26,7 @@ getFilePathsInFolder(wikiPath).forEach(file => {
             const fullPath = wikiPath + file;
             let mdString = fs.readFileSync(fullPath).toString();
 
+            // Extract first header from md content
             let firstHeader = "";
             const firstHeaderStartIndex = mdString.indexOf("#");
             if (firstHeaderStartIndex >= 0) {
@@ -57,26 +39,27 @@ getFilePathsInFolder(wikiPath).forEach(file => {
 
             const mdHtml = DOMPurify.sanitize(marked.parse(mdString));
 
-
             let dom = new JSDOM("<!DOCTYPE html>" + mdHtml);
             $ = require("jquery")(dom.window);
 
-            let $headerLinkTree = generateHeaderLinkTree();
+            let navContent =  {
+                "Serpinit": "/wiki/index",
+                "Die Magie": "/wiki/general/magie", 
+                "Die Schöpfungsgeschichte": "/wiki/general/schoepfungsgeschichte", 
+                "Die 9 Himmelskörper": "/wiki/himmelskoerper/index", 
+                "Die 9 Völker": "/wiki/voelker/index"
+            };
 
-            let $mentionedReferences = generateMentionedReferences();
+            let tocContent = generateTableOfContents();
+
+            let refContent = generateMentionedReferences();
 
             res.render("wiki", {
-                navContent: {
-                    "Serpinit": "/wiki/index",
-                    "Die Magie": "/wiki/general/magie", 
-                    "Die Schöpfungsgeschichte": "/wiki/general/schoepfungsgeschichte", 
-                    "Die 9 Himmelskörper": "/wiki/himmelskoerper/index", 
-                    "Die 9 Völker": "/wiki/voelker/index"
-                },
                 title: firstHeader,
+                navContent,
+                tocContent,
                 contentHtml: dom.serialize(),
-                tocHtml: $headerLinkTree?.html() ?? "",
-                refHtml: $mentionedReferences?.html() ?? ""
+                refContent,
             });
         });
 
@@ -102,79 +85,33 @@ function generateMentionedReferences() {
     let $mentions = $("a").filter(function(this: HTMLElement) {
         return $(this).attr("href")?.includes(".md") ?? false
     })
-    if ($mentions.length > 0) {
-        let $ul = $("<ul>");
-        $mentions.each((index, element) => {
-            let $li = $("<li>");
-            $ul.append($li);
-        
-            let $listEntry = $("<div>", {
-                "class": "list-entry"
-            });
-            $li.append($listEntry);
-        
-            let $link = $("<a>", {
-                text: $(element).text(),
-                href: $(element).attr("href")
-            });
-            $listEntry.append($link);
-        });
-        return $("<div>").append($ul);
-    }
-    return null;
-}
+    const result: LinkContent[] = [];
 
-function generateHeaderLinkTree() {
+    $("a").filter(function(this: HTMLElement) {
+        return $(this).attr("href")?.includes(".md") ?? false
+    }).each((index, link) => {
 
-    let $header = $("h1");
-    if ($header.length > 0) {
-        let $ul = $("<ul>");
-        $header.each((index, element) => {
-            generateHeaderLinkTreeRec($(element), $ul);
-        });
-        return $("<div>").append($ul);
-    }
-    return null;
-}
-
-function generateHeaderLinkTreeRec($header, $parentUl, headerLevel = 1) {
-    let $li = $("<li>");
-    $parentUl.append($li);
-
-    let $listEntry = $("<div>", {
-        "class": "list-entry"
-    });
-    $li.append($listEntry);
-
-    let $bullet = $("<span>", {
-        text: "> ",
-        "class": "list-bullet"
-    })
-    $listEntry.append($bullet);
-
-    let $link = $("<a>", {
-        text: $header.text(),
-        href: "#" + $header.attr("id")
-    });
-    $listEntry.append($link);
-
-    let $allHeaders = $(":header");
-    let targetHeaderLevel = headerLevel + 1;
-    let $subUl = $("<ul>");
-
-    $listEntry.append($subUl);
-    $($allHeaders.slice($allHeaders.index($header) + 1)).each((index, element) => {
-        let curHeaderLevel = $(element).prop("tagName").slice(1);
-        if (curHeaderLevel == targetHeaderLevel) {
-            generateHeaderLinkTreeRec($(element), $subUl, targetHeaderLevel);
-        } else {
-            return false; //break;
+        result[index] = {
+            href: $(link).attr("href")!,
+            text: $(link).text(),
         }
-    });
-    if ($subUl.is(":empty")) {
-        $listEntry.addClass("disabled");
-    }
+    })
+
+    return result
 }
 
+function generateTableOfContents() {
+    const result: LinkContent[] = [];
+
+    $(":header").each((index, header) => {
+        let headerLevel = parseInt($(header).prop("tagName").slice(1))
+        result[index] = {
+            href: "#" + $(header).text().toLowerCase().replace(" ", "-"),
+            text: "&nbsp;".repeat((headerLevel-1)*3) + "> " + $(header).text(),
+        }
+    })
+
+    return result
+}
 
 module.exports = router;

@@ -3,6 +3,7 @@ import express from "express";
 import path from "path";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
+import hbs from 'hbs';
 
 const wikiRouter = require("./routes/wiki");
 
@@ -10,7 +11,8 @@ const app = express();
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "pug");
+app.set("view engine", "hbs");
+hbs.registerPartials(path.join(__dirname, 'views/partials'));
 
 app.use(logger("dev"));
 app.use(express.json());
