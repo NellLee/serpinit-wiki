@@ -1,0 +1,18 @@
+extends layout
+
+block head
+  link(rel="stylesheet", href="/style/wiki.css")
+
+block content
+  nav
+    ul: each val, key in navContent
+      li: a(href=val) #{key}
+
+  h1(class="content-header")= title
+  #main-body
+    #table-of-content
+      div !{tocHtml}
+
+    #text-body
+      div !{contentHtml}
+
