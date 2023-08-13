@@ -4,15 +4,20 @@ block head
   link(rel="stylesheet", href="/style/wiki.css")
 
 block content
-  nav
+  nav(id="nav-bar")
     ul: each val, key in navContent
       li: a(href=val) #{key}
 
-  h1(class="content-header")= title
   #main-body
     #table-of-content
-      div !{tocHtml}
-
+      nav !{tocHtml}
+    
     #text-body
-      div !{contentHtml}
+      h1(class="content-header")= title
+      #text-column
+        div !{contentHtml}
+    
+    #quick-links
+      h3= "Mentioned here:"
+      div !{refHtml}
 

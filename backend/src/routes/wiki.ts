@@ -36,7 +36,7 @@ function getFilePathsInFolderRec(aggregator, folderPath, fileType = "", startPat
     return aggregator;
 }
 
-let $;
+let $: JQueryStatic;
 let wikiPath = __dirname + "/../../../content";
 getFilePathsInFolder(wikiPath).forEach(file => {
     if (path.extname(file) === ".md") {
@@ -61,15 +61,9 @@ getFilePathsInFolder(wikiPath).forEach(file => {
             let dom = new JSDOM("<!DOCTYPE html>" + mdHtml);
             $ = require("jquery")(dom.window);
 
-            $("img").each(function(this: HTMLButtonElement) {
-                var oldSrc = $(this).attr("src")
-                var newSrc = "wiki"+path.dirname(file) + "/"+ oldSrc
-                console.log(oldSrc)
-                console.log(newSrc)
-                // $(this).attr("src", newSrc)
-            })
-
             let $headerLinkTree = generateHeaderLinkTree();
+
+            let $mentionedReferences = generateMentionedReferences();
 
             res.render("wiki", {
                 navContent: {
@@ -81,7 +75,8 @@ getFilePathsInFolder(wikiPath).forEach(file => {
                 },
                 title: firstHeader,
                 contentHtml: dom.serialize(),
-                tocHtml: $headerLinkTree?.html() ?? ""
+                tocHtml: $headerLinkTree?.html() ?? "",
+                refHtml: $mentionedReferences?.html() ?? ""
             });
         });
 
@@ -102,12 +97,39 @@ getFilePathsInFolder(wikiPath).forEach(file => {
     }
 });
 
+
+function generateMentionedReferences() {
+    let $mentions = $("a").filter(function(this: HTMLElement) {
+        return $(this).attr("href")?.includes(".md") ?? false
+    })
+    if ($mentions.length > 0) {
+        let $ul = $("<ul>");
+        $mentions.each((index, element) => {
+            let $li = $("<li>");
+            $ul.append($li);
+        
+            let $listEntry = $("<div>", {
+                "class": "list-entry"
+            });
+            $li.append($listEntry);
+        
+            let $link = $("<a>", {
+                text: $(element).text(),
+                href: $(element).attr("href")
+            });
+            $listEntry.append($link);
+        });
+        return $("<div>").append($ul);
+    }
+    return null;
+}
+
 function generateHeaderLinkTree() {
 
-    let header = $("h1");
-    if (header.length > 0) {
+    let $header = $("h1");
+    if ($header.length > 0) {
         let $ul = $("<ul>");
-        header.each((index, element) => {
+        $header.each((index, element) => {
             generateHeaderLinkTreeRec($(element), $ul);
         });
         return $("<div>").append($ul);
@@ -123,6 +145,12 @@ function generateHeaderLinkTreeRec($header, $parentUl, headerLevel = 1) {
         "class": "list-entry"
     });
     $li.append($listEntry);
+
+    let $bullet = $("<span>", {
+        text: "> ",
+        "class": "list-bullet"
+    })
+    $listEntry.append($bullet);
 
     let $link = $("<a>", {
         text: $header.text(),
