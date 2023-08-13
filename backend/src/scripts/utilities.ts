@@ -27,3 +27,26 @@ function getFilePathsInFolderRec(aggregator: string[], folderPath: string, fileT
     });
     return aggregator;
 }
+
+
+export function getFolderPathsInFolder(folderPath: string) {
+    let folderStat = fs.lstatSync(folderPath);
+    if (folderStat && folderStat.isDirectory()) {
+        let aggregator = [];
+        return getFolderPathsInFolderRec(aggregator, folderPath);
+    } else {
+        throw "InvalidArgument. Argument 'folderPath' is not a path to a directory!";
+    }
+}
+
+function getFolderPathsInFolderRec(aggregator: string[], folderPath: string, startPath = folderPath) {
+    fs.readdirSync(folderPath).forEach(fileOrFolder => {
+        let fullPath = folderPath + "/" + fileOrFolder;
+        let stat = fs.lstatSync(fullPath);
+        if (stat.isDirectory()) {
+            aggregator.push(fullPath.replace(startPath, ""));
+            return getFilePathsInFolderRec(aggregator, fullPath, startPath);
+        }
+    });
+    return aggregator;
+}

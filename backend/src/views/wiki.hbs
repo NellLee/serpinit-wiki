@@ -11,17 +11,8 @@
 </head>
 
 <body>
-    <nav id="nav-bar">
-        <ul>
-            {{#each navContent}}
-            <li>
-                <a href="{{this}}">
-                    {{@key}}
-                </a>
-            </li>
-            {{/each}}
-        </ul>
-    </nav>
+
+    {{> navBar}}
 
     <div id="main-body">
         <nav id="table-of-content">

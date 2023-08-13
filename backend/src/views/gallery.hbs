@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/style/layout.css">
+    {{!-- <link rel="stylesheet" href="/style/gallery.css"> --}}
+    <title>
+        Serpinit-Gallerie
+    </title>
+</head>
+
+<body>
+
+    {{> navBar}}
+
+    <div id="main-body">
+        {{#each imagePaths}}
+        <img src="{{this}}"></img>
+        {{/each}}
+    </div>
+</body>
+
+</html>

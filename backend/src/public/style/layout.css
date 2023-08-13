@@ -11,4 +11,32 @@ body {
     margin: 0;
 }
 
-/*# sourceMappingURL=layout.css.map */
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+#nav-bar li a {
+    display: block;
+    color: #727272;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+#nav-bar li a:hover {
+    color: #000000;
+}
+
+#nav-bar li:first-of-type a {
+    font-size: 18px;
+}

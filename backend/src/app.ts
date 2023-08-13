@@ -5,7 +5,6 @@ import cookieParser from "cookie-parser";
 import logger from "morgan";
 import hbs from 'hbs';
 
-const wikiRouter = require("./routes/wiki");
 
 const app = express();
 
@@ -18,8 +17,15 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+const wikiRouter = require("./routes/wiki");
 app.use("/wiki", wikiRouter);
 app.use("/wiki/content", express.static(path.join(__dirname, "../../content")));
+
+const galleryRouter = require("./routes/gallery");
+app.use("/gallery", galleryRouter);
+app.use("/gallery", express.static(path.join(__dirname, "../../gallery")));
+
 app.use(express.static(path.join(__dirname, "public")));
 
 
