@@ -8,6 +8,10 @@ import hbs from 'hbs';
 
 const app = express();
 
+
+const homeRouter = require("./routes/home");
+app.use("/", homeRouter);
+
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "hbs");
