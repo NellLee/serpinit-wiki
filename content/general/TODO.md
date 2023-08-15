@@ -14,7 +14,7 @@ Mavorak und Ikus würden prinzipiell keine habitable Zone zulassen. Creapatos ha
 mit einer starken Magie-Blase umgeben, welche die tödliche Strahlung abfängt und in einer unnatürlich breiten habitablen
 Zone resultierte, um genügend Spielraum für seine Kreaturen zu schaffen.
 
-Die Orcs ernten riesige Baumperlen.
+Die Sylvanars ernten riesige Baumperlen.
 
 Magische Substanz durch Quasi-Sterne entstanden?
 
@@ -32,13 +32,13 @@ Unbewohnbarkeit. Die
 ersten Drachenkinder die auf Mognar wiederum die Ergebnisse dieser Tests fanden wurden neugierig und trauten sich
 schließlich durch eines dieser Portale und fanden damit den Planeten Navura. Für das feurige Volk der Drachenkinder war
 Navura ein Schlaraffenland mit leicht zu fangender Beute und voller Wälder die leicht brennen. Dadurch fingen sie fast
-augenblicklich einen verbitterten Krieg mit den Orcs an.
+augenblicklich einen verbitterten Krieg mit den Sylvanars an.
 
 Auch andere Portale auf Mognar, die mit der Zeit erschlossen wurden, nutzten die Drachenkinder zur Möglichkeit der
-Invasion. Doch während sie auf Navura einen aktiven Krieg gegen die Orcs führten, errichteten sie um die anderen Portale
+Invasion. Doch während sie auf Navura einen aktiven Krieg gegen die Sylvanars führten, errichteten sie um die anderen Portale
 vorerst nur Stützpunkte.
 
-Schließlich formulierten die Orcs einen der größten Naturzauber in der Geschichte, womit sie die angreifenden
+Schließlich formulierten die Sylvanars einen der größten Naturzauber in der Geschichte, womit sie die angreifenden
 Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magie gegen ALLE Drachenkinder?]
 
 - ### Zeit-Messung
@@ -53,7 +53,7 @@ zusammengefasst (~15 Jahre).
 
 Diese Art der modernen Zeitaufzeichnung wird seither weitergeführt.
 Je nach Zahlenbasis und Rechnungsart der Völker wurden verschiedene Varianten des Mavorak Zyklus genutzt, wie z.B. Die
-Duzete der Orcs (12 Zyklen = ca. 1,7 Jahre) oder die Fossura der Dampfzwerge (103 Zyklen = ca. 14,8 Jahre).
+Duzete der Sylvanars (12 Zyklen = ca. 1,7 Jahre) oder die Fossura der Dampfzwerge (103 Zyklen = ca. 14,8 Jahre).
 Der Mavorak-Zyklus wurde ursprünglich von Conius-Lateralen auf 8 471 000 Pulsenen geschätzt, diese Angabe wurde in der
 Resrubor Akademie jedoch später auf 8 470 984,295581 korrigiert.
 
@@ -77,9 +77,9 @@ Hybride (vgl. Liger, Maultier, etc.).
 
 - ### Sgrisignier der sich zur Insel gemacht hat. (vgl. Vaiana)
 
-- ### Orc macht sich zum Artefakt
+- ### Sylvanar macht sich zum Artefakt
 
-Latericas - eine geheime "Insel" von Navura, wo ein Orc mit Runen auf Lebewesen experimentiert. Er wurde verbannt, da er
+Latericas - eine geheime "Insel" von Navura, wo ein Sylvanar mit Runen auf Lebewesen experimentiert. Er wurde verbannt, da er
 seinen Stamm hereingelegt hat, um sich selbst in ein Artefakt zu verwandeln. Daher sieht er aus wie Groot. Im umliegenden
 Gebiet leben teilweise von ihm erschaffene Monster, die er als harmlos ansieht (Hagrid style).
 
@@ -89,7 +89,7 @@ Auserwählte Drachen Sodili, mit Hybridform die einem Drachenkind gleicht. Sie l
 und den anderen Völkern bei, indem sie neue Königin der Drachenkinder wird.
 
 Viele Drachenkinder wenden sich ab und akzeptieren die Sodili nicht als Anführerin, nachdem ihre wahre Identität ans
-Licht kommt. Die Abtrünnigen starten neue Angriffe auf die Orcs auf Navura, doch diese wirken einen starken Bannfluch
+Licht kommt. Die Abtrünnigen starten neue Angriffe auf die Sylvanars auf Navura, doch diese wirken einen starken Bannfluch
 und rauben so allen angreifenden Drachenkindern ihre Magie.
 
 # Andere Ideen

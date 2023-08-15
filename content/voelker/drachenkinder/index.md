@@ -3,9 +3,9 @@
 # Entstehung
 
 Die Drachenkinder entstanden nicht wie die anderen Völker durch natürliche Evolution. Sie wurden auf Mognar von Ignatius
-geschaffen. Ignatius nutzte dabei die Körper von Orcs welche von ihren Artgenossen verbannt wurden. Ignatius füllte ihre
+geschaffen. Ignatius nutzte dabei die Körper von Sylvanars welche von ihren Artgenossen verbannt wurden. Ignatius füllte ihre
 Körper mit neuem Leben, indem er das Blut in ihren Adern mit Magie anreicherte und so sinnbildlich zum Kochen brachte.
-Die Orcs wurden so zu einem neuen Volk geformt, welches äußerlich Ähnlichkeiten mit den Drachen aufwies.
+Die Sylvanars wurden so zu einem neuen Volk geformt, welches äußerlich Ähnlichkeiten mit den Drachen aufwies.
 
 Da die Drachenkinder von Ignatius künstlich geschaffen wurden, konnten sich ihre Fähigkeiten und Verhaltensweisen nicht
 durch Evolution ausgewogen entwickeln. Dieses Volk ist daher im Allgemeinen unausgewogen und wird häufig sogar als
@@ -14,14 +14,14 @@ grundsätzlich böse bezeichnet.
 # Lebensraum
 
 Die Kinder der Drachen leben seit ihrer Erschaffung hauptsächlich auf Mognar. Obwohl sie diesen Planeten nahezu gänzlich
-für sich allein haben, waren die Drachenkinder von Anfang an neidisch auf die Orcs und auf ihren Planeten Navura. Der
-Hass auf die Orcs rührt vor allem daher, dass die ersten Drachenkinder ihre Erinnerungen nach der Wiederauferstehung
+für sich allein haben, waren die Drachenkinder von Anfang an neidisch auf die Sylvanars und auf ihren Planeten Navura. Der
+Hass auf die Sylvanars rührt vor allem daher, dass die ersten Drachenkinder ihre Erinnerungen nach der Wiederauferstehung
 behielten und die
 
 Auf Mognar befindet sich die Hauptstadt Zanguor, welche fast alle ihrer Art beherbergt.
 
-Die Drachenkinder haben seit der Ikusation viele Versuche unternommen die Orcs von Navura zu vertreiben, doch die
-Naturzauber der Orcs waren immer zu mächtig.
+Die Drachenkinder haben seit der Ikusation viele Versuche unternommen die Sylvanars von Navura zu vertreiben, doch die
+Naturzauber der Sylvanars waren immer zu mächtig.
 
 Nachdem ein weiterer, ganz bestimmter Angriff der Drachenkinder fehlschlug, verloren sie einen Großteil ihrer magischen
 Kräfte.
@@ -32,8 +32,8 @@ Drachenkinder spielte, nachdem sie ihre natürliche Magie verloren.
 # Gesellschaft
 
 Der Bestand dieses Volkes ist im Vergleich zu den anderen Völkern sehr klein. Dies liegt allerdings nicht daran, dass
-die Gruppe der Orcs aus welchen die Drachenkinder entstanden nicht besonders groß war, denn die Drachenkinder sind im
-Grunde sehr fruchtbar. Doch die vielen Kriege und die andauernden Feindschaften mit anderen Völkern wie den Orcs
+die Gruppe der Sylvanars aus welchen die Drachenkinder entstanden nicht besonders groß war, denn die Drachenkinder sind im
+Grunde sehr fruchtbar. Doch die vielen Kriege und die andauernden Feindschaften mit anderen Völkern wie den Sylvanars
 forderten immer wieder ihren Tribut. Der verbliebene Bestand lebt größtenteils in der Hautstadt Zanguor, unter der
 Führung eines einzelnen mächtigen Drachenkindes. Die Art der Regierung gleicht dabei einer von der Allgemeinheit
 akzeptierten Diktatur, wobei hin und wieder das machthabende Drachenkind ermordet und von seinem Mörder ersetzt wird. Da
@@ -71,7 +71,7 @@ So hat Ihnen Ignatius das magische Feuer geschenkt, dessen sie schon bald beraub
 Aerion hat ihnen die großen Schwingen geschenkt, die ihnen ebenfalls wieder genommen wurden.
 
 Silvaa hat Ihnen angeblich rechtmäßig den Planeten Navura überlassen. Daher glauben die Drachenkinder auch, dass die
-Orcs kein Bleiberecht auf dem Planeten hätten und hegen den Wunsch sie zu vertreiben bzw. auszurotten.
+Sylvanars kein Bleiberecht auf dem Planeten hätten und hegen den Wunsch sie zu vertreiben bzw. auszurotten.
 
 Und schließlich hat Fluero ihnen magisches Blut geschenkt, welches ihre direkte Verwandtschaft zu den Drachen
 symbolisiert.
@@ -80,7 +80,7 @@ symbolisiert.
 
 Als die Drachenkinder geschaffen wurden, stattete sie Ignatius neben ihrem magischen Blut mit magischen Schwingen und
 der Fähigkeit Feuer zu speien aus. Letztere beide Fähigkeiten wurden den Drachenkindern jedoch bei ihrer größten
-Niederlage gegen die Orcs durch mächtige Naturzauber genommen. Danach waren die Drachenkinder gezwungen sich auf die
+Niederlage gegen die Sylvanars durch mächtige Naturzauber genommen. Danach waren die Drachenkinder gezwungen sich auf die
 verbliebenen Aspekte ihrer Magie zu konzentrieren. Sie fingen an mit ihrem magischen Blut zu experimentieren und
 schafften es schließlich die darin enthaltene Magie in Verbindung mit der Feuermagie des Planeten Mognar in sogenannten
 Blutvulkanen nutzbar zu machen. Durch verschiedene Blutrituale konnten die Drachenkinder so wieder Magie wirken. Sobald

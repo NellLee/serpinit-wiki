@@ -2,7 +2,7 @@
 
 # Die Gottheiten
 
-Mit dem Universum entstanden beim Urknall ca. 50 konzentrierte Vorkommen der [Magischen Substanz](magie.md#Allgemein), welche über Billionen Jahre hinweg Bewusstseine mit magischer Intelligenz entwickelten und zu Gottheiten wurden, die Fortan das Universum nach Belieben formten.
+Mit dem Universum entstanden beim Urknall ca. 50 konzentrierte Vorkommen der [Magischen Substanz](magie/index.md#Allgemein), welche über Billionen Jahre hinweg Bewusstseine mit magischer Intelligenz entwickelten und zu Gottheiten wurden, die Fortan das Universum nach Belieben formten.
 Die Götter konnten nicht nur die physische Welt formen, sondern auch ihre Naturgesetze und die Funktionsweise der Magie selbst beeinflussen. So konnten sie ganz eigene Welten schaffen. Die meisten Gottheiten respektierten sich gegenseitig und sahen keinen Grund in die Galaxien und Planetensysteme der anderen einzudringen.
 
 ## Creapatos
@@ -21,10 +21,10 @@ Damit gab Creapatos ihnen eine äußerst abgeschwächte Form seiner eigenen Fäh
 Nachdem Creapatos die Sgrisignier erschaffen hatte, beschloss er sich zur Ruhe zu setzen und seine Welt von nun nicht mehr aktiv zu beeinflussen.
 Daher spaltete er sein magisches Wesen in 4 göttliche Teile. Jedes Teil band sich an einen der folgenden Himmelskörper des Planetensystems:
 
-- [Agranum](../himmelskoerper/agranum.md)
-- [Luqua](../himmelskoerper/luqua.md)
-- [Mognar](../himmelskoerper/mognar.md)
-- [Navura](../himmelskoerper/navura.md)
+- [Agranum](../himmelskoerper/agranum/index.md)
+- [Luqua](../himmelskoerper/luqua/index.md)
+- [Mognar](../himmelskoerper/mognar/index.md)
+- [Navura](../himmelskoerper/navura/index.md)
 
 Diese 4 Planeten nahmen die Kraft Creapatos' in ihren Kern auf und wurden zu den vier **Ovelären** Himmelskörpern. Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und zum anderen einen Persönlichkeitsaspekt des ursprünglichen Drachengottes.
 Dabei kann man sich jeden dieser 4 Planetenkerne als ein riesiges Drachenei bestehend aus göttlicher magischer Substanz vorstellen. Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
@@ -39,12 +39,12 @@ sich unvorhergesehene Folgen für das gesamte Serpinit-System manifestieren. Doc
 innerhalb ihres jeweiligen Planeten veränderte diese mit den Jahrtausenden grundlegend.
 Da die Sgrisignier auf Agranum jedoch nach Creapatos Spaltung eine riesige Rune anbrachten, um den Kern aus göttlicher
 magischer Substanz zu bannen, waren auf Agranum deutlich schneller Veränderungen zu spüren als auf den anderen Ovelären
-Planeten. (siehe [Agranum](../himmelskoerper/agranum.md))
+Planeten. (siehe [Agranum](../himmelskoerper/agranum/index.md))
 
 ### Evolution
 
 Die modernen intelligenten Völker entstanden nicht wie die Sgrisignier direkt aus der Kreativität eines Gottes, sondern
-durch natürliche Evolution. Dabei haben die Zwerge, Lateralen, Orcs & Feen einen gemeinsamen Vorfahren, welcher dem _
+durch natürliche Evolution. Dabei haben die Zwerge, Lateralen, Sylvanars & Feen einen gemeinsamen Vorfahren, welcher dem _
 homo erectus_ der Erde sehr ähnlich ist: der _homo primian_. Diese Affenart existierte bereits vor der Zeit der
 Sgrisignier und stellte wie die äußeren Ähnlichkeiten vermuten lassen eine Basis bei Creapatos' Entwurf der Sgrisignier
 dar.

@@ -21,7 +21,7 @@ zu einem Element geformt, so wird die magische Substanz mit der Zeit "abkühlen"
 graduel an das jeweils angrenzende Element an und wird so nach und nach in den umliegenden Stoff konvertiert. Dabei
 strahlt die magische Substanz sowohl Wärme als auch magische Potenz ab. Eine Ausnahme bildeten die hochkonzentrierten
 Vorkommen der magischen Substanz welche beim Urknall in das Universum geschleudert wurden (
-siehe [Schöpfungsgeschichte](schoepfungsgeschichte.md#Die_Gottheiten)). Diese kühlten niemals ab und entwickelten
+siehe [Schöpfungsgeschichte](../schoepfungsgeschichte.md#Die_Gottheiten)). Diese kühlten niemals ab und entwickelten
 stattdessen mit der Zeit ein eigenes Bewusstsein. Die so entstandenen Gottheiten besaßen die Macht jedes Atom zu
 magischer Substanz zu machen um aus dieser wiederum jedes beliebige andere Element zu synthetisieren.
 
@@ -48,7 +48,7 @@ explizit für das Volk der Sgrisignier erschuf, werden sie im Allgemeinen **Sgri
 
 Die Runenschrift bildet eine vielseitige Schnittstelle zur Magie. Die Sgrisignier nutzten diese Runen äußerst geschickt
 und erlangten große Macht durch sie. Auch der Hinterhalt auf Aerion war nur mit einer einzigen riesigen Rune möglich,
-welche die Sgrisignier über lange Zeit hinweg heimlich in dem Planeten [Agranum](../himmelskoerper/agranum.md)
+welche die Sgrisignier über lange Zeit hinweg heimlich in dem Planeten [Agranum](../../himmelskoerper/agranum/index.md)
 anbrachten (<span style="color:red">TODO</span>: Link zu Hinterhalt).
 Anschaulich betrachtet sind die Sgrisignier-Runen eine „Programmiersprache der Realität“. Sie transformieren die Energie
 von magischer Substanz in komplexen Vorgängen um die unterschiedlichsten Effekte zu erzielen.
