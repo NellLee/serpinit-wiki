@@ -1,52 +1,6 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="/style/layout.css">
     <link rel="stylesheet" href="/style/wiki.css">
-    <title>
-        Serpinit-Wiki
-    </title>
-</head>
-
-<body>
-
-    {{> navBar}}
-
-    <div id="main-body">
-        <nav id="table-of-content">
-            <ul>
-                {{#each tocContent}}
-                <li>
-                    <a href="{{this.href}}">
-                        {{{this.text}}}
-                    </a>
-                </li>
-                {{/each}}
-            </ul>
-        </nav>
-
-        <div id="text-body">
-            <h1 class="content-header">{{title}}</h1>
-            <div id="text-column">
-                {{{contentHtml}}}
-            </div>
+        <h1 class="content-header">{{title}}</h1>
+        <div id="text-column">
+            {{{contentHtml}}}
         </div>
-
-        <div id="quick-links">
-            <h3>Mentioned here:</h3>
-            <ul>
-                {{#each refContent}}
-                <li>
-                    <a href="{{this.href}}">
-                        {{{this.text}}}
-                    </a>
-                </li>
-                {{/each}}
-            </ul>
-        </div>
-    </div>
-</body>
-
-</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/style/layout.css">
+    <title>{{safeVal title "Die Serpinit-Chroniken"}}</title>
+</head>
+
+<body>
+    {{>navBar}}
+    <div id="main-body">
+        {{>navLeftSideMenu}}
+        <div id="text-body">
+            {{{body}}}
+        </div>
+        {{>navRightSideMenu}}
+    </div>
+</body>
+
+</html>

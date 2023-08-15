@@ -3,25 +3,40 @@ import express from "express";
 import path from "path";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
-import hbs from 'hbs';
+import { handlebars } from 'hbs';
+import { engine } from 'express-handlebars';
 
 
 const app = express();
 
 
-const homeRouter = require("./routes/home");
-app.use("/", homeRouter);
 
 // view engine setup
+app.engine('hbs', engine(
+  {
+    helpers: {
+      safeVal(value, safeValue) {
+        var out = value || safeValue;
+        return new handlebars.SafeString(out);
+      }
+    },
+
+    layoutsDir: path.join(__dirname, "/views/layouts"),
+    partialsDir:  path.join(__dirname, "/views/partials"),
+    defaultLayout: "layout",
+    extname: "hbs"
+  }
+));
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "hbs");
-hbs.registerPartials(path.join(__dirname, 'views/partials'));
 
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+const homeRouter = require("./routes/home");
+app.use("/", homeRouter);
 const wikiRouter = require("./routes/wiki");
 app.use("/wiki", wikiRouter);
 app.use("/wiki/content", express.static(path.join(__dirname, "../../content")));

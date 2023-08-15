@@ -1,0 +1,11 @@
+
+        <h3>Mentioned here:</h3>
+        <ul>
+            {{#each refContent}}
+            <li>
+                <a href="{{this.href}}">
+                    {{{this.text}}}
+                </a>
+            </li>
+            {{/each}}
+        </ul>
