@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="/style/layout.css">
+    {{{_sections.head}}}
     <title>{{safeVal title "Die Serpinit-Chroniken"}}</title>
 </head>
 
@@ -10,7 +11,7 @@
     {{>navBar}}
     <div id="main-body">
         {{>navLeftSideMenu}}
-        <div id="text-body">
+        <div id="content-body">
             {{{body}}}
         </div>
         {{>navRightSideMenu}}

@@ -6,26 +6,38 @@ import express from "express";
 import path from "path";
 import jsdom from "jsdom";
 import { getFilePathsInFolder } from "../scripts/utilities";
+import imageThumbnail, { Options } from "image-thumbnail"
 
 const router = express.Router();
 
+interface Image {
+    full: string,
+    thumbnail: string
+}
 
 const { JSDOM } = jsdom;
 let $: JQueryStatic;
 
-let galleryPath = __dirname + "/../../../gallery";
+let galleryPath = path.join(__dirname + "/../../../gallery");
+
+
+let images: Image[] = []
+
+getFilePathsInFolder(galleryPath).forEach(file => {    
+    imageThumbnail(path.join(galleryPath + file), { width: 205, height: 205, responseType: 'base64' })
+    .then(thumbnail => {
+        images.push({
+            full: file.slice(1),
+            thumbnail: 'data:image/jpeg;base64,' + thumbnail.toString()
+        });
+    }).catch(err => console.error(file, err));
+})
 
 router.get("/", (req, res) => {
 
-    let imagePaths: string[] = []
-
-    getFilePathsInFolder(galleryPath).forEach(file => {
-        imagePaths.push(file.slice(1));
-    })
-
     
     res.render("gallery", {
-        imagePaths,
+        images,
     });
 })
 

@@ -18,7 +18,12 @@ app.engine('hbs', engine(
       safeVal(value, safeValue) {
         var out = value || safeValue;
         return new handlebars.SafeString(out);
-      }
+      },
+      section(name, options){
+        if(!this._sections) this._sections = {};
+        (this._sections as any)[name] = options.fn(this);
+        return null;
+    }
     },
 
     layoutsDir: path.join(__dirname, "/views/layouts"),

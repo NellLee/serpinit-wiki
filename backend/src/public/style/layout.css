@@ -43,7 +43,7 @@ body {
     align-items: stretch
 }
 
-#text-body {
+#content-body {
     min-height: 100vh;
     flex-grow: 8;
     display: flex;

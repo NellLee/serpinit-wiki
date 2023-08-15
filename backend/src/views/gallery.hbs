@@ -1,24 +1,22 @@
-<!DOCTYPE html>
-<html>
+{{#section 'head'}}
+<link rel="stylesheet" href="/style/gallery.css">
+<link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+<script  type="module">
+    import PhotoSwipeLightbox from 'photoswipe/lightbox';
+    import 'photoswipe/style.css';
 
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="/style/layout.css">
-    {{!-- <link rel="stylesheet" href="/style/gallery.css"> --}}
-    <title>
-        Serpinit-Gallerie
-    </title>
-</head>
-
-<body>
-
-    {{> navBar}}
-
-    <div id="main-body">
-        {{#each imagePaths}}
-        <img src="{{this}}"></img>
-        {{/each}}
-    </div>
-</body>
-
-</html>
+    const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('photoswipe')
+    });
+    lightbox.init();
+</script>
+{{/section}}
+<div id="gallery">
+{{#each images}}
+<a href="{{this.full}}">
+    <img src="{{this.thumbnail}}"></img>
+</a>
+{{/each}}
+</div>
