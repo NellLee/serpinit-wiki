@@ -4,7 +4,7 @@ import DOMPurify from "isomorphic-dompurify";
 import { marked } from "marked";
 import express from "express";
 import path from "path";
-import jsdom from "jsdom";
+import { JSDOM } from "jsdom";
 import { getFilePathsInFolder } from "../scripts/utilities";
 
 const router = express.Router();
@@ -13,8 +13,6 @@ interface LinkContent {
     href: string,
     text: string,
 }
-
-const { JSDOM } = jsdom;
 let $: JQueryStatic;
 
 let wikiPath = __dirname + "/../../../content";

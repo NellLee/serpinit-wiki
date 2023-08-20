@@ -7,13 +7,10 @@ import path from "path";
 import jsdom from "jsdom";
 import { getFilePathsInFolder } from "../scripts/utilities";
 import imageThumbnail, { Options } from "image-thumbnail"
+import { Image } from "../scripts/types"
 
 const router = express.Router();
 
-interface Image {
-    full: string,
-    thumbnail: string
-}
 
 const { JSDOM } = jsdom;
 let $: JQueryStatic;

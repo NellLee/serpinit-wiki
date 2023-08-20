@@ -50,6 +50,9 @@ const galleryRouter = require("./routes/gallery");
 app.use("/gallery", galleryRouter);
 app.use("/gallery", express.static(path.join(__dirname, "../../gallery")));
 
+const timelineRouter = require("./routes/timeline");
+app.use("/timeline", timelineRouter);
+
 app.use(express.static(path.join(__dirname, "public")));
 
 
