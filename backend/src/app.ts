@@ -29,7 +29,10 @@ app.engine('hbs', engine(
     layoutsDir: path.join(__dirname, "/views/layouts"),
     partialsDir:  path.join(__dirname, "/views/partials"),
     defaultLayout: "layout",
-    extname: "hbs"
+    extname: "hbs",
+    runtimeOptions: {
+      allowProtoPropertiesByDefault: true
+    }
   }
 ));
 app.set("views", path.join(__dirname, "views"));
@@ -42,6 +45,7 @@ app.use(cookieParser());
 
 const homeRouter = require("./routes/home");
 app.use("/", homeRouter);
+
 const wikiRouter = require("./routes/wiki");
 app.use("/wiki", wikiRouter);
 app.use("/wiki/content", express.static(path.join(__dirname, "../../content")));

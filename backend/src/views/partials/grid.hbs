@@ -1,14 +1,5 @@
+<script type="module">
 
-import Konva from 'konva';
-import { JSDOM } from "jsdom";
-
-//TODO move into hbs (frontend)
-
-export function loadGrid(): string {
-
-    let dom = new JSDOM('<div id="stage-container"></div>');
-    
-    const $: JQueryStatic = require("jquery")(dom.window);
 
     // Get the screen width
     const screenWidth = window.innerWidth;
@@ -49,7 +40,7 @@ export function loadGrid(): string {
     updateGridLines();
 
     // Function to handle zoom
-    function handleZoom(e: WheelEvent) {
+    function handleZoom(e) {
     e.preventDefault();
     const scaleFactor = e.deltaY < 0 ? 1.1 : 0.9;
     zoomLevel *= scaleFactor;
@@ -62,7 +53,7 @@ export function loadGrid(): string {
     stage.container().addEventListener('wheel', handleZoom);
 
     // Function to handle drag
-    let lastPosition: Konva.Vector2d | null = null;
+    let lastPosition = null;
     stage.on('mousedown', (e) => {
     lastPosition = stage.getPointerPosition();
     });
@@ -90,7 +81,11 @@ export function loadGrid(): string {
     stage.y(window.innerHeight / 2);
 
     // Add stage to the container
-    $('#stage-container').append(stage.container());
+    window.onload = function {
+        console.log("Loading grid")
+        document.getElementById('stage-container')?.appendChild(stage.container());
+    }
 
-    return dom.serialize();
-}
+</script>
+
+<div id="stage-container"></div>

@@ -20,6 +20,7 @@ let galleryPath = path.join(__dirname + "/../../../gallery");
 
 let images: Image[] = []
 
+console.log("Loading images...")
 getFilePathsInFolder(galleryPath).forEach(file => {    
     imageThumbnail(path.join(galleryPath + file), { width: 205, height: 205, responseType: 'base64' })
     .then(thumbnail => {
@@ -29,6 +30,7 @@ getFilePathsInFolder(galleryPath).forEach(file => {
         });
     }).catch(err => console.error(file, err));
 })
+console.log("... Done!")
 
 router.get("/", (req, res) => {
 

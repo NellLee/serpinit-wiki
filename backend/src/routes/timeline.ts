@@ -6,7 +6,6 @@ import { readFile } from "fs/promises";
 import { parseString } from 'xml2js';
 import { parseBooleans, parseNumbers } from "xml2js/lib/processors";
 import { isTimeline } from "../scripts/types.guard";
-import { loadGrid } from "../scripts/grid";
 
 const router = express.Router();
 
@@ -25,19 +24,20 @@ const config = {
   }
 
 
+router.get("/", async (req, res) => {
 
-getEvCatPairs().then(evCatPairs => {
-    const eventConfigs = calculateEventConfigs(config, evCatPairs)
+  console.log("Loading timeline...")
+  const eventConfigs = await getEventConfigs();
+  console.log("... Done!")
 
-    router.get("/", (req, res) => {
-
-        
-        res.render("timeline", {
-            gridHtml: loadGrid(),
-            eventConfigs,
-        })
-    })
+  res.render("timeline", {
+      eventConfigs,
+  })
 })
+
+async function getEventConfigs() {
+  return await getEvCatPairs().then(evCatPairs => calculateEventConfigs(config, evCatPairs));
+}
 
 
 function getEvCatPairs(): Promise<EvCatPair[]> {
@@ -72,7 +72,8 @@ function parseTimeline(xml: string): Promise<Timeline> {
         const timeline = result.timeline;
         if (isTimeline(timeline)) {
   
-          console.log('Valid timeline object:', timeline);
+          console.log('Valid timeline object');
+          // console.log(timeline);
           resolve(timeline);
         } else {
           let message = 'Invalid timeline object format';
@@ -84,35 +85,40 @@ function parseTimeline(xml: string): Promise<Timeline> {
   
   }
 
-function calculateEventConfigs(config, evCatPairs: EvCatPair[]): EventConfig[] {
-    
+function calculateEventConfigs(config, evCatPairs: EvCatPair[]): Promise<EventConfig[]> {
+  return new Promise((resolve, reject) => {
     const result: EventConfig[] = []
     for(let evCatPair of evCatPairs) {
-    const event = evCatPair.event
-    const category = evCatPair.category
+      const event = evCatPair.event
+      const category = evCatPair.category
 
-    let rectX = config.originX + event.start
-    let rectY = config.originY + 50 * evCatPair.index
+      let rectX = config.originX + event.start
+      let rectY = config.originY + 50 * evCatPair.index
 
-    result.push({
-        rect: {
-        x: rectX,
-        y: rectY,
-        width: config.originX + (event.end - event.start) / config.availableWidth,
-        height: 40,
-        fill: category.color,
-        },
-        text: {
-        x: rectX + 5,
-        y: rectY + 3,
-        text: event.text,
-        fontSize: 14,
-        fill: category.font_color,
-        }
-    })
+      result.push({
+          rect: {
+          x: rectX,
+          y: rectY,
+          width: config.originX + (event.end - event.start) / config.availableWidth,
+          height: 40,
+          fill: category.color,
+          },
+          text: {
+          x: rectX + 5,
+          y: rectY + 3,
+          text: event.text,
+          fontSize: 14,
+          fill: category.font_color,
+          }
+      })
     }
 
-    return result;
+    if(result.length > 0) {
+      resolve(result);
+    } else {
+      reject()
+    }
+  });
 }
 
 
