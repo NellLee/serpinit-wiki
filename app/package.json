@@ -1,0 +1,43 @@
+{
+	"name": "app",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"type-guard": "yarn run ts-auto-guard --paths src/types.d.ts --export-all",
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test": "vitest",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"@types/xml2js": "^0.4.11",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.10.1",
+		"sass": "^1.63.6",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.3",
+		"ts-auto-guard": "^4.1.3",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^4.4.2",
+		"vitest": "^0.34.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"canvas": "^2.11.2",
+		"konva": "^9.2.0",
+		"svelte-konva": "^0.3.0",
+		"xml2js": "^0.6.2"
+	}
+}
