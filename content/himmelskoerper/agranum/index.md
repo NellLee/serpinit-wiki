@@ -40,10 +40,4 @@ Carpebur ist die Hauptstadt der Sodili-Lateralen und stetiger Wohnsitz des Köni
 Die Architektur von Carpebur ist von handwerklichem Können und traditionellem Design geprägt. Die Gebäude sind aus natürlichen Materialien wie Stein, Holz und Lehm errichtet. Spitzbögen, kunstvolle Schnitzereien und verzierte Türme verleihen der Stadt eine einzigartige Ästhetik. Straßen sind gepflastert und von historischen Laternen beleuchtet. Auf dem Land erstrecken sich bewirtschaftete Felder, Wiesen und Handwerksbetriebe. Wohnviertel bieten eine Vielzahl von Unterkünften, darunter strohgedeckte Hütten, Fachwerkhäuser und erhöhte Plattformen für flugfähige Bewohner. Gemeinschaftsgärten und Marktplätze sind zentrale Treffpunkte. Viele Bauwerke sind haben ausladende Balkone, Dachterrassen und Brücken die sie mit anderen Ebenen der Stadt verbinden. Klare Bäche und Kanäle durchziehen die Stadt und dienen als Wasserwege. Steinbrücken, flache Stege und Treppen ermöglichen den Bewohnern Zugang zu den Wasserstraßen. Carpebur ist trotz seiner Vielfalt eine Stadt der Traditionen und des Handwerks. Werkstätten, Tavernen und Handelsposten bilden das Herzstück der Stadt. Märkte bieten eine Fülle von Waren, während Tempel und Schreine den Tier-Hybriden spirituelle Heimatstätten bieten.
 
 ## Resrubor-Akademie
-
-Dieser Ort ist das gesellschaftliche Zentrum der Conius-Lateralen. Hier werden junge Lateralen therapiert und
-ausgewachsene Lateralen in der Theorie der Magie ausgebildet.
-
-Resrubor hat Einzelzimmer für seine Schüler in denen nicht-destruktive Magie erlaubt ist. So gestalten die Schüler
-kreativ ein eigenes Reich. Dabei wird die Magie durch eine spezielle **Rune** reguliert.
-Es gab jedoch immer wieder Schüler die diese Rune unbemerkt manipuliert haben.
+[Resrubor-Akademie]("./resrubor.md")

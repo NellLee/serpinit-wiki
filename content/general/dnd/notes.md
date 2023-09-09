@@ -9,6 +9,8 @@ Taeron:
 Taeron, ein Conius-Lateraler, schreitet auf einem Pfad in Richtung des Dorfes. Sein Blick ist intensiv, während er die energetischen Muster in der Umgebung absucht. Seine Reise hat ihn hierhergeführt, um die natürlichen Energieflüsse zu studieren und zu verstehen. Er verlangsamt seine Schritte, als er das Dorf am Ufer erblickt. Seine magitive Wahrnehmung zeigt ihm subtile Ströme von Energie, die sich um die Häuser und den See schlängeln. Neugierig tritt er näher, seine Augen auf die Versammlung auf dem Dorfplatz gerichtet.
 
 Valeria:
+
+
 In einem nahegelegenen Wald nähert sich Valeria dem Dorf. Sie ist eine junge Sodili-Lateralin mit wilden, lockigen Haaren und einem eifrigen Funkeln in den Augen. Ihr Wolf-Micu, ein starker weißer Wolf, begleitet sie, als ob er ihre Bewegungen antizipieren könnte. Valeria fühlt eine unerklärliche Verbindung zur Natur und den Tieren um sie herum. Ihr Wolf-Micu scheint aufmerksam auf die Energie des Waldes zu reagieren. Als sie die Geräusche der Dorfbewohner hört, beschließt sie, dem Klang zu folgen und die Versammlung auf dem Dorfplatz zu erreichen.
 
 Alaric:
@@ -43,29 +45,6 @@ Die drei Charaktere kommen an einem malerischen Fischerdorf der Sodili vorbei, d
 Taeron, Valeria und Alaric beschließen, gemeinsam zu handeln. Mit ihrer unterschiedlichen Expertise arbeiten sie zusammen, um den Elementar zu beruhigen oder zu besiegen und das Dorf zu retten. Taeron nutzt seine magitive Wahrnehmung, um die energetischen Muster des Elementars zu erkennen und eine Verbindung zum Grund des Sees wahrzunehmen. Wasser des Sees fühlt sich seitdem elektrisiert an. Hören über Umwege von verrücktem Magier (ehemaliger Lehrer an Resrubor) am anderen Ende des Sees. Bei Besuch ist die Villa leer, aber beim Versuch einzubrechen sind eine Vielzahl von magischen Fallen aufgestellt.
 
 In der Nähe findet sich eine Höhle die verschiedene Räume mit unterschiedlichen Elementaren beinhaltet. Es handelt sich um Experimente des Magiers. In einem Raum eingesperrter Spirit am verrecken.
-
-...
-
-
-
-
-
-
-
-
-## Fraktionen der Resrubor-Akademie:
-
-    Lumesya: Die Mitglieder dieser Fraktion streben nach Wissen und Erleuchtung. Sie sind auf Forschung und Erkenntnis ausgerichtet. Ihr Wappen zeigt ein aufsteigendes Sonnenmotiv, das für Erleuchtung und Wissen steht. Ihre Farbe ist ein helles Gold.
-
-    Virtuara: Die Mitglieder dieser Fraktion sind stark auf Ethik und Moral ausgerichtet. Sie streben nach Tugendhaftigkeit und Integrität. Ihr Wappen zeigt eine ausgestreckte Hand, die ein Herz hält, und symbolisiert damit Mitgefühl und Wohlwollen. Ihre Farbe ist ein warmes Burgunderrot.
-
-    Audentra: Diese Fraktion ist für ihre Tapferkeit und ihren Mut bekannt. Sie setzen sich für Abenteuer und Herausforderungen ein. Ihr Wappen zeigt ein stilisiertes Schwert, das auf einen mutigen Geist hinweist. Ihre Farbe ist ein leuchtendes Kobaltblau.
-
-    Harmonya: Die Mitglieder dieser Fraktion sind für ihre Fähigkeit zur Vermittlung und Diplomatie bekannt. Sie streben nach Einheit und friedlicher Koexistenz. Ihr Wappen zeigt zwei Hände, die sich in einem freundlichen Händedruck treffen. Ihre Farbe ist ein sanftes Grün.
-
-    Ingenya: Diese Fraktion ist für ihre Kreativität und Erfindungsgabe bekannt. Sie setzen sich für Innovation und originelle Ideen ein. Ihr Wappen zeigt eine Zahnrad-ähnliche Form, die für Fortschritt und Kreativität steht. Ihre Farbe ist ein helles Silber.
-
-    Sapienya: Die Mitglieder dieser Fraktion streben nach tiefer Weisheit und Erkenntnis. Sie setzen sich für intellektuelle Tiefe und Philosophie ein. Ihr Wappen zeigt ein geöffnetes Buch mit einem strahlenden Auge darüber, das für Einsicht und Erkenntnis steht. Ihre Farbe ist ein tiefes Violett.
 
 ## Sodili Götter
     Liradon, der Hüter der Wälder:
