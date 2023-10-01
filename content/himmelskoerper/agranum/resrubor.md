@@ -9,9 +9,9 @@ Es gab jedoch immer wieder Schüler die diese Rune unbemerkt manipuliert haben.
 
 ## Die Gründung der Resrubor Akademie
 
-Ein talentierter Sodili namens Elaris, der bereits seinen Micu, verloren hatte, lernte einen jungen Sodili namens Calion kennen. Calion war noch in der Jugendphase, in der die Sodili üblicherweise ihre zweite Persönlichkeit entwickelten. Ebendieser Entwicklungsschritt blieb bei Calion jedoch aus. Obwohl bei Calion keine Therapie von Nöten war um die Abspaltung der zweiten Persönlichkeit zu verhindern, stellte er historisch gesehen das erste Mitglied des Volkes der Conius-Lateralen dar.
+Vater, verlor Micu erforscht Artefakte, bekommt Sohn, therapiert Sohn bereits als Baby, erster Conius.
 
-Die beiden, Elaris und Calion, entwickelten eine enge Freundschaft und begannen, Calions magische Fähigkeiten gemeinsam zu erkunden. Eines Tages, während ihrer Erkundungen in den weitläufigen Wäldern ihrer Heimat, stießen sie auf eine versteckte antike Ruine der Sgrisignier, die einst als eine Bibliothek für Runensteine diente.
+Die beiden begannen, Calions magische Fähigkeiten gemeinsam zu erkunden. Eines Tages, während ihrer Erkundungen in den weitläufigen Wäldern ihrer Heimat, stießen sie auf eine versteckte antike Ruine der Sgrisignier, die einst als eine Bibliothek für Runensteine diente.
 
 In dieser Ruine entdeckten sie verwitterte und vergessene Sgrisignier-Runen, die auf den Steinen und Wänden verewigt waren. Calion, der nie seine zweite Persönlichkeit entwickelt hatte, zeigte eine erstaunliche intuitive Wahrnehmung für diese Runen. Er konnte die Bedeutung einiger Runen fast instinktiv erfassen und begann, sie zu deuten.
 
