@@ -10,8 +10,7 @@ Magie - der **magischen Substanz** - geschaffen werden.
 
 Zum Verständnis kann die magische Potenz auf Atome und Elemente abgebildet werden. Jedes Element hat einen fest
 definierten **Potenzpunkt**. Liegt ein Atom dieses Elements ohne Einfluss von Magie in der Welt vor, so wird es seine
-magische Potenz diesem Wert mit der Zeit angleichen. Die Geschwindigkeit dieser Angleichung wird von der *
-*Potenzleitfähigkeit** des betroffenen sowie seiner anliegenden Atome definiert. Die Potenzleitfähigkeit ist
+magische Potenz diesem Wert mit der Zeit angleichen. Die Geschwindigkeit dieser Angleichung wird von der **Potenzleitfähigkeit** des betroffenen sowie seiner anliegenden Atome definiert. Die Potenzleitfähigkeit ist
 charakteristisch für das jeweilige Element unter Berücksichtigung seines energetischen Zustandes.
 
 Wenn die magische Potenz eines Atoms sich so stark vergrößert, dass sie die **Substanzkonstante** überschreitet, wird
@@ -48,8 +47,8 @@ explizit für das Volk der Sgrisignier erschuf, werden sie im Allgemeinen **Sgri
 
 Die Runenschrift bildet eine vielseitige Schnittstelle zur Magie. Die Sgrisignier nutzten diese Runen äußerst geschickt
 und erlangten große Macht durch sie. Auch der Hinterhalt auf Aerion war nur mit einer einzigen riesigen Rune möglich,
-welche die Sgrisignier über lange Zeit hinweg heimlich in dem Planeten [Agranum](../../himmelskoerper/agranum/index.md)
-anbrachten (<span style="color:red">TODO</span>: Link zu Hinterhalt).
+welche die Sgrisignier über lange Zeit hinweg in dem Planeten [Agranum](../../himmelskoerper/agranum/index.md)
+anbrachten.
 Anschaulich betrachtet sind die Sgrisignier-Runen eine „Programmiersprache der Realität“. Sie transformieren die Energie
 von magischer Substanz in komplexen Vorgängen um die unterschiedlichsten Effekte zu erzielen.
 
@@ -64,39 +63,31 @@ magischen Runen sind die Sgrisignier-Portale. Creapatos hat für solch komplexe 
 Kontrollstrukturen in der Runensprache eingebaut, sodass diese beispielsweise den Zustand ihrer Umgebung abfragen kann,
 zeitgesteuerte Effekte aufweist, u.v.m.
 
-
-
-<img src="D:\My_Files\Programming\serpinit-wiki\content\general\magie\images\sgrisignier-rune-erstellung.png" style="zoom: 33%;"  alt="Erstellung einer Sgrisignier Rune"/>
+<img src=". /images/sgrisignier-rune-erstellung.png" style="zoom: 33%;"  alt="Erstellung einer Sgrisignier Rune"/>
 Sgrisignier Rune in einem Runenstein bevor (links) und nachdem (rechts) die Kraft des magischen Substanz-Kerns programmiert wurde
 
 ### Allgemeine Oveläre Magie
 
-Alle Lebewesen der **Ovelären Planeten** entwickelten im Verlauf der magisch beeinflussten Evolution nach dem Fall der
+Nach dem Fall der Sgrisignier existierte für lange Zeit keine einzige Spezies mit magischen Fähigkeiten im Serpinit-System (abgesehen von Elementaren die sich spontan an bestehenden magischen Orten bildeten). Die Aufteilung von Creapatos in die vier Elementardrachen hat jedoch  vier der sieben Planeten durch und durch mit Magie erfüllt. Auf diesen sogenannten **Ovelären Planeten** hat daraufhin über Millionen Jahre hinweg eine **arcanogene Evolution** stattgefunden. 
+
+#### Arcanogene Evolution
+
+Alle Lebewesen der Ovelären Planeten entwickelten im Verlauf einer magisch beeinflussten Evolution nach dem Fall der
 Sgrisignier ein Sinnesorgan im Gehirn, welches sie befähigt die magische Potenz in ihrer Umgebung zu erfühlen. Diese
 „magitive Wahrnehmung“ ist dabei für den Wahrnehmenden immer relativ zum Potenzpunkt eines jeweiligen Elementes. Die
 meisten dieser Lebewesen sind außerdem in der Lage die magische Potenz der Stoffe die lokal an ihrem Körper anliegen
 mehr oder minder stark zu beeinflussen.
 
+#### Neu-Entdeckung der Sgrisignier-Runen
+
 Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war jedoch für die modernen Völker lange
-Zeit unbekannt. Einige Völker entdeckten lediglich die Runenschatten auf einigen der antiken Strukturen der Sgrisignier,
-doch konnten sie nur wenig mit diesen für sie kryptischen Schriftzeichen anfangen.
-Die Conius-Lateralen widmeten sich als erstes Volk der Funktionsweise der Runen, indem sie die Steine der
-Sgrisignier-Portale analysierten.
-So erlangten sie erstmals wieder das Wissen um die Dreidimensionalität der magischen Runen.
+Zeit unbekannt. Viele Lebewesen konnten die Magie von z. B. den Sgrisignier-Portalen zwar prinzipiell spüren, jedoch war ihre magitive Wahrnehmung zu stumpfsinnig um die Feinheiten einer komplexen Sgrisignier-Rune auch nur ansatzweise wahrnehmen zu können. 
+Die Lateralen entdeckten schließlich als erstes das Phänomen der Runenschatten in antiken Strukturen der Sgrisignier auf Agranum. 
+Zuerst konnten sie zwar nur wenig mit diesen für sie kryptischen Schriftzeichen anfangen, doch nach der Abspaltung der Conius-Lateralen widmeten sie sich als erstes Volk der gezielten Analyse dieser Schriftzeichen. Mit der Zeit verstanden sie die Verbindung zur Magie immer besser und so erlangten sie letztendlich erstmals wieder das Wissen um die Dreidimensionalität der magischen Runen, auch wenn sie selbst nicht in der Lage waren dreidimensionale Runen zu erstellen. In der Resrubor-Akademie wurden mit der Zeit immer mehr Querschnitte von Sgrisignier Runen entschlüsselt, wodurch die Conius-Lateralen zumindest eine reduzierte Form der magischen Runen für sich nutzen konnten. 
 
-Die Conius-Lateralen der Resrubor Akademie entwickelten eine erweiterte Version der Sgrisigier-Runen welche sie auf die
-Definition eines Querschnittes reduzierte
+Es wird zwischen stumpfen, scharfen und aktiven Runen unterschieden. Stumpfe Runen sind z.B. aufgemalt
+und haben noch keinen direkten magischen Effekt. Während die Linien der Rune selbst aus einem Stoff mit einer sehr hohen Potenzleitfähigkeit bestehen müssen, sollte der Untergrund wiederum eine niedrige Potenzleitfähigkeit haben, damit die Rune die Energie des Runenkerns effektiv leiten kann. Eine stumpfe Rune hat noch keinen aktiven Runenkern und kann daher von einem Lebewesen mit den entsprechenden magischen Fähigkeiten aktiviert werden. Scharfe Runen sind jedoch noch nicht zwingend aktiv, da ihre Aktivierung zum Beispiel noch von einem äußeren Faktor abhängt, ohne den die Rune keine Workung zeigt. Scharfe Runen werden bei fehlender Auslösung durch die Abkühlung des Runenkerns mit der Zeit schwächer und stumpfen ab.
 
-Es wird zwischen stumpfen, scharfen und aktiven Runen unterschieden. Stumpfe Runen sind z.B. aufgemalt oder eingeritzt
-und haben keinen eigenständigen magischen Effekt. Sie machen den Untergrund empfänglicher für die jeweilige Magie und
-können von einem Lebewesen mit den entsprechenden magischen Fähigkeiten aktiviert werden. Scharfe Runen können durch
-direkte magische Katalyse oder durch das aufladen einer stumpfen Rune erschaffen werden. Um sie zu aktivieren ist
-lediglich ein äußerer Energieeinfluss vonnöten. Scharfe Runen werden bei fehlender Auslösung mit der Zeit schwächer und
-stumpfen ab.
-
-### Arcanogene Evolution
-
- <span style="color: red;">(TODO)</span>
 
 ## Mögliche Magieformen <span style="color: red;">(TODO)</span>
 
