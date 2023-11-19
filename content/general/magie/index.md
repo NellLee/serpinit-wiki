@@ -63,12 +63,11 @@ magischen Runen sind die Sgrisignier-Portale. Creapatos hat für solch komplexe 
 Kontrollstrukturen in der Runensprache eingebaut, sodass diese beispielsweise den Zustand ihrer Umgebung abfragen kann,
 zeitgesteuerte Effekte aufweist, u.v.m.
 
-<img src=". /images/sgrisignier-rune-erstellung.png" style="zoom: 33%;"  alt="Erstellung einer Sgrisignier Rune"/>
-Sgrisignier Rune in einem Runenstein bevor (links) und nachdem (rechts) die Kraft des magischen Substanz-Kerns programmiert wurde
+<img src="./images/sgrisignier-rune-erstellung.png" alt="Erstellung einer Sgrisignier Rune" style="zoom:33%;" />Sgrisignier Rune in einem Runenstein bevor (links) und nachdem (rechts) die Kraft des magischen Substanz-Kerns programmiert wurde
 
 ### Allgemeine Oveläre Magie
 
-Nach dem Fall der Sgrisignier existierte für lange Zeit keine einzige Spezies mit magischen Fähigkeiten im Serpinit-System (abgesehen von Elementaren die sich spontan an bestehenden magischen Orten bildeten). Die Aufteilung von Creapatos in die vier Elementardrachen hat jedoch  vier der sieben Planeten durch und durch mit Magie erfüllt. Auf diesen sogenannten **Ovelären Planeten** hat daraufhin über Millionen Jahre hinweg eine **arcanogene Evolution** stattgefunden. 
+Nach dem Fall der Sgrisignier existierte für lange Zeit keine einzige Spezies mit magischen Fähigkeiten im Serpinit-System. Eine Ausnahme bilden die Elementare die sich spontan an bestehenden magischen Orten bilden, doch da sie prinzipiell aus Magie bestehen werden sie nur selten als Lebewesen gezählt. Die Aufteilung von Creapatos in die vier Elementardrachen hat zwar vier der sieben Planeten mit extrem mächtiger Magie erfüllt, doch dauerte es Jahrtausende bis auch diese Magie bis an die jeweilige Oberfläche drang. Auf diesen ovelären Planeten hat daraufhin über Millionen Jahre hinweg eine **arcanogene Evolution** stattgefunden. 
 
 #### Arcanogene Evolution
 
@@ -78,12 +77,11 @@ Sgrisignier ein Sinnesorgan im Gehirn, welches sie befähigt die magische Potenz
 meisten dieser Lebewesen sind außerdem in der Lage die magische Potenz der Stoffe die lokal an ihrem Körper anliegen
 mehr oder minder stark zu beeinflussen.
 
-#### Neu-Entdeckung der Sgrisignier-Runen
-
 Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war jedoch für die modernen Völker lange
-Zeit unbekannt. Viele Lebewesen konnten die Magie von z. B. den Sgrisignier-Portalen zwar prinzipiell spüren, jedoch war ihre magitive Wahrnehmung zu stumpfsinnig um die Feinheiten einer komplexen Sgrisignier-Rune auch nur ansatzweise wahrnehmen zu können. 
-Die Lateralen entdeckten schließlich als erstes das Phänomen der Runenschatten in antiken Strukturen der Sgrisignier auf Agranum. 
-Zuerst konnten sie zwar nur wenig mit diesen für sie kryptischen Schriftzeichen anfangen, doch nach der Abspaltung der Conius-Lateralen widmeten sie sich als erstes Volk der gezielten Analyse dieser Schriftzeichen. Mit der Zeit verstanden sie die Verbindung zur Magie immer besser und so erlangten sie letztendlich erstmals wieder das Wissen um die Dreidimensionalität der magischen Runen, auch wenn sie selbst nicht in der Lage waren dreidimensionale Runen zu erstellen. In der Resrubor-Akademie wurden mit der Zeit immer mehr Querschnitte von Sgrisignier Runen entschlüsselt, wodurch die Conius-Lateralen zumindest eine reduzierte Form der magischen Runen für sich nutzen konnten. 
+Zeit unbekannt. Viele Lebewesen konnten die aktiven Runensteine der Sgrisignier-Portale oder die Überreste der Magie in antiken Sgrisignier-Strukturen zwar prinzipiell spüren, jedoch war ihre magitive Wahrnehmung zu stumpfsinnig um die Feinheiten einer komplexen Sgrisignier-Rune auch nur ansatzweise erfassen zu können. Für die meisten Lebewesen war die magitive Wahrnehmung daher vor Allem ein Warnsystem. Spürbare Abweichungen vom Potenzpunkt eines wahrgenommenen Materials bedeuten, dass sich ein Wymen-Riss in der Nähe befindet, an dem sich potentiell immer Elementare bilden können. Erhöhte magische Potenz kann aber auch bedeuten, dass starke, potentiell gefährliche Magie in der Nähe stattfindet.
+
+Die Lateralen entdeckten schließlich als erstes Volk das Phänomen der [Runenschatten](./tjosand.md#Magische Eigenschaften) in einer antiken Tjosand-Mine der Sgrisignier auf Agranum. 
+Zuerst konnten sie zwar nur wenig mit diesen für sie kryptischen Schriftzeichen anfangen, doch mit den Conius-Lateralen entwickelte sich eine starkes Interesse gefolgt von einer gezielten Analyse ebendieser Schriftzeichen. Mit der Zeit verstanden die Conius die Verbindung zur Magie immer besser und erlangten so letztendlich als erstes Volk wieder das Wissen um die Dreidimensionalität der magischen Sgrisignier-Runen, auch wenn sie nicht in der Lage waren dreidimensionale Runen selbst zu erstellen. In der Resrubor-Akademie wurden stattdessen mit der Zeit immer mehr Querschnitte von Sgrisignier Runen entschlüsselt. Einigen wenigen Teilen von Querschnitten von dreidimensionalen Sgrisignier-Runen konnte dabei ein konkreter magischer Effekt zugeordnet werden. Dies befähigte die Conius-Lateralen zumindest eine reduzierte Form der magischen Runen für sich nutzen zu können. 
 
 Es wird zwischen stumpfen, scharfen und aktiven Runen unterschieden. Stumpfe Runen sind z.B. aufgemalt
 und haben noch keinen direkten magischen Effekt. Während die Linien der Rune selbst aus einem Stoff mit einer sehr hohen Potenzleitfähigkeit bestehen müssen, sollte der Untergrund wiederum eine niedrige Potenzleitfähigkeit haben, damit die Rune die Energie des Runenkerns effektiv leiten kann. Eine stumpfe Rune hat noch keinen aktiven Runenkern und kann daher von einem Lebewesen mit den entsprechenden magischen Fähigkeiten aktiviert werden. Scharfe Runen sind jedoch noch nicht zwingend aktiv, da ihre Aktivierung zum Beispiel noch von einem äußeren Faktor abhängt, ohne den die Rune keine Workung zeigt. Scharfe Runen werden bei fehlender Auslösung durch die Abkühlung des Runenkerns mit der Zeit schwächer und stumpfen ab.

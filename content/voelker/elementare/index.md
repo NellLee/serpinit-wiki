@@ -1,5 +1,7 @@
 # Die Elementare
 
+TODO: Elementare sind selbsterhaltende magische Substanz an einem Wymen-Riss
+
 Es ist nach wie vor umstritten, ob Elementare überhaupt als eigenständige Lebewesen gelten, da sie keinen direkten
 Verstand aufweisen. Sie bestehen aus purer Magie, verkörpern ein oder mehrere Elemente und handeln ausschließlich
 Instinktgesteuert. Außerdem pflanzen sich Elementare nicht fort. Stattdessen entstehen sie einfach, meist durch magische
