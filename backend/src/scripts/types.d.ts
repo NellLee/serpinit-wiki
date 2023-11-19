@@ -24,7 +24,7 @@ interface TextConfig {
   fill: string,
 }
 
-export interface Timeline {
+export interface CategorizedTimeline {
     version: string;
     timetype: string;
     categories: Category[];
