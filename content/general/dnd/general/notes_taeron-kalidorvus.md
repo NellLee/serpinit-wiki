@@ -1,1 +1,0 @@
-War in den Fraktionen Lumesya und Audentra. Lehrte für einige Zeit in der Lumesya Fraktion bevor er aufbrach um die Welt zu erkunden und weitere Erkenntnisse über die Sgrisignier zu finden.

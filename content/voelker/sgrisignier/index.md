@@ -4,13 +4,15 @@ Die Sgrisignier sind eine uralte Hochkultur des Serpinit-Systems. So lange es si
 
 Sgrisignier sind komplett haarlose, 3 - 4,5 m große Kreaturen mit langen, dürren Gliedmaßen. Ihre Haut ist gräulich und leicht rauh und ihre Augen sind zumeist rot oder lila gefärbt. 
 
+# Magische Entwicklung
 
-# Runen
+## Runen
+
 Die Sgrisignier-Runen stellen eine Schnittstelle zur Magie dar, welche Creapatos den Sgrisigniern bot. Creapatos nutzte in seiner Allmächtigkeit die von ihm erschaffenen Magiefaktoren Wymen & Vendos in einer sehr intuitiven Form. Um seinem ersten Volk ebenfalls einen Zugang zur Magie zu geben, gab er ihnen magische Intelligenz und insbesondere das Wissen um ein magisches, dreidimensionales Schriftsystem, mit welchem Wymen & Vendos ebenfalls manipuliert werden konnten. Man kann sich die Sgrisignier-Runen wie eine Programmiersprache der Realität vorstellen, geschrieben in einem Schriftsystem das mit topologischer Knotenlehre korreliert. 
 
 Runen werden von vielen Völkern weiterhin genutzt, da sie das Wymen beeinflussen können.
 
-# Portale
+## Portale
 
 Auf nahezu jedem Planeten des Serpinit-Systems befinden sich rundliche Steintore die von uralter Runenmagie
 durchdrungen sind. Diese Steinbögen sind Portale, wobei in der Theorie immer genau zwei Portale miteinander verbunden
@@ -18,6 +20,8 @@ sind. Sie wurden von den Sgrisigniern gebaut und genutzt um schnell und unkompli
 können. Die Portale überlebten den Fall der Sgrisignier und werden auch von den modernen Völkern weiter genutzt. Doch
 bevor die Conius-Lateralen die Chaos-Portale gezähmt haben, war die Benutzung aufgrund von Chaos-Portalen äußerst
 gefährlich.
+
+[...] und so das interplanetare Reisen für die Sgrisignier unabhängig von den Orbits der Planeten ermöglichte.
 
 ## Chaos-Portale
 

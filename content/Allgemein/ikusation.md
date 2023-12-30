@@ -1,0 +1,3 @@
+# Ikusation
+
+Als Ikusation ist der Prozess bekannt, bei dem die Sgrisignier-Portale durch die Lateralen erschlossen wurden wodurch sämtliche intelligenten Bewohner der habitablen Planeten des Serpinit-Systems Kontakt untereinander aufbauen konnten. Diese Initiative wurde gemeinsam vom Königshaus der Sodili und der Resrubor Akademie der Lateralen gestartet. Während die Erkenntnis über die Funktionsweise der Sgrisignier-Portale durch die Resrubor Akademie die Grundlage für dieses Unterfangen bildete, war die Vielfalt der Sodili und ihrer Fähigkeiten der entscheidende Faktor um die Portale tatsächlich zu erschließen. 
