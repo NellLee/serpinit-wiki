@@ -30,14 +30,3 @@ Durch die Windmagie des hoch-reaktiven magischen Kerns durchströmte den Wüsten
 Da die Gravidblase für die meisten Gase durchlässig ist, sammelten sich unterhalb der Kontinente vor allem dichte Gase, wie Kohlenstoffdioxid, Ammoniak oder Methan, während die obere Atmosphäre reich an Sauerstoff ist. Die überlebenden Lebewesen auf den Kontinenten haben sich im Laufe der Zeit an die ungewöhnliche Umgebung angepasst. So gibt es z. B. viele Flugwesen die zwischen den schwebenden Inseln gleiten, und sogar Pflanzen, die sich auf die schwerkraftfreie Ebene ausbreiten konnten. 
 
 Die schwebenden Kontinente werden natürlich nicht durch herkömmliche Plattentektonik bewegt. Die Gravidblase weißt jedoch komplexe Wechselwirkungen an ihren Grenzen auf, welche die Positionen der Kontinente langsam verändern und so trotzdem plattentektonische Effekte verursachen.
-
-# Orte
-
-## Carpebur
-
-Carpebur ist die Hauptstadt der Sodili-Lateralen und stetiger Wohnsitz des Königshauses. Die Stadt liegt am Rand einer der schwebenden Kontinentalplatten und ragt zum Teil sogar darüber hinaus, wobei die äußeren Bauwerke komplett von der Gravidblase getragen werden. Außerdem erstreckt sich die Stadt in einen angrenzenden See und wird von vielen Kanälen durchzogen. Viele Bauwerke liegen teilweise unter der Wasseroberfläche. Insgesamt ist Carpebur somit speziell für die Bedürfnisse und Fähigkeiten der Tier-Hybriden zugeschnitten. 
-
-Die Architektur von Carpebur ist von handwerklichem Können und traditionellem Design geprägt. Die Gebäude sind aus natürlichen Materialien wie Stein, Holz und Lehm errichtet. Spitzbögen, kunstvolle Schnitzereien und verzierte Türme verleihen der Stadt eine einzigartige Ästhetik. Straßen sind gepflastert und von historischen Laternen beleuchtet. Auf dem Land erstrecken sich bewirtschaftete Felder, Wiesen und Handwerksbetriebe. Wohnviertel bieten eine Vielzahl von Unterkünften, darunter strohgedeckte Hütten, Fachwerkhäuser und erhöhte Plattformen für flugfähige Bewohner. Gemeinschaftsgärten und Marktplätze sind zentrale Treffpunkte. Viele Bauwerke sind haben ausladende Balkone, Dachterrassen und Brücken die sie mit anderen Ebenen der Stadt verbinden. Klare Bäche und Kanäle durchziehen die Stadt und dienen als Wasserwege. Steinbrücken, flache Stege und Treppen ermöglichen den Bewohnern Zugang zu den Wasserstraßen. Carpebur ist trotz seiner Vielfalt eine Stadt der Traditionen und des Handwerks. Werkstätten, Tavernen und Handelsposten bilden das Herzstück der Stadt. Märkte bieten eine Fülle von Waren, während Tempel und Schreine den Tier-Hybriden spirituelle Heimatstätten bieten.
-
-## Resrubor-Akademie
-[Resrubor-Akademie]("./resrubor.md")

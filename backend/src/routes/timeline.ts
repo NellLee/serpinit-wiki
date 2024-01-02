@@ -6,7 +6,6 @@ import { readFile } from "fs/promises";
 import { parseString } from 'xml2js';
 import { parseBooleans, parseNumbers } from "xml2js/lib/processors";
 import { isTimeline } from "../scripts/types.guard";
-import { Timeline, DataSet } from "vis-timeline/standalone";
 import { JSDOM } from "jsdom";
 let $: JQueryStatic;
 
@@ -32,35 +31,6 @@ router.get("/", async (req, res) => {
   console.log("Loading timeline...")
   const eventConfigs = await getEventConfigs();
   console.log("... Done!")
-
-  // Create custom time unit
-  const customTimeUnit = {
-    'myr': 1000000,
-    'kyr': 1000,
-    'yr': 1
-  };
-
-  // Sample data
-  const items = new DataSet([
-    { 'id': 1, 'content': 'Event 1', 'start': '2000' },
-    { 'id': 2, 'content': 'Event 2', 'start': '3000', 'end': '4000' }
-    // Add more items as needed
-  ]);
-
-  // Configuration options
-  const options = {
-    'zoomMin': customTimeUnit['yr'],
-    'zoomMax': customTimeUnit['myr']
-  };
-
-  
-  let dom = new JSDOM("<!DOCTYPE html><body><div id=\"timeline\"></div></body>");
-  $ = require("jquery")(dom.window);
-
-
-  // Create and configure the timeline
-  const timeline = new Timeline($('#timeline')[0], items, options);
-
 
   res.render("timeline", {
     eventConfigs,

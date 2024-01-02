@@ -27,7 +27,6 @@
     "serve-index": "^1.9.1",
     "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.4",
-    "vis-timeline": "^7.7.3",
     "xml2js": "^0.6.2",
     "yarn": "^1.22.19"
   },
