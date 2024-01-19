@@ -9,9 +9,7 @@ Mission und Geheimnisse:
 Die Schulleitung der Resrubor-Akademie hat Widim beauftragt, Ingvor mit den streng vertraulichen Informationen zu konfrontieren. Die Schriftrolle informiert über einen bedeutenden Fortschritt in der Runenforschung, der die Möglichkeit eröffnet, Portale zu öffnen. Die Resrubor-Akademie plant eine globale Erkundungsinitiative und plant ein geheimes Treffen mit dem Sodili König in wenigen Wochen. Die Brisanz dieser Informationen betont die Notwendigkeit strikter Geheimhaltung.
 
 Verantwortung und Zukunft:
-Widim steht vor der Herausforderung, die Nachricht an Ingvor zu übermitteln und dabei die Tragweite der Informationen zu 
-
-betonen. Seine Zukunft hängt nicht nur von seiner Fähigkeit ab, die Nachricht sicher zu überbringen, sondern auch davon, wie er mit den geheimen Plänen der Akademie umgeht.
+Widim steht vor der Herausforderung, die Nachricht an Ingvor zu übermitteln und dabei die Tragweite der Informationen zu betonen. Seine Zukunft hängt nicht nur von seiner Fähigkeit ab, die Nachricht sicher zu überbringen, sondern auch davon, wie er mit den geheimen Plänen der Akademie umgeht.
 
 Widim Mandijit, als junger Magier, trägt eine schwere Verantwortung auf seinen Schultern und steht vor einer wichtigen Mission, die nicht nur seine eigene Zukunft, sondern auch die Geschicke der Magiewelt beeinflussen könnte.
 
