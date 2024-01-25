@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "win_dev": "set PORT=8000&& set NODE_ENV=development&& tsc-watch --onSuccess \"ts-node src/bin/index.ts\"",
+    "lin_dev": "PORT=8000 NODE_ENV=development && tsc-watch --onSuccess \"ts-node src/bin/index.ts\"",
     "lin_prod": "tsc && NODE_ENV=production PORT=3000 ts-node dist/bin/index.ts"
   },
   "dependencies": {
