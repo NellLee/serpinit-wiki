@@ -53,7 +53,7 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
 Bei der Ankunft am Wolkenhafen werden die Spieler von Kwint Gurdun erwartet. Die anderen Mitglieder der Expedition* beladen bereits das Schiff. Nachdem die Spieler (hoffentlich) beim Verladen geholfen haben, legt die Mannschaft schnellstmöglich ab. Kwint winkt bei näheren Nachfragen ab, da er die geheimen Details erst auf hoher See besprechen möchte.
 Das angestrebte Vorgehen ist die Etablierung einer Versorgungskette durch mehrere Portale. Es wurde sich explizit gegen eine großflächige Erschließung mehrerer einzelner Portale entschieden, da die Gefahren zu wenig bekannt und zu unberechenbar sind. Sollten z. B. mehrere Portale in der Umgebung der Stadt erschlossen werden woraufhin sich dann ungeahnte Gefahren ergeben, könnte das die gesamte Sodili-Hauptstadt gefährden. Stattdessen soll mit der Zeit ein einziger gefestigter Stützpunkt um das erste erschlossene Portal errichtet werden. Vom Ziel-Ort des Portals werden dann weitere Portale gesucht und erschlossen, sodass im schlimmsten Fall nur ein Portal verteidigt werden muss.
 
-*: die obigen, nicht-bespielten Charaktere.
+*: die obigenoben eingeführten, nicht-bespielten Charaktere.
 
 ## Mögliche Ziele
 
