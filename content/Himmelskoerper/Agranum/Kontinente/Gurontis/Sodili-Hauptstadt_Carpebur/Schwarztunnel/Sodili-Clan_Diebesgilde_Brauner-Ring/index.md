@@ -8,7 +8,9 @@ Trotz der zwielichtigen Natur der Diebesgilde, hat sich mit der Zeit eine klare 
 
 ## Der Anführer
 
-Der braune Ring wird angeführt von Brovick Lest, einem breit gebautem Sodili mit seinem Schlangen-Micu Joll. Brovick ist die unangefochtene Entscheidungsgewalt des braunen Rings und seit dem [...] die meistgesuchte Person in Carpebur. Er verlässt das Hauptquartier nur äußerst selten und agiert fast ausschließlich durch sein Netzwerk aus Informanten und treuen Anhängern. Es ist unklar welche Auswirkungen der Tod von Brovick auf die Organisation hätte, doch viele gehen davon aus, dass der braune Ring sich selbst beim Kampf um den Platz des Anführers zerfleischen würde.
+Der braune Ring wird angeführt von Brovick Lest, einem breit gebautem Sodili mit seinem Schlangen-Micu Joll. Brovick ist die unangefochtene Entscheidungsgewalt des braunen Rings und seit dem [...] die meistgesuchte Person in Carpebur. Er verlässt das Hauptquartier nur äußerst selten und agiert fast ausschließlich durch sein Netzwerk aus Informanten und treuen Anhängern. 
+
+Es ist unklar welche Auswirkungen der Tod von Brovick auf die Organisation hätte, doch viele gehen davon aus, dass der braune Ring sich selbst beim Kampf um den Platz des Anführers zerfleischen würde.
 
 ## Die Schmutzfinger
 
