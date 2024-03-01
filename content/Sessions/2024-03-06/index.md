@@ -12,7 +12,23 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
     * Wenn sie es als möglich einstufen müssen sie das Portal durchschreiten.
 * Die nicht-spielenden begleitenden Conius und Sodili sind keine große Hilfe.
 
-<!-- TODO: Begegnung mit braunem Ring definieren -->
+## Alarics Begegnung mit dem braunen Ring
+* Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis.
+* Auf den Tunnelwänden vor der Tür sind viele Kritzeleien, ein geübtes Auge erkennt sie als Diebesschrift.
+* Über der Tür steht: "Spüret die schmerzenden Dornen des bedeutsamen Ringes" / "Fühle die relevanten Spitzen des Ring-Symbols nach"
+* Auf den Tunnelwänden sind insgesamt 3 Hinweise:
+    * "Frische Dornen haben grüne Spitzen" / "Zuerst, die Zacke die auf das Moos zeigt"
+    * "Reifende Dornen spicken den Weg in die Tiefe" / "Als zweites die Zacke nach unten"
+    * "Starke Dornen begehren den Stahl" / "Als letztes, die Zacke die zur Klinke zeigt"
+* Wenn Alaric die Zacken korrekt berührt, wird ihm die Tür geöffnet.
+* Ihm gegenüber steht ein schlaksiger Sodili in heruntergekommenen Klamotten und mit einer Kakerlake auf der Schulter
+* Er mustert Alaric durchgehend, dann springt die Kakerlake von seiner Schulter und verschwindet im Tunnel hinter ihm.
+* Der Sodili hält Alaric eine Weile hin und erfragt seine Absichten.
+* Sollte Alaric ihn nicht verärgern, wird er wenig später durchgelassen und betritt ein kleines Gewölbe.
+* Es stehen modrige, alte, nicht zusammenpassende Holztische und -stühle herum und der Raum ist gefüllt mit ca. 13 zwielichtigen Gestalten.
+* An einem Tisch in der Ecke erwartet ihn der Schmutzfinger Jolint.
+* Jolint erklärt Alaric die Hierarchie des Ringes und macht ihm außerdem 
+<!-- TODO -->
 
 ## Charaktere
 
