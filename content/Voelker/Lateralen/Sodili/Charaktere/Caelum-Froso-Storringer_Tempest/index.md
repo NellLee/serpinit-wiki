@@ -1,0 +1,6 @@
+# Caelum Storringer (Paladin) & Tempest (Krokodil)
+* **Stärken**: Caelum ist ein erfahrener Kämpfer. Seine Treue zu seinen Verbündeten und sein ausgeprägter Gerechtigkeitssinn machen ihn zu einem starken Verteidiger.
+* **Schwächen**: Seine Starrköpfigkeit und sein Bedürfnis, stets das Richtige zu tun, können zu Konflikten führen, wenn es um moralische Entscheidungen geht. Außerdem hat Caelum große Angst vor Magie, auch wenn er sich dies nicht anmerken lassen will.
+* **Beschreibung**: Caelum ist ein erfahrener Krieger und Mitglied der königlichen Garde. Er ist bekannt für seine Tapferkeit und seinen starken Sinn für Loyalität gegenüber seinem Volk und seinem König. Obwohl er oft ernst wirkt, hat er ein Herz aus Gold und ist stets bereit, seinen Freunden beizustehen.
+* **Motivation**: Als Mitglied der königlichen Garde wurde Caelum ausgewählt, um die Expedition zu beschützen. Darüber hinaus wurde Caelum insbesondere aufgetragen die Conius-Lateralen und ihre Magie-Ausübung genauestens zu beobachten und mögliche verdeckte Absichten aufzudecken.
+* **Micu**: Caelums Micu ist ein imposantes Krokodil namens Tempest. Mit seiner beeindruckenden Größe und seiner guten Agilität im Wasser ist Tempest ein mächtiger Verbündeter in Kampfsituationen.
