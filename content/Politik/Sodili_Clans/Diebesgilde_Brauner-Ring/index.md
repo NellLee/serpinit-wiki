@@ -8,7 +8,7 @@ Trotz der zwielichtigen Natur der Diebesgilde, hat sich mit der Zeit eine klare 
 
 ## Der Anführer
 
-Der braune Ring wird angeführt von Brovick Lest, einem breit gebautem Sodili mit seinem Schlangen-Micu Joll. Brovick ist die unangefochtene Entscheidungsgewalt des braunen Rings und seit dem [...] die meistgesuchte Person in Carpebur. Er verlässt das Hauptquartier nur äußerst selten und agiert fast ausschließlich durch sein Netzwerk aus Informanten und treuen Anhängern. 
+Der braune Ring wird angeführt von Brovick Lest, einem breit gebautem Sodili mit seinem Schlangen-Micu Joll. Brovick ist die unangefochtene Entscheidungsgewalt des braunen Rings und aus diesem Grund die meistgesuchte Person in Carpebur. Er verlässt das Hauptquartier nur äußerst selten und agiert fast ausschließlich durch sein Netzwerk aus Informanten und treuen Anhängern, denn nur so ist seine Identität immernoch ein Geheimnis. 
 
 Es ist unklar welche Auswirkungen der Tod von Brovick auf die Organisation hätte, doch viele gehen davon aus, dass der braune Ring sich selbst beim Kampf um den Platz des Anführers zerfleischen würde.
 
@@ -18,11 +18,7 @@ Die treuesten Anhänger von Brovick genießen besondere Vorzüge, haben aber auc
 
 ### Charaktere
 
-#### Jolint Wolenson (Rekrutierer) & Suul (Aal)
-* **Stärken**: Kann sich ausgesprochen gut herausreden und verhandlen.
-* **Schwächen**: Ist sehr gierig.
-* **Beschreibung**: Jolint ist für alle Neuzugänge der Gilde verantwortlich. Er weißt die Rekruten ihrer Ausrichtung zu, sollten sie sich als fähig bewiesen haben. Jolint ist dafür bekannt die Rekruten am Anfang auszunehmen, zum einen um sie zu testen und zum anderen um das erbeutete Diebesgut für sich einzuheimsen.
-* **Micu**: Sein Micu ist der Aal Suul, passend zu seinem schmierigen Erscheinungsbild.
+* [Jolint Wolenson (Rekrutierer) & Suul (Aal)](/content/Voelker/Lateralen/Sodili/Charaktere/Jolint-Enol-Wolenson/index.md)
 
 #### Liora Merelis (Taschendiebin) & Silka (Katze)
 * **Stärken**: Geschicktes Taschendiebstahlhandwerk, Flinkheit, Beweglichkeit in Menschenmengen.

@@ -63,7 +63,7 @@ magischen Runen sind die Sgrisignier-Portale. Creapatos hat für solch komplexe 
 Kontrollstrukturen in der Runensprache eingebaut, sodass diese beispielsweise den Zustand ihrer Umgebung abfragen kann,
 zeitgesteuerte Effekte aufweist, u.v.m.
 
-<img src="./images/sgrisignier-rune-erstellung.png" alt="Erstellung einer Sgrisignier Rune" style="zoom:33%;" />Sgrisignier Rune in einem Runenstein bevor (links) und nachdem (rechts) die Kraft des magischen Substanz-Kerns programmiert wurde
+![Erstellung einer Sgrisignier Rune](./images/Sgrisignier-Rune_Programmierung_komplex.png)Sgrisignier Rune in einem Runenstein bevor (links) und nachdem (rechts) die Kraft des magischen Substanz-Kerns programmiert wurde
 
 ### Allgemeine Oveläre Magie
 

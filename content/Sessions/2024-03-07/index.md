@@ -2,9 +2,7 @@
 
 Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen. Sie haben sich gegen das naheliegendere entschieden, um mit einem Schiff über den Gravitationsozean zu fahren. Sie werden begleitet von 3 Conius-Forschern (unter anderem Kwint Gurdun) und 2 Sodili im Auftrage des Köngis.
 
-Ákos und Lando treten der Gruppe vielleicht bei und übernehmen jeweils einen der Charaktere (außer Kwint).
-
-Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich. Taeron hat einen Unsichtbarkeits-Umhang in einem geheimen Conius-Laden in der grauen Zone gekauft, Alaric sucht den "braunen Ring" in den Schwarztunneln und steht vor dessen Türen, und Kle hat eine Bibel von der Bibliothek abgeholt und hat vor zu angeln. Die neuen Spieler können sich im Verlauf desselben Tages bei Bedarf noch in der Stadt ausstatten.
+Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich. Taeron hat einen Unsichtbarkeits-Umhang in einem geheimen Conius-Laden in der grauen Zone gekauft, Alaric sucht den "braunen Ring" in den Schwarztunneln und steht vor dessen Türen, und Kle hat eine Bibel von der Bibliothek abgeholt.
 
 Die Spieler müssen nach wie vor das erste Portal erschließen: 
 * Ihre Aufgabe besteht aus zwei Teilen:
@@ -15,10 +13,10 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
 ## Alarics Begegnung mit dem braunen Ring
 * Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis.
 * Auf den Tunnelwänden vor der Tür sind viele Kritzeleien, ein geübtes Auge erkennt sie als Diebesschrift.
-* Über der Tür steht: "Spüret die schmerzenden Dornen des bedeutsamen Ringes" / "Fühle die relevanten Spitzen des Ring-Symbols nach"
+* Über der Tür steht: "Spüret die schmerzenden Dornen des bedeutsamen Ringes" / "Drücke auf die relevanten Spitzen des Ring-Symbols"
 * Auf den Tunnelwänden sind insgesamt 3 Hinweise:
     * "Frische Dornen haben grüne Spitzen" / "Zuerst, die Zacke die auf das Moos zeigt"
-    * "Reifende Dornen spicken den Weg in die Tiefe" / "Als zweites die Zacke nach unten"
+    * "Reifende Dornen spicken den Weg in die Tiefe" / "Als zweites die Zacke die nach unten zeigt"
     * "Starke Dornen begehren den Stahl" / "Als letztes, die Zacke die zur Klinke zeigt"
 * Wenn Alaric die Zacken korrekt berührt, wird ihm die Tür geöffnet.
 * Ihm gegenüber steht ein schlaksiger Sodili in heruntergekommenen Klamotten und mit einer Kakerlake auf der Schulter
@@ -27,8 +25,11 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
 * Sollte Alaric ihn nicht verärgern, wird er wenig später durchgelassen und betritt ein kleines Gewölbe.
 * Es stehen modrige, alte, nicht zusammenpassende Holztische und -stühle herum und der Raum ist gefüllt mit ca. 13 zwielichtigen Gestalten.
 * An einem Tisch in der Ecke erwartet ihn der Schmutzfinger Jolint.
-* Jolint erklärt Alaric die Hierarchie des Ringes und macht ihm außerdem 
-<!-- TODO -->
+* Jolint erklärt Alaric die Hierarchie des Ringes und macht ihn außerdem mit seiner neuen Rolle als Rekrut vertraut.
+    * Sämtliche Diebesgüter muss Alaric direkt bei Jolint abgeben
+    * In seiner Zeit als Rekrut bekommt er keine Entlohnung
+    * In der Stadt gibt es verschiedene versteckte schwarze Bretter über die sich die Mitglieder des braunen Ringes austauschen ohne Aufsehen zu erregen.
+    * Wenn Alaric genug Aufträge erfüllt, kann er im braunen Ring aufsteigen
 
 ## Charaktere
 
@@ -68,15 +69,48 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
 
 ## Expeditionsstart am Wolkenhafen
 
-<!-- TODO: Die "Bestellliste" der Spieler berücksichtigen -->
+Bei der Ankunft am Wolkenhafen werden die Spieler von Kwint Gurdun erwartet.
+Hinter Kwint sind einige Kisten aufgestapelt, welche die anderen Mitglieder der Expedition (die oben eingeführten, nicht-bespielten Charaktere) und die Crew bereits auf das Schiff laden.
 
-Bei der Ankunft am Wolkenhafen werden die Spieler von Kwint Gurdun erwartet. Die anderen Mitglieder der Expedition* beladen bereits das Schiff. Nachdem die Spieler (hoffentlich) beim Verladen geholfen haben, legt die Mannschaft schnellstmöglich ab. Kwint winkt bei allen näheren Nachfragen ab, da er die geheimen Details erst auf hoher See besprechen möchte.
+![](./images/Kisten_Vorraete_Expedition-Ikusation.png)
 
-*: die oben eingeführten, nicht-bespielten Charaktere.
+Als Kwint die Spieler sieht, winkt er sie rasch zu sich herüber und sagt nur: 
+> "Da seit ihr ja endlich. Kommt schnell und helft beim Verladen, wir sollten zügig aufbrechen"
+
+![](./images/Sodili-Schiff_Katamaran_Expedition-Ikusation.png)
+
+Nachdem die Spieler (hoffentlich) beim Verladen geholfen haben, legt die Mannschaft schnellstmöglich ab. Kwint winkt bei allen näheren Nachfragen ab, da er die geheimen Details erst auf hoher See besprechen möchte. Sollten die Spieler in die Kisten gucken finden sie die Dinge ihrer Bestellung:
+
+* Proviant für 1 Tag
+* Kochtopf und Feuer
+* Zelte und Betten
+* Kleine Axt
+* 4 Seile (dünn bis dick)
+* Kleine Lebendfalle
+* Säcke und Barrikaden
+* Ritterrüstung
+* Kleine Eisenplatte
+* Gewichte
+* Armbrust und Dolch
+
+aber auch noch einiges mehr, vom König für die Expedition gestellt:
+
+* Notproviant für 2 Wochen (Getrocknetes Fleisch)
+* 5 Wasserfässer (100L) 
+* Werkzeug (Hammer, Nägel, Sägen, Beile, Schaufeln)
+* Navigationsinstrumente: Karten, Kompass, Sextant
+* Medizinische Versorgung: Heilkräuter, Verbände, etc.
+
+Die Crew besteht aus angeheuerten Sodili:
+
+* Kapitän: 
+* Steuermann / Navigator:
+* Koch:
+* Schiffsmechaniker:
+* 6x Matrosen (fürs Rudern und allgemeine Aufgaben an Bord, wie Reinigung, Wachen halten usw.):
 
 ## Auf dem Gravitationsozean
 
-<!-- TODO: Angeheurte Schiffs-Crew definieren -->
 
 Sobald die Crew abgelegt hat, versammelt Kwint die Expeditionsteilnehmer in der Kajüte um ihnen die nächsten Schritte zu vermitteln.
 
