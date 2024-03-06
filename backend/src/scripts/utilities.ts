@@ -2,6 +2,10 @@
 import fs from "fs";
 import path from "path";
 
+export function generateHeaderId(str: string) {
+    return str.trim().toLowerCase().replace(/\s+/g, '-')
+}
+
 export function getFilePathsInFolder(folderPath: string, fileTypes: string[] = [], maxDepth: number = -1) {
     let folderStat = fs.lstatSync(folderPath);
     if (folderStat && folderStat.isDirectory()) {

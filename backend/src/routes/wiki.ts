@@ -5,7 +5,7 @@ import { marked } from "marked";
 import express from "express";
 import path from "path";
 import { JSDOM } from "jsdom";
-import { getFilePathsInFolder } from "../scripts/utilities";
+import { generateHeaderId, getFilePathsInFolder } from "../scripts/utilities";
 
 const router = express.Router();
 
@@ -44,6 +44,12 @@ getFilePathsInFolder(wikiPath).forEach(file => {
             let dom = new JSDOM("<!DOCTYPE html>" + mdHtml);
             $ = require("jquery")(dom.window);
 
+            $('h1, h2, h3, h4, h5, h6').each(function() {
+                var header = $(this);
+                var headerId = generateHeaderId(header.text());
+                header.attr('id', headerId);
+            });
+
             let tocContent = generateTableOfContents();
 
             let subContent = generateSubContent(fullPath, basePath);
@@ -55,7 +61,7 @@ getFilePathsInFolder(wikiPath).forEach(file => {
                 tocContent,
                 contentHtml: dom.serialize(),
                 refContent,
-                subContent
+                subContent,
             });
         });
 
@@ -97,6 +103,7 @@ function generateSubContent(fullPath: string, currentBasePath: string) {
     return result
 }
 
+
 function generateMentionedReferences() {
     let $mentions = $("a").filter(function(this: HTMLElement) {
         return $(this).attr("href")?.includes(".md") ?? false
@@ -122,8 +129,8 @@ function generateTableOfContents() {
     $(":header").each((index, header) => {
         let headerLevel = parseInt($(header).prop("tagName").slice(1))
         result[index] = {
-            href: "#" + $(header).text().toLowerCase().replace(" ", "-"),
-            text: "&nbsp;".repeat((headerLevel-1)*3) + "> " + $(header).text(),
+            href: "#" + generateHeaderId($(header).text()),
+            text: "&nbsp;".repeat((headerLevel-1)*3) + "• " + $(header).text(),
         }
     })
 

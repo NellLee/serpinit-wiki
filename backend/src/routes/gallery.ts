@@ -21,15 +21,15 @@ let galleryPath = path.join(__dirname + "/../../../gallery");
 let images: Image[] = []
 
 console.log("Loading images...")
-getFilePathsInFolder(galleryPath).forEach(file => {    
-    imageThumbnail(path.join(galleryPath + file), { width: 205, height: 205, responseType: 'base64' })
-    .then(thumbnail => {
-        images.push({
-            full: file.slice(1),
-            thumbnail: 'data:image/jpeg;base64,' + thumbnail.toString()
-        });
-    }).catch(err => console.error(file, err));
-})
+// getFilePathsInFolder(galleryPath).forEach(file => {    
+//     imageThumbnail(path.join(galleryPath + file), { width: 205, height: 205, responseType: 'base64' })
+//     .then(thumbnail => {
+//         images.push({
+//             full: file.slice(1),
+//             thumbnail: 'data:image/jpeg;base64,' + thumbnail.toString()
+//         });
+//     }).catch(err => console.error(file, err));
+// })
 console.log("Loading images... Done!")
 
 router.get("/", (req, res) => {

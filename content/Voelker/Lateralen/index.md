@@ -77,7 +77,7 @@ Sodili leben nach der Ikusation häufig auch Vertreter der anderen Völker.
 
 # Aussehen
 
-<img src="images/maennlich_portrait_vor-und-nach-magilution.png" style="zoom: 33%;" />
+![](./images/Lateral_Maennlich_Portrait_Entwicklungskonzept.png)
 Typischer, moderner, männlicher Lateraler (rechts) und sein evolutionärer Vorgänger *homo primian fractus* (links)
 
 Laterale zeigen ihre Gefühle generell weniger offen als andere Völker. Die Mimik eines Sodili gibt selten Aufschluss
