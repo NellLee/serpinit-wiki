@@ -18,31 +18,11 @@ Die treuesten Anhänger von Brovick genießen besondere Vorzüge, haben aber auc
 
 ### Charaktere
 
-* [Jolint Wolenson (Rekrutierer) & Suul (Aal)](/content/Voelker/Lateralen/Sodili/Charaktere/Jolint-Enol-Wolenson/index.md)
-
-#### Liora Merelis (Taschendiebin) & Silka (Katze)
-* **Stärken**: Geschicktes Taschendiebstahlhandwerk, Flinkheit, Beweglichkeit in Menschenmengen.
-* **Schwächen**: Potenziell zu übermütig in riskanten Situationen.
-* **Beschreibung**: Liora ist eine geschickte Taschendiebin, die sich auf das Stehlen von Wertsachen aus den feinsten Gesellschaftskreisen der Sodili spezialisiert hat. Sie ist schlau und flink und kann sich mühelos durch Menschenmengen bewegen, ohne entdeckt zu werden.
-* **Micu**: Ihr treuer Micu ist eine elegante Katze namens Silka, die ihr bei ihren Diebstählen hilft, indem sie Ablenkungen schafft und unbemerkt bleibt.
-
-#### Kellan Drasus (Einbrecher) & Rollo (Hund)
-* **Stärken**: Einbruchstechniken, körperliche Stärke, Schlösserknacken.
-* **Schwächen**: Manchmal zu brutal und auffällig.
-* **Beschreibung**: Kellan ist ein erfahrener Einbrecher, der sich darauf spezialisiert hat, in die Häuser der Sodili einzudringen und ihr Hab und Gut zu stehlen. Er ist körperlich stark und geschickt im Umgang mit Schlössern.
-* **Micu**: Sein Micu ist ein muskulöser Hund namens Rollo, der Kellan bei seinen Einbrüchen begleitet und ihn vor Gefahren warnt.
-
-#### Saria Nitak (Späherin) & Nula (Fledermaus)
-* **Stärken**: Spähen, Tarnung, Informationssammlung.
-* **Schwächen**: Schwach und klein.
-* **Beschreibung**: Saria ist eine meisterhafte Späherin, die für die Diebesgilde arbeitet, um potenzielle Ziele auszukundschaften und wertvolle Informationen zu sammeln. Sie ist leise und unauffällig.
-* **Micu**: Ihr Micu ist eine Fledermaus namens Nula, die ihr dabei hilft, in der Dunkelheit zu agieren und Feinde aus der Luft zu beobachten.
-
-#### Garrick Tornbad (Schmuggler) & Sneaks (Spinne)
-* **Stärken**: Schmuggelrouten, Listigkeit, Schleichen.
-* **Schwächen**: Kriegt schnell kalte Füße wenn es brenzlig wird und haut ab.
-* **Beschreibung**: Garrick ist ein erfahrener Schmuggler, der für den Transport gestohlener Waren und den Handel mit illegalen Gütern verantwortlich ist. Er ist gewieft und kennt die versteckten Routen und Geheimgänge der Stadt wie kein anderer.
-* **Micu**: Sein Micu ist eine listige Spinne namens Sneaks, die ihn bei seinen Schmuggelaktivitäten begleitet. Häufig lässt Sneaks geheime Zugänge und Tunnel ungenutzt aussehen indem er sie mit Spinnennetzen füllt.
+* [Jolint Wolenson (Rekrutierer) & Suul (Aal)](./Charakter/Jolint-Enol-Wolenson_Suul/index.md)
+* [Liora Merelis (Taschendiebin) & Silka (Katze)](./Charakter/Liora-Gartu-Merelis_Silka/index.md)
+* [Kellan Drasus (Einbrecher) & Rollo (Hund)](./Charakter/Kellan-Duk-Drasus_Rollo/index.md)
+* [Saria Nitak (Späherin) & Nula (Fledermaus)](./Charakter/Saria-Nasit-Nitak_Nula/index.md)
+* [Garrick Tornbad (Schmuggler) & Sneaks (Spinne)](./Charakter/Garrick-Filben-Tornbad_Sneaks/index.md)
 
 ## Ausrichtungen
         

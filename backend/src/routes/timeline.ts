@@ -30,7 +30,7 @@ router.get("/", async (req, res) => {
 
   console.log("Loading timeline...")
   const eventConfigs = await getEventConfigs();
-  console.log("... Done!")
+  console.log("Loading timeline... Done!")
 
   res.render("timeline", {
     eventConfigs,

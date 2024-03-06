@@ -30,7 +30,7 @@ getFilePathsInFolder(galleryPath).forEach(file => {
         });
     }).catch(err => console.error(file, err));
 })
-console.log("... Done!")
+console.log("Loading images... Done!")
 
 router.get("/", (req, res) => {
 

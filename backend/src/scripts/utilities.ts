@@ -2,27 +2,33 @@
 import fs from "fs";
 import path from "path";
 
-export function getFilePathsInFolder(folderPath: string, fileTypes: string[] = []) {
+export function getFilePathsInFolder(folderPath: string, fileTypes: string[] = [], maxDepth: number = -1) {
     let folderStat = fs.lstatSync(folderPath);
     if (folderStat && folderStat.isDirectory()) {
         let aggregator = [];
-        return getFilePathsInFolderRec(aggregator, folderPath, fileTypes);
+        return getFilePathsInFolderRec(aggregator, folderPath, fileTypes, maxDepth);
     } else {
         throw "InvalidArgument. Argument 'folderPath' is not a path to a directory!";
     }
 }
 
-function getFilePathsInFolderRec(aggregator: string[], folderPath: string, fileTypes: string[] = [], startPath = folderPath) {
+function getFilePathsInFolderRec(aggregator: string[], folderPath: string, fileTypes: string[] = [], maxDepth: number, startPath = folderPath) {
     fs.readdirSync(folderPath).forEach(fileOrFolder => {
         let fullPath = folderPath + "/" + fileOrFolder;
-        let stat = fs.lstatSync(fullPath);
-        if (stat.isDirectory()) {
-            return getFilePathsInFolderRec(aggregator, fullPath, fileTypes, startPath);
-        } else if (stat.isFile()) {
-            if (fileTypes.length === 0 || fileTypes.includes(path.extname(fileOrFolder))) {
-                aggregator.push(fullPath.replace(startPath, ""));
-                // console.log(fullPath.replace(startPath, ""))
+        try {
+            let stat = fs.lstatSync(fullPath);
+            if (stat.isDirectory()) {
+                if(maxDepth != 0) {
+                    return getFilePathsInFolderRec(aggregator, fullPath, fileTypes, maxDepth-1, startPath);
+                }
+            } else if (stat.isFile()) {
+                if (fileTypes.length === 0 || fileTypes.includes(path.extname(fileOrFolder))) {
+                    aggregator.push(fullPath.replace(startPath, ""));
+                    // console.log(fullPath.replace(startPath, ""))
+                }
             }
+        } catch {
+            //ignored
         }
     });
     return aggregator;
