@@ -1,3 +1,5 @@
+# 10.01.2024
+
 # Ausgangslage
 
 * Widim, Taeron und Alaric befinden sich in der letzten Kammer der Mandijit-Höhle zusammen mit Ingvor

@@ -1,3 +1,5 @@
+# 07.03.2024
+
 # Meta / Kontext
 
 Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen. Sie haben sich gegen das naheliegendere entschieden, um mit einem Schiff über den Gravitationsozean zu fahren. Sie werden begleitet von 3 Conius-Forschern (unter anderem Kwint Gurdun) und 2 Sodili im Auftrage des Köngis.
