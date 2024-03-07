@@ -13,7 +13,7 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
 * Die nicht-spielenden begleitenden Conius und Sodili sind keine große Hilfe.
 
 ## Alarics Begegnung mit dem braunen Ring
-* Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Politik/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tür_Symbol_Raetsel.png)
+* Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Politik/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tuer_Symbol_Raetsel.png)
 * Auf den Tunnelwänden vor der Tür sind viele Kritzeleien, ein geübtes Auge erkennt sie als Diebesschrift.
 * Über der Tür steht: "Spüret die schmerzenden Dornen des bedeutsamen Ringes" / "Drücke auf die relevanten Spitzen des Ring-Symbols"
 * Auf den Tunnelwänden sind insgesamt 3 Hinweise:
@@ -32,6 +32,7 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
     * In seiner Zeit als Rekrut bekommt er keine Entlohnung
     * In der Stadt gibt es verschiedene versteckte schwarze Bretter über die sich die Mitglieder des braunen Ringes austauschen ohne Aufsehen zu erregen.
     * Wenn Alaric genug Aufträge erfüllt, kann er im braunen Ring aufsteigen
+
 
 ## Charaktere
 
