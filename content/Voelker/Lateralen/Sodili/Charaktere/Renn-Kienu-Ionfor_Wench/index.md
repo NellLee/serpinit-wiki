@@ -1,0 +1,7 @@
+# Renn Ionfor (Schiffsmechaniker) & Wench (Anglerfisch)
+
+* **Stärken**: Umfassendes Wissen über jedes Teil des Schiffes, Fähigkeit, jedes Problem zu beheben und das Schiff in Topform zu halten, selbst in den widrigsten Bedingungen.
+* **Schwächen**: Möglicherweise zu sehr darauf fokussiert, mechanische Probleme zu lösen, vernachlässigt dabei aber vielleicht die zwischenmenschlichen Beziehungen oder andere wichtige Aspekte des Schiffsbetriebs.
+* **Beschreibung**: Renn ist ein begabter Schiffsmechaniker, der sich mit jedem Teil des Schiffes bestens auskennt. Von den Masten bis zum Rumpf, von den Segeln bis zu den Rudern - Renn weiß, wie man jedes Problem behebt und das Schiff in Topform hält, selbst in den widrigsten Bedingungen. Seine Erfahrung und sein Geschick machen ihn zu einem unverzichtbaren Mitglied der Crew, auf das sich alle verlassen können, wenn es um Reparaturen und Wartung geht.
+* **Motivation**: Renn ist von der Faszination für Mechanik und Technik angetrieben. Sein größtes Ziel ist es, das Schiff in perfektem Zustand zu halten und dafür zu sorgen, dass es reibungslos funktioniert, egal welche Herausforderungen auf See auftreten. Seine Liebe zur Maschinerie und seine Entschlossenheit, jedes Problem zu lösen, treiben ihn an, immer besser zu werden.
+* **Micu**: Ein geschickter Anglerfisch namens Wench, der Renn mit seiner Lampe unterstützt und ihm hilft, Reparaturen unter Wasser durchzuführen. Wrench ist loyal und handlich, immer bereit, seinem Partner bei jeder Aufgabe zu helfen, sei es über oder unter der Wasseroberfläche.

@@ -83,26 +83,31 @@ aber auch noch einiges mehr, vom König für die Expedition gestellt:
 
 Die Crew besteht aus angeheuerten Sodili:
 
-* Kapitän: 
-* Steuermann / Navigator:
-* Koch:
-* Schiffsmechaniker:
+* [Erisa Sturint (Kaptänin) & Gale (Seeadler)](/content/Voelker/Lateralen/Sodili/Charaktere/Erisa-Ikal-Sturint_Gale/index.md)
+* [Thaos Swiff (Schiffsnavigator / Steuermann) & Maris (Delphin)](/content/Voelker/Lateralen/Sodili/Charaktere/Thaos-Deakel-Swiff_Maris/index.md)
+* [Maggus Sallet (Koch) & Ink (Tintenfisch)](/content/Voelker/Lateralen/Sodili/Charaktere/Maggus-Firn-Sallet_Ink/index.md)
+* [Renn Ionfor (Schiffsmechaniker) & Wench (Anglerfisch)](/content/Voelker/Lateralen/Sodili/Charaktere/Renn-Kienu-Ionfor_Wench/index.md)
 * 6x Matrosen (fürs Rudern und allgemeine Aufgaben an Bord, wie Reinigung, Wachen halten usw.):
+<!-- TODO -->
 
 ## Auf dem Gravitationsozean
-
 
 Sobald die Crew abgelegt hat, versammelt Kwint die Expeditionsteilnehmer in der Kajüte um ihnen die nächsten Schritte zu vermitteln.
 
 Das angestrebte Vorgehen ist die Etablierung einer Versorgungskette durch mehrere Portale. Es wurde sich explizit gegen eine großflächige Erschließung mehrerer einzelner Portale entschieden, da die Gefahren zu wenig bekannt und zu unberechenbar sind. Sollten z. B. mehrere Portale in der Umgebung der Stadt erschlossen werden woraufhin sich dann ungeahnte Gefahren ergeben, könnte das die gesamte Sodili-Hauptstadt gefährden. Stattdessen soll mit der Zeit ein einziger gefestigter Stützpunkt um das erste erschlossene Portal errichtet werden. Vom Ziel-Ort des Portals werden dann weitere Portale gesucht und erschlossen, sodass im schlimmsten Fall nur ein Portal verteidigt werden muss.
 
-Den Rest der Fahrt können die Spieler die Aussicht genießen, angeln, oder die Crew kennenlernen.
+Allgemein können die Spieler während der Fahrt die Aussicht genießen, angeln, oder die Crew kennenlernen.
 
-<!-- TODO: Sehenswürdigkeiten entlang der Küste -->
+Die ersten ~2 Stunden der Schiffahrt passiert das Schiff lediglich die großen Klippen von Carpebur. In den steilen Steinwänden sind viele kleine Löcher in denen Vögel nisten und von den überhängenden Kanten der Klippen hängen dicke Lianen zwischen denen Hörnchen-Affen schwingen.
+Die Klippen nehmen mit der Zeit an Höhe ab, bis die Küste knapp auf Höhe der Meeresoberfläche ist. 
+
+Dann muss der Katamaran einen Umweg nach außen nehmen, da Gurontis an dieser Stelle ein weitreichendes Plateau unter der Wasseroberfläche aufweist. Für Schiffe sind diese Gewässer zu seicht und außerdem wird das Plateau am Ende von einer dichten Inselkette gesäumt. In den seichten Gewässern hat sich ein Korallenriff gebildet, mit einer vielfältigen Flora und Fauna.
 
 ## Ankunft am Zielort
 
-<!-- TODO: Umgebung des Portals definieren -->
+Die Expedition legt in einer Bucht nahe der passierten Inselkette an. Das Portal ist von dieser Stelle einen ~20 minütigen Marsch entfernt, in einem kleinen Waldstück.
+
+![](./images/Sgrisignier-Portal_blutig.png)
 
 <!-- TODO: Genaues Vorgehen zur Portal-Sicherung definieren (Anbringen der Rune, etc.) -->
 
