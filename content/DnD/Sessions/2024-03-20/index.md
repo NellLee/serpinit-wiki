@@ -4,6 +4,8 @@
 
 Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen. Sie haben sich gegen das naheliegendere entschieden, um mit einem Schiff über den Gravitationsozean zu fahren. Sie werden begleitet von 3 Conius-Forschern (unter anderem Kwint Gurdun) und 2 Sodili im Auftrage des Köngis.
 
+Ákos und Lando treten der Gruppe vielleicht bei und übernehmen jeweils einen der Charaktere der Expedition (außer Kwint).
+
 Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich. Taeron hat einen Unsichtbarkeits-Umhang in einem geheimen Conius-Laden in der grauen Zone gekauft, Alaric sucht den "braunen Ring" in den Schwarztunneln und steht vor dessen Türen, und Kle hat eine Bibel von der Bibliothek abgeholt.
 
 Die Spieler müssen nach wie vor das erste Portal erschließen: 

@@ -1,8 +1,6 @@
 # Das Planetensystem Serpinit
 
 Serpinit ist ein Planetensystem, welches vom großen Drachengott [Creapatos](/content/Allgemein/Schoepfungsgeschichte.md#creapatos) geschaffen wurde.
-
-Creapatos ist einer von vielen Göttern bestehend aus magischer Substanz.
 Das System besteht aus 9 Himmelskörpern mit vielfältiger Flora und Fauna und variierender Intelligenz.
 
 - [Die Magie](/content/Allgemein/Magie/index.md)
