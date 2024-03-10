@@ -96,7 +96,7 @@ Die Crew besteht aus angeheuerten Sodili:
 
 Sobald die Crew abgelegt hat, versammelt Kwint die Expeditionsteilnehmer in der Kajüte um ihnen die nächsten Schritte zu vermitteln.
 
-Das angestrebte Vorgehen ist die Etablierung einer Versorgungskette durch mehrere Portale. Es wurde sich explizit gegen eine großflächige Erschließung mehrerer einzelner Portale entschieden, da die Gefahren zu wenig bekannt und zu unberechenbar sind. Sollten z. B. mehrere Portale in der Umgebung der Stadt erschlossen werden woraufhin sich dann ungeahnte Gefahren ergeben, könnte das die gesamte Sodili-Hauptstadt gefährden. Stattdessen soll mit der Zeit ein einziger gefestigter Stützpunkt um das erste erschlossene Portal errichtet werden. Vom Ziel-Ort des Portals werden dann weitere Portale gesucht und erschlossen, sodass im schlimmsten Fall nur ein Portal verteidigt werden muss.
+Das angestrebte Vorgehen ist die Etablierung einer Versorgungskette durch mehrere Portale. Es wurde sich explizit gegen eine großflächige Erschließung mehrerer einzelner Portale entschieden, da die Gefahren zu wenig bekannt und zu unberechenbar sind. Sollten z. B. mehrere Portale in der Umgebung der Stadt erschlossen werden woraufhin sich dann ungeahnte Gefahren ergeben, könnte das die gesamte Sodili-Hauptstadt gefährden. Stattdessen soll mit der Zeit ein einziger gefestigter Stützpunkt um das erste erschlossene Portal errichtet werden. Vom Ziel-Ort des Portals werden dann weitere Portale gesucht und erschlossen, sodass im schlimmsten Fall nur ein Portal verteidigt werden muss. Kwint macht der gesamten Expedition aber auch ausdrücklich klar, dass der Frieden immer im Vordergrund steht. Die Erschließung der Portale soll neue Handelsrouten und interplanetare Verbindungen herstellen, keine neuen Gefahren und Krieg bringen.
 
 Allgemein können die Spieler während der Fahrt die Aussicht genießen, angeln, oder die Crew kennenlernen.
 
@@ -120,7 +120,15 @@ Die Expedition legt in einer Bucht nahe der passierten Inselkette an. Das Portal
 ### Aridess
 * Große Wüsten, kleine Oasen.
 * Schwieriege Navigation
-* Begegnung mit Zwergen-Stämmen
+* Begegnung mit Zwergen-Karavane
+    * Gespannte Situation durch Unbekanntheit
+    * Sprachbarriere
+    * Auf dem Weg zum Handelsposten 
+* Mögliche Informationen über die Umgebung:
+    * Oase circa 3 Stunden entfernt, Handelposten der Vapornans
+    * Verlassene Edelsteinmine der Vapornans die von den giftigen Stachelschwein-Kakteen infiziert ist.
+    * Offene Wüste mit "Wellen" (Gefährliche Riesenflunder)
+    * Trockene Bergkette aus dem die Karawane kam (enge Bergpfade und steile Steinwände mit Sukkulenten)
 
 ### Linunar
 * Tote Urzeit-Welt
