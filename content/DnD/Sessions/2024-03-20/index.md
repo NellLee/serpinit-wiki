@@ -8,11 +8,17 @@ Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen. Sie haben
 
 Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich. Taeron hat einen Unsichtbarkeits-Umhang in einem geheimen Conius-Laden in der grauen Zone gekauft, Alaric sucht den "braunen Ring" in den Schwarztunneln und steht vor dessen Türen, und Kle hat eine Bibel von der Bibliothek abgeholt.
 
+Malte wird nicht zur Session anwesend sein. Kles Bibel wird daher als allgemeiner Aufhänger für die anderen Spieler genutzt um sie an die Religion der Sgrisignier und die theologische Bedeutung der "Roatinen" heranzuführen.
+
 Die Spieler müssen nach wie vor das erste Portal erschließen: 
 * Ihre Aufgabe besteht aus zwei Teilen:
     * Sie müssen herausfinden, ob die andere Seite des Portals Überleben zulässt oder nicht.
     * Wenn sie es als möglich einstufen müssen sie das Portal durchschreiten.
 * Die nicht-spielenden begleitenden Conius und Sodili sind keine große Hilfe.
+
+## Der Inhalt von Kles Bibel
+
+
 
 ## Alarics Begegnung mit dem braunen Ring
 * Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Politik/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tuer_Symbol_Raetsel.png)

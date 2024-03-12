@@ -87,21 +87,16 @@ angehört zeigt welche Charaktereigenschaften ein Sodili aufweist. Zudem sind di
 teilen ihre Gefühle offen mit, und da beide Geister eng verbunden sind gibt dies auch einiges über die Gedanken des
 Sodili preis.
 
-Das Aussehen der Micus und Hybridwesen ist so viLateraleältig wie die Tierwelt selbst. Es gibt auch innerhalb der selben
+Das Aussehen der Micus und Hybridwesen ist so vielfältig wie die Tierwelt selbst. Es gibt auch innerhalb der selben
 Micu-Rasse starke äußerliche Unterschiede die sich in Fellfarbe, Körperbau, o.ä. äußern können.
 
 # Theologie
 
-Die Sodili-Lateralen verehren eine Vielzahl an Tier-Göttern, für die sie seit jeher Tempel und Gebetsstätten errichten.
+Die Sodili glauben an ein Pantheon aus Tier-göttern, geschaffen von eienr verzerrten Variante von Creapatos (siehe: [Sodili-Theologie](./Sodili/Theologie/index.md)).
 
-1. **Liradon, der Hüter der Wälder**: Liradon ist ein majestätischer Elch mit einem mächtigen Geweih, der über die Wälder und die darin lebenden Kreaturen wacht. Er symbolisiert den Kreislauf des Lebens, die Natur und den Schutz der Wildnis. Liradon ist geduldig, weise und einfühlsam. Die Tiere sehen in ihm einen Beschützer und Ratgeber.
-2. **Zephyra, die Luftdame**: Zephyra ist ein gefiederter Vogel mit farbenfrohen Schwingen, der über die Lüfte und die Elemente der Luft herrscht. Sie verkörpert Freiheit, Kreativität und Inspiration. Zephyra ist verspielt, leichtfüßig und immer auf der Suche nach neuen Abenteuern. Die Winde sind ihre Boten, und sie schenkt den Reisenden Mut und Hoffnung.
-3. **Thalassa, die Meeresgöttin**: Thalassa ist eine majestätische Schildkröte, die über die Ozeane und das Leben im Wasser wacht. Sie symbolisiert die Geheimnisse der Tiefen, den Wandel und die emotionale Tiefe. Thalassa ist ruhig, aber unnachgiebig in ihrer Entschlossenheit. Fischer und Seefahrer beten zu ihr für Schutz und eine reiche Ernte aus dem Meer.
-4. **Ignarok, der Feuerfalke**: Ignarok ist ein mächtiger Phönix, der über das Feuer, die Energie und die Leidenschaft wacht. Er verkörpert Stärke, Durchsetzungsvermögen und Transformation. Ignarok ist stolz und impulsiv, aber auch beschützend gegenüber denjenigen, die seine Macht respektieren. Sein Feuer bringt Wärme und Licht in die Welt.
-5. **Terraquil, der Erdhirsch**: Terraquil ist ein massiver Hirsch mit einer robusten, von Moos überwucherten Hülle, der über die Erde und die natürlichen Rhythmen der Welt wacht. Er symbolisiert Stabilität, Geduld und Wachstum. Terraquil ist bedacht und weise, und die Landwirte rufen seine Hilfe an, um reiche Ernten und fruchtbare Böden zu erhalten.
-6. **Aquiluna, der Nachtgreif**: Aquiluna ist eine mysteriöse Eule mit funkelnden, silbernen Federn, die über die Dunkelheit, die Sterne und die Geheimnisse der Nacht wacht. Sie verkörpert Weisheit, Intuition und Mysterium. Aquiluna ist ruhig und nachdenklich, und die nächtlichen Wanderer suchen ihren Schutz vor Gefahren in der Finsternis.
+Die Conius glauben an die Sgrisignier, auch wenn ihnen deren wahre Gestalt nach wie vor ein Rätsel ist und ihnen nur die magische Runenschrift als Anhaltspunkt bleibt.
 
-Diese Tier-Götter haben jeweils ihre eigenen Anbetenden und Tempel, und ihre Beziehungen zueinander spiegeln die Balance und Harmonie der Natur wider. Liradon und Terraquil arbeiten zusammen, um die Wälder und das Land in Einklang zu halten, während Zephyra und Aquiluna die Lüfte und die Nacht teilen. Thalassa und Ignarok beeinflussen Gezeiten und Naturkatastrophen, zeigen jedoch Respekt vor den anderen Göttern, um das Gleichgewicht zu bewahren. Gemeinsam bilden sie das Pantheon, das über die Welt wacht und ihre Bewohner führt.
+
 
 # Magie
 
