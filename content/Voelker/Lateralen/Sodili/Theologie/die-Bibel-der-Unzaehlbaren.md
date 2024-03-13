@@ -1,0 +1,13 @@
+# Die Bibel der Unzählbaren
+
+# 1. Buch
+
+Vor Beginn aller Dinge wütete das Chaos. Alles war verworren und nichts war geordnet, doch war auch alles noch nichts und das Verworrene die einzige Ordnung der Welt. Ohne jedwede Regeln wusste die Zeit nicht wie sie zu fließen, das Licht nicht wie es zu scheinen und die Kraft nicht wie sie zu wirken vermochte. Erst als die Finger der Ordnung das ungezügelte Chaos ergriffen, glitt die Realität in ihr Muster und die Geburt der drei Mächte der Dinge markierte den Beginn des Seins. 
+
+Zuerst fügte sich die Zeit. Erst zeterte sie, wehrte sich, zögerte die Ordnung immer wieder hinaus. Doch ein endloser Kampf ist ohne Bedeutung wenn der Anfang nie gemacht wurde und so gab sie schließlich auf. Statt dass sie nach vorn und wieder zurück schwang, statt dass sie mal flog und mal kroch, statt dass sie sich teilte oder gar zum Stillstand kam, statt all dem wurde die Zeit letztlich zahm. So nahm ihr Verlauf eine geordnete Form an, dessen Geradlinigkeit fortan nie mehr gestört werden sollte. Die erste Macht der Dinge, die ewige Zeit, ward geboren.
+
+Als zweites fügte sich das Licht, doch war es zaghaft und scheu. Eingeschüchtert vom Chaos verbarg es sich lang und ließ die Welt im Dunkeln. Mit dem steten Fluss der Zeit vermochten die Finger der Ordnung schließlich das Licht zu beruhigen. Noch lag das schwarze Tuch träge über allem was war, nie gestört und ohne Konkurrenz, bis der erste Funken des Lichts endlich eine tiefe Wunde in die Dunkelheit schlug. Als das Licht vernahm welche Macht ihm ihnewohnte, ließ es sich auf dem Rücken der Zeit  durch die Weiten der Welt tragen. Seither jagt das Licht die Dunkelheit und die Dunkelheit das Licht, im ewigen Streit um ihren Teil der Welt. Die zweite Macht der Dinge, das unendliche Licht, ward geboren.
+
+Zuletzt fügte sich die Kraft. Sie kämpfte unerbittlich und vermochte die Finger der Ordnung fast zu brechen, doch die Ordnung war geschickt und wusste sich zu helfen. Der ungezügelten Kraft fehlten nur die Grenzen. Und so formten sich die Finger der Ordnung schließlich selbst zu einem Körper der die Kraft umfassen konnte. Die dritte und größte Macht der Dinge, die unermessliche Kraft, ward in Form des dreibeinigen Lindwurms Ersaspial geboren.
+
+Die unermessliche Kraft Ersaspial verbündete sich mit dem unendlichen Licht und der ewigen Zeit, und die Dreifaltigkeit zog aus um die Leere der Welt zu befüllen. 
