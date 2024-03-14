@@ -18,6 +18,7 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
 
 ## Der Inhalt von Kles Bibel
 
+[Spoiler, dass diese Religion biased und nicht unbedingt wahr ist.]
 
 
 ## Alarics Begegnung mit dem braunen Ring
