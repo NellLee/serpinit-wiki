@@ -19,7 +19,7 @@ Schließlich kam die Dreifaltigkeit zum Stehen. Ersaspial webte die ewige Zeit u
 So ward die Ära der Schöpfung eingeläutet in der die Welt unter den drei Mächten erblühte.
 Durch das Ineinanderfließen von Licht und Zeit, geleitet durch die unermessliche Kraft, legte Ersaspial den Grundstein für alles Leben was je sein sollte. Sein Odem schmiedete das Land und die Meere und alles Leben, sein Geheiß formte die Naturgesetze und das Schicksal eines jeden. Die Erschaffung der Welt war ein Wunderwerk der göttlichen Gestaltung, in vollkommener Eintracht mit den Kräften von Mavorak und Ikus. Und doch vermochte die unermessliche Kraft nach der Vollendung nicht zu ruhen, denn auch die fantastische Welt die Ersaspial schuff konnte seine Dränge nicht ewig stillen. Der Gott der Schöpfung konnte spüren wie ihn die Kraft in seinem Inneren stetig aufzehrte. Als das Ende Ersaspials nahte, weinte der Lindwurm bitterliche Tränen der Göttlichkeit. Aus den unzählbaren Tränen erwuchsen mächtige Kreaturen, während Ersaspials erhabener Körper langsam starb. Die Unzählbaren wurden geboren: Tiergötter, welche über Ersaspials Welt wachen sollten.
 
-Doch das Böse war deutlich näher als der Allmächtige je ahnte. Aus den göttlichen Überresten des dreibeinigen Lidnwurms schlüpften schon bald die Roatinen und prasselten auf die Welt hernieder. 
+Doch das Chaos war stets näher als der Allmächtige zu ahnen vermochte. Aus den göttlichen Überresten des dreibeinigen Lidnwurms schlüpften schon bald die Roatinen und prasselten auf die Welt hernieder. Ich steinharten Körper gruben sich in die Erde und schlugen tiefe Furchen und Tunnel in das Land, bis es schließlich zerbrach. Die Roatinen verteilten sich auf den übrigen Ländereien
 
 
 
