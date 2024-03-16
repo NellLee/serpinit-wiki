@@ -4,11 +4,11 @@
 
 Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen. Sie haben sich gegen das naheliegendere entschieden, um mit einem Schiff über den Gravitationsozean zu fahren. Sie werden begleitet von 3 Conius-Forschern (unter anderem Kwint Gurdun) und 2 Sodili im Auftrage des Köngis.
 
-Ákos und Lando treten der Gruppe vielleicht bei und übernehmen jeweils einen der Charaktere der Expedition (außer Kwint).
+Ákos tritt der Gruppe bei und übernimmt einen der Charaktere der Expedition (außer Kwint).
 
 Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich. Taeron hat einen Unsichtbarkeits-Umhang in einem geheimen Conius-Laden in der grauen Zone gekauft, Alaric hat den "braunen Ring" in den Schwarztunneln gesucht und steht nun vor dessen Türen, und Kle hat eine Bibel von der Bibliothek abgeholt.
 
-Malte wird nicht zur Session anwesend sein. Kles Bibel wird daher als allgemeiner Aufhänger für die anderen Spieler genutzt um sie an die Religion der Sgrisignier und die theologische Bedeutung der "Roatinen" heranzuführen.
+Malte wird nicht zur Session anwesend sein. Kles Bibel wird daher als allgemeiner Aufhänger für die anderen Spieler genutzt um sie an die Religion der Sgrisignier und die theologische Bedeutung der "Roiatinen" heranzuführen.
 
 Die Spieler müssen nach wie vor das erste Portal erschließen: 
 * Ihre Aufgabe besteht aus zwei Teilen:
@@ -18,8 +18,7 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
 
 ## Der Inhalt von Kles Bibel
 
-[Spoiler, dass diese Religion biased und nicht unbedingt wahr ist.]
-
+Die [Bibel](/content/Voelker/Lateralen/Sodili/Theologie/die-Bibel-der-Unzaehlbaren.md) die Kle von der Bibliothek abgeholt hat, behandelt lediglich die Religion der Sodili. Als solche ist sie zwar inspiriert von der wahren [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) aber in einer stark verzerrten Form.
 
 ## Alarics Begegnung mit dem braunen Ring
 * Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Politik/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tuer_Symbol_Raetsel.png)
@@ -42,7 +41,6 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
     * In der Stadt gibt es verschiedene versteckte schwarze Bretter über die sich die Mitglieder des braunen Ringes austauschen ohne Aufsehen zu erregen.
     * Wenn Alaric genug Aufträge erfüllt, kann er im braunen Ring aufsteigen
 
-
 ## Charaktere
 
 ### Sodili
@@ -58,7 +56,7 @@ Die Spieler müssen nach wie vor das erste Portal erschließen:
 
 ## Expeditionsstart am Wolkenhafen
 
-Bei der Ankunft am Wolkenhafen werden die Spieler von Kwint Gurdun erwartet.
+Bei der Ankunft am Wolkenhafen werden die Spieler von [Kwint Gurdun](/content/Voelker/Lateralen/Conius/Charaktere/Kwint-Gurdun/index.md) erwartet.
 Hinter Kwint sind einige Kisten aufgestapelt, welche die anderen Mitglieder der Expedition (die oben eingeführten, nicht-bespielten Charaktere) und die Crew bereits auf das Schiff laden.
 
 ![](./images/Kisten_Vorraete_Expedition-Ikusation.png)
