@@ -10,11 +10,7 @@ Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich. Taeron hat
 
 Malte wird nicht zur Session anwesend sein. Kles Bibel wird daher als allgemeiner Aufhänger für die anderen Spieler genutzt um sie an die Religion der Sgrisignier und die theologische Bedeutung der "Roiatinen" heranzuführen.
 
-Die Spieler müssen nach wie vor das erste Portal erschließen: 
-* Ihre Aufgabe besteht aus zwei Teilen:
-    * Sie müssen herausfinden, ob die andere Seite des Portals Überleben zulässt oder nicht.
-    * Wenn sie es als möglich einstufen müssen sie das Portal durchschreiten.
-* Die nicht-spielenden begleitenden Conius und Sodili sind keine große Hilfe.
+Als Hauptaufgabe müssen die Spieler nach wie vor das erste Portal erschließen.
 
 ## Der Inhalt von Kles Bibel
 
@@ -40,6 +36,7 @@ Die [Bibel](/content/Voelker/Lateralen/Sodili/Theologie/die-Bibel-der-Unzaehlbar
     * In seiner Zeit als Rekrut bekommt er keine Entlohnung
     * In der Stadt gibt es verschiedene versteckte schwarze Bretter über die sich die Mitglieder des braunen Ringes austauschen ohne Aufsehen zu erregen.
     * Wenn Alaric genug Aufträge erfüllt, kann er im braunen Ring aufsteigen
+* Danach verscheucht er ihn, da er als Rekrut ohne jegliches Ansehen nicht im Geheimquartier herumzulungern hat.
 
 ## Charaktere
 
@@ -48,9 +45,9 @@ Die [Bibel](/content/Voelker/Lateralen/Sodili/Theologie/die-Bibel-der-Unzaehlbar
 * [Caelum Storringer (Paladin) & Tempest (Krokodil)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/index.md)
 
 ### Conius
-
 * [Draven Norint (Alchemist)](/content/Voelker/Lateralen/Conius/Charaktere/Draven-Norrint/index.md)
 * [Lysandra Swirm (Druide)](/content/Voelker/Lateralen/Conius/Charaktere/Lysandra-Swirm/index.md)
+<!-- TODO: Ingvor dabei? -->
 
 # Erschließung der Portale
 
@@ -88,14 +85,15 @@ aber auch noch einiges mehr, vom König für die Expedition gestellt:
 * Navigationsinstrumente: Karten, Kompass, Sextant
 * Medizinische Versorgung: Heilkräuter, Verbände, etc.
 
-Die Crew besteht aus angeheuerten Sodili:
+Außerdem haben die Conius noch zwei Kisten mit magischer Ausrüstung, auf welche die Spieler aber keinen Zugriff haben.
+Die Crew des Schiffes besteht ausschließlich aus Sodili:
 
 * [Erisa Sturint (Kaptänin) & Gale (Seeadler)](/content/Voelker/Lateralen/Sodili/Charaktere/Erisa-Ikal-Sturint_Gale/index.md)
 * [Thaos Swiff (Schiffsnavigator / Steuermann) & Maris (Delphin)](/content/Voelker/Lateralen/Sodili/Charaktere/Thaos-Deakel-Swiff_Maris/index.md)
 * [Maggus Sallet (Koch) & Ink (Tintenfisch)](/content/Voelker/Lateralen/Sodili/Charaktere/Maggus-Firn-Sallet_Ink/index.md)
 * [Renn Ionfor (Schiffsmechaniker) & Wench (Anglerfisch)](/content/Voelker/Lateralen/Sodili/Charaktere/Renn-Kienu-Ionfor_Wench/index.md)
 * 6x Matrosen (fürs Rudern und allgemeine Aufgaben an Bord, wie Reinigung, Wachen halten usw.):
-<!-- TODO -->
+<!-- TODO: Die 6 Matrosen ausformulieren (Name, Beschreibung, Stärken, Schwächen, Micu) -->
 
 ## Auf dem Gravitationsozean
 
@@ -112,17 +110,31 @@ Dann muss der Katamaran einen Umweg nach außen nehmen, da Gurontis an dieser St
 
 ## Ankunft am Zielort
 
-Die Expedition legt in einer Bucht nahe der passierten Inselkette an. Das Portal ist von dieser Stelle einen ~20 minütigen Marsch entfernt, in einem kleinen Waldstück.
+Die Expedition legt in einer Bucht nahe der passierten Inselkette an. Das Portal ist von dieser Stelle einen ~20 minütigen Marsch entfernt, in einem kleinen Waldstück. Es ist ca. 10 Meter hoch und versehen mit altem, getrocknetem Blut.
 
 ![](./images/Sgrisignier-Portal_blutig.png)
 
-<!-- TODO: Genaues Vorgehen zur Portal-Sicherung definieren (Anbringen der Rune, etc.) -->
+Die Conius-Lateralen haben bisher nur ein theoretisches Vorgehen zur Erschließung der Portale entworfen und konnten dieses noch nicht in der Praxis erproben. Folgende Erkenntnisse hat Kwint Gurdun mit seinen bisherigen Forschungen gewonnen:
 
-<!-- TODO: Portalkette definieren -->
+* Jeder Stein eines Portals trägt zur Portal-Magie bei.
+* Im Inneren der Steine befinden sich Tjomanten (Tjosand-Quarz-Steine mit Sgrisignier Runen). Dies wurde bei der Analyse der Überreste eines zerstörten Portals herausgefunden.
+* Durch eine systematische Zerlegung der Tjomanten wurden bereits einige Querschnitte der hochkomplexen dreidimensionalen Runen katalogisiert, auch wenn die genaue Funktionsweise noch nicht geklärt ist.
+* Die Conius konnten so herausfinden welcher der Steine für die Verbindung zum Zielort zuständig ist.
+* Durch eine energetische Analyse kann eingeschätzt werden, ob ein Portal ein funktionierendes Gegenstück hat, oder ob es sich um ein Chaos-Portal handelt.
+* Die Analyse nutzt einen Stoff in den Fasern aus Tjosand-Quarz eingearbeitet sind. So kann die Intesität der Abstrahlung von magischer Potenz gemessen werden, wobei die Muster auf dem Stoff einen Hinweis auf den Aufbau und die Funktionsweise der jeweiligen Rune liefern.
+* Sind die Muster auf dem Stoff besonders unbeständig, handelt es sich nicht nur um ein Portal das von Chaos-Interferenzen beeinflusst wird, sondern um ein Chaos-Portal selbst, also ein solches ohne funktionierendes Gegenstück.
+* Handelt es sich *nicht* um ein Chaos-Portal, kann die Ziel-Rune durch die Anbringung einer zusätzlichen zweidimensionalen Rune vor den Einflüssen von anderen Portalen geschützt werden.
+* Da die Conius noch nicht herausgefunden haben wie die Portale sich selbst mit Energie versorgen, muss die zusätzliche Rune immer von einem Conius aktiv aufrecht erhalten werden. Daraus ergiebt sich der Beruf des Portalwächters.
+* Laut Kwint kann das Portal mit den anwesenden Conius vorerst ca. 2 Stunden stabil gehalten werden (Kwint 40 min, Lysandra 40 min, Draven 10 min, Taeron 30 min) ohne die Entkräftung eines Mitglieds in Kauf zu nehmen.
 
-## Mögliche Ziele
+Die Expedition beginnt direkt um das Portal herum einen Stützpunkt zu errichten. Zuerst werden die Zelte aufgebaut und grundlegende Dinge wie eine Feuerstelle etc. eingerichtet. Dann wird Holz für Barrikaden gesammelt. Die erste Barrikade formt einen inneren Ring um das Portal um eine "Invasion" verteidigen zu können. Eine zweiter Ring umgibt das Lager nach aussen um vor Außenstehenden zu schützen und die Geheimhaltung weitesgehend zu wahren.
 
-### Aridess
+Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufgaben erledigen:
+* Herausfinden ob die Welt hinter dem Portal (Über-)Leben zulässt
+* Hindurchschreiten, die direkte Umgebung sichern und direkt zurückkehren um Bericht zu erstatten.
+* Sollte die Umgebung als sicher eingestuft werden, so soll auch auf der anderen Seite schnellstmöglich ein Stützpunkt errichtet werden.
+
+Auf der anderen Seite des Portals finden die Spieler die endlosen Wüsten von Aridess. Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt, aber ihre Umgebung ist gänzlich anders.  
 * Große Wüsten, kleine Oasen.
 * Schwieriege Navigation
 * Begegnung mit Zwergen-Karavane
@@ -135,6 +147,8 @@ Die Expedition legt in einer Bucht nahe der passierten Inselkette an. Das Portal
     * Offene Wüste mit "Wellen" (Gefährliche Riesenflunder)
     * Trockene Bergkette aus dem die Karawane kam (enge Bergpfade und steile Steinwände mit Sukkulenten)
 
+## Mögliche sekundäre Ziele
+
 ### Linunar
 * Tote Urzeit-Welt
 * Viele riesiege Insekten, Farn-Bäume und Reptilien
@@ -144,16 +158,12 @@ Die Expedition legt in einer Bucht nahe der passierten Inselkette an. Das Portal
 * Nur Riff-Dörfer sind zugänglich
 * Die Portale sind möglicherweise sehr weit unter Wasser (Gefahr durch Druck)
 
-### Mognar
-* Zu heiß, nicht (lang) betretbar
-* Erweckung der Drachenkinder
-
-### Navura
-* Tiefe Dschungel
-* Begegnung mit Orcs
-
 ### Venoxi
 * Zu giftig, nicht betretbar
+
+## Verlauf der Ikusation
+
+Bei der Etablierung der Versorgungskette stoßen die Spieler früher oder später auf den Planeten Navura und seine Bewohner. Von hier erschließen sie dann als nächstes ein Portal zum Planeten Mognar, was insgesamt zum Start des Krieges der Drachenkinder gegen Navura führt. 
 
 # Carpebur
 
