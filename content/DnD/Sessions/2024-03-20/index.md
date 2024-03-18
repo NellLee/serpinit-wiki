@@ -47,7 +47,7 @@ Die [Bibel](/content/Voelker/Lateralen/Sodili/Theologie/die-Bibel-der-Unzaehlbar
 ### Conius
 * [Draven Norint (Alchemist)](/content/Voelker/Lateralen/Conius/Charaktere/Draven-Norrint/index.md)
 * [Lysandra Swirm (Druide)](/content/Voelker/Lateralen/Conius/Charaktere/Lysandra-Swirm/index.md)
-<!-- TODO: Ingvor dabei? -->
+Außerdem begleitet Ingvor Mandijit die Expedition.
 
 # Erschließung der Portale
 
