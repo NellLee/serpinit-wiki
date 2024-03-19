@@ -41,7 +41,7 @@ Die [Bibel](/content/Voelker/Lateralen/Sodili/Theologie/die-Bibel-der-Unzaehlbar
 ## Charaktere
 
 ### Sodili
-* [Eolyn Sera (Waldläufer) & Fezir (Adler)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/index.md)
+* [Eolyn Sera (Waldläufer) & Fezir (Zwergadler)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/index.md)
 * [Caelum Storringer (Paladin) & Tempest (Krokodil)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/index.md)
 
 ### Conius
