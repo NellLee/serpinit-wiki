@@ -1,14 +1,16 @@
-# 07.03.2024
+# 20.03.2024
 
 # Meta / Kontext
 
 Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen. Sie haben sich gegen das naheliegendere entschieden, um mit einem Schiff über den Gravitationsozean zu fahren. Sie werden begleitet von 3 Conius-Forschern (unter anderem Kwint Gurdun) und 2 Sodili im Auftrage des Köngis.
 
-Ákos tritt der Gruppe bei und übernimmt einen der Charaktere der Expedition (außer Kwint).
+Ákos tritt der Gruppe bei und üErisa Sturintbernimmt einen der Charaktere der Expedition (außer Kwint).
 
 Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich. Taeron hat einen Unsichtbarkeits-Umhang in einem geheimen Conius-Laden in der grauen Zone gekauft, Alaric hat den "braunen Ring" in den Schwarztunneln gesucht und steht nun vor dessen Türen, und Kle hat eine Bibel von der Bibliothek abgeholt.
 
 Malte wird nicht zur Session anwesend sein. Kles Bibel wird daher als allgemeiner Aufhänger für die anderen Spieler genutzt um sie an die Religion der Sgrisignier und die theologische Bedeutung der "Roiatinen" heranzuführen.
+
+Jaghati sitzt mit einigen Matrosenkollegen in einer Taverne, als die Kapitänin der Crew Erisa Sturint hereintritt und von dem neuen Auftrag erzählt.
 
 Als Hauptaufgabe müssen die Spieler nach wie vor das erste Portal erschließen.
 
@@ -92,6 +94,7 @@ Die Crew des Schiffes besteht ausschließlich aus Sodili:
 * [Thaos Swiff (Schiffsnavigator / Steuermann) & Maris (Delphin)](/content/Voelker/Lateralen/Sodili/Charaktere/Thaos-Deakel-Swiff_Maris/index.md)
 * [Maggus Sallet (Koch) & Ink (Tintenfisch)](/content/Voelker/Lateralen/Sodili/Charaktere/Maggus-Firn-Sallet_Ink/index.md)
 * [Renn Ionfor (Schiffsmechaniker) & Wench (Anglerfisch)](/content/Voelker/Lateralen/Sodili/Charaktere/Renn-Kienu-Ionfor_Wench/index.md)
+* [Jaghati Kayn & Odin (Rabe)]() (Von Ákos bespielt)
 * 6x Matrosen (fürs Rudern und allgemeine Aufgaben an Bord, wie Reinigung, Wachen halten usw.):
 <!-- TODO: Die 6 Matrosen ausformulieren (Name, Beschreibung, Stärken, Schwächen, Micu) -->
 
@@ -128,6 +131,8 @@ Die Conius-Lateralen haben bisher nur ein theoretisches Vorgehen zur Erschließu
 * Laut Kwint kann das Portal mit den anwesenden Conius vorerst ca. 2 Stunden stabil gehalten werden (Kwint 40 min, Lysandra 40 min, Draven 10 min, Taeron 30 min) ohne die Entkräftung eines Mitglieds in Kauf zu nehmen.
 
 Die Expedition beginnt direkt um das Portal herum einen Stützpunkt zu errichten. Zuerst werden die Zelte aufgebaut und grundlegende Dinge wie eine Feuerstelle etc. eingerichtet. Dann wird Holz für Barrikaden gesammelt. Die erste Barrikade formt einen inneren Ring um das Portal um eine "Invasion" verteidigen zu können. Eine zweiter Ring umgibt das Lager nach aussen um vor Außenstehenden zu schützen und die Geheimhaltung weitesgehend zu wahren.
+
+<!-- TODO: Bis hier gekommen -->
 
 Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufgaben erledigen:
 * Herausfinden ob die Welt hinter dem Portal (Über-)Leben zulässt
