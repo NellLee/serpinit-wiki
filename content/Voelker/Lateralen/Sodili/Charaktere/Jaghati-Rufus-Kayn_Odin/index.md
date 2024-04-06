@@ -1,0 +1,1 @@
+Haken-Hand mit eingebauter Knarre
