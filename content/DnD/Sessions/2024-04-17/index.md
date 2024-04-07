@@ -11,17 +11,24 @@ Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufga
 
 # Hinter den Portalen
 
-<!-- TODO -->
+Wenn die Spieler zuerst versuchen das Portal mit irgendetwas zu durchdringen, stoßen sie auf starken Wiederstand. Das Gegenstück auf Aridess ist von einer Seite bis zur Hälfte mit Sand zugeweht. Die Spieler müssen es weiter oben oder von der anderen Seite probieren.
 
-Aridess: 1 Portal relativ nahe, führt zu Venoxi. Auf Venoxi ist das nächste Portal direkt sichtbar und führt nach Navura.
+Schreiten die Spieler durch das Portal, finden sie die endlosen Wüsten von Aridess. Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt als kurz nach ihrer Ankunft ein Augenschlag von Mavorak passiert, aber ihre Umgebung ist gänzlich anders. 
+* Um das Portal herum ist der Boden rot und trocken. Hin und wieder liegt ein Findling herum und es ist nur sehr spärliche Flora und Fauna vorhanden.
+* Auf der Seite des Portals die von Sand zugeweht wurde (Norden) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sie sich sogar wie Wellen zu bewegen.
+* Im Osten sind ein paar raue orangene Felsen zu sehen, geschätzt 20 Minuten (Wisdom DC 15 / Nach 20 Minuten herausfinden: tatsächlich sind es eher 45 Minuten)
+    * Zwischen den Felsen ist der Eingang zu einer verlassenen Mine zu finden.
+    * Die Mine ist infiziert mit einer Kaktus-Art, welche bereits bei leichten Luftveränderungen ihre Stacheln abschießt (wie pflanzliche Stachelschweine). Sie besiedeln den Höhleneingang, wo sie zwar Licht, jedoch keinen Wind abbekommen. Sollte man die Mine betreten, beschießen sie einen mit ihren Stacheln, welche 1d4 Schaden machen und eine Vergiftung hervorrufen.
+    * Die Kakteen haben eine steinharte, glatte Schale, welche jedem Schwert und Hammer wiedersteht. Sie können nur getötet werden indem ihnen die Flüssigkeit entzogen wird, 
+    * Ca. 50 Meter hinter dem Eingang ist ein Raum in den Stein geschlagen. Hier finden sich Werkzeuge wie Spitzhacken und Schaufeln sowie der Beginn von Schienen auf denen eine verrosteter alte Metall-Lore steht. Die Schienen führen abwärts in die Dunkelheit. Die Höhle ist ab einem Punkt eingestürzt
+* Vom Norden in den Westen blickend verändert sich die Struktur der Landschaft, die sandigen Dünen werden kleiner und weniger und verlaufen sich irgendwann in einen rötlicheren, trockenen Boden.
+* Im Westen sind vereinzelte Bäume und viele trockene Büsche zu sehen.
+* In der Ferne im Westen ist die Zwergenstadt Obskuli zu erkennen (Perception DC 20 oder mit einem Fernglas bzw. aus Flughöhe). Sie ist 5 km entfernt und auf dem Weg warten einige Begegnungen mit einheimischen Tieren, teilweise (sehr) gefährlich.
 
-Portalsicherungen sichern beide Richtungen, doppelte Sicherung ist möglich (ohne zusätzlichen Effekt)
-
-<!-- TODO -->
-
-Auf der anderen Seite des Portals finden die Spieler die endlosen Wüsten von Aridess. Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt, aber ihre Umgebung ist gänzlich anders.  
+* 1 Portal relativ nahe, führt zu Venoxi. Auf Venoxi ist das nächste Portal direkt sichtbar und führt nach Navura.
 * Große Wüsten, kleine Oasen.
 * Schwieriege Navigation
+* Weg-Kreuzung mit Zwergenschildern in der Nähe 
 * Begegnung mit Zwergen-Karavane
     * Gespannte Situation durch Unbekanntheit
     * Sprachbarriere
