@@ -21,7 +21,7 @@ Schreiten die Spieler durch das Portal, finden sie die endlosen Wüsten von Arid
     * Die Mine ist infiziert mit einer Kaktus-Art, welche bereits bei leichten Luftveränderungen ihre Stacheln abschießt (wie pflanzliche Stachelschweine). Sie besiedeln den Höhleneingang, wo sie zwar Licht, jedoch keinen Wind abbekommen. Sollte man die Mine betreten, beschießen sie einen mit ihren Stacheln, welche 1d4 Schaden machen und eine Vergiftung hervorrufen.
     * Die Kakteen haben eine steinharte, glatte Schale, welche jedem Schwert und Hammer wiedersteht. Sie können nur getötet werden indem ihnen die Flüssigkeit entzogen wird, 
     * Ca. 50 Meter hinter dem Eingang ist ein Raum in den Stein geschlagen. Hier finden sich Werkzeuge wie Spitzhacken und Schaufeln sowie der Beginn von Schienen auf denen eine verrosteter alte Metall-Lore steht. Die Schienen führen abwärts in die Dunkelheit. Die Höhle ist ab einem Punkt eingestürzt
-* Vom Norden in den Westen blickend verändert sich die Struktur der Landschaft, die sandigen Dünen werden kleiner und weniger und verlaufen sich irgendwann in einen rötlicheren, trockenen Boden.
+* Vom Norden in den Westen blickend verändert sich die Struktur der Landschaft, die sandigen Dünen werden kleiner und weniger und verlaufen sich irgendwann in einen rötlicheren, trockenen Boden ähnlich dem Untergrund um das Portal herum.
 * Im Westen sind vereinzelte Bäume und viele trockene Büsche zu sehen.
 * In der Ferne im Westen ist die Zwergenstadt Obskuli zu erkennen (Perception DC 20 oder mit einem Fernglas bzw. aus Flughöhe). Sie ist 5 km entfernt und auf dem Weg warten einige Begegnungen mit einheimischen Tieren, teilweise (sehr) gefährlich.
 
