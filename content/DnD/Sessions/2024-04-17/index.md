@@ -19,25 +19,20 @@ Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufga
 * Auf der Seite des Portals die von Sand zugeweht wurde (Nord-Osten bis Nord-Westen) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sich die Dünen sogar wie Wellen zu bewegen.
     * Die segende Hitze der Wüste verursacht pro Runde einen Erschöpfungspunkt.
     * Am Horizont im Nord-Osten sind komplexe Steinstrukturen zu sehen. Es handelt sich um eine "Fata Morgana" der Zwergenstadt Obskuli, welche die flachen Sandsteingebäude spiegelt und verzerrt und sie auf die Distanz wie ein unmögliches Gebilde aussehen lässt.
-    * Sollten sich die Spieler in die offene Wüste begeben werden sie schnell mindestens einer "Sandflunder" begegnen. Sie verhalten sich ruhiger sobald sich ein Lebewesen nähert und schmeißen ihre Beute dann weit in die Höhe sobald diese sie unwissend betritt.
-    * Ihre Schwachstelle sind die Schwellungen auf ihrer Haut die Aussehen wie kleine Findlinge. In ihnen wird ein Sekret produziert, welches die Flunder unterhalb ihres Körpers absondert um ihre Beute zu verdauen, nachdem der hohe Wurf sie bewegungsunfähig gemacht hat.
-    * Wenn man diese Schwellungen beschädigt, zersetzt das Sekret die Oberseite der Flunder.
+    * Sollten sich die Spieler in die offene Wüste begeben werden sie schnell mindestens einer [Saolom](/content/Himmelskoerper/Aridess/Fauna/Saolom.md) begegnen.
     * Die Zwergenstadt ist 20 km entfernt und von den Spielern prinzipiell nicht erreichbar, außer sie haben eine zuverlässige Quelle für Wasser, Schatten, Essen, etc.
 * Vom Nord-Westen weiter in den Westen blickend verändert sich die Struktur der Landschaft, die sandigen Dünen werden kleiner und weniger und verlaufen sich irgendwann in einen rötlicheren, trockenen Boden ähnlich dem Untergrund um das Portal herum.
     * Es sind vereinzelte Bäume, viele trockene Büsche und große Flächen mit hohem, braunen Gras zu sehen.
-    * An einer Stelle ist verstärkt Flora zu erkennen, was auf eine Wasserquelle hindeutet.
+    * An einer Stelle ist verstärkte Vegetation zu erkennen, was auf eine Wasserquelle hindeutet.
     * Nach ca. 10 Minuten ist Richtung Süd-Westen hinter einigen hohen Felsen in der Ferne ein anderes Sgrisignier-Portal zu erkennen (Perception DC 20 oder mit einem Fernglas bzw. aus Flughöhe). Es ist 5 km entfernt und auf dem Weg warten einige Begegnungen mit einheimischen Tieren, teilweise (sehr) gefährlich.
     * Das Portal führt nach Venoxi. Auf Venoxi ist das nächste Portal direkt sichtbar und führt nach Navura.
-* Im Süden bis in den Osten sind ein paar raue orangene Felsen zu sehen, geschätzt 20 Minuten (Wisdom DC 15 / Nach 20 Minuten herausfinden: tatsächlich sind es eher 45 Minuten)
+* Im Süden bis in den Osten sind ein raue orangene Felsen zu sehen, geschätzt 20 Minuten (Wisdom DC 15 / Nach 20 Minuten herausfinden: tatsächlich sind es eher 45 Minuten)
     * Zwischen den Felsen ist der Eingang zu einer verlassenen Mine zu finden.
-    * Die Mine ist infiziert mit einer Kaktus-Art, welche bereits bei leichten Luftveränderungen ihre Stacheln abschießt (ein bisschen wie pflanzliche Stachelschweine). Sie besiedeln den Höhleneingang, wo sie zwar Licht, jedoch keinen Wind abbekommen. Sollte man die Mine betreten, beschießen sie einen mit ihren Stacheln, welche 1d4 Schaden machen und eine Vergiftung hervorrufen.
-    * Die Kakteen haben eine steinharte, glatte Schale, welche jedem Schwert und Hammer wiedersteht.
-    <!-- TODO: Wie können die Kakteen eine ernste Herausfoderung darstellen die nicht zu einfach zu beseitigen ist, aber trotzdem von den Spieler überwunden werden kann? -->
+    * Die Mine ist infiziert mit [Shwin-Kakteen](/content/Himmelskoerper/Aridess/Flora/Shwin-Kaktus.md). Sie besiedeln den vorderen Höhleneingang, wo sie noch genug Licht abbekommen. Sollte man ihre Fäden im Zweilicht nicht erkennen (Perception DC 15) und die Mine unachtsam betreten, beschießen sie einen mit ihren Stacheln, welche 1d4 Schaden machen und eine Vergiftung hervorrufen.
     * Ca. 50 Meter hinter dem Eingang ist ein Raum in den Stein geschlagen. 
-    * In dem Raum sind 3 Leichen von Zwergen, welche dem Gift der Kakteen erlegen sind.
-    <!-- TODO: Loot (vermutlich Edelsteine, da es sich um eine Edelstein-Mine handelt) -->
-    * Hier finden sich außerdem Werkzeuge wie Spitzhacken und Schaufeln sowie der Beginn von Schienen auf denen eine verrosteter alte Metall-Lore steht. Die Schienen führen abwärts in die Dunkelheit. Die Lore und die Schienen sind so verzogen, dass sie sich kaum bewegen lässt und der Mechanismus um die Loren nach oben zu ziehen ist schon lange verrotet. Der Gang in die Tiefe ist ab einem Punkt außerdem auch noch eingestürzt.
-
+    * Hier finden sich Werkzeuge wie Spitzhacken und Schaufeln sowie der Beginn von Schienen auf denen eine verrosteter alte Metall-Lore steht. Die Schienen führen abwärts in die Dunkelheit. Die Lore und die Schienen sind so verzogen, dass sie sich kaum bewegen lässt und der Mechanismus um die Loren nach oben zu ziehen ist schon lange verrottet. Der Gang in die Tiefe ist ab einem Punkt außerdem auch noch eingestürzt.
+    * In dem Raum sind 3 kleine Leichen, welche dem Gift der Kakteen erlegen sind. Die Körper liegen schon mehrere Monate dort.
+        * Es ist kein Fleisch an den Knochen übrig und auch die Kleidung ist bereits am verrotten. Beim Durchsuchen sind vergammelte Wasserschläuche, zerfressene Waffen und verrostete Armreife zu finden. Außerdem glitzern aus dem Beutel einer der Leichen eine Handvoll kleinerer Edelsteine.
 <!-- TODO: Das folgende einsortieren -->
 * Große Wüsten, kleine Oasen.
 * Schwieriege Navigation
