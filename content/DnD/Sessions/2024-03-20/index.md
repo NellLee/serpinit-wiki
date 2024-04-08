@@ -1,18 +1,5 @@
 # 20.03.2024
 
-<!-- TODO: Idee für Marvins Char: 
-Eisbär-Vikinger Sodili (Gurrdson) der ins Exil geschickt wurde, weil er den Vikinger-König nicht beschützen konnte. 
-Fighter Class, defensiver Spielstil.
-Waffen: Schwert & Schild (länglich, schwer). 
-Personality: Pessimistisch, Schwarzseherisch, Seiner Gruppe gegenüber treu
-Ideals: Traditionsbewusst, Ordnungsschaffend
-Bonds: Seinem König immernoch treu. Lore-Waffe vom König (hat die Eisschollen zerbrochen)
-Flaws: Schuldgefühle, Versagensangst
-Alignment: Lawful neutral
-Aussehen: Etwas älter (~45). Viele Narben und Gesichtstattoos.
-Micu (Krümmel): Sattel & Satteltaschen, ohne Rüstung
--->
-
 # Meta / Kontext
 
 Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen. Sie haben sich gegen das naheliegendere entschieden, um mit einem Schiff über den Gravitationsozean zu fahren. Sie werden begleitet von 3 Conius-Forschern (unter anderem Kwint Gurdun) und 2 Sodili im Auftrage des Köngis.

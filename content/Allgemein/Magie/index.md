@@ -67,7 +67,7 @@ zeitgesteuerte Effekte aufweist, u.v.m.
 
 ### Allgemeine Oveläre Magie
 
-Nach dem Fall der Sgrisignier existierte für lange Zeit keine einzige Spezies mit magischen Fähigkeiten im Serpinit-System. Eine Ausnahme bilden die Elementare die sich spontan an Orten mit Magie bilden, doch da sie effektiv aus Magie bestehen werden sie nur selten als traditionelle Lebewesen gezählt. Alle anderen Lebewesen auf den 7 Planeten waren für lange Zeit nicht-magisch. Die Aufteilung von Creapatos in die vier Elementardrachen hat zwar vier der sieben Planeten mit extrem mächtiger Magie erfüllt, doch dauerte es Jahrtausende bis diese Magie bis an die jeweilige Oberfläche drang. Auf diesen ovelären Planeten hat daraufhin über Millionen Jahre hinweg eine **arcanogene Evolution** stattgefunden, welche stetigen magischen Einfluss auf die Lebewesen nahm. 
+Nach dem Fall der Sgrisignier existierte für lange Zeit keine einzige Spezies mit magischen Fähigkeiten im Serpinit-System. Eine Ausnahme bilden die Elementare die sich spontan an Orten mit Magie bilden, doch da sie effektiv aus Magie bestehen werden sie nur selten als traditionelle Lebewesen gezählt. Alle anderen Lebewesen auf den 7 Planeten waren für lange Zeit nicht-magisch, abgesehen von der Tatsache, dass alle Lebewesen minimale Mengen an magischer Potenz abstrahlen. Die Aufteilung von Creapatos in die vier Elementardrachen hat zwar vier der sieben Planeten mit extrem mächtiger Magie erfüllt, doch dauerte es Jahrtausende bis diese Magie bis an die jeweilige Oberfläche drang. Auf diesen ovelären Planeten hat daraufhin über Millionen Jahre hinweg eine **arcanogene Evolution** stattgefunden, welche stetigen magischen Einfluss auf die Lebewesen nahm. 
 
 #### Arcanogene Evolution
 
