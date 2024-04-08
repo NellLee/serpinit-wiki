@@ -2,7 +2,6 @@ Fleischfressende Pflanze die ähnlich wie eine große Aloe Vera aussieht, wie ei
 
 
 
-
 Portalsicherungen sichern beide Richtungen, doppelte Sicherung ist möglich (ohne zusätzlichen Effekt)
 
 
