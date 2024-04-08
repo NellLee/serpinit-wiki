@@ -14,7 +14,6 @@ Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufga
 ## Aridess
 
 * Wenn die Spieler zuerst versuchen das Portal mit irgendetwas zu durchdringen, stoßen sie auf starken Wiederstand. Das Gegenstück auf Aridess ist von einer Seite bis zur Hälfte mit Sand zugeweht. Die Spieler müssen es weiter oben oder von der anderen Seite probieren.
-<!-- TODO: Wie wird verhindert dass unbelebte Dinge (Sand, Wasser, Gase) immer wieder durch die Portale gelangen, ohne dass dies verhindert dass Lebewesen die Portale durchschreiten? -->
 * Schreiten die Spieler dann durch das Portal, finden sie die endlosen Wüsten von Aridess. Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt als kurz nach ihrer Ankunft ein Augenschlag von Mavorak passiert, aber ihre Umgebung ist gänzlich anders. 
 * Um das Portal herum ist der Boden rot und trocken. Hin und wieder liegt ein Findling herum und es ist nur sehr spärliche Flora und Fauna vorhanden.
 * Auf der Seite des Portals die von Sand zugeweht wurde (Nord-Osten bis Nord-Westen) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sich die Dünen sogar wie Wellen zu bewegen.
@@ -33,7 +32,7 @@ Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufga
     * Zwischen den Felsen ist der Eingang zu einer verlassenen Mine zu finden.
     * Die Mine ist infiziert mit einer Kaktus-Art, welche bereits bei leichten Luftveränderungen ihre Stacheln abschießt (ein bisschen wie pflanzliche Stachelschweine). Sie besiedeln den Höhleneingang, wo sie zwar Licht, jedoch keinen Wind abbekommen. Sollte man die Mine betreten, beschießen sie einen mit ihren Stacheln, welche 1d4 Schaden machen und eine Vergiftung hervorrufen.
     * Die Kakteen haben eine steinharte, glatte Schale, welche jedem Schwert und Hammer wiedersteht.
-    <!-- TODO: Wie können die Katkeen eine ernste Herausfoderung darstellen die nicht zu einfach zu beseitigen ist, aber trotzdem von den Spieler überwunden werden kann? -->
+    <!-- TODO: Wie können die Kakteen eine ernste Herausfoderung darstellen die nicht zu einfach zu beseitigen ist, aber trotzdem von den Spieler überwunden werden kann? -->
     * Ca. 50 Meter hinter dem Eingang ist ein Raum in den Stein geschlagen. 
     * In dem Raum sind 3 Leichen von Zwergen, welche dem Gift der Kakteen erlegen sind.
     <!-- TODO: Loot (vermutlich Edelsteine, da es sich um eine Edelstein-Mine handelt) -->

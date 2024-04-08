@@ -1,0 +1,7 @@
+# Shwin-Kaktus
+
+# Beschreibung
+Der Shwin-Kaktus ist eine faszinierende und gefährliche Variation der üblichen Kaktusarten. Er wird häufig Spinnenstachel-Kaktus oder ähnliches genannt, denn er hat die bemerkenswerte Fähigkeit, dünnflüssige Fäden ähnlich einer Spinne zu produzieren.
+Die Spitzen seiner Stacheln enthalten eine spezielle, höchst giftige Flüssigkeit. Der Kaktus spritzt diese Flüssigkeit aus dem Stachel, woraufhin sie beim Kontakt mit der Luft zu dünnen, klebrigen Fäden aushärtet. Diese Fäden sind zwar nicht mehr giftig, dafür aber äußerst haltbar und können sich an alles anhaften, was sie berührt.
+Wenn ein Lebewesen versehentlich in die Fäden des Kaktus gerät, bleiben sie daran kleben. Sobald das Opfer sich weiter bewegt und so Zug auf die Fäden ausübt, löst dies eine Reaktion aus, bei der die Stacheln des Kaktus als Ganzes aus dem Stamm geschleudert werden. Dieser Angriff ist blitzschnell und die Kraft der geschossenen Stacheln reicht aus um tief in die Haut einzudringen. Der Stoff in den Stachelspitzen verursacht sehr schnell eine ernste Vergiftung wenn er in den Blutkreislauf gerät.
+Der Shwin-Kaktus befindet sich meist inmitten von Felsspalten und anderen Nischen, um möglichst viele Fäden spinnen zu können.
