@@ -1,5 +1,7 @@
 # 03.04.2024
 
+<!-- TODO: Battlemaps -->
+
 # Meta / Kontext
 
 Die Spieler stehen vor dem Portal und Kwint Gurdun hat gerade die Rune zur Stabilisierung an dem entsprechenden Stein angebracht. 
@@ -19,7 +21,7 @@ Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufga
 * Auf der Seite des Portals die von Sand zugeweht wurde (Nord-Osten bis Nord-Westen) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sich die Dünen sogar wie Wellen zu bewegen.
     * Die segende Hitze der Wüste verursacht pro Runde einen Erschöpfungspunkt.
     * Am Horizont im Nord-Osten sind komplexe Steinstrukturen zu sehen. Es handelt sich um eine "Fata Morgana" der Zwergenstadt Obskuli, welche die flachen Sandsteingebäude spiegelt und verzerrt und sie auf die Distanz wie ein unmögliches Gebilde aussehen lässt.
-    * Sollten sich die Spieler in die offene Wüste begeben werden sie schnell mindestens einer [Saolom](/content/Himmelskoerper/Aridess/Fauna/Saolom.md) begegnen.
+    * Sollten sich die Spieler in die offene Wüste begeben werden sie schnell mindestens einer [Saolom](/content/DnD/Gegner/Saolom.md) begegnen.
     * Die Zwergenstadt ist 20 km entfernt und von den Spielern prinzipiell nicht erreichbar, außer sie haben eine zuverlässige Quelle für Wasser, Schatten, Essen, etc.
 * Vom Nord-Westen weiter in den Westen blickend verändert sich die Struktur der Landschaft, die sandigen Dünen werden kleiner und weniger und verlaufen sich irgendwann in einen rötlicheren, trockenen Boden ähnlich dem Untergrund um das Portal herum.
     * Es sind vereinzelte Bäume, viele trockene Büsche und große Flächen mit hohem, braunen Gras zu sehen.
@@ -27,24 +29,16 @@ Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufga
     * Nach ca. 10 Minuten ist Richtung Süd-Westen hinter einigen hohen Felsen in der Ferne ein anderes Sgrisignier-Portal zu erkennen (Perception DC 20 oder mit einem Fernglas bzw. aus Flughöhe). Es ist 5 km entfernt und auf dem Weg warten einige Begegnungen mit einheimischen Tieren, teilweise (sehr) gefährlich.
     * Das Portal führt nach Venoxi. Auf Venoxi ist das nächste Portal direkt sichtbar und führt nach Navura.
 * Im Süden bis in den Osten sind ein raue orangene Felsen zu sehen, geschätzt 20 Minuten (Wisdom DC 15 / Nach 20 Minuten herausfinden: tatsächlich sind es eher 45 Minuten)
+    * In den roten Felsen tummeln sich Sukkulenten.
     * Zwischen den Felsen ist der Eingang zu einer verlassenen Mine zu finden.
-    * Die Mine ist infiziert mit [Shwin-Kakteen](/content/Himmelskoerper/Aridess/Flora/Shwin-Kaktus.md). Sie besiedeln den vorderen Höhleneingang, wo sie noch genug Licht abbekommen. Sollte man ihre Fäden im Zweilicht nicht erkennen (Perception DC 15) und die Mine unachtsam betreten, beschießen sie einen mit ihren Stacheln, welche 1d4 Schaden machen und eine Vergiftung hervorrufen.
-    * Ca. 50 Meter hinter dem Eingang ist ein Raum in den Stein geschlagen. 
-    * Hier finden sich Werkzeuge wie Spitzhacken und Schaufeln sowie der Beginn von Schienen auf denen eine verrosteter alte Metall-Lore steht. Die Schienen führen abwärts in die Dunkelheit. Die Lore und die Schienen sind so verzogen, dass sie sich kaum bewegen lässt und der Mechanismus um die Loren nach oben zu ziehen ist schon lange verrottet. Der Gang in die Tiefe ist ab einem Punkt außerdem auch noch eingestürzt.
-    * In dem Raum sind 3 kleine Leichen, welche dem Gift der Kakteen erlegen sind. Die Körper liegen schon mehrere Monate dort.
+        * Die Mine ist infiziert mit [Shwin-Kakteen](/content/DnD/Gegner/Shwin-Kaktus.md). Sie besiedeln den vorderen Höhleneingang, wo sie noch genug Licht abbekommen. Sollte man ihre Fäden im Zweilicht nicht erkennen (Perception DC 15) und die Mine unachtsam betreten, beschießen sie einen mit ihren Stacheln, welche 1d4 Schaden machen und eine Vergiftung hervorrufen.
+        * Ca. 50 Meter hinter dem Eingang ist ein Raum in den Stein geschlagen. 
+        * Hier finden sich Werkzeuge wie Spitzhacken und Schaufeln sowie der Beginn von Schienen auf denen eine verrosteter alte Metall-Lore steht. Die Schienen führen abwärts in die Dunkelheit. Die Lore und die Schienen sind so verzogen, dass sie sich kaum bewegen lässt und der Mechanismus um die Loren nach oben zu ziehen ist schon lange verrottet. Der Gang in die Tiefe ist ab einem Punkt außerdem auch noch eingestürzt.
+        * In dem Raum sind 3 kleine Leichen, welche dem Gift der Kakteen erlegen sind. Die Körper liegen schon mehrere Monate dort.
         * Es ist kein Fleisch an den Knochen übrig und auch die Kleidung ist bereits am verrotten. Beim Durchsuchen sind vergammelte Wasserschläuche, zerfressene Waffen und verrostete Armreife zu finden. Außerdem glitzern aus dem Beutel einer der Leichen eine Handvoll kleinerer Edelsteine.
-<!-- TODO: Das folgende einsortieren -->
-* Große Wüsten, kleine Oasen.
-* Schwieriege Navigation
-* Weg-Kreuzung mit Zwergenschildern in der Nähe 
-* Begegnung mit Zwergen-Karavane
-    * Gespannte Situation durch Unbekanntheit
-    * Sprachbarriere
-    * Auf dem Weg zum Handelsposten 
-* Mögliche Informationen über die Umgebung:
-    * Oase circa 3 Stunden entfernt, Handelposten der Vapornans
-    * Offene Wüste mit "Wellen" (Gefährliche Riesenflunder)
-    * Trockene Bergkette aus dem die Karawane kam (enge Bergpfade und steile Steinwände mit Sukkulenten)
+    * Auf den Felsen, nicht weit hinter dem Minen-Eingang finden die Spieler die Überreste eines jungen [Lurpers](/content/DnD/Gegner/Lurper.md). Bei genauerer Untersuchung kann festgestellt werden, dass der Lurper maximal 3 Tage tot ist (Nature DC 11), noch nicht ausgewachsen war (Nature DC 18) und die Stacheln eines Shwin-Kaktus im Hinterlauf stecken hat (Investigation DC 8)
+    * Beim Überqueren der Felsen treffen die Spieler auf weitere Lurper. Zwei Männchen (Nature DC 12) kämpfen miteinander, wobei eines bei dem Territorialkampf deutlich verliert. Hinter dem Kampf in einer Felsnische leicht versteckt (Perception DC 13) befinden sich zudem eine Lurper-Kuh und zwei Junge.
+
 
 ## Venoxi
 * Zu giftig, nicht lang betretbar
