@@ -19,6 +19,8 @@ export function load({ params }) {
     const page = new MarkdownPage(fullPath)
     return {
         html: page.domScraper.html(),
-        references: page.references
+        toc: page.toc,
+        references: page.references,
+        title: page.title
     }
 }

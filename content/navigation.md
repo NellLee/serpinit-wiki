@@ -1,5 +1,0 @@
-* [Home](/content/index.md)
-* [Die Magie](/content/Allgemein/Magie/index.md)
-* [Die Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md)
-* [Die 9 Himmelskörper](/content/Himmelskoerper/index.md)
-* [Die 9 Völker](/content/Voelker/index.md)

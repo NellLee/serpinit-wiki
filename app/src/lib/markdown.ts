@@ -4,12 +4,13 @@ import path from "path";
 import { marked } from 'marked';
 import DOMPurify from 'isomorphic-dompurify';
 import * as cheerio from 'cheerio';
-import { generateHeaderId } from '$lib/utilities';
+import { generateHeaderId, linkTreeToList } from '$lib/utilities';
 
 export class MarkdownPage {
     markdown: string;
     title: string;
     references: NamedLinkList[];
+    toc: NamedLinkList;
     #initialHtml: string;
 
     get domScraper() {
@@ -33,17 +34,31 @@ export class MarkdownPage {
         const $ = this.domScraper
 
         // Generate table of contents
-        const toc: LinkObject[] = []
+        const tocTree: LinkTree = {
+            children: []
+        }
+        let prevNode = tocTree
+        let prevLevel = 0
         $('h1, h2, h3, h4, h5, h6').each(function(_, element) {
             const header = $(element);
             const headerLevel = parseInt(element.tagName.slice(1));
             const headerId = generateHeaderId(header.text());
             header.attr('id', headerId);
-            let link: LinkObject = {
-                href: `#${headerId}`,
-                text: header.text() // TODO: remove disgusting list creation
+            let parent
+            if(headerLevel > prevLevel) {
+                parent = prevNode
+            } else {
+                parent = (prevNode as unknown as LinkNode).parent // trust me bro
             }
-            toc.push(link)
+            let child: LinkNode = {
+                link: {
+                    href: `#${headerId}`,
+                    text: header.text()
+                },
+                children: [],
+                parent: parent
+            }
+            parent.children.push(child)
         });
 
         // Generate related content
@@ -70,10 +85,11 @@ export class MarkdownPage {
             referred.push(link)
         });
 
+        this.toc = linkTreeToList(tocTree, "Inhalt") // FIXME: Not indented
+
         this.references = [
-            { name: "Table Of Contents", linkList: toc }, 
-            { name: "Related Articles", linkList: related },
-            { name: "Mentioned here", linkList: referred },
+            { name: "Verwandte Artikel", linkList: related },
+            { name: "Hier erwähnt", linkList: referred },
         ]
     }
 }

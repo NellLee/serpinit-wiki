@@ -4,6 +4,16 @@ declare type LinkObject = {
 };
 
 type NamedLinkList = {
-    name: string;
+    name: string,
     linkList: LinkObject[]
+}
+
+type LinkTree = {
+    children: LinkNode[]
+}
+
+type LinkNode = {
+    link: LinkObject,
+    children: LinkNode[],
+    parent: LinkNode | NamedLinkTree
 }
