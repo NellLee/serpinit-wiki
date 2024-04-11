@@ -3,7 +3,7 @@
 # Geschichte
 
 Agranum ist ein Planet, der maßgeblich von einem Ereignis kosmischen Ausmaßes definiert wurde, welches kurz nach dem Fall der Sgrisignier stattfand. Vor diesem Ereignis war Agranum ein erdähnlicher Planet mit einer vergleichbaren Atmosphäre und Schwerkraft.
-Agranum war zudem der einzige Planet mit natürlichen [Tjosand](../../general/magie/tjosand.md)-Vorkommen. Es gab ursprünglich einige Tjosand-Wüsten
+Agranum war zudem der einzige Planet mit natürlichen [Tjosand](../../Allgemein/Magie/Tjosand.md)-Vorkommen. Es gab ursprünglich einige Tjosand-Wüsten
 unterschiedlicher Größe auf Agranum, in welchen die Sgrisignier schließlich auf die natürlich entstehenden Quarz-Strukturen
 aufmerksam geworden sind. Die Sgrisignier erkannten schnell, dass es sich bei dem entstandenen Quarzkristall um einen hochgradig magisch-reaktiven Stoff handelt. Sie begannen den Tjosand-Quarz zu erforschen und entwickelten so schließlich die Runensteine, mit deren Hilfe besonders komplizierte und mächtige Runen permanent verschriftlicht werden konnten, was schließlich auch die Entwicklung der
 Sgrisignier-Portale ermöglichte. Die Sgrisignier begannen aufgrund der erhöhten Nachfrage mit Tjosandquarz-Bohrungen auf
@@ -17,7 +17,7 @@ war so energiereich, dass Agranums Oberfläche förmlich zerrissen wurde, weshal
 sphärischen Schub annullierter Gravitation. Diese sogenannte **Gravidblase** trug sämtliche Landmassen mit sich in die
 Höhe, wo sie schließlich in ca. 35 km Höhe zum Stehen kamen.
 Auf dieser Blase schwebten fortan die Kontinentalplatten von Agranum und mit ihr die verbleibenden 15 % allen Lebens.
-Die magische Reaktion Aerions führte trotzdem nicht nur zu diesem katastrophalen Massenaussterben auf Agranum, sondern auch zur psychischen Verstümmelung der [Lateralen](../voelker/lateralen.md).
+Die magische Reaktion Aerions führte trotzdem nicht nur zu diesem katastrophalen Massenaussterben auf Agranum, sondern auch zur psychischen Verstümmelung der [Lateralen](/content/Voelker/Lateralen/index.md).
 
 ## Die Gravidblase und die Gravitationsozeane 
 

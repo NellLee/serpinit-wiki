@@ -59,6 +59,8 @@ export class MarkdownPage {
                 parent: parent
             }
             parent.children.push(child)
+            prevLevel = headerLevel
+            prevNode = child
         });
 
         // Generate related content
@@ -67,8 +69,8 @@ export class MarkdownPage {
         fs.readdirSync(parentFolder).forEach((file) => {
             if (file != fileName) {
                 let link: LinkObject = {
-                    href: `${parentFolder}/${file}`,
-                    text: file.endsWith('/index.md') ? file.slice(0, -9) : path.basename(file, '.md')
+                    href: file,
+                    text: file.endsWith('index.md') ? file.slice(0, -9) : path.basename(file, '.md')
                 }
                 related.push(link)
             }

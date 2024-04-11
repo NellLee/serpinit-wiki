@@ -6,8 +6,7 @@ export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
     const namedLinkList: NamedLinkList = { name, linkList: [] };
     
     function traverse(node: LinkNode, currentDepth: number) {
-        const indent = 'x'.repeat(currentDepth);
-        console.log(indent)
+        const indent = "&nbsp;".repeat(currentDepth*2);
         const indentedText = `${indent}${node.link.text}`;
         
         namedLinkList.linkList.push({ href: node.link.href, text: indentedText });

@@ -1,14 +1,14 @@
 # Die 9 Völker
 
 # Das Ur-Volk:
-- [Die Sgrisignier](sgrisignier/index.md)
+- [Die Sgrisignier](./Sgrisignier/index.md)
 
 # Die modernen Völker
-- [Die Drachenkinder](drachenkinder/index.md)
-- [Die Elementare](elementare/index.md)
-- [Die Lateralen](lateralen/index.md)
-- [Die Feen](momensi/index.md)
-- [Die Fluctro](fluctro/index.md)
-- [Die Sylvanars](sylvanar/index.md)
-- [Die Spirits](spirits/index.md)
-- [Die Zwerge](vapornans/index.md)
+- [Die Drachenkinder](./Drachenkinder/index.md)
+- [Die Elementare](./Elementare/index.md)
+- [Die Lateralen](./Lateralen/index.md)
+- [Die Feen](./Momensi/index.md)
+- [Die Fluctro](./Fluctro/index.md)
+- [Die Sylvanars](./Sylvanar/index.md)
+- [Die Spirits](./Spirits/index.md)
+- [Die Zwerge](./Vapornans/index.md)
