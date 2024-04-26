@@ -1,24 +1,24 @@
 
-import express from "express";
-import path from "path";
-import { EvCatPair, EventConfig, CategorizedTimeline } from "../scripts/types";
-import { readFile } from "fs/promises";
-import { parseString } from 'xml2js';
-import { parseBooleans, parseNumbers } from "xml2js/lib/processors";
-import { isTimeline } from "../scripts/types.guard";
-import { JSDOM } from "jsdom";
-let $: JQueryStatic;
+import express from "express"
+import path from "path"
+import { EvCatPair, EventConfig, CategorizedTimeline } from "../scripts/types"
+import { readFile } from "fs/promises"
+import { parseString } from 'xml2js'
+import { parseBooleans, parseNumbers } from "xml2js/lib/processors"
+import { isTimeline } from "../scripts/types.guard"
+import { JSDOM } from "jsdom"
+let $: JQueryStatic
 
-const router = express.Router();
-
-
+const router = express.Router()
 
 
 
 
 
 
-let timelinePath = path.join(__dirname + "/../../../timeline/Geschichte.timeline");
+
+
+let timelinePath = path.join(__dirname + "/../../../timeline/Geschichte.timeline")
 const config = {
   availableHeight: 600,
   availableWidth: 1200,
@@ -29,7 +29,7 @@ const config = {
 router.get("/", async (req, res) => {
 
   console.log("Loading timeline...")
-  const eventConfigs = await getEventConfigs();
+  const eventConfigs = await getEventConfigs()
   console.log("Loading timeline... Done!")
 
   res.render("timeline", {
@@ -38,23 +38,23 @@ router.get("/", async (req, res) => {
 })
 
 async function getEventConfigs() {
-  return await getEvCatPairs().then(evCatPairs => calculateEventConfigs(config, evCatPairs));
+  return await getEvCatPairs().then(evCatPairs => calculateEventConfigs(config, evCatPairs))
 }
 
 
 function getEvCatPairs(): Promise<EvCatPair[]> {
   return readFile(timelinePath).then(xml => {
-    return parseTimeline(xml.toString());
+    return parseTimeline(xml.toString())
   }).then((timeline: CategorizedTimeline) => {
     return timeline.events.map((event, index) => {
       const category = timeline.categories.find(
         (cat) => cat.name === event.category
-      );
+      )
       if (category) {
-        return { index, event, category };
+        return { index, event, category }
       }
       return null
-    }).filter(v => !!v) as EvCatPair[];
+    }).filter(v => !!v) as EvCatPair[]
   })
 }
 
@@ -66,23 +66,23 @@ function parseTimeline(xml: string): Promise<CategorizedTimeline> {
 
 
       if (err) {
-        console.error('Error parsing XML:', err);
+        console.error('Error parsing XML:', err)
         reject(err)
-        return;
+        return
       }
 
-      const timeline = result.timeline;
+      const timeline = result.timeline
       if (isTimeline(timeline)) {
 
-        console.log('Valid timeline object');
-        // console.log(timeline);
-        resolve(timeline);
+        console.log('Valid timeline object')
+        // console.log(timeline)
+        resolve(timeline)
       } else {
-        let message = 'Invalid timeline object format';
-        console.error(message);
+        let message = 'Invalid timeline object format'
+        console.error(message)
         reject(message)
       }
-    });
+    })
   })
 
 }
@@ -116,11 +116,11 @@ function calculateEventConfigs(config, evCatPairs: EvCatPair[]): Promise<EventCo
     }
 
     if (result.length > 0) {
-      resolve(result);
+      resolve(result)
     } else {
       reject()
     }
-  });
+  })
 }
 
 
@@ -128,9 +128,9 @@ function parseRgbs(value: string) {
   if (/(\d{1,3}),(\d{1,3}),(\d{1,3})/.test(value)) {
     return `rgb(${value})`
   }
-  return value;
+  return value
 }
 
 
 
-module.exports = router;
+module.exports = router

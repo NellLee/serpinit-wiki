@@ -1,30 +1,26 @@
 
-import path from 'path';
-import { MarkdownPage } from '$lib/markdown';
-import fs from 'fs';
-import { error } from '@sveltejs/kit';
-import { redirect } from '@sveltejs/kit';
+import path from 'path'
+import { MarkdownPage } from '$lib/markdown'
+import fs from 'fs'
+import { error } from '@sveltejs/kit'
+import { redirect } from '@sveltejs/kit'
+import { WIKI_URL, getLinkedFilePath } from '$lib/utilities/wiki.js'
 
-const __dirname = new URL(".", import.meta.url).pathname.substring(1);
-const wikiUrl = '/content';
-const wikiPath = path.resolve(__dirname, "../../../../.."+wikiUrl)
 
 export function load({ params }) {
+    let fullPath = getLinkedFilePath(params.file)
 
-    let filePath = params.file.replace(/\//g, path.sep)
-    let fullPath = path.resolve(wikiPath, filePath);
-
-    if (filePath == "") {
-        redirect(302, "content/index.md");
+    if (params.file == "") {
+        redirect(302, "content/index.md")
     } else if (!/\.\w+$/.test(fullPath)) {
-        redirect(302, `${wikiUrl}/${params.file}/index.md`);
-    } else if (!filePath.endsWith(".md")) {
-        throw error(404, 'resource redirecting not implemented');
+        redirect(302, `${WIKI_URL}/${params.file}/index.md`)
+    } else if (!params.file.endsWith(".md")) {
+        throw error(404, 'resource redirecting not implemented')
         //TODO: handle the non-md urls (other files)
     }
 
     if (!fs.existsSync(fullPath)) {
-        throw error(404, `File ${filePath} not found`);
+        throw error(404, `File ${params.file} not found`)
     }
     const page = new MarkdownPage(fullPath)
     return {

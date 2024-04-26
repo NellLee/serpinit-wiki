@@ -3,43 +3,21 @@
 
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
+	import { getBreadcrumbs } from '$lib/utilities/links.js';
 	import { onMount } from 'svelte';
+	import { Icon, Home } from "svelte-hero-icons";
 
 	export let data;
 
 	let breadcrumbs: LinkObject[] = [];
 
-	function setBreadcrumbs(url: string) {
-		breadcrumbs = [];
-		const path = new URL(url).pathname;
-		let constructed = '';
-		for (let [i, segment] of path
-			.split('/')
-			.filter((segment) => segment !== '' && segment !== 'index.md')
-			.entries()) {
-			constructed += '/' + segment;
-			let text = segment;
-			if (segment.endsWith('.md')) {
-				text = text.replace('.md', '');
-			} else if (segment == 'content') {
-				text = 'Wiki';
-			}
-			breadcrumbs.push({
-				text,
-				href: constructed
-			});
-		}
-		if (breadcrumbs.length == 1) {
-			breadcrumbs = [];
-		}
-	}
 
 	onMount(() => {
-		setBreadcrumbs(window.location.href);
+		breadcrumbs = getBreadcrumbs(window.location.href);
 	});
 
 	afterNavigate(() => {
-		setBreadcrumbs(window.location.href);
+		breadcrumbs = getBreadcrumbs(window.location.href);
 	});
 </script>
 
@@ -75,6 +53,9 @@
 			<div id="content-body">
 				<div class="breadcrumbs">
 					<ul>
+						<li><a href={breadcrumbs.shift()?.href}>
+							<Icon style="transform: translateY(3px);" src="{Home}" solid size="16" />
+						</a></li>
 						{#each breadcrumbs as link}
 							<li><a href={link.href}>{link.text}</a></li>
 						{/each}

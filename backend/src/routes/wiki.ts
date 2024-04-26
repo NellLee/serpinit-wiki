@@ -1,22 +1,22 @@
 
-import fs from "fs";
-import DOMPurify from "isomorphic-dompurify";
-import { marked } from "marked";
-import express from "express";
-import path from "path";
-import { JSDOM } from "jsdom";
-import { generateHeaderId, getFilePathsInFolder } from "../scripts/utilities";
+import fs from "fs"
+import DOMPurify from "isomorphic-dompurify"
+import { marked } from "marked"
+import express from "express"
+import path from "path"
+import { JSDOM } from "jsdom"
+import { generateHeaderId, getFilePathsInFolder } from "../scripts/utilities"
 
-const router = express.Router();
+const router = express.Router()
 
 interface LinkContent {
     href: string,
     text: string,
 }
-let $: JQueryStatic;
+let $: JQueryStatic
 
-let wikiPath = __dirname + "/../../../content";
-let wikiUrl = "/content";
+let wikiPath = __dirname + "/../../../content"
+let wikiUrl = "/content"
 
 
 console.log("Loading files...")
@@ -25,36 +25,36 @@ getFilePathsInFolder(wikiPath).forEach(file => {
     if (path.extname(file) === ".md") {
         router.get(file, (req, res) => {
 
-            const fullPath = wikiPath + file;
-            let mdString = fs.readFileSync(fullPath).toString();
+            const fullPath = wikiPath + file
+            let mdString = fs.readFileSync(fullPath).toString()
 
             // Extract first header from md content
-            let firstHeader = "";
-            const firstHeaderStartIndex = mdString.indexOf("#");
+            let firstHeader = ""
+            const firstHeaderStartIndex = mdString.indexOf("#")
             if (firstHeaderStartIndex >= 0) {
-                const firstHeaderEndIndex = mdString.indexOf("\n", firstHeaderStartIndex);
+                const firstHeaderEndIndex = mdString.indexOf("\n", firstHeaderStartIndex)
                 if (firstHeaderEndIndex >= 0) {
-                    firstHeader = mdString.substring(firstHeaderStartIndex + 1, firstHeaderEndIndex).trim();
-                    mdString = mdString.substring(firstHeaderEndIndex + 1);
+                    firstHeader = mdString.substring(firstHeaderStartIndex + 1, firstHeaderEndIndex).trim()
+                    mdString = mdString.substring(firstHeaderEndIndex + 1)
                 }
             }
 
-            const mdHtml = DOMPurify.sanitize(marked.parse(mdString));
+            const mdHtml = DOMPurify.sanitize(marked.parse(mdString))
 
-            let dom = new JSDOM("<!DOCTYPE html>" + mdHtml);
-            $ = require("jquery")(dom.window);
+            let dom = new JSDOM("<!DOCTYPE html>" + mdHtml)
+            $ = require("jquery")(dom.window)
 
             $('h1, h2, h3, h4, h5, h6').each(function() {
-                var header = $(this);
-                var headerId = generateHeaderId(header.text());
-                header.attr('id', headerId);
-            });
+                var header = $(this)
+                var headerId = generateHeaderId(header.text())
+                header.attr('id', headerId)
+            })
 
-            let tocContent = generateTableOfContents();
+            let tocContent = generateTableOfContents()
 
-            let subContent = generateSubContent(fullPath, basePath);
+            let subContent = generateSubContent(fullPath, basePath)
 
-            let refContent = generateMentionedReferences();
+            let refContent = generateMentionedReferences()
 
             res.render("wiki", {
                 title: firstHeader,
@@ -62,30 +62,30 @@ getFilePathsInFolder(wikiPath).forEach(file => {
                 contentHtml: dom.serialize(),
                 refContent,
                 subContent,
-            });
-        });
+            })
+        })
 
         router.get(file.replace(".md", ""), (req, res) => {
-            res.redirect(wikiUrl + file); // e.g.: /wiki/index -> /wiki/index.md
-        });
+            res.redirect(wikiUrl + file) // e.g.: /wiki/index -> /wiki/index.md
+        })
 
         if (path.basename(file) === "index.md") {
             router.get(basePath, (req, res) => {
-                res.redirect(wikiUrl + file); // e.g.: /wiki/ -> /wiki/index.md
-            });
+                res.redirect(wikiUrl + file) // e.g.: /wiki/ -> /wiki/index.md
+            })
         }
     } else {
         router.get(file, (req, res) => {
-            res.redirect("/resources" + file); // e.g.: /wiki/example.png -> /resources/example.png
-        });
+            res.redirect("/resources" + file) // e.g.: /wiki/example.png -> /resources/example.png
+        })
     }
-});
+})
 console.log("Loading files... Done!")
 
 
 function generateSubContent(fullPath: string, currentBasePath: string) {
     const folderPath = fullPath.replace(path.basename(fullPath), "")
-    const result: LinkContent[] = [];
+    const result: LinkContent[] = []
 
     getFilePathsInFolder(folderPath, [".md"], 1).forEach(file => {
         file = file.slice(1)
@@ -108,7 +108,7 @@ function generateMentionedReferences() {
     let $mentions = $("a").filter(function(this: HTMLElement) {
         return $(this).attr("href")?.includes(".md") ?? false
     })
-    const result: LinkContent[] = [];
+    const result: LinkContent[] = []
 
     $("a").filter(function(this: HTMLElement) {
         return $(this).attr("href")?.includes(".md") ?? false
@@ -124,17 +124,17 @@ function generateMentionedReferences() {
 }
 
 function generateTableOfContents() {
-    const result: LinkContent[] = [];
+    const result: LinkContent[] = []
 
     $(":header").each((index, header) => {
         let headerLevel = parseInt($(header).prop("tagName").slice(1))
         result[index] = {
             href: "#" + generateHeaderId($(header).text()),
-            text: "&nbsp;".repeat((headerLevel-1)*3) + "• " + $(header).text(),
+            text: "&nbsp".repeat((headerLevel-1)*3) + "• " + $(header).text(),
         }
     })
 
     return result
 }
 
-module.exports = router;
+module.exports = router

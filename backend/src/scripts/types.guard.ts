@@ -2,7 +2,7 @@
  * Generated type guards for "types.d.ts".
  * WARNING: Do not manually change this file.
  */
-import { Image, EventConfig, EvCatPair, RectangleConfig, TextConfig, CategorizedTimeline, Category, Event } from "./types";
+import { Image, EventConfig, EvCatPair, RectangleConfig, TextConfig, CategorizedTimeline, Category, Event } from "./types"
 
 export function isImage(obj: unknown): obj is Image {
     const typedObj = obj as Image

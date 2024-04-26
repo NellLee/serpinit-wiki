@@ -1,15 +1,12 @@
 
+import { REGEX_FIRST_HEADER } from "$lib/markdown"
 import fs from "fs"
 import path from "path"
-
-export function generateHeaderId(str: string) {
-    return str.trim().toLowerCase().replace(/\s+/g, '-')
-}
 
 export function getFilePathsInFolder(folderPath: string, fileTypes: string[] = [], maxDepth: number = -1) {
     let folderStat = fs.lstatSync(folderPath)
     if (folderStat && folderStat.isDirectory()) {
-        let aggregator = []
+        let aggregator: string[] = []
         return getFilePathsInFolderRec(aggregator, folderPath, fileTypes, maxDepth)
     } else {
         throw "InvalidArgument. Argument 'folderPath' is not a path to a directory!"
@@ -18,7 +15,7 @@ export function getFilePathsInFolder(folderPath: string, fileTypes: string[] = [
 
 function getFilePathsInFolderRec(aggregator: string[], folderPath: string, fileTypes: string[] = [], maxDepth: number, startPath = folderPath) {
     fs.readdirSync(folderPath).forEach(fileOrFolder => {
-        let fullPath = folderPath + "/" + fileOrFolder
+        let fullPath = folderPath + path.sep + fileOrFolder
         try {
             let stat = fs.lstatSync(fullPath)
             if (stat.isDirectory()) {
@@ -39,24 +36,63 @@ function getFilePathsInFolderRec(aggregator: string[], folderPath: string, fileT
 }
 
 
-export function getFolderPathsInFolder(folderPath: string) {
+export function getFolderPathsInFolder(folderPath: string, maxDepth: number = -1) {
     let folderStat = fs.lstatSync(folderPath)
     if (folderStat && folderStat.isDirectory()) {
-        let aggregator = []
-        return getFolderPathsInFolderRec(aggregator, folderPath)
+        let aggregator: string[] = []
+        return getFolderPathsInFolderRec(aggregator, folderPath, maxDepth)
     } else {
         throw "InvalidArgument. Argument 'folderPath' is not a path to a directory!"
     }
 }
 
-function getFolderPathsInFolderRec(aggregator: string[], folderPath: string, startPath = folderPath) {
+function getFolderPathsInFolderRec(aggregator: string[], folderPath: string, maxDepth: number, startPath = folderPath) {
     fs.readdirSync(folderPath).forEach(fileOrFolder => {
-        let fullPath = folderPath + "/" + fileOrFolder
+        let fullPath = folderPath + path.sep + fileOrFolder
         let stat = fs.lstatSync(fullPath)
         if (stat.isDirectory()) {
             aggregator.push(fullPath.replace(startPath, ""))
-            return getFolderPathsInFolderRec(aggregator, fullPath, startPath)
+            if(maxDepth != 0) {
+                return getFolderPathsInFolderRec(aggregator, fullPath, maxDepth-1, startPath)
+            }
         }
     })
     return aggregator
+}
+
+export function getFileLinkObject(fullPath: string) {
+    const relPath = fullPath.substring(fullPath.lastIndexOf(path.sep+"content"+path.sep)+1)
+    let content = ""
+    try {
+        content = fs.readFileSync(fullPath, "utf-8")
+    } catch { 
+        //ignored // FIXME
+    }
+
+    const lastSlash = fullPath.lastIndexOf(path.sep)
+
+    const folderPath = fullPath.substring(0, lastSlash) 
+    const file = fullPath.substring(lastSlash + 1)
+
+    const lastDot = file.lastIndexOf('.')
+
+    const fileName = file.substring(0, lastDot) 
+    const extension = file.substring(lastDot + 1)
+
+    let text = fileName
+    let firstHeader = REGEX_FIRST_HEADER.exec(content)?.pop()
+    if(firstHeader) {
+        text = firstHeader
+    } else if(fileName == "index") {
+        text = folderPath.substring(folderPath.lastIndexOf(path.sep)+1) 
+    }
+    let fileLinkObject: FileLinkObject = {
+        href: "/"+relPath.replaceAll(path.sep, "/"),
+        text,
+        fileName,
+        extension,
+        path: folderPath
+    }
+
+    return fileLinkObject
 }
