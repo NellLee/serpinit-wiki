@@ -174,8 +174,7 @@
 
 	/* Sidebar */
 	.sidebar {
-		min-width: 10%;
-		max-width: 15%;
+		width: 15%;
 		flex-shrink: 0;
 		background-color: var(--sidebar-background-color);
 		padding: 10px 20px;
