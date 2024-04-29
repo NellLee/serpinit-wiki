@@ -2,9 +2,9 @@
 </script>
 
 <script lang="ts">
-	import { Icon, Home } from "svelte-hero-icons";
+	import { Icon, Home } from "svelte-hero-icons"
 
-	export let data;
+	export let data
 </script>
 
 <main>

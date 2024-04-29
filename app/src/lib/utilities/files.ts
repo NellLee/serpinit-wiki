@@ -60,13 +60,17 @@ function getFolderPathsInFolderRec(aggregator: string[], folderPath: string, max
     return aggregator
 }
 
-export function getFileLinkObject(fullPath: string) {
+export function getFileLinkObject(fullPath: string, enforceFileExistence = false) {
     const relPath = fullPath.substring(fullPath.lastIndexOf(path.sep+"content"+path.sep)+1)
     let content = ""
-    try {
-        content = fs.readFileSync(fullPath, "utf-8")
-    } catch { 
-        //ignored // FIXME
+    if (enforceFileExistence) {
+        content = fs.readFileSync(fullPath, "utf-8") // no try catch
+    } else {
+        try {
+            content = fs.readFileSync(fullPath, "utf-8")
+        } catch { 
+            //ignored
+        }
     }
 
     const lastSlash = fullPath.lastIndexOf(path.sep)
@@ -81,7 +85,7 @@ export function getFileLinkObject(fullPath: string) {
 
     let text = fileName
     let firstHeader = REGEX_FIRST_HEADER.exec(content)?.pop()
-    if(firstHeader) {
+    if(extension == ".md" && firstHeader) {
         text = firstHeader
     } else if(fileName == "index") {
         text = folderPath.substring(folderPath.lastIndexOf(path.sep)+1) 

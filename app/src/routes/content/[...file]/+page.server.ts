@@ -7,23 +7,33 @@ import { redirect } from '@sveltejs/kit'
 import { WIKI_URL, getLinkedFilePath } from '$lib/utilities/wiki.js'
 import { getBreadcrumbs } from '$lib/utilities/links'
 
+const REGEX_FILE_EXT = /\.\w+$/
 
 export function load({ params }) {
     let fullPath = getLinkedFilePath(params.file)
 
     if (params.file == "") {
         redirect(302, "content/index.md")
-    } else if (!/\.\w+$/.test(fullPath)) {
+    } else if (!REGEX_FILE_EXT.test(fullPath)) {
         redirect(302, `${WIKI_URL}/${params.file}/index.md`)
     } else if (!params.file.endsWith(".md")) {
-        throw error(404, 'resource redirecting not implemented')
-        //TODO: handle the non-md urls (other files)
+        //TODO can image links work with the static symlink?
+        throw error(404, `resource redirecting for '${params.file.substring(params.file.lastIndexOf("."))}' files not implemented`) //TODO
     }
 
+    let page: undefined | MarkdownPage
     if (!fs.existsSync(fullPath)) {
-        throw error(404, `File ${params.file} not found`)
+        if(params.file.endsWith("index.md")) {
+            const folderPath = fullPath.substring(0, fullPath.lastIndexOf(path.sep))
+            page = MarkdownPage.constructIndexPage(folderPath)
+        } else {
+            throw error(404, `File ${params.file} not found`)
+        }
+    } 
+    
+    if (!page){
+        page = new MarkdownPage(fullPath)
     }
-    const page = new MarkdownPage(fullPath)
     return {
         html: page.domScraper.html(),
         toc: page.toc,

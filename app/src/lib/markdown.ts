@@ -23,13 +23,42 @@ export class MarkdownPage {
         return cheerio.load('<!DOCTYPE html>' + this.#initialHtml)
     }
 
-    constructor(filePath: string) {
-        this.fileLink = getFileLinkObject(filePath)
+    static constructIndexPage(folderPath: string): MarkdownPage {
+        let constructedMarkdown = "# "+folderPath.substring(folderPath.lastIndexOf(path.sep)+1)+"\n"
+        const filePath = folderPath+"/index.md"
 
-        const fileName = filePath.substring(filePath.lastIndexOf(path.sep) + 1)    
-        const folderPath = filePath.substring(0, filePath.lastIndexOf(path.sep)) 
-        this.markdown = fs.readFileSync(filePath, "utf-8")
+        const markdownFiles = []
+        markdownFiles.push(... getFilePathsInFolder(folderPath, [".md"], 0))
+        markdownFiles.push(... getFolderPathsInFolder(folderPath, 0).map(folder => folder+path.sep+"index.md"))
 
+        for (let file of markdownFiles) {
+            const fileLink = getFileLinkObject(folderPath+file)
+            constructedMarkdown += `* [${fileLink.text}](${fileLink.href})\n`
+        }
+
+
+        const imageFiles = getFilePathsInFolder(folderPath, [".jpg", ".jpeg", ".png"], 0)
+
+        for (let file of imageFiles) {
+            const fileLink = getFileLinkObject(folderPath+file)
+            constructedMarkdown += `![${fileLink.text}](${fileLink.href})\n`
+        }
+        console.log(constructedMarkdown)
+
+        return new MarkdownPage(filePath, constructedMarkdown)
+    }
+
+    constructor(filePath: string, markdown: string | null = null) {
+        const fileLink = getFileLinkObject(filePath)
+        this.fileLink = fileLink
+        
+        const fileName = fileLink.fileName
+        const folderPath = fileLink.path
+        if (markdown == null) {
+            this.markdown = fs.readFileSync(filePath, "utf-8")
+        } else {
+            this.markdown = markdown
+        }
         // Extract first header as title (fallback to file name)
         this.title = fileName
         this.markdown = this.markdown.replace(REGEX_FIRST_HEADER, (_, header) => {
@@ -46,7 +75,7 @@ export class MarkdownPage {
         const tocTree: LinkTree = {
             children: []
         }
-        let prevNode = tocTree
+        let prevNode: LinkNode = (tocTree as unknown as LinkNode) // trust me bro
         let prevLevel = 0
         $('h1, h2, h3, h4, h5, h6').each(function(_, element) {
             const header = $(element)
@@ -57,7 +86,7 @@ export class MarkdownPage {
             if(headerLevel > prevLevel) {
                 parent = prevNode
             } else {
-                parent = (prevNode as unknown as LinkNode).parent // trust me bro
+                parent = prevNode.parent
             }
             let child: LinkNode = {
                 link: {

@@ -24,7 +24,6 @@ export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
     return namedLinkList
 }
 
-//TODO: use FileLinkObject
 export function getBreadcrumbs(path: string) {
     let breadcrumbs = []
     let constructed = ''
