@@ -52,5 +52,5 @@ B.
 viele Flugwesen die zwischen den schwebenden Inseln gleiten, und sogar Pflanzen, die sich auf die schwerkraftfreie Ebene ausbreiten konnten.
 
 Durch die Windmagie des hoch-reaktiven magischen Kerns durchströmte den Wüstenkern an vielen Stellen große Gasmassen von innen heraus, welche den normalen Sand "verflüssigten" (vgl. [youtube.com](https://www.youtube.com/watch?v=CCiIUjPF060)), während der Tjosand wiederum häufig die bezeichnenden Quarz-Strukturen bildete.
-Aufgrund der Undurchlässigkeit der Gravidblase gab es um den Kern von Agranum jedoch nie wieder Leben, abgesehen von den [Elementaren](../voelker/elementare.md) die sich hier bildeten.
+Aufgrund der Undurchlässigkeit der Gravidblase gab es um den Kern von Agranum jedoch nie wieder Leben, abgesehen von den [Elementaren](../../Voelker/Elementare/index.md) die sich hier bildeten.
 Der innere Wüstenkern von Agranum ist seit der Impuls-Eruption von zerklüfteten Schluchten und glühend heißem Gestein geprägt. 

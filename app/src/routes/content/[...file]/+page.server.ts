@@ -5,6 +5,7 @@ import fs from 'fs'
 import { error } from '@sveltejs/kit'
 import { redirect } from '@sveltejs/kit'
 import { WIKI_URL, getLinkedFilePath } from '$lib/utilities/wiki.js'
+import { getBreadcrumbs } from '$lib/utilities/links'
 
 
 export function load({ params }) {
@@ -27,6 +28,7 @@ export function load({ params }) {
         html: page.domScraper.html(),
         toc: page.toc,
         references: page.references,
-        title: page.title
+        title: page.title,
+        breadcrumbs: getBreadcrumbs("/content/"+params.file)
     }
 }

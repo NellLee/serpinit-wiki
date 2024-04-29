@@ -1,3 +1,5 @@
+import { getFileLinkObject } from "./files"
+import { getLinkedFilePath } from "./wiki"
 
 export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
     const namedLinkList: NamedLinkList = { name, linkList: [] }
@@ -23,19 +25,17 @@ export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
 }
 
 //TODO: use FileLinkObject
-export function getBreadcrumbs(url: string) {
+export function getBreadcrumbs(path: string) {
     let breadcrumbs = []
-    const path = new URL(url).pathname
     let constructed = ''
     for (let [i, segment] of path
         .split('/')
         .filter((segment) => segment !== '' && segment !== 'index.md')
         .entries()) {
         constructed += '/' + segment
-        let text = segment
-        if (segment.endsWith('.md')) {
-            text = text.replace('.md', '')
-        } else if (segment == 'content') {
+        let linkedFilePath = getLinkedFilePath(constructed + "/index.md")
+        let text = getFileLinkObject(linkedFilePath).text
+        if (segment == 'content') {
             text = 'Home'
         }
         breadcrumbs.push({

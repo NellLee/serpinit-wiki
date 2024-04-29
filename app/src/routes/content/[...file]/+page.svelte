@@ -2,23 +2,9 @@
 </script>
 
 <script lang="ts">
-	import { afterNavigate } from '$app/navigation';
-	import { getBreadcrumbs } from '$lib/utilities/links.js';
-	import { onMount } from 'svelte';
 	import { Icon, Home } from "svelte-hero-icons";
 
 	export let data;
-
-	let breadcrumbs: LinkObject[] = [];
-
-
-	onMount(() => {
-		breadcrumbs = getBreadcrumbs(window.location.href);
-	});
-
-	afterNavigate(() => {
-		breadcrumbs = getBreadcrumbs(window.location.href);
-	});
 </script>
 
 <main>
@@ -36,27 +22,29 @@
 	<body>
 		<div id="main-body">
 			<div id="table-of-content" class="sidebar">
-				<h3>{data.toc.name}</h3>
-				<nav>
-					<ul>
-						{#each data.toc.linkList as item}
-							<li>
-								<a href={item.href}>
-									{@html item.text}
-								</a>
-							</li>
-						{/each}
-					</ul>
-				</nav>
+				{#if data.toc.linkList.length > 0}
+					<h3>{data.toc.name}</h3>
+					<nav>
+						<ul>
+							{#each data.toc.linkList as item}
+								<li>
+									<a href={item.href}>
+										{@html item.text}
+									</a>
+								</li>
+							{/each}
+						</ul>
+					</nav>
+				{/if}
 			</div>
 
 			<div id="content-body">
 				<div class="breadcrumbs">
 					<ul>
-						<li><a href={breadcrumbs.shift()?.href}>
+						<li><a href={data.breadcrumbs.shift()?.href}>
 							<Icon style="transform: translateY(3px);" src="{Home}" solid size="16" />
 						</a></li>
-						{#each breadcrumbs as link}
+						{#each data.breadcrumbs as link}
 							<li><a href={link.href}>{link.text}</a></li>
 						{/each}
 					</ul>
@@ -66,19 +54,20 @@
 				</div>
 				<div id="parsed-markdown">{@html data.html}</div>
 			</div>
-
 			<div id="quick-links" class="sidebar">
 				{#each data.references as list}
-					<aside>
-						<nav>
-							<h2>{list.name}</h2>
-							<ul>
-								{#each list.linkList as link}
-									<li><a href={link.href}>{link.text}</a></li>
-								{/each}
-							</ul>
-						</nav>
-					</aside>
+					{#if list.linkList.length > 0}
+						<aside>
+							<nav>
+								<h2>{list.name}</h2>
+								<ul>
+									{#each list.linkList as link}
+										<li><a href={link.href}>{link.text}</a></li>
+									{/each}
+								</ul>
+							</nav>
+						</aside>
+					{/if}
 				{/each}
 			</div>
 		</div>
