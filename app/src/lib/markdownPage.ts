@@ -139,6 +139,7 @@ export class MarkdownPage {
         ]
 
         // TODO
+        this.tags = []
         const regex = /<!--TAGS\[(.*?)\]-->/;
         const match = this.markdown.match(regex);
         if (match) {
