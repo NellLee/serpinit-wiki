@@ -2,9 +2,9 @@
 </script>
 
 <script lang="ts">
-	import { Icon, Home } from "svelte-hero-icons"
+	import { Icon, Home } from 'svelte-hero-icons';
 
-	export let data
+	export let data;
 </script>
 
 <main>
@@ -41,17 +41,12 @@
 			<div id="content-body">
 				<div class="breadcrumbs">
 					<ul>
-						<li><a href={data.page.breadcrumbs.shift()?.href}>
-							<Icon style="transform: translateY(3px);" src="{Home}" solid size="16" />
-						</a></li>
+						<li>
+							<a href={data.page.breadcrumbs.shift()?.href}>
+								<Icon style="transform: translateY(3px);" src={Home} solid size="16" />
+							</a>
+						</li>
 						{#each data.page.breadcrumbs as link}
-							<li><a href={link.href}>{link.text}</a></li>
-						{/each}
-					</ul>
-				</div>
-				<div class="tags">
-					<ul>
-						{#each data.page.tags as link}
 							<li><a href={link.href}>{link.text}</a></li>
 						{/each}
 					</ul>
@@ -62,9 +57,20 @@
 				<div id="parsed-markdown">{@html data.page.html}</div>
 			</div>
 			<div id="quick-links" class="sidebar">
-				{#each data.page.references as list}
-					{#if list.linkList.length > 0}
-						<aside>
+				<aside>
+					<!-- TODO -->
+					<div class="tags">
+						<nav>
+							<h2>Tags</h2>
+							<ul>
+								{#each data.page.tags as link}
+									<li><a href={link.href}>{link.text}</a></li>
+								{/each}
+							</ul>
+						</nav>
+					</div>
+					{#each data.page.references as list}
+						{#if list.linkList.length > 0}
 							<nav>
 								<h2>{list.name}</h2>
 								<ul>
@@ -73,9 +79,9 @@
 									{/each}
 								</ul>
 							</nav>
-						</aside>
-					{/if}
-				{/each}
+						{/if}
+					{/each}
+				</aside>
 			</div>
 		</div>
 	</body>
@@ -247,6 +253,31 @@
 	.breadcrumbs li a:hover {
 		text-decoration: underline;
 		color: var(--breadcrumbs-link-hover-color);
+	}
+
+	.tags ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+	}
+
+	.tags li a {
+		text-decoration: none;
+		display: inline-block;
+		padding: 0.25rem 0.5rem;
+		margin: 0.25rem;
+		background-color: #e0e0e0;
+		border-radius: 16px;
+		color: #333;
+		font-size: 14px;
+		font-family: Arial, sans-serif;
+		transition: background-color 0.3s ease;
+	}
+
+	/* Hover effect */
+	.tags li a:hover {
+		background-color: #bdbdbd;
 	}
 
 	/* Header */
