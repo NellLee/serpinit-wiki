@@ -3,12 +3,6 @@ declare type LinkObject = {
     text: string,
 }
 
-type FileLinkObject = LinkObject & {
-    path: string,
-    fileName: string,
-    extension: string,
-}
-
 type NamedLinkList = {
     name: string,
     linkList: LinkObject[]

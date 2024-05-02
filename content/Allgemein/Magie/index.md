@@ -20,7 +20,7 @@ zu einem Element geformt, so wird die magische Substanz mit der Zeit "abkühlen"
 graduel an das jeweils angrenzende Element an und wird so nach und nach in den umliegenden Stoff konvertiert. Dabei
 strahlt die magische Substanz sowohl Wärme als auch magische Potenz ab. Eine Ausnahme bildeten die hochkonzentrierten
 Vorkommen der magischen Substanz welche beim Urknall in das Universum geschleudert wurden (
-siehe [Schöpfungsgeschichte](../schoepfungsgeschichte.md#Die_Gottheiten)). Diese kühlten niemals ab und entwickelten
+siehe [Schöpfungsgeschichte](../Schoepfungsgeschichte.md#Die_Gottheiten)). Diese kühlten niemals ab und entwickelten
 stattdessen mit der Zeit ein eigenes Bewusstsein. Die so entstandenen Gottheiten besaßen die Macht jedes Atom zu
 magischer Substanz zu machen um aus dieser wiederum jedes beliebige andere Element zu synthetisieren.
 
@@ -47,7 +47,7 @@ explizit für das Volk der Sgrisignier erschuf, werden sie im Allgemeinen **Sgri
 
 Die Runenschrift bildet eine vielseitige Schnittstelle zur Magie. Die Sgrisignier nutzten diese Runen äußerst geschickt
 und erlangten große Macht durch sie. Auch der Hinterhalt auf Aerion war nur mit einer einzigen riesigen Rune möglich,
-welche die Sgrisignier über lange Zeit hinweg in dem Planeten [Agranum](../../himmelskoerper/agranum/index.md)
+welche die Sgrisignier über lange Zeit hinweg in dem Planeten [Agranum](../../Himmelskoerper/Agranum/index.md)
 anbrachten.
 Anschaulich betrachtet sind die Sgrisignier-Runen eine „Programmiersprache der Realität“. Sie transformieren die Energie
 von magischer Substanz in komplexen Vorgängen um die unterschiedlichsten Effekte zu erzielen.
@@ -80,7 +80,7 @@ mehr oder minder stark zu beeinflussen.
 Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war jedoch für die modernen Völker lange
 Zeit unbekannt. Viele Lebewesen konnten die aktiven Runensteine der Sgrisignier-Portale oder die Überreste der Magie in antiken Sgrisignier-Strukturen zwar prinzipiell spüren, jedoch war ihre magitive Wahrnehmung zu stumpfsinnig um die Feinheiten einer komplexen Sgrisignier-Rune auch nur ansatzweise erfassen zu können. Für die meisten Lebewesen war die magitive Wahrnehmung daher vor Allem ein Warnsystem. Spürbare Abweichungen vom Potenzpunkt eines wahrgenommenen Materials bedeuten, dass sich ein Wymen-Riss in der Nähe befindet, an dem sich potentiell immer Elementare bilden können. Erhöhte magische Potenz kann alternativ bedeuten, dass starke, potentiell gefährliche Magie in der Nähe stattfindet.
 
-Die Lateralen entdeckten schließlich als erstes Volk das Phänomen der [Runenschatten](./tjosand.md#Magische Eigenschaften) in einer antiken Tjosand-Mine der Sgrisignier auf Agranum. 
+Die Lateralen entdeckten schließlich als erstes Volk das Phänomen der [Runenschatten](./Tjosand.md#Magische Eigenschaften) in einer antiken Tjosand-Mine der Sgrisignier auf Agranum. 
 Zuerst konnten sie zwar nur wenig mit diesen für sie kryptischen Schriftzeichen anfangen, doch mit den Conius-Lateralen entwickelte sich eine starkes Interesse gefolgt von einer gezielten Analyse ebendieser Schriftzeichen. Mit der Zeit verstanden die Conius die Verbindung zur Magie immer besser und erlangten so letztendlich als erstes Volk wieder das Wissen um die Existenz der dreidimensionalen, magischen Sgrisignier-Runen, auch wenn sie nicht in der Lage waren solch komplexe Runen selbst zu erstellen. In der Resrubor-Akademie wurden stattdessen mit der Zeit immer mehr Querschnitte von Sgrisignier Runen entschlüsselt. Einigen wenigen Teilen von Querschnitten von dreidimensionalen Sgrisignier-Runen konnte dabei ein konkreter magischer Effekt zugeordnet werden. Dies befähigte die Conius-Lateralen mit der zeit zumindest eine reduzierte Form der magischen Runen für sich nutzen zu können. 
 
 Es wird zwischen stumpfen, scharfen und aktiven Runen unterschieden. Stumpfe Runen sind z.B. aufgemalt

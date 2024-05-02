@@ -13,7 +13,7 @@ import { FileLink } from "./fileLink"
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
 export class MarkdownPage {
-    #fileLink: FileLinkObject
+    #fileLink: FileLink
     #initialHtml: string
 
     html: string
@@ -106,13 +106,13 @@ export class MarkdownPage {
         })
 
         // Generate related content
-        const related: FileLinkObject[] = []
+        const related: FileLink[] = []
         let parentFolder = filePath.substring(0, filePath.lastIndexOf(path.sep))
         const files: string[] = []
         files.push(... getFilePathsInFolder(parentFolder, [".md"], 0))
         files.push(... getFolderPathsInFolder(parentFolder, 0).map(folder => folder+path.sep+"index.md"))
         for (let file of files) {
-            let fileLink: FileLinkObject = new FileLink(parentFolder + file)
+            let fileLink = new FileLink(parentFolder + file)
             if (fileLink.path != folderPath) {
                 related.push(fileLink)
             }
@@ -126,8 +126,8 @@ export class MarkdownPage {
             if (!href){
                 throw new ReferenceError('Missing href attribute')
             }
-            let linkedFile = getLinkedFilePath(href, folderPath, true)
-            let link: FileLinkObject = getFileLinkObject(linkedFile)
+            let linkedFile = getLinkedFilePath(href, folderPath)
+            let link = new FileLink(linkedFile)
             referred.push(link)
         })
 

@@ -32,10 +32,15 @@ export function getBreadcrumbs(url: string) {
         .filter((segment) => segment !== '' && segment !== 'index.md')
         .entries()) {
         constructed += '/' + segment
-        let linkedFilePath = getLinkedFilePath(constructed + "/index.md")
-        let text = new FileLink(linkedFilePath).text
-        if (segment == 'content') {
-            text = 'Home'
+        let text
+        if (constructed.endsWith(".md")) {
+            text = new FileLink(getLinkedFilePath(constructed)).text
+        } else {
+            let linkedFilePath = getLinkedFilePath(constructed + "/index.md")
+            text = new FileLink(linkedFilePath).text
+            if (segment == 'content') {
+                text = 'Home'
+            }
         }
         breadcrumbs.push({
             text,
