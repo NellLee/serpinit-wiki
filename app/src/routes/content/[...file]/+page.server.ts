@@ -1,6 +1,6 @@
 
 import path from 'path'
-import { MarkdownPage } from '$lib/markdown'
+import { MarkdownPage } from '$lib/markdownPage'
 import fs from 'fs'
 import { error } from '@sveltejs/kit'
 import { redirect } from '@sveltejs/kit'
@@ -18,7 +18,8 @@ export function load({ params }) {
         redirect(302, `${WIKI_URL}/${params.file}/index.md`)
     } else if (!params.file.endsWith(".md")) {
         //TODO can image links work with the static symlink?
-        throw error(404, `resource redirecting for '${params.file.substring(params.file.lastIndexOf("."))}' files not implemented`) //TODO
+        throw error(404, `resource redirecting for '${params.file.substring(params.file.lastIndexOf("."))}' files not implemented`) //  
+        
     }
 
     let page: undefined | MarkdownPage
@@ -35,10 +36,6 @@ export function load({ params }) {
         page = new MarkdownPage(fullPath)
     }
     return {
-        html: page.domScraper.html(),
-        toc: page.toc,
-        references: page.references,
-        title: page.title,
-        breadcrumbs: getBreadcrumbs("/content/"+params.file)
+        page: structuredClone(page),
     }
 }

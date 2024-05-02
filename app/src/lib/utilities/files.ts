@@ -1,5 +1,5 @@
 
-import { REGEX_FIRST_HEADER } from "$lib/markdown"
+
 import fs from "fs"
 import path from "path"
 
@@ -58,45 +58,4 @@ function getFolderPathsInFolderRec(aggregator: string[], folderPath: string, max
         }
     })
     return aggregator
-}
-
-export function getFileLinkObject(fullPath: string, enforceFileExistence = false) {
-    const relPath = fullPath.substring(fullPath.lastIndexOf(path.sep+"content"+path.sep)+1)
-    let content = ""
-    if (enforceFileExistence) {
-        content = fs.readFileSync(fullPath, "utf-8") // no try catch
-    } else {
-        try {
-            content = fs.readFileSync(fullPath, "utf-8")
-        } catch { 
-            //ignored
-        }
-    }
-
-    const lastSlash = fullPath.lastIndexOf(path.sep)
-
-    const folderPath = fullPath.substring(0, lastSlash) 
-    const file = fullPath.substring(lastSlash + 1)
-
-    const lastDot = file.lastIndexOf('.')
-
-    const fileName = file.substring(0, lastDot) 
-    const extension = file.substring(lastDot + 1)
-
-    let text = fileName
-    let firstHeader = REGEX_FIRST_HEADER.exec(content)?.pop()
-    if(extension == ".md" && firstHeader) {
-        text = firstHeader
-    } else if(fileName == "index") {
-        text = folderPath.substring(folderPath.lastIndexOf(path.sep)+1) 
-    }
-    let fileLinkObject: FileLinkObject = {
-        href: "/"+relPath.replaceAll(path.sep, "/"),
-        text,
-        fileName,
-        extension,
-        path: folderPath
-    }
-
-    return fileLinkObject
 }

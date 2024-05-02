@@ -1,4 +1,4 @@
-import { getFileLinkObject } from "./files"
+import { FileLink } from "$lib/fileLink"
 import { getLinkedFilePath } from "./wiki"
 
 export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
@@ -24,16 +24,16 @@ export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
     return namedLinkList
 }
 
-export function getBreadcrumbs(path: string) {
+export function getBreadcrumbs(url: string) {
     let breadcrumbs = []
     let constructed = ''
-    for (let [i, segment] of path
+    for (let [i, segment] of url
         .split('/')
         .filter((segment) => segment !== '' && segment !== 'index.md')
         .entries()) {
         constructed += '/' + segment
         let linkedFilePath = getLinkedFilePath(constructed + "/index.md")
-        let text = getFileLinkObject(linkedFilePath).text
+        let text = new FileLink(linkedFilePath).text
         if (segment == 'content') {
             text = 'Home'
         }

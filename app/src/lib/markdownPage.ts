@@ -5,19 +5,24 @@ import { marked } from 'marked'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
 import { generateHeaderId } from '$lib/utilities/utilities'
-import { linkTreeToList } from "./utilities/links"
-import { getFileLinkObject, getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
+import { getBreadcrumbs, linkTreeToList } from "./utilities/links"
+import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
 import { getLinkedFilePath } from "./utilities/wiki"
+import { FileLink } from "./fileLink"
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
 export class MarkdownPage {
-    fileLink: FileLinkObject
+    #fileLink: FileLinkObject
+    #initialHtml: string
+
+    html: string
     markdown: string
     title: string
-    references: NamedLinkList[]
+    tags: LinkObject[]
+    breadcrumbs: LinkObject[]
     toc: NamedLinkList
-    #initialHtml: string
+    references: NamedLinkList[]
 
     get domScraper() {
         return cheerio.load('<!DOCTYPE html>' + this.#initialHtml)
@@ -25,14 +30,14 @@ export class MarkdownPage {
 
     static constructIndexPage(folderPath: string): MarkdownPage {
         let constructedMarkdown = "# "+folderPath.substring(folderPath.lastIndexOf(path.sep)+1)+"\n"
-        const filePath = folderPath+"/index.md"
+        const filePath = folderPath+path.sep+"index.md"
 
         const markdownFiles = []
         markdownFiles.push(... getFilePathsInFolder(folderPath, [".md"], 0))
         markdownFiles.push(... getFolderPathsInFolder(folderPath, 0).map(folder => folder+path.sep+"index.md"))
 
         for (let file of markdownFiles) {
-            const fileLink = getFileLinkObject(folderPath+file)
+            const fileLink = new FileLink(folderPath+file)
             constructedMarkdown += `* [${fileLink.text}](${fileLink.href})\n`
         }
 
@@ -40,17 +45,16 @@ export class MarkdownPage {
         const imageFiles = getFilePathsInFolder(folderPath, [".jpg", ".jpeg", ".png"], 0)
 
         for (let file of imageFiles) {
-            const fileLink = getFileLinkObject(folderPath+file)
+            const fileLink = new FileLink(folderPath+file)
             constructedMarkdown += `![${fileLink.text}](${fileLink.href})\n`
         }
-        console.log(constructedMarkdown)
 
         return new MarkdownPage(filePath, constructedMarkdown)
     }
 
     constructor(filePath: string, markdown: string | null = null) {
-        const fileLink = getFileLinkObject(filePath)
-        this.fileLink = fileLink
+        const fileLink = new FileLink(filePath)
+        this.#fileLink = fileLink
         
         const fileName = fileLink.fileName
         const folderPath = fileLink.path
@@ -108,7 +112,7 @@ export class MarkdownPage {
         files.push(... getFilePathsInFolder(parentFolder, [".md"], 0))
         files.push(... getFolderPathsInFolder(parentFolder, 0).map(folder => folder+path.sep+"index.md"))
         for (let file of files) {
-            let fileLink: FileLinkObject = getFileLinkObject(parentFolder + file)
+            let fileLink: FileLinkObject = new FileLink(parentFolder + file)
             if (fileLink.path != folderPath) {
                 related.push(fileLink)
             }
@@ -123,7 +127,7 @@ export class MarkdownPage {
                 throw new ReferenceError('Missing href attribute')
             }
             let linkedFile = getLinkedFilePath(href, folderPath)
-            let link: FileLinkObject = getFileLinkObject(linkedFile)
+            let link: FileLinkObject = new FileLink(linkedFile)
             referred.push(link)
         })
 
@@ -133,5 +137,18 @@ export class MarkdownPage {
             { name: "Verwandte Artikel", linkList: related },
             { name: "Hier erwähnt", linkList: referred },
         ]
+
+        // TODO
+        this.tags = fileLink.getTags().map(tag => {
+            const encodedTag = encodeURIComponent(tag);
+            return {
+                href: "/search?tags="+encodedTag,
+                text: tag
+            }
+        })
+
+        this.breadcrumbs = getBreadcrumbs(fileLink.href)
+
+        this.html = this.domScraper.html()
     }
 }
