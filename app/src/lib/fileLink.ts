@@ -45,11 +45,17 @@ export class FileLink {
         this.href = "/"+relPath.replaceAll(path.sep, "/")
     }
 
+    // TODO
     getTags() {
-        let name = this.fileName
-        if(name == "index") {
-            name = this.path.substring(this.path.lastIndexOf(path.sep)+1) 
+        const tags: string[] = []
+        for (let segment of this.href.split("/")) {
+            if(segment.includes(".")) {
+                segment = segment.substring(0, segment.lastIndexOf("."))
+            }
+            if (segment && segment != "content" && !segment.startsWith("index")) {
+                tags.push(... segment.split("_"))
+            }
         }
-        return name.split("_")
+        return tags
     }
 }

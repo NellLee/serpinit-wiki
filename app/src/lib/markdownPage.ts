@@ -139,13 +139,18 @@ export class MarkdownPage {
         ]
 
         // TODO
-        this.tags = fileLink.getTags().map(tag => {
-            const encodedTag = encodeURIComponent(tag);
-            return {
-                href: "/search?tags="+encodedTag,
-                text: tag
-            }
-        })
+        const regex = /<!--TAGS\[(.*?)\]-->/;
+        const match = this.markdown.match(regex);
+        if (match) {
+            const tags = match[1].split(',');
+            this.tags = tags.map(tag => {
+                const encodedTag = encodeURIComponent(tag);
+                return {
+                    href: "/search?tags="+encodedTag,
+                    text: tag
+                }
+            })
+        }
 
         this.breadcrumbs = getBreadcrumbs(fileLink.href)
 
