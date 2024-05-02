@@ -122,7 +122,7 @@ export class MarkdownPage {
             if (!href){
                 throw new ReferenceError('Missing href attribute')
             }
-            let linkedFile = getLinkedFilePath(href, folderPath)
+            let linkedFile = getLinkedFilePath(href, folderPath, true)
             let link: FileLinkObject = getFileLinkObject(linkedFile)
             referred.push(link)
         })

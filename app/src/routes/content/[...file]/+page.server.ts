@@ -4,13 +4,22 @@ import { MarkdownPage } from '$lib/markdown'
 import fs from 'fs'
 import { error } from '@sveltejs/kit'
 import { redirect } from '@sveltejs/kit'
-import { WIKI_URL, getLinkedFilePath } from '$lib/utilities/wiki.js'
+import { CapitalizedError, WIKI_URL, getCachedMarkdownPage, getLinkedFilePath } from '$lib/utilities/wiki.js'
 import { getBreadcrumbs } from '$lib/utilities/links'
 
 const REGEX_FILE_EXT = /\.\w+$/
 
 export function load({ params }) {
-    let fullPath = getLinkedFilePath(params.file)
+    let fullPath
+    try {
+        fullPath = getLinkedFilePath(params.file)
+    } catch (error) {
+        if(error instanceof CapitalizedError) {
+            redirect(302, `${WIKI_URL}/${error.correctLink}`)
+        } else {
+            throw error
+        }
+    }
 
     if (params.file == "") {
         redirect(302, "content/index.md")
@@ -32,7 +41,7 @@ export function load({ params }) {
     } 
     
     if (!page){
-        page = new MarkdownPage(fullPath)
+        page = getCachedMarkdownPage(fullPath)
     }
     return {
         html: page.domScraper.html(),
