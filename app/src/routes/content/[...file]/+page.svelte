@@ -267,7 +267,7 @@
 		display: inline-block;
 		padding: 0.25rem 0.5rem;
 		margin: 0.25rem;
-		background-color: #e0e0e0;
+		background-color: #f8f8f8;
 		border-radius: 16px;
 		color: #333;
 		font-size: 14px;
