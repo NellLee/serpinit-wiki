@@ -2,12 +2,22 @@
 import { MarkdownPage } from '$lib/markdownPage';
 import path from 'path'
 import { writable, type Updater, type Writable } from 'svelte/store';
+import { getFilePathsInFolder } from './files';
 
+
+export const wiki: Map<string, MarkdownPage> = new Map();
 const __dirname = new URL(".", import.meta.url).pathname.substring(1)
 
 
 export const WIKI_URL = '/content'
 export const WIKI_PATH = path.resolve(__dirname, "../../../../content")
+
+export function loadAllMarkdownPages() {
+    const files = getFilePathsInFolder(WIKI_PATH, [".md"])
+    for (let file of files) {
+        loadMarkdownPage(path.resolve(WIKI_PATH, file.substring(1)))
+    }
+}
 
 
 export function getLinkedFilePath(link: string, currentFolder: string | null = null): string {
@@ -29,15 +39,13 @@ export function getLinkedFilePath(link: string, currentFolder: string | null = n
     return fullPath
 }
 
-const cache: Map<string, MarkdownPage> = new Map();
+export function loadMarkdownPage(fullPath: string): MarkdownPage {
 
-export function getCachedMarkdownPage(fullPath: string): MarkdownPage {
-
-    if (cache.has(fullPath)) {
-        return cache.get(fullPath)!
+    if (wiki.has(fullPath)) {
+        return wiki.get(fullPath)!
     } else {
         const page = new MarkdownPage(fullPath)
-        cache.set(fullPath, page)
+        wiki.set(fullPath, page)
         return page
     }
 }

@@ -260,6 +260,12 @@
 		padding: 0;
 		margin: 0;
 		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+	}
+
+	.tags li {
+		width: fit-content !important;
 	}
 
 	.tags li a {
@@ -267,7 +273,7 @@
 		display: inline-block;
 		padding: 0.25rem 0.5rem;
 		margin: 0.25rem;
-		background-color: #f8f8f8;
+		background-color: #eeeeee;
 		border-radius: 16px;
 		color: #333;
 		font-size: 14px;

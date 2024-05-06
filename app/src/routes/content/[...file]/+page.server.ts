@@ -4,7 +4,7 @@ import { MarkdownPage } from '$lib/markdownPage'
 import fs from 'fs'
 import { error } from '@sveltejs/kit'
 import { redirect } from '@sveltejs/kit'
-import { WIKI_URL, getCachedMarkdownPage, getLinkedFilePath } from '$lib/utilities/wiki.js'
+import { WIKI_URL, loadMarkdownPage, getLinkedFilePath } from '$lib/utilities/wiki.js'
 import { getBreadcrumbs } from '$lib/utilities/links'
 
 const REGEX_FILE_EXT = /\.\w+$/
@@ -30,10 +30,8 @@ export function load({ params }) {
         } else {
             throw error(404, `File ${params.file} not found`)
         }
-    } 
-    
-    if (!page){
-        page = getCachedMarkdownPage(fullPath)
+    } else {
+        page = loadMarkdownPage(fullPath)
     }
     return {
         page: structuredClone(page),
