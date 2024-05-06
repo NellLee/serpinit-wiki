@@ -24,6 +24,10 @@ export class MarkdownPage {
     toc: NamedLinkList
     references: NamedLinkList[]
 
+    get href() {
+        return this.#fileLink.href
+    }
+
     get domScraper() {
         return cheerio.load('<!DOCTYPE html>' + this.#initialHtml)
     }
@@ -146,7 +150,6 @@ export class MarkdownPage {
             tags.push(... match[1].split(','))
         }
         tags.push(...this.#fileLink.getTags())
-        console.log(tags)
         this.tags = tags.map(tag => {
             const encodedTag = encodeURIComponent(tag)
             return {
