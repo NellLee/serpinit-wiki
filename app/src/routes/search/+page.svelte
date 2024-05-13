@@ -1,40 +1,87 @@
-<script>
-	import { wiki } from '$lib/utilities/wiki';
-    import { onMount } from 'svelte';
-  
-    let searchInput = '';
-  
-  
-    onMount(() => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const initialSearch = urlParams.get('q'); //TODO
-      if (initialSearch) {
-        searchInput = initialSearch;
-        search();
-      }
-    });
-  
-    function search() {
-      const results = []
-      for (let [key, page] of wiki.entries()) {
-        if (page.markdown.includes(searchInput)) {
-            results.push(key)
-        }
-      }
-      console.log(results);
-      // You can do something with the results here, like updating a list to display them
-    }
-  </script>
-  
-  <h1>Search Page</h1>
-  
-  <input type="text" bind:value={searchInput} on:input={search} placeholder="Search...">
-  <button on:click={search}>Search</button>
-  <!-- TODO -->
-  
-  <style>
-    input, button {
-      margin: 5px;
-    }
-  </style>
-  
+<script lang="ts">
+	import type { MarkdownPage } from '$lib/markdownPage.js';
+	import { wiki } from '$lib/utilities/wiki.js';
+	import { onMount } from 'svelte';
+
+	let searchInput = '';
+	let currentResults = new Map<string, number>();
+	let displayedResults: { key: string; title: string; preview: string }[] = [];
+
+	 //FIXME Wiki is empty
+
+	onMount(() => {
+		const urlParams = new URLSearchParams(window.location.search);
+		const initialSearch: string = urlParams.get('tags') ?? '';
+		if (initialSearch) {
+			searchInput = initialSearch;
+			fullSearch();
+		}
+	});
+
+	function fullSearch() {
+		currentResults.clear();
+		for (let searchTag of searchInput.split(',')) {
+			search((page) => (page.title.toLowerCase().includes(searchTag.toLowerCase()) ? 3 : null));
+			search((page) => (page.tags.map((tag) => tag.text.toLowerCase()).includes(searchTag.toLowerCase()) ? 2 : null));
+			search((page) => (page.markdown.toLowerCase().includes(searchTag.toLowerCase()) ? 1 : null));
+		}
+		displayedResults = Array.from(currentResults)
+			.sort((a, b) => b[1] - a[1])
+			.map(([key, _]) => {
+				const page = wiki.get(key)!
+				return {
+					key,
+					title: page.title,
+					preview: page.domScraper('body').text().substring(0, 100)
+				};
+			});
+	}
+
+	function search(criterium: (page: MarkdownPage) => number | null) {
+		for (let [key, page] of wiki.entries()) {
+			const priority = criterium(page);
+			if (priority != null) {
+				currentResults.set(key, priority);
+			}
+		}
+	}
+</script>
+
+<h1>Search Page</h1>
+
+<input type="text" bind:value={searchInput} on:input={fullSearch} placeholder="Search..." />
+<button on:click={fullSearch}>Search</button>
+
+{#if displayedResults.length === 0}
+	<p>No results found</p>
+{:else}
+	<ul>
+		{#each displayedResults as { key, title, preview }}
+			<li>
+				<a href={`/page/${key}`}>{title}</a>
+				<p>{preview}</p>
+			</li>
+		{/each}
+	</ul>
+{/if}
+
+<style>
+	input,
+	button {
+		margin: 5px;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+
+	a {
+		text-decoration: none;
+		color: blue;
+	}
+</style>
