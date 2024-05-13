@@ -157,4 +157,17 @@ export class MarkdownPage {
 
         this.html = this.domScraper.html()
     }
+    toJSON() {
+        let result = {
+            html: this.html,
+            markdown: this.markdown,
+            title: this.title,
+            tags: this.tags,
+            breadcrumbs: this.breadcrumbs,
+            toc: this.toc,
+            references: this.references,
+        }
+
+        return JSON.stringify(result)
+    }
 }
