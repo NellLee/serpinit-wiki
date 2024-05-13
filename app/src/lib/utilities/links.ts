@@ -1,5 +1,6 @@
 import { FileLink } from "$lib/fileLink"
-import { getLinkedFilePath } from "./wiki"
+import { WIKI_PATH, WIKI_URL } from "$lib/stores"
+import path from 'path'
 
 export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
     const namedLinkList: NamedLinkList = { name, linkList: [] }
@@ -51,4 +52,23 @@ export function getBreadcrumbs(url: string) {
         breadcrumbs = []
     }
     return breadcrumbs
+}
+
+export function getLinkedFilePath(link: string, currentFolder: string | null = null): string {
+    if (link.startsWith(WIKI_URL)) {
+        link = link.substring(WIKI_URL.length+1)
+    }
+
+
+    if (link.startsWith(".")) {
+        if(!currentFolder) {
+            throw new TypeError("Current folder must not be null if link starts with '.'")
+        }
+        link = path.resolve(currentFolder, link)
+    }
+
+    let filePath = link.replace(/\//g, path.sep)
+    let fullPath = path.resolve(WIKI_PATH, filePath)
+
+    return fullPath
 }

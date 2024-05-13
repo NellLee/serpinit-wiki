@@ -5,9 +5,8 @@ import { marked } from 'marked'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
 import { generateHeaderId } from '$lib/utilities/utilities'
-import { getBreadcrumbs, linkTreeToList } from "./utilities/links"
+import { getBreadcrumbs, getLinkedFilePath, linkTreeToList } from "./utilities/links"
 import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
-import { getLinkedFilePath } from "./utilities/wiki"
 import { FileLink } from "./fileLink"
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
@@ -26,10 +25,6 @@ export class MarkdownPage {
 
     get href() {
         return this.#fileLink.href
-    }
-
-    get domScraper() {
-        return cheerio.load('<!DOCTYPE html>' + this.#initialHtml)
     }
 
     static constructIndexPage(folderPath: string): MarkdownPage {
@@ -76,8 +71,8 @@ export class MarkdownPage {
 
         // Parse markdown to html
         let unsanitized = marked(this.markdown) as string
-        this.#initialHtml = DOMPurify.sanitize(unsanitized)
-        const $ = this.domScraper
+        this.#initialHtml = '<!DOCTYPE html>' + DOMPurify.sanitize(unsanitized)
+        const $ = cheerio.load(this.#initialHtml)
 
         // Generate table of contents
         const tocTree: LinkTree = {
@@ -160,6 +155,6 @@ export class MarkdownPage {
 
         this.breadcrumbs = getBreadcrumbs(fileLink.href)
 
-        this.html = this.domScraper.html()
+        this.html = $.html()
     }
 }
