@@ -25,7 +25,6 @@ function getFilePathsInFolderRec(aggregator: string[], folderPath: string, fileT
             } else if (stat.isFile()) {
                 if (fileTypes.length === 0 || fileTypes.includes(path.extname(fileOrFolder))) {
                     aggregator.push(fullPath.replace(startPath, ""))
-                    // console.log(fullPath.replace(startPath, ""))
                 }
             }
         } catch {

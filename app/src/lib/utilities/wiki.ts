@@ -17,7 +17,6 @@ export const WIKI_PATH = path.resolve(__dirname, "../../../../content")
 export function initWiki() {
     const files = getFilePathsInFolder(WIKI_PATH, [".md"])
     for (let file of files) {
-        console.log(file)
         loadMarkdownPage(path.resolve(WIKI_PATH, file.substring(1)))
     }
 }
