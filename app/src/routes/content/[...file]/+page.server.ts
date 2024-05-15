@@ -19,7 +19,12 @@ export async function load({ fetch, params }) {
         
     }
     let fetchResult = await fetch("/page?file="+file)
-    let page: MarkdownPage = JSON.parse(await fetchResult.json())
+    if (!fetchResult.ok) {
+        const { message } = await fetchResult.json();
+        throw error(fetchResult.status, message);
+    }
+    let fetchJson = await fetchResult.json()
+    let page: MarkdownPage = JSON.parse(fetchJson)
     return {
         page,
     }

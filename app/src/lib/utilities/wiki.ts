@@ -13,7 +13,7 @@ export const WIKI_URL = '/content'
 export const WIKI_PATH = path.resolve(__dirname, "../../../../content")
 
 export function initWiki() {
-    console.log("Initializing wiki pages")
+    console.log("Initializing all wiki pages")
     const files = getFilePathsInFolder(WIKI_PATH, [".md"])
     for (let file of files) {
         loadMarkdownPage(path.resolve(WIKI_PATH, file.substring(1)))

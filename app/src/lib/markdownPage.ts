@@ -11,6 +11,7 @@ import { FileLink } from "./fileLink"
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
+
 export class MarkdownPage {
     #fileLink: FileLink
     #initialHtml: string
@@ -22,10 +23,7 @@ export class MarkdownPage {
     breadcrumbs: LinkObject[]
     toc: NamedLinkList
     references: NamedLinkList[]
-
-    get href() {
-        return this.#fileLink.href
-    }
+    href: string
 
     static constructIndexPage(folderPath: string): MarkdownPage {
         let constructedMarkdown = "# "+folderPath.substring(folderPath.lastIndexOf(path.sep)+1)+"\n"
@@ -156,6 +154,8 @@ export class MarkdownPage {
         this.breadcrumbs = getBreadcrumbs(fileLink.href)
 
         this.html = $.html()
+
+        this.href = this.#fileLink.href
     }
     toJSON() {
         let result = {
@@ -166,6 +166,7 @@ export class MarkdownPage {
             breadcrumbs: this.breadcrumbs,
             toc: this.toc,
             references: this.references,
+            href: this.href,
         }
 
         return JSON.stringify(result)
