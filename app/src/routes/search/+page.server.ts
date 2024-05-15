@@ -12,6 +12,7 @@ export async function load({ fetch, params, url }) {
     let fetchJson: string[] = await fetchResult.json()
     let pages: MarkdownPage[] = fetchJson.map(json => JSON.parse(json))
     return {
+        query: urlParams.get("q")!,
         pages,
     }
 }

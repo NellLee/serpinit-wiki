@@ -47,6 +47,9 @@ export function GET({url}) {
         pages = loadMarkdownPage(getLinkedFilePath(file))
     }
 
+    if(pages instanceof Array) {
+        pages = [...new Set(pages)]
+    }
     
     return json(pages)
 }
