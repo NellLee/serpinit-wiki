@@ -200,3 +200,7 @@ body {
     font-size: xxx-large;
     margin-top: 75px;
 }
+
+img {
+    max-width: 100%;
+}

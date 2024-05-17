@@ -20,7 +20,7 @@ Tiefliegender Tjosand wird dabei manchmal aufgrund von nahegelegenen unterirdisc
 und hohen Temperaturen zuerst eingeschmolzen und schließlich durch entweichende Gase an die Oberfläche gedrückt. Dabei
 entstehen Strukturen, die in ihrem Aussehen an geblasenes Glas erinnern. 
 
-![Natürliche Tjosand Vorkommen](D:\My_Files\Programming\serpinit-wiki\content\general\magie\images\wueste_natuerliches-tjosand-vorkommen.png)
+![Natürliche Tjosand Vorkommen](./images/Agranum_Wueste_natuerlich_Tjosand-Quarz.png)
 
 
 

@@ -6,7 +6,7 @@ import { error, redirect } from "@sveltejs/kit";
 
 const REGEX_FILE_EXT = /\.\w+$/
 
-export async function load({ fetch, params }) {
+export async function load({ fetch, params, url }) {
     const file = params.file;
 
     if (file == "") {
@@ -14,9 +14,7 @@ export async function load({ fetch, params }) {
     } else if (!REGEX_FILE_EXT.test(getLinkedFilePath(file))) {
         redirect(302, `${WIKI_URL}/${file}/index.md`)
     } else if (!file.endsWith(".md")) {
-        //TODO can image links work with the static symlink?
-        throw error(404, `resource redirecting for '${file.substring(file.lastIndexOf("."))}' files not implemented`) //  
-        
+        redirect(302, url.toString().replace("content/", "")) // uses staic symlink
     }
     let fetchResult = await fetch("/page?file="+file)
     if (!fetchResult.ok) {

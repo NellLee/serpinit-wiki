@@ -1,6 +1,6 @@
 # Navura, der Herzplanet
 
-![Navura](navura.png)
+![Navura](./images/Navura_Planet_Weltraum-Ansicht.png)
 
 Navura ist ein Planet mit einem sehr großen Landanteil. Nur ca. 13 % des Planeten sind von Wasser bedeckt. Die
 Wasservorkommen sind außerdem sehr gleichmäßig über den Planeten verteilt. Es gibt keine großen Meere auf Navura,
