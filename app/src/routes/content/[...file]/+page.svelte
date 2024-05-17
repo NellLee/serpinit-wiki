@@ -6,7 +6,7 @@
 	export let data;
 </script>
 
-	<div id="table-of-content" class="sidebar">
+	<aside id="table-of-content" class="sidebar">
 		{#if data.page.toc.linkList.length > 0}
 			<h3>{data.page.toc.name}</h3>
 			<nav>
@@ -21,7 +21,7 @@
 				</ul>
 			</nav>
 		{/if}
-	</div>
+	</aside>
 
 	<div id="content-body">
 		<div class="breadcrumbs">
@@ -41,9 +41,8 @@
 		</div>
 		<div id="parsed-markdown">{@html data.page.html}</div>
 	</div>
-	<div id="quick-links" class="sidebar">
-		<aside>
-			<!-- TODO -->
+	<aside id="quick-links" class="sidebar">
+		{#if data.page.tags.length > 0}
 			<div class="tags">
 				<nav>
 					<h2>Tags</h2>
@@ -54,17 +53,17 @@
 					</ul>
 				</nav>
 			</div>
-			{#each data.page.references as list}
-				{#if list.linkList.length > 0}
-					<nav>
-						<h2>{list.name}</h2>
-						<ul>
-							{#each list.linkList as link}
-								<li><a href={link.href}>{link.text}</a></li>
-							{/each}
-						</ul>
-					</nav>
-				{/if}
-			{/each}
-		</aside>
-	</div>
+		{/if}
+		{#each data.page.references as list}
+			{#if list.linkList.length > 0}
+				<nav>
+					<h2>{list.name}</h2>
+					<ul>
+						{#each list.linkList as link}
+							<li><a href={link.href}>{link.text}</a></li>
+						{/each}
+					</ul>
+				</nav>
+			{/if}
+		{/each}
+	</aside>

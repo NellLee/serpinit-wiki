@@ -36,7 +36,7 @@ export class FileLink {
     
         this.text = this.fileName
         let firstHeader = REGEX_FIRST_HEADER.exec(content)?.pop()
-        if(this.extension == ".md" && firstHeader) {
+        if(this.extension == "md" && firstHeader) {
             this.text = firstHeader
         } else if(this.fileName == "index") {
             this.text = this.path.substring(this.path.lastIndexOf(path.sep)+1) 
