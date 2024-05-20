@@ -1,6 +1,7 @@
 
 <script lang="ts">
-	import '$lib/styles.css';
+	import EllipsisText from '$lib/components/EllipsisText.svelte';
+import '$lib/styles.css';
 	import { Icon, Home } from 'svelte-hero-icons';
 
 	export let data;
@@ -60,7 +61,7 @@
 					<h2>{list.name}</h2>
 					<ul>
 						{#each list.linkList as link}
-							<li><a href={link.href}>{link.text}</a></li>
+							<li><a href={link.href}><EllipsisText>{link.text}</EllipsisText></a></li>
 						{/each}
 					</ul>
 				</nav>
