@@ -146,7 +146,7 @@ export class MarkdownPage {
         this.tags = tags.map(tag => {
             const encodedTag = encodeURIComponent(tag)
             return {
-                href: "/search?tags="+encodedTag,
+                href: "/content/search?tags="+encodedTag,
                 text: tag
             }
         })

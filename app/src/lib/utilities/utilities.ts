@@ -7,5 +7,3 @@ export function generateHeaderId(str: string | null) {
     }
     return str.trim().toLowerCase().replace(/\s+/g, '-')
 }
-
-

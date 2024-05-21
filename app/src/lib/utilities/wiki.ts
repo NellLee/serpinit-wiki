@@ -10,6 +10,7 @@ const __dirname = new URL(".", import.meta.url).pathname.substring(1)
 
 
 export const WIKI_URL = '/content'
+export const PAGE_API_URL = "/api/page"
 export const WIKI_PATH = path.resolve(__dirname, "../../../../content")
 
 export function initWiki() {

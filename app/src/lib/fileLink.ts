@@ -48,7 +48,8 @@ export class FileLink {
     // TODO
     getTags() {
         const tags: string[] = []
-        for (let segment of this.href.split("/")) {
+        let segments = this.href.split("/")
+        for (let segment of segments) {
             if(segment.includes(".")) {
                 segment = segment.substring(0, segment.lastIndexOf("."))
             }
