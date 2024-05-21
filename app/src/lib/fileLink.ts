@@ -48,14 +48,16 @@ export class FileLink {
     // TODO
     getTags() {
         const tags: string[] = []
-        let segments = this.href.split("/")
-        for (let segment of segments) {
-            if(segment.includes(".")) {
-                segment = segment.substring(0, segment.lastIndexOf("."))
-            }
-            if (segment && segment != "content" && !segment.startsWith("index")) {
-                tags.push(... segment.split("_"))
-            }
+        const segments = this.href.split("/")
+        let segment = segments.at(-1)!
+        if(segment.includes(".")) {
+            segment = segment.substring(0, segment.lastIndexOf("."))
+        }
+        if (segment.startsWith("index")) {
+            segment = segments.at(-2)!
+        }
+        if (segment && segment != "content") {
+            tags.push(... segment.split("_"))
         }
         return tags
     }

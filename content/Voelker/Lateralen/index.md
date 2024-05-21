@@ -1,4 +1,4 @@
-<!--TAGS[Volk,Lateralen,homo primian]-->
+<!--TAGS[Volk,homo primian]-->
 # Die Lateralen
 
 # Entwicklung
