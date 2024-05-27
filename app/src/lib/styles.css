@@ -197,6 +197,10 @@ body {
 }
 
 /* Header */
+.header {
+    width: fit-content;
+    max-width: 90%;
+}
 .header h1 {
     font-size: xxx-large;
     margin-top: 75px;

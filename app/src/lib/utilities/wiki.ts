@@ -22,22 +22,17 @@ export function initWiki() {
 }
 
 export function loadMarkdownPage(fullPath: string): MarkdownPage {
-
-    if (wiki.has(fullPath)) {
-        return wiki.get(fullPath)!
-    } else {
-        let page: MarkdownPage
-        if (!fs.existsSync(fullPath)) {
-            if(fullPath.endsWith("index.md")) {
-                const folderPath = fullPath.substring(0, fullPath.lastIndexOf(path.sep))
-                page = MarkdownPage.constructIndexPage(folderPath)
-            } else {
-                throw error(404, `File ${fullPath} not found`)
-            }
+    let page: MarkdownPage
+    if (!fs.existsSync(fullPath)) {
+        if(fullPath.endsWith("index.md")) {
+            const folderPath = fullPath.substring(0, fullPath.lastIndexOf(path.sep))
+            page = MarkdownPage.constructIndexPage(folderPath)
         } else {
-            page = new MarkdownPage(fullPath)
+            throw error(404, `File ${fullPath} not found`)
         }
-        wiki.set(fullPath, page)
-        return page
+    } else {
+        page = new MarkdownPage(fullPath)
     }
+    wiki.set(fullPath, page)
+    return page
 }
