@@ -1,6 +1,6 @@
 # Eolyn Sera (Waldläuferin) & Fezir (Adler)
 
-![Bild von Eolyn und Fezir](Link-zum-Bild)
+![Eolyn Sera](./images/Sodili-Lateral_Eolyn-Aksae-Sera.png)
 
 **Name:** Eolyn Aksae Sera  
 **Titel/Klasse:** Waldläuferin  

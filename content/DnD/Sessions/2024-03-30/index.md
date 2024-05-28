@@ -1,12 +1,13 @@
 # 30.05.2024
 
-<!-- TODO: Battlemaps -->
+<span style="color: red;">
+TODO: Battlemaps, Runenstein
+</span>
 
 # Meta / Kontext
 
 Die Spieler stehen vor dem [Sgrisignier-Portal](/content/Allgemein/Magie/Sgrisignier-Portale.md) und Kwint Gurdun hat gerade die Rune zur Stabilisierung an dem entsprechenden Stein angebracht. 
 
-<span style="color: red;">TODO: Runenstein drucken</span>
 
 Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufgaben erledigen:
 * Herausfinden ob die Welt hinter dem Portal (Über-)Leben zulässt
@@ -20,7 +21,6 @@ Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufga
 * [Caelum Storringer (Paladin) & Tempest (Krokodil)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/index.md)
 
 ### Conius
-<span style="color: red;">TODO</span>
 * [Draven Norint (Alchemist)](/content/Voelker/Lateralen/Conius/Charaktere/Draven-Norrint/index.md)
 * [Lysandra Swirm (Druide)](/content/Voelker/Lateralen/Conius/Charaktere/Lysandra-Swirm/index.md)
 * [Ingvor Mandijit](/content/Voelker/Lateralen/Conius/Charaktere/Ingvor-Nemet-Mandijit/index.md)

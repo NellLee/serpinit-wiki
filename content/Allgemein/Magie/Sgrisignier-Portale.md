@@ -1,5 +1,5 @@
 # Sgrisignier-Portale
-![Sgrisignier-Portal](./images/Sgrisignier-Portal.png)
+![Sgrisignier-Portal](./images/Sgrisignier-Portal_Roiatin.png)
 
 Auf nahezu jedem Planeten des Serpinit-Systems befinden sich rundliche Steintore die von uralter Runenmagie durchdrungen sind. Diese Steinbögen sind Portale, wobei in der Theorie immer genau zwei Portale miteinander verbunden sind. Sie wurden von den Sgrisigniern gebaut um zwischen den Planeten reisen zu können, sind jedoch für die modernen Völker lange Zeit aufgrund von Chaos-Interferenzen nicht nutzbar. 
 

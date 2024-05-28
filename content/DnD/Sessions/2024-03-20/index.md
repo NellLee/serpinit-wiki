@@ -115,7 +115,7 @@ Dann muss der Katamaran einen Umweg nach außen nehmen, da Gurontis an dieser St
 
 Die Expedition legt in einer Bucht nahe der passierten Inselkette an. Das Portal ist von dieser Stelle einen ~20 minütigen Marsch entfernt, in einem kleinen Waldstück. Es ist ca. 10 Meter hoch und versehen mit altem, getrocknetem Blut.
 
-![](./images/Sgrisignier-Portal_blutig.png)
+![](../../../Allgemein/Magie/images/Sgrisignier-Portal_Roiatin.png)
 
 Die Conius-Lateralen haben bisher nur ein theoretisches Vorgehen zur Erschließung der Portale entworfen und konnten dieses noch nicht in der Praxis erproben. Folgende Erkenntnisse hat Kwint Gurdun mit seinen bisherigen Forschungen gewonnen:
 

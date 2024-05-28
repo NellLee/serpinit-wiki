@@ -1,14 +1,15 @@
 # 10.01.2024
 
-# Ausgangslage
+# Meta / Kontext
 
 * Widim, Taeron und Alaric befinden sich in der letzten Kammer der Mandijit-Höhle zusammen mit Ingvor
 * Widim hat sich in einem Akt der Selbstlosigkeit auf die Glaskuppel geworfen und ist daher die nächstgelegene Energiequelle der Elementar-Rune
 * Eine Auseinandersetzung mit Ingvor steht bevor
+* Zu Beachten: Die Spieler haben die beiden Artefakte (Tjosand-Filter) von Ingvor gestohlen und seinen Flur mit Scheiße beschmiert
 
-# Handlung
+# Die letzte Kammer
 
-* Meta: Wenn die Rune blind zerstört wird, kann die unkontrollierte Kraft verheerende Folgen haben:
+* Wenn die Rune blind zerstört wird, kann die unkontrollierte Kraft verheerende Folgen haben:
   * Alle müssen einen Dexterity Saving Throw (12) machen oder sie werden weggeschleudert und erhalten 1d12 Bludgeoning Schaden
   * Der Saving Throw ist erschwert für die ausgesaugte Person
 * Ingvor muss zuerst die Situation wahrnehmen und erkennt Widim nicht sofort
@@ -23,6 +24,21 @@
 * Sollte Ingvor überleben, so möchte er mit den Spielern das weitere Vorgehen in seinem Haus besprechen
   * Die Spieler müssen sich verantworten, was ihre Aktionen im Haus betrifft wenn sie mitkommen
 * Ingvor bekommt vermutlich den Brief und die Information über die bevorstehende Ikusation
+
+## Der Geheime Brief
+
+Höchste Diskretion erforderlich!
+
+Ehrwürdiger Ingvor Nemet Mandijit,
+
+Eine Stunde des Wandels naht, und es ist an der Zeit, die Kräfte der Lateralen zu bündeln. Die alt-magischen Bögen haben ihre Macht enthüllt, und es liegt an unserer Zeit, die Pfade zu den Welten jenseits unseres Horizonts zu ebnen. Du wurdest als einer der weisesten Conius der die Rätsel der Magie tief erforscht hat und die Geheimnisse der magischen Runen versteht, auserwählt dem Ruf des Wals zu folgen. Ein großes Ereignis steht kurz bevor. Folge dem Ruf in Eile, doch wahre die Diskretion und verlaute nichts.
+
+Wir erhoffen die schnellstmögliche Zusammenkunft,
+
+[Signatur des Königshauses Akilonis]
+
+# Das Ende
+
 * Die Spieler können in das Dorf zurückkehren um eine Belohnung zu verlangen 
   * Der Rückweg wird übersprungen
   * Der Bürgermeister gibt ihnen je 15 Gold und versichert ewige Gastfreundschaft 
@@ -31,8 +47,4 @@
   * Die Reise ist ein Group-Worldbuild, in dem die Spieler die Möglichkeit haben eigene Ideen in die Welt einzubringen
 
 
-
-## Zu Beachten
-
-* Die Spieler haben die beiden Artefakte (Tjosand-Filter) von Ingvor gestohlen und seinen Flur mit Scheiße beschmiert
 

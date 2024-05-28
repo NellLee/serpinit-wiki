@@ -1,4 +1,6 @@
 
+# 24.10.2023
+
 # Intro
 Die Sonne neigt sich langsam dem Horizont entgegen, als die ersten Strahlen über die schwebenden Kontinente von Agranum fallen. Das malerische Fischerdorf der Sodili erstreckt sich am Ufer eines klaren Sees, dessen ruhige Oberfläche von sanften Wellen gekräuselt wird. Die Luft ist erfüllt von einer Mischung aus salzigem Meeresduft und der beruhigenden Geräuschkulisse, die nur ein kleines Dorf bieten kann.
 
@@ -37,22 +39,3 @@ Die drei Charaktere kommen an einem malerischen Fischerdorf der Sodili vorbei, d
 Taeron, Valeria und Alaric beschließen, gemeinsam zu handeln. Mit ihrer unterschiedlichen Expertise arbeiten sie zusammen, um den Elementar zu beruhigen oder zu besiegen und das Dorf zu retten. Taeron nutzt seine magitive Wahrnehmung, um die energetischen Muster des Elementars zu erkennen und eine Verbindung zum Grund des Sees wahrzunehmen. Wasser des Sees fühlt sich seitdem elektrisiert an. Hören über Umwege von verrücktem Magier (ehemaliger Lehrer an Resrubor) am anderen Ende des Sees. Bei Besuch ist die Villa leer, aber beim Versuch einzubrechen sind eine Vielzahl von magischen Fallen aufgestellt.
 
 In der Nähe findet sich eine Höhle die verschiedene Räume mit unterschiedlichen Elementaren beinhaltet. Dabei sind die Elementare stabil, durch jeweils eine 2D-Sgrisignier-Rune im Zentrum des Raumes. Es handelt sich um Experimente des Magiers zu der Funktionsweise der Runen und der Art und Weise wie sie ihrer Umwelt die nötige Kraft entziehen. Im tiefen Inneren der Höhle finden sie den Magier, neben einem verunglücktem Experiment, bei dem er eine dreidimensionale Rune erstellen wollte. Tatsächlich ist die Rune zustande gekommen, auch wenn es sicht um eine offensichtlich sehr instabile Version handelt. Der Magier liegt reglos auf dem Boden und ist sehr schwach, da die Rune stetig von seinen Kräften zehrt. Die Rune ist also offensichtlich der Ursprung für den riesigen Wasser-Elementar im See. Die Charaktere müssen abschließend nur noch herausfinden wie sie die Rune deaktivieren.
-
-## Sodili Götter
-Liradon, der Hüter der Wälder:
-Liradon ist ein majestätischer Elch mit einem mächtigen Geweih, der über die Wälder und die darin lebenden Kreaturen wacht. Er symbolisiert den Kreislauf des Lebens, die Natur und den Schutz der Wildnis. Liradon ist geduldig, weise und einfühlsam. Die Tiere sehen in ihm einen Beschützer und Ratgeber.
-
-Zephyra, die Luftdame:
-Zephyra ist ein gefiederter Vogel mit farbenfrohen Schwingen, der über die Lüfte und die Elemente der Luft herrscht. Sie verkörpert Freiheit, Kreativität und Inspiration. Zephyra ist verspielt, leichtfüßig und immer auf der Suche nach neuen Abenteuern. Die Winde sind ihre Boten, und sie schenkt den Reisenden Mut und Hoffnung.
-
-Thalassa, die Meeresgöttin:
-Thalassa ist eine majestätische Schildkröte, die über die Ozeane und das Leben im Wasser wacht. Sie symbolisiert die Geheimnisse der Tiefen, den Wandel und die emotionale Tiefe. Thalassa ist ruhig, aber unnachgiebig in ihrer Entschlossenheit. Fischer und Seefahrer beten zu ihr für Schutz und eine reiche Ernte aus dem Meer.
-
-Agarak, der Feuerfalke:
-Agarak ist ein mächtiger Phönix, der über das Feuer, die Energie und die Leidenschaft wacht. Er verkörpert Stärke, Durchsetzungsvermögen und Transformation. Agarak ist stolz und impulsiv, aber auch beschützend gegenüber denjenigen, die seine Macht respektieren. Sein Feuer bringt Wärme und Licht in die Welt.
-
-Terraquil, der Erdhirsch:
-Terraquil ist ein massiver Hirsch mit einer robusten, von Moos überwucherten Hülle, der über die Erde und die natürlichen Rhythmen der Welt wacht. Er symbolisiert Stabilität, Geduld und Wachstum. Terraquil ist bedacht und weise, und die Landwirte rufen seine Hilfe an, um reiche Ernten und fruchtbare Böden zu erhalten.
-
-Quilune, der Nachtgreif:
-Quilune ist eine mysteriöse Eule mit funkelnden, silbernen Federn, die über die Dunkelheit, die Sterne und die Geheimnisse der Nacht wacht. Sie verkörpert Weisheit, Intuition und Mysterium. Quilune ist ruhig und nachdenklich, und die nächtlichen Wanderer suchen ihren Schutz vor Gefahren in der Finsternis.

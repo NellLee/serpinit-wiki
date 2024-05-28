@@ -1,6 +1,6 @@
 # Caelum Storringer (Paladin) & Tempest (Krokodil)
 
-![Bild von Caelum und Tempest](Link-zum-Bild)
+![Caelum Storringer](./images/Sodili-Lateral_Caelum-Froso-Storringer.png)
 
 **Name:** Caelum Froso Storringer  
 **Titel/Klasse:** Paladin  
