@@ -1,32 +1,86 @@
 # Ingvor Nemet Mandijit
 
-Ingvor Nemet Mandijit ist ein erfahrener Conius-Lateralter, der im Laufe der Jahre eine umfassende Kenntnis der arkanen Künste erworben hat.
-Sein Interesse an der Magie führte ihn zu einer Spezialisierung in der Beschwörung, insbesondere zur Kontrolle von Elementaren.
-Als ehemaliger Lehrer an der [Resrubor-Akademie](/content/Himmelskoerper/Agranum/Kontinente/Resrubor/Resrubor_Akademie/index.md) hat er nicht nur sein eigenes Wissen vertieft, sondern auch junge Talente unterrichtet und geformt und wissenschaftliche Forschugnsarbeit betrieben.
+![Bild des Charakters](Link-zum-Bild)
 
-## Persönlichkeit
-Der rationale Charakter von Ingvor zeigt sich in seinem sachlichen und überlegten Auftreten.
-Als Lehrer wurde er zwar häufig als leicht aufbrausend beschrieben, doch sein Unterricht war trotzdem allgemein beliebt.
-Auch im Dorf Akuelon haben die Menschen Ingvor als einen temperamentvollen Lateralen erlebt, besonders durch seinen Streit mit dem Bürgermeister Stavros.
-Hinter der diplomatischen Fassade verbirgt sich seither ein Hauch von Verbitterung.
+**Name:** Ingvor Nemet Mandijit  
+**Titel/Klasse:** Elementar-Beschwörer  
+**Alter:** Mittleren Alters  
+**Geschlecht:** Männlich  
+**Spezies/Rasse:** [Conius-Lateraler](/content/Voelker/Lateralen/index.md)  
+**Heimat:** Villa am See Kulios  
+**Beruf:** Ehemaliger Lehrer an der Resrubor-Akademie, unabhängiger Forscher
 
-### Ideale, Ziel und Bindungen
-Sein Ideal, "Fortschritt dem Wissen", reflektiert seinen starken Wunsch, die Wissenschaft der Magie voranzutreiben.
-In der Akademie ging ihm die Forschung aufgrund von diplomatischen Vorgängen häufig nicht schnell genug voran.
-Er entschied sich daher schließlich seine Forschungen privat fortzuführen und verließ die Akademie.
-Seine Erkenntnisse zur Elementarbeschwörung waren dabei nicht nur innovativ sondern mitunter auch gefährlich (siehe [Der Riesen-Wasserelementar im See Kulios](/content/Stories/Riesen-Wasserelementar_im_See_Kulios.md)).
+## Allgemein
 
-### Fähigkeiten und Ausrüstung
-Ingvor Nemet Mandijit ist sowohl ein erfahrener Zauberer, als auch ein geschickter Diplomat.
-Seine magischen Fertigkeiten, insbesondere in der Beschwörung von Elementaren, machen ihn zu einem der mächtigsten Lateralen am See Kulios.
-In seiner Zeit als führender Lehrer der Akademie hat Ingvor zudem viele politische Erfahrungen gesammelt, auch wenn er diese seit seinem Rücktritt eher selten nutzt.
-Ingvor ist wohlhabend, mit einem großem Anwesen voller magischer Pflanzen und Gegenstände.
-Er trägt meist Roben aus farbiger Seide und wo er sich auch aufhält, sind Pergament, Federkiel und Zauberbücher nie weit.
+### Aussehen
+Ingvor hat schulterlanges, silbergraues Haar und durchdringende, graublaue Augen, die von einem scharfen Verstand zeugen. Sein Gesicht ist von den Jahren der intensiven Forschung und Lehre geprägt, mit tiefen Falten um die Augen und den Mund. Er trägt meist prächtige Roben aus farbiger Seide, die seine wohlhabende Stellung und seine Vorliebe für elegante Kleidung widerspiegeln. Er ist immer mit Pergament, Federkiel und Zauberbüchern ausgestattet, bereit, seine Forschungen und Gedanken festzuhalten.
 
-### Geschichte und Geheimnisse
-Bereits früh in seinem Leben besuchte Ingvor die Resrubor-Akademie, wo seine beeindruckende magische Laufbahn begann.
-Seine Eltern lebten nicht allzu fern der Akademie in einer gemischten Lateralen-Kleinstadt, doch da die Akademie nach dem Prinzip eines Internats funktioniert, sah Ingvor seine Eltern während seiner Ausbildung nicht sehr häufig.
-Er hatte während einer Schulzeit nur eine Handvoll Freunde, da er sich zu jeder Zeit vollends auf die Weiterentwicklung seiner Fähigkeiten und auf den Unterricht konzentrierte.
-Gegen Ende seiner Ausbildung verstarben Ingvors Eltern bei einer Epidemie, weshalb er sich dafür entschied auch nach seinem Abschluss an der Resrubor-Akademie zu verbleiben.
-Er wurde ein erfolgreicher Lehrer und Forscher.
-Nach einigen Jahren verließ er die Akademie, da ihm die Forschungspolitik zu träge war, und zog sich an den See Kulios zurück. 
+### Persönlichkeit
+
+#### Charakterzüge
+Ingvor ist ein rationaler und überlegter Mensch, der sich durch sachliches Auftreten und einen scharfen Verstand auszeichnet. Seine Leidenschaft für die Magie und seine Neigung zur Beschwörung machen ihn zu einem leidenschaftlichen und manchmal leicht aufbrausenden Lehrer und Forscher. Trotz seines Temperaments war sein Unterricht an der Resrubor-Akademie sehr beliebt. In Akuelon ist er als temperamentvoller Lateraler bekannt, insbesondere aufgrund seines Streits mit dem Bürgermeister Stavros. Hinter seiner diplomatischen Fassade verbirgt sich ein Hauch von Verbitterung.
+
+### Ideale, Ziele und Bindungen
+- **Ideal:** "Fortschritt dem Wissen" - Ingvor strebt danach, die Wissenschaft der Magie voranzutreiben.
+- **Ziel:** Die Forschung und Anwendung der Elementarbeschwörung weiterzuentwickeln.
+- **Bindungen:** Ingvor hat eine starke Verbindung zu seiner Arbeit und seinen Forschungen. Die Resrubor-Akademie war lange sein Zuhause, aber die träge Forschungspolitik trieb ihn dazu, seine Forschungen privat fortzuführen. Seine Erkenntnisse zur Elementarbeschwörung, wie der Riesen-Wasserelementar im See Kulios, sind sowohl innovativ als auch gefährlich.
+
+## Fähigkeiten und Ausrüstung
+
+### Physische Fähigkeiten
+Ingvor hat keine herausragenden physischen Fähigkeiten, aber er ist geschickt im Umgang mit magischen Apparaturen und hat eine ausgezeichnete Feinmotorik für das Zeichnen komplexer Runen und Zauberzeichen.
+
+### Magische Fähigkeiten
+Ingvor ist ein erfahrener Zauberer mit besonderer Expertise in der Beschwörung und Kontrolle von Elementaren. Seine Fähigkeiten in der Elementarmagie, insbesondere in der Beschwörung von Wasserelementaren, sind beeindruckend und gefürchtet.
+
+### Talente
+- **Elementarbeschwörung:** Meister der Beschwörung und Kontrolle von Elementaren.
+- **Diplomatie:** Geschickter Diplomat mit umfassender politischer Erfahrung, auch wenn er diese Fähigkeiten selten nutzt.
+- **Forschung:** Tiefes Wissen in arkanen Künsten und langjährige Erfahrung in wissenschaftlicher Forschung.
+
+### Ausrüstung
+Ingvor trägt meist prächtige Roben aus farbiger Seide und ist immer mit Pergament, Federkiel und Zauberbüchern ausgestattet. Sein Anwesen ist voller magischer Pflanzen und Gegenstände, die er für seine Forschungen und Beschwörungen nutzt.
+
+## Hintergrundgeschichte
+
+### Frühes Leben
+Ingvor wurde in einer gemischten Lateralen-Kleinstadt nahe der Resrubor-Akademie geboren. Er zeigte früh eine beeindruckende Begabung für Magie und besuchte die Akademie, wo seine beeindruckende magische Laufbahn begann. Seine Eltern lebten in der Nähe der Akademie, aber aufgrund des Internatscharakters sah er sie selten. In seiner Schulzeit hatte Ingvor nur wenige Freunde, da er sich vollends auf seine magischen Studien konzentrierte.
+
+### Wichtige Ereignisse
+- **Verlust der Eltern:** Gegen Ende seiner Ausbildung verstarben Ingvors Eltern bei einer Epidemie, was ihn dazu brachte, auch nach seinem Abschluss an der Resrubor-Akademie zu verbleiben.
+- **Lehrer und Forscher:** Ingvor wurde ein erfolgreicher Lehrer und Forscher an der Akademie, bekannt für seine Expertise in der Beschwörung von Elementaren.
+- **Rückzug an den See Kulios:** Nach einigen Jahren verließ Ingvor die Akademie, da ihm die Forschungspolitik zu träge war, und zog sich an den See Kulios zurück, wo er seine Forschungen privat fortführte.
+
+### Aktuelle Situation
+Ingvor lebt jetzt am See Kulios, wo er seine Forschungen zur Elementarbeschwörung weiterführt. Er ist wohlhabend und besitzt ein großes Anwesen voller magischer Pflanzen und Gegenstände. Trotz seiner Abgeschiedenheit bleibt er eine einflussreiche Figur in der magischen Gemeinschaft.
+
+## Beziehungen
+
+### Familie
+- **Eltern:** Verstarben bei einer Epidemie während Ingvors Ausbildung an der Resrubor-Akademie.
+
+### Freunde
+- **Ehemalige Schüler:** Viele seiner ehemaligen Schüler schätzen und respektieren ihn, auch wenn er keinen engen Kontakt zu ihnen pflegt.
+- **Kollegen:** Einige seiner früheren Kollegen an der Resrubor-Akademie, die seine Arbeit respektieren, auch wenn sie seine Entscheidung, die Akademie zu verlassen, nicht nachvollziehen konnten.
+
+### Feinde
+- **Bürgermeister Stavros:** Ein langjähriger Rivale und Feind, mit dem Ingvor häufig Streitigkeiten hat.
+
+### Romantische Beziehungen
+Ingvor hat derzeit keine romantischen Beziehungen, da er seine Energie und Zeit vollständig seinen Forschungen und seiner Magie widmet.
+
+## Zitate
+
+> "Fortschritt kommt nicht durch Stillstand, sondern durch das Streben nach Wissen."  
+> "Elementare sind die reinste Form der Magie. Ihre Kontrolle erfordert Stärke und Verständnis."  
+> "Die Wissenschaft der Magie ist ein unendliches Meer, und ich bin ein eifriger Schwimmer."
+
+## Trivia
+
+- Ingvor hat einmal einen Riesen-Wasserelementar im See Kulios beschworen, ein Ereignis, das noch immer in der Region diskutiert wird.
+- Sein Anwesen am See Kulios ist bekannt für die seltenen und exotischen magischen Pflanzen, die er dort kultiviert.
+- Ingvor ist ein begeisterter Sammler alter und seltener Zauberbücher, die seine Bibliothek füllen.
+
+## Anmerkungen
+
+Ingvor steht vor der Herausforderung, seine bahnbrechenden Forschungen fortzusetzen, ohne die Gefahren zu ignorieren, die mit der Beschwörung mächtiger Elementare verbunden sind. Seine Isolation hat ihn vielleicht sicherer gemacht, aber auch einsamer.

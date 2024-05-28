@@ -1,9 +1,13 @@
 
 
+import { error } from "@sveltejs/kit"
 import fs from "fs"
 import path from "path"
 
 export function getFilePathsInFolder(folderPath: string, fileTypes: string[] = [], maxDepth: number = -1) {
+    if(!fs.existsSync(folderPath)) {
+        throw error(404, `Folder ${folderPath} not found`)
+    }
     let folderStat = fs.lstatSync(folderPath)
     if (folderStat && folderStat.isDirectory()) {
         let aggregator: string[] = []
