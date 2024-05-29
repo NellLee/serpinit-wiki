@@ -6,10 +6,9 @@ TODO: Battlemaps, Runenstein
 
 # Meta / Kontext
 
-Die Spieler stehen vor dem [Sgrisignier-Portal](/content/Allgemein/Magie/Sgrisignier-Portale.md) und Kwint Gurdun hat gerade die Rune zur Stabilisierung an dem entsprechenden Stein angebracht. 
+Die Spieler stehen vor dem [Sgrisignier-Portal](/content/Allgemein/Magie/Sgrisignier-Portale.md) und Kwint Gurdun hat gerade die Rune zur Stabilisierung an dem entsprechenden Stein (6. von links) angebracht. 
 
-
-Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufgaben erledigen:
+Das genaue Vorgehen ist dann den Spielern überlassen. Kwint erinnert sie, dass sie folgende Aufgaben erledigen sollen:
 * Herausfinden ob die Welt hinter dem Portal (Über-)Leben zulässt
 * Hindurchschreiten, die direkte Umgebung sichern und direkt zurückkehren um Bericht zu erstatten.
 * Sollte die Umgebung als sicher eingestuft werden, so soll auch auf der anderen Seite schnellstmöglich ein Stützpunkt errichtet werden und die nähere Umgebung erkundet werden.
@@ -31,7 +30,8 @@ Das genaue Vorgehen ist dann den Spielern überlassen. Sie sollen folgende Aufga
 ## Aridess
 
 * Wenn die Spieler zuerst versuchen das Portal mit irgendetwas zu durchdringen, stoßen sie auf starken Wiederstand. Das Gegenstück auf Aridess ist von einer Seite bis zur Hälfte mit Sand zugeweht. Die Spieler müssen es weiter oben oder von der anderen Seite probieren.
-* Schreiten die Spieler dann durch das Portal, finden sie die endlosen Wüsten von Aridess. Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt als kurz nach ihrer Ankunft ein Augenschlag von Mavorak passiert, aber ihre Umgebung ist gänzlich anders. 
+* Außerdem stellt das Portal die typischen Herausforderungen der magischen Membran dar:
+* Schreiten die Spieler dann durch das Portal, finden sie die endlosen Wüsten von Aridess. Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt als kurz nach ihrer Ankunft ein Augenschlag von Mavorak passiert, aber der Augenschlag passt nicht zu ihrer Zeitrechnung und ihre Umgebung fühlt gänzlich anders an, unter anderem aufgrund der anderen Atmosphäre und Horizont-Krümmung. 
 * Um das Portal herum ist der Boden rot und trocken. Hin und wieder liegt ein Findling herum und es ist nur sehr spärliche Flora und Fauna vorhanden.
 * Auf der Seite des Portals die von Sand zugeweht wurde (Nord-Osten bis Nord-Westen) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sich die Dünen sogar wie Wellen zu bewegen.
     * Die segende Hitze der Wüste verursacht pro Runde einen Erschöpfungspunkt.
