@@ -1,9 +1,5 @@
 # 30.05.2024
 
-<span style="color: red;">
-TODO: Battlemaps, Runenstein
-</span>
-
 # Meta / Kontext
 
 Die Spieler sichern aktuell noch das Lager. Dafür müssen sie entscheiden wo die Zelte und Zäune aufgestellt werden.
@@ -28,10 +24,13 @@ Das genaue weitere Vorgehen ist dann den Spielern überlassen.
 
 # Unvorhergesehener Besuch
 
-Die Versammlung im Hauptzelt wird unterbrochen von der spontanen Berichterstattung Fezirs. Er teilt Eolyn mit, dass sich am Rande eine nahegelegenen Waldstückes 7 Sodili versammelt haben. Sie sind getarnt und haben offensichtlich die Intention das Lager anzugreifen.
-
-Kwint flucht und ärgert sich über die offensichtlich nicht eingehaltene Geheimhaltung.
-Alle machen sich zum Kampf bereit.
+* Die Versammlung im Hauptzelt wird unterbrochen von der spontanen Berichterstattung Fezirs.
+    * Er teilt Eolyn mit, dass sich am Rande eine nahegelegenen Waldstückes 7 Sodili versammelt haben. 
+    * Sie sind getarnt und haben offensichtlich die Intention das Lager anzugreifen. 
+    * Er hat sie an dem kreisenden Adler erkannt, bei dem es sich um einen Micu handelt.
+* Kwint flucht und ärgert sich lauthals über die offensichtlich nicht eingehaltene Geheimhaltung.
+* Alle machen sich zum Kampf bereit und noch währenddessen initiieren die Banditen einen Angriff.
+    * Die Banditen haben bemerkt, dass ihre Deckung aufgeflogen ist und wollen dem Lager nicht noch mehr Vorbereitungszeit geben.
 
 ## Die Sodili-Banditen
 
@@ -47,12 +46,14 @@ Alle machen sich zum Kampf bereit.
 
 # Hinter den Portalen
 
+* Nachdem die Gruppe den Angriff abgewehrt hat, kehren sie zu ihren eigentlichen Ziel zurück. 
+* Kwint erklärt Draven magische Einzelheiten während er die benötigte Rune am Portal anbringt
+
 ## Aridess
 
-* Wenn die Spieler zuerst versuchen das Portal mit irgendetwas zu durchdringen, stoßen sie auf die typischen Herausforderungen der magischen [Portalmembran](/content/Allgemein/Magie/Sgrisignier-Portale.md#portalmembran) dar:
-* Schreiten die Spieler dann durch das Portal, finden sie die endlosen Wüsten von Aridess. 
-    * Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt als kurz nach ihrer Ankunft ein Augenschlag von Mavorak passiert
-    * Mavoraks Blinzeln passt nicht zu ihrer Zeitrechnung 
+* Wenn die Spieler zuerst versuchen das Portal mit irgendetwas zu durchdringen, stoßen sie auf die typischen Herausforderungen der magischen [Portalmembran](/content/Allgemein/Magie/Sgrisignier-Portale.md#portalmembran).
+* Schreiten die Spieler dann durch das Portal, finden sie die endlosen Wüsten von Aridess. Kurz nach ihrer Ankunft passiert ein Augenschlag von Mavorak.
+    * Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt, aber Mavoraks Blinzeln passt nicht zu ihrer Zeitrechnung 
     * Ihre Umgebung fühlt sich gänzlich anders an, unter anderem aufgrund der anderen Atmosphäre und Horizont-Krümmung. 
 * Um das Portal herum ist der Boden rot und trocken. Hin und wieder liegt ein Findling herum und es ist nur sehr spärliche Flora und Fauna vorhanden.
 * Auf einer Seite des Portals (Nord-Osten bis Süd-Westen) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sich die Dünen sogar wie Wellen zu bewegen.
@@ -68,7 +69,7 @@ Alle machen sich zum Kampf bereit.
 * Im Süden bis in den Osten sind ein raue orangene Felsen zu sehen, geschätzt 20 Minuten (Wisdom DC 15 / Nach 20 Minuten herausfinden: tatsächlich sind es eher 45 Minuten)
     * In den roten Felsen tummeln sich Sukkulenten.
     * Zwischen den Felsen ist der Eingang zu einer verlassenen Mine zu finden.
-        * Die Mine ist infiziert mit [Shwin-Kakteen](/content/DnD/Gegner/Shwin-Kaktus.md). Sie besiedeln den vorderen Höhleneingang, wo sie noch genug Licht abbekommen. Sollte man ihre Fäden im Zweilicht nicht erkennen (Perception DC 15) und die Mine unachtsam betreten, beschießen sie einen mit ihren Stacheln, welche 1d4 Schaden machen und eine Vergiftung hervorrufen.
+        * Die Mine ist infiziert mit [Shwin-Kakteen](/content/DnD/Gegner/Shwin-Kaktus.md). Sie besiedeln den vorderen Höhleneingang, wo sie noch genug Licht abbekommen. Sollte man ihre Fäden im Zweilicht nicht erkennen (Perception DC 15) und die Mine unachtsam betreten, beschießen sie einen mit ihren Stacheln, welche 1d4+2 Schaden machen und eine Vergiftung hervorrufen.
         * Ca. 50 Meter hinter dem Eingang ist ein Raum in den Stein geschlagen. 
         * Hier finden sich Werkzeuge wie Spitzhacken und Schaufeln sowie der Beginn von Schienen auf denen eine verrosteter alte Metall-Lore steht. Die Schienen führen abwärts in die Dunkelheit. Die Lore und die Schienen sind so verzogen, dass sie sich kaum bewegen lässt und der Mechanismus um die Loren nach oben zu ziehen ist schon lange verrottet. Der Gang in die Tiefe ist ab einem Punkt außerdem auch noch eingestürzt.
         * In dem Raum sind 3 kleine Leichen, welche dem Gift der Kakteen erlegen sind. Die Körper liegen schon mehrere Monate dort.
