@@ -104,6 +104,7 @@ export class MarkdownPage {
 
         // Generate related content
         const related: FileLink[] = []
+        const siblings: FileLink[] = []
         let parentFolder = filePath.substring(0, filePath.lastIndexOf(path.sep))
         const files: string[] = []
         files.push(... getFilePathsInFolder(parentFolder, [".md"], 0))
@@ -112,6 +113,8 @@ export class MarkdownPage {
             let fileLink = new FileLink(parentFolder + file)
             if (fileLink.path != folderPath) {
                 related.push(fileLink)
+            } else if (!(fileLink.path == this.#fileLink.path && fileLink.fileName == this.#fileLink.fileName)) {
+                siblings.push(fileLink)
             }
         }
 
@@ -131,6 +134,7 @@ export class MarkdownPage {
         this.toc = linkTreeToList(tocTree, "Inhalt") // FIXME: Not indented
 
         this.references = [
+            { name: "Nebenliegende Artikel", linkList: siblings },
             { name: "Verwandte Artikel", linkList: related },
             { name: "Hier erwähnt", linkList: referred },
         ]

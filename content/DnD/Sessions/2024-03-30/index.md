@@ -6,34 +6,56 @@ TODO: Battlemaps, Runenstein
 
 # Meta / Kontext
 
-Die Spieler stehen vor dem [Sgrisignier-Portal](/content/Allgemein/Magie/Sgrisignier-Portale.md) und Kwint Gurdun hat gerade die Rune zur Stabilisierung an dem entsprechenden Stein (6. von links) angebracht. 
-
-Das genaue Vorgehen ist dann den Spielern überlassen. Kwint erinnert sie, dass sie folgende Aufgaben erledigen sollen:
+Die Spieler sichern aktuell noch das Lager. Dafür müssen sie entscheiden wo die Zelte und Zäune aufgestellt werden.
+Nach dem Aufbau ruft Kwint Gurdun sie in das Hauptzelt, erklärt die nächsten Schritte und erinnert die Spieler, dass sie folgende Aufgaben erledigen sollen:
 * Herausfinden ob die Welt hinter dem Portal (Über-)Leben zulässt
 * Hindurchschreiten, die direkte Umgebung sichern und direkt zurückkehren um Bericht zu erstatten.
 * Sollte die Umgebung als sicher eingestuft werden, so soll auch auf der anderen Seite schnellstmöglich ein Stützpunkt errichtet werden und die nähere Umgebung erkundet werden.
 
+Das genaue weitere Vorgehen ist dann den Spielern überlassen.
+
 ## Charaktere
 
 ### Sodili
-* [Eolyn Sera (Waldläufer) & Fezir (Zwergadler)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/index.md)
-* [Caelum Storringer (Paladin) & Tempest (Krokodil)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/index.md)
+* [Eolyn Sera (Waldläufer)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/sheet.md) & [Fezir (Zwergadler)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/sheet_micu.md)
+* [Caelum Storringer (Paladin)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/sheet.md) & [Tempest (Krokodil)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/sheet_micu.md)
 
 ### Conius
-* [Draven Norint (Alchemist)](/content/Voelker/Lateralen/Conius/Charaktere/Draven-Norrint/index.md)
-* [Lysandra Swirm (Druide)](/content/Voelker/Lateralen/Conius/Charaktere/Lysandra-Swirm/index.md)
-* [Ingvor Mandijit](/content/Voelker/Lateralen/Conius/Charaktere/Ingvor-Nemet-Mandijit/index.md)
-* [Kwint Gurdun](/content/Voelker/Lateralen/Conius/Charaktere/Kwint-Gurdun/index.md)
+* [Draven Norint (Alchemist)](/content/Voelker/Lateralen/Conius/Charaktere/Draven-Norrint/sheet.md)
+* [Lysandra Swirm (Wasser-Magierin)](/content/Voelker/Lateralen/Conius/Charaktere/Lysandra-Swirm/sheet.md)
+* [Ingvor Mandijit (Elementar-Beschwörer)](/content/Voelker/Lateralen/Conius/Charaktere/Ingvor-Nemet-Mandijit/sheet.md)
+* [Kwint Gurdun (Professor)](/content/Voelker/Lateralen/Conius/Charaktere/Kwint-Gurdun/sheet.md)
+
+# Unvorhergesehener Besuch
+
+Die Versammlung im Hauptzelt wird unterbrochen von der spontanen Berichterstattung Fezirs. Er teilt Eolyn mit, dass sich am Rande eine nahegelegenen Waldstückes 7 Sodili versammelt haben. Sie sind getarnt und haben offensichtlich die Intention das Lager anzugreifen.
+
+Kwint flucht und ärgert sich über die offensichtlich nicht eingehaltene Geheimhaltung.
+Alle machen sich zum Kampf bereit.
+
+## Die Sodili-Banditen
+
+* [Bandit 1: Wolf-Hybrid](./Gegner/Bandit-1_Sodili-Wolf-Hybrid.md)
+* [Bandit 2: Bär-Hybrid](./Gegner/Bandit-2_Sodili-Baer-Hybrid.md)
+* [Bandit 3: Adler-Hybrid](./Gegner/Bandit-3_Sodili-Adler-Hybrid.md)
+* [Bandit 4: Schlange-Hybrid](./Gegner/Bandit-4_Sodili-Schlange-Hybrid.md)
+* [Bandit 5: Katze-Hybrid](./Gegner/Bandit-5_Sodili-Katze-Hybrid.md)
+* [Bandit 6: Echse-Hybrid](./Gegner/Bandit-6_Sodili-Echse-Hybrid.md)
+* [Bandit 7: Fledermaus-Hybrid](./Gegner/Bandit-7_Sodili-Fledermaus-Hybrid.md)
+* [Bandit 8: Eber-Hybrid](./Gegner/Bandit-8_Sodili-Eber-Hybrid.md)
+* [Bandit 9: Fuchs-Hybrid](./Gegner/Bandit-9_Sodili-Fuchs-Hybrid.md)
 
 # Hinter den Portalen
 
 ## Aridess
 
-* Wenn die Spieler zuerst versuchen das Portal mit irgendetwas zu durchdringen, stoßen sie auf starken Wiederstand. Das Gegenstück auf Aridess ist von einer Seite bis zur Hälfte mit Sand zugeweht. Die Spieler müssen es weiter oben oder von der anderen Seite probieren.
-* Außerdem stellt das Portal die typischen Herausforderungen der magischen [Portalmembran](/content/Allgemein/Magie/Sgrisignier-Portale.md#portalmembran) dar:
-* Schreiten die Spieler dann durch das Portal, finden sie die endlosen Wüsten von Aridess. Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt als kurz nach ihrer Ankunft ein Augenschlag von Mavorak passiert, aber der Augenschlag passt nicht zu ihrer Zeitrechnung und ihre Umgebung fühlt gänzlich anders an, unter anderem aufgrund der anderen Atmosphäre und Horizont-Krümmung. 
+* Wenn die Spieler zuerst versuchen das Portal mit irgendetwas zu durchdringen, stoßen sie auf die typischen Herausforderungen der magischen [Portalmembran](/content/Allgemein/Magie/Sgrisignier-Portale.md#portalmembran) dar:
+* Schreiten die Spieler dann durch das Portal, finden sie die endlosen Wüsten von Aridess. 
+    * Sie können erkennen, dass es sich um die gleiche Sonne am Himmel handelt als kurz nach ihrer Ankunft ein Augenschlag von Mavorak passiert
+    * Mavoraks Blinzeln passt nicht zu ihrer Zeitrechnung 
+    * Ihre Umgebung fühlt sich gänzlich anders an, unter anderem aufgrund der anderen Atmosphäre und Horizont-Krümmung. 
 * Um das Portal herum ist der Boden rot und trocken. Hin und wieder liegt ein Findling herum und es ist nur sehr spärliche Flora und Fauna vorhanden.
-* Auf der Seite des Portals die von Sand zugeweht wurde (Nord-Osten bis Nord-Westen) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sich die Dünen sogar wie Wellen zu bewegen.
+* Auf einer Seite des Portals (Nord-Osten bis Süd-Westen) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sich die Dünen sogar wie Wellen zu bewegen.
     * Die segende Hitze der Wüste verursacht pro Runde einen Erschöpfungspunkt.
     * Am Horizont im Nord-Osten sind komplexe Steinstrukturen zu sehen. Es handelt sich um eine "Fata Morgana" der Zwergenstadt Obskuli, welche die flachen Sandsteingebäude spiegelt und verzerrt und sie auf die Distanz wie ein unmögliches Gebilde aussehen lässt.
     * Sollten sich die Spieler in die offene Wüste begeben werden sie schnell mindestens einer [Saolom](/content/DnD/Gegner/Saolom.md) begegnen.

@@ -1,10 +1,9 @@
-# Lysandra Swirm (Druide)
+# Lysandra Swirm (Wasser-Magierin)
 
-<span style="color: red;">TODO: Bild</span>
-![Bild des Charakters](Link-zum-Bild)
+![Lysandra Swirm](./images/Conius-Lateral_Lysandra-Swirm.png)
 
 **Name:** Lysandra Swirm  
-**Titel/Klasse:** Druide  
+**Titel/Klasse:** Wasser-Magierin  
 **Alter:** Junge Erwachsene  
 **Geschlecht:** Weiblich  
 **Spezies/Rasse:** [Conius-Laterale](/content/Voelker/Lateralen/index.md)  

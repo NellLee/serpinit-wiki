@@ -89,9 +89,9 @@ Keine bekannten romantischen Beziehungen.
 
 ## Zitate
   
-> "Alchemie ist Kunst."
+> "Alchemie ist Kunst."  
 
-> "Die Magie geht weit über die Runen hinaus. Ich wünschte Vater und Professor Sierfehl würden das endlich einsehen..."
+> "Die Magie geht weit über die Runen hinaus. Ich wünschte Vater und Professor Sierfehl würden das endlich einsehen..."  
 
 ## Trivia
 

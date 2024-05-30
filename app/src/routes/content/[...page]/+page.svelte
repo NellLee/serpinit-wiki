@@ -6,6 +6,11 @@
 	export let data;
 </script>
 
+<svelte:head>
+    <title>{data.title}</title> 
+</svelte:head>
+
+
 <aside id="table-of-content" class="sidebar">
 	{#if data.page.toc.linkList.length > 0}
 		<h3>{data.page.toc.name}</h3>

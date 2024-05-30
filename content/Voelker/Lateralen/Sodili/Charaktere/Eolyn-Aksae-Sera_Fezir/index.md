@@ -97,8 +97,9 @@ Keine bekannten romantischen Beziehungen.
 
 ## Zitate
 
-> "Die Welt ist voller Wunder, die nur darauf warten, entdeckt zu werden."
-> "Jeder lässt mit sich verhandeln. Fraglich ist nur die Höhe des Preises."
+> "Die Welt ist voller Wunder, die nur darauf warten, entdeckt zu werden."  
+
+> "Jeder lässt mit sich verhandeln. Fraglich ist nur die Höhe des Preises."  
 
 ## Trivia
 
