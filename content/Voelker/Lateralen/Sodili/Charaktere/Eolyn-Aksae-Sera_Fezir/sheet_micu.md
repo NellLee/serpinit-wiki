@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Fezir (Micu)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Fezir
 - **Class OR Type:** Beast

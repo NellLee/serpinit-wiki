@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 1 (Wolf-Hybrid)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Bandit 1
 - **Type:** Sodili-Wolf-Hybrid

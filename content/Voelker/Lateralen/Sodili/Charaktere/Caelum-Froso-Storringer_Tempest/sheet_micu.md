@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Tempest (Beast)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Tempest
 - **Type:** Beast

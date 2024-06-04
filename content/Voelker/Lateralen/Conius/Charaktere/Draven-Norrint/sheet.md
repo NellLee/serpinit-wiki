@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Draven Norint (Alchemist)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Draven Norint
 - **Class:** Alchemist

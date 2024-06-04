@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 6 (Echse-Hybrid)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Bandit 6
 - **Type:** Sodili-Lizard-Hybrid

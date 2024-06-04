@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 9 (Fuchs-Hybrid)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Bandit 9
 - **Type:** Sodili-Fox-Hybrid

@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 7 (Fledermaus-Hybrid)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Bandit 7
 - **Type:** Sodili-Bat-Hybrid

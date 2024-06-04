@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Lysandra Swirm (Water Mage)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Lysandra Swirm
 - **Class:** Water Mage

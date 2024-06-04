@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Kwint Gurdun (Professor)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Kwint Gurdun
 - **Class:** Professor

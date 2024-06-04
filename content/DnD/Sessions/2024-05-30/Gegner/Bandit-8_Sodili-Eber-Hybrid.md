@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 8 (Eber-Hybrid)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Bandit 8
 - **Type:** Sodili-Boar-Hybrid

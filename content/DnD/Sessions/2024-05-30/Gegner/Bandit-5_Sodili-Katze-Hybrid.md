@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 5 (Katze-Hybrid)
-## Basic Information
+# D&D 5e Sheet## Basic Information
 - **Name:** Bandit 5
 - **Type:** Sodili-Cat-Hybrid
 - **Alignment:** Neutral Evil

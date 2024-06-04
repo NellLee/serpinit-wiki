@@ -15,5 +15,5 @@ type LinkTree = {
 type LinkNode = {
     link: LinkObject,
     children: LinkNode[],
-    parent: LinkNode | NamedLinkTree
+    parent: LinkNode | LinkTree
 }

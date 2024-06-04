@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Ingvor-Nemet Mandijit (Elemental-Summoner)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Ingvor-Nemet Mandijit
 - **Class:** Elemental-Summoner

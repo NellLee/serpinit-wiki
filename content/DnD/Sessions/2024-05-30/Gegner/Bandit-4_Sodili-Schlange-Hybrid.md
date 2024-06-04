@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 4 (Schlange-Hybrid)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Bandit 4
 - **Type:** Sodili-Snake-Hybrid

@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 2 (Bär-Hybrid)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Bandit 2
 - **Type:** Sodili-Bear-Hybrid

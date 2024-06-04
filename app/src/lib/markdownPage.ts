@@ -20,8 +20,9 @@ export class MarkdownPage {
     markdown: string
     title: string
     tags: LinkObject[]
+    tabs: LinkObject[]
     breadcrumbs: LinkObject[]
-    toc: NamedLinkList
+    toc: LinkTree
     references: NamedLinkList[]
     href: string
 
@@ -76,35 +77,44 @@ export class MarkdownPage {
         const tocTree: LinkTree = {
             children: []
         }
-        let prevNode: LinkNode = (tocTree as unknown as LinkNode) // trust me bro
-        let prevLevel = 0
+        const stack: (LinkNode | LinkTree)[] = [tocTree];
         $('h1, h2, h3, h4, h5, h6').each(function(_, element) {
             const header = $(element)
             const headerLevel = parseInt(element.tagName.slice(1))
             const headerId = generateHeaderId(header.text())
             header.attr('id', headerId)
-            let parent
-            if(headerLevel > prevLevel) {
-                parent = prevNode
-            } else {
-                parent = prevNode.parent
-            }
-            let child: LinkNode = {
+
+            let node: LinkNode = {
                 link: {
                     href: `#${headerId}`,
                     text: header.text()
                 },
                 children: [],
-                parent: parent
+                parent: null as any, // Will be set correctly later
             }
-            parent.children.push(child)
-            prevLevel = headerLevel
-            prevNode = child
+
+
+            // Find the correct parent for this node
+            while (stack.length > headerLevel) {
+                stack.pop();
+            }
+            const parent = stack[stack.length - 1];
+            node.parent = parent;
+            parent.children.push(node);
+            stack.push(node);
         })
+        const removeParentReferences = (node: LinkNode | LinkTree) => {
+            node.children.forEach(child => {
+                delete child.parent;
+                removeParentReferences(child);
+            });
+        }
+        removeParentReferences(tocTree)
+        this.toc = tocTree
 
         // Generate related content
         const related: FileLink[] = []
-        const siblings: FileLink[] = []
+        const tabs: FileLink[] = []
         let parentFolder = filePath.substring(0, filePath.lastIndexOf(path.sep))
         const files: string[] = []
         files.push(... getFilePathsInFolder(parentFolder, [".md"], 0))
@@ -114,9 +124,28 @@ export class MarkdownPage {
             if (fileLink.path != folderPath) {
                 related.push(fileLink)
             } else if (!(fileLink.path == this.#fileLink.path && fileLink.fileName == this.#fileLink.fileName)) {
-                siblings.push(fileLink)
+                tabs.push(fileLink)
             }
         }
+        tabs.push(this.#fileLink)
+        // tabs.forEach(link => {
+        //     link.text = link.fileName
+        //     // if (link.fileName == "index") {
+        //     //     link.text = "Index"
+        //     // }
+        // })
+        tabs.sort((a, b) => {
+            if (a.fileName == "index") {
+                return -1
+            }
+            return a.fileName.localeCompare(b.fileName)
+        })
+        tabs.forEach(link => {
+            if (link.fileName == "index") {
+                link.text = "Index"  
+            }
+        })
+        this.tabs = tabs
 
         // Generate references
         const referred: LinkObject[] = []
@@ -131,10 +160,8 @@ export class MarkdownPage {
             referred.push(link)
         })
 
-        this.toc = linkTreeToList(tocTree, "Inhalt") // FIXME: Not indented
-
         this.references = [
-            { name: "Nebenliegende Artikel", linkList: siblings },
+            // { name: "Nebenliegende Artikel", linkList: siblings },
             { name: "Verwandte Artikel", linkList: related },
             { name: "Hier erwähnt", linkList: referred },
         ]
@@ -167,6 +194,7 @@ export class MarkdownPage {
             markdown: this.markdown,
             title: this.title,
             tags: this.tags,
+            tabs: this.tabs,
             breadcrumbs: this.breadcrumbs,
             toc: this.toc,
             references: this.references,

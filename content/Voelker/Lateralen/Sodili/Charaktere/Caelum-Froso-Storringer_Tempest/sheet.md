@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Caelum Froso Storringer (Paladin)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Caelum Froso Storringer
 - **Class:** Paladin

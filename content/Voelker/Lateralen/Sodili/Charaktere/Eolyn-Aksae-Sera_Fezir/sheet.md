@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Eolyn Sera (Ranger)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Eolyn Aksae Sera
 - **Class:** Ranger

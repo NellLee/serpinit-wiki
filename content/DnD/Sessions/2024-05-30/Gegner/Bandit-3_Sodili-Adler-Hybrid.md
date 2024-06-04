@@ -1,5 +1,4 @@
-# D&D 5e Sheet: Bandit 3 (Adler-Hybrid)
-
+# D&D 5e Sheet
 ## Basic Information
 - **Name:** Bandit 3
 - **Type:** Sodili-Eagle-Hybrid
