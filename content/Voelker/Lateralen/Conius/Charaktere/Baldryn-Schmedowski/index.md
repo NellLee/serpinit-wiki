@@ -1,5 +1,16 @@
 # Baldryn Schmedowski
 
+![Bild des Charakters](Link-zum-Bild)
+
+**Name:** Baldryn Schmedowski  
+**Titel/Klasse:** Meister der Artefakte
+**Alter:** Alter des Charakters  
+**Geschlecht:** Geschlecht des Charakters  
+**Spezies/Rasse:** Spezies oder Rasse des Charakters  
+**Heimat:** Geburtsort oder aktueller Wohnort  
+**Beruf:** Beruf oder Rolle in der Welt
+
+
 Baldryn Schmedowski war ein herausragender Conius-Lateraler, der für seine einzigartigen Beiträge zur Magie und die Entwicklung faszinierender Artefakte bekannt war. Sein Leben war geprägt von Entdeckungen, Herausforderungen und einem Erbe, das bis heute Rätsel aufgibt.
 
 ## Frühes Leben und Ausbildung

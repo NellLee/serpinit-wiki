@@ -42,21 +42,6 @@ vorerst nur Stützpunkte.
 Schließlich formulierten die Sylvanars einen der größten Naturzauber in der Geschichte, womit sie die angreifenden
 Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magie gegen ALLE Drachenkinder?]
 
-- ### Zeit-Messung
-
-Die kleinste messbare und konstante Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura. Dieser wird
-Pulsene genannt und dauert exakt 1,8675 Erd-Sekunden. Die Pulsene konnte jedoch erst nach der Ikusation durchgesetzt
-werden.
-
-Die Zeiteinheit die initial auf fast jedem Planeten genutzt wurde basiert auf einer Umdrehung des schwarzen Loches
-Mavorak. Ein Mavorak-Zyklus entspricht in etwa 52,5 Tagen der Erde. Des Weiteren wurden 1024 Zyklen zu einer Serpe
-zusammengefasst (~15 Jahre).
-
-Diese Art der modernen Zeitaufzeichnung wird seither weitergeführt.
-Je nach Zahlenbasis und Rechnungsart der Völker wurden verschiedene Varianten des Mavorak Zyklus genutzt, wie z.B. Die
-Duzete der Sylvanars (12 Zyklen = ca. 1,7 Jahre) oder die Fossura der Dampfzwerge (103 Zyklen = ca. 14,8 Jahre).
-Der Mavorak-Zyklus wurde ursprünglich von Conius-Lateralen auf 8 471 000 Pulsenen geschätzt, diese Angabe wurde in der
-Resrubor Akademie jedoch später auf 8 470 984,295581 korrigiert.
 
 - ### 2D Runen?
 
