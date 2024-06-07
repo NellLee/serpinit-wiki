@@ -13,14 +13,14 @@ Das genaue weitere Vorgehen ist dann den Spielern überlassen.
 ## Charaktere
 
 ### Sodili
-* [Eolyn Sera (Waldläufer)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/sheet.md) & [Fezir (Zwergadler)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/sheet_micu.md)
-* [Caelum Storringer (Paladin)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/sheet.md) & [Tempest (Krokodil)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/sheet_micu.md)
+* [Eolyn Sera (Waldläufer)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/DnD-5e_Character-Blatt.md) & [Fezir (Zwergadler)](/content/Voelker/Lateralen/Sodili/Charaktere/Eolyn-Aksae-Sera_Fezir/DnD-5e-Micu-Sheet)
+* [Caelum Storringer (Paladin)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/DnD-5e_Character-Blatt.md) & [Tempest (Krokodil)](/content/Voelker/Lateralen/Sodili/Charaktere/Caelum-Froso-Storringer_Tempest/DnD-5e-Micu-Sheet)
 
 ### Conius
-* [Draven Norint (Alchemist)](/content/Voelker/Lateralen/Conius/Charaktere/Draven-Norrint/sheet.md)
-* [Lysandra Swirm (Wasser-Magierin)](/content/Voelker/Lateralen/Conius/Charaktere/Lysandra-Swirm/sheet.md)
-* [Ingvor Mandijit (Elementar-Beschwörer)](/content/Voelker/Lateralen/Conius/Charaktere/Ingvor-Nemet-Mandijit/sheet.md)
-* [Kwint Gurdun (Professor)](/content/Voelker/Lateralen/Conius/Charaktere/Kwint-Gurdun/sheet.md)
+* [Draven Norint (Alchemist)](/content/Voelker/Lateralen/Conius/Charaktere/Draven-Norrint/DnD-5e_Character-Blatt.md)
+* [Lysandra Swirm (Wasser-Magierin)](/content/Voelker/Lateralen/Conius/Charaktere/Lysandra-Swirm/DnD-5e_Character-Blatt.md)
+* [Ingvor Mandijit (Elementar-Beschwörer)](/content/Voelker/Lateralen/Conius/Charaktere/Ingvor-Nemet-Mandijit/DnD-5e_Character-Blatt.md)
+* [Kwint Gurdun (Professor)](/content/Voelker/Lateralen/Conius/Charaktere/Kwint-Gurdun/DnD-5e_Character-Blatt.md)
 
 # Unvorhergesehener Besuch
 

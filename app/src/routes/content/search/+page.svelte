@@ -1,6 +1,4 @@
 <script lang="ts">
-	import '$lib/styles.css';
-	import { Icon, Home } from 'svelte-hero-icons';
 
 	import * as cheerio from 'cheerio';
 	import type { MarkdownPage } from '$lib/markdownPage';

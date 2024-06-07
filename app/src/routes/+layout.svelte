@@ -1,22 +1,56 @@
-
 <script lang="ts">
-	import '$lib/styles.css';
+	import Navbar from '$lib/components/Navbar.svelte';
 </script>
+
 <main>
-	<nav id="nav-bar">
-		<ul>
-			<li>
-				<a href="/content">Wiki</a>
-			</li>
-			<li>
-				<a href="/gallery">Gallerie</a>
-			</li>
-		</ul>
-	</nav>
+	<Navbar
+		items={[
+			{
+				href: '/content',
+				text: 'Wiki'
+			},
+			{
+				href: '/gallery',
+				text: 'Gallerie'
+			}
+		]}
+	/>
 
 	<body>
-		<div id="main-body">
-            <slot/>
-        </div>
-    </body>
+		<slot />
+	</body>
 </main>
+
+<style global lang="scss">
+	:root {
+		--primary-color: #000000;
+		--secondary-color: #065d26;
+		--primary-background-color: #fff;
+		--secondary-background-color: #eaeaea;
+		--tertiary-background-color: #d2d2d2;
+		--quaternary-background-color: #d2d2d2;
+	}
+	:global(*) {
+		box-sizing: border-box;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	body {
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		line-height: 1.428571429;
+		color: var(--primary-color);
+		background-color: var(--primary-background-color);
+		margin: 0;
+
+		max-width: 100vw;
+		min-height: fit-content;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+</style>
