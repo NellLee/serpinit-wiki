@@ -5,8 +5,8 @@
 
 <div id="table-of-content">
 	{#if linkTree.children.length > 0}
-		<h2>Inhalt</h2>
 		<nav>
+			<h2>Inhalt</h2>
 			<ul>
 				{#each linkTree.children as child}
 					<li>

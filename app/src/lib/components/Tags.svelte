@@ -1,18 +1,21 @@
 <script lang="ts">
+	import SmallNamedCard from './SmallNamedCard.svelte';
+
 	export let tags: LinkObject[];
 </script>
 
 {#if tags.length > 0}
-	<div class="tags">
-		<nav>
-			<h2>Tags</h2>
-			<ul>
-				{#each tags as link}
-					<li><a href={link.href}>{link.text}</a></li>
-				{/each}
-			</ul>
-		</nav>
-	</div>
+	<nav>
+		<div class="tags">
+			<SmallNamedCard name="Tags">
+				<ul>
+					{#each tags as link}
+						<li><a href={link.href}>{link.text}</a></li>
+					{/each}
+				</ul>
+			</SmallNamedCard>
+		</div>
+	</nav>
 {/if}
 
 <style lang="scss">

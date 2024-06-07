@@ -1,3 +1,4 @@
+
 <aside>
 	<slot />
 </aside>
@@ -13,31 +14,26 @@
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: flex-start;
-		align-items: flex-start;
+		align-items: center;
 		text-overflow: ellipsis;
 
-		:global(nav) {
+
+		:global(ul) {
 			width: 100%;
 			max-width: 100%;
+			list-style-type: none;
+			padding: 2px 0;
+			margin: 0;
+			height: auto;
+		}
 
-			:global(ul) {
-				width: 100%;
-				max-width: 100%;
-				list-style-type: none;
-				padding: 2px 0;
-				margin: 0;
-				height: auto;
-			}
-
-			:global(li) {
-				width: 100%;
-				max-width: 100%;
-				padding-top: 12px;
-				display: block;
-				overflow: hidden;
-				text-overflow: ellipsis;
-				white-space: nowrap;
-			}
+		:global(li) {
+			width: 100%;
+			max-width: 100%;
+			display: block;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
 		}
 	}
 </style>
