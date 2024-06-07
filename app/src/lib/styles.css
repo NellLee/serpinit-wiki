@@ -94,6 +94,7 @@ body {
 
 #parsed-markdown {
     width: 80%;
+    max-width: 80%;
     min-height: 70vh;
     text-align: justify;
 }
