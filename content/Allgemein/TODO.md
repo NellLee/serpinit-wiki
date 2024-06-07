@@ -1,9 +1,8 @@
+# TODO
 
+Folgende Themen/Ideen/Anregungen müssen sortiert werden:
 
-
-
-
-Test für Ikusation:
+## Test für Ikusation:
 
 - Kerze hineinhalten und Auswirkungen auf Flamme beobachten
 - Pendel hineinschwingen und Gravitation einschätzen
@@ -43,13 +42,11 @@ Schließlich formulierten die Sylvanars einen der größten Naturzauber in der G
 Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magie gegen ALLE Drachenkinder?]
 
 
-- ### 2D Runen?
+## 2D Runen?
 
+## Funktionsweise moderne Magie Pre-Conius
 
-- ### Funktionsweise moderne Magie Pre-Conius
-
-
-- ### Mögliche Zukunft
+## Mögliche Zukunft
 
 Die Zwerge entwickeln nach der Ikusation mithilfe der Kenntnis über die Sgrisignier-Runen ausgefeilte magische
 Technologien. Sie "überholen" die anderen Völker in ihrer Macht, als sie es schaffen Tjosand aus Agranums Kern zu
@@ -61,15 +58,15 @@ Hybride (vgl. Liger, Maultier, etc.).
 
 # Story-Ideen:
 
-- ### Sgrisignier der sich zur Insel gemacht hat. (vgl. Vaiana)
+## Sgrisignier der sich zur Insel gemacht hat. (vgl. Vaiana)
 
-- ### Sylvanar macht sich zum Artefakt
+## Sylvanar macht sich zum Artefakt
 
 Latericas - eine geheime "Insel" von Navura, wo ein Sylvanar mit Runen auf Lebewesen experimentiert. Er wurde verbannt, da er
 seinen Stamm hereingelegt hat, um sich selbst in ein Artefakt zu verwandeln. Daher sieht er aus wie Groot. Im umliegenden
 Gebiet leben teilweise von ihm erschaffene Monster, die er als harmlos ansieht (Hagrid style).
 
-- ### Ikusations <-> Navura Plot
+## Ikusations <-> Navura Plot
 
 Auserwählte Drachen Sodili, mit Hybridform die einem Drachenkind gleicht. Sie legt den Krieg zwischen den Drachenkindern
 und den anderen Völkern bei, indem sie neue Königin der Drachenkinder wird.
@@ -80,21 +77,13 @@ und rauben so allen angreifenden Drachenkindern ihre Magie.
 
 # Andere Ideen
 
-### Artefakte:
+## Artefakte:
 
 - Lumpenkugel mit Kohlekern (Rune auf Kohlekern: brennt, wenn an der Luft, explodiert bei Aufprall)
 - Handschuh dessen Stoff bei hautkontakt stahlhart wird. (inlets sorgen dafür, dass die Hand selbst nicht zur Härtung
   führt)
 
-### Flora:
+## Flora:
 
 - Gras-Äquivalent
 - Gewebepflanze (Pflaster das schnell verwächst)
-
- 
-
- 
-
- 
-
- 

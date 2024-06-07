@@ -84,27 +84,27 @@ export class MarkdownPage {
             const headerId = generateHeaderId(header.text())
             header.attr('id', headerId)
 
+            // Find the correct parent for this node
+            while (stack.length > headerLevel) {
+                stack.pop();
+            }
+            const parent = stack[stack.length - 1];
+
             let node: LinkNode = {
                 link: {
                     href: `#${headerId}`,
                     text: header.text()
                 },
                 children: [],
-                parent: null as any, // Will be set correctly later
+                parent: parent
             }
 
 
-            // Find the correct parent for this node
-            while (stack.length > headerLevel) {
-                stack.pop();
-            }
-            const parent = stack[stack.length - 1];
-            node.parent = parent;
             parent.children.push(node);
             stack.push(node);
         })
-        const removeParentReferences = (node: LinkNode | LinkTree) => {
-            node.children.forEach(child => {
+        const removeParentReferences = (node: Partial<LinkNode>) => {
+            node.children!.forEach((child: Partial<LinkNode>) => {
                 delete child.parent;
                 removeParentReferences(child);
             });
@@ -116,24 +116,14 @@ export class MarkdownPage {
         const related: FileLink[] = []
         const tabs: FileLink[] = []
         let parentFolder = filePath.substring(0, filePath.lastIndexOf(path.sep))
-        const files: string[] = []
-        files.push(... getFilePathsInFolder(parentFolder, [".md"], 0))
-        files.push(... getFolderPathsInFolder(parentFolder, 0).map(folder => folder+path.sep+"index.md"))
-        for (let file of files) {
-            let fileLink = new FileLink(parentFolder + file)
-            if (fileLink.path != folderPath) {
-                related.push(fileLink)
-            } else if (!(fileLink.path == this.#fileLink.path && fileLink.fileName == this.#fileLink.fileName)) {
-                tabs.push(fileLink)
-            }
+        for (let sibling of getFilePathsInFolder(parentFolder, [".md"], 0)) {
+            let fileLink = new FileLink(parentFolder + sibling)
+            tabs.push(fileLink)
         }
-        tabs.push(this.#fileLink)
-        // tabs.forEach(link => {
-        //     link.text = link.fileName
-        //     // if (link.fileName == "index") {
-        //     //     link.text = "Index"
-        //     // }
-        // })
+        for (let relative of getFolderPathsInFolder(parentFolder, 0).map(folder => folder+path.sep+"index.md")) {
+            let fileLink = new FileLink(parentFolder + relative)
+            related.push(fileLink)
+        }
         tabs.sort((a, b) => {
             if (a.fileName == "index") {
                 return -1
