@@ -2,14 +2,17 @@
 	import EllipsisText from '$lib/components/EllipsisText.svelte';
 	import LinkTree from '$lib/components/LinkTree.svelte';
 	import '$lib/styles.css';
-	import { linkTreeToList } from '$lib/utilities/links.js';
 	import { Icon, Home } from 'svelte-hero-icons';
+	import { page } from '$app/stores';
 
 	export let data;
+	
+
+	$: currentPath = $page.url.pathname;
 </script>
 
 <svelte:head>
-	<title>{data.title}</title>
+	<title>{data.page.title}</title>
 </svelte:head>
 
 <aside id="table-of-content" class="sidebar">
@@ -46,7 +49,7 @@
 		<div class="tabs">
 			<ul>
 				{#each data.page.tabs as link}
-					<li><a href={link.href}>{link.text}</a></li>
+					<li><a href={link.href} class={link.href === currentPath ? 'active' : ''}>{link.text}</a></li>
 				{/each}
 			</ul>
 		</div>

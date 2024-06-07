@@ -8,9 +8,6 @@ const REGEX_FILE_EXT = /\.\w+$/
 
 export async function load({ fetch, params, url }) {
     const linkedFile = params.page;
-    
-    const segments = linkedFile.split("/")
-    let parent = segments.at(-1) == "index.md" ? segments.at(-3) : segments.at(-2)
 
     if (linkedFile == "") {
         redirect(302, "content/index.md")
@@ -28,6 +25,5 @@ export async function load({ fetch, params, url }) {
     let page: MarkdownPage = JSON.parse(fetchJson)
     return {
         page,
-        title: `${parent} - ${page.title}`,
     }
 }
