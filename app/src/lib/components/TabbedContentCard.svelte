@@ -40,15 +40,15 @@
 			<h1>{title}</h1>
 		</div>
 		<div id="overview">
-			{#if images && images.length > 0}
-				{#each images as imageLink}
-				<!-- 
-            const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery'); -->
-				<a href={imageLink.href} data-fancybox="gallery">
-					<img class="thumbnail" alt={imageLink.text} src={imageLink.href} />
-				</a>
-				{/each}
-			{/if}
+			<div id="gallery">
+				{#if images && images.length > 0}
+					{#each images as imageLink}
+						<a href={imageLink.href} data-fancybox="gallery">
+							<img class="thumbnail" alt={imageLink.text} src={imageLink.href} />
+						</a>
+					{/each}
+				{/if}
+			</div>
 		</div>
 		<div id="content">{@html contentHtml}</div>
 	</div>
@@ -104,6 +104,47 @@
 			padding: 20px;
 			border-radius: 8px;
 
+			#overview {
+				#gallery {
+					display: flex;
+					flex-wrap: wrap;
+
+					a {
+						position: relative;
+
+						&:nth-child(2) {
+							transform: scale(0.4) translateX(-60%);
+							.thumbnail {
+								opacity: 0.5;
+								&:hover {
+									transform: scale(1.05);
+									box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+									border-color: #aaa;
+								}
+							}
+
+							&::after {
+								content: '+';
+								position: absolute;
+								top: 50%;
+								left: 50%;
+								transform: translate(-50%, -50%);
+								color: white;
+								padding: 5px 10px;
+								border-radius: 3px;
+								font-size: 100px;
+								z-index: 1;
+								pointer-events: none;
+							}
+						}
+
+						&:nth-child(n + 3) {
+							display: none;
+						}
+					}
+				}
+			}
+
 			#content {
 				width: 80%;
 				max-width: 80%;
@@ -123,25 +164,23 @@
 			}
 
 			:global(.thumbnail) {
-				width: 150px; /* Adjust the width as needed */
-				height: auto; /* Maintain aspect ratio */
-				border: 2px solid #ddd; /* Light gray border */
-				border-radius: 5px; /* Slightly rounded corners */
-				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+				width: 150px;
+				height: auto;
+				border: 2px solid #ddd;
+				border-radius: 5px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 				transition:
 					transform 0.3s ease,
 					box-shadow 0.3s ease;
-				cursor: pointer; /* Pointer cursor on hover */
-				position: relative; /* Positioning context for the after element */
+				cursor: pointer;
+				position: relative;
 
-				/* Hover Effects */
 				&:hover {
-					transform: scale(1.05); /* Slightly enlarge on hover */
-					box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
-					border-color: #aaa; /* Darker border on hover */
+					transform: scale(1.05);
+					box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+					border-color: #aaa;
 				}
 
-				/* Optional: Indicating it's clickable */
 				&::after {
 					content: 'Click to view gallery';
 					position: absolute;
