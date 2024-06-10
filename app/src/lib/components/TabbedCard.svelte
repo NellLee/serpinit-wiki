@@ -106,6 +106,7 @@
 				h1 {
 					font-size: xxx-large;
 					margin-top: 75px;
+					text-align: center;
 				}
 			}
 

@@ -25,7 +25,7 @@ export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
     return namedLinkList
 }
 
-export function getBreadcrumbs(url: string) {
+export function generateBreadcrumbs(url: string) {
     let breadcrumbs = []
     let constructed = ''
     let segments = url

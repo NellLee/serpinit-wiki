@@ -5,7 +5,7 @@ import { marked } from 'marked'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
 import { generateHeaderId } from '$lib/utilities/utilities'
-import { getBreadcrumbs, getLinkedFilePath, linkTreeToList } from "./utilities/links"
+import { generateBreadcrumbs, getLinkedFilePath, linkTreeToList } from "./utilities/links"
 import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
 import { FileLink } from "./fileLink"
 
@@ -13,18 +13,22 @@ export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
 
 export class MarkdownPage {
+    #filePath: string
     #fileLink: FileLink
-    #initialHtml: string
 
-    html: string
+    #initialHtml: string
+    #cheerio: cheerio.CheerioAPI
+
     markdown: string
-    title: string
-    tags: LinkObject[]
-    tabs: LinkObject[]
     breadcrumbs: LinkObject[]
+    tabs: LinkObject[]
+    title: string
     toc: LinkTree
+    tags: LinkObject[]
     references: NamedLinkList[]
+    
     href: string
+    html: string
 
     static constructIndexPage(folderPath: string): MarkdownPage {
         let constructedMarkdown = "# " + folderPath.substring(folderPath.lastIndexOf(path.sep) + 1) + "\n"
@@ -39,7 +43,6 @@ export class MarkdownPage {
             constructedMarkdown += `* [${fileLink.text}](${fileLink.href})\n`
         }
 
-
         const imageFiles = getFilePathsInFolder(folderPath, [".jpg", ".jpeg", ".png"], 0)
 
         for (let file of imageFiles) {
@@ -51,44 +54,71 @@ export class MarkdownPage {
     }
 
     constructor(filePath: string, markdown: string | null = null) {
+        this.#filePath = filePath
+
         const fileLink = new FileLink(filePath)
         this.#fileLink = fileLink
 
-        const fileName = fileLink.fileName
-        const folderPath = fileLink.path
+        this.markdown = markdown != null ? markdown: fs.readFileSync(filePath, "utf-8")
+        this.applyMarkdownChanges()
+
+        this.#initialHtml = this.generateInitialHtml()
+        this.#cheerio = cheerio.load(this.#initialHtml)
+        
+        this.breadcrumbs = generateBreadcrumbs(fileLink.href)
+        this.tabs = this.generateTabs()
+        this.title = this.generateTitle()
+        this.toc = this.generateTOC()
+        this.tags = this.generateTags()
+        this.references = [
+            { name: "Verwandte Artikel", linkList: this.generateRelated() },
+            { name: "Hier erwähnt", linkList: this.generateMentions() },
+        ]
+        
+        this.href = this.#fileLink.href
+        this.applyHtmlChanges()
+        this.html = this.#cheerio.html()
+    }
+
+    generateInitialHtml() {
+        const unsanitized = marked(this.markdown) as string
+        const sanitized = '<!DOCTYPE html>' + DOMPurify.sanitize(unsanitized)
+        return sanitized
+    }
+
+    applyMarkdownChanges() {
+        this.parseMarkdownGallery()
+    }
+
+    parseMarkdownGallery() {
+        const fileName = this.#fileLink.fileName
+        const folderPath = this.#fileLink.path
         const folderHref = this.#fileLink.href.replace("/content", "").replace(`${fileName}.${this.#fileLink.extension}`, "")
-        if (markdown == null) {
-            this.markdown = fs.readFileSync(filePath, "utf-8")
-        } else {
-            this.markdown = markdown
-        }
-        // Extract first header as title (fallback to file name)
-        this.title = fileName
-        this.markdown = this.markdown.replace(REGEX_FIRST_HEADER, (_, header) => {
-            this.title = header
-            return ''
-        })
 
-
-        // Custom markdown parsing
         const galleryPath = folderPath + path.sep + "images"
         const galleryHref = folderHref + "images"
-        if (fs.existsSync(galleryPath)) {
-            const imageList = getFilePathsInFolder(galleryPath).reverse().map(file => {
-                file = file.replaceAll(path.sep, "/").substring(1)
-                return `![${file}](${galleryHref}/${file})`
-            })
-            if(!this.markdown.includes("<!--!gallery-->")) {
-                this.markdown = imageList.join("\n")+this.markdown
+        const galleryFlag = "<!--!gallery-->"
+
+        if (this.markdown.includes(galleryFlag)) {
+            if (fs.existsSync(galleryPath)) {
+                const imageList = getFilePathsInFolder(galleryPath).reverse().map(file => {
+                    file = file.replaceAll(path.sep, "/").substring(1)
+                    return `![${file}](${galleryHref}/${file})`
+                })
+                this.markdown = this.markdown.replace(galleryFlag, imageList.join("\n") + this.markdown)
             }
         }
+    }
 
-        // Parse markdown to html
-        let unsanitized = marked(this.markdown) as string
-        this.#initialHtml = '<!DOCTYPE html>' + DOMPurify.sanitize(unsanitized)
-        const $ = cheerio.load(this.#initialHtml)
+    applyHtmlChanges() {
+        this.wrapImgTagsForFancyBox()
+    }
 
-        // Wrap images for fancybox
+    wrapImgTagsForFancyBox() {
+        const fileName = this.#fileLink.fileName
+        const folderHref = this.#fileLink.href.replace("/content", "").replace(`${fileName}.${this.#fileLink.extension}`, "")
+
+        const $ = this.#cheerio
         $('img').each((_, img) => {
             const imgElement = $(img);
             const src = folderHref + imgElement.attr('src')?.substring(1)
@@ -99,8 +129,20 @@ export class MarkdownPage {
             const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery');
             imgElement.wrap(link);
         });
+    }
 
-        // Generate table of contents
+    generateTitle() {
+        // Extract first header as title (fallback to file name)
+        let title = this.#fileLink.fileName
+        this.markdown = this.markdown.replace(REGEX_FIRST_HEADER, (_, header) => {
+            title = header
+            return ''
+        })
+        return title
+    }
+
+    generateTOC() {
+        const $ = this.#cheerio
         const tocTree: LinkTree = {
             children: []
         }
@@ -137,35 +179,41 @@ export class MarkdownPage {
             });
         }
         removeParentReferences(tocTree)
-        this.toc = tocTree
+        return tocTree
+    }
 
-        // Generate related content
-        const related: FileLink[] = []
-        const tabs: FileLink[] = []
-        let parentFolder = filePath.substring(0, filePath.lastIndexOf(path.sep))
-        for (let sibling of getFilePathsInFolder(parentFolder, [".md"], 0)) {
-            let fileLink = new FileLink(parentFolder + sibling)
-            tabs.push(fileLink)
-        }
-        for (let relative of getFolderPathsInFolder(parentFolder, 0).map(folder => folder + path.sep + "index.md")) {
-            let fileLink = new FileLink(parentFolder + relative)
-            related.push(fileLink)
-        }
-        tabs.sort((a, b) => {
-            if (a.fileName == "index") {
-                return -1
-            }
-            return a.fileName.localeCompare(b.fileName)
-        })
+    generateRelated() {
+        const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
+        const related: FileLink[] = getFolderPathsInFolder(parentFolderPath, 0)
+            .map(folder => folder + path.sep + "index.md")
+            .map(relative => new FileLink(parentFolderPath + relative))
+        return related
+    }
+
+    generateTabs() {
+        const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
+        const tabs: FileLink[] = getFilePathsInFolder(parentFolderPath, [".md"], 0)
+            .map(sibling => new FileLink(parentFolderPath + sibling))
+            .sort((a, b) => {
+                if (a.fileName == "index") {
+                    return -1
+                }
+                return a.fileName.localeCompare(b.fileName)
+            })
+
+        // First tab special naming
         tabs.forEach(link => {
             if (link.fileName == "index") {
                 link.text = "Index"
             }
         })
-        this.tabs = tabs
+        return tabs
+    }
 
-        // Generate references
-        const referred: LinkObject[] = []
+    generateMentions() {
+        const $ = this.#cheerio
+        const folderPath = this.#fileLink.path
+        const mentioned: LinkObject[] = []
         $('a[href$=".md"]:not(nav a)').each(function (_, element) {
             const linkInText = $(element)
             const href = linkInText.attr('href')
@@ -174,37 +222,28 @@ export class MarkdownPage {
             }
             let linkedFile = getLinkedFilePath(href, folderPath)
             let link = new FileLink(linkedFile)
-            referred.push(link)
+            mentioned.push(link)
         })
 
-        this.references = [
-            // { name: "Nebenliegende Artikel", linkList: siblings },
-            { name: "Verwandte Artikel", linkList: related },
-            { name: "Hier erwähnt", linkList: referred },
-        ]
+        return mentioned
+    }
 
-        // TODO
+    generateTags() {
         const regex = /<!--TAGS\[(.*?)\]-->/
-        const match = this.markdown.match(regex)
+        const matches = this.markdown.match(regex)
         const tags = []
-        if (match) {
-            tags.push(...match[1].split(','))
+        if (matches) {
+            tags.push(...matches[1].split(','))
         }
         tags.push(...this.#fileLink.getTags())
-        this.tags = tags.map(tag => {
-            const encodedTag = encodeURIComponent(tag)
-            return {
-                href: "/content/search?tags=" + encodedTag,
-                text: tag
-            }
-        })
-
-        this.breadcrumbs = getBreadcrumbs(fileLink.href)
-
-        this.html = $.html()
-
-        this.href = this.#fileLink.href
+        return tags.map(tag => ({
+            href: "/content/search?tags=" + encodeURIComponent(tag),
+            text: tag
+        }))
     }
+
+
+
     toJSON() {
         let result = {
             html: this.html,
