@@ -4,7 +4,7 @@
 	import ReferenceList from '$lib/components/ReferenceList.svelte';
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
-	import TabbedCard from '$lib/components/TabbedCard.svelte';
+	import TabbedContentCard from '$lib/components/TabbedContentCard.svelte';
 	import Tags from '$lib/components/Tags.svelte';
 
 	export let data;
@@ -23,11 +23,12 @@
 <div style="width: 70%">
 	<MidPanel>
 		<Breadcrumbs slot="head" linkList={data.page.breadcrumbs} />
-		<TabbedCard
+		<TabbedContentCard
 			slot="content"
 			tabLinkList={data.page.tabs}
 			title={data.page.title}
 			contentHtml={data.page.html}
+			images={data.page.images}
 		/>
 	</MidPanel>
 </div>

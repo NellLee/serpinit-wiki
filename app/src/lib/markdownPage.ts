@@ -26,7 +26,8 @@ export class MarkdownPage {
     toc: LinkTree
     tags: LinkObject[]
     references: NamedLinkList[]
-    
+    images: LinkObject[]
+
     href: string
     html: string
 
@@ -59,22 +60,24 @@ export class MarkdownPage {
         const fileLink = new FileLink(filePath)
         this.#fileLink = fileLink
 
-        this.markdown = markdown != null ? markdown: fs.readFileSync(filePath, "utf-8")
+        this.markdown = markdown != null ? markdown : fs.readFileSync(filePath, "utf-8")
         this.applyMarkdownChanges()
+
+        this.title = this.generateTitle() // changes markdown
 
         this.#initialHtml = this.generateInitialHtml()
         this.#cheerio = cheerio.load(this.#initialHtml)
-        
+
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
         this.tabs = this.generateTabs()
-        this.title = this.generateTitle()
         this.toc = this.generateTOC()
         this.tags = this.generateTags()
         this.references = [
             { name: "Verwandte Artikel", linkList: this.generateRelated() },
             { name: "Hier erwähnt", linkList: this.generateMentions() },
         ]
-        
+        this.images = this.generateImages()
+
         this.href = this.#fileLink.href
         this.applyHtmlChanges()
         this.html = this.#cheerio.html()
@@ -87,27 +90,32 @@ export class MarkdownPage {
     }
 
     applyMarkdownChanges() {
-        this.parseMarkdownGallery()
+        // this.parseMarkdownGallery()
     }
 
-    parseMarkdownGallery() {
+    generateImages(): LinkObject[] {
         const fileName = this.#fileLink.fileName
         const folderPath = this.#fileLink.path
-        const folderHref = this.#fileLink.href.replace("/content", "").replace(`${fileName}.${this.#fileLink.extension}`, "")
-
+        const folderHref = this.#fileLink.href.replace("/content", "").replace(`/${fileName}.${this.#fileLink.extension}`, "")
         const galleryPath = folderPath + path.sep + "images"
-        const galleryHref = folderHref + "images"
-        const galleryFlag = "<!--!gallery-->"
+        const galleryHref = folderHref + "/images"
 
-        if (this.markdown.includes(galleryFlag)) {
-            if (fs.existsSync(galleryPath)) {
-                const imageList = getFilePathsInFolder(galleryPath).reverse().map(file => {
-                    file = file.replaceAll(path.sep, "/").substring(1)
-                    return `![${file}](${galleryHref}/${file})`
+        let images: LinkObject[] = []
+        if (fs.existsSync(galleryPath)) {
+            images = getFilePathsInFolder(galleryPath, [".png", ".jpg", ".jpeg", ".webp"], 1)
+                .reverse()
+                .map(file => {
+                    const filePath = galleryPath + path.sep + file.split(path.sep).at(-1)!
+                    const fileLink = new FileLink(filePath)
+
+                    return {
+                        text: fileLink.text,
+                        href: fileLink.href.replace("/content", "")
+                    }
                 })
-                this.markdown = this.markdown.replace(galleryFlag, imageList.join("\n") + this.markdown)
-            }
         }
+
+        return images
     }
 
     applyHtmlChanges() {
@@ -255,6 +263,7 @@ export class MarkdownPage {
             toc: this.toc,
             references: this.references,
             href: this.href,
+            images: this.images
         }
 
         return JSON.stringify(result)

@@ -9,6 +9,7 @@
 	export let tabLinkList: LinkObject[];
 	export let title: string;
 	export let contentHtml: string;
+	export let images: LinkObject[];
 	export let fancyBoxImages: boolean = true;
 
 	onMount(() => {
@@ -16,7 +17,7 @@
 			Fancybox.bind('[data-fancybox="gallery"]', {
 				Thumbs: {
 					type: 'modern'
-				},
+				}
 			});
 		}
 	});
@@ -37,6 +38,17 @@
 	<div id="content-body">
 		<div class="header">
 			<h1>{title}</h1>
+		</div>
+		<div id="overview">
+			{#if images && images.length > 0}
+				{#each images as imageLink}
+				<!-- 
+            const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery'); -->
+				<a href={imageLink.href} data-fancybox="gallery">
+					<img class="thumbnail" alt={imageLink.text} src={imageLink.href} />
+				</a>
+				{/each}
+			{/if}
 		</div>
 		<div id="content">{@html contentHtml}</div>
 	</div>
