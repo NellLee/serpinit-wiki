@@ -34,14 +34,15 @@
 		box-sizing: border-box;
 	}
 
-	main {
+	:global(main) {
 		width: 100%;
-	}
-
-	body {
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 14px;
 		line-height: 1.428571429;
+		margin: 0;
+	}
+
+	:global(body) {
 		color: var(--primary-color);
 		background-color: var(--primary-background-color);
 		margin: 0;

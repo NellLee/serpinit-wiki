@@ -1,6 +1,10 @@
 # TODO
 
-Folgende Themen/Ideen/Anregungen müssen sortiert werden:
+Folgende Themen/Ideen/Anregungen müssen umgesetzt und sortiert werden:
+
+## Timeline
+
+Timeline interaktiv visualisieren
 
 ## Test für Ikusation:
 

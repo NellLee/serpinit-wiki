@@ -6,7 +6,6 @@
 	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
 	import TabbedCard from '$lib/components/TabbedCard.svelte';
 	import Tags from '$lib/components/Tags.svelte';
-	import SmallNamedCard from '$lib/components/SmallNamedCard.svelte';
 
 	export let data;
 </script>

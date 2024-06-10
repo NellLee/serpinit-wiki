@@ -7,4 +7,3 @@ Das System besteht aus 9 Himmelskörpern mit vielfältiger Flora und Fauna und v
 - [Die Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md)
 - [Die 9 Himmelskörper](/content/Himmelskoerper/index.md)
 - [Die 9 Völker](/content/Voelker/index.md)
-- <span style="color: red;">TODO: </span> Timeline interaktiv visualisieren ([Timeline Daten](../timeline/Geschichte.timeline))
