@@ -1,10 +1,12 @@
 <script lang="ts">
-	export let name;
+	export let name = "";
 </script>
 
 <div class="card">
-	<h2>{name}</h2>
-    <hr/>
+	{#if name != ""}
+		<h2>{name}</h2>
+		<hr/>
+	{/if}
     <div id="slot">
         <slot />
     </div>

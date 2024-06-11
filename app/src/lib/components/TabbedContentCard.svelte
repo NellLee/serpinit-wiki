@@ -3,17 +3,18 @@
 	import { Fancybox } from '@fancyapps/ui';
 	import '@fancyapps/ui/dist/fancybox/fancybox.css';
 	import { onMount } from 'svelte';
+	import Card from './Card.svelte';
 
 	$: currentPath = $page.url.pathname;
 
 	export let tabLinkList: LinkObject[];
 	export let title: string;
 	export let contentHtml: string;
-	export let images: LinkObject[];
-	export let fancyBoxImages: boolean = true;
+	export let fancyBoxGallery: boolean = true;
+	export let overviewHtml: string;
 
 	onMount(() => {
-		if (fancyBoxImages) {
+		if (fancyBoxGallery) {
 			Fancybox.bind('[data-fancybox="gallery"]', {
 				Thumbs: {
 					type: 'modern'
@@ -39,18 +40,20 @@
 		<div class="header">
 			<h1>{title}</h1>
 		</div>
-		<div id="overview">
-			<div id="gallery">
-				{#if images && images.length > 0}
-					{#each images as imageLink}
-						<a href={imageLink.href} data-fancybox="gallery">
-							<img class="thumbnail" alt={imageLink.text} src={imageLink.href} />
-						</a>
-					{/each}
-				{/if}
+		<div id="content">
+			{#if overviewHtml != ''}
+				<div id="overview">
+					<Card>
+						<div lang="de" id="overview-html">
+							{@html overviewHtml}
+						</div>
+					</Card>
+				</div>
+			{/if}
+			<div lang="de" id="content-html">
+				{@html contentHtml}
 			</div>
 		</div>
-		<div id="content">{@html contentHtml}</div>
 	</div>
 </div>
 
@@ -104,52 +107,55 @@
 			padding: 20px;
 			border-radius: 8px;
 
-			#overview {
-				#gallery {
-					display: flex;
-					flex-wrap: wrap;
+			#content {
+				width: 90%;
+				max-width: 90%;
+				min-height: 70vh;
+				text-align: justify;
 
-					a {
-						position: relative;
+				#overview {
+					width: 25%;
+					min-width: 250px;
+					float: right;
+					margin-top: 20px;
+					margin-left: 30px;
 
-						&:nth-child(2) {
-							transform: scale(0.4) translateX(-60%);
-							.thumbnail {
-								opacity: 0.5;
-								&:hover {
-									transform: scale(1.05);
-									box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-									border-color: #aaa;
+					#overview-html {
+						display: flex;
+						flex-flow: column nowrap;
+						align-items: center;
+						width: 100%;
+						overflow: hidden;
+						hyphens: auto;
+						text-align: left;
+
+						:global(table) {
+							width: 100%;
+							border: 1px solid #ccc;
+							border-radius: 5px;
+							border-collapse: collapse;
+							padding: 5px;
+							table-layout: fixed;
+
+							:global(th),
+							:global(td) {
+								border: 1px solid #ccc;
+								padding: 5px;
+								border-collapse: collapse;
+								border-spacing: 0;
+								vertical-align: top;
+
+								&:empty {
+									display: none;
 								}
 							}
-
-							&::after {
-								content: '+';
-								position: absolute;
-								top: 50%;
-								left: 50%;
-								transform: translate(-50%, -50%);
-								color: white;
-								padding: 5px 10px;
-								border-radius: 3px;
-								font-size: 100px;
-								z-index: 1;
-								pointer-events: none;
-							}
-						}
-
-						&:nth-child(n + 3) {
-							display: none;
 						}
 					}
 				}
-			}
-
-			#content {
-				width: 80%;
-				max-width: 80%;
-				min-height: 70vh;
-				text-align: justify;
+				#content-html {
+					max-width: 90%;
+					margin: auto;
+				}
 			}
 
 			.header {
@@ -157,47 +163,32 @@
 				max-width: 100%;
 
 				h1 {
-					font-size: xxx-large;
+					font-size: 2.75em;
 					margin-top: 75px;
 					text-align: center;
 				}
 			}
 
-			:global(.thumbnail) {
+			:global(a[data-fancybox]) {
+				display: block;
 				width: 150px;
-				height: auto;
-				border: 2px solid #ddd;
-				border-radius: 5px;
-				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-				transition:
-					transform 0.3s ease,
-					box-shadow 0.3s ease;
-				cursor: pointer;
-				position: relative;
+				height: fit-content;
 
-				&:hover {
-					transform: scale(1.05);
-					box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-					border-color: #aaa;
-				}
+				:global(.thumbnail) {
+					width: 100%;
+					border: 2px solid #ddd;
+					border-radius: 5px;
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+					transition:
+						transform 0.3s ease,
+						box-shadow 0.3s ease;
+					cursor: pointer;
 
-				&::after {
-					content: 'Click to view gallery';
-					position: absolute;
-					bottom: 10px;
-					left: 50%;
-					transform: translateX(-50%);
-					background-color: rgba(0, 0, 0, 0.7);
-					color: white;
-					padding: 5px 10px;
-					border-radius: 3px;
-					font-size: 12px;
-					opacity: 0;
-					transition: opacity 0.3s ease;
-				}
-
-				&:hover::after {
-					opacity: 1;
+					&:hover {
+						transform: scale(1.05);
+						box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+						border-color: #aaa;
+					}
 				}
 			}
 

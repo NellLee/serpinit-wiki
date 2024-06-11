@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SmallNamedCard from './SmallNamedCard.svelte';
+	import SmallNamedCard from './Card.svelte';
 
 	export let tags: LinkObject[];
 </script>

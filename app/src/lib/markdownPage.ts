@@ -21,15 +21,16 @@ export class MarkdownPage {
 
     markdown: string
     breadcrumbs: LinkObject[]
+    images: LinkObject[]
     tabs: LinkObject[]
     title: string
     toc: LinkTree
     tags: LinkObject[]
     references: NamedLinkList[]
-    images: LinkObject[]
+    overviewHtml: string
 
-    href: string
     html: string
+    href: string
 
     static constructIndexPage(folderPath: string): MarkdownPage {
         let constructedMarkdown = "# " + folderPath.substring(folderPath.lastIndexOf(path.sep) + 1) + "\n"
@@ -48,9 +49,14 @@ export class MarkdownPage {
 
         for (let file of imageFiles) {
             const fileLink = new FileLink(folderPath + file)
-            constructedMarkdown += `![${fileLink.text}](${fileLink.href})\n`
+            constructedMarkdown += `![${fileLink.text}](${fileLink.href.replace("/content", "")})\n`
         }
 
+        console.log(constructedMarkdown)
+
+        if(folderPath.endsWith("images")) {
+            return new MarkdownPage(folderPath, constructedMarkdown)
+        }
         return new MarkdownPage(filePath, constructedMarkdown)
     }
 
@@ -61,14 +67,17 @@ export class MarkdownPage {
         this.#fileLink = fileLink
 
         this.markdown = markdown != null ? markdown : fs.readFileSync(filePath, "utf-8")
-        this.applyMarkdownChanges()
 
-        this.title = this.generateTitle() // changes markdown
+        // Markdown changes
+        this.title = this.extractTitle()
 
+        // Initial HTML from markdown
         this.#initialHtml = this.generateInitialHtml()
         this.#cheerio = cheerio.load(this.#initialHtml)
 
+        // HTML changes
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
+        this.images = this.generateImages()
         this.tabs = this.generateTabs()
         this.toc = this.generateTOC()
         this.tags = this.generateTags()
@@ -76,11 +85,13 @@ export class MarkdownPage {
             { name: "Verwandte Artikel", linkList: this.generateRelated() },
             { name: "Hier erwähnt", linkList: this.generateMentions() },
         ]
-        this.images = this.generateImages()
+        this.wrapImgTagsForFancyBox()
+        this.overviewHtml = this.extractOverview()
+
+        // Final HTML
+        this.html = this.#cheerio.html()
 
         this.href = this.#fileLink.href
-        this.applyHtmlChanges()
-        this.html = this.#cheerio.html()
     }
 
     generateInitialHtml() {
@@ -89,16 +100,27 @@ export class MarkdownPage {
         return sanitized
     }
 
-    applyMarkdownChanges() {
-        // this.parseMarkdownGallery()
+    extractOverview() {
+        const $ = this.#cheerio
+
+        let overviewHtml = ""
+        if ($('h1, h2, h3, h4, h5, h6').length != 0) {
+            $('body').children().each((_, element) => {
+                if ($(element).is('h1, h2, h3, h4, h5, h6')) {
+                    return false;
+                } else {
+                    overviewHtml += $.html(element);
+                    $(element).remove();
+                }
+            });
+        }
+
+        return overviewHtml
     }
 
     generateImages(): LinkObject[] {
-        const fileName = this.#fileLink.fileName
         const folderPath = this.#fileLink.path
-        const folderHref = this.#fileLink.href.replace("/content", "").replace(`/${fileName}.${this.#fileLink.extension}`, "")
         const galleryPath = folderPath + path.sep + "images"
-        const galleryHref = folderHref + "/images"
 
         let images: LinkObject[] = []
         if (fs.existsSync(galleryPath)) {
@@ -118,9 +140,6 @@ export class MarkdownPage {
         return images
     }
 
-    applyHtmlChanges() {
-        this.wrapImgTagsForFancyBox()
-    }
 
     wrapImgTagsForFancyBox() {
         const fileName = this.#fileLink.fileName
@@ -129,8 +148,9 @@ export class MarkdownPage {
         const $ = this.#cheerio
         $('img').each((_, img) => {
             const imgElement = $(img);
-            const src = folderHref + imgElement.attr('src')?.substring(1)
+            let src = imgElement.attr('src')
             if (imgElement.attr('src')?.startsWith(".")) {
+                src = folderHref + imgElement.attr('src')?.substring(1)
                 imgElement.attr('src', src)
             }
             imgElement.addClass("thumbnail")
@@ -139,7 +159,7 @@ export class MarkdownPage {
         });
     }
 
-    generateTitle() {
+    extractTitle() {
         // Extract first header as title (fallback to file name)
         let title = this.#fileLink.fileName
         this.markdown = this.markdown.replace(REGEX_FIRST_HEADER, (_, header) => {
@@ -193,6 +213,7 @@ export class MarkdownPage {
     generateRelated() {
         const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
         const related: FileLink[] = getFolderPathsInFolder(parentFolderPath, 0)
+            .filter(folder => folder != path.sep+"images") // the image folder is instead realised as additional tab
             .map(folder => folder + path.sep + "index.md")
             .map(relative => new FileLink(parentFolderPath + relative))
         return related
@@ -200,7 +221,7 @@ export class MarkdownPage {
 
     generateTabs() {
         const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
-        const tabs: FileLink[] = getFilePathsInFolder(parentFolderPath, [".md"], 0)
+        const tabLinks: FileLink[] = getFilePathsInFolder(parentFolderPath, [".md"], 0)
             .map(sibling => new FileLink(parentFolderPath + sibling))
             .sort((a, b) => {
                 if (a.fileName == "index") {
@@ -210,11 +231,22 @@ export class MarkdownPage {
             })
 
         // First tab special naming
-        tabs.forEach(link => {
+        tabLinks.forEach(link => {
             if (link.fileName == "index") {
                 link.text = "Index"
             }
         })
+
+        const tabs: LinkObject[] = tabLinks.map(link => ({text: link.text, href: link.href}))
+
+        // Add gallery tab
+        if (this.images.length > 0) {
+            tabs.push({
+                text: "Gallerie",
+                href: "./images"
+            })
+        }
+
         return tabs
     }
 
@@ -263,7 +295,8 @@ export class MarkdownPage {
             toc: this.toc,
             references: this.references,
             href: this.href,
-            images: this.images
+            images: this.images,
+            overviewHtml: this.overviewHtml
         }
 
         return JSON.stringify(result)

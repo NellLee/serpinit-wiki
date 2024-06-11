@@ -28,7 +28,7 @@
 			tabLinkList={data.page.tabs}
 			title={data.page.title}
 			contentHtml={data.page.html}
-			images={data.page.images}
+			overviewHtml={data.page.overviewHtml}
 		/>
 	</MidPanel>
 </div>

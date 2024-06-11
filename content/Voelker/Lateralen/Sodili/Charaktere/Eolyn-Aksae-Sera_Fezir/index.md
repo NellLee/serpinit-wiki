@@ -2,13 +2,16 @@
 
 ![Eolyn Sera](./images/Sodili-Lateral_Eolyn-Aksae-Sera.png)
 
-**Name:** Eolyn Aksae Sera  
-**Titel/Klasse:** Waldläuferin  
-**Alter:** Junge Erwachsene  
-**Geschlecht:** Weiblich  
-**Spezies/Rasse:** [Sodili-Laterale](/content/Voelker/Lateralen/index.md)  
-**Heimat:** [Carpebur](/content/Himmelskoerper/Agranum/Kontinente/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)  
-**Beruf:** Handelsvertreterin der Familie Sera
+|                      |                                                                                                         |
+| -------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Name:**            | Eolyn Aksae Sera                                                                                        |
+| **Titel / Klasse:**  | Waldläuferin                                                                                            |
+| **Alter:**           | Junge Erwachsene                                                                                        |
+| **Geschlecht:**      | Weiblich                                                                                                |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Voelker/Lateralen/index.md)                                                  |
+| **Heimat:**          | [Carpebur](/content/Himmelskoerper/Agranum/Kontinente/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)     |
+| **Beruf:**           | Handelsvertreterin der Familie Sera                                                                     |
+
 
 ## Allgemein
 
