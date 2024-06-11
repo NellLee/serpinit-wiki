@@ -19,8 +19,6 @@
         min-height: 100px;
 		background-color: var(--primary-background-color);
 		padding: 8px 12px 8px 12px;
-		margin-top: 25px;
-		margin-bottom: 25px;
 		border-radius: 8px;
 		box-shadow: 2px 2px 6px -3px rgb(0, 0, 0, 0.7);
 

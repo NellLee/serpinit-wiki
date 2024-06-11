@@ -22,5 +22,9 @@
 	#table-of-content {
 		width: 100%;
 		max-width: 100%;
+
+		h2 {
+			margin-top: 0;
+		}
 	}
 </style>

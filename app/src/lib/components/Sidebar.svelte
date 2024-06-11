@@ -16,6 +16,8 @@
 		justify-content: flex-start;
 		align-items: center;
 		text-overflow: ellipsis;
+		gap: 50px;
+		padding-top: 50px;
 
 
 		:global(ul) {

@@ -14,6 +14,7 @@
 	export let overviewHtml: string;
 
 	onMount(() => {
+
 		if (fancyBoxGallery) {
 			Fancybox.bind('[data-fancybox="gallery"]', {
 				Thumbs: {
@@ -37,19 +38,19 @@
 		</div>
 	{/if}
 	<div id="content-body">
+		{#if overviewHtml != ''}
+			<div id="overview">
+				<Card>
+					<div lang="de" id="overview-html">
+						{@html overviewHtml}
+					</div>
+				</Card>
+			</div>
+		{/if}
 		<div class="header">
 			<h1>{title}</h1>
 		</div>
 		<div id="content">
-			{#if overviewHtml != ''}
-				<div id="overview">
-					<Card>
-						<div lang="de" id="overview-html">
-							{@html overviewHtml}
-						</div>
-					</Card>
-				</div>
-			{/if}
 			<div lang="de" id="content-html">
 				{@html contentHtml}
 			</div>
@@ -99,62 +100,58 @@
 
 		#content-body {
 			width: 100%;
-			display: flex;
-			flex-flow: column nowrap;
-			justify-content: flex-start;
-			align-items: center;
 			background-color: var(--secondary-background-color);
-			padding: 20px;
+			padding: 20px 60px;
 			border-radius: 8px;
 
-			#content {
-				width: 90%;
-				max-width: 90%;
-				min-height: 70vh;
-				text-align: justify;
+			#overview {
+				width: 25%;
+				min-width: 250px;
+				float: right;
+				margin-top: 60px;
+				margin-bottom: 20px;
+				margin-left: 30px;
 
-				#overview {
-					width: 25%;
-					min-width: 250px;
-					float: right;
-					margin-top: 20px;
-					margin-left: 30px;
+				#overview-html {
+					display: flex;
+					flex-flow: column nowrap;
+					align-items: center;
+					width: 100%;
+					overflow: hidden;
+					hyphens: auto;
+					text-align: left;
 
-					#overview-html {
-						display: flex;
-						flex-flow: column nowrap;
-						align-items: center;
+					:global(table) {
 						width: 100%;
-						overflow: hidden;
-						hyphens: auto;
-						text-align: left;
+						border: 1px solid #ccc;
+						border-radius: 5px;
+						border-collapse: collapse;
+						padding: 5px;
+						table-layout: fixed;
 
-						:global(table) {
-							width: 100%;
+						:global(th),
+						:global(td) {
 							border: 1px solid #ccc;
-							border-radius: 5px;
-							border-collapse: collapse;
 							padding: 5px;
-							table-layout: fixed;
+							border-collapse: collapse;
+							border-spacing: 0;
+							vertical-align: top;
 
-							:global(th),
-							:global(td) {
-								border: 1px solid #ccc;
-								padding: 5px;
-								border-collapse: collapse;
-								border-spacing: 0;
-								vertical-align: top;
-
-								&:empty {
-									display: none;
-								}
+							&:empty {
+								display: none;
 							}
 						}
 					}
 				}
+			}
+
+			#content {
+				width: 100%;
+				min-height: 70vh;
+				text-align: justify;
+
 				#content-html {
-					max-width: 90%;
-					margin: auto;
+					width: 100%;
 				}
 			}
 

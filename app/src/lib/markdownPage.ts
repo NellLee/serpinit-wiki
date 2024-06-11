@@ -52,8 +52,6 @@ export class MarkdownPage {
             constructedMarkdown += `![${fileLink.text}](${fileLink.href.replace("/content", "")})\n`
         }
 
-        console.log(constructedMarkdown)
-
         if(folderPath.endsWith("images")) {
             return new MarkdownPage(folderPath, constructedMarkdown)
         }
@@ -153,6 +151,7 @@ export class MarkdownPage {
                 src = folderHref + imgElement.attr('src')?.substring(1)
                 imgElement.attr('src', src)
             }
+            imgElement.attr('loading', "lazy")
             imgElement.addClass("thumbnail")
             const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery');
             imgElement.wrap(link);
@@ -240,10 +239,12 @@ export class MarkdownPage {
         const tabs: LinkObject[] = tabLinks.map(link => ({text: link.text, href: link.href}))
 
         // Add gallery tab
+        const fileName = this.#fileLink.fileName
+        const folderHref = this.#fileLink.href.split("/").slice(0, -1).join("/")
         if (this.images.length > 0) {
             tabs.push({
                 text: "Gallerie",
-                href: "./images"
+                href: folderHref+"/images"
             })
         }
 
