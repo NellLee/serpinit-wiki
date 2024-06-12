@@ -5,7 +5,7 @@ import { marked } from 'marked'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
 import { generateHeaderId } from '$lib/utilities/utilities'
-import { generateBreadcrumbs, getLinkedFilePath, linkTreeToList } from "./utilities/links"
+import { generateBreadcrumbs, getLinkedFilePath } from "./utilities/links"
 import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
 import { FileLink } from "./fileLink"
 
@@ -27,7 +27,7 @@ export class MarkdownPage {
     toc: LinkTree
     tags: LinkObject[]
     references: NamedLinkList[]
-    overviewHtml: string
+    overviewHtml: string | null
 
     html: string
     href: string
@@ -65,13 +65,13 @@ export class MarkdownPage {
         this.#fileLink = fileLink
 
         this.markdown = markdown != null ? markdown : fs.readFileSync(filePath, "utf-8")
-        // Warning: don't change the markdown content, only edit the html (through cheerio). The markdown content is used to check for local file changes.
-
+        
         // Initial HTML from markdown
         this.#initialHtml = this.generateInitialHtml()
         this.#cheerio = cheerio.load(this.#initialHtml)
-
+        
         // HTML changes
+        this.overviewHtml = this.extractOverview()
         this.title = this.extractTitle()
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
         this.images = this.generateImages()
@@ -83,7 +83,6 @@ export class MarkdownPage {
             { name: "Hier erwähnt", linkList: this.generateMentions() },
         ]
         this.wrapImgTagsForFancyBox()
-        this.overviewHtml = this.extractOverview()
 
         // Final HTML
         this.html = this.#cheerio.html()
@@ -97,22 +96,12 @@ export class MarkdownPage {
         return sanitized
     }
 
+    //TODO
     extractOverview() {
         const $ = this.#cheerio
+        console.log($("overview").html())
 
-        let overviewHtml = ""
-        if ($('h1, h2, h3, h4, h5, h6').length != 0) {
-            $('body').children().each((_, element) => {
-                if ($(element).is('h1, h2, h3, h4, h5, h6')) {
-                    return false;
-                } else {
-                    overviewHtml += $.html(element);
-                    $(element).remove();
-                }
-            });
-        }
-
-        return overviewHtml
+        return "overview"
     }
 
     generateImages(): LinkObject[] {
