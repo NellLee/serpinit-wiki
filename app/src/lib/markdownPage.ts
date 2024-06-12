@@ -52,7 +52,7 @@ export class MarkdownPage {
             constructedMarkdown += `![${fileLink.text}](${fileLink.href.replace("/content", "")})\n`
         }
 
-        if(folderPath.endsWith("images")) {
+        if (folderPath.endsWith("images")) {
             return new MarkdownPage(folderPath, constructedMarkdown)
         }
         return new MarkdownPage(filePath, constructedMarkdown)
@@ -65,15 +65,14 @@ export class MarkdownPage {
         this.#fileLink = fileLink
 
         this.markdown = markdown != null ? markdown : fs.readFileSync(filePath, "utf-8")
-
-        // Markdown changes
-        this.title = this.extractTitle()
+        // Warning: don't change the markdown content, only edit the html (through cheerio). The markdown content is used to check for local file changes.
 
         // Initial HTML from markdown
         this.#initialHtml = this.generateInitialHtml()
         this.#cheerio = cheerio.load(this.#initialHtml)
 
         // HTML changes
+        this.title = this.extractTitle()
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
         this.images = this.generateImages()
         this.tabs = this.generateTabs()
@@ -159,12 +158,19 @@ export class MarkdownPage {
     }
 
     extractTitle() {
-        // Extract first header as title (fallback to file name)
-        let title = this.#fileLink.fileName
-        this.markdown = this.markdown.replace(REGEX_FIRST_HEADER, (_, header) => {
-            title = header
-            return ''
-        })
+        const $ = this.#cheerio
+
+        let title = this.#fileLink.fileName // fallback to file name
+        if ($('h1').length != 0) {
+            $('body').children().each((_, element) => {
+                if ($(element).is('h1')) {
+                    title = $(element).text()
+                    $(element).remove();
+                    return false;
+                }
+            });
+        }
+
         return title
     }
 
@@ -212,7 +218,7 @@ export class MarkdownPage {
     generateRelated() {
         const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
         const related: FileLink[] = getFolderPathsInFolder(parentFolderPath, 0)
-            .filter(folder => folder != path.sep+"images") // the image folder is instead realised as additional tab
+            .filter(folder => folder != path.sep + "images") // the image folder is instead realised as additional tab
             .map(folder => folder + path.sep + "index.md")
             .map(relative => new FileLink(parentFolderPath + relative))
         return related
@@ -236,7 +242,7 @@ export class MarkdownPage {
             }
         })
 
-        const tabs: LinkObject[] = tabLinks.map(link => ({text: link.text, href: link.href}))
+        const tabs: LinkObject[] = tabLinks.map(link => ({ text: link.text, href: link.href }))
 
         // Add gallery tab
         const fileName = this.#fileLink.fileName
@@ -244,7 +250,7 @@ export class MarkdownPage {
         if (this.images.length > 0) {
             tabs.push({
                 text: "Gallerie",
-                href: folderHref+"/images"
+                href: folderHref + "/images"
             })
         }
 

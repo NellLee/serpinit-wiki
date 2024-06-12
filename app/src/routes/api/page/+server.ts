@@ -4,7 +4,7 @@ import { getLinkedFilePath } from '$lib/utilities/links';
 import { initWiki, loadMarkdownPage, wiki } from '$lib/utilities/wiki';
 import { error, json } from '@sveltejs/kit';
 
-// initWiki()
+initWiki()
 
 export function GET({url}) {
     let pages: MarkdownPage | MarkdownPage[];

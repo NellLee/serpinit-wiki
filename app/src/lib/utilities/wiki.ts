@@ -5,7 +5,8 @@ import { getFilePathsInFolder } from './files';
 import { error } from '@sveltejs/kit';
 import fs from 'fs'
 
-export const wiki: Map<string, MarkdownPage> = new Map();
+export const wiki: Map<string, MarkdownPage> = new Map()
+export const cache: Map<string, string> = new Map() //maps 
 const __dirname = new URL(".", import.meta.url).pathname.substring(1)
 
 
@@ -31,8 +32,20 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
             throw error(404, `File ${fullPath} not found`)
         }
     } else {
-        page = new MarkdownPage(fullPath)
+        let markdown = fs.readFileSync(fullPath, "utf-8")
+        if (cache.get(markdown) == fullPath) {
+            console.log(`File "${fullPath}" has been loaded from the cache.`)
+            if (!wiki.has(fullPath)) {
+                let fileName = fullPath.split(path.sep).at(-1)
+                throw error(500, `Cache has entry for '${fileName}', but wiki has not.`)
+            }
+            page = wiki.get(fullPath)!
+        } else {
+            console.log(`First page load for '${fullPath}' or markdown content has changed.`)
+            page = new MarkdownPage(fullPath)
+        }
     }
     wiki.set(fullPath, page)
+    cache.set(page.markdown, fullPath)
     return page
 }
