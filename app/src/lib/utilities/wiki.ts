@@ -23,16 +23,18 @@ export function initWiki() {
 }
 
 export function loadMarkdownPage(fullPath: string): MarkdownPage {
-    let markdownForCache = fs.readFileSync(fullPath, "utf-8")
+    let markdownForCache;
     let page: MarkdownPage
     if (!fs.existsSync(fullPath)) {
         if(fullPath.endsWith("index.md")) {
             const folderPath = fullPath.substring(0, fullPath.lastIndexOf(path.sep))
             page = MarkdownPage.constructIndexPage(folderPath)
+            markdownForCache = page.markdown
         } else {
             throw error(404, `File ${fullPath} not found`)
         }
     } else {
+        markdownForCache = fs.readFileSync(fullPath, "utf-8")
         if (cache.get(markdownForCache) == fullPath) {
             console.log(`File "${fullPath}" has been loaded from the cache.`)
             if (!wiki.has(fullPath)) {

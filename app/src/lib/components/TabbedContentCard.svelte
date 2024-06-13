@@ -14,7 +14,6 @@
 	export let overviewHtml: string;
 
 	onMount(() => {
-
 		if (fancyBoxGallery) {
 			Fancybox.bind('[data-fancybox="gallery"]', {
 				Thumbs: {
@@ -104,6 +103,28 @@
 			padding: 20px 60px;
 			border-radius: 8px;
 
+			:global(table) {
+				width: 100%;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				border-collapse: collapse;
+				padding: 5px;
+				table-layout: fixed;
+
+				:global(th),
+				:global(td) {
+					border: 1px solid #ccc;
+					padding: 5px;
+					border-collapse: collapse;
+					border-spacing: 0;
+					vertical-align: top;
+
+					&:empty {
+						display: none;
+					}
+				}
+			}
+
 			#overview {
 				width: 25%;
 				min-width: 250px;
@@ -120,28 +141,6 @@
 					overflow: hidden;
 					hyphens: auto;
 					text-align: left;
-
-					:global(table) {
-						width: 100%;
-						border: 1px solid #ccc;
-						border-radius: 5px;
-						border-collapse: collapse;
-						padding: 5px;
-						table-layout: fixed;
-
-						:global(th),
-						:global(td) {
-							border: 1px solid #ccc;
-							padding: 5px;
-							border-collapse: collapse;
-							border-spacing: 0;
-							vertical-align: top;
-
-							&:empty {
-								display: none;
-							}
-						}
-					}
 				}
 			}
 

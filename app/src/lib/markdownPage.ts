@@ -65,13 +65,12 @@ export class MarkdownPage {
         this.#fileLink = fileLink
 
         this.markdown = markdown != null ? markdown : fs.readFileSync(filePath, "utf-8")
-        
+
         // Initial HTML from markdown
         this.#initialHtml = this.generateInitialHtml()
         this.#cheerio = cheerio.load(this.#initialHtml)
-        
+
         // HTML changes
-        this.overviewHtml = this.extractOverview()
         this.title = this.extractTitle()
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
         this.images = this.generateImages()
@@ -83,6 +82,7 @@ export class MarkdownPage {
             { name: "Hier erwähnt", linkList: this.generateMentions() },
         ]
         this.wrapImgTagsForFancyBox()
+        this.overviewHtml = this.extractOverview()
 
         // Final HTML
         this.html = this.#cheerio.html()
@@ -95,13 +95,23 @@ export class MarkdownPage {
         const sanitized = '<!DOCTYPE html>' + DOMPurify.sanitize(unsanitized)
         return sanitized
     }
-
-    //TODO
+    
     extractOverview() {
         const $ = this.#cheerio
-        console.log($("overview").html())
 
-        return "overview"
+        let overviewHtml = ""
+        if ($('h1, h2, h3, h4, h5, h6').length != 0) {
+            $('body').children().each((_, element) => {
+                if ($(element).is('h1, h2, h3, h4, h5, h6')) {
+                    return false;
+                } else {
+                    overviewHtml += $.html(element);
+                    $(element).remove();
+                }
+            });
+        }
+
+        return overviewHtml
     }
 
     generateImages(): LinkObject[] {
