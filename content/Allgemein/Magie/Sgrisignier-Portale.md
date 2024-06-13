@@ -1,5 +1,5 @@
 # Sgrisignier-Portale
-![Sgrisignier-Portal](./images/Sgrisignier-Portal_Roiatin.png)<!--TODO:scale=300px-->
+![Sgrisignier-Portal](./images/Sgrisignier-Portal_Roiatin.png)
 
 Auf nahezu jedem Planeten des Serpinit-Systems befinden sich rundliche Steintore die von uralter Runenmagie durchdrungen sind. Diese Steinbögen sind Portale, wobei in der Theorie immer genau zwei Portale miteinander verbunden sind. Sie wurden von den Sgrisigniern gebaut um zwischen den Planeten reisen zu können, sind jedoch für die modernen Völker lange Zeit aufgrund von Chaos-Interferenzen nicht nutzbar. 
 
@@ -8,7 +8,7 @@ Zwischen dem Steinbogen ist eine magische Oberfläche aufgespannt. Diese **Porta
 * Die Stärke des Wiederstandes den die Membran auf ein Material ausübt ist antiproportional zur Menge an magischer Potenz die dieses Material abgibt.
     * Die Sgrisignier als starke magische Wesen konnten die Portale somit ohne Mühe durchschreiten.
     * Da jedes Lebewesen ein wenig magische Potenz abstrahlt, ist beim Durchschreiten für die meisten ein mittlerer Wiederstand zu spüren.
-    * Nicht-lebendige Materialien die zusätzlich eine niedrige Potenzleitfähigkeit besitzen (z.B. Metall) müssen mitunter mit einiger Kraft durch das Portal befördert werden. Nicht selten hat dies Nebenwirkungen wie eine starke Erwärmung des Stoffes.  
+    * Nicht-lebendige Materialien die zusätzlich eine niedrige Potenzleitfähigkeit besitzen (z.B. Metall) müssen mitunter mit einiger Kraft durch das Portal befördert werden. Nicht selten hat dies Nebenwirkungen wie eine starke Erwärmung des Stoffes. Versucht man Wasser welches nahe seinem Potenzpunkt ist durch das Portal zu befördern, so verdampft dieses.  
 * Die Erwärmung von z.B. Metall ist deutlich extremer bei aktiven Chaos-Interferenzen
 * Die Membran regeneriert sich in Echtzeit, sie umgibt also alle durchdringenden Gegenstände zu jeder Zeit eng.
 
