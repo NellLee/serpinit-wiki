@@ -1,7 +1,8 @@
 
 import fs from "fs"
 import path from "path"
-import { marked } from 'marked'
+import { Marked, marked } from 'marked'
+import { createDirectives, presetDirectiveConfigs, type DirectiveConfig } from 'marked-directive'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
 import { generateHeaderId } from '$lib/utilities/utilities'
@@ -85,30 +86,29 @@ export class MarkdownPage {
         this.overviewHtml = this.extractOverview()
 
         // Final HTML
-        this.html = this.#cheerio.html()
+        this.html = DOMPurify.sanitize(this.#cheerio.html(), { USE_PROFILES: { html: true } })
+        // console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
 
         this.href = this.#fileLink.href
     }
 
     generateInitialHtml() {
-        const unsanitized = marked(this.markdown) as string
-        const sanitized = '<!DOCTYPE html>' + DOMPurify.sanitize(unsanitized)
-        return sanitized
+
+        return new Marked().use(createDirectives(
+            presetDirectiveConfigs
+        )).parse(this.markdown) as string
     }
-    
+
     extractOverview() {
         const $ = this.#cheerio
 
-        let overviewHtml = ""
-        if ($('h1, h2, h3, h4, h5, h6').length != 0) {
-            $('body').children().each((_, element) => {
-                if ($(element).is('h1, h2, h3, h4, h5, h6')) {
-                    return false;
-                } else {
-                    overviewHtml += $.html(element);
-                    $(element).remove();
-                }
-            });
+        let overviewHtml = null
+        let overviewElement = $('overview');
+
+        if (overviewElement.length > 0) {
+            overviewHtml = overviewElement.html();
+
+            overviewElement.remove();
         }
 
         return overviewHtml

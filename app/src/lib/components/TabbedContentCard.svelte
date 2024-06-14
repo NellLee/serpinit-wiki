@@ -11,7 +11,7 @@
 	export let title: string;
 	export let contentHtml: string;
 	export let fancyBoxGallery: boolean = true;
-	export let overviewHtml: string;
+	export let overviewHtml: string | null;
 
 	onMount(() => {
 		if (fancyBoxGallery) {
@@ -37,7 +37,7 @@
 		</div>
 	{/if}
 	<div id="content-body">
-		{#if overviewHtml != ''}
+		{#if overviewHtml}
 			<div id="overview">
 				<Card>
 					<div lang="de" id="overview-html">
@@ -103,25 +103,14 @@
 			padding: 20px 60px;
 			border-radius: 8px;
 
-			:global(table) {
-				width: 100%;
-				border: 1px solid #ccc;
-				border-radius: 5px;
-				border-collapse: collapse;
-				padding: 5px;
-				table-layout: fixed;
+			.header {
+				width: fit-content;
+				max-width: 100%;
 
-				:global(th),
-				:global(td) {
-					border: 1px solid #ccc;
-					padding: 5px;
-					border-collapse: collapse;
-					border-spacing: 0;
-					vertical-align: top;
-
-					&:empty {
-						display: none;
-					}
+				h1 {
+					font-size: 2.75em;
+					margin-top: 75px;
+					text-align: center;
 				}
 			}
 
@@ -154,21 +143,15 @@
 				}
 			}
 
-			.header {
-				width: fit-content;
-				max-width: 100%;
-
-				h1 {
-					font-size: 2.75em;
-					margin-top: 75px;
-					text-align: center;
-				}
-			}
+			// Globals for the content included with "@html"
 
 			:global(a[data-fancybox]) {
 				display: block;
-				width: 150px;
 				height: fit-content;
+
+				&:not(:is(figure *) > a[data-fancybox]) {
+					width: 150px; // Only apply default size to images that are NOT in a figure
+				}
 
 				:global(.thumbnail) {
 					width: 100%;
@@ -181,9 +164,35 @@
 					cursor: pointer;
 
 					&:hover {
-						transform: scale(1.05);
+						transform: scale(1.02);
 						box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 						border-color: #aaa;
+					}
+				}
+			}
+
+			:global(figure) {
+				margin: 40px auto;
+			}
+
+			:global(table) {
+				width: 100%;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				border-collapse: collapse;
+				padding: 5px;
+				table-layout: fixed;
+
+				:global(th),
+				:global(td) {
+					border: 1px solid #ccc;
+					padding: 5px;
+					border-collapse: collapse;
+					border-spacing: 0;
+					vertical-align: top;
+
+					&:empty {
+						display: none;
 					}
 				}
 			}

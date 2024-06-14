@@ -26,7 +26,7 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
     let markdownForCache;
     let page: MarkdownPage
     if (!fs.existsSync(fullPath)) {
-        if(fullPath.endsWith("index.md")) {
+        if (fullPath.endsWith("index.md")) {
             const folderPath = fullPath.substring(0, fullPath.lastIndexOf(path.sep))
             page = MarkdownPage.constructIndexPage(folderPath)
             markdownForCache = page.markdown
@@ -48,6 +48,15 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
         }
     }
     wiki.set(fullPath, page)
-    cache.set(markdownForCache, fullPath)
+    updateCache(fullPath, markdownForCache)
     return page
+}
+
+function updateCache(fullPath: string, markdownForCache: string) {
+    cache.forEach((value, key) => {
+        if (value === fullPath) {
+            cache.delete(key);
+        }
+    });
+    cache.set(markdownForCache, fullPath)
 }
