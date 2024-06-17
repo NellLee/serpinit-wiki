@@ -12,25 +12,80 @@ import { FileLink } from "./fileLink"
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
+// TODO: remove obsolete header extraction, simplify html sections (each a string + cheerio) and refactor change-application
+
+
+class DOMPart {
+    #html: string
+    cheerio: cheerio.CheerioAPI
+
+    constructor(html: string) {
+        this.#html = html;
+        this.cheerio = cheerio.load(html)
+    }
+
+    get html(): string {
+        return this.#html
+    }
+
+    set html(newHtml: string) {
+        this.#html = newHtml
+        this.cheerio = cheerio.load(newHtml)
+    }
+
+    toString() {
+        return this.#html
+    }
+
+    toJSON() {
+        return this.#html
+    }
+}
+class ChangeableDOM {
+    sections: DOMSections
+    lastChange: ChangeMap | null
+
+    constructor(content: DOMPart, overview: DOMPart | null) {
+        this.sections = {
+            content,
+            overview
+        }
+        this.lastChange = null
+    }
+
+    apply(change: DOMPartChanger) {
+        this.lastChange = change(this)
+        return this
+    }
+
+    sanitize() {
+        for (const section of Object.keys(this.sections)) {
+            const domPart = this.sections[section as keyof DOMSections]!
+            domPart.html = DOMPurify.sanitize(domPart.html, { USE_PROFILES: { html: true } })
+            // console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
+        }
+    }
+}
+type ChangeMap = { [key: string]: string | null } // Mapping changed section names to possible extracted value
+type DOMPartChanger = (current: ChangeableDOM) => ChangeMap // Should edit HTML sections and return change map
+type DOMSections = {
+    content: DOMPart,
+    overview: DOMPart | null,
+}
 
 export class MarkdownPage {
     #filePath: string
     #fileLink: FileLink
 
-    #initialHtml: string
-    #cheerio: cheerio.CheerioAPI
-
     markdown: string
     breadcrumbs: LinkObject[]
     images: LinkObject[]
     tabs: LinkObject[]
-    title: string
     toc: LinkTree
     tags: LinkObject[]
     references: NamedLinkList[]
-    overviewHtml: string | null
 
-    html: string
+    html: ChangeableDOM
     href: string
 
     static constructIndexPage(folderPath: string): MarkdownPage {
@@ -68,39 +123,31 @@ export class MarkdownPage {
         this.markdown = markdown != null ? markdown : fs.readFileSync(filePath, "utf-8")
 
         // Initial HTML from markdown
-        this.#initialHtml = this.generateInitialHtml()
-        this.#cheerio = cheerio.load(this.#initialHtml)
+        this.html = this.generateInitialDOM()
 
-        // HTML changes
-        this.title = this.extractTitle()
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
         this.images = this.generateImages()
         this.tabs = this.generateTabs()
         this.toc = this.generateTOC()
+
+        // HTML changes
+        this.html.apply(this.extractOverview)
+        //TODO
         this.tags = this.generateTags()
         this.references = [
             { name: "Verwandte Artikel", linkList: this.generateRelated() },
             { name: "Hier erwähnt", linkList: this.generateMentions() },
         ]
         this.wrapImgTagsForFancyBox()
-        this.overviewHtml = this.extractOverview()
 
         // Final HTML
-        this.html = DOMPurify.sanitize(this.#cheerio.html(), { USE_PROFILES: { html: true } })
-        // console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
 
         this.href = this.#fileLink.href
     }
 
-    generateInitialHtml() {
-
-        return new Marked().use(createDirectives(
-            presetDirectiveConfigs
-        )).parse(this.markdown) as string
-    }
-
-    extractOverview() {
-        const $ = this.#cheerio
+    extractOverview(current: ChangeableDOM): ChangeMap {
+        const content = current.sections.content
+        const $ = content.cheerio
 
         let overviewHtml = null
         let overviewElement = $('overview');
@@ -108,10 +155,36 @@ export class MarkdownPage {
         if (overviewElement.length > 0) {
             overviewHtml = overviewElement.html();
 
-            overviewElement.remove();
-        }
+            current.sections.overview = new DOMPart(overviewHtml!)
 
-        return overviewHtml
+            overviewElement.remove();
+
+            return {
+                "overview": null
+            }
+        }
+        return {}
+    }
+
+    generateInitialDOM(): ChangeableDOM {
+
+        let overview: DOMPart | null = null;
+        const content = new DOMPart(new Marked().use(createDirectives([
+            {
+                level: 'container',
+                marker: '::',
+                renderer(token) {
+                    if (token.meta.name === 'overview') {
+                        overview = new DOMPart(marked(token.text) as string)
+                        return ""
+                    }
+                    return false
+                }
+            },
+            ...presetDirectiveConfigs
+        ])).parse(this.markdown) as string)
+
+        return new ChangeableDOM(content, overview)
     }
 
     generateImages(): LinkObject[] {
@@ -156,8 +229,8 @@ export class MarkdownPage {
         });
     }
 
-    extractTitle() {
-        const $ = this.#cheerio
+    extractTitle(content: DOMPart): string {
+        const $ = content.cheerio
 
         let title = this.#fileLink.fileName // fallback to file name
         if ($('h1').length != 0) {
@@ -174,7 +247,7 @@ export class MarkdownPage {
     }
 
     generateTOC() {
-        const $ = this.#cheerio
+        const $ = this.html["content"]!.cheerio
         const tocTree: LinkTree = {
             children: []
         }
