@@ -8,7 +8,7 @@
 	export let data;
 
 	function findQueryIn(page: MarkdownPage) {
-		const $ = cheerio.load(page.#html)
+		const $ = cheerio.load(page.contentHtml)
 		const firstParagraph = $('p:contains(' + data.query + ')').first().text()
 		if(firstParagraph.length > 0) {
 			const querySentenceRegex = new RegExp(`[^.]*\\b${data.query}\\b[^.]*\\.`);

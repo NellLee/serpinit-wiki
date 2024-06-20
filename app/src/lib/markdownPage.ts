@@ -12,9 +12,6 @@ import { FileLink } from "./fileLink"
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
-// TODO: remove obsolete header extraction, simplify html sections (each a string + cheerio) and refactor change-application
-
-
 class DOMPart {
     cheerio: cheerio.CheerioAPI
 
@@ -57,9 +54,11 @@ class ChangeableDOM {
 
     sanitize() {
         for (const section of Object.keys(this.sections)) {
-            const domPart = this.sections[section as keyof DOMSections]!
-            domPart.html = DOMPurify.sanitize(domPart.html, { USE_PROFILES: { html: true } })
-            // console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
+            const domPart = this.sections[section as keyof DOMSections]
+            if(domPart) {
+                domPart.html = DOMPurify.sanitize(domPart.html, { USE_PROFILES: { html: true } })
+                // console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
+            }
         }
     }
 }
@@ -141,6 +140,7 @@ export class MarkdownPage {
         ]
 
         // Final HTML
+        this.#html.sanitize()
         this.contentHtml = this.#html.sections.content.html
         this.overviewHtml = this.#html.sections.overview?.html ?? null
 
