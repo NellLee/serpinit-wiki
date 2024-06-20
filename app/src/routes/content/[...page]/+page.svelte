@@ -28,7 +28,7 @@
 			slot="content"
 			tabLinkList={data.page.tabs}
 			title={data.page.title}
-			contentHtml={data.page.html}
+			contentHtml={data.page.contentHtml}
 			overviewHtml={data.page.overviewHtml}
 		/>
 	</MidPanel>

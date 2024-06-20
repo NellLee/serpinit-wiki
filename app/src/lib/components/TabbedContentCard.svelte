@@ -9,8 +9,8 @@
 
 	export let tabLinkList: LinkObject[];
 	export let title: string;
-	export let contentHtml: string;
 	export let fancyBoxGallery: boolean = true;
+	export let contentHtml: string;
 	export let overviewHtml: string | null;
 
 	onMount(() => {

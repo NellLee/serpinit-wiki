@@ -5,7 +5,7 @@ import { Marked, marked } from 'marked'
 import { createDirectives, presetDirectiveConfigs, type DirectiveConfig } from 'marked-directive'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
-import { generateHeaderId } from '$lib/utilities/utilities'
+import { generateHeaderId, resolveRelativeUrl } from '$lib/utilities/utilities'
 import { generateBreadcrumbs, getLinkedFilePath } from "./utilities/links"
 import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
 import { FileLink } from "./fileLink"
@@ -16,29 +16,26 @@ export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
 
 class DOMPart {
-    #html: string
     cheerio: cheerio.CheerioAPI
 
     constructor(html: string) {
-        this.#html = html;
         this.cheerio = cheerio.load(html)
     }
 
     get html(): string {
-        return this.#html
+        return this.cheerio.html()
     }
 
     set html(newHtml: string) {
-        this.#html = newHtml
         this.cheerio = cheerio.load(newHtml)
     }
 
     toString() {
-        return this.#html
+        return this.cheerio.html()
     }
 
     toJSON() {
-        return this.#html
+        return this.cheerio.html()
     }
 }
 class ChangeableDOM {
@@ -76,16 +73,19 @@ type DOMSections = {
 export class MarkdownPage {
     #filePath: string
     #fileLink: FileLink
+    #html: ChangeableDOM
 
     markdown: string
     breadcrumbs: LinkObject[]
+    title: string
     images: LinkObject[]
     tabs: LinkObject[]
     toc: LinkTree
     tags: LinkObject[]
     references: NamedLinkList[]
+    contentHtml: string
+    overviewHtml: string | null
 
-    html: ChangeableDOM
     href: string
 
     static constructIndexPage(folderPath: string): MarkdownPage {
@@ -123,29 +123,31 @@ export class MarkdownPage {
         this.markdown = markdown != null ? markdown : fs.readFileSync(filePath, "utf-8")
 
         // Initial HTML from markdown
-        this.html = this.generateInitialDOM()
+        this.#html = this.generateInitialDOM()
 
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
+        this.title = this.extractTitle()
         this.images = this.generateImages()
         this.tabs = this.generateTabs()
         this.toc = this.generateTOC()
+        this.tags = this.generateTags()
 
         // HTML changes
-        this.html.apply(this.extractOverview)
-        //TODO
-        this.tags = this.generateTags()
+        this.#html.apply(this.extractOverviewSection.bind(this))
+        this.#html.apply(this.wrapImgTagsForFancyBox.bind(this))
         this.references = [
             { name: "Verwandte Artikel", linkList: this.generateRelated() },
             { name: "Hier erwähnt", linkList: this.generateMentions() },
         ]
-        this.wrapImgTagsForFancyBox()
 
         // Final HTML
+        this.contentHtml = this.#html.sections.content.html
+        this.overviewHtml = this.#html.sections.overview?.html ?? null
 
         this.href = this.#fileLink.href
     }
 
-    extractOverview(current: ChangeableDOM): ChangeMap {
+    extractOverviewSection(current: ChangeableDOM): ChangeMap {
         const content = current.sections.content
         const $ = content.cheerio
 
@@ -210,27 +212,40 @@ export class MarkdownPage {
     }
 
 
-    wrapImgTagsForFancyBox() {
+    wrapImgTagsForFancyBox(current: ChangeableDOM): ChangeMap {
         const fileName = this.#fileLink.fileName
         const folderHref = this.#fileLink.href.replace("/content", "").replace(`${fileName}.${this.#fileLink.extension}`, "")
 
-        const $ = this.#cheerio
-        $('img').each((_, img) => {
-            const imgElement = $(img);
-            let src = imgElement.attr('src')
-            if (imgElement.attr('src')?.startsWith(".")) {
-                src = folderHref + imgElement.attr('src')?.substring(1)
-                imgElement.attr('src', src)
+        const changeMap: ChangeMap = {}
+        for(let key of Object.keys(current.sections)) {
+            const section = current.sections[key as keyof DOMSections]!
+            if(section) {
+                const $ = section.cheerio
+                let links: string[] = []
+                $('img').each((_, img) => {
+                    const imgElement = $(img);
+                    let src = imgElement.attr('src')
+                    if(src) {
+                        if (src.startsWith(".")) {
+                            src = resolveRelativeUrl(folderHref, src.substring(2))
+                            imgElement.attr('src', src)
+                        }
+                        imgElement.attr('loading', "lazy")
+                        imgElement.addClass("thumbnail")
+                        const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery');
+                        imgElement.wrap(link);
+                        links.push(src)
+                    }
+                });
+                changeMap[key] = links.join(",")
             }
-            imgElement.attr('loading', "lazy")
-            imgElement.addClass("thumbnail")
-            const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery');
-            imgElement.wrap(link);
-        });
+        }
+
+        return changeMap
     }
 
-    extractTitle(content: DOMPart): string {
-        const $ = content.cheerio
+    extractTitle(): string {
+        const $ = this.#html.sections.content.cheerio
 
         let title = this.#fileLink.fileName // fallback to file name
         if ($('h1').length != 0) {
@@ -247,7 +262,7 @@ export class MarkdownPage {
     }
 
     generateTOC() {
-        const $ = this.html["content"]!.cheerio
+        const $ = this.#html.sections.content.cheerio
         const tocTree: LinkTree = {
             children: []
         }
@@ -330,7 +345,7 @@ export class MarkdownPage {
     }
 
     generateMentions() {
-        const $ = this.#cheerio
+        const $ = this.#html.sections.content.cheerio
         const folderPath = this.#fileLink.path
         const mentioned: LinkObject[] = []
         $('a[href$=".md"]:not(nav a)').each(function (_, element) {
@@ -365,16 +380,16 @@ export class MarkdownPage {
 
     toJSON() {
         let result = {
-            html: this.html,
             markdown: this.markdown,
+            breadcrumbs: this.breadcrumbs,
             title: this.title,
             tags: this.tags,
             tabs: this.tabs,
-            breadcrumbs: this.breadcrumbs,
             toc: this.toc,
             references: this.references,
             href: this.href,
             images: this.images,
+            contentHtml: this.contentHtml,
             overviewHtml: this.overviewHtml
         }
 
