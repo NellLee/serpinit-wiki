@@ -2,7 +2,7 @@
 import fs from "fs"
 import path from "path"
 import { Marked, marked } from 'marked'
-import { createDirectives, presetDirectiveConfigs, type DirectiveConfig } from 'marked-directive'
+import { createDirectives, presetDirectiveConfigs, type DirectiveConfig, type DirectiveRenderer } from 'marked-directive'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
 import { generateHeaderId, resolveRelativeUrl } from '$lib/utilities/utilities'
@@ -102,11 +102,24 @@ export class MarkdownPage {
 
         const imageFiles = getFilePathsInFolder(folderPath, [".jpg", ".jpeg", ".png"], 0)
 
-        for (let file of imageFiles) {
-            const fileLink = new FileLink(folderPath + file)
-            constructedMarkdown += `![${fileLink.text}](${fileLink.href.replace("/content", "")})\n`
-        }
+        if (imageFiles.length > 0) {
+            
+            constructedMarkdown += "::::div{#gallery}\n"
+            
+            for (let file of imageFiles) {
+                const fileLink = new FileLink(folderPath + file)
+    
+                constructedMarkdown += `
+:::figure{style="width: 400px;"}
+![${fileLink.text}](${fileLink.href.replace("/content", "")})
+::figcaption[${fileLink.text.replaceAll("_", " ")}]
+:::
+`
+            }
 
+            constructedMarkdown += "\n::::"
+        }
+        console.log(constructedMarkdown)
         if (folderPath.endsWith("images")) {
             return new MarkdownPage(folderPath, constructedMarkdown)
         }
@@ -172,18 +185,11 @@ export class MarkdownPage {
 
         let overview: DOMPart | null = null;
         const content = new DOMPart(new Marked().use(createDirectives([
+            ...presetDirectiveConfigs,
             {
                 level: 'container',
-                marker: '::',
-                renderer(token) {
-                    if (token.meta.name === 'overview') {
-                        overview = new DOMPart(marked(token.text) as string)
-                        return ""
-                    }
-                    return false
-                }
+                marker: '::::',
             },
-            ...presetDirectiveConfigs
         ])).parse(this.markdown) as string)
 
         return new ChangeableDOM(content, overview)

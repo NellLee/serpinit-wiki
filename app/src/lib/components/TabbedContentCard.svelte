@@ -145,16 +145,56 @@
 
 			// Globals for the content included with "@html"
 
+			:global(figure) {
+				position: relative;
+				width: 400px;
+				height: fit-content;
+				margin: 0;
+
+				:global(p) {
+					padding: 0;
+					margin: 0;
+				}
+
+				:global(figcaption) {
+					position: absolute;
+					bottom: 0;
+					bottom: 2px; // Adjusting for the image border
+					left: 2px; // Adjusting for the image border
+					width: calc(100% - 4px); // Adjusting for the image border on both sides
+					background-color: rgba(61, 61, 61, 0.74); // semi-transparent grey
+					color: white;
+					text-align: center;
+					padding: 5px;
+					box-sizing: border-box;
+				}
+
+				&:hover {
+					transform: scale(1.02);
+					box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+					border-color: #aaa;
+				}
+			}
+
 			:global(a[data-fancybox]) {
 				display: block;
 				height: fit-content;
 
 				&:not(:is(figure *) > a[data-fancybox]) {
 					width: 150px; // Only apply default size to images that are NOT in a figure
+
+					// Have to reapply fig hover effect
+					&:hover {
+						transform: scale(1.02);
+						box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+						border-color: #aaa;
+					}
 				}
 
 				:global(.thumbnail) {
+					display: block;
 					width: 100%;
+					height: auto;
 					border: 2px solid #ddd;
 					border-radius: 5px;
 					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -162,11 +202,19 @@
 						transform 0.3s ease,
 						box-shadow 0.3s ease;
 					cursor: pointer;
+				}
+			}
 
-					&:hover {
-						transform: scale(1.02);
-						box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-						border-color: #aaa;
+			:global(#gallery) {
+				width: 100%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+				gap: 55px;
+
+				:global(a[data-fancybox]) {
+					&:not(:is(figure *) > a[data-fancybox]) {
+						width: 250px;
 					}
 				}
 			}
