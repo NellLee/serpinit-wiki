@@ -8,7 +8,7 @@ export function GET({url}) {
     if (!query) {
         throw error(400, "URL parameter 'q' required")
     }
-    let searchResults: SearchResult[] = search(query)
+    let searchResults = search(query)
     
     return json(searchResults)
 }

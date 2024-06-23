@@ -22,8 +22,8 @@
 			<ul>
 				{#each data.searchResults as result}
 					<li>
-						<a href={result.page.href}>{result.page.title}</a>
-						<p>{ @html result.excerpt}</p>
+						<a href={result.item.href}>{result.item.title}</a>
+						<p>{ @html result.matches?.map(match => match.value).join(" ... ")}</p>
 					</li>
 				{/each}
 			</ul>

@@ -6,6 +6,7 @@ import { error } from '@sveltejs/kit';
 import fs from 'fs'
 import * as cheerio from 'cheerio'
 import { extractFirstSentenceOrWords, removeDuplicatesAndPartials } from './utilities';
+import Fuse, { type FuseResult } from 'fuse.js';
 
 export const wiki: Map<string, MarkdownPage> = new Map()
 export const cache: Map<string, string> = new Map() //maps 
@@ -65,155 +66,17 @@ export type SearchResult = {
     excerpt: string;
 }
 
-export function search(query: string): SearchResult[] {
+export function search(query: string): FuseResult<MarkdownPage>[] {
     query = query.trim().toLowerCase()
-    const results: SearchResult[] = [];
+    const options = {
+        keys: ['title', 'markdown', 'tags'],
+        includeMatches: true,
+    };
+    const fuse = new Fuse(Array.from(wiki.values()), options);
 
-    for (let page of wiki.values()) {
-        let priority = 0;
-        let excerpts: string[] = [];
-        
-        // Load the HTML content
-        const $ = cheerio.load(page.contentHtml);
-        
-        const fallbackExcerpt = extractFirstSentenceOrWords($('p').first().text())
-
-        // Search in the title
-        if (page.title.toLowerCase().includes(query)) {
-            priority += 100;
-        }
-
-        // Search in the tags
-        page.tags.forEach(tag => {
-            if (tag.text.toLowerCase().includes(query)) {
-                priority += 80;
-            }
-        });
-
-        // Search in headers and paragraphs
-        const headers = $('h1, h2, h3, h4, h5, h6');
-        const paragraphs = $('p');
-
-        headers.each((i, header) => {
-            if ($(header).text().toLowerCase().includes(query)) {
-                priority += 20
-                const siblingParagraph = $(header).next('p');
-                const siblingExcerpt = extractFirstSentenceOrWords(siblingParagraph.text())
-                let excerpt = $(header).text()
-                if(siblingExcerpt != "") {
-                    excerpt += `: ${siblingExcerpt}`
-                } 
-                excerpts.push(excerpt)
-            }
-        });
-
-        paragraphs.each((i, paragraph) => {
-            if ($(paragraph).text().toLowerCase().includes(query)) {
-                priority += 10
-                excerpts.push(extractFirstSentenceOrWords($(paragraph).text()))
-            }
-        });
-
-        excerpts = removeDuplicatesAndPartials(excerpts)
-
-        if(excerpts.length == 0) {
-            excerpts = [fallbackExcerpt]
-        }
-
-        // If the priority is greater than 0, add the result
-        if (priority > 0) {
-            results.push({
-                page,
-                priority,
-                excerpt: "..." + excerpts.join('... ') + "..."
-            });
-        }
-    }
-
-    // Sort results by priority in descending order
-    results.sort((a, b) => b.priority - a.priority);
-
-    return results;
-    // const maxExcerptChars = 500
-    // const querySentenceRegex = new RegExp(`[^.]*\\b${query}\\b[^.]*\\.`);
-    // const sentenceRegex = new RegExp(`[^.]*\\.`)
-
-    // const results: SearchResult[] = []
-    // for (let page of wiki.values()) {
-
-    //     // Search in page title
-    //     if(page.title.includes(query)) {
-    //         const $ = cheerio.load(page.contentHtml)
-
-    //         let excerpt = ""
-
-    //         const firstParagraphText = $('p').first().text()
-    //         const matchedSentence = firstParagraphText.match(sentenceRegex) ?? [];
-    //         if(matchedSentence.length > 0) {
-    //             excerpt = matchedSentence[0]! + "..."
-    //         } else {
-    //             excerpt = firstParagraphText.substring(0, 100)+"..."
-    //         }
-
-    //         results.push({ 
-    //             page: page,
-    //             priority: 1,
-    //             excerpt,
-    //         })
-    //     }
-
-    //     // Search in page tags
-
-    //     // Search in page headers
-
-    //     // Search in page content
-    //     const $ = cheerio.load(page.contentHtml)
-    //     const paragraphs = $('p:contains(' + query + ')')
-    //     if(paragraphs.length > 0) {
-    //         let excerpt = ""
-
-    //         paragraphs.each(function(_, paragraph) {
-    //             const matchedQuerySentence = $(paragraph).text().match(querySentenceRegex) ?? [];
-    //             if(matchedQuerySentence.length > 0) {
-    //                 const highlightedQuerySentence = matchedQuerySentence[0]!.replace(new RegExp(`\\b${query}\\b`, 'gi'), `<strong>${query}</strong>`);
-
-    //                 if(excerpt.length + highlightedQuerySentence.length < maxExcerptChars) {
-    //                     excerpt += "..." + highlightedQuerySentence
-    //                 } else {
-    //                     excerpt += "..."
-    //                 }
-    //             }
-    //         })
-    //         if(excerpt = "") { // Fallback to first Sentence of paragraph with query match (or first 100 chars)
-    //             const firstParagraphText = paragraphs.first().text()
-    //             const matchedSentence = firstParagraphText.match(sentenceRegex) ?? [];
-    //             if(matchedSentence.length > 0) {
-    //                 excerpt = matchedSentence[0]! + "..."
-    //             } else {
-    //                 excerpt = firstParagraphText.substring(0, 100)+"..."
-    //             }
-    //         }
-
-
-    //         results.push({
-    //             page: page,
-    //             priority: 2,
-    //             excerpt
-    //         })
-    //         continue
-    //     }
-    // }
-
-    // return results
-
-
-    // // const previewLength = 250
-    // // const keywordIndex = firstParagraph.indexOf(data.query);
-    // // const surroundingText = firstParagraph.substring(
-    // // 	Math.max(0, keywordIndex - previewLength/2), // Start position
-    // // 	Math.min(firstParagraph.length, keywordIndex + data.query.length + previewLength/2) // End position
-    // // );
-    // // return surroundingText
+    const result = fuse.search(query)
+    
+    return result;
 }
 
 function updateCache(fullPath: string, markdownForCache: string) {
