@@ -42,7 +42,6 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
                 throw error(500, `Cache has entry for '${fileName}', but wiki has not.`)
             }
             page = wiki.get(fullPath)!
-            console.log(page.markdown)
         } else {
             console.log(`First page load for '${fullPath}' or markdown content has changed.`)
             page = new MarkdownPage(fullPath)

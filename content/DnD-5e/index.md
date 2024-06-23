@@ -144,3 +144,86 @@
 | 98   | 29.8704| 14.9352   |
 | 99   | 30.1752| 15.0876   |
 | 100  | 30.48  | 15.24     |
+
+### Rolls
+| DC    | Leicht  | Mittel  | Schwer  | Extrem      |
+|-------|---------|---------|---------|-------------|
+|       | 4 + 1d6 | 9 + 1d6 | 14 + 1d6| 19 + 1d6    |
+
+### Improvisierte Challenge
+| Information                | Formel                       |
+|----------------------------|------------------------------|
+| Schwierigkeitsgrad (CR)    | Zwischen 1 und 30            |
+| AC (Rüstungsklasse)        | 12 + ½ CR                    |
+| DC (Fähigkeiten-SG)        | 12 + ½ CR                    |
+| Trefferpunkte (Hit Points) | 20 × CR                      |
+| Angriffsbonus              | 3 + ½ CR                     |
+| Proficiency in Rettungswürfen oder Fertigkeiten | 3 + ½ CR |
+| Einzelziel-Schaden         | (CR×2)d6                     |
+| Mehrziel-Schaden           | (CR×1)d6                     |
+
+### Deadly Monster CR Threshold
+| Levelbereich | Bedingung                              |
+|--------------|----------------------------------------|
+| Lvl 1-4      | CRs > ¼ Gesamtstufen der Charaktere    |
+| Lvl 5-10     | CRs > ½ Gesamtstufen der Charaktere    |
+| Lvl 11-16    | CRs > ¾ Gesamtstufen der Charaktere    |
+| Lvl 17-20    | CRs > Gesamtstufen der Charaktere      |
+
+### Number of Creatures in Areas of Effect
+| Area Size    | Number of Creatures  | Example Spell         |
+|--------------|----------------------|-----------------------|
+| Tiny Area    | 1 or 2 creatures     | Cloud of Daggers      |
+| Small Area   | 2 or 3 creatures     | Burning Hands         |
+| Large Area   | 4 to 6 creatures     | Fireball              |
+| Huge Area    | 12 creatures         | Turn Undead           |
+| Short Line   | 2 or 3 creatures     | Wall of Fire          |
+| Large Line   | 2 to 4 creatures     | Lightning Bolt        |
+
+### Conditions
+| Englisch / Deutsch | Beschreibung |
+|--------------------|--------------|
+| Blinded / Blind    | Kann nicht sehen und scheitert automatisch bei allen Fähigkeitsprüfungen, die Sicht erfordern. Angriffswürfe gegen das Wesen haben Vorteil, und die Angriffswürfe des Wesens haben Nachteil. |
+| Charmed / Bezaubert | Kann den Bezaubernden nicht angreifen oder mit schädlichen Fähigkeiten oder magischen Effekten ins Visier nehmen. Der Bezaubernde hat Vorteil bei jeder Fähigkeitsprüfung zur sozialen Interaktion mit dem Wesen. |
+| Deafened / Taub    | Kann nicht hören und scheitert automatisch bei allen Fähigkeitsprüfungen, die Gehör erfordern. |
+| Frightened / Verängstigt | Hat Nachteile bei Fähigkeitsprüfungen und Angriffswürfen, solange die Quelle seiner Angst in Sichtweite ist. Kann sich nicht freiwillig der Quelle der Angst nähern. |
+| Grappled / Umklammert | Die Geschwindigkeit wird auf 0 reduziert und kann keinen Nutzen aus Boni auf die Geschwindigkeit ziehen. Der Zustand endet, wenn der Umklammernde handlungsunfähig ist. Endet auch, wenn ein Effekt das umklammerte Wesen aus der Reichweite des Umklammernden oder des Umklammerungseffekts entfernt. |
+| Incapacitated / Handlungsunfähig | Kann keine Aktionen oder Reaktionen durchführen. |
+| Invisible / Unsichtbar | Ohne Hilfe von Magie oder einem speziellen Sinn unsichtbar. Für Zwecke des Verbergens stark verdeckt. Angriffswürfe gegen das Wesen haben Nachteil, und die Angriffswürfe des Wesens haben Vorteil. |
+| Paralyzed / Paralysiert | Handlungsunfähig und kann sich nicht bewegen oder sprechen. Scheitert automatisch bei Stärke- und Geschicklichkeitsrettungswürfen. Angriffswürfe gegen das Wesen haben Vorteil. Jeder Treffer gegen das Wesen ist ein Kritischer Treffer, wenn der Angreifer sich innerhalb von 5 Fuß befindet. |
+| Petrified / Versteinert | In Stein verwandelt. Handlungsunfähig (siehe den Zustand), kann sich nicht bewegen oder sprechen und ist sich seiner Umgebung nicht bewusst. Angriffswürfe gegen das Wesen haben Vorteil. Scheitert automatisch bei Stärke- und Geschicklichkeitsrettungswürfen. Resistenz gegen alle Schäden. Immun gegen Gift und Krankheit. |
+| Poisoned / Vergiftet | Nachteile bei Angriffswürfen und Fähigkeitsprüfungen. |
+| Prone / Liegend | Einzige Bewegungsoption ist das Kriechen, es sei denn, es steht auf und beendet dadurch den Zustand. Nachteile bei Angriffswürfen. Ein Angriffswurf gegen das Wesen hat Vorteil, wenn der Angreifer sich innerhalb von 5 Fuß befindet. Andernfalls hat der Angriffswurf Nachteil. |
+| Restrained / Eingeschränkt | Die Geschwindigkeit wird auf 0 reduziert und kann keinen Nutzen aus Boni auf die Geschwindigkeit ziehen. Angriffswürfe gegen das Wesen haben Vorteil, und die Angriffswürfe des Wesens haben Nachteil. Das Wesen hat Nachteile bei Geschicklichkeitsrettungswürfen. |
+| Stunned / Benommen | Handlungsunfähig, kann sich nicht bewegen und kann nur stockend sprechen. Scheitert automatisch bei Stärke- und Geschicklichkeitsrettungswürfen. Angriffswürfe gegen das Wesen haben Vorteil. |
+| Unconscious / Bewusstlos | Handlungsunfähig, kann sich nicht bewegen oder sprechen, und ist sich seiner Umgebung nicht bewusst. Lässt fallen, was es in der Hand hält und fällt zu Boden. Scheitert automatisch bei Stärke- und Geschicklichkeitsrettungswürfen. Angriffswürfe gegen das Wesen haben Vorteil. Jeder Treffer gegen das Wesen ist ein Kritischer Treffer, wenn der Angreifer sich innerhalb von 5 Fuß vom Wesen befindet. |
+
+### Resting
+| Ruhezustand         | Beschreibung |
+|---------------------|--------------|
+| Kurze Ruhepause     | Eine Ruhezeit von mindestens einer Stunde, während der du nichts Anstrengenderes tun darfst als Essen, Trinken, Lesen oder Wunden versorgen. Die folgenden Effekte werden am Ende einer kurzen Ruhepause abgehandelt:  |
+|                     | • Du erhältst die Verwendung von Fähigkeiten, Eigenschaften und Ressourcen zurück, die durch eine kurze Ruhepause erneuert werden. |
+|                     | • Du darfst deine Trefferwürfel verwenden, indem du einen Würfel des entsprechenden Typs würfelst. Du erhältst Trefferpunkte in Höhe des geworfenen Werts + deinem Konstitutionsmodifikator. |
+| Lange Ruhepause     | Eine Zeit der ausgedehnten Ruhe von mindestens acht Stunden, während der du entweder schlafen oder nur leichte Aktivitäten wie Gespräche, Essen oder Wache halten ausführen darfst. Diese Aktivitäten dürfen höchstens 2 Stunden deiner langen Ruhepause in Anspruch nehmen. Das Ausführen von mehr als einer Stunde anstrengender Aktivitäten wie Laufen oder Kämpfen wird auch deine lange Ruhepause unterbrechen. Du darfst nur von einer langen Ruhepause in einem Zeitraum von 24 Stunden profitieren und du musst die Ruhepause mit mindestens einem Trefferpunkt beginnen. Die folgenden Effekte werden am Ende einer langen Ruhepause abgehandelt:   |
+|                     | • Du erhältst die Verwendung von Fähigkeiten, Eigenschaften und Ressourcen zurück, die durch eine lange Ruhepause erneuert werden. |
+|                     | • Du erhältst alle deine verlorenen Trefferpunkte zurück, sofern nicht anders angegeben.  |
+|                     | • Du erhältst eine Anzahl von Trefferwürfeln zurück, die der Hälfte deiner möglichen Gesamttrefferwürfel entspricht. |
+
+### Damage and Dying
+| Zustand / Zustand   | Beschreibung |
+|---------------------|--------------|
+| Bewusstlos / Unconscious | Wenn deine Trefferpunkte auf null reduziert werden, wirst du bewusstlos. Es gibt keine negativen Trefferpunktwerte. |
+| Death Saving Throws | Immer wenn du deinen Zug mit null Trefferpunkten beginnst, musst du einen Todesrettungswurf machen, der nicht mit einem Konstitutionsrettungswurf verwechselt werden darf. Bei einer Wurfaugenzahl von 10 oder höher hast du Erfolg. Andernfalls scheiterst du. Bei deinem dritten Erfolg wirst du stabil, während du bei deinem dritten Misserfolg stirbst. Diese Ergebnisse müssen nicht aufeinanderfolgen. Bei einer Wurfaugenzahl von 1 erleidest du zwei Misserfolge, während du bei einer Wurfaugenzahl von 20 stabil wirst und einen Trefferpunkt zurückgewinnst. |
+| Schaden bei 0 HP    | Wenn du Schaden erleidest, während du null Trefferpunkte hast, erleidest du einen Misserfolg bei deinem Todesrettungswurf. Bei einem kritischen Treffer erleidest du stattdessen zwei Misserfolge. Wenn dieser Schaden gleich oder größer ist als deine maximalen Trefferpunkte, erleidest du sofortigen Tod. |
+
+### Erschöpfung
+| Lv. | Effekt                               |
+|-----|--------------------------------------|
+| 1   | Nachteile bei Fähigkeitsprüfungen    |
+| 2   | Geschwindigkeit halbiert             |
+| 3   | Nachteile bei Angriffswürfen und Rettungswürfen |
+| 4   | Maximale Trefferpunkte halbiert      |
+| 5   | Geschwindigkeit auf 0 reduziert      |
+| 6   | Tod                                  |
+Die Effekte der Erschöpfung sind kumulativ. Am Ende einer langen Ruhepause, wenn eine Kreatur Nahrung oder Getränke zu sich genommen hat, verringert sie ihre Erschöpfungsstufe um eins.
+

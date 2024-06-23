@@ -119,7 +119,6 @@ export class MarkdownPage {
 
             constructedMarkdown += "\n::::"
         }
-        console.log(constructedMarkdown)
         if (folderPath.endsWith("images")) {
             return new MarkdownPage(folderPath, constructedMarkdown)
         }
