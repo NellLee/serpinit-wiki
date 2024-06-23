@@ -8,7 +8,6 @@
 	import Tags from '$lib/components/Tags.svelte';
 
 	export let data;
-	console.log("HERE")
 </script>
 
 <svelte:head>

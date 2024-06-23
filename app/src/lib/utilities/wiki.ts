@@ -60,24 +60,115 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
     return page
 }
 
-export type SearchResult = {
-    page: MarkdownPage;
-    priority: number;
-    excerpt: string;
+export type SearchResult<T> = {
+    item: T;
+    excerpts: string[];
 }
 
-export function search(query: string): FuseResult<MarkdownPage>[] {
-    query = query.trim().toLowerCase()
-    const options = {
-        keys: ['title', 'markdown', 'tags'],
-        includeMatches: true,
-    };
-    const fuse = new Fuse(Array.from(wiki.values()), options);
-
-    const result = fuse.search(query)
+export function search(query: string): SearchResult<MarkdownPage>[] {
+    const pages: MarkdownPage[] = Array.from(wiki.values());
     
+    const fuse = new Fuse(pages, {
+        keys: [
+            { name: 'tags', weight: 10 },
+            { name: 'title', weight: 5 },
+            { name: 'contentHtml', weight: 1}
+        ],
+        threshold: 0.0,
+        ignoreLocation: true,
+        includeScore: true,
+        findAllMatches: true,
+        ignoreFieldNorm: true,
+    });
+
+    const fuseResults = fuse.search(query);
+    
+    const result = fuseResults.map(result => {
+        const excerpts = createExcerpts(result.item.contentHtml, query, result.item.href);
+        console.log(`${result.item.title}: ${(result.score ?? 0)*100}`)
+        return {
+            item: result.item,
+            excerpts
+        };
+    });
+
+    return result
+}
+
+//TODO: inner tags (like <li> are broken)
+function createExcerpts(html: string, query: string, pageHref: string): string[] {
+    const $ = cheerio.load(html);
+
+    const headerParagraphMap: {[key: string]: string} = {}
+
+    $('body > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6)').each((_, element) => {
+        const tagName = $(element).prop('tagName').toLowerCase(); // Get tag name in lowercase
+        const content = $(element).text();
+
+        if (content.toLowerCase().includes(query.toLowerCase())) {
+            let parentHeader = $(element).prevAll('h1, h2, h3, h4, h5, h6').first();
+            if (parentHeader.length === 0) {
+                parentHeader = $(element).parent().prevAll('h1, h2, h3, h4, h5, h6').first();
+            }
+
+            const headerHtml = $.html($(parentHeader));
+            const headerLink = `<a href="${pageHref}#${parentHeader.attr('id')}">${headerHtml}</a>`;
+            
+            const highlightedContent = content.replace(new RegExp(`(${query})`, 'gi'), '<strong>$1</strong>');
+            const trimmedContent = trimToWordLimit(highlightedContent, query, 50);
+            if(headerParagraphMap[headerLink]) {
+                headerParagraphMap[headerLink] += `<${tagName}>${trimmedContent}</${tagName}>`
+            } else {
+                headerParagraphMap[headerLink] = `<${tagName}>${trimmedContent}</${tagName}>`
+            }
+        }
+    });
+    const excerpts: string[] = Object.keys(headerParagraphMap).map(headerWithLink => headerWithLink+headerParagraphMap[headerWithLink]);
+
+    return excerpts;
+}
+
+function trimToWordLimit(paragraph: string, query: string, wordLimit: number): string {
+    const sentences = paragraph.match(/[^\.!\?]+[\.!\?]+/g) || [paragraph];
+    const queryWords = query.split(' ');
+
+    const queryIndices = sentences.reduce((indices, sentence, index) => {
+        if (queryWords.some(qw => sentence.toLowerCase().includes(qw.toLowerCase()))) {
+            indices.push(index);
+        }
+        return indices;
+    }, [] as number[]);
+
+    if (queryIndices.length === 0) {
+        const words = paragraph.split(' ').slice(0, wordLimit);
+        return words.join(' ') + (words.length < paragraph.split(' ').length ? " [...]" : "");
+    }
+
+    let start = Math.max(0, queryIndices[0]);
+    let end = start;
+
+    let wordCount = sentences[start].split(' ').length;
+
+    while (end + 1 < sentences.length && wordCount + sentences[end + 1].split(' ').length <= wordLimit) {
+        end++;
+        wordCount += sentences[end].split(' ').length;
+    }
+
+    let result = sentences.slice(start, end + 1).join(' ');
+
+    if (start > 0) {
+        result = "[...] " + result;
+    }
+
+    if (end < sentences.length - 1) {
+        result = result + " [...]";
+    }
+
     return result;
 }
+
+
+
 
 function updateCache(fullPath: string, markdownForCache: string) {
     cache.forEach((value, key) => {

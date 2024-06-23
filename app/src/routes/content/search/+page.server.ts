@@ -1,7 +1,6 @@
 import type { MarkdownPage } from "$lib/markdownPage";
 import { SEARCH_API_URL, type SearchResult } from "$lib/utilities/wiki";
 import { error } from "@sveltejs/kit";
-import type { FuseResult } from "fuse.js";
 
 
 export async function load({ fetch, params, url }) {
@@ -11,7 +10,7 @@ export async function load({ fetch, params, url }) {
         const { message } = await fetchResult.json();
         throw error(fetchResult.status, message);
     }
-    let searchResults: FuseResult<MarkdownPage>[] = await fetchResult.json()
+    let searchResults: SearchResult<MarkdownPage>[] = await fetchResult.json()
     searchResults.forEach(result => result.item = JSON.parse(result.item as unknown as string))
     return {
         query: urlParams.get("q")!,

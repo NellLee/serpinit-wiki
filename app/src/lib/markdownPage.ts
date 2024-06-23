@@ -376,7 +376,7 @@ export class MarkdownPage {
         }
         tags.push(...this.#fileLink.getTags())
         return tags.map(tag => ({
-            href: "/content/search?tags=" + encodeURIComponent(tag),
+            href: "/content/search?q=" + encodeURIComponent(tag),
             text: tag
         }))
     }
