@@ -85,7 +85,6 @@ export function search(query: string): SearchResult<MarkdownPage>[] {
     
     const result = fuseResults.map(result => {
         const excerpts = createExcerpts(result.item.contentHtml, query, result.item.href);
-        console.log(`${result.item.title}: ${(result.score ?? 0)*100}`)
         return {
             item: result.item,
             excerpts
@@ -104,6 +103,7 @@ function createExcerpts(html: string, query: string, pageHref: string): string[]
     $('body > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6)').each((_, element) => {
         const tagName = $(element).prop('tagName').toLowerCase(); // Get tag name in lowercase
         const content = $(element).text();
+        const contentHtml = $(element).html()!;
 
         if (content.toLowerCase().includes(query.toLowerCase())) {
             let parentHeader = $(element).prevAll('h1, h2, h3, h4, h5, h6').first();
@@ -114,12 +114,12 @@ function createExcerpts(html: string, query: string, pageHref: string): string[]
             const headerHtml = $.html($(parentHeader));
             const headerLink = `<a href="${pageHref}#${parentHeader.attr('id')}">${headerHtml}</a>`;
             
-            const highlightedContent = content.replace(new RegExp(`(${query})`, 'gi'), '<strong>$1</strong>');
-            const trimmedContent = trimToWordLimit(highlightedContent, query, 50);
+            const highlightedContentHtml = contentHtml.replace(new RegExp(`(${query})`, 'gi'), '<mark>$1</mark>');
+            const trimmedContentHtml = trimToWordLimit(highlightedContentHtml, query, 50);
             if(headerParagraphMap[headerLink]) {
-                headerParagraphMap[headerLink] += `<${tagName}>${trimmedContent}</${tagName}>`
+                headerParagraphMap[headerLink] += `<${tagName}>${trimmedContentHtml}</${tagName}>`
             } else {
-                headerParagraphMap[headerLink] = `<${tagName}>${trimmedContent}</${tagName}>`
+                headerParagraphMap[headerLink] = `<${tagName}>${trimmedContentHtml}</${tagName}>`
             }
         }
     });

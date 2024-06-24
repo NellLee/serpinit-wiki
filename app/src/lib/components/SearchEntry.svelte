@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, afterUpdate } from 'svelte';
 	import { ChevronDown, ChevronUp, Icon } from 'svelte-hero-icons';
 
 	export let title: string;
@@ -7,23 +7,16 @@
 	export let excerpts: string[];
 
 	let expanded = false;
-	let totalHeight = 0;
-	let container: HTMLDivElement | null = null;
-
-	onMount(() => {
-		if (container) {
-			totalHeight = container.scrollHeight;
-		}
-	});
+	let containerRef: HTMLDivElement | null = null;
+	const maxHeight = 300;
+	const fuzzyAllowedHeightOffset = 50
 
 	function toggleExpand() {
 		expanded = !expanded;
 	}
 
-	$: shouldShowExpandButton = totalHeight > 500;
+	$: shouldShowExpandButton = containerRef && containerRef.scrollHeight > containerRef.clientHeight + fuzzyAllowedHeightOffset;
 </script>
-
-<!-- TODO: expander is sometimes visible when there is nothing to expand -->
 
 <div class="search-result">
 	<div class="title">
@@ -32,29 +25,29 @@
 
 	<div
 		class="excerpts"
-		style={expanded
-			? 'max-height: none; overflow: visible;'
-			: 'max-height: 300px; overflow: hidden;'}
-		bind:this={container}
+		style={expanded ? 'max-height: none;' : `max-height: ${maxHeight}px;`}
+		bind:this={containerRef}
 	>
-		{#each excerpts as excerpt}
-			<hr />
-			<div class="excerpt">{@html excerpt}</div>
+		{#each excerpts as excerpt, index}
+			<div class="excerpt">
+				<hr />
+				{@html excerpt}
+			</div>
 		{/each}
 	</div>
+	{#if !expanded && shouldShowExpandButton}
+		<div class="overlay"></div>
+	{/if}
 
 	{#if expanded || shouldShowExpandButton}
-		{#if !expanded && shouldShowExpandButton}
-			<hr />
-		{/if}
 		<button id="result-expander" on:click={toggleExpand}>
 			{#if expanded}
 				<Icon src={ChevronUp} solid size="16" />
-				Show less
+				Weniger anzeigen
 				<Icon src={ChevronUp} solid size="16" />
 			{:else}
 				<Icon src={ChevronDown} solid size="16" />
-				Show more
+				Mehr anzeigen
 				<Icon src={ChevronDown} solid size="16" />
 			{/if}
 		</button>
@@ -92,27 +85,47 @@
 		}
 
 		.excerpts {
-			overflow: hidden; /* Hide overflowing content */
-		}
+			overflow: hidden;
 
-		.excerpt {
-			font-size: 90%;
-			margin: 10px 0;
-			color: #333;
+			.excerpt {
+				font-size: 90%;
+				margin: 10px 0;
+				color: #333;
 
-			:global(a) {
-				text-decoration: none;
-				color: inherit;
+				:global(a) {
+					text-decoration: none;
+					color: inherit;
 
-				&:hover {
-					text-decoration: underline;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+
+				:global(:is(h1, h2, h3, h4, h5, h6)) {
+					font-size: medium;
+					margin: 5px 0;
+				}
+
+				:global(mark) {
+					color: rgb(207, 19, 19);
+					background-color: transparent;
 				}
 			}
-
-			:global(:is(h1, h2, h3, h4, h5, h6)) {
-				font-size: medium;
-				margin: 5px 0;
-			}
+		}
+		.overlay {
+			position: relative;
+			top: -80px;
+			width: 100%;
+			height: 80px;
+			margin-bottom: -80px;
+			background: linear-gradient(
+				to bottom,
+				rgba(2, 0, 36, 0) 0%,
+				rgba(249, 249, 249, 0.2) 50%,
+				rgba(249, 249, 249, 0.4) 70%,
+				rgba(249, 249, 249, 0.8) 100%
+			);
+			pointer-events: none;
 		}
 
 		#result-expander {

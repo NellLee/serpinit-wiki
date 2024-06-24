@@ -26,7 +26,7 @@
 		--primary-color: #000000;
 		--secondary-color: #065d26;
 		--primary-background-color: #fff;
-		--secondary-background-color: #eaeaea;
+		--secondary-background-color: rgb(234, 234, 234);
 		--tertiary-background-color: #d2d2d2;
 		--quaternary-background-color: #d2d2d2;
 	}

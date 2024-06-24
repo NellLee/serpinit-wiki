@@ -1,5 +1,15 @@
 <script lang="ts">
+	import { onMount } from "svelte";
+	import { Icon, MagnifyingGlass } from "svelte-hero-icons";
+
 	export let items: LinkObject[];
+	let path: string = ""
+
+	// TODO: is not updated on navigation.
+	onMount(() => {
+		path = window.location.pathname;
+	})
+	$: onSearchPage = path.startsWith('/content/search')
 </script>
 
 <nav id="nav-bar">
@@ -9,6 +19,18 @@
 				<a href={item.href}>{item.text}</a>
 			</li>
 		{/each}
+
+		<!-- TODO: styling -->
+		{#if !onSearchPage}
+			<li>
+				<form action="/content/search" method="get">
+					<input type="text" name="q" placeholder="Search..." />
+					<button type="submit">
+						<Icon src={MagnifyingGlass} solid size="16" />
+					</button>
+				</form>
+			</li>
+		{/if}
 	</ul>
 </nav>
 
