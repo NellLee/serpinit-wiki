@@ -94,14 +94,19 @@ export function search(query: string): SearchResult<MarkdownPage>[] {
     return result
 }
 
-//TODO: inner tags (like <li> are broken)
 function createExcerpts(html: string, query: string, pageHref: string): string[] {
     const $ = cheerio.load(html);
+
+    $('img').each((_, img) => {
+        const altText = $(img).attr('alt');
+        const altTextFormatted = `[Image${altText ? ": "+altText: ""}]`;
+        $(img).replaceWith($(`<p>${altTextFormatted}</p>`));
+    });
 
     const headerParagraphMap: {[key: string]: string} = {}
 
     $('body > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6)').each((_, element) => {
-        const tagName = $(element).prop('tagName').toLowerCase(); // Get tag name in lowercase
+        const tagName = $(element).prop('tagName').toLowerCase();
         const content = $(element).text();
         const contentHtml = $(element).html()!;
 

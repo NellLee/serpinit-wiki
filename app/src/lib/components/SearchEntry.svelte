@@ -9,7 +9,7 @@
 	let expanded = false;
 	let containerRef: HTMLDivElement | null = null;
 	const maxHeight = 300;
-	const fuzzyAllowedHeightOffset = 50
+	const fuzzyAllowedHeightOffset = 40
 
 	function toggleExpand() {
 		expanded = !expanded;
@@ -57,9 +57,9 @@
 <style lang="scss">
 	.search-result {
 		padding: 15px;
-		border: 1px solid #ccc;
+		border: 1px solid var(--primary-border-color);
 		border-radius: 5px;
-		background-color: #f9f9f9;
+		background-color: var(--alternative-primary-background-color);
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 		.title {
@@ -68,7 +68,6 @@
 
 			a {
 				text-decoration: none;
-				color: #1a0dab;
 				font-weight: bold;
 
 				&:hover {
@@ -78,10 +77,10 @@
 		}
 
 		hr {
-			border: 1px dashed #00000080;
+			border: 1px dashed rgba(black, 0.5);
 			border-style: none none dashed;
-			color: #fff;
-			background-color: #fff;
+			color: white;
+			background-color: white;
 		}
 
 		.excerpts {
@@ -90,7 +89,6 @@
 			.excerpt {
 				font-size: 90%;
 				margin: 10px 0;
-				color: #333;
 
 				:global(a) {
 					text-decoration: none;

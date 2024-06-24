@@ -26,9 +26,12 @@
 		--primary-color: #000000;
 		--secondary-color: #065d26;
 		--primary-background-color: #fff;
-		--secondary-background-color: rgb(234, 234, 234);
+		--secondary-background-color: #eaeaea;
 		--tertiary-background-color: #d2d2d2;
-		--quaternary-background-color: #d2d2d2;
+		--alternative-primary-background-color: #f9f9f9;
+		--alternative-secondary-background-color: #c5c5c5;
+		--primary-border-color: #ccc;
+		--secondary-border-color: #b1b1b1;
 	}
 	:global(*) {
 		box-sizing: border-box;

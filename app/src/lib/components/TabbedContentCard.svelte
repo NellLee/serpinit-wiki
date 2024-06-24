@@ -76,7 +76,6 @@
 					padding: 5px 10px;
 					margin-right: 2px;
 					text-decoration: none;
-					color: #000;
 					background-color: var(--primary-background-color);
 					border: 1px solid var(--tertiary-background-color);
 					border-bottom: none;
