@@ -2,7 +2,7 @@
 
 # Die Gottheiten
 
-Mit dem Universum entstanden beim Urknall ca. 50 konzentrierte Vorkommen der [Magischen Substanz](/content/Magie/index.md#Allgemein), welche über Billionen Jahre hinweg Bewusstseine mit magischer Intelligenz entwickelten und zu Gottheiten wurden, die Fortan das Universum nach Belieben formten.
+Mit dem Universum entstanden beim Urknall ca. 50 konzentrierte Vorkommen der [Magischen Substanz](/content/Allgemein/Magie/index.md#Allgemein), welche über Billionen Jahre hinweg Bewusstseine mit magischer Intelligenz entwickelten und zu Gottheiten wurden, die Fortan das Universum nach Belieben formten.
 Die Götter konnten nicht nur die physische Welt formen, sondern auch ihre Naturgesetze und die Funktionsweise der Magie selbst beeinflussen. So konnten sie ganz eigene Welten schaffen. Die meisten Gottheiten respektierten sich gegenseitig und sahen keinen Grund in die Galaxien und Planetensysteme der anderen einzudringen.
 
 ## Creapatos
