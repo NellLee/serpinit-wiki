@@ -4,7 +4,6 @@
 	import '@fancyapps/ui/dist/fancybox/fancybox.css';
 	import { onMount } from 'svelte';
 	import Card from './Card.svelte';
-	import * as cheerio from 'cheerio'
 
 	$: currentPath = $page.url.pathname;
 
