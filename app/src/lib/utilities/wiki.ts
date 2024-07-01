@@ -20,7 +20,7 @@ export const SEARCH_API_URL = "/api/search"
 export const WIKI_PATH = path.resolve(__dirname, "../../../../content")
 
 export function initWiki() {
-    if(!initialized) {
+    if (!initialized) {
         console.log("Initializing all wiki pages")
         const files = getFilePathsInFolder(WIKI_PATH, [".md"])
         for (let file of files) {
@@ -67,12 +67,12 @@ export type SearchResult<T> = {
 
 export function search(query: string): SearchResult<MarkdownPage>[] {
     const pages: MarkdownPage[] = Array.from(wiki.values());
-    
+
     const fuse = new Fuse(pages, {
         keys: [
             { name: 'tags', weight: 10 },
             { name: 'title', weight: 5 },
-            { name: 'contentHtml', weight: 1}
+            { name: 'contentHtml', weight: 1 }
         ],
         threshold: 0.0,
         ignoreLocation: true,
@@ -82,15 +82,31 @@ export function search(query: string): SearchResult<MarkdownPage>[] {
     });
 
     const fuseResults = fuse.search(query);
-    
-    const result = fuseResults.map(result => {
-        const excerpts = createExcerpts(result.item.contentHtml, query, result.item.href);
-        return {
-            item: result.item,
-            excerpts
-        };
-    });
 
+    const queryInLink = (contentHtml: string, query: string): boolean => {
+        const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+        let match;
+        while ((match = linkRegex.exec(contentHtml)) !== null) {
+            const linkText = match[1];
+            const linkUrl = match[2];
+            if (linkText.toLowerCase().includes(query.toLowerCase()) || linkUrl.toLowerCase().includes(query.toLowerCase())) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+    const result: SearchResult<MarkdownPage>[] = fuseResults
+        .filter(result => !queryInLink(result.item.contentHtml, query))
+        .map(result => {
+            const { contentHtml, href } = result.item;
+
+            const excerpts = createExcerpts(contentHtml, query, href);
+            return {
+                item: result.item,
+                excerpts
+            };
+        })
     return result
 }
 
@@ -99,11 +115,11 @@ function createExcerpts(html: string, query: string, pageHref: string): string[]
 
     $('img').each((_, img) => {
         const altText = $(img).attr('alt');
-        const altTextFormatted = `[Image${altText ? ": "+altText: ""}]`;
+        const altTextFormatted = `[Image${altText ? ": " + altText : ""}]`;
         $(img).replaceWith($(`<p>${altTextFormatted}</p>`));
     });
 
-    const headerParagraphMap: {[key: string]: string} = {}
+    const headerParagraphMap: { [key: string]: string } = {}
 
     $('body > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6)').each((_, element) => {
         const tagName = $(element).prop('tagName').toLowerCase();
@@ -118,17 +134,17 @@ function createExcerpts(html: string, query: string, pageHref: string): string[]
 
             const headerHtml = $.html($(parentHeader));
             const headerLink = `<a href="${pageHref}#${parentHeader.attr('id')}">${headerHtml}</a>`;
-            
+
             const highlightedContentHtml = contentHtml.replace(new RegExp(`(${query})`, 'gi'), '<mark>$1</mark>');
             const trimmedContentHtml = trimToWordLimit(highlightedContentHtml, query, 50);
-            if(headerParagraphMap[headerLink]) {
+            if (headerParagraphMap[headerLink]) {
                 headerParagraphMap[headerLink] += `<${tagName}>${trimmedContentHtml}</${tagName}>`
             } else {
                 headerParagraphMap[headerLink] = `<${tagName}>${trimmedContentHtml}</${tagName}>`
             }
         }
     });
-    const excerpts: string[] = Object.keys(headerParagraphMap).map(headerWithLink => headerWithLink+headerParagraphMap[headerWithLink]);
+    const excerpts: string[] = Object.keys(headerParagraphMap).map(headerWithLink => headerWithLink + headerParagraphMap[headerWithLink]);
 
     return excerpts;
 }
