@@ -4,7 +4,15 @@
 	import { page } from '$app/stores';
 
 	export let items: LinkObject[];
+	let searchText = '';
+
 	$: onSearchPage = $page.url.pathname.startsWith('/content/search');
+
+	const submitHandler = (event: Event) => {
+		if (!searchText.trim()) {
+			event.preventDefault(); // Prevent form submission if search text is empty
+		}
+	};
 </script>
 
 <nav id="nav-bar">
@@ -16,8 +24,8 @@
 		{/each}
 	</ul>
 	{#if !onSearchPage}
-		<form id="searchbar" action="/content/search" method="get">
-			<input type="text" name="q" placeholder="Search..." />
+		<form id="searchbar" action="/content/search" method="get" on:submit={submitHandler}>
+			<input type="text" name="q" placeholder="Search..." bind:value={searchText} />
 			<button type="submit">
 				<Icon src={MagnifyingGlass} solid size="16" />
 			</button>
@@ -53,12 +61,12 @@
 					text-align: center;
 					padding: 0;
 					text-decoration: none;
-	
+
 					&:hover {
 						color: var(--secondary-color);
 					}
 				}
-	
+
 				&:first-of-type {
 					a {
 						font-size: 18px;
@@ -103,6 +111,5 @@
 				}
 			}
 		}
-
 	}
 </style>

@@ -1,7 +1,7 @@
 
 import { MarkdownPage } from '$lib/markdownPage';
 import path from 'path'
-import { getFilePathsInFolder } from './files';
+import { getFilePathsInFolder, getFrontendSafePath } from './files';
 import { error } from '@sveltejs/kit';
 import fs from 'fs'
 import * as cheerio from 'cheerio'
@@ -39,15 +39,14 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
             page = MarkdownPage.constructIndexPage(folderPath)
             markdownForCache = page.markdown
         } else {
-            throw error(404, `File ${fullPath} not found`)
+            throw error(404, `File ${getFrontendSafePath(fullPath)} not found`)
         }
     } else {
         markdownForCache = fs.readFileSync(fullPath, "utf-8")
         if (cache.get(markdownForCache) == fullPath) {
             console.log(`File "${fullPath}" has been loaded from the cache.`)
             if (!wiki.has(fullPath)) {
-                let fileName = fullPath.split(path.sep).at(-1)
-                throw error(500, `Cache has entry for '${fileName}', but wiki has not.`)
+                throw error(500, `Cache has entry for '${getFrontendSafePath(fullPath)}', but wiki has not.`)
             }
             page = wiki.get(fullPath)!
         } else {

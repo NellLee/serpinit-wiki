@@ -3,10 +3,11 @@
 import { error } from "@sveltejs/kit"
 import fs from "fs"
 import path from "path"
+import { WIKI_PATH } from "./wiki"
 
 export function getFilePathsInFolder(folderPath: string, fileTypes: string[] = [], maxDepth: number = -1) {
     if(!fs.existsSync(folderPath)) {
-        throw error(404, `Folder ${folderPath} not found`)
+        throw error(404, `Folder ${getFrontendSafePath(folderPath)} not found`)
     }
     let folderStat = fs.lstatSync(folderPath)
     if (folderStat && folderStat.isDirectory()) {
@@ -61,4 +62,8 @@ function getFolderPathsInFolderRec(aggregator: string[], folderPath: string, max
         }
     })
     return aggregator
+}
+
+export function getFrontendSafePath(fullPath: string): string {
+    return fullPath.replace(WIKI_PATH+path.sep, "").replaceAll(path.sep, "/")
 }

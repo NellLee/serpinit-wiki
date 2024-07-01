@@ -1,5 +1,29 @@
 <script lang="ts">
 	import Navbar from '$lib/components/Navbar.svelte';
+
+	import { onMount } from 'svelte';
+	import { Icon, ChevronUp } from 'svelte-hero-icons';
+
+	let scrollY = 0;
+
+	const handleScroll = () => {
+		scrollY = window.scrollY;
+	};
+
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth'
+		});
+	};
+
+	onMount(() => {
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	});
 </script>
 
 <main>
@@ -19,6 +43,12 @@
 	<body>
 		<slot />
 	</body>
+
+	<button id="scroll-to-top" class:show={scrollY > 100} on:click={scrollToTop}>
+		<Icon src={ChevronUp} solid size="20" />
+		Zurück nach oben
+		<Icon src={ChevronUp} solid size="20" />
+	</button>
 </main>
 
 <style global lang="scss">
@@ -33,6 +63,34 @@
 		--primary-border-color: #ccc;
 		--secondary-border-color: #b1b1b1;
 	}
+	#scroll-to-top {
+		display: none;
+		flex-flow: row nowrap;
+		align-items: center;
+		gap: 10px;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		font-size: 16px;
+		background-color: rgba(0, 0, 0, 0.4);
+		color: white;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 10px 20px;
+		border-radius: 50px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+		&:hover {
+			background-color: rgba(6, 93, 38, 0.4);
+		}
+
+		&.show {
+			display: flex;
+		}
+	}
+
 	:global(*) {
 		box-sizing: border-box;
 	}
