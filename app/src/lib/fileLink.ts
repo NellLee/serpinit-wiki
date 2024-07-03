@@ -6,6 +6,7 @@ import fs from "fs"
 export class FileLink {
     href: string
     text: string
+    descriptiveText: string
     fileName: string
     extension: string
     path: string
@@ -41,8 +42,21 @@ export class FileLink {
         } else if(this.fileName == "index") {
             this.text = this.path.substring(this.path.lastIndexOf(path.sep)+1) 
         }
+
         
         this.href = "/"+relPath.replaceAll(path.sep, "/")
+
+        
+        this.descriptiveText = this.text
+        
+        const folderName = this.href.split('/').at(-2)
+        if (this.fileName != "index") {
+            this.descriptiveText = folderName + " > " + this.descriptiveText
+        } else {
+            if (folderName == "images") {
+                this.descriptiveText = this.href.split('/').at(-3) + " > Gallerie"
+            }
+        }
     }
 
     // TODO

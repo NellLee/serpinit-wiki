@@ -361,7 +361,10 @@ export class MarkdownPage {
             }
             let linkedFile = getLinkedFilePath(href, folderPath)
             let link = new FileLink(linkedFile)
-            mentioned.push(link)
+            mentioned.push({
+                href: link.href,
+                text: link.descriptiveText,
+            })
         })
 
         return mentioned
