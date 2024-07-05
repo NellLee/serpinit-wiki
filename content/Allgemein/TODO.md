@@ -52,7 +52,7 @@ Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magi
 
 ## Mögliche Zukunft
 
-Die Zwerge entwickeln nach der Ikusation mithilfe der Kenntnis über die Sgrisignier-Runen ausgefeilte magische
+Die Vapornane entwickeln nach der Ikusation mithilfe der Kenntnis über die Sgrisignier-Runen ausgefeilte magische
 Technologien. Sie "überholen" die anderen Völker in ihrer Macht, als sie es schaffen Tjosand aus Agranums Kern zu
 extrahieren und in ihren Technologien zu integrieren.
 ~> Welt wird futuristisch

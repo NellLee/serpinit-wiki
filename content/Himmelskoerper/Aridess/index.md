@@ -9,8 +9,8 @@
 # Allgemein
 Aridess ist ein nicht-ovelärer Planet des Serpinit-Systems, welcher sich vor allem durch seine trockene Atmosphäre und Oberfläche auszeichnet.
 Es gibt keine Ozeane auf Aridess und nur wenige Flüsse oder Seen.
-Der Planet ist die gebürtige Heimat des Volkes der [Vapornans](/content/Voelker/Vapornans/index.md).
-Die Vapornans haben sich an die unwirtlichen Bedingungen ihres Heimatplaneten präzise angepasst.
+Der Planet ist die gebürtige Heimat des Volkes der [Vapornanes](/content/Voelker/Vapornanes/index.md).
+Die Vapornanes haben sich an die unwirtlichen Bedingungen ihres Heimatplaneten präzise angepasst.
 Die meisten von ihnen leben entweder in den fruchtbaren Oasen oder in weitlaufenden Untergrund-Städten.
 
 # Geschichte

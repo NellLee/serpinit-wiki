@@ -17,9 +17,9 @@
 * Um das Portal herum ist der Boden rot und trocken. Hin und wieder liegt ein Findling herum und es ist nur sehr spärliche Flora und Fauna vorhanden.
 * Die segende Hitze der Wüste verursacht ohne Wasser immer wieder (~ alle 10 Minuten) einen Erschöpfungspunkt.
 * Auf einer Seite des Portals (Nord-Osten bis Süd-Westen) ist die weite offene Wüste. Die Luft flirrt von der Hitze die der Sand abstrahlt und bei genauerem Hinsehen (Perception DC 10) scheinen sich die Dünen sogar wie Wellen zu bewegen.
-    * Am Horizont im Nord-Osten sind komplexe Steinstrukturen zu sehen. Es handelt sich um eine "Fata Morgana" der Zwergenstadt Obskuli, welche die flachen Sandsteingebäude spiegelt und verzerrt und sie auf die Distanz wie ein unmögliches Gebilde aussehen lässt.
+    * Am Horizont im Nord-Osten sind komplexe Steinstrukturen zu sehen. Es handelt sich um eine "Fata Morgana" der Vapornanenstadt Obskuli, welche die flachen Sandsteingebäude spiegelt und verzerrt und sie auf die Distanz wie ein unmögliches Gebilde aussehen lässt.
     * Sollten sich die Spieler in die offene Wüste begeben werden sie schnell mindestens einer [Saolom](/content/Himmelskoerper/Aridess/Fauna/Saolom/DnD-5e_Fauna-Blatt.md) begegnen.
-    * Die Zwergenstadt ist 20 km entfernt und von den Spielern prinzipiell nicht erreichbar, außer sie haben eine zuverlässige Quelle für Wasser, Schatten, Essen, etc.
+    * Die Vapornanenstadt ist 20 km entfernt und von den Spielern prinzipiell nicht erreichbar, außer sie haben eine zuverlässige Quelle für Wasser, Schatten, Essen, etc.
 * Vom Nord-Westen weiter in den Westen blickend verändert sich die Struktur der Landschaft, die sandigen Dünen werden kleiner und weniger und verlaufen sich irgendwann in einen rötlicheren, trockenen Boden ähnlich dem Untergrund um das Portal herum.
     * Es sind vereinzelte Bäume, viele trockene Büsche und große Flächen mit hohem, braunen Gras zu sehen.
     * An einer Stelle ist verstärkte Vegetation zu erkennen, was auf eine Wasserquelle hindeutet (20 min Laufweg).

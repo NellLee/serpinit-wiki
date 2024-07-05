@@ -11,14 +11,16 @@
 - Haben Anpassungsfähigkeit und Überlebensgeschick entwickelt.
 - Besitzen keine angeborenen magischen Fähigkeiten, da auf Aridess kein Elementardrache lebt, was zu keiner arcanogenen Evolution führte.- 
 
-Die Vapornane sind kleine, kräftige und meist bärtige Geschöpfe, bekannt für ihre außerordentliche, technische Versiertheit. Zu den Anfängen der intelligenten Völker waren die Vapornanos zu großen Teilen begabte, aber vergleichsweise einfache Schmiede. Ihre Intelligenz und ihr Erfindergeist führten jedoch dazu, dass sie zügig bahnbrechende, mechanische Meisterwerke schufen. Viele ihrer fortgeschrittenen Erfindungen beruhen auf der Kraft des Wasserdampfes. Mit diesen Erfindungen konnten die Vapornanos zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist. 
-Die nicht-existente Magie der Vapornans begründet sich dadurch, dass in ihrem Heimatplaneten Aridess kein Elementardrache lebt, sodass bei den Vapornans keine arcanogene Evolution stattfand.  
+Die Vapornane sind kleine, kräftige und meist bärtige Geschöpfe, bekannt für ihre außerordentliche, technische Versiertheit. 
+
+# Geschichte
+Zu den Anfängen der intelligenten Völker waren die Vapornane zu großen Teilen begabte, aber vergleichsweise einfache Schmiede. Ihre Intelligenz und ihr Erfindergeist führten jedoch dazu, dass sie zügig bahnbrechende, mechanische Meisterwerke schufen. Viele ihrer fortgeschrittenen Erfindungen beruhen auf der Kraft des Wasserdampfes. Mit diesen Erfindungen konnten die Vapornane zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist. 
 
 # Gesellschaft
 
-Die Vapornanos leben in sogenannten Zirkeln zusammen. Die Zirkel entstanden zwar ursprünglich aus den jeweils
+Die Vapornane leben in sogenannten Zirkeln zusammen. Die Zirkel entstanden zwar ursprünglich aus den jeweils
 mächtigsten Vapornanenfamilien ihrer Zeit, sind jedoch schon lange nicht mehr an die Grenzen einer Blutsverwandtschaft
-gebunden. Jeder der traditionellen Zirkel der Vapornanos zeichnet sich ursprünglich durch eine besondere Erfindung aus,
+gebunden. Jeder der traditionellen Zirkel der Vapornane zeichnet sich ursprünglich durch eine besondere Erfindung aus,
 dessen Geheimnis viele Zyklen gehütet und weiterentwickelt wurde. Später hat jeder dieser Zirkel von der Entdeckung des
 Tjosandt-Quarzes und der Ikusation außerordentlich profitiert. Tjosandt-Quarz lieferte mit seinen besonderen
 Eigenschaften die Basis für die Mischung aus Edelsteinmagie und Dampftechnologie welche die Vapornane entwickelten. Diese "
@@ -36,7 +38,7 @@ So ist eine ganze Stadt im Himmel entstanden, welche neben den Mitgliedern diese
 
 Schon bevor die Entdeckung von Tjosandt den Zusammenhang zwischen Magie und ihrem Einfluss auf kristalline Stoffe offenbarte, spürten die Vapornane dieses Zirkels eine Vorliebe für Edelsteine. 
 
-Die Kraft des Wasserdampfes und die Notwendigkeit der Edelsteine für die Magie der Vapornanos brachte einige ihrer Vertreter bereits früh dazu Geräte zu entwickeln die sich effektiv in den Boden graben können und sowohl Erde als auch Steine problemlos durchdringen. Während diese Bohrer zu Beginn noch vergleichsweise klein waren und von einem einzigen Vapornan bedient wurden, haben sie sich später zu riesigen Gerätschaften entwickelt, welche von innen gesteuert werden und breite Tunnel graben können.
+Die Kraft des Wasserdampfes und die Notwendigkeit der Edelsteine für die Magie der Vapornane brachte einige ihrer Vertreter bereits früh dazu Geräte zu entwickeln die sich effektiv in den Boden graben können und sowohl Erde als auch Steine problemlos durchdringen. Während diese Bohrer zu Beginn noch vergleichsweise klein waren und von einem einzigen Vapornan bedient wurden, haben sie sich später zu riesigen Gerätschaften entwickelt, welche von innen gesteuert werden und breite Tunnel graben können.
 
 Diese sogenannten Phoriat-Bohrer führten nicht nur dazu, dass dieser Zirkel seit je her sämtliche Vapornane mit Edelsteinen versorgt, sondern sie ließen auch riesige unterirdische Tunnelsysteme auf Aridess entstehen in welchen die Städte des Eisenphoriats errichtet wurden.
 
@@ -64,7 +66,7 @@ Der Zirkel der goldenen Temphora ist einer der wenigen Zirkel der keinen Gebrauc
 
 Der Vapornanenzirkel der Silberschiffe hat sich auf dem großen Eistropfen Luqua angesiedelt. Die Schifffahrt auf Luqua ist zwar müßig, da die Wasseroberfläche regelmäßig gefriert, aber die Vapornane haben schon früh die gute Wärmeleitfähigkeit von Silber feststellen können, die sich mithilfe ihrer Edelsteinmagie sogar noch verstärken ließ. So brachten die Vapornane große beheizte Eisbrecher aus Silber an ihren Schiffen an und konnten die Wasseroberfläche von Luqua uneingeschränkt befahren. Das Wasser das als Nebeneffekt verdampft wird in großen Metallfalten an den Seiten der Schiffe aufgefangen und zur erneuten Wärmegeneration genutzt um so Energie zu sparen.
 
-Dieser Zirkel bildet das Verbindungsglied zwischen den Vapornanos und den Fluctro, zwischen denen ein reger Handel mit Tjosandt-Quarz herrscht. 
+Dieser Zirkel bildet das Verbindungsglied zwischen den Vapornane und den Fluctro, zwischen denen ein reger Handel mit Tjosandt-Quarz herrscht. 
 
 ## Zirkel der Stahlschmiede
 
@@ -80,7 +82,7 @@ Im Korpus der Fliege ist eine kleine Aussparung, in der die Nachricht eingerollt
 
 # Körperbau
 
-Die Vapornanos sind klein und rundlich, mit Händen die an Maulwurfsschaufeln erinnern. Ihre Arme/Beine und Hände/Füße sind stark behaart und Sie haben eine Fettschicht aufgrund ihrer guten Nahrungsaufnahme. 
+Die Vapornane sind klein und rundlich, mit Händen die an Maulwurfsschaufeln erinnern. Ihre Arme/Beine und Hände/Füße sind stark behaart und Sie haben eine Fettschicht aufgrund ihrer guten Nahrungsaufnahme. 
 
 Sie haben sich auf Navura entwickelt und ernähren sich von den großen Würmern im Erdreich von Navura. Diese gedeihen dort, weil Navuras Erde so fruchtbar ist.
 
@@ -98,7 +100,7 @@ Alle Vapornane besitzen von Kindesalter an breite Metallringe in die das Symbol 
 
 Die Kleidung der Vapornane kann je nach Lebensraum und Wohlhaben sehr unterschiedlich ausfallen, geht jedoch häufig in die rustikale Richtung mit vielen Fellen und Lederanteilen.
 
-Aufgrund der Wirkungsweise der Vapornanenmagie ist Edelsteinschmuck zudem unverzichtbar unter Vapornanen. Ob in Ringen, Halsketten, Haarschmuck oder Armreifen, viele Vapornanos tragen gleich mehrere reine Edelsteine am Körper damit ihnen stets magische Energie auf Abruf zur Verfügung steht.
+Aufgrund der Wirkungsweise der Vapornanenmagie ist Edelsteinschmuck zudem unverzichtbar unter Vapornanen. Ob in Ringen, Halsketten, Haarschmuck oder Armreifen, viele Vapornane tragen gleich mehrere reine Edelsteine am Körper damit ihnen stets magische Energie auf Abruf zur Verfügung steht.
 
 ## Kampf
 
@@ -110,7 +112,7 @@ Häufig sind Rüstungen für traditionelle Kämpfe und Feste zusätzlich mit dem
 
 ## Festlich
 
-Für besondere Anlässe tragen Vapornanen meist feine Leinenstücke mit passenden Umhängen. Die Farben fallen im Allgemeinen kräftig aus, werden dabei aber immer passend zum Edelsteinschmuck des Vapornans gewählt.
+Für besondere Anlässe tragen Vapornanen meist feine Leinenstücke mit passenden Umhängen. Die Farben fallen im Allgemeinen kräftig aus, werden dabei aber immer passend zum Edelsteinschmuck des Vapornanes gewählt.
 
 Des Weiteren wird für Festlichkeiten besonderes Augenmerk auf die Haare eines Vapornanes gelegt. Häufig wird sehr viel Zeit investiert um sowohl das Haupthaar, als auch einen eventuellen Bart in aufwendigen Flecht- und Steckfrisuren herzurichten.
 
@@ -132,7 +134,7 @@ magische Kräfte, da sie von keinem der Elementdrachen geformt wurden. Daher kan
 jedes Lebewesen Edelsteine mit magischer Kraft aufladen. Die Vapornane haben ihr Verfahren jedoch über die Zeit
 perfektioniert um mit der Magie der anderen Völkern mithalten zu können
 
-Vapornanen sind zwar von Magie durchdrungen, haben aber trotzdem nicht im direkten Sinne magische Kräfte. Stattdessen haben Vapornane nur das unglaublich starke Verlangen Edelsteine zu erlangen. Berührt ein Vapornan einen reinen Edelstein kann er intuitiv eine Verbindung zu diesem Stein aufbauen und ist nun in der Lage seine magische Energie auf den Stein zu übertragen. Aufgeladene Edelsteine können genutzt werden um Magie in die Technologien der Vapornanos zu integrieren. Besonders in Verbindung mit Metall und durch die leitenden Fähigkeiten des Tjosandt-Quarzes konnten die Vapornane Erfindungen entwickeln die so bahnbrechend waren, dass sie auch ohne intuitive magische Fähigkeiten schnell zu einem der mächtigsten Völker im Serpinit-System werden konnten.
+Vapornanen sind zwar von Magie durchdrungen, haben aber trotzdem nicht im direkten Sinne magische Kräfte. Stattdessen haben Vapornane nur das unglaublich starke Verlangen Edelsteine zu erlangen. Berührt ein Vapornan einen reinen Edelstein kann er intuitiv eine Verbindung zu diesem Stein aufbauen und ist nun in der Lage seine magische Energie auf den Stein zu übertragen. Aufgeladene Edelsteine können genutzt werden um Magie in die Technologien der Vapornane zu integrieren. Besonders in Verbindung mit Metall und durch die leitenden Fähigkeiten des Tjosandt-Quarzes konnten die Vapornane Erfindungen entwickeln die so bahnbrechend waren, dass sie auch ohne intuitive magische Fähigkeiten schnell zu einem der mächtigsten Völker im Serpinit-System werden konnten.
 
  
 
