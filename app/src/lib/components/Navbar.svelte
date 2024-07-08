@@ -52,7 +52,7 @@
 			display: flex;
 			flex-flow: row nowrap;
 			justify-content: flex-start;
-			align-items: center;
+			align-items: baseline;
 			gap: 15px;
 			li {
 				a {
