@@ -34,8 +34,8 @@
 				text: 'Wiki'
 			},
 			{
-				href: '/gallery',
-				text: 'Gallerie'
+				href: '/convert',
+				text: 'Converter'
 			}
 		]}
 	/>
