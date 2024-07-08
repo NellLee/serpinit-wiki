@@ -1,20 +1,22 @@
 # Die Vapornane
 
-- Trainieren & leben mit Edelstein-Gürteln
-- Haben sich an die extremen Umweltbedingungen auf Aridess angepasst, darunter Hitze und Wüstenbedingungen.
-- Sind ein nicht-magisches humanoides Volk auf dem Planeten Aridess im Serpinit-System.
-- Leben in Höhlen und unterirdischen Siedlungen, um sich vor den Bedingungen an der Oberfläche zu schützen.
-- Tragen spezielle Schutzkleidung, um sich vor Sonnenstrahlung und Sandstürmen zu schützen.
-- Haben die einzigartige Fähigkeit, Wasser aus der Nahrung zu extrahieren, um ihren Flüssigkeitsbedarf zu decken.
-- Gründen Siedlungen in Oasen, wo frisches Wasser und fruchtbarer Boden verfügbar sind.
-- Betreiben Handel und Ressourcenaustausch zwischen verschiedenen Oasen auf Aridess.
-- Haben Anpassungsfähigkeit und Überlebensgeschick entwickelt.
-- Besitzen keine angeborenen magischen Fähigkeiten, da auf Aridess kein Elementardrache lebt, was zu keiner arcanogenen Evolution führte.- 
+Die Vapornane sind das vorherrschende Volk auf [Aridess](/content/Himmelskoerper/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse. 
+Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften geprägt sind.
+Sie bewohnen entweder Höhlen und unterirdische Tunnelsysteme, die Schutz vor den Elementen bieten, oder aber Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
+Trotz der harschen Umgebung sind die Vapornane geschickte Handwerker und Händler, die auf gegenseitigen Ressourcenaustausch angewiesen sind, um zu überleben.
+Ihre Kultur ist geprägt von Anpassungsfähigkeit und pragmatischer Ingenieurskunst, die es ihnen ermöglicht, selbst unter den widrigsten Bedingungen zu florieren.
+Obwohl sie niemals magische Fähigkeiten entwickelt haben (da Aridess kein ovelärer Planet ist), fanden sie mit der Zeit trotzdem Möglichkeiten, sich die magische Energie des Serpinit-Systems zunutze zu machen.
+Die Vapornans waren schon immer ein Volk der Schmiedekunst und viele ihrer unterirdischen Siedlungen sind aus Erz- oder Edelsteinminen entstanden.
+Sie setzen das Metall gezielt ein um das Überleben sowohl oberhalb also auch unterhalb der heißen Oberfläche von Aridess auf verschiedenste Weisen zu erleichtern. 
+Die Edelsteinverarbeitung hatte zuerst einen rein ästethischen Wert, doch so fanden die Vapornanes auch die energiespeichernden Eigenschaften von Edelsteinen heraus. 
+Der Erfindergeist der Vapornanos führte schließlich zur Kombination von energetisch aufgeladenen Edelsteinen und geschmiedetem Metall, woraus sie zügig bahnbrechende, mechanische Meisterwerke schufen, welche sich die Energie der Edelsteine durch Wasserdampf zunutze machten. 
+Mit diesen Erfindungen konnten die Vapornane zudem zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist. 
 
-Die Vapornane sind kleine, kräftige und meist bärtige Geschöpfe, bekannt für ihre außerordentliche, technische Versiertheit. 
+-> Magie
+Da auch nicht-magische Lebewesen über ihre Haut durchgehend magische Potenz abstrahlen, reicht es einen Edelstein über längere Zeit zu berühren um ihn stetig aufzulanden.
 
 # Geschichte
-Zu den Anfängen der intelligenten Völker waren die Vapornane zu großen Teilen begabte, aber vergleichsweise einfache Schmiede. Ihre Intelligenz und ihr Erfindergeist führten jedoch dazu, dass sie zügig bahnbrechende, mechanische Meisterwerke schufen. Viele ihrer fortgeschrittenen Erfindungen beruhen auf der Kraft des Wasserdampfes. Mit diesen Erfindungen konnten die Vapornane zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist. 
+Zu den Anfängen der intelligenten Völker waren die Vapornane zu großen Teilen einfache Schmiede auf Aridess. 
 
 # Gesellschaft
 
