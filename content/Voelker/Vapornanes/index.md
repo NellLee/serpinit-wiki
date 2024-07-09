@@ -1,5 +1,11 @@
 # Die Vapornane
 
+
+:::figure{style="width: 400px;"}
+![](./images/Vapornan_maennlich_Zirkel-des-Phoriats.png)
+::figcaption[Männlicher Vapornan des Phoriat-Zirkels]
+:::
+
 Die Vapornane sind das vorherrschende Volk auf [Aridess](/content/Himmelskoerper/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse. 
 Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften geprägt sind.
 Sie bewohnen entweder Höhlen und unterirdische Tunnelsysteme, die Schutz vor den Elementen bieten, oder aber Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
