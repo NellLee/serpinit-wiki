@@ -15,7 +15,8 @@ Mit diesen Erfindungen konnten die Vapornane zudem zumindest teilweise ausgleich
 -> Magie
 Da auch nicht-magische Lebewesen über ihre Haut durchgehend magische Potenz abstrahlen, reicht es einen Edelstein über längere Zeit zu berühren um ihn stetig aufzulanden.
 
-# Geschichte
+# Entwicklung & Geschichte
+
 Zu den Anfängen der intelligenten Völker waren die Vapornane zu großen Teilen einfache Schmiede auf Aridess. 
 
 # Gesellschaft
