@@ -3,7 +3,7 @@
 # Meta / Kontext
 
 * Die Spieler haben einen Banditenangriff am Sgrisignier-Portal erfolgreich abgewehrt.
-    * Dabei wurden zwei Banditen als Geißel genommen: Echse & Eber
+    * Dabei wurden zwei Banditen als Geißel genommen: [Echse](../2024-05-30/Gegner/Bandit-6_Sodili-Echse-Hybrid.md) & [Eber](../2024-05-30/Gegner/Bandit-8_Sodili-Eber-Hybrid.md)
 * Nach dem Angriff kehren die Spieler zu ihren eigentlichen Ziel zurück. 
 * Kwint erklärt Draven magische Einzelheiten während er die benötigte Rune am Portal anbringt
 

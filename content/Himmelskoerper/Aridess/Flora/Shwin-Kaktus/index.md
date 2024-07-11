@@ -1,8 +1,19 @@
 # Shwin-Kaktus
 
-# Beschreibung
-Der Shwin-Kaktus ist eine gefährliche Variation üblicher Kaktusarten. Er wird häufig Spinnenstachel-Kaktus oder Ähnliches genannt, denn er hat die bemerkenswerte Fähigkeit, dünnflüssige Fäden ähnlich einer Spinne zu produzieren.
-Die Spitzen seiner Stacheln enthalten eine spezielle, höchst giftige Flüssigkeit. Der Kaktus spritzt diese Flüssigkeit aus dem Stachel, woraufhin sie beim Kontakt mit der Luft zu dünnen, klebrigen Fäden aushärtet. Diese Fäden sind zwar nicht mehr so giftig, dafür aber äußerst haltbar und können sich an alles anhaften, was sie berührt.
-Wenn ein Lebewesen versehentlich in die Fäden des Kaktus gerät, bleiben sie daran kleben. Sobald das Opfer sich weiter bewegt und so Zug auf die Fäden ausübt, löst dies eine Reaktion aus, bei der die Stacheln des Kaktus als Ganzes aus dem Stamm geschleudert werden. Dieser Angriff ist blitzschnell und die Kraft der geschossenen Stacheln reicht aus um tief in die meisten Arten von Haut oder Fell einzudringen. Der Stoff in den Stachelspitzen verursacht dann sehr schnell eine ernste Vergiftung wenn er in den Blutkreislauf gerät.
-Der Shwin-Kaktus befindet sich meist inmitten von Felsspalten und anderen Nischen, um möglichst viele Fäden spinnen zu können.
-Seinen ausgeprägten Schutzmechanismus hat der Kaktus über Jahrmillionen der Evolution ausgebildet um zu verhindern dass er aufgrund seines hohen Wassergehalts von Tieren wie dem Lurper verzehrt wird.
+:::figure
+![Eine Höhle voller Shwin-Kakteen und ihren Fäden](./images/Shwin-Kaktus_Spinnenstachel-Kaktus.png)
+::figcaption[Eine Höhle voller Shwin-Kakteen und ihren Fäden]
+:::
+
+## Beschreibung
+Der Shwin-Kaktus, auch bekannt als Spinnenstachel-Kaktus, ist eine hochentwickelte und gefährliche Variation herkömmlicher Kaktusarten. Er ist dafür bekannt, dünnflüssige Fäden ähnlich einer Spinne zu produzieren, die aus seinen Stacheln austreten. Diese Fäden haften stark an allem, was sie berühren.
+
+## Funktion und Jagdverhalten
+Die Stacheln von einem Shwin-Kaktus sind mit einer äußerst giftigen Flüssigkeit gefüllt. Wenn ein Lebewesen versehentlich in die Fäden des Kaktus gerät, bleiben sie daran kleben. Bei Bewegung des Opfers löst dies eine schnelle Reaktion aus, bei der die Stacheln des Kaktus als Ganzes aus dem Stamm geschleudert werden. Diese Angriffe sind blitzschnell und können tief in die Haut oder das Fell eindringen, wobei die giftigen Substanzen schnell in den Blutkreislauf gelangen und eine ernsthafte Vergiftung verursachen.
+
+## Verbreitung und Lebensraum
+Die meisten Shwin-Kakteen sind in den trockenen und felsigen Regionen von [Aridess](/content/Himmelskoerper/Aridess/index.md) anzutreffen.
+Diese Pfalnze bevorzugt windgeschützte Lebensräume inmitten von Felsspalten und anderen Nischen, wo optimale Bedingungen für die Produktion der Fäden herrschen. Diese einzigartige Schutzstrategie hat sich über Jahrmillionen der Evolution entwickelt, um zu verhindern, dass er von Tieren wie dem Lurper, die ihn aufgrund seines hohen Wassergehalts verzehren könnten, gefressen wird.
+
+## Nutzung und Gefahren
+Aufgrund seiner hochgiftigen Natur und der gefährlichen Verteidigungsmechanismen wird der Shwin-Kaktus von den Bewohnern der Region mit äußerster Vorsicht behandelt. Niedrig dosiert soll das Gift gegen Arthritis helfen, doch lohnt sich der Aufwand für die meisten Vapornane nicht

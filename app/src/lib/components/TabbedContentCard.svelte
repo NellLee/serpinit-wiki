@@ -148,7 +148,8 @@
 				position: relative;
 				width: 400px;
 				height: fit-content;
-				margin: 0;
+				margin: 0 20px !important;
+				float: right;
 
 				:global(p) {
 					padding: 0;

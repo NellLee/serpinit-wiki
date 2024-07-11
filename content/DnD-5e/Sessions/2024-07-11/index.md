@@ -1,17 +1,21 @@
 # 11.07.2024
 
 # Meta / Kontext
-* Die Spieler haben die Oase im Westen gefunden und sich dort mit Wasser (1,6 Fässer, nicht abgekocht) versorgt.
-* Sie haben sich kurzzeitig in die offene Wüste gewagt, sind jedoch aufgrund der Hitze umgekehrt.
+* Nach wie vor zwei Bandit-Geißeln als Sklaven: [Echse](../2024-05-30/Gegner/Bandit-6_Sodili-Echse-Hybrid.md) & [Eber](../2024-05-30/Gegner/Bandit-8_Sodili-Eber-Hybrid.md)
+* Die Spieler haben die Oase im Westen gefunden und sich dort mit Wasser (2 Fässer, ~160L, nicht abgekocht) versorgt.
+    * Es wurde von den Sklaven auf dem Rücken getragen (führte zu extremer Erschöpfung)
+    * Ein Fass (50L) im Lager gelassen, Ein Fass (90L) wird von den Sklaven mit zwei langen Stangen getragen
+* Sie hatten sich kurzzeitig in die offene Wüste gewagt, sind jedoch aufgrund der Hitze umgekehrt.
 * Kwint Gurdun und Taeron Kalidorvus haben gemeinsam das nächste Portal hinter den roten Felsen erspürt.
-* Die Spieler haben noch immer zwei verletzte Banditen als Geiseln und nutzen sie momentan als Sklaven.
 * Das Lager um das erste Portal bleibt zentraler Rückzugspunkt nach Agranum.
+    * Zeitverschiebung beachten (~12 h)
 
 # Wege zum nächsten Portal
-* Vom ersten Portal aus sind im Süden bis in den Osten die rauen orangenen Felsen zu sehen, hinter denen sich das nächste Portal befindet.
+* Vom ersten Portal aus im Süden bis in den Osten sind die rauen orangenen Felsen zu sehen, hinter denen sich das nächste Portal befindet.
     * Geschätzt sind die Felsen 20 Minuten entfernt (Wisdom DC 15 / Nach 15 Minuten herausfinden: tatsächlich sind es eher 45 Minuten)
-    * In den roten Felsen tummeln sich Sukkulenten.
     * Die Felsen bieten genug Schatten um der heißen Sonne zu entgehen
+    * In den roten Felsen tummeln sich tausende Sukkulenten unterschiedlichster Größe.
+        * Eine gefährlich und doch interessante ist die [Vorolae](/content/Himmelskoerper/Aridess/Flora/Vorolae/index.md) 
     * Zwischen den Felsen ist der Eingang zu einer verlassenen Mine zu finden.
         * Die Mine ist infiziert mit [Shwin-Kakteen](/content/Himmelskoerper/Aridess/Flora/Shwin-Kaktus/DnD-5e_Flora-Blatt.md). Sie besiedeln den vorderen Höhleneingang, wo sie noch genug Licht abbekommen. Sollte man ihre Fäden im Zweilicht nicht erkennen (Perception DC 15) und die Mine unachtsam betreten, beschießen sie einen mit ihren Stacheln, welche 1d4*2 Schaden machen und eine Vergiftung hervorrufen.
         * Ca. 50 Meter hinter dem Eingang ist ein Raum in den Stein geschlagen. 
@@ -23,13 +27,16 @@
     * Beim weiteren Durchqueren der Felsen treffen die Spieler auf weitere Lurper. Zwei Männchen (Nature DC 12) kämpfen miteinander, wobei eines bei dem Territorialkampf deutlich verliert. Hinter dem Kampf in einer Felsnische leicht versteckt (Perception DC 13) befinden sich zudem eine Lurper-Kuh und zwei Junge.
 * Die Spieler können auch von der Oase aus zum Portal laufen.
     * Hierbei ist kein Schatten gegeben und die Spieler treffen dabei auf gefährliche Tiere:
+        * [Fuagas](/content/Himmelskoerper/Aridess/Fauna/Fuaga/index.md)
+        * Eine Herde [Sterros](/content/Himmelskoerper/Aridess/Fauna/Sterros/index.md)
 
 # Das zweite Portal
 * Dieses Portal führt nach [Venoxi](/content/Himmelskoerper/Venoxi/index.md). 
 * Auf Venoxi ist das nächste Portal direkt sichtbar und führt nach Navura.
 * Venoxi ist für die Spieler zu giftig und daher nicht lang betretbar
 
-<!-- Weiteres Material
+
+<!-- Weiteres Material -->
 
 # Weitere Portal-Ziele
 
@@ -44,4 +51,3 @@
 
 # Verlauf der Ikusation
 Bei der Etablierung der Versorgungskette stoßen die Spieler früher oder später auf den Planeten Navura und seine Bewohner. Von hier erschließen sie dann als nächstes ein Portal zum Planeten Mognar, was insgesamt zum Start des Krieges der Drachenkinder gegen Navura führt. 
--->
