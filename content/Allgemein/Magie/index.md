@@ -19,6 +19,10 @@ Dabei strahlt die magische Substanz sowohl Wärme als auch magische Potenz ab.
 Eine Ausnahme bildeten die hochkonzentrierten Vorkommen der magischen Substanz welche beim Urknall in das Universum geschleudert wurden (siehe [Schöpfungsgeschichte](../Schoepfungsgeschichte.md#die-gottheiten)). 
 Diese kühlten niemals ab und entwickelten stattdessen mit der Zeit ein eigenes Bewusstsein. Die so entstandenen Gottheiten besaßen die Macht jedes Atom zu magischer Substanz zu machen um aus dieser wiederum jedes beliebige andere Element zu synthetisieren. 
 
+Magische Potenz hat sehr unterschiedliche Auswirkungen auf pyhsische Stoffe:
+* Metall hat eine niedrige Leitfähigkeit und einen niedrigen Potenzpunk. Trotzdessen kann Metall sehr schlecht magische Potenz speichern, da es diese schnell in hohem Maße als Wärme abgibt.
+* Edelsteine und Kristalle haben einen extrem hohen Potenzpunkt. Als solche "entziehen" sie ihrer Umgebung förmlich Energie, falls vorhanden. 
+
 # Serpinitäre Magie
 
 Die serpinitäre Magie basiert auf einem magischen Energienetz, welches das gesamte Planetensystem umgibt und **Wymen** genannt wird.

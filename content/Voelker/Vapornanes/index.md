@@ -8,22 +8,28 @@
 
 Die Vapornane sind das vorherrschende Volk auf [Aridess](/content/Himmelskoerper/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse. 
 Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften geprägt sind.
-Sie bewohnen entweder Höhlen und unterirdische Tunnelsysteme, die Schutz vor den Elementen bieten, oder aber Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
-Trotz der harschen Umgebung sind die Vapornane geschickte Handwerker und Händler, die auf gegenseitigen Ressourcenaustausch angewiesen sind, um zu überleben.
+Sie bewohnen entweder Ansammlungen von Höhlen und unterirdische Tunnelsysteme, die Schutz vor den Elementen bieten, oder aber Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
+Trotz der harschen Umgebung sind die Vapornane geschickte Handwerker und Händler, die jedoch letztendlich auf gegenseitigen Ressourcenaustausch angewiesen sind, um zu überleben.
 Ihre Kultur ist geprägt von Anpassungsfähigkeit und pragmatischer Ingenieurskunst, die es ihnen ermöglicht, selbst unter den widrigsten Bedingungen zu florieren.
 Obwohl sie niemals magische Fähigkeiten entwickelt haben (da Aridess kein ovelärer Planet ist), fanden sie mit der Zeit trotzdem Möglichkeiten, sich die magische Energie des Serpinit-Systems zunutze zu machen.
 Die Vapornans waren schon immer ein Volk der Schmiedekunst und viele ihrer unterirdischen Siedlungen sind aus Erz- oder Edelsteinminen entstanden.
 Sie setzen das Metall gezielt ein um das Überleben sowohl oberhalb also auch unterhalb der heißen Oberfläche von Aridess auf verschiedenste Weisen zu erleichtern. 
 Die Edelsteinverarbeitung hatte zuerst einen rein ästethischen Wert, doch so fanden die Vapornanes auch die energiespeichernden Eigenschaften von Edelsteinen heraus. 
 Der Erfindergeist der Vapornanos führte schließlich zur Kombination von energetisch aufgeladenen Edelsteinen und geschmiedetem Metall, woraus sie zügig bahnbrechende, mechanische Meisterwerke schufen, welche sich die Energie der Edelsteine durch Wasserdampf zunutze machten. 
-Mit diesen Erfindungen konnten die Vapornane zudem zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist. 
+Mit diesen Erfindungen konnten die Vapornane schließlich zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist. 
 
 -> Magie
 Da auch nicht-magische Lebewesen über ihre Haut durchgehend magische Potenz abstrahlen, reicht es einen Edelstein über längere Zeit zu berühren um ihn stetig aufzulanden.
 
+# Aussehen
+* Bärtig (auch die Frauen), sonst kurzes Stoppelfell
+* Haben einen Schwanz
+
+
 # Entwicklung & Geschichte
 
-Zu den Anfängen der intelligenten Völker waren die Vapornane zu großen Teilen einfache Schmiede auf Aridess. 
+Zu den Anfängen der intelligenten Völker waren die Vapornane zu großen Teilen einfache Schmiede auf Aridess.
+Schon bald haben sich im Kreisgebirge die Zirkel gebildet
 
 # Gesellschaft
 
@@ -92,10 +98,7 @@ Im Korpus der Fliege ist eine kleine Aussparung, in der die Nachricht eingerollt
 # Körperbau
 
 Die Vapornane sind klein und rundlich, mit Händen die an Maulwurfsschaufeln erinnern. Ihre Arme/Beine und Hände/Füße sind stark behaart und Sie haben eine Fettschicht aufgrund ihrer guten Nahrungsaufnahme. 
-
-Sie haben sich auf Navura entwickelt und ernähren sich von den großen Würmern im Erdreich von Navura. Diese gedeihen dort, weil Navuras Erde so fruchtbar ist.
-
-Vapornane sind klein und breit gebaut. Ihre männlichen Vertreter entwickeln schon als Kinder (meist im Alter von ca. 8 Zyklen) starken Bartwuchs, dessen Ergebnis nicht selten in kunstvollen Zöpfen zusammengeflochten wird. Vapornane haben fast ausschließlich braune und rote Haare die mit dem Alter gräulich werden. Seltener werden auch Vapornane mit schwarzen Haaren geboren, während blonde Haare bei Vapornanen gar nicht vorkommen.
+Sie entwickeln schon als Kinder (meist im Alter von ca. 8 Zyklen) starken Bartwuchs, dessen Ergebnis nicht selten in kunstvollen Zöpfen zusammengeflochten wird. Vapornane haben fast ausschließlich braune und rote Haare die mit dem Alter gräulich werden. Seltener werden auch Vapornane mit schwarzen Haaren geboren, während blonde Haare bei Vapornanen gar nicht vorkommen.
 
 Bevor dieser Bartwuchs beginnt fällt es vielen Angehörigen anderer Völker schwer männliche und weibliche Vapornanenkinder zu unterscheiden, da auch die Frauen unter den Vapornanen kräftig gebaut sind und markante Gesichtszüge haben. Auch die Länge der Haupthaare sagt bei einem Vapornan nichts über das Geschlecht aus, denn sowohl lange als auch kurze Haare sind bei beiden Geschlechtern üblich.
 
