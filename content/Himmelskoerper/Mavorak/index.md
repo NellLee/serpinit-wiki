@@ -1,5 +1,15 @@
+# Mavorak, das schwarze Loch
 
-![Mavorak_TEMP](mavorak_TEMP.gif)
+:::overview
+
+![Mavorak_TEMP](./images/mavorak_TEMP.gif)
+
+| | |
+|-|-|
+|**Masse:**|$24.3 M_\odot$|
+|**Abstand zu Ikus:**|$12.28 AU$|
+:::
+
 <span style="color: red;">TODO</span> Eigenens Bild aus Blender
 
 Mavorak ist ein äußerst kleines schwarzes Loch im Zentrum des Serpinit-Systems und bildet mit Ikus ein binäres System. Mavorak wird "Ikus' Augenlid" genannt, da das schwarze Loch bei seinem Orbit regelmäßig das Licht des Sterns für dahinter liegende Planeten teilweise absorbiert.

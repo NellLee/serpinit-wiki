@@ -9,6 +9,7 @@ import { generateHeaderId, resolveRelativeUrl } from '$lib/utilities/utilities'
 import { generateBreadcrumbs, getLinkedFilePath } from "./utilities/links"
 import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
 import { FileLink } from "./fileLink"
+import markedKatex from "marked-katex-extension"
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
@@ -55,7 +56,7 @@ class ChangeableDOM {
     sanitize() {
         for (const section of Object.keys(this.sections)) {
             const domPart = this.sections[section as keyof DOMSections]
-            if(domPart) {
+            if (domPart) {
                 domPart.html = DOMPurify.sanitize(domPart.html, { USE_PROFILES: { html: true } })
                 // console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
             }
@@ -103,12 +104,12 @@ export class MarkdownPage {
         const imageFiles = getFilePathsInFolder(folderPath, [".jpg", ".jpeg", ".png"], 0)
 
         if (imageFiles.length > 0) {
-            
+
             constructedMarkdown += "::::div{#gallery}\n"
-            
+
             for (let file of imageFiles) {
                 const fileLink = new FileLink(folderPath + file)
-    
+
                 constructedMarkdown += `
 :::figure{style="width: 400px;"}
 ![${fileLink.text}](${fileLink.href.replace("/content", "")})
@@ -183,13 +184,23 @@ export class MarkdownPage {
     generateInitialDOM(): ChangeableDOM {
 
         let overview: DOMPart | null = null;
-        const content = new DOMPart(new Marked().use(createDirectives([
-            ...presetDirectiveConfigs,
-            {
-                level: 'container',
-                marker: '::::',
-            },
-        ])).parse(this.markdown) as string)
+        const content = new DOMPart(new Marked()
+            .use(createDirectives([
+                ...presetDirectiveConfigs,
+                {
+                    level: 'container',
+                    marker: '::::',
+                },
+            ]))
+            .use(markedKatex({
+                throwOnError: false
+            }))
+            .parse(this.markdown) as string)
+
+            if(this.#fileLink.fileName == "Zeit"){
+                
+            console.log(content.html)
+            }
 
         return new ChangeableDOM(content, overview)
     }
@@ -222,15 +233,15 @@ export class MarkdownPage {
         const folderHref = this.#fileLink.href.replace("/content", "").replace(`${fileName}.${this.#fileLink.extension}`, "")
 
         const changeMap: ChangeMap = {}
-        for(let key of Object.keys(current.sections)) {
+        for (let key of Object.keys(current.sections)) {
             const section = current.sections[key as keyof DOMSections]!
-            if(section) {
+            if (section) {
                 const $ = section.cheerio
                 let links: string[] = []
                 $('img').each((_, img) => {
                     const imgElement = $(img);
                     let src = imgElement.attr('src')
-                    if(src) {
+                    if (src) {
                         if (src.startsWith(".")) {
                             src = resolveRelativeUrl(folderHref, src.substring(2))
                             imgElement.attr('src', src)
