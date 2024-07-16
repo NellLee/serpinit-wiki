@@ -2,34 +2,38 @@
 
 # Mavorak-Zyklus
 Die am meisten genutzte Zeiteinheit basiert auf einer Umdrehung des schwarzen Loches [Mavorak](/content/Himmelskoerper/Mavorak/index.md) und des Sternes [Ikus](/content/Himmelskoerper/Ikus/index.md) um ihr gemeinsames Baryzentrum.
-Ein solcher Umlauf dauert X Erden-Tage
-Da die Völker des Serpinit-Systems lange Zeit angenommen haben, dass Ikus das Zentrum des Systems darstellt, wurde diese Zeiteinheit von den meisten "Mavorak-Zyklus" genannt.
+Ein solcher Umlauf dauert ca. 52 Erden-Tage.
+Dieser Zyklus wird jedoch auf den verschiedenen Planeten unterschiedlich wahrgenommen, da die Umlaufzeit des jeweiligen Planeten Einfluss darauf hat, wann Mavorak sich visuell wieder vor Ikus schiebt.
+Da die meisten Lebewesen des Serpinit-Systems lange Zeit angenommen haben, dass Ikus das Zentrum des Systems darstellt, um welches sich auch Mavorak dreht, wurde diese Zeiteinheit im Allgemeinen "Mavorak-Zyklus" genannt.
 
 ## Herleitung 
-Die Umlaufzeit $T$ lässt sich mithilfe des 3. Keplerschen Gesetzes berechnen:
+Die exakte Umlaufzeit $T$ von Mavorak und Ikus lässt sich mithilfe des 3. Keplerschen Gesetzes berechnen:
 
 $$
 \begin{aligned}
-T = \sqrt{\frac{4 \pi^2 \cdot a^3}{G \cdot M}} \\
+T^2 = \frac{4 \pi^2 \cdot a^3}{G \cdot M} \\
 \end{aligned}
 $$
 
-Wobei $M = M_{Mavorak}+M_{Ikus}$, $G$ die allgemeine Gravitationskonstante und $a$ die große Halbachse zwischen Ikus und Mavorak ist.
-Nach Einsetzen der Werte ergibt sich:
+Wobei gilt: 
+* $M = M_{Mavorak}+M_{Ikus}$
+* $G$ ist die allgemeine Gravitationskonstante 
+* $a$ ist die große Halbachse zwischen Ikus und Mavorak.
+
+Demnach ergibt sich:
 
 $$
 \begin{aligned}
-T &= \sqrt{\frac{4 \pi^2 \cdot (12.28 AU)^3}{(6.67430 \cdot 10^{-11} \frac{m^3}{kg \cdot s^2}) \cdot (24.3 M_\odot+40.07 M_\odot)}} \\
-&= \sqrt{\frac{4 \pi^2 \cdot (12.28 \cdot 1.496 \cdot 10^{11} m)^3}{(6.67430 \cdot 10^{-11} \frac{m^3}{kg \cdot s^2}) \cdot (64.37 \cdot 1.989 \cdot 10^{30} kg)}} \\
-&= \sqrt{\frac{2.44765 \cdot 10^{38} m^3}{8.5452 \cdot 10^{21} \frac{m^3}{s^2}}} \\
-&= \sqrt{2.86436 \cdot 10^{16} s^2} \\
-&= 1.69244×10^8 s \\
+T &= \sqrt{\frac{4 \pi^2 \cdot (1.1 \, \text{AU})^3}{(6.67430 \cdot 10^{-11} \, \frac{\text{m}^3}{\text{kg} \cdot \text{s}^{2}}) \cdot (24.3 \, M_\odot + 40.07 \, M_\odot)}} \\
+&= \sqrt{\frac{4 \pi^2 \cdot (1.1 \cdot 1.496 \cdot 10^{11} \, \text{m})^3}{(6.67430 \cdot 10^{-11} \, \frac{\text{m}^3}{\text{kg} \cdot \text{s}^{2}}) \cdot (64.37 \cdot 1.989 \cdot 10^{30} \, \text{kg})}} \\
+&= \sqrt{\frac{1.75927 \cdot 10^{35} \, \text{m}^3}{8.5452 \cdot 10^{21} \, \frac{\text{m}^3}{\text{s}^{2}}}} \\
+&= \sqrt{2.86436 \cdot 10^{16} \, \text{s}^2} \\
+&= 4.53738 \cdot 10^6 \, \text{s} \\
+&= 52 \, \text{d} \, 12 \, \text{h} \, 23 \, \text{m} \\
 \end{aligned}
+
 $$
 
-<!-- FIXME wrong calculations -->
-
-Dieser Zyklus wird jedoch auf den verschiedenen Planeten sehr unterschiedlich wahrgenommen, da die Umlaufzeit des jeweiligen Planeten Einfluss darauf hat, wann Mavorak sich wieder vor Ikus schiebt.
 
 # Pulsene
 Die kleinste zuverlässig konstante messbare Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura. 

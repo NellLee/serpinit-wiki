@@ -23,7 +23,7 @@
         * In dem Raum sind 3 kleine Leichen, welche dem Gift der Kakteen erlegen sind. Die Körper liegen schon mehrere Monate dort.
         * Es ist kein Fleisch an den Knochen übrig und auch die Kleidung ist bereits am verrotten. Beim Durchsuchen sind vergammelte Wasserschläuche, zerfressene Waffen und verrostete Armreife zu finden. Außerdem glitzern aus dem Beutel einer der Leichen eine Handvoll kleinerer Edelsteine.
     * Bei den Felsen, nicht weit hinter dem Minen-Eingang finden die Spieler die Überreste eines jungen [Lurpers](/content/Himmelskoerper/Aridess/Fauna/Lurper/DnD-5e_Fauna-Blatt.md). Bei genauerer Untersuchung kann festgestellt werden, dass der Lurper maximal 3 Tage tot ist (Nature DC 11), noch nicht ausgewachsen war (Nature DC 18) und die Stacheln eines Shwin-Kaktus im Hinterlauf stecken hat (Investigation DC 8)
-        * Der Lurper hat die Vapornanes bis zur Mine gejagt, wo beide Parteien den Shwin-Kakteen zum Opfer gefallen sind.
+        * Der Lurper hat die Vapornane bis zur Mine gejagt, wo beide Parteien den Shwin-Kakteen zum Opfer gefallen sind.
     * Beim weiteren Durchqueren der Felsen treffen die Spieler auf weitere Lurper. Zwei Männchen (Nature DC 12) kämpfen miteinander, wobei eines bei dem Territorialkampf deutlich verliert. Hinter dem Kampf in einer Felsnische leicht versteckt (Perception DC 13) befinden sich zudem eine Lurper-Kuh und zwei Junge.
 * Die Spieler können auch von der Oase aus zum Portal laufen.
     * Hierbei ist kein Schatten gegeben und die Spieler treffen dabei auf gefährliche Tiere:

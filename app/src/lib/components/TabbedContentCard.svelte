@@ -144,6 +144,10 @@
 
 			// Globals for the content included with "@html"
 
+			:global(.katex-html) {
+				width: fit-content;
+			}
+
 			:global(figure) {
 				position: relative;
 				width: 400px;

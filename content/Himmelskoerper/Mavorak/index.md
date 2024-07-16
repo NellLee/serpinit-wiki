@@ -7,7 +7,7 @@
 | | |
 |-|-|
 |**Masse:**|$24.3 M_\odot$|
-|**Abstand zu Ikus:**|$12.28 AU$|
+|**Abstand zu Ikus:**|$1.1 AU$|
 :::
 
 <span style="color: red;">TODO</span> Eigenens Bild aus Blender

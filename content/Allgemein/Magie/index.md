@@ -21,7 +21,9 @@ Diese kühlten niemals ab und entwickelten stattdessen mit der Zeit ein eigenes 
 
 Magische Potenz hat sehr unterschiedliche Auswirkungen auf pyhsische Stoffe:
 * Metall hat eine niedrige Leitfähigkeit und einen niedrigen Potenzpunk. Trotzdessen kann Metall sehr schlecht magische Potenz speichern, da es diese schnell in hohem Maße als Wärme abgibt.
-* Edelsteine und Kristalle haben einen extrem hohen Potenzpunkt. Als solche "entziehen" sie ihrer Umgebung förmlich Energie, falls vorhanden. 
+* Edelsteine und Kristalle haben einen extrem hohen Potenzpunkt. 
+Als solche "entziehen" sie ihrer Umgebung förmlich Energie, falls vorhanden. 
+Da auch nicht-magische Lebewesen über ihre Haut durchgehend magische Potenz abstrahlen, reicht es einen Edelstein über längere Zeit zu berühren um ihn stetig aufzuladen.
 
 # Serpinitäre Magie
 

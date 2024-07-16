@@ -6,39 +6,31 @@
 :::
 
 Die Vapornane sind das vorherrschende Volk auf [Aridess](/content/Himmelskoerper/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse.
-Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften geprägt sind.
-Sie bewohnen entweder Ansammlungen von Höhlen und unterirdische Tunnelsysteme, die Schutz vor den Elementen bieten, oder aber Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
-Trotz der harschen Umgebung sind die Vapornane geschickte Handwerker und Händler, die jedoch letztendlich auf gegenseitigen Ressourcenaustausch angewiesen sind, um zu überleben.
+Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften dominiert werden.
 Ihre Kultur ist geprägt von Anpassungsfähigkeit und pragmatischer Ingenieurskunst, die es ihnen ermöglicht, selbst unter den widrigsten Bedingungen zu florieren.
-Obwohl sie niemals magische Fähigkeiten entwickelt haben (da Aridess kein ovelärer Planet ist), fanden sie mit der Zeit trotzdem Möglichkeiten, sich die magische Energie des Serpinit-Systems zunutze zu machen.
-Die Vapornans waren schon immer ein Volk der Schmiedekunst und viele ihrer unterirdischen Siedlungen sind aus Erz- oder Edelsteinminen entstanden.
-Sie setzen das Metall gezielt ein um das Überleben sowohl oberhalb also auch unterhalb der heißen Oberfläche von Aridess auf verschiedenste Weisen zu erleichtern.
-Die Edelsteinverarbeitung hatte zuerst einen rein ästethischen Wert, doch so fanden die Vapornanes auch die energiespeichernden Eigenschaften von Edelsteinen heraus.
-Der Erfindergeist der Vapornanos führte schließlich zur Kombination von energetisch aufgeladenen Edelsteinen und geschmiedetem Metall, woraus sie zügig bahnbrechende, mechanische Meisterwerke schufen, welche sich die Energie der Edelsteine durch Wasserdampf zunutze machten.
-Mit diesen Erfindungen konnten die Vapornane schließlich zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist.
+Da Aridess nicht ovelärer ist, haben die Vapornanes niemals magische Fähigkeiten durch eine [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution) entwickelt.
+Sie fanden jedoch mit der Zeit trotzdem Möglichkeiten, die magische Energie des Serpinit-Systems zu nutzen (siehe [Gemtech](#gemtech)).
 
--> Magie
-Da auch nicht-magische Lebewesen über ihre Haut durchgehend magische Potenz abstrahlen, reicht es einen Edelstein über längere Zeit zu berühren um ihn stetig aufzulanden.
-
-# Aussehen
-
-* Bärtig (auch die Frauen), sonst kurzes Stoppelfell
-* Haben einen Schwanz
+# Lebensraum
+Vapornane leben in Ansammlungen von Höhlen und unterirdische Tunnelsysteme, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
+Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane letztendlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
 
 # Entwicklung & Geschichte
 
 Zu den Anfängen der intelligenten Völker waren die Vapornane zu großen Teilen einfache Schmiede auf Aridess.
-Schon bald haben sich im Kreisgebirge die Zirkel gebildet
+Sie nutzten Metall für Werkzeuge, ihre Unterkünfte und ähnliches.
+Aufgrund der wiedrigen Umweltbedingungen gab es jedoch ausschließlich kleine, fast schon indigene Stämme und Siedlungen von Vapornanen.
+Ein wichtiger Meilenstein in der Geschichte der Vapornanes war daher die Globalisierung ausgelöst durch die 12 Familien im [Zirkelgebirge](/content/Himmelskoerper/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md).
+Dort wurden die 12 Artefakte entwickelt, welche durch eine flächendeckende Nutzung infolgende einer engen Vernetzung der Vapornanen, die Lebensqualität nahezu aller Orte stark verbesserte und zur Verstädterung führte.
+Diese 12 Erfindungen nutzten die einzigartigen Auswirkungen der magischen Potenz auf Edelsteine kombiniert mit der Kraft des Wasserdampfes.
+Schließlich profitierten die Vapornane zudem stark von den Folgen der Ikusation, da sie mit Tjosand ihre gesamte Technologie zusätzlich stark verbessern konnten.
 
 # Gesellschaft
 
-Die Vapornane leben in sogenannten Zirkeln zusammen. Die Zirkel entstanden zwar ursprünglich aus den jeweils
-mächtigsten Vapornanenfamilien ihrer Zeit, sind jedoch schon lange nicht mehr an die Grenzen einer Blutsverwandtschaft
-gebunden. Jeder der traditionellen Zirkel der Vapornane zeichnet sich ursprünglich durch eine besondere Erfindung aus,
-dessen Geheimnis viele Zyklen gehütet und weiterentwickelt wurde. Später hat jeder dieser Zirkel von der Entdeckung des
-Tjosandt-Quarzes und der Ikusation außerordentlich profitiert. Tjosandt-Quarz lieferte mit seinen besonderen
-Eigenschaften die Basis für die Mischung aus Edelsteinmagie und Dampftechnologie welche die Vapornane entwickelten. Diese "
-Gemtech-Magie", wie sie später genannt wurde ...
+Die Vapornane leben seit X in ewiger Zugehörigkeit zu sogenannten Zirkeln. 
+Die Zirkel entstanden zwar ursprünglich aus den jeweils mächtigsten Vapornanenfamilien ihrer Zeit, sind jedoch schon seit Aridess' Globalisierung nicht mehr an die Grenzen einer Blutsverwandtschaft gebunden. 
+Jeder der traditionellen Zirkel der Vapornane zeichnet sich ursprünglich durch eine besondere Erfindung aus, dessen Geheimnis viele Zyklen gehütet und weiterentwickelt wurde. 
+Später hat jeder dieser Zirkel von der Entdeckung des Tjosandt-Quarzes und der Ikusation außerordentlich profitiert. 
 
 # Zirkel
 
@@ -94,7 +86,23 @@ Es handelt sich um ein kleines Gerät, welches einer Fliege aus klarem Kristall 
 
 Im Korpus der Fliege ist eine kleine Aussparung, in der die Nachricht eingerollt befestigt werden kann. Genutzt werden die Fliegen zur Nachrichtenübermittlung über große Strecken hinweg. Dabei können die Fliegen auch die Sgrisignier-Portale nutzen um planetare Grenzen zu überwinden. Das Ziel kann der Fliege mündlich mitgeteilt werden. Die Vapornane haben über viele Zyklen hinweg unzählige Orte in die Magie der Kristallfliege „programmiert“, sodass diese Orte über die Aussprache erkannt werden können. Dafür wird ein weiterer Zettel mit den Koordinaten verschiedener Orte sowie den dazugehörigen Rufnamen in der Kristallfliege verstaut. Zu Beginn wurden die Kristallfliegen nur von den Vapornanen selbst genutzt, da auch nur diese in der Lage waren die kleinen Geräte aufzuladen. Die Möglichkeit Nachrichten schnell über große Strecken hinweg überbringen zu können hat jedoch auch bei den restlichen Völkern großen Anklang gefunden. Als die Vapornane es schafften die Magie der Fliegen so zu manipulieren, dass sie bei niedrigem Energieniveau automatisch zum Zirkel zurückkehrten um erneut aufgeladen werden zu können, haben sich die kleinen Geräte auch vollends bei den anderen Völkern durchgesetzt.
 
-# Körperbau
+# Theologie & Magie
+
+## Gemtech
+Die Vapornans waren schon immer ein Volk der Schmiedekunst.
+Viele ihrer unterirdischen Siedlungen sind aus Erz- oder Edelsteinminen entstanden.
+Sie setzen Metall gezielt ein um das Überleben sowohl oberhalb also auch unterhalb der heißen Oberfläche von Aridess auf verschiedenste Weisen zu erleichtern.
+Die Edelsteinverarbeitung hatte zuerst einen rein ästethischen Wert, doch so fanden die Vapornanes auch die energiespeichernden Eigenschaften von Edelsteinen heraus.
+Der Erfindergeist der Vapornanos führte schließlich zur Kombination von energetisch aufgeladenen Edelsteinen und geschmiedetem Metall, woraus sie zügig bahnbrechende, mechanische Meisterwerke schufen, welche sich die Energie der Edelsteine durch Wasserdampf zunutze machten.
+Mit diesen Erfindungen konnten die Vapornane schließlich zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist.
+
+
+
+# Aussehen
+
+
+* Bärtig (auch die Frauen), sonst kurzes Stoppelfell
+* Haben einen Schwanz
 
 Die Vapornane sind klein und rundlich, mit Händen die an Maulwurfsschaufeln erinnern. Ihre Arme/Beine und Hände/Füße sind stark behaart und Sie haben eine Fettschicht aufgrund ihrer guten Nahrungsaufnahme.
 Sie entwickeln schon als Kinder (meist im Alter von ca. 8 Zyklen) starken Bartwuchs, dessen Ergebnis nicht selten in kunstvollen Zöpfen zusammengeflochten wird. Vapornane haben fast ausschließlich braune und rote Haare die mit dem Alter gräulich werden. Seltener werden auch Vapornane mit schwarzen Haaren geboren, während blonde Haare bei Vapornanen gar nicht vorkommen.
@@ -123,9 +131,9 @@ Häufig sind Rüstungen für traditionelle Kämpfe und Feste zusätzlich mit dem
 
 ## Festlich
 
-Für besondere Anlässe tragen Vapornanen meist feine Leinenstücke mit passenden Umhängen. Die Farben fallen im Allgemeinen kräftig aus, werden dabei aber immer passend zum Edelsteinschmuck des Vapornanes gewählt.
+Für besondere Anlässe tragen Vapornanen meist feine Leinenstücke mit passenden Umhängen. Die Farben fallen im Allgemeinen kräftig aus, werden dabei aber immer passend zum Edelsteinschmuck des Vapornane gewählt.
 
-Des Weiteren wird für Festlichkeiten besonderes Augenmerk auf die Haare eines Vapornanes gelegt. Häufig wird sehr viel Zeit investiert um sowohl das Haupthaar, als auch einen eventuellen Bart in aufwendigen Flecht- und Steckfrisuren herzurichten.
+Des Weiteren wird für Festlichkeiten besonderes Augenmerk auf die Haare eines Vapornane gelegt. Häufig wird sehr viel Zeit investiert um sowohl das Haupthaar, als auch einen eventuellen Bart in aufwendigen Flecht- und Steckfrisuren herzurichten.
 
 # Theologie
 

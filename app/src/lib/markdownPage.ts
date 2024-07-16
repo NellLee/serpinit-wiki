@@ -197,11 +197,6 @@ export class MarkdownPage {
             }))
             .parse(this.markdown) as string)
 
-            if(this.#fileLink.fileName == "Zeit"){
-                
-            console.log(content.html)
-            }
-
         return new ChangeableDOM(content, overview)
     }
 

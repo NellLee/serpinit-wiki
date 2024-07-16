@@ -1,7 +1,5 @@
 # Die 9 Himmelskörper
 
-<nav>
-
 # Das Zentrum
 
 - [Ikus](./Ikus/index.md), der große purpurne Stern
@@ -16,7 +14,5 @@
 - [Mognar](./Mognar/index.md)<span style="color: red;">*</span>, der Magmaplanet
 - [Navura](./Navura/index.md)<span style="color: red;">*</span>, der Herzplanet
 - [Venoxi](./Venoxi/index.md), der Giftriese
-
-</nav>
 
 <span style="color: red;">*</span> = Oveläre Planeten. Die vier Planeten die seit Creapatos Teilung ein Drachenei aus magischer Substanz in sich tragen.  
