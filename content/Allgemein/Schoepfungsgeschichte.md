@@ -21,10 +21,10 @@ Damit gab Creapatos ihnen eine äußerst abgeschwächte Form seiner eigenen Fäh
 Nachdem Creapatos die Sgrisignier erschaffen hatte, beschloss er sich zur Ruhe zu setzen und seine Welt von nun nicht mehr aktiv zu beeinflussen.
 Daher spaltete er sein magisches Wesen in 4 göttliche Teile. Jedes Teil band sich an einen der folgenden Himmelskörper des Planetensystems:
 
-- [Agranum](../Himmelskoerper/Agranum/index.md)
-- [Luqua](../Himmelskoerper/Luqua/index.md)
-- [Mognar](../Himmelskoerper/Mognar/index.md)
-- [Navura](../Himmelskoerper/Navura/index.md)
+- [Agranum](../Himmelskoerper_/Agranum/index.md)
+- [Luqua](../Himmelskoerper_/Luqua/index.md)
+- [Mognar](../Himmelskoerper_/Mognar/index.md)
+- [Navura](../Himmelskoerper_/Navura/index.md)
 
 Diese 4 Planeten nahmen die Kraft Creapatos' in ihren Kern auf und wurden zu den vier **Ovelären** Himmelskörpern. Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und zum anderen einen Persönlichkeitsaspekt des ursprünglichen Drachengottes.
 Dabei kann man sich jeden dieser 4 Planetenkerne als ein riesiges Drachenei bestehend aus göttlicher magischer Substanz vorstellen. Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
@@ -39,7 +39,7 @@ sich unvorhergesehene Folgen für das gesamte Serpinit-System manifestieren. Doc
 innerhalb ihres jeweiligen Planeten veränderte diese mit den Jahrtausenden grundlegend.
 Da die Sgrisignier auf Agranum jedoch nach Creapatos Spaltung eine riesige Rune anbrachten, um den Kern aus göttlicher
 magischer Substanz zu bannen, waren auf Agranum deutlich schneller Veränderungen zu spüren als auf den anderen Ovelären
-Planeten. (siehe [Agranum](../Himmelskoerper/Agranum/index.md))
+Planeten. (siehe [Agranum](../Himmelskoerper_/Agranum/index.md))
 
 ### Evolution
 

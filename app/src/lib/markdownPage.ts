@@ -89,8 +89,8 @@ export class MarkdownPage {
     href: string
 
     static constructIndexPage(folderPath: string): MarkdownPage {
-        let constructedMarkdown = "# " + folderPath.substring(folderPath.lastIndexOf(path.sep) + 1) + "\n"
         const filePath = folderPath + path.sep + "index.md"
+        let constructedMarkdown = "# " + new FileLink(filePath).text + "\n"
 
         const markdownFiles = []
         markdownFiles.push(...getFilePathsInFolder(folderPath, [".md"], 0))

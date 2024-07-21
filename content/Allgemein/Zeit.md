@@ -1,7 +1,7 @@
 # Zeit-Messung
 
 # Mavorak-Zyklus
-Die am meisten genutzte Zeiteinheit basiert auf einer Umdrehung des schwarzen Loches [Mavorak](/content/Himmelskoerper/Mavorak/index.md) und des Sternes [Ikus](/content/Himmelskoerper/Ikus/index.md) um ihr gemeinsames Baryzentrum.
+Die am meisten genutzte Zeiteinheit basiert auf einer Umdrehung des schwarzen Loches [Mavorak](/content/Himmelskoerper_/Mavorak/index.md) und des Sternes [Ikus](/content/Himmelskoerper_/Ikus/index.md) um ihr gemeinsames Baryzentrum.
 Ein solcher Umlauf dauert ca. 52 Erden-Tage.
 Dieser Zyklus wird jedoch auf den verschiedenen Planeten unterschiedlich wahrgenommen, da die Umlaufzeit des jeweiligen Planeten Einfluss darauf hat, wann Mavorak sich visuell wieder vor Ikus schiebt.
 Da die meisten Lebewesen des Serpinit-Systems lange Zeit angenommen haben, dass Ikus das Zentrum des Systems darstellt, um welches sich auch Mavorak dreht, wurde diese Zeiteinheit im Allgemeinen "Mavorak-Zyklus" genannt.

@@ -42,7 +42,7 @@ Da Creapatos diese Runen explizit für das Volk der Sgrisignier erschuf, werden 
 ## Sgrisignier-Runen
 
 Die Runenschrift bildet eine vielseitige Schnittstelle zur Magie. Die Sgrisignier nutzten diese Runen äußerst geschickt und erlangten große Macht durch sie. 
-Auch der Hinterhalt auf Aerion war nur mit einer einzigen riesigen Rune möglich, welche die Sgrisignier über lange Zeit hinweg in dem Planeten [Agranum](../../Himmelskoerper/Agranum/index.md) anbrachten. 
+Auch der Hinterhalt auf Aerion war nur mit einer einzigen riesigen Rune möglich, welche die Sgrisignier über lange Zeit hinweg in dem Planeten [Agranum](../../Himmelskoerper_/Agranum/index.md) anbrachten. 
 Anschaulich betrachtet sind die Sgrisignier-Runen eine „Programmiersprache der Realität“. 
 Sie transformieren die Energie von magischer Substanz in komplexen Vorgängen um die unterschiedlichsten Effekte zu erzielen. 
 

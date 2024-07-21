@@ -165,10 +165,10 @@
 ### Deadly Monster CR Threshold
 | Levelbereich | Bedingung                              |
 |--------------|----------------------------------------|
-| Lvl 1-4      | CRs > ¼ Gesamtstufen der Charaktere    |
-| Lvl 5-10     | CRs > ½ Gesamtstufen der Charaktere    |
-| Lvl 11-16    | CRs > ¾ Gesamtstufen der Charaktere    |
-| Lvl 17-20    | CRs > Gesamtstufen der Charaktere      |
+| Lvl 1-4      | CRs > ¼ Gesamtstufen der Charakter    |
+| Lvl 5-10     | CRs > ½ Gesamtstufen der Charakter    |
+| Lvl 11-16    | CRs > ¾ Gesamtstufen der Charakter    |
+| Lvl 17-20    | CRs > Gesamtstufen der Charakter      |
 
 ### Number of Creatures in Areas of Effect
 | Area Size    | Number of Creatures  | Example Spell         |
