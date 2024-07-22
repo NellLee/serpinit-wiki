@@ -3,7 +3,7 @@
 import { error } from "@sveltejs/kit"
 import fs from "fs"
 import path from "path"
-import { WIKI_PATH } from "./wiki"
+import { WIKI_PATH } from "../wiki"
 
 export function getFilePathsInFolder(folderPath: string, fileTypes: string[] = [], maxDepth: number = -1) {
     if(!fs.existsSync(folderPath)) {

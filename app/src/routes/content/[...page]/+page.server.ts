@@ -1,6 +1,6 @@
 import type { MarkdownPage } from "$lib/markdownPage.js";
 import { getLinkedFilePath } from "$lib/utilities/links";
-import { PAGE_API_URL, WIKI_URL } from "$lib/utilities/wiki";
+import { PAGE_API_URL, WIKI_URL } from "$lib/wiki";
 import { error, redirect } from "@sveltejs/kit";
 
 

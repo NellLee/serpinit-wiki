@@ -5,7 +5,7 @@ export function generateHeaderId(str: string | null) {
     if (!str) {
         return ""
     }
-    return str.trim().toLowerCase().replace(/\s+/g, '-')
+    return str.trim().toLowerCase().replace(/\s/g, '-').replace(/[^\p{Letter}\p{Mark}\d_-]/gu, '')
 }
 
 export function resolveRelativeUrl(base: string, relative: string) {

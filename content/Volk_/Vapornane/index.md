@@ -8,12 +8,13 @@
 Die Vapornane sind das vorherrschende Volk auf [Aridess](/content/Himmelskoerper_/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse.
 Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften dominiert werden.
 Ihre Kultur ist geprägt von Anpassungsfähigkeit und pragmatischer Ingenieurskunst, die es ihnen ermöglicht, selbst unter den widrigsten Bedingungen zu florieren.
-Da Aridess nicht ovelärer ist, haben die Vapornanes niemals magische Fähigkeiten durch eine [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution) entwickelt.
+Da Aridess nicht [ovelärer](/content/Allgemein/Schoepfungsgeschichte.md#die-ovelären-planeten--die-elementdrachen) ist, haben die Vapornanes niemals magische Fähigkeiten durch eine [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution) entwickelt.
 Sie fanden jedoch mit der Zeit trotzdem Möglichkeiten, die magische Energie des Serpinit-Systems zu nutzen (siehe [Gemtech](#gemtech)).
 
 # Lebensraum
-Vapornane leben in Ansammlungen von Höhlen und unterirdische Tunnelsysteme, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
-Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane letztendlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
+Vapornane leben in Ansammlungen von Höhlen und unterirdischen Tunnelsystemen, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
+Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane jedoch letztlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
+
 
 # Entwicklung & Geschichte
 

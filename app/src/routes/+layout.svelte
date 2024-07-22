@@ -39,6 +39,10 @@
 				text: 'Wiki'
 			},
 			{
+				href: '/content/timeline',
+				text: 'Timeline'
+			},
+			{
 				href: '/convert',
 				text: 'Converter'
 			}

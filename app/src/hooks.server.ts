@@ -1,3 +1,3 @@
-import { initWiki } from "$lib/utilities/wiki";
+import { initWiki } from "$lib/wiki";
 
 initWiki()

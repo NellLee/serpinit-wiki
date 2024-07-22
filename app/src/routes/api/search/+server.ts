@@ -1,4 +1,4 @@
-import { initWiki, search } from "$lib/utilities/wiki";
+import { initWiki, search } from "$lib/wiki";
 import { error, json } from "@sveltejs/kit";
 
 initWiki()

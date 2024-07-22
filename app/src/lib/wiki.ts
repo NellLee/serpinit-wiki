@@ -1,12 +1,11 @@
 
 import { MarkdownPage } from '$lib/markdownPage';
 import path from 'path'
-import { getFilePathsInFolder, getFrontendSafePath } from './files';
+import { getFilePathsInFolder, getFrontendSafePath } from './utilities/files';
 import { error } from '@sveltejs/kit';
 import fs from 'fs'
 import * as cheerio from 'cheerio'
-import { extractFirstSentenceOrWords, removeDuplicatesAndPartials } from './utilities';
-import Fuse, { type FuseResult } from 'fuse.js';
+import Fuse from 'fuse.js';
 
 export const wiki: Map<string, MarkdownPage> = new Map()
 export const cache: Map<string, string> = new Map() //maps 
@@ -17,7 +16,7 @@ let initialized = false
 export const WIKI_URL = '/content'
 export const PAGE_API_URL = "/api/page"
 export const SEARCH_API_URL = "/api/search"
-export const WIKI_PATH = path.resolve(__dirname, "../../../../content")
+export const WIKI_PATH = path.resolve(__dirname, "../../../content")
 
 export function initWiki() {
     if (!initialized) {
