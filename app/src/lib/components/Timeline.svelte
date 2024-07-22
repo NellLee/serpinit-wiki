@@ -5,23 +5,17 @@
 	let svg: SVGSVGElement;
 
     let effectiveWidth: number;
-    let width: number;
     let effectiveHeight: number;
-    let height: number;
-	let zoomScale = 1;
-	let translateX = 0;
 
-	function zoomed(event: d3.D3ZoomEvent<SVGSVGElement, unknown>) {
-		zoomScale = event.transform.k;
-		translateX = width / 2 - event.transform.x;
-		renderTimeline();
-	}
+    let width = 1200;
+	let zoomScale = 1;
+	let translateX = width / 2;
 
 	function renderTimeline() {
 		const scale = d3
 			.scaleLinear()
 			.domain([
-				(translateX - width / 2) / zoomScale,
+				(translateX - width / 2) / zoomScale - effectiveWidth,
 				(translateX + width / 2) / zoomScale
 			])
 			.range([0, width]);
@@ -29,23 +23,23 @@
 		const axis = d3.axisBottom(scale);
 
 		d3.select(svg).select<SVGGElement>('g.axis').transition().duration(10).call(axis)
+
+		const zoom = d3.zoom<SVGSVGElement, unknown>().on('zoom', event => {
+            zoomScale = event.transform.k;
+            translateX = width / 2 - event.transform.x;
+            renderTimeline();
+        });
+
+		d3.select(svg).call(zoom);
 	}
 
 	onMount(() => {
-        width = Math.max(effectiveWidth, 600);
-        height = Math.max(effectiveHeight, 300);
-        translateX = width/2;
-
-		const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.01, 100]).on('zoom', zoomed);
-
-		d3.select(svg).call(zoom);
-
 		renderTimeline();
 	});
 </script>
 
 <div class="timeline" bind:clientWidth={effectiveWidth} bind:clientHeight={effectiveHeight}>
-	<svg bind:this={svg} {width} {height}>
+	<svg bind:this={svg}>
 		<g class="axis"></g>
 	</svg>
 </div>
@@ -59,8 +53,11 @@
 		overflow: hidden;
 
 		svg {
+            width: 100%;
+            height: 100%;
+
 			.axis {
-				transform: translateY(50px);
+				transform: translateY(50%);
 			}
 		}
 	}
