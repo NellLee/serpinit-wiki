@@ -20,6 +20,7 @@
 
 	const eventHeight = 20;
 	const eventRowSpacing = 5;
+	const eventAxisOffset = 50;
 
 	function renderTimeline() {
 		scale = d3
@@ -40,13 +41,12 @@
 		renderEvents();
 	}
 
-    /* TODO:
-        * Avoid jumping events (apply scale for row calc?)
-        * visual difference between moments (pin/flag, above axis) and ranges (rect/container, below axis)
-        * parse containers: (14) belongs to container 14, [14] IS container 14
-        * create view for event description
-        * vertical dashed lines at axis steps
-    */
+	/* TODO:
+	 * visual difference between moments (pin & flag) and non-moments
+	 * adjust row calculation for container layout
+	 * create view for event description
+	 * vertical dashed lines at axis steps
+	 */
 
 	function renderEvents() {
 		const eventGroup = d3.select(svg).select<SVGGElement>('.events');
@@ -57,30 +57,58 @@
 
 		const events = d3.select(svg).append('g').attr('class', 'events');
 
-		const eventData = timeline.map((d) => ({
-			...d,
-			x: scale(d.event.start),
-			width:
-				d.event.start === d.event.end
-					? Math.max(getTextWidth(d.event.text, '14px Arial') + 10, 10)
-					: scale(d.event.end) - scale(d.event.start),
-			y: effectiveHeight / 2 - 50
-		}));
+		const eventData = timeline.map((d) => {
+			let width = scale(d.event.end) - scale(d.event.start);
+			let isMoment = width === 0;
+			let y = effectiveHeight / 2;
+			if (isMoment) {
+				width = Math.max(getTextWidth(d.event.text, '14px Arial') + 10, 10);
+				y -= eventAxisOffset;
+			} else {
+				y += eventAxisOffset;
+			}
 
-		eventData.sort((a, b) => a.x - b.x);
+			let isContainer = false;
+			let containerId = null;
+			let containerDeclarationMatch = d.event.text.match(/^\[(\d+)\]/); // e.g. "[14]"
+			let containerReferenceMatch = d.event.text.match(/^\((\d+)\)/); // e.g. "(14)"
+			if (containerDeclarationMatch) {
+				isContainer = true;
+				containerId = parseInt(containerDeclarationMatch[1]);
+			} else if (containerReferenceMatch) {
+				containerId = parseInt(containerReferenceMatch[1]);
+			}
+
+			return {
+				...d,
+				x: scale(d.event.start),
+				width,
+				y,
+				isMoment,
+				containerId,
+				isContainer
+			};
+		});
+
+		eventData.sort((a, b) => a.x - b.x).reverse();
 
 		const eventRows: { [key: number]: number } = {}; // Stores the y position for each row
 
-		eventData.forEach((event, index) => {
-			let row = 0;
-			while (eventRows[row] && eventRows[row] >= event.x) {
-				row++;
-			}
+		for (let isMoment of [true, false]) {
+			for (let event of eventData.filter((event) => event.isMoment === isMoment)) {
+            
+				let momentFactor = isMoment ? -1 : 1;
+				let row = momentFactor;
 
-			// Update y position and store the end position of the current row
-			event.y -= row * (eventHeight + eventRowSpacing);
-			eventRows[row] = event.x + event.width;
-		});
+				while (eventRows[row] && eventRows[row] <= event.x + event.width) {
+					row += momentFactor;
+				}
+
+				// Update y position and store the end position of the current row
+				event.y += (row - momentFactor) * (eventHeight + eventRowSpacing);
+				eventRows[row] = event.x;
+			}
+		}
 
 		events
 			.selectAll('rect.event')
