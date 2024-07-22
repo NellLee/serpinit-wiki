@@ -1,13 +1,16 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
+	import type { EvCatPair } from '$lib/timeline';
+
+	export let timeline: EvCatPair[];
 
 	let svg: SVGSVGElement;
 
-    let effectiveWidth: number;
-    let effectiveHeight: number;
+	let effectiveWidth: number;
+	let effectiveHeight: number;
 
-    let width = 1200;
+	let width = 1200;
 	let zoomScale = 1;
 	let translateX = width / 2;
 
@@ -15,20 +18,20 @@
 		const scale = d3
 			.scaleLinear()
 			.domain([
-				(translateX - width / 2) / zoomScale - effectiveWidth,
-				(translateX + width / 2) / zoomScale
-			])
+                (translateX - width / 2) / zoomScale, 
+                (translateX + width / 2) / zoomScale
+            ])
 			.range([0, width]);
 
 		const axis = d3.axisBottom(scale);
 
-		d3.select(svg).select<SVGGElement>('g.axis').transition().duration(10).call(axis)
+		d3.select(svg).select<SVGGElement>('g.axis').transition().duration(10).call(axis);
 
-		const zoom = d3.zoom<SVGSVGElement, unknown>().on('zoom', event => {
-            zoomScale = event.transform.k;
-            translateX = width / 2 - event.transform.x;
-            renderTimeline();
-        });
+		const zoom = d3.zoom<SVGSVGElement, unknown>().on('zoom', (event) => {
+			zoomScale = event.transform.k;
+			translateX = width / 2 - event.transform.x;
+			renderTimeline();
+		});
 
 		d3.select(svg).call(zoom);
 	}
@@ -53,8 +56,8 @@
 		overflow: hidden;
 
 		svg {
-            width: 100%;
-            height: 100%;
+			width: 100%;
+			height: 100%;
 
 			.axis {
 				transform: translateY(50%);

@@ -23,8 +23,7 @@
 		</div>
 
 		<div id="content" slot="content">
-			<!-- {JSON.stringify(data.timeline, null, 2)} -->
-			<Timeline></Timeline>
+			<Timeline timeline={data.timeline}></Timeline>
 		</div>
 	</MidPanel>
 </div>
