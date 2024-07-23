@@ -2,10 +2,11 @@
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
 	import type { Category, Event, EvCatPair } from '$lib/timeline';
-	import { assert } from 'console';
+	import { assert, time } from 'console';
 	import { getTextMeasure, partitionArray } from '$lib/utilities/utilities';
 
 	export let timeline: EvCatPair[];
+	export let selectedEvCatPair: EvCatPair | null = null; // Exported variable for selected event
 
 	type RowConfig = {
 		start: number;
@@ -189,6 +190,33 @@
 			return result;
 		};
 
+		const handleEventClick = (clickEvent: any, eventConfig: EventConfig) => {
+			// Handle click event
+			if (selectedEvCatPair?.event !== eventConfig.event) {
+				selectedEvCatPair = timeline.find(evCatPair => evCatPair.event == eventConfig.event)!;
+			} else {
+				selectedEvCatPair = null; // Deselect if already selected
+			}
+			console.log(selectedEvCatPair)
+			renderEvents();
+		};
+
+		const conditionalSelectedColor = (d: EventConfig) => {
+			if(d.event == selectedEvCatPair?.event) {
+				return "red"
+			} else {
+				return "black"
+			}
+		}
+		
+		const conditionalSelectedWidth = (d: EventConfig) => {
+			if(d.event == selectedEvCatPair?.event) {
+				return 3
+			} else {
+				return 1
+			}
+		}
+
 		events
 			.selectAll('line.moment')
 			.data(momentEvents)
@@ -213,21 +241,6 @@
 			.attr('fill', 'black');
 
 		events
-			.selectAll('rect.event')
-			.data([containerEvents, containedEvents, normalEvents].flat())
-			.enter()
-			.append('rect')
-			.attr('class', 'event')
-			.attr('x', (d) => d.x)
-			.attr('width', (d) => d.width)
-			.attr('y', (d) => d.y)
-			.attr('height', (d) => d.height)
-			.attr('fill', (d) => d.category.color)
-			.attr('style', 'outline: thin solid black;')
-			.append('title')
-			.text((d) => d.event.description ?? '');
-
-		events
 			.selectAll('path.moment-flag')
 			.data(momentEvents)
 			.enter()
@@ -240,7 +253,30 @@
 				return `M${d.x},${flagY} L${flagX + flagWidth},${flagY} L${flagX},${flagY + flagHeight / 2} L${flagX + flagWidth},${flagY + flagHeight} L${d.x},${flagY + flagHeight} Z`;
 			})
 			.attr('fill', (d) => d.category.color)
-			.attr('stroke', 'black');
+			.attr('stroke', conditionalSelectedColor)
+			.attr('stroke-width', conditionalSelectedWidth)
+			.on('click', handleEventClick)
+			.style("cursor", "pointer")
+			.append('title')
+			.text((d) => d.event.text ?? '');
+
+		events
+			.selectAll('rect.event')
+			.data([containerEvents, containedEvents, normalEvents].flat())
+			.enter()
+			.append('rect')
+			.attr('class', 'event')
+			.attr('x', (d) => d.x)
+			.attr('width', (d) => d.width)
+			.attr('y', (d) => d.y)
+			.attr('height', (d) => d.height)
+			.attr('fill', (d) => d.category.color)
+			.attr('stroke', conditionalSelectedColor)
+			.attr('stroke-width', conditionalSelectedWidth)
+			.on('click', handleEventClick)
+			.style("cursor", "pointer")
+			.append('title')
+			.text((d) => d.event.text ?? '');
 
 		events
 			.selectAll('text.event-label')
@@ -257,8 +293,10 @@
 			.attr('fill', (d) => d.category.font_color)
 			.text((d) => d.text)
 			.each((d, i, nodes) => stripText(nodes[i], d.width))
+			.on('click', handleEventClick)
+			.style("cursor", "pointer")
 			.append('title')
-			.text((d) => d.event.description ?? '');
+			.text((d) => d.event.text ?? '');
 	}
 
 	function layoutUpperRows(momentEvents: EventConfig[]) {
@@ -386,7 +424,7 @@
 		border: 1px solid #ccc;
 		width: 100%;
 		height: 100%;
-		margin: a;
+		margin: 0;
 		overflow: hidden;
 
 		svg {
