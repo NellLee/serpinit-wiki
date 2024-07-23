@@ -3,7 +3,7 @@
 	import * as d3 from 'd3';
 	import type { Category, Event, EvCatPair } from '$lib/timeline';
 	import { assert } from 'console';
-	import { partitionArray } from '$lib/utilities/utilities';
+	import { getTextMeasure, partitionArray } from '$lib/utilities/utilities';
 
 	export let timeline: EvCatPair[];
 
@@ -48,11 +48,12 @@
 		currency: ['€', '']
 	});
 
-	const eventHeight = 20;
-	const eventRowSpacing = 5;
+	const eventHeight = 25;
+	const eventRowSpacing = 10;
 	const eventAxisOffset = 40;
 	const flagWidth = 7;
 	const eventTextPadding = 5;
+	const defaultMeasureFont = '14px Arial'
 
 	function renderTimeline() {
 		scale = d3
@@ -134,7 +135,7 @@
 			let width = scale(d.event.end) - scale(d.event.start);
 			let isMoment = width === 0;
 			if (isMoment) {
-				width = Math.max(getTextWidth(text, '14px Arial') + 10, 10);
+				width = Math.max(getTextMeasure(text, defaultMeasureFont)?.width ?? 0 + 10, 10);
 			}
 
 			return {
@@ -246,7 +247,7 @@
 			.append('text')
 			.attr('class', 'event-label')
 			.attr('x', (d) => d.x + eventTextPadding)
-			.attr('y', (d) => d.y + 15)
+			.attr('y', (d) => d.y + eventHeight / 2 + (getTextMeasure("W", defaultMeasureFont)?.emHeightAscent ?? 0) / 2)
 			.attr('fill', (d) => d.category.font_color)
 			.text((d) => d.text)
 			.each((d, i, nodes) => stripText(nodes[i], d.width))
@@ -360,16 +361,6 @@
 				textLength = self.node()!.getComputedTextLength();
 			}
 		}
-	}
-
-	function getTextWidth(text: string, font: string): number {
-		const canvas = document.createElement('canvas');
-		const context = canvas.getContext('2d');
-		if (context) {
-			context.font = font;
-			return context.measureText(text).width;
-		}
-		return 0;
 	}
 
 	onMount(() => {

@@ -52,24 +52,34 @@ export function removeDuplicatesAndPartials(arr: string[]): string[] {
     return result;
 }
 
-export function partitionArray<Type>(array: Type[], predicate: (item: Type) => number, num?: number): Type[][]{
+export function partitionArray<Type>(array: Type[], predicate: (item: Type) => number, num?: number): Type[][] {
     let partitions: any[][];
-    if(num !== undefined) {
+    if (num !== undefined) {
         partitions = Array.from({ length: num }, () => []);
     } else {
         partitions = []
     }
-    
+
     array.reduce((acc, item) => {
-      const groupIndex = predicate(item);
-      
-      if (acc[groupIndex] === undefined) {
-        acc[groupIndex] = []
-      }
-      acc[groupIndex].push(item);
-      
-      return acc;
+        const groupIndex = predicate(item);
+
+        if (acc[groupIndex] === undefined) {
+            acc[groupIndex] = []
+        }
+        acc[groupIndex].push(item);
+
+        return acc;
     }, partitions);
-    
+
     return partitions;
-  }
+}
+
+export function getTextMeasure(text: string, font: string): TextMetrics | null {
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d');
+    if (context) {
+        context.font = font;
+        return context.measureText(text);
+    }
+    return null;
+}
