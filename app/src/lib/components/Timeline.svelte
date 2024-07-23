@@ -53,7 +53,7 @@
 	const eventAxisOffset = 40;
 	const flagWidth = 7;
 	const eventTextPadding = 5;
-	const defaultMeasureFont = '14px Arial'
+	const defaultMeasureFont = '14px Arial';
 
 	function renderTimeline() {
 		scale = d3
@@ -62,15 +62,17 @@
 			.range([0, width]);
 
 		axis = d3.axisBottom(scale).tickFormat(localeFormatter.format(','));
-		const axisGroup = d3.select(svg).select<SVGGElement>('g.axis')
+		const axisGroup = d3.select(svg).select<SVGGElement>('g.axis');
 		axisGroup.transition().duration(10).call(axis);
-		axisGroup.attr('transform', `translate(0, ${effectiveHeight/2})`)
+		axisGroup.attr('transform', `translate(0, ${effectiveHeight / 2})`);
 
-		zoom = d3.zoom<SVGSVGElement, unknown>().on('zoom', (event: d3.D3ZoomEvent<SVGSVGElement, unknown>) => {
-			zoomScale = event.transform.k;
-			translateX = width / 2 - event.transform.x;
-			renderTimeline();
-		});
+		zoom = d3
+			.zoom<SVGSVGElement, unknown>()
+			.on('zoom', (event: d3.D3ZoomEvent<SVGSVGElement, unknown>) => {
+				zoomScale = event.transform.k;
+				translateX = width / 2 - event.transform.x;
+				renderTimeline();
+			});
 		d3.select(svg).call(zoom);
 
 		renderTickLines();
@@ -247,7 +249,11 @@
 			.append('text')
 			.attr('class', 'event-label')
 			.attr('x', (d) => d.x + eventTextPadding)
-			.attr('y', (d) => d.y + eventHeight / 2 + (getTextMeasure("W", defaultMeasureFont)?.emHeightAscent ?? 0) / 2)
+			.attr(
+				'y',
+				(d) =>
+					d.y + eventHeight / 2 + (getTextMeasure('W', defaultMeasureFont)?.emHeightAscent ?? 0) / 2
+			)
 			.attr('fill', (d) => d.category.font_color)
 			.text((d) => d.text)
 			.each((d, i, nodes) => stripText(nodes[i], d.width))
