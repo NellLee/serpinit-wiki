@@ -12,6 +12,7 @@
 	export let fancyBoxGallery: boolean = true;
 	export let contentHtml: string;
 	export let overviewHtml: string | null;
+	export let contentMinHeight: string = "70vh"
 
 	onMount(() => {
 		if (fancyBoxGallery) {
@@ -49,7 +50,7 @@
 		<div class="header">
 			<h1>{title}</h1>
 		</div>
-		<div id="content">
+		<div id="content" style="min-height: {contentMinHeight}">
 			<div lang="de" id="content-html">
 				{@html contentHtml}
 			</div>
@@ -134,7 +135,6 @@
 
 			#content {
 				width: 100%;
-				min-height: 70vh;
 				text-align: justify;
 
 				#content-html {

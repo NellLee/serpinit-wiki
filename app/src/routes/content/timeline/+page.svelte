@@ -28,12 +28,15 @@
 
 		<div id="content" slot="content">
 			<Timeline bind:selectedEvCatPair={selectedEvCatPair}  timeline={data.timeline}></Timeline>
-			<TabbedContentCard
-				tabLinkList={[]}
-				title={selectedEvCatPair?.event.text ?? ""}
-				contentHtml={selectedEvCatPair?.event.description ?? ""}
-				overviewHtml={selectedEvCatPair?.event.category ?? ""}
-			></TabbedContentCard>
+			<div id="event-card">
+				<TabbedContentCard
+					tabLinkList={[]}
+					title={selectedEvCatPair?.event.text ?? ""}
+					contentHtml={selectedEvCatPair?.event.description ?? ""}
+					overviewHtml={selectedEvCatPair?.event.category ?? ""}
+					contentMinHeight=300px
+				></TabbedContentCard>
+			</div>
 		</div>
 	</MidPanel>
 </div>
@@ -53,7 +56,11 @@
 
 	#content {
 		width: 100%;
-		height: 500px
+		height: fit-content;
 
+		#event-card {
+			margin: 100px;
+			height: fit-content;
+		}
 	}
 </style>
