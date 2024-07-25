@@ -32,12 +32,13 @@
 
 	let svg: SVGSVGElement;
 
-	let effectiveWidth: number;
-	let effectiveHeight: number;
+	// 2 below: bound, not available until AFTER first mount hook
+	let effectiveWidth: number | undefined;
+	let effectiveHeight: number | undefined;
 
-	let width = 1200;
 	let zoomScale = 1;
-	let translateX = width / 2;
+	let translateX: number | undefined;
+	let translateY: number | undefined;
 
 	let scale: d3.ScaleLinear<number, number>;
 	let axis: d3.Axis<d3.NumberValue>;
@@ -49,6 +50,21 @@
 		currency: ['€', '']
 	});
 
+	let initialXAxisOffset: number | undefined;
+	$: initialXAxisOffset = effectiveWidth && effectiveWidth / 2
+	let initialYAxisOffset: number | undefined;
+	$: initialYAxisOffset = effectiveHeight && effectiveHeight / 2
+
+	$: if (effectiveWidth !== undefined && effectiveHeight !== undefined) {
+		if(translateX === undefined) {
+			translateX = effectiveWidth / 2;
+		}
+		if(translateY === undefined) {
+			translateY = effectiveHeight / 2;
+		}
+		renderTimeline(translateX, translateY, zoomScale)
+	}
+
 	const eventHeight = 25;
 	const eventRowSpacing = 10;
 	const eventAxisOffset = 40;
@@ -56,23 +72,36 @@
 	const eventTextPadding = 5;
 	const defaultMeasureFont = '14px Arial';
 
-	function renderTimeline() {
+	function renderTimeline(translateX: number, translateY: number, zoomScale: number) {
+		if (!effectiveWidth || !effectiveHeight) {
+			console.error("Timeline cannot be rendered: container has effective size 0")
+			return
+		}
 		scale = d3
 			.scaleLinear()
-			.domain([(translateX - width / 2) / zoomScale, (translateX + width / 2) / zoomScale])
-			.range([0, width]);
+			.domain([translateX / zoomScale, (translateX + effectiveWidth) / zoomScale])
+			.range([0, effectiveWidth]);
 
 		axis = d3.axisBottom(scale).tickFormat(localeFormatter.format(','));
 		const axisGroup = d3.select(svg).select<SVGGElement>('g.axis');
 		axisGroup.transition().duration(10).call(axis);
-		axisGroup.attr('transform', `translate(0, ${effectiveHeight / 2})`);
+		axisGroup.attr('transform', `translate(0, ${translateY})`);
 
 		zoom = d3
 			.zoom<SVGSVGElement, unknown>()
 			.on('zoom', (event: d3.D3ZoomEvent<SVGSVGElement, unknown>) => {
+				if (!effectiveWidth || !effectiveHeight) {
+					console.error("Timeline cannot be zoomed: container has effective size 0")
+					return
+				}
+				translateX = initialXAxisOffset! - event.transform.x;
+				translateY = initialYAxisOffset! + event.transform.y;
+				if(zoomScale == event.transform.k){
+					console.error("panning: y="+event.transform.y)
+				} else {
+					console.error("zooming: y="+event.transform.y)
+				}
 				zoomScale = event.transform.k;
-				translateX = width / 2 - event.transform.x;
-				renderTimeline();
 			});
 		d3.select(svg).call(zoom);
 
@@ -93,7 +122,7 @@
 			.attr('x1', (tick) => scale(tick))
 			.attr('x2', (tick) => scale(tick))
 			.attr('y1', 0)
-			.attr('y2', effectiveHeight)
+			.attr('y2', effectiveHeight!)
 			.attr('stroke', 'black')
 			.attr('stroke-dasharray', '2,2')
 			.attr('stroke-opacity', 0.5);
@@ -105,7 +134,7 @@
 			.attr('x1', zeroTick)
 			.attr('x2', zeroTick)
 			.attr('y1', 0)
-			.attr('y2', effectiveHeight)
+			.attr('y2', effectiveHeight!)
 			.attr('stroke', 'red')
 			.attr('stroke-width', 1);
 	}
@@ -134,7 +163,7 @@
 				text = d.event.text.slice(containerReferenceMatch[0].length);
 			}
 
-			let y = effectiveHeight / 2;
+			let y = translateY!;
 			let width = scale(d.event.end) - scale(d.event.start);
 			let isMoment = width === 0;
 			if (isMoment) {
@@ -183,7 +212,7 @@
 				result = containedEvents.find((c) => c.containerId == d.containerId)?.y;
 			}
 			if (result == null) {
-				result = effectiveHeight / 2;
+				result = translateY!;
 			} else {
 				result -= 2;
 			}
@@ -406,10 +435,6 @@
 			}
 		}
 	}
-
-	onMount(() => {
-		renderTimeline();
-	});
 </script>
 
 <div class="timeline" bind:clientWidth={effectiveWidth} bind:clientHeight={effectiveHeight}>

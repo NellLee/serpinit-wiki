@@ -27,7 +27,9 @@
 		</div>
 
 		<div id="content" slot="content">
-			<Timeline bind:selectedEvCatPair={selectedEvCatPair}  timeline={data.timeline}></Timeline>
+			<div id="timeline">
+				<Timeline bind:selectedEvCatPair={selectedEvCatPair}  timeline={data.timeline}></Timeline>
+			</div>
 			<div id="event-card">
 				<TabbedContentCard
 					tabLinkList={[]}
@@ -57,6 +59,11 @@
 	#content {
 		width: 100%;
 		height: fit-content;
+
+		#timeline {
+			height: 400px;
+			width: 1200px;
+		}
 
 		#event-card {
 			margin: 100px;
