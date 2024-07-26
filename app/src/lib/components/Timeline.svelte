@@ -102,6 +102,8 @@
 					console.error("zooming: y="+event.transform.y)
 				}
 				zoomScale = event.transform.k;
+
+				renderTimeline(translateX, translateY, zoomScale)
 			});
 		d3.select(svg).call(zoom);
 
