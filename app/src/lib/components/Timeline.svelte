@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
 	import type { Category, Event, EvCatPair } from '$lib/timeline';
-	import { assert, time } from 'console';
+	import { assert, error, time } from 'console';
 	import { getTextMeasure, partitionArray } from '$lib/utilities/utilities';
 
 	export let timeline: EvCatPair[];
@@ -43,6 +43,9 @@
 	let scale: d3.ScaleLinear<number, number>;
 	let axis: d3.Axis<d3.NumberValue>;
 	let zoom: d3.ZoomBehavior<SVGSVGElement, unknown>;
+	let transformX: () => d3.ZoomTransform;
+	let transformY: () => d3.ZoomTransform;
+	let zoomIdentity = d3.zoomIdentity;
 	let localeFormatter = d3.formatLocale({
 		decimal: ',',
 		thousands: '.',
@@ -51,18 +54,26 @@
 	});
 
 	let initialXAxisOffset: number | undefined;
-	$: initialXAxisOffset = effectiveWidth && effectiveWidth / 2
+	$: initialXAxisOffset = effectiveWidth && effectiveWidth / 2;
 	let initialYAxisOffset: number | undefined;
-	$: initialYAxisOffset = effectiveHeight && effectiveHeight / 2
+	$: initialYAxisOffset = effectiveHeight && effectiveHeight / 2;
 
-	$: if (effectiveWidth !== undefined && effectiveHeight !== undefined) {
-		if(translateX === undefined) {
+	let initialised = false;
+	$: if (!initialised && effectiveWidth !== undefined && effectiveHeight !== undefined) {
+		console.log('Initialising');
+		initialised = true;
+		if (translateX === undefined) {
 			translateX = effectiveWidth / 2;
 		}
-		if(translateY === undefined) {
+		if (translateY === undefined) {
 			translateY = effectiveHeight / 2;
 		}
-		renderTimeline(translateX, translateY, zoomScale)
+
+		if (!effectiveWidth || !effectiveHeight) {
+			throw error(502, 'Timeline cannot be rendered: container has effective size 0');
+		}
+
+		renderTimeline();
 	}
 
 	const eventHeight = 25;
@@ -72,15 +83,11 @@
 	const eventTextPadding = 5;
 	const defaultMeasureFont = '14px Arial';
 
-	function renderTimeline(translateX: number, translateY: number, zoomScale: number) {
-		if (!effectiveWidth || !effectiveHeight) {
-			console.error("Timeline cannot be rendered: container has effective size 0")
-			return
-		}
+	function renderTimeline() {
 		scale = d3
 			.scaleLinear()
-			.domain([translateX / zoomScale, (translateX + effectiveWidth) / zoomScale])
-			.range([0, effectiveWidth]);
+			.domain([translateX! / zoomScale, (translateX! + effectiveWidth!) / zoomScale])
+			.range([0, effectiveWidth!]);
 
 		axis = d3.axisBottom(scale).tickFormat(localeFormatter.format(','));
 		const axisGroup = d3.select(svg).select<SVGGElement>('g.axis');
@@ -90,23 +97,36 @@
 		zoom = d3
 			.zoom<SVGSVGElement, unknown>()
 			.on('zoom', (event: d3.D3ZoomEvent<SVGSVGElement, unknown>) => {
+				let eventTrans = event.transform;
 				if (!effectiveWidth || !effectiveHeight) {
-					console.error("Timeline cannot be zoomed: container has effective size 0")
-					return
+					console.error('Timeline cannot be zoomed: container has effective size 0');
+					return;
 				}
-				translateX = initialXAxisOffset! - event.transform.x;
-				translateY = initialYAxisOffset! + event.transform.y;
-				if(zoomScale == event.transform.k){
-					console.error("panning: y="+event.transform.y)
+				translateX = initialXAxisOffset! - eventTrans.x - zoomIdentity.x;
+				console.log('zoomIdentity=' + zoomIdentity);
+				if (zoomScale == eventTrans.k) {
+					translateY = initialYAxisOffset! + eventTrans.y - zoomIdentity.y;
+					console.error('panning: y=' + eventTrans.y);
+					axisGroup.attr('transform', `translate(0, ${translateY})`);
 				} else {
-					console.error("zooming: y="+event.transform.y)
+					// translateY = initialYAxisOffset!;
+					zoomIdentity = eventTrans;
+					console.error('zooming: y=' + eventTrans.y);
 				}
-				zoomScale = event.transform.k;
-
-				renderTimeline(translateX, translateY, zoomScale)
+				zoomScale = eventTrans.k;
+				console.log('translateX=' + translateX);
+				console.log('translateY=' + translateY);
+				console.log('zoomScale=' + zoomScale);
+				console.log('transformX()=' + transformX());
+				console.log('transformY()=' + transformY());
+				console.log('eventTrans=' + eventTrans);
+				renderTimeline();
 			});
-		d3.select(svg).call(zoom);
+		transformX = () => d3.zoomTransform(axisGroup.node()!);
+		transformY = () => d3.zoomTransform(axisGroup.node()!);
 
+		d3.select(svg).call(zoom);
+		// console.log("Rendering...")
 		renderTickLines();
 		renderEvents();
 	}
@@ -224,29 +244,29 @@
 		const handleEventClick = (clickEvent: any, eventConfig: EventConfig) => {
 			// Handle click event
 			if (selectedEvCatPair?.event !== eventConfig.event) {
-				selectedEvCatPair = timeline.find(evCatPair => evCatPair.event == eventConfig.event)!;
+				selectedEvCatPair = timeline.find((evCatPair) => evCatPair.event == eventConfig.event)!;
 			} else {
 				selectedEvCatPair = null; // Deselect if already selected
 			}
-			console.log(selectedEvCatPair)
+			console.log(selectedEvCatPair);
 			renderEvents();
 		};
 
 		const conditionalSelectedColor = (d: EventConfig) => {
-			if(d.event == selectedEvCatPair?.event) {
-				return "red"
+			if (d.event == selectedEvCatPair?.event) {
+				return 'red';
 			} else {
-				return "black"
+				return 'black';
 			}
-		}
-		
+		};
+
 		const conditionalSelectedWidth = (d: EventConfig) => {
-			if(d.event == selectedEvCatPair?.event) {
-				return 3
+			if (d.event == selectedEvCatPair?.event) {
+				return 3;
 			} else {
-				return 1
+				return 1;
 			}
-		}
+		};
 
 		events
 			.selectAll('line.moment')
@@ -287,7 +307,7 @@
 			.attr('stroke', conditionalSelectedColor)
 			.attr('stroke-width', conditionalSelectedWidth)
 			.on('click', handleEventClick)
-			.style("cursor", "pointer")
+			.style('cursor', 'pointer')
 			.append('title')
 			.text((d) => d.event.text ?? '');
 
@@ -305,7 +325,7 @@
 			.attr('stroke', conditionalSelectedColor)
 			.attr('stroke-width', conditionalSelectedWidth)
 			.on('click', handleEventClick)
-			.style("cursor", "pointer")
+			.style('cursor', 'pointer')
 			.append('title')
 			.text((d) => d.event.text ?? '');
 
@@ -325,7 +345,7 @@
 			.text((d) => d.text)
 			.each((d, i, nodes) => stripText(nodes[i], d.width))
 			.on('click', handleEventClick)
-			.style("cursor", "pointer")
+			.style('cursor', 'pointer')
 			.append('title')
 			.text((d) => d.event.text ?? '');
 	}
