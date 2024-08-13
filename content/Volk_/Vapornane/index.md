@@ -12,18 +12,20 @@ Da Aridess nicht [ovelärer](/content/Allgemein/Schoepfungsgeschichte.md#die-ove
 Sie fanden jedoch mit der Zeit trotzdem Möglichkeiten, die magische Energie des Serpinit-Systems zu nutzen (siehe [Gemtech](#gemtech)).
 
 # Lebensraum
-Vapornane leben in Ansammlungen von Höhlen und unterirdischen Tunnelsystemen, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
+Die meisten Vapornane leben hauptsächlich in Ansammlungen von Höhlen und unterirdischen Tunnelsystemen, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind. 
 Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane jedoch letztlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
 
-
 # Entwicklung & Geschichte
+Zu den Anfängen der intelligenten Völker waren die Vapornane noch ein recht einfaches Volk, welches Aridess vor Allem aufgrund der Konkurrenzlosigkeit vollumfänglich besiedeln konnte.
+Sie lebten lange Zeit ausschließlich in unzähligen kleinen, nahezu indigenen Gruppierungen, da größere Populationen aufgrund der Ressourcenknappheit keine Bestandsfähigkeit hatten.
+Dementsprechend divers war anfänglich auch die Kultur der Vapornane, wobei die ausgeprägte Handelspolitik einen steten Austausch ebendieser Kulturen ermöglichte.
+Ob es diesem Kulturaustausch oder einem ureigenen Instinkt der Vapornane zu verschulden ist, dass insbesondere die Metallverabeitung schon immer einen besonders hohen Stellenwert bei fast jeder Gruppierung dieses Volkes hatte, ist nicht ganz klar.
+Vapornanes nutzten Metall seit jeher für Werkzeuge, ihre Unterkünfte, Schmuck und ähnliches.
+Auch beim Handel wurde nicht selten auf die Nutzung einer speziellen Währung verzichtet und stattdessen eine Bezahlung in Erzen oder verarbeitetem Metall gewählt.
 
-Zu den Anfängen der intelligenten Völker waren die Vapornane zu großen Teilen einfache Schmiede auf Aridess.
-Sie nutzten Metall für Werkzeuge, ihre Unterkünfte und ähnliches.
-Aufgrund der wiedrigen Umweltbedingungen gab es jedoch ausschließlich kleine, fast schon indigene Stämme und Siedlungen von Vapornanen.
-Ein wichtiger Meilenstein in der Geschichte der Vapornanes war daher die Globalisierung ausgelöst durch die 12 Familien im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md).
+Ein wichtiger Meilenstein in der Geschichte der Vapornanes war schließlich die Globalisierung, ausgelöst durch die 12 Familien im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md).
 Dort wurden die 12 Artefakte entwickelt, welche durch eine flächendeckende Nutzung infolgende einer engen Vernetzung der Vapornanen, die Lebensqualität nahezu aller Orte stark verbesserte und zur Verstädterung führte.
-Diese 12 Erfindungen nutzten die einzigartigen Auswirkungen der magischen Potenz auf Edelsteine kombiniert mit der Kraft des Wasserdampfes.
+Einige dieser 12 Erfindungen nutzten die einzigartigen Auswirkungen der magischen Potenz auf Edelsteine kombiniert mit der Kraft des Wasserdampfes.
 Schließlich profitierten die Vapornane zudem stark von den Folgen der Ikusation, da sie mit Tjosand ihre gesamte Technologie zusätzlich stark verbessern konnten.
 
 # Gesellschaft
@@ -35,13 +37,12 @@ Später hat jeder dieser Zirkel von der Entdeckung des Tjosandt-Quarzes und der 
 
 # Zirkel
 
-## Zirkel der kupfernen Flügel
-
-Diese Vapornane haben es geschafft Flügel zu entwickeln, welche sich ähnlich eines Rucksacks umschnallen lassen. Der eingelassene Edelstein manipuliert dabei die umliegenden Winde. Zusammen mit der Kraft des Wasserdampfes ermöglichen so die Flügel selbst dem kleinen und schweren Volk der Vapornane den Flug durch die Luft. Dank der Weiterentwicklung ihrer Erfindung wurden später ganze Gebäude mit einer ähnlichen Technik flugfähig gemacht indem Wolken als dauerhafte Wasserdampfquellen genutzt wurden und die Nanos der kupfernen Flügel konnten sich in den Lüften Agranums ansiedeln ohne räumlich auf den Gravid-Ring beschränkt zu sein.
-
-So ist eine ganze Stadt im Himmel entstanden, welche neben den Mitgliedern dieses Zirkels nur von fliegenden Sodili-Hybriden, Drachenkindern oder anderen fliegenden Lebewesen erreichbar sind.
-
+TODO
+<!-- TODO -->
 ## Zirkel des Eisenphoriats
+
+Das Eisenphoriat ist letztendlich der älteste und einflussreichste Zirkel der Vapornane.
+Noch lange bevor die anderen Zirkel  
 
 Schon bevor die Entdeckung von Tjosandt den Zusammenhang zwischen Magie und ihrem Einfluss auf kristalline Stoffe offenbarte, spürten die Vapornane dieses Zirkels eine Vorliebe für Edelsteine.
 
@@ -86,6 +87,12 @@ Auch für andere Völker stellen die Vapornane gelegentlich Waffen her, doch die
 Es handelt sich um ein kleines Gerät, welches einer Fliege aus klarem Kristall ähnelt. Die Kristallfliegen besteht zu großen Teilen aus Tjosandt-Quarz, mit einem Kern aus Edelstein. Außerdem sitzen unter den Flügeln kleine Metallplatten, die sich durch die Magie erhitzen. Gemeinsam mit der besonderen Struktur des Quarzes an der Unterseite des Flügels wird so der umgebenden Luft Feuchtigkeit entzogen, welche dann an den heißen Platten verdunstet und für den nötigen Auftrieb sorgt.
 
 Im Korpus der Fliege ist eine kleine Aussparung, in der die Nachricht eingerollt befestigt werden kann. Genutzt werden die Fliegen zur Nachrichtenübermittlung über große Strecken hinweg. Dabei können die Fliegen auch die Sgrisignier-Portale nutzen um planetare Grenzen zu überwinden. Das Ziel kann der Fliege mündlich mitgeteilt werden. Die Vapornane haben über viele Zyklen hinweg unzählige Orte in die Magie der Kristallfliege „programmiert“, sodass diese Orte über die Aussprache erkannt werden können. Dafür wird ein weiterer Zettel mit den Koordinaten verschiedener Orte sowie den dazugehörigen Rufnamen in der Kristallfliege verstaut. Zu Beginn wurden die Kristallfliegen nur von den Vapornanen selbst genutzt, da auch nur diese in der Lage waren die kleinen Geräte aufzuladen. Die Möglichkeit Nachrichten schnell über große Strecken hinweg überbringen zu können hat jedoch auch bei den restlichen Völkern großen Anklang gefunden. Als die Vapornane es schafften die Magie der Fliegen so zu manipulieren, dass sie bei niedrigem Energieniveau automatisch zum Zirkel zurückkehrten um erneut aufgeladen werden zu können, haben sich die kleinen Geräte auch vollends bei den anderen Völkern durchgesetzt.
+
+## Zirkel der kupfernen Flügel
+
+Diese Vapornane haben es geschafft Flügel zu entwickeln, welche sich ähnlich eines Rucksacks umschnallen lassen. Der eingelassene Edelstein manipuliert dabei die umliegenden Winde. Zusammen mit der Kraft des Wasserdampfes ermöglichen so die Flügel selbst dem kleinen und schweren Volk der Vapornane den Flug durch die Luft. Dank der Weiterentwicklung ihrer Erfindung wurden später ganze Gebäude mit einer ähnlichen Technik flugfähig gemacht indem Wolken als dauerhafte Wasserdampfquellen genutzt wurden und die Nanos der kupfernen Flügel konnten sich in den Lüften Agranums ansiedeln ohne räumlich auf den Gravid-Ring beschränkt zu sein.
+
+So ist eine ganze Stadt im Himmel entstanden, welche neben den Mitgliedern dieses Zirkels nur von fliegenden Sodili-Hybriden, Drachenkindern oder anderen fliegenden Lebewesen erreichbar sind.
 
 # Theologie & Magie
 

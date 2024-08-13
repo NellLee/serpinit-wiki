@@ -14,7 +14,7 @@
     * Hierbei ist kein Schatten gegeben und die Spieler treffen dabei auf gefährliche Tiere:
         * [Fuagas](/content/Himmelskoerper_/Aridess/Fauna_/Fuaga/index.md)
         * Eine Herde [Sterros](/content/Himmelskoerper_/Aridess/Fauna_/Sterros/index.md)
-* Am Ende der Felsen sehen die Spieler zwei Gruppen von Humanoiden
+* Am Ende der Felsen sehen die Spieler zwei Gruppen von Humanoiden ([Vapornane](/content/Volk_/Vapornane/index.md))
     * Die eine bewegt sich auf einem Pfad:
         * Es handelt sich um 5 Vapornane des Eisenphoriats
         * Sie sind im Auftrag der Zirkel unterwegs um neue Minen zu erschließen

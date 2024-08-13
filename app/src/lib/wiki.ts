@@ -43,13 +43,13 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
     } else {
         markdownForCache = fs.readFileSync(fullPath, "utf-8")
         if (cache.get(markdownForCache) == fullPath) {
-            console.log(`File "${fullPath}" has been loaded from the cache.`)
+            console.log(`File "${getFrontendSafePath(fullPath)}" has been loaded from the cache.`)
             if (!wiki.has(fullPath)) {
                 throw error(500, `Cache has entry for '${getFrontendSafePath(fullPath)}', but wiki has not.`)
             }
             page = wiki.get(fullPath)!
         } else {
-            console.log(`First page load for '${fullPath}' or markdown content has changed.`)
+            console.log(`First page load for '${getFrontendSafePath(fullPath)}' or markdown content has changed.`)
             page = new MarkdownPage(fullPath)
         }
     }
