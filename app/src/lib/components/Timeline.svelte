@@ -45,7 +45,8 @@
 	let zoom: d3.ZoomBehavior<SVGSVGElement, unknown>;
 	let transformX: () => d3.ZoomTransform;
 	let transformY: () => d3.ZoomTransform;
-	let zoomIdentity = d3.zoomIdentity;
+	let zoomIdentityY = d3.zoomIdentity;
+	let zoomIdentityX = d3.zoomIdentity;
 	let localeFormatter = d3.formatLocale({
 		decimal: ',',
 		thousands: '.',
@@ -102,17 +103,18 @@
 					console.error('Timeline cannot be zoomed: container has effective size 0');
 					return;
 				}
-				translateX = initialXAxisOffset! - eventTrans.x - zoomIdentity.x;
-				console.log('zoomIdentity=' + zoomIdentity);
+				translateX = initialXAxisOffset! - eventTrans.x - zoomIdentityX.x ;
+				console.log('zoomIdentity=' + zoomIdentityY);
 				if (zoomScale == eventTrans.k) {
-					translateY = initialYAxisOffset! + eventTrans.y - zoomIdentity.y;
+					translateY = initialYAxisOffset! + eventTrans.y - zoomIdentityY.y;
 					console.error('panning: y=' + eventTrans.y);
 					axisGroup.attr('transform', `translate(0, ${translateY})`);
 				} else {
 					// translateY = initialYAxisOffset!;
-					zoomIdentity = eventTrans;
+					zoomIdentityY = eventTrans;
 					console.error('zooming: y=' + eventTrans.y);
 				}
+				zoomIdentityX = eventTrans;
 				zoomScale = eventTrans.k;
 				console.log('translateX=' + translateX);
 				console.log('translateY=' + translateY);
@@ -134,6 +136,7 @@
 	function renderTickLines() {
 		d3.select(svg).selectAll('line.tick').remove();
 		d3.select(svg).selectAll('line.zero-line').remove();
+		d3.select(svg).selectAll('line.cursor-line').remove();
 
 		d3.select(svg)
 			.selectAll('line.tick')
@@ -158,6 +161,18 @@
 			.attr('y1', 0)
 			.attr('y2', effectiveHeight!)
 			.attr('stroke', 'red')
+			.attr('stroke-width', 1)
+			.attr('stroke-opacity', 0.5);
+
+		const cursorPos = scale(initialXAxisOffset! - translateX!)
+		d3.select(svg)
+			.append('line')
+			.attr('class', 'cursor-line')
+			.attr('x1', cursorPos)
+			.attr('x2', cursorPos)
+			.attr('y1', 0)
+			.attr('y2', effectiveHeight!)
+			.attr('stroke', 'blue')
 			.attr('stroke-width', 1);
 	}
 
