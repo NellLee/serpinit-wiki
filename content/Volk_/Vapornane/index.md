@@ -15,6 +15,8 @@ Sie fanden jedoch mit der Zeit trotzdem Möglichkeiten, die magische Energie des
 Die meisten Vapornane leben hauptsächlich in Ansammlungen von Höhlen und unterirdischen Tunnelsystemen, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind. 
 Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane jedoch letztlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
 
+<!-- TODO: Zeitform zu Präsens -->
+
 # Entwicklung & Geschichte
 Zu den Anfängen der intelligenten Völker waren die Vapornane noch ein recht einfaches Volk, welches Aridess vor Allem aufgrund der Konkurrenzlosigkeit vollumfänglich besiedeln konnte.
 Sie lebten lange Zeit ausschließlich in unzähligen kleinen, nahezu indigenen Gruppierungen, da größere Populationen aufgrund der Ressourcenknappheit keine Bestandsfähigkeit hatten.
@@ -23,32 +25,47 @@ Ob es diesem Kulturaustausch oder einem ureigenen Instinkt der Vapornane zu vers
 Vapornanes nutzten Metall seit jeher für Werkzeuge, ihre Unterkünfte, Schmuck und ähnliches.
 Auch beim Handel wurde nicht selten auf die Nutzung einer speziellen Währung verzichtet und stattdessen eine Bezahlung in Erzen oder verarbeitetem Metall gewählt.
 
-Ein wichtiger Meilenstein in der Geschichte der Vapornanes war schließlich die Globalisierung, ausgelöst durch die 12 Familien im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md).
-Dort wurden die 12 Artefakte entwickelt, welche durch eine flächendeckende Nutzung infolgende einer engen Vernetzung der Vapornanen, die Lebensqualität nahezu aller Orte stark verbesserte und zur Verstädterung führte.
+## Zirkel-Wettstreit
+Ein wichtiger Meilenstein in der Geschichte der Vapornanes war eine geplante Globalisierung des Planeten Aridess.
+ausgelöst durch die Ausrichtung des **Zirkel-Wettstreits** der Krolpins im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md) und die daraus resultierenden 12 Gewinner.
+Die gewinnenden Erfindungen des Zirkel-Wettstreits wurden kollaborativ ausgewählt.
+Zudem legten die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen.
+Dieser Wettstreit führte letztendlich dazu, dass sich die Lebensqualität nahezu aller erreichter Orte stark verbesserte und löste insgesamt eine Verstädterung aus.
+
+Die Krolpins nutzten die bestehenden, stark vernestelten und grötenteils relativ ineffizienten Handelsrouten auf dem Planeten, um den Wettstreit lange im Vorraus auszurufen.
+Insgesamt fanden sich schließlich 158 teilnehmende Gruppen zu Beginn des Wettstreits ein.
+Den Gruppen wurde nach der offiziellen Eröffnung ein Zeitraum von zwei Zyklen eingeräumt.
+Der erste Zyklus wurde als Planungsphase angesetzt, wobei in dieser Zeit viele spezielle Veranstaltungen geplant wurden, bei denen alle Teilnehmer die Möglichekite hatten bestimmte Techniken, Erkenntnisse oder wissenschaftliche Theorien zu lehren und zu lernen.
+Ziel war es im ersten Zyklus das Niveau der Erfindungen insgesamt zu steigern.
+Außerdem sollte einem zu großen Konkurenzgedanken entgegengewirkt werden, indem ein gemeinsames Ziel formuliert und die Kollaborativität angeregt wurde.
+Im zweiten Zyklus mussten die Teilnehmer dann eine mechanische Erfindung entwickeln, die von so fundamentaler Nützlichkeit war, dass sie Einfluss auf den gesamten Planeten nehmen könnte.
+
 Einige dieser 12 Erfindungen nutzten die einzigartigen Auswirkungen der magischen Potenz auf Edelsteine kombiniert mit der Kraft des Wasserdampfes.
 Schließlich profitierten die Vapornane zudem stark von den Folgen der Ikusation, da sie mit Tjosand ihre gesamte Technologie zusätzlich stark verbessern konnten.
 
 # Gesellschaft
-
-Die Vapornane leben seit X in ewiger Zugehörigkeit zu sogenannten Zirkeln. 
+Die Vapornane leben in ewiger Zugehörigkeit zu sogenannten Zirkeln, welche sich im Zyklus X im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) zusammenfanden. 
 Die Zirkel entstanden zwar ursprünglich aus den jeweils mächtigsten Vapornanenfamilien ihrer Zeit, sind jedoch schon seit Aridess' Globalisierung nicht mehr an die Grenzen einer Blutsverwandtschaft gebunden. 
 Jeder der traditionellen Zirkel der Vapornane zeichnet sich ursprünglich durch eine besondere Erfindung aus, dessen Geheimnis viele Zyklen gehütet und weiterentwickelt wurde. 
 Später hat jeder dieser Zirkel von der Entdeckung des Tjosandt-Quarzes und der Ikusation außerordentlich profitiert. 
 
 # Zirkel
 
-TODO
-<!-- TODO -->
-## Zirkel des Eisenphoriats
+## Zirkel des Erz-Phoriats
+Das Erz-Phoriat ist letztendlich der älteste und einflussreichste Zirkel der Vapornane.
+Noch lange bevor die anderen Familien sich zum Zwecke der Globalisierung im Zirkelgebirge einfanden, besiedelten die Stämme des Erz-Phoriats bereits die nördlichen Gebirgsketten.
+Dabei sind sie besonders bekannt für ihre Erzbohrungen und die dafür verwendeten Gerätschaften.
+Über viele transitive Handelsketten stellen sie letztendlich die Hauptversorgung für Erze auf dem Planeten Aridess dar.
 
-Das Eisenphoriat ist letztendlich der älteste und einflussreichste Zirkel der Vapornane.
-Noch lange bevor die anderen Zirkel  
+### Entwicklung des Phoriats
+Die Vapornan-Familie Krolpins hat im Zyklus X Geräte entwickelt mit denen Vapornanes effektiv in den Boden graben konnten und dabei sowohl Erde als auch Steine problemlos durchdrangen.
+Mit diesen sogenannten Phoriat-Bohrern entstanden die vielen Erzminen in den nördlichen Gebirgen.  
+Die Krolpins bauten immer mehr Handelsbeziehungen auf, da die geschürften Metalle bei den Stämmen außerhalb der Gebirge heiß begehrt waren, doch waren die Handelswege anfangs sehr ineffizient.
+Dies motivierte die Entscheidung der Krolpins, ihren Einfluss zu nutzen um eine Globalisierung anzustoßen.
+Dafür riefen sie den [Zirkel-Wettstreit] aus
+Während diese Bohrer zu Beginn noch vergleichsweise klein waren und von einem einzigen Vapornan bedient wurden, haben sie sich später zu riesigen Gerätschaften entwickelt, welche von innen gesteuert werden und breite Tunnel graben können.
 
-Schon bevor die Entdeckung von Tjosandt den Zusammenhang zwischen Magie und ihrem Einfluss auf kristalline Stoffe offenbarte, spürten die Vapornane dieses Zirkels eine Vorliebe für Edelsteine.
-
-Die Kraft des Wasserdampfes und die Notwendigkeit der Edelsteine für die Magie der Vapornane brachte einige ihrer Vertreter bereits früh dazu Geräte zu entwickeln die sich effektiv in den Boden graben können und sowohl Erde als auch Steine problemlos durchdringen. Während diese Bohrer zu Beginn noch vergleichsweise klein waren und von einem einzigen Vapornan bedient wurden, haben sie sich später zu riesigen Gerätschaften entwickelt, welche von innen gesteuert werden und breite Tunnel graben können.
-
-Diese sogenannten Phoriat-Bohrer führten nicht nur dazu, dass dieser Zirkel seit je her sämtliche Vapornane mit Edelsteinen versorgt, sondern sie ließen auch riesige unterirdische Tunnelsysteme auf Aridess entstehen in welchen die Städte des Eisenphoriats errichtet wurden.
+ führten nicht nur dazu, dass dieser Zirkel seit je her sämtliche Vapornane mit Edelsteinen versorgt, sondern sie ließen auch riesige unterirdische Tunnelsysteme auf Aridess entstehen in welchen die Städte des Erz-Phoriats errichtet wurden.
 
 ## Zirkel der Bleischützen
 

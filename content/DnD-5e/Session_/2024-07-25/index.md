@@ -16,7 +16,7 @@
         * Eine Herde [Sterros](/content/Himmelskoerper_/Aridess/Fauna_/Sterros/index.md)
 * Am Ende der Felsen sehen die Spieler zwei Gruppen von Humanoiden ([Vapornane](/content/Volk_/Vapornane/index.md))
     * Die eine bewegt sich auf einem Pfad:
-        * Es handelt sich um 5 Vapornane des Eisenphoriats
+        * Es handelt sich um 5 Vapornane des Erz-Phoriats
         * Sie sind im Auftrag der Zirkel unterwegs um neue Minen zu erschließen
         * Sie haben ca. 20 aufgeladene Edelsteine dabei, welche sie als bechwichtigendes Geschenk für indigene Stämme nutzen wollen, in dessen Terretorien sie eindringen
         * Auf längere Sicht sind sie auf dem Weg in die Wüstenstadt Obskuri
