@@ -18,27 +18,38 @@ Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane jedoch letztlich
 <!-- TODO: Zeitform zu Präsens -->
 
 # Entwicklung & Geschichte
-Zu den Anfängen der intelligenten Völker waren die Vapornane noch ein recht einfaches Volk, welches Aridess vor Allem aufgrund der Konkurrenzlosigkeit vollumfänglich besiedeln konnte.
-Sie lebten lange Zeit ausschließlich in unzähligen kleinen, nahezu indigenen Gruppierungen, da größere Populationen aufgrund der Ressourcenknappheit keine Bestandsfähigkeit hatten.
-Dementsprechend divers war anfänglich auch die Kultur der Vapornane, wobei die ausgeprägte Handelspolitik einen steten Austausch ebendieser Kulturen ermöglichte.
-Ob es diesem Kulturaustausch oder einem ureigenen Instinkt der Vapornane zu verschulden ist, dass insbesondere die Metallverabeitung schon immer einen besonders hohen Stellenwert bei fast jeder Gruppierung dieses Volkes hatte, ist nicht ganz klar.
-Vapornanes nutzten Metall seit jeher für Werkzeuge, ihre Unterkünfte, Schmuck und ähnliches.
-Auch beim Handel wurde nicht selten auf die Nutzung einer speziellen Währung verzichtet und stattdessen eine Bezahlung in Erzen oder verarbeitetem Metall gewählt.
+Zu den Anfängen der intelligenten Völker sind die Vapornane noch ein recht einfaches Volk, welches Aridess vor Allem aufgrund der Konkurrenzlosigkeit vollumfänglich besiedeln können.
+Sie leben lange Zeit ausschließlich in unzähligen kleinen, nahezu indigenen Gruppierungen, da größere Populationen aufgrund der Ressourcenknappheit keine Bestandsfähigkeit haben.
+Dementsprechend divers ist auch die Kultur der Vapornane, wobei die ausgeprägten Handelsbeziehungen einen steten Austausch ebendieser Kulturen ermöglichen.
+Ob es diesem Kulturaustausch oder einem ureigenen Instinkt der Vapornane zu verschulden ist, dass insbesondere die Metallverabeitung schon immer einen besonders hohen Stellenwert bei fast jeder Gruppierung dieses Volkes hat, ist nicht ganz klar.
+Vapornanes nutzen Metall seit jeher für Werkzeuge, ihre Unterkünfte, Schmuck und ähnliches.
+Selbst beim Handel wird nicht selten auf die Nutzung einer Währung verzichtet und stattdessen eine Bezahlung in Erzen oder verarbeitetem Metall gewählt.
 
 ## Zirkel-Wettstreit
-Ein wichtiger Meilenstein in der Geschichte der Vapornanes war eine geplante Globalisierung des Planeten Aridess.
+Ein wichtiger Meilenstein in der Geschichte der Vapornanes ist eine geplante Globalisierung des Planeten Aridess.
 ausgelöst durch die Ausrichtung des **Zirkel-Wettstreits** der Krolpins im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md) und die daraus resultierenden 12 Gewinner.
-Die gewinnenden Erfindungen des Zirkel-Wettstreits wurden kollaborativ ausgewählt.
-Zudem legten die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen.
-Dieser Wettstreit führte letztendlich dazu, dass sich die Lebensqualität nahezu aller erreichter Orte stark verbesserte und löste insgesamt eine Verstädterung aus.
+Ziel des Wettstreits ist die Entwicklung von mechanischen Erfindungen, die von so fundamentaler Nützlichkeit sind, dass sie Einfluss auf den gesamten Planeten nehmen können.
 
-Die Krolpins nutzten die bestehenden, stark vernestelten und grötenteils relativ ineffizienten Handelsrouten auf dem Planeten, um den Wettstreit lange im Vorraus auszurufen.
-Insgesamt fanden sich schließlich 158 teilnehmende Gruppen zu Beginn des Wettstreits ein.
-Den Gruppen wurde nach der offiziellen Eröffnung ein Zeitraum von zwei Zyklen eingeräumt.
-Der erste Zyklus wurde als Planungsphase angesetzt, wobei in dieser Zeit viele spezielle Veranstaltungen geplant wurden, bei denen alle Teilnehmer die Möglichekite hatten bestimmte Techniken, Erkenntnisse oder wissenschaftliche Theorien zu lehren und zu lernen.
-Ziel war es im ersten Zyklus das Niveau der Erfindungen insgesamt zu steigern.
-Außerdem sollte einem zu großen Konkurenzgedanken entgegengewirkt werden, indem ein gemeinsames Ziel formuliert und die Kollaborativität angeregt wurde.
-Im zweiten Zyklus mussten die Teilnehmer dann eine mechanische Erfindung entwickeln, die von so fundamentaler Nützlichkeit war, dass sie Einfluss auf den gesamten Planeten nehmen könnte.
+Um den Wettstreit auszurufen nutzen die Krolpins ihre Möglichkeiten voll aus.
+Dies sind in dem Fall die Summe der bestehenden, stark vernestelten und dadurch grötenteils relativ ineffizienten Handelsrouten auf dem Planeten.
+Die von den Krolpins gewählte Vorlaufzeit von 10 Zyklen soll dabei sicherstellen, dass die Kunde sich möglichst weit verbreitet und mögliche Teilnehmer genug Zeit für die Anreise haben.
+Für die Verkündung werden insgesamt Tausende Handzettel erstellt, welche allen Handelspartnern der Krolpins mit der Bitte um Weiterverbreitung mitgegeben werden.
+Insgesamt finden sich schließlich 158 teilnehmende Gruppen (insgesamt über 650 Vapornanes) für den Wettstreit im Tal des Zirkelgebirges ein.
+Der Zirkel-Wettstreit führt letztendlich dazu, dass sich die Lebensqualität nahezu aller erreichter Orte stark verbessert und löst insgesamt eine Verstädterung auf Aridess aus.
+
+### Eröffnungsfeier
+Zu Beginn richten die Krolpins eine Eröffnungszeremonie aus, bei welcher das Ziel des Wettstreits sowie dessen Rahmenbedingungen erklärt werden.
+Zur anfänglichen Überraschung vieler Teilnehmer sind die teilnehmenden Gruppen nicht für den gesamten Verlauf des Wettkampfes festgelegt.
+Die aktuelle Auswahl der qualifizierten Erfindungen wird über mehrere Runden hinweg durch demokratische Abstimmungen dezimiert.
+Ausgeschiedenen Gruppen steht es dabei jedoch frei, sich sogleich der Weiterentwicklung einer der qualifizierten Erfindungen anzuschließen.
+Zudem legen die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen.
+Den Gruppen wird nach der offiziellen Eröffnung ein Zeitraum von zwei Zyklen eingeräumt.
+
+### Implementationsphase
+In der Zeit zwischen der Eröffnungsfeier und den nachfogenden Auswahlrunden haben die Gruppen stetig Zeit kollaborativ an ihrer Erfindung zu arbeiten und sie gemeinsam zu verbessern.
+Hierfür werden unter anderem viele spezielle Veranstaltungen geplant, bei denen die Teilnehmer die Möglichkeit haben bestimmte Techniken, Erkenntnisse oder wissenschaftliche Theorien zu lehren und zu lernen.
+
+<!-- TODO -->
 
 Einige dieser 12 Erfindungen nutzten die einzigartigen Auswirkungen der magischen Potenz auf Edelsteine kombiniert mit der Kraft des Wasserdampfes.
 Schließlich profitierten die Vapornane zudem stark von den Folgen der Ikusation, da sie mit Tjosand ihre gesamte Technologie zusätzlich stark verbessern konnten.
