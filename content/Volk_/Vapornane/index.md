@@ -12,69 +12,74 @@ Da Aridess nicht [ovelärer](/content/Allgemein/Schoepfungsgeschichte.md#die-ove
 Sie fanden jedoch mit der Zeit trotzdem Möglichkeiten, die magische Energie des Serpinit-Systems zu nutzen (siehe [Gemtech](#gemtech)).
 
 # Lebensraum
-Die meisten Vapornane leben hauptsächlich in Ansammlungen von Höhlen und unterirdischen Tunnelsystemen, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind. 
-Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane jedoch letztlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
-
-<!-- TODO: Zeitform zu Präsens -->
+Die meisten Vapornane leben lange Zeit hauptsächlich in Ansammlungen von Höhlen und unterirdischen Tunnelsystemen, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind. 
+Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane letztlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
 
 # Entwicklung & Geschichte
-Zu den Anfängen der intelligenten Völker sind die Vapornane noch ein recht einfaches Volk, welches Aridess vor Allem aufgrund der Konkurrenzlosigkeit vollumfänglich besiedeln können.
+Zu den Anfängen der intelligenten Völker sind die Vapornane noch ein recht einfaches Volk, welches Aridess vor Allem aufgrund der Konkurrenzlosigkeit vollumfänglich besiedeln kann.
 Sie leben lange Zeit ausschließlich in unzähligen kleinen, nahezu indigenen Gruppierungen, da größere Populationen aufgrund der Ressourcenknappheit keine Bestandsfähigkeit haben.
-Dementsprechend divers ist auch die Kultur der Vapornane, wobei die ausgeprägten Handelsbeziehungen einen steten Austausch ebendieser Kulturen ermöglichen.
+Dementsprechend divers ist auch die Kultur der Vapornane, wobei ausgeprägte Handelsbeziehungen einen steten Austausch ebendieser Kulturen ermöglichen.
 Ob es diesem Kulturaustausch oder einem ureigenen Instinkt der Vapornane zu verschulden ist, dass insbesondere die Metallverabeitung schon immer einen besonders hohen Stellenwert bei fast jeder Gruppierung dieses Volkes hat, ist nicht ganz klar.
 Vapornanes nutzen Metall seit jeher für Werkzeuge, ihre Unterkünfte, Schmuck und ähnliches.
 Selbst beim Handel wird nicht selten auf die Nutzung einer Währung verzichtet und stattdessen eine Bezahlung in Erzen oder verarbeitetem Metall gewählt.
+Einen besonderen Stellenwert nehmen daher die Erzlieferanten auf Aridess ein.
+Da die meisten Erzvorkommen in den nördlichsten Gebirgen des Planeten verortet sind, haben viele der komplexen Handelsstrukturen hier ihren Ursprung.
 
 ## Zirkel-Wettstreit
 Ein wichtiger Meilenstein in der Geschichte der Vapornanes ist eine geplante Globalisierung des Planeten Aridess.
 ausgelöst durch die Ausrichtung des **Zirkel-Wettstreits** der Krolpins im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md) und die daraus resultierenden 12 Gewinner.
 Ziel des Wettstreits ist die Entwicklung von mechanischen Erfindungen, die von so fundamentaler Nützlichkeit sind, dass sie Einfluss auf den gesamten Planeten nehmen können.
 
-Um den Wettstreit auszurufen nutzen die Krolpins ihre Möglichkeiten voll aus.
-Dies sind in dem Fall die Summe der bestehenden, stark vernestelten und dadurch grötenteils relativ ineffizienten Handelsrouten auf dem Planeten.
-Die von den Krolpins gewählte Vorlaufzeit von 10 Zyklen soll dabei sicherstellen, dass die Kunde sich möglichst weit verbreitet und mögliche Teilnehmer genug Zeit für die Anreise haben.
-Für die Verkündung werden insgesamt Tausende Handzettel erstellt, welche allen Handelspartnern der Krolpins mit der Bitte um Weiterverbreitung mitgegeben werden.
+Um den Wettstreit zu bewerben müssen die Krolpins ihre Position als Hauptversorger für Metalle voll ausnutzen.
+Für die Verkündung werden insgesamt Tausende Handzettel erstellt, welche allen Handelspartnern der Krolpins für die Weiterverbreitung mitgegeben werden.
+Dabei sind die bestehenden Handelsrouten auf Aridess zu großen Teilen stark vernestelt und dadurch nicht selten recht ineffizient.
+Die von den Krolpins gewählte Vorlaufzeit von 10 Zyklen soll daher sicherstellen, dass die Kunde sich möglichst weit verbreitet und mögliche Teilnehmer genug Zeit für die Anreise haben.
 Insgesamt finden sich schließlich 158 teilnehmende Gruppen (insgesamt über 650 Vapornanes) für den Wettstreit im Tal des Zirkelgebirges ein.
-Der Zirkel-Wettstreit führt letztendlich dazu, dass sich die Lebensqualität nahezu aller erreichter Orte stark verbessert und löst insgesamt eine Verstädterung auf Aridess aus.
+Der Zirkel-Wettstreit führt letztendlich dazu, dass sich die Lebensqualität nahezu aller erreichter Orte stark verbessert und löst auf lange Sicht zudem eine Verstädterung auf Aridess aus.
 
-### Eröffnungsfeier
-Zu Beginn richten die Krolpins eine Eröffnungszeremonie aus, bei welcher das Ziel des Wettstreits sowie dessen Rahmenbedingungen erklärt werden.
-Zur anfänglichen Überraschung vieler Teilnehmer sind die teilnehmenden Gruppen nicht für den gesamten Verlauf des Wettkampfes festgelegt.
-Die aktuelle Auswahl der qualifizierten Erfindungen wird über mehrere Runden hinweg durch demokratische Abstimmungen dezimiert.
-Ausgeschiedenen Gruppen steht es dabei jedoch frei, sich sogleich der Weiterentwicklung einer der qualifizierten Erfindungen anzuschließen.
+### Regeln
+Zu Beginn richten die Krolpins eine Eröffnungszeremonie aus, bei welcher neben einer feierlichen Begrüßung auch das Ziel des Wettstreits sowie dessen Rahmenbedingungen verkündet werden.
+Der Wettstreit wird über einen Zeitraum von zwei Zyklen durchgeführt und die Qualifikation der Erfindungen erfolgt über mehrere Runden hinweg durch demokratische Abstimmungen aller Teilnehmer.
+Zur anfänglichen Überraschung vieler Teilnehmer sind die Gruppen nicht für den gesamten Verlauf festgelegt.
+Ausgeschiedenen Gruppen steht es frei, sich sogleich der Weiterentwicklung einer der qualifizierten Erfindungen anzuschließen.
 Zudem legen die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen.
-Den Gruppen wird nach der offiziellen Eröffnung ein Zeitraum von zwei Zyklen eingeräumt.
+Mit Abschluss des Wettstreits wird für jede der 12 gewinnenden Erfindungen ein Zirkel gegründet, welcher fortan eine koordinierende Rolle bei der geplanten Globalisierung einnimmt.
 
-### Implementationsphase
-In der Zeit zwischen der Eröffnungsfeier und den nachfogenden Auswahlrunden haben die Gruppen stetig Zeit kollaborativ an ihrer Erfindung zu arbeiten und sie gemeinsam zu verbessern.
+### Ablauf
+In der Zeit zwischen der Eröffnungsfeier und den nachfogenden Auswahlrunden haben die Gruppen stetig Zeit kollaborativ an ihrer jeweiligen Erfindung zu arbeiten und sie gemeinsam zu verbessern.
 Hierfür werden unter anderem viele spezielle Veranstaltungen geplant, bei denen die Teilnehmer die Möglichkeit haben bestimmte Techniken, Erkenntnisse oder wissenschaftliche Theorien zu lehren und zu lernen.
+Auf diesem Wege werden unter Anderem das Wissen über die Nutzung von Wasserdampf sowie die Effekte von aufgeladenen Edelsteinen verbreitet, was wiederum zur Verbesserung der meisten der entwickelten Gegenstände führt und so das Gesamtniveau des Wettstreits anhebt.
 
-<!-- TODO -->
-
-Einige dieser 12 Erfindungen nutzten die einzigartigen Auswirkungen der magischen Potenz auf Edelsteine kombiniert mit der Kraft des Wasserdampfes.
-Schließlich profitierten die Vapornane zudem stark von den Folgen der Ikusation, da sie mit Tjosand ihre gesamte Technologie zusätzlich stark verbessern konnten.
+## Ikusation
+Die Vapornane profitieren insgesamt außerordentlich von den Folgen der Ikusation.
+Zum einen liefert die Erschließung der Sgrisignier-Portale den Vapornanes eine Vielzahl an neuen Handelsmöglichkeiten.
+Zum Anderen können die Vapornanes mit Tjosand ihre gesamte Technologie schließlich zusätzlich stark verbessern.
 
 # Gesellschaft
-Die Vapornane leben in ewiger Zugehörigkeit zu sogenannten Zirkeln, welche sich im Zyklus X im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) zusammenfanden. 
-Die Zirkel entstanden zwar ursprünglich aus den jeweils mächtigsten Vapornanenfamilien ihrer Zeit, sind jedoch schon seit Aridess' Globalisierung nicht mehr an die Grenzen einer Blutsverwandtschaft gebunden. 
-Jeder der traditionellen Zirkel der Vapornane zeichnet sich ursprünglich durch eine besondere Erfindung aus, dessen Geheimnis viele Zyklen gehütet und weiterentwickelt wurde. 
-Später hat jeder dieser Zirkel von der Entdeckung des Tjosandt-Quarzes und der Ikusation außerordentlich profitiert. 
+Die Vapornane leben seit der Globalisierung in ewiger Zugehörigkeit zu sogenannten Zirkeln, welche sich im Zyklus X im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) zusammenfanden. 
+Die Zirkel entstanden zwar ursprünglich aus den teilnehmenden Gruppen des Zirkel-Wettstreits, sind jdeoch seit Aridess' Globalisierung nicht mehr an diese Grenzen gebunden.
+Stattdessen entstehen Zugehörigkeiten unterschiedlicher Orte zu einem Zirkel, falls die jeweilige Zirkel-Erfindung ausschlaggebende Auswirkungen auf die Ökonomie und Kultur hat.
+Später profitieren alle Zirkel außerordentlich von der Ikusation und der damit verbundenen Entdeckung des Tjosandt-Quarzes. 
 
 # Zirkel
 
 ## Zirkel des Erz-Phoriats
 Das Erz-Phoriat ist letztendlich der älteste und einflussreichste Zirkel der Vapornane.
-Noch lange bevor die anderen Familien sich zum Zwecke der Globalisierung im Zirkelgebirge einfanden, besiedelten die Stämme des Erz-Phoriats bereits die nördlichen Gebirgsketten.
-Dabei sind sie besonders bekannt für ihre Erzbohrungen und die dafür verwendeten Gerätschaften.
-Über viele transitive Handelsketten stellen sie letztendlich die Hauptversorgung für Erze auf dem Planeten Aridess dar.
+Noch lange bevor sich die anderen Zirkel bilden, besiedeln die Stämme des Erz-Phoriats bereits die nördlichen Gebirgsketten.
+Dabei sind sie besonders bekannt für ihre effizienten Erzbohrungen und die dafür verwendeten Gerätschaften.
+Über viele transitive Handelsketten stellen sie letztendlich die Hauptversorgung für Metall auf dem Planeten Aridess dar.
 
 ### Entwicklung des Phoriats
-Die Vapornan-Familie Krolpins hat im Zyklus X Geräte entwickelt mit denen Vapornanes effektiv in den Boden graben konnten und dabei sowohl Erde als auch Steine problemlos durchdrangen.
-Mit diesen sogenannten Phoriat-Bohrern entstanden die vielen Erzminen in den nördlichen Gebirgen.  
-Die Krolpins bauten immer mehr Handelsbeziehungen auf, da die geschürften Metalle bei den Stämmen außerhalb der Gebirge heiß begehrt waren, doch waren die Handelswege anfangs sehr ineffizient.
+Die Vapornan-Familie Krolpins entwickelt im Zyklus X Geräte mit denen Vapornanes effektiv in den Boden graben können und dabei sowohl Erde als auch Steine problemlos durchdringen.
+Mit diesen sogenannten Phoriat-Bohrern entstehen schließlich die vielen Erzminen in den nördlichen Gebirgen.  
+Die Krolpins bauen mit der Zeit immer mehr Handelsbeziehungen auf, da die geschürften Metalle bei den Stämmen außerhalb der Gebirge heiß begehrt sind, und nehmen so eine immer mächtiger werdende Position im Zirkelgebirge ein.
+Doch waren die Handelswege insgesamt sehr ineffizient und die Krolpins verzeichnen häufig unvorhersehbare Verluste.
 Dies motivierte die Entscheidung der Krolpins, ihren Einfluss zu nutzen um eine Globalisierung anzustoßen.
-Dafür riefen sie den [Zirkel-Wettstreit] aus
+Dafür riefen sie den [Zirkel-Wettstreit] aus.
+Neben der 
 Während diese Bohrer zu Beginn noch vergleichsweise klein waren und von einem einzigen Vapornan bedient wurden, haben sie sich später zu riesigen Gerätschaften entwickelt, welche von innen gesteuert werden und breite Tunnel graben können.
+
+<!-- TODO -->
 
  führten nicht nur dazu, dass dieser Zirkel seit je her sämtliche Vapornane mit Edelsteinen versorgt, sondern sie ließen auch riesige unterirdische Tunnelsysteme auf Aridess entstehen in welchen die Städte des Erz-Phoriats errichtet wurden.
 
