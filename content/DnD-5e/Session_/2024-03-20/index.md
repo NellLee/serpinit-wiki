@@ -19,7 +19,7 @@ Als Hauptaufgabe müssen die Spieler nach wie vor das erste Portal erschließen.
 Die [Bibel](/content/Volk_/Lateralen/Sodili/Theologie/die-Bibel-der-Unzaehlbaren.md) die Kle von der Bibliothek abgeholt hat, behandelt lediglich die Religion der Sodili. Als solche ist sie zwar inspiriert von der wahren [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) aber in einer stark verzerrten Form.
 
 ## Alarics Begegnung mit dem braunen Ring
-* Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Politik/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tuer_Symbol_Raetsel.png)
+* Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Volk_/Lateralen/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tuer_Symbol_Raetsel.png)
 * Auf den Tunnelwänden vor der Tür sind viele Kritzeleien, ein geübtes Auge erkennt sie als Diebesschrift.
 * Über der Tür steht: "Spüret die schmerzenden Dornen des bedeutsamen Ringes" / "Drücke auf die relevanten Spitzen des Ring-Symbols"
 * Auf den Tunnelwänden sind insgesamt 3 Hinweise:

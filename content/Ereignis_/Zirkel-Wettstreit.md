@@ -1,5 +1,5 @@
 # Zirkel-Wettstreit
 
-Der Zirkel-Wettstreit ist eine Veranstaltung, welche von der Vapornan-Familie Krolpin am nördlichen Pol des Planeten Aridess ausgerichtet wird.
+Der Zirkel-Wettstreit ist eine Veranstaltung der Krolpins-Familie, welche von der Vapornan-Familie Krolpin am nördlichen Pol des Planeten [Aridess](/content/Himmelskoerper_/Aridess/index.md) ausgerichtet wird.
 
 <!-- TODO -->
