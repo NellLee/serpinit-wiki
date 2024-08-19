@@ -45,7 +45,7 @@ Als Caelum dabei erwischt wurde, wie er einer der königlichen Patroullien nachs
 Er nahm ihn in der Jugendgarde auf und wurde fortan zu seinem Mentor welcher ihm Recht und Ordnung beibrachte. 
 
 ### Aktuelle Situation
-Seine Loyalität und sein Gerechtigkeitssinn brachten Caelum den Respekt des Königs ein, weshalb er auf Empfehlung persönlich vom König für die [Ikusations-Expedition](/content/Allgemein/Ikusation.md) ausgewählt wurde.
+Seine Loyalität und sein Gerechtigkeitssinn brachten Caelum den Respekt des Königs ein, weshalb er auf Empfehlung persönlich vom König für die [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) ausgewählt wurde.
 Die Teilnahme an der Expedition ist für Caelum eine Ehre und möglicherweise sein letzter Schritt, bevor er zum Truppführer befördert wird.
 Neben der Aufgabe, die Gruppe zu schützen, soll er die Conius-Lateralen überwachen, eine Verantwortung, die er ernst nimmt, trotz oder gerade wegen seiner inneren Ängste gegenüber Magie.
 

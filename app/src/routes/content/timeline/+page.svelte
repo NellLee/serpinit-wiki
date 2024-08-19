@@ -63,6 +63,7 @@
 		#timeline {
 			height: 400px;
 			width: 1200px;
+			max-width: 100%;
 		}
 
 		#event-card {

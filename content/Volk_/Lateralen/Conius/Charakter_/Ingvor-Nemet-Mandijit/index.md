@@ -64,7 +64,7 @@ Nach einigen Jahren verließ Ingvor die Akademie, da ihm die Forschungspolitik z
 Ein Unfall bei seiner Forschung führte zur Persistenz eines Riesen-Elementars im See Kulios, der das nahegekegene Dorf Akuelon gefährdete.
 
 ### Aktuelle Situation
-Ingvor wurde vom König der Sodili berufen der [Ikusations-Expedition](/content/Allgemein/Ikusation.md) beizuwohnen.
+Ingvor wurde vom König der Sodili berufen der [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) beizuwohnen.
 
 ## Beziehungen
 

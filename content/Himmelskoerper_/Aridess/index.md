@@ -14,4 +14,4 @@ Die Vapornane haben sich an die unwirtlichen Bedingungen ihres Heimatplaneten pr
 Die meisten von ihnen leben entweder in den fruchtbaren Oasen oder in weitlaufenden Untergrund-Städten.
 
 # Geschichte
-Aridess ist der erste Planet welcher von den [Lateralen](/content/Volk_/Lateralen/index.md) mit dem Start der [Ikusation](/content/Allgemein/Ikusation.md) erschlossen wurde.
+Aridess ist der erste Planet welcher von den [Lateralen](/content/Volk_/Lateralen/index.md) mit dem Start der [Ikusation](/content/Ereignis_/Ikusation.md) erschlossen wurde.

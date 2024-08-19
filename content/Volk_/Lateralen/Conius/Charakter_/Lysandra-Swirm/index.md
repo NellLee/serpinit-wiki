@@ -47,7 +47,7 @@ Nachdem sie auf der Straße einige Zeit Micu-Pflege angeboten hatte und so genug
 Ihre Unterkunft wurde schnell beliebt, besonders bei wohlhabenden Sodili die das Schloss besuchten.
 
 ### Aktuelle Situation
-Varion Sierfehl suchte Lysandra auf und bat sie, an der geheimen [Ikusations-Expedition](/content/Allgemein/Ikusation.md) teilzunehmen, da sie als eine der wenigen Conius gilt, die das Vertrauen der Sodili gewonnen hat.
+Varion Sierfehl suchte Lysandra auf und bat sie, an der geheimen [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) teilzunehmen, da sie als eine der wenigen Conius gilt, die das Vertrauen der Sodili gewonnen hat.
 Sie versucht dabei eine wertneutrale Berichterstattung zu gewährleisten, um keinen Konflikt zwischen Resrubor und Carpebur entstehen zu lassen.
 
 ## Fähigkeiten und Kräfte

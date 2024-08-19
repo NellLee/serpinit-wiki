@@ -26,7 +26,7 @@ Einen besonderen Stellenwert nehmen daher die Erzlieferanten auf Aridess ein.
 Da die meisten Erzvorkommen in den nördlichsten Gebirgen des Planeten verortet sind, haben viele der komplexen Handelsstrukturen hier ihren Ursprung.
 
 ## Zirkel-Wettstreit
-Ein wichtiger Meilenstein in der Geschichte der Vapornanes ist eine geplante Globalisierung des Planeten Aridess, ausgelöst durch die Ausrichtung des **Zirkel-Wettstreits** der Krolpins im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md) und die daraus resultierenden 12 Gewinner.
+Ein wichtiger Meilenstein in der Geschichte der Vapornanes ist eine geplante Globalisierung des Planeten Aridess, ausgelöst durch die Ausrichtung des **Zirkel-Wettstreits** durch die Krolpins im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md) und die daraus resultierenden 12 Gewinner.
 Ziel des Wettstreits ist die Entwicklung von mechanischen Erfindungen, die von so fundamentaler Nützlichkeit sind, dass sie Einfluss auf den gesamten Planeten nehmen können.
 
 Um den Wettstreit zu bewerben müssen die Krolpins ihre Position als Hauptversorger für Metalle voll ausnutzen.
@@ -55,10 +55,9 @@ Zum einen liefert die Erschließung der Sgrisignier-Portale den Vapornanes eine 
 Zum Anderen können die Vapornanes mit Tjosand ihre gesamte Technologie schließlich zusätzlich stark verbessern.
 
 # Gesellschaft
-Die Vapornane leben seit der Globalisierung in ewiger Zugehörigkeit zu sogenannten Zirkeln, welche sich im Zyklus X im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) zusammenfanden. 
-Die Zirkel entstanden zwar ursprünglich aus den teilnehmenden Gruppen des Zirkel-Wettstreits, sind jdeoch seit Aridess' Globalisierung nicht mehr an diese Grenzen gebunden.
-Stattdessen entstehen Zugehörigkeiten unterschiedlicher Orte zu einem Zirkel, falls die jeweilige Zirkel-Erfindung ausschlaggebende Auswirkungen auf die Ökonomie und Kultur hat.
-Später profitieren alle Zirkel außerordentlich von der Ikusation und der damit verbundenen Entdeckung des Tjosandt-Quarzes. 
+Die Vapornane leben seit der Globalisierung in Zugehörigkeit zu sogenannten Zirkeln, welche sich durch den Zirkel-Wettstreit im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) gründen. 
+Die Zirkel entstehen zwar ursprünglich aus den gewinnenden Gruppen des Zirkel-Wettstreits, sind jedoch insbesondere durch Aridess' Globalisierung nicht mehr an diese Grenzen gebunden.
+Stattdessen entstehen Zugehörigkeiten unterschiedlicher Orte zu einem Zirkel, wenn eine jeweilige Zirkel-Erfindung ausschlaggebende Auswirkungen auf die Ökonomie und Kultur ihrer Population hat.
 
 # Zirkel
 
@@ -69,26 +68,37 @@ Dabei sind sie besonders bekannt für ihre effizienten Erzbohrungen und die daf�
 Über viele transitive Handelsketten stellen sie letztendlich die Hauptversorgung für Metall auf dem Planeten Aridess dar.
 
 ### Entwicklung des Phoriats
-Die Vapornan-Familie Krolpins entwickelt im Zyklus X den ersten Phoriat, ein Bohrer mit dem ein Vapornan effektiv in den Boden graben kann und dabei sowohl Erde als auch Steine problemlos durchdringt.
+Die Vapornan-Familie Krolpin entwickelt im Zyklus X den ersten Phoriat, ein Bohrer mit dem ein Vapornan effektiv in den Boden graben kann und dabei sowohl Erde als auch Steine problemlos durchdringt.
 Mit den Bohrern entstehen schließlich die vielen Erzminen in den nördlichen Gebirgen.  
 Die Krolpins bauen mit der Zeit immer mehr Handelsbeziehungen auf, da die geschürften Metalle bei den Stämmen außerhalb der Gebirge heiß begehrt sind und nehmen so eine immer mächtiger werdende Position im Zirkelgebirge ein.
 Doch sind die Handelswege insgesamt recht ineffizient und die Krolpins verzeichnen häufig unvorhersehbare Verluste.
 Außerdem sind die ersten Bohrer mühsam angefertigte Einzelstücke, welche nur wenige herzustellen in der Lage sind.
 Dies motiviert die Entscheidung der Krolpins, ihren Einfluss zu nutzen um einen technischen Aufschwung in Form einer Globalisierung anzustoßen.
-Dafür rufen sie den [Zirkel-Wettstreit] aus und nehmen selbst als Gruppe an ebendiesem teil.
+Dafür rufen sie den [Zirkel-Wettstreit] aus und nehmen auch selbst als Gruppe an ebendiesem teil.
 Ihre beitragende Erfindung ist natürlich der Phoriat mit dem sie bereits so viele Minen angelegt haben.
-Während diese Bohrer zu Beginn noch vergleichsweise klein sind und von einem einzigen Vapornan bedient werden, entwickeln sie sich durch den Wettstreit effektiv zu riesigen Gerätschaften, welche von innen gesteuert werden und breite Tunnel graben können.
+Während diese Bohrer zu Beginn noch vergleichsweise klein sind und von einem einzigen Vapornan bedient werden, entwickeln sie sich durch den Wettstreit schließlich zu riesigen Gerätschaften, welche von innen gesteuert werden und breite Tunnel graben können.
 Dies erhöht nicht nur die Effektivität der vielen Erzbohrungen im Zirkelgebirge, sondern lässt mit der Zeit auch riesige Tunnelsysteme entstehen in welchen sich die Städte des Erz-Phoriats und die Hauptsitze der Zirkel entwickeln konnten.
 
 ## Zirkel der Aluminiumfliegen
-Bei den Aliminiumfliegen handelt es sich um ein kleines, flugfähiges Gerät.
+Bei der Aliminiumfliege handelt es sich um ein kleines, flugfähiges Gerät.
 Es hat einen Korpus aus Kristall und Flügel aus dünnem Aluminium. 
-Im Körper der "Fliege" ist eine kleine Aussparung, in der die Nachricht eingerollt befestigt werden kann. 
-Der Sinn der Fliegen liegt in der Nachrichtenübermittlung über große Strecken hinweg.
-
+Im Körper der "Fliege" ist eine kleine Aussparung, in der eine eingerollte Nachricht befestigt werden kann. 
+Der Sinn der Fliegen liegt in der Kommunikation über große Strecken hinweg.
+Es sind präzise Berechnungen von Nöten, um eine Kirstallfliege mit der exakten Mengen an Energie auszustatten, sodass sie zum passenden Zeitpunkt an Höhe verliert und ihren Zielort erreicht.
 
 <!-- TODO: Post-Ikusation
 Dabei können die Fliegen auch die Sgrisignier-Portale nutzen um planetare Grenzen zu überwinden. Das Ziel kann der Fliege mündlich mitgeteilt werden. Die Vapornane haben über viele Zyklen hinweg unzählige Orte in die Magie der Kristallfliege „programmiert“, sodass diese Orte über die Aussprache erkannt werden können. Dafür wird ein weiterer Zettel mit den Koordinaten verschiedener Orte sowie den dazugehörigen Rufnamen in der Kristallfliege verstaut. Zu Beginn wurden die Kristallfliegen nur von den Vapornanen selbst genutzt, da auch nur diese in der Lage waren die kleinen Geräte aufzuladen. Die Möglichkeit Nachrichten schnell über große Strecken hinweg überbringen zu können hat jedoch auch bei den restlichen Völkern großen Anklang gefunden. Als die Vapornane es schafften die Magie der Fliegen so zu manipulieren, dass sie bei niedrigem Energieniveau automatisch zum Zirkel zurückkehrten um erneut aufgeladen werden zu können, haben sich die kleinen Geräte auch vollends bei den anderen Völkern durchgesetzt. -->
+
+## Zirkel der Silberspiegel
+Die Erfindung dieses Zirkels kommt von den Bewohnern der Hudork-Schluchten, welche ihre Metallspiegel schon Zyklen bevor der Wettstreit ausgerufen wurde nutzen um Agrarwirtschaft an den unzugänglichen Orten der Schluchten zu ermöglichen.
+Dabei wird das Metall (meist Silber) für die Spiegel anfänglich mit traditionellen Mitteln verarbeitet, durch Einschmelzen und in-Form-gießen, was widerum einen hohen Aufwand mit sich bringt.
+Durch den Wettstreit lernen die Hudork-Bewohner dann die Auswirkungen der Sgrisignier-Portale auf Metall kennen, was die Herstellung der Silberspiegel stark verinfacht.
+
+## Zirkel des Dampfrucksacks
+Dieser Zirkel entsteht aus der Entwicklung der Dampfmaschine.
+ 
+
+<!-- TODO -->
 
 ## Zirkel der Bleischützen
 

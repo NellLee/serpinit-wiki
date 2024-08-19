@@ -39,6 +39,7 @@
 	let zoomScale = 1;
 	let translateX: number | undefined;
 	let translateY: number | undefined;
+	let lastTranslateY: number | null = null;
 
 	let scale: d3.ScaleLinear<number, number>;
 	let axis: d3.Axis<d3.NumberValue>;
@@ -62,24 +63,29 @@
 	let initialised = false;
 	$: if (!initialised && effectiveWidth !== undefined && effectiveHeight !== undefined) {
 		console.log('Initialising');
-		initialised = true;
+
+		if (!effectiveWidth || !effectiveHeight) {
+			throw error(502, 'Timeline cannot be rendered: container has effective size 0');
+		}
+
 		if (translateX === undefined) {
 			translateX = effectiveWidth / 2;
 		}
 		if (translateY === undefined) {
 			translateY = effectiveHeight / 2;
 		}
+		lastTranslateY = initialYAxisOffset!
 
-		if (!effectiveWidth || !effectiveHeight) {
-			throw error(502, 'Timeline cannot be rendered: container has effective size 0');
-		}
-
+		initialised = true;
 		renderTimeline();
 	}
 
-	const eventHeight = 25;
-	const eventRowSpacing = 10;
-	const eventAxisOffset = 40;
+	const maxEventScale = 1;
+	const minEventScale = 1;
+	$: eventZoomScale = Math.min(Math.max(zoomIdentityY.k, minEventScale), maxEventScale)
+	$: eventHeight = 20 * eventZoomScale;
+	$: eventRowSpacing = 5 * eventZoomScale;
+	$: eventAxisOffset = 30 * eventZoomScale;
 	const flagWidth = 7;
 	const eventTextPadding = 5;
 	const defaultMeasureFont = '14px Arial';
@@ -98,45 +104,61 @@
 		zoom = d3
 			.zoom<SVGSVGElement, unknown>()
 			.on('zoom', (event: d3.D3ZoomEvent<SVGSVGElement, unknown>) => {
+				let mousePos = d3.pointer(event)
+				
 				let eventTrans = event.transform;
 				if (!effectiveWidth || !effectiveHeight) {
 					console.error('Timeline cannot be zoomed: container has effective size 0');
 					return;
 				}
 				translateX = initialXAxisOffset! - eventTrans.x - zoomIdentityX.x ;
-				console.log('zoomIdentity=' + zoomIdentityY);
 				if (zoomScale == eventTrans.k) {
-					translateY = initialYAxisOffset! + eventTrans.y - zoomIdentityY.y;
-					console.error('panning: y=' + eventTrans.y);
-					axisGroup.attr('transform', `translate(0, ${translateY})`);
+					mousePos[0] -= 280 // ???
+					translateY = lastTranslateY! + eventTrans.y - zoomIdentityY.y;
 				} else {
-					// translateY = initialYAxisOffset!;
 					zoomIdentityY = eventTrans;
-					console.error('zooming: y=' + eventTrans.y);
+					lastTranslateY = translateY!
 				}
 				zoomIdentityX = eventTrans;
 				zoomScale = eventTrans.k;
-				console.log('translateX=' + translateX);
-				console.log('translateY=' + translateY);
-				console.log('zoomScale=' + zoomScale);
-				console.log('transformX()=' + transformX());
-				console.log('transformY()=' + transformY());
-				console.log('eventTrans=' + eventTrans);
 				renderTimeline();
-			});
+				renderCursor(mousePos)
+			})
 		transformX = () => d3.zoomTransform(axisGroup.node()!);
 		transformY = () => d3.zoomTransform(axisGroup.node()!);
-
 		d3.select(svg).call(zoom);
-		// console.log("Rendering...")
+		
+        const timelineDiv = document.getElementsByClassName('timeline')[0];
+
+        timelineDiv.addEventListener('mousemove', (event: any) => {
+            const rect = timelineDiv.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+            renderCursor([x, y])
+        });
 		renderTickLines();
 		renderEvents();
+	}
+
+	function renderCursor(mousePos: [number, number]) {
+		d3.select(svg).selectAll('line.cursor-line').remove();
+		if(mousePos) {
+			d3.select(svg)
+				.append('line')
+				.attr('class', 'cursor-line')
+				.attr('x1', mousePos[0])
+				.attr('x2', mousePos[0])
+				.attr('y1', 0)
+				.attr('y2', effectiveHeight!)
+				.attr('stroke', 'blue')
+				.attr('stroke-width', 1)
+				.attr('stroke-opacity', 0.5);
+		}
 	}
 
 	function renderTickLines() {
 		d3.select(svg).selectAll('line.tick').remove();
 		d3.select(svg).selectAll('line.zero-line').remove();
-		d3.select(svg).selectAll('line.cursor-line').remove();
 
 		d3.select(svg)
 			.selectAll('line.tick')
@@ -163,17 +185,6 @@
 			.attr('stroke', 'red')
 			.attr('stroke-width', 1)
 			.attr('stroke-opacity', 0.5);
-
-		const cursorPos = scale(initialXAxisOffset! - translateX!)
-		d3.select(svg)
-			.append('line')
-			.attr('class', 'cursor-line')
-			.attr('x1', cursorPos)
-			.attr('x2', cursorPos)
-			.attr('y1', 0)
-			.attr('y2', effectiveHeight!)
-			.attr('stroke', 'blue')
-			.attr('stroke-width', 1);
 	}
 
 	function renderEvents() {

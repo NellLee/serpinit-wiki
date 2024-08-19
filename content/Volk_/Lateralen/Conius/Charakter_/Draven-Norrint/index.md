@@ -41,7 +41,7 @@ Schon in jungen Jahren zeigte Draven eine bemerkenswerte Begabung für die Alche
 ### Wichtige Ereignisse
 Draven begann sein Studium in Runenmagie, wandte sich aber schnell der Alchemie zu, sehr zum Missfallen seines Vaters.
 Draven entwickelte einen besonders wirksamen Heiltrank, der ihm Anerkennung unter den wenigen alchemieaffinen Professoren einbrachte.
-Auf Drängen seines Vaters wurde Draven in eine geheime Expedition (die [Ikusations-Expedition](/content/Allgemein/Ikusation.md)) unter der Leitung von Vorian Sierfehl aufgenommen, in der Hoffnung, dass er die Bedeutung der Runenmagie erkennt.
+Auf Drängen seines Vaters wurde Draven in eine geheime Expedition (die [Ikusations-Expedition](/content/Ereignis_/Ikusation.md)) unter der Leitung von Vorian Sierfehl aufgenommen, in der Hoffnung, dass er die Bedeutung der Runenmagie erkennt.
 
 ### Aktuelle Situation
 Draven soll sich während der Ikusation an Kwint Gurdun halten und möglichst viel über die Runenmagie lernen.
