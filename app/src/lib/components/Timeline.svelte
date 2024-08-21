@@ -87,6 +87,7 @@
 	const defaultMeasureFont = '14px Arial';
 
 	function renderTimeline() {
+		console.log(JSON.stringify(selectedEvent));
 		scale = d3
 			.scaleLinear()
 			.domain([translateX! / zoomScale, (translateX! + effectiveWidth!) / zoomScale])
@@ -349,7 +350,7 @@
 				(d) =>
 					d.y + eventHeight / 2 + (getTextMeasure('W', defaultMeasureFont)?.emHeightAscent ?? 0) / 2
 			)
-			.attr('fill', (d) => d.event.category!.color) //TODO
+			.attr('fill', (d) => d.event.category!.font_color) //TODO
 			.text((d) => d.text)
 			.each((d, i, nodes) => stripText(nodes[i], d.width))
 			.on('click', handleEventClick)

@@ -6,6 +6,7 @@
 	import { PAGE_API_URL, WIKI_URL } from '$lib/constants.js';
 	import { error } from '@sveltejs/kit';
 	import type { MarkdownPage } from '$lib/markdownPage.js';
+	import { onMount } from 'svelte';
 
 	const title = 'Timeline';
 	export let data;
@@ -41,6 +42,10 @@
 			cardContentHtml = selectedEvent.description ?? null
 		}
 	}
+
+	onMount(() => {
+		selectedEvent = data.selectedEvent
+	})
 </script>
 
 <svelte:head>

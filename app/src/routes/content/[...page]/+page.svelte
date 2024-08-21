@@ -6,6 +6,8 @@
 	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
 	import TabbedContentCard from '$lib/components/TabbedContentCard.svelte';
 	import Tags from '$lib/components/Tags.svelte';
+	import { TIMELINE_URL } from '$lib/constants.js';
+	import SmallNamedCard from '$lib/components/Card.svelte';
 
 	export let data;
 </script>
@@ -13,8 +15,6 @@
 <svelte:head>
 	<title>{data.page.title}</title>
 </svelte:head>
-
-<!-- TODO: Conditional timeline link (if article is event) -->
 
 
 <div style="width: 15%">
@@ -38,6 +38,11 @@
 
 <div style="width: 15%">
 	<Sidebar>
+		{#if data.page.event}
+			<SmallNamedCard name="Timeline">
+				<a href="{TIMELINE_URL}?selected={encodeURIComponent(data.page.event.text)}">Ereignis in Zeitleiste anzeigen</a>
+			</SmallNamedCard>
+		{/if}
 		<Tags tags={data.page.tags} />
 		{#each data.page.references as namedLinkList}
 			<ReferenceList {namedLinkList} />

@@ -135,7 +135,7 @@
     <event>
       <start>-3.1412</start>
       <end>-3.1412</end>
-      <text>/content/Ereignis_/Zirkel-Wettstreit.md</text>
+      <text>Ausrichtung des Zirkel-Wettstreits durch die Familie Krolpin</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -143,7 +143,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Aridess</category>
-      <description></description>
+      <description>/content/Ereignis_/Zirkel-Wettstreit.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -401,8 +401,8 @@
   </events>
   <view>
     <displayed_period>
-      <start>-6.04065707514761</start>
-      <end>5.091092298589712</end>
+      <start>-71.98506735752443</start>
+      <end>99.52203540653471</end>
     </displayed_period>
     <hidden_categories>
     </hidden_categories>

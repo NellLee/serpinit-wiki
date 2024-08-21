@@ -134,7 +134,7 @@ export class MarkdownPage {
         const fileLink = new FileLink(filePath)
         this.#fileLink = fileLink
 
-        this.event = timeline.find(event => event.text == fileLink.href) ?? null
+        this.event = timeline.find(event => event.description == fileLink.href) ?? null
 
         this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, "utf-8")
 
