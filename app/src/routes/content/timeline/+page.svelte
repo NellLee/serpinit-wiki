@@ -1,15 +1,46 @@
 <script lang="ts">
-	import TabbedContentCard from './../../../lib/components/TabbedContentCard.svelte';
+	import TabbedContentCard from '$lib/components/TabbedContentCard.svelte';
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import Timeline from '$lib/components/Timeline.svelte';
-	import type { EvCatPair } from '$lib/timeline.js';
+	import { PAGE_API_URL, WIKI_URL } from '$lib/constants.js';
+	import { error } from '@sveltejs/kit';
+	import type { MarkdownPage } from '$lib/markdownPage.js';
 
-
-	const title = "Timeline";
+	const title = 'Timeline';
 	export let data;
-	
-	let selectedEvCatPair: EvCatPair | null = null
+
+	let selectedEvent: TimelineEvent | null = null;
+
+	let cardTitle: string | null = null;
+	let cardContentHtml: string | null = null;
+	let cardOverviewHtml: string | null = null;
+
+	$: if (selectedEvent) {
+		if (selectedEvent.text.startsWith(WIKI_URL)) {
+			cardTitle = cardContentHtml = cardOverviewHtml = null
+
+			let linkedFile = selectedEvent.text;
+			fetch(`${PAGE_API_URL}?file=${linkedFile}`)
+				.then((fetchResult) => {
+					if (!fetchResult.ok) {
+						return fetchResult.json().then(({ message }) => {
+							throw error(fetchResult.status, message);
+						});
+					}
+					return fetchResult.json();
+				})
+				.then((fetchJson) => {
+					let page: MarkdownPage = JSON.parse(fetchJson);
+					cardTitle = page.title
+					cardContentHtml = page.contentHtml;
+					cardOverviewHtml = page.overviewHtml;
+				});
+		} else {
+			cardTitle = selectedEvent.text
+			cardContentHtml = selectedEvent.description ?? null
+		}
+	}
 </script>
 
 <svelte:head>
@@ -28,15 +59,15 @@
 
 		<div id="content" slot="content">
 			<div id="timeline">
-				<Timeline bind:selectedEvCatPair={selectedEvCatPair}  timeline={data.timeline}></Timeline>
+				<Timeline bind:selectedEvent timeline={data.timeline}></Timeline>
 			</div>
 			<div id="event-card">
 				<TabbedContentCard
 					tabLinkList={[]}
-					title={selectedEvCatPair?.event.text ?? ""}
-					contentHtml={selectedEvCatPair?.event.description ?? ""}
-					overviewHtml={selectedEvCatPair?.event.category ?? ""}
-					contentMinHeight=300px
+					title={cardTitle ?? ''}
+					contentHtml={cardContentHtml ?? ''}
+					overviewHtml={cardOverviewHtml ?? ''}
+					contentMinHeight="300px"
 				></TabbedContentCard>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import MidPanel from '$lib/components/MidPanel.svelte';
-	import SearchResult from '$lib/components/SearchEntry.svelte';
+	import SearchEntry from '$lib/components/SearchEntry.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import { onMount } from 'svelte';
 	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
@@ -47,11 +47,11 @@
 					<p>No results found</p>
 				{:else}
 					{#each data.searchResults as result}
-						<SearchResult
+						<SearchEntry
 							title={result.item.title}
 							href={result.item.href}
 							excerpts={result.excerpts}
-						></SearchResult>
+						></SearchEntry>
 					{/each}
 				{/if}
 			</div>

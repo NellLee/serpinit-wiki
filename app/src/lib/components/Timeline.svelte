@@ -1,12 +1,10 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
-	import type { Category, Event, EvCatPair } from '$lib/timeline';
-	import { assert, error, time } from 'console';
+	import { assert, error } from 'console';
 	import { getTextMeasure, partitionArray } from '$lib/utilities/utilities';
 
-	export let timeline: EvCatPair[];
-	export let selectedEvCatPair: EvCatPair | null = null; // Exported variable for selected event
+	export let timeline: Timeline;
+	export let selectedEvent: TimelineEvent | null = null; // Exported variable for selected event
 
 	type RowConfig = {
 		start: number;
@@ -24,9 +22,7 @@
 		isMoment: boolean;
 		containerId: number | null;
 		isContainer: boolean;
-		index: number;
-		event: Event;
-		category: Category;
+		event: TimelineEvent;
 		text: string;
 	};
 
@@ -196,31 +192,31 @@
 
 		const events = d3.select(svg).append('g').attr('class', 'events');
 
-		const eventData: EventConfig[] = timeline.map((d) => {
+		const eventData: EventConfig[] = timeline.map((event) => {
 			let isContainer = false;
 			let containerId = null;
-			let containerDeclarationMatch = d.event.text.match(/^\[(\d+)\]/); // e.g. "[14]"
-			let containerReferenceMatch = d.event.text.match(/^\((\d+)\)/); // e.g. "(14)"
-			let text = d.event.text;
+			let containerDeclarationMatch = event.text.match(/^\[(\d+)\]/); // e.g. "[14]"
+			let containerReferenceMatch = event.text.match(/^\((\d+)\)/); // e.g. "(14)"
+			let text = event.text;
 			if (containerDeclarationMatch) {
 				isContainer = true;
 				containerId = parseInt(containerDeclarationMatch[1]);
-				text = d.event.text.slice(containerDeclarationMatch[0].length);
+				text = event.text.slice(containerDeclarationMatch[0].length);
 			} else if (containerReferenceMatch) {
 				containerId = parseInt(containerReferenceMatch[1]);
-				text = d.event.text.slice(containerReferenceMatch[0].length);
+				text = event.text.slice(containerReferenceMatch[0].length);
 			}
 
 			let y = translateY!;
-			let width = scale(d.event.end) - scale(d.event.start);
+			let width = scale(event.end) - scale(event.start);
 			let isMoment = width === 0;
 			if (isMoment) {
 				width = Math.max(getTextMeasure(text, defaultMeasureFont)?.width ?? 0 + 10, 10);
 			}
 
 			return {
-				...d,
-				x: scale(d.event.start),
+				event,
+				x: scale(event.start),
 				width,
 				y,
 				height: eventHeight,
@@ -241,7 +237,7 @@
 					return 0;
 				} else if (event.isContainer) {
 					return 1;
-				} else if (event.containerId !== null) {
+				} else if (event.containerId !== null) { // is inside container
 					return 2;
 				} else {
 					return 3;
@@ -269,30 +265,16 @@
 
 		const handleEventClick = (clickEvent: any, eventConfig: EventConfig) => {
 			// Handle click event
-			if (selectedEvCatPair?.event !== eventConfig.event) {
-				selectedEvCatPair = timeline.find((evCatPair) => evCatPair.event == eventConfig.event)!;
+			if (selectedEvent !== eventConfig.event) {
+				selectedEvent = timeline.find((event) => event == eventConfig.event)!;
 			} else {
-				selectedEvCatPair = null; // Deselect if already selected
+				selectedEvent = null; // Deselect if already selected
 			}
-			console.log(selectedEvCatPair);
 			renderEvents();
 		};
 
-		const conditionalSelectedColor = (d: EventConfig) => {
-			if (d.event == selectedEvCatPair?.event) {
-				return 'red';
-			} else {
-				return 'black';
-			}
-		};
-
-		const conditionalSelectedWidth = (d: EventConfig) => {
-			if (d.event == selectedEvCatPair?.event) {
-				return 3;
-			} else {
-				return 1;
-			}
-		};
+		const conditionalSelectedColor = (d: EventConfig) => d.event == selectedEvent ? 'red': 'black';
+		const conditionalSelectedWidth = (d: EventConfig) => d.event == selectedEvent ? 3 : 1;
 
 		events
 			.selectAll('line.moment')
@@ -329,7 +311,7 @@
 				const flagY = d.y;
 				return `M${d.x},${flagY} L${flagX + flagWidth},${flagY} L${flagX},${flagY + flagHeight / 2} L${flagX + flagWidth},${flagY + flagHeight} L${d.x},${flagY + flagHeight} Z`;
 			})
-			.attr('fill', (d) => d.category.color)
+			.attr('fill', (d) => d.event.category!.color) //TODO
 			.attr('stroke', conditionalSelectedColor)
 			.attr('stroke-width', conditionalSelectedWidth)
 			.on('click', handleEventClick)
@@ -347,7 +329,7 @@
 			.attr('width', (d) => d.width)
 			.attr('y', (d) => d.y)
 			.attr('height', (d) => d.height)
-			.attr('fill', (d) => d.category.color)
+			.attr('fill', (d) => d.event.category!.color) //TODO
 			.attr('stroke', conditionalSelectedColor)
 			.attr('stroke-width', conditionalSelectedWidth)
 			.on('click', handleEventClick)
@@ -367,7 +349,7 @@
 				(d) =>
 					d.y + eventHeight / 2 + (getTextMeasure('W', defaultMeasureFont)?.emHeightAscent ?? 0) / 2
 			)
-			.attr('fill', (d) => d.category.font_color)
+			.attr('fill', (d) => d.event.category!.color) //TODO
 			.text((d) => d.text)
 			.each((d, i, nodes) => stripText(nodes[i], d.width))
 			.on('click', handleEventClick)

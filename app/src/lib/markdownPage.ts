@@ -2,7 +2,7 @@
 import fs from "fs"
 import path from "path"
 import { Marked, marked } from 'marked'
-import { createDirectives, presetDirectiveConfigs, type DirectiveConfig, type DirectiveRenderer } from 'marked-directive'
+import { createDirectives, presetDirectiveConfigs } from 'marked-directive'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
 import { generateHeaderId, resolveRelativeUrl } from '$lib/utilities/utilities'
@@ -10,6 +10,7 @@ import { generateBreadcrumbs, getLinkedFilePath } from "./utilities/links"
 import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
 import { FileLink } from "./fileLink"
 import markedKatex from "marked-katex-extension"
+import { timeline } from "./timeline"
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
@@ -85,6 +86,7 @@ export class MarkdownPage {
     references: NamedLinkList[]
     contentHtml: string
     overviewHtml: string | null
+    event: TimelineEvent | null
 
     href: string
 
@@ -126,13 +128,15 @@ export class MarkdownPage {
         return new MarkdownPage(filePath, constructedMarkdown)
     }
 
-    constructor(filePath: string, markdown: string | null = null) {
+    constructor(filePath: string, customMarkdown: string | null = null) {
         this.#filePath = filePath
 
         const fileLink = new FileLink(filePath)
         this.#fileLink = fileLink
 
-        this.markdown = markdown != null ? markdown : fs.readFileSync(filePath, "utf-8")
+        this.event = timeline.find(event => event.text == fileLink.href) ?? null
+
+        this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, "utf-8")
 
         // Initial HTML from markdown
         this.#html = this.generateInitialDOM()
@@ -393,6 +397,7 @@ export class MarkdownPage {
 
     toJSON() {
         let result = {
+            event: this.event,
             markdown: this.markdown,
             breadcrumbs: this.breadcrumbs,
             title: this.title,

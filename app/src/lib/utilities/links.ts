@@ -1,6 +1,7 @@
 import { FileLink } from "$lib/fileLink"
 import path from 'path'
-import { WIKI_PATH, WIKI_URL } from "../wiki"
+import { WIKI_PATH } from "../wiki"
+import { WIKI_URL } from "$lib/constants"
 
 export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
     const namedLinkList: NamedLinkList = { name, linkList: [] }

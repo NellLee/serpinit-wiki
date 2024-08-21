@@ -1,5 +1,5 @@
+import { SEARCH_API_URL } from "$lib/constants";
 import type { MarkdownPage } from "$lib/markdownPage";
-import { SEARCH_API_URL, type SearchResult } from "$lib/wiki";
 import { error } from "@sveltejs/kit";
 
 

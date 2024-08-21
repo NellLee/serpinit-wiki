@@ -14,6 +14,9 @@
 	<title>{data.page.title}</title>
 </svelte:head>
 
+<!-- TODO: Conditional timeline link (if article is event) -->
+
+
 <div style="width: 15%">
 	<Sidebar>
 		<ContentTree linkTree={data.page.toc} />

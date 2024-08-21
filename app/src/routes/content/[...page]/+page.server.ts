@@ -1,6 +1,6 @@
+import { WIKI_URL, PAGE_API_URL } from "$lib/constants";
 import type { MarkdownPage } from "$lib/markdownPage.js";
 import { getLinkedFilePath } from "$lib/utilities/links";
-import { PAGE_API_URL, WIKI_URL } from "$lib/wiki";
 import { error, redirect } from "@sveltejs/kit";
 
 
@@ -16,6 +16,7 @@ export async function load({ fetch, params, url }) {
     } else if (!linkedFile.endsWith(".md")) {
         redirect(302, url.toString().replace("content/", "")) // uses static symlink
     }
+
     let fetchResult = await fetch(`${PAGE_API_URL}?file=${linkedFile}`)
     if (!fetchResult.ok) {
         const { message } = await fetchResult.json();
@@ -23,6 +24,7 @@ export async function load({ fetch, params, url }) {
     }
     let fetchJson = await fetchResult.json()
     let page: MarkdownPage = JSON.parse(fetchJson)
+
     return {
         page,
     }

@@ -1,4 +1,5 @@
-import { TIMELINE_API_URL, type EvCatPair } from "$lib/timeline.js";
+
+import { TIMELINE_API_URL } from "$lib/constants";
 import { error } from "@sveltejs/kit";
 
 export async function load({ fetch, params, url }) {
@@ -7,7 +8,7 @@ export async function load({ fetch, params, url }) {
         const { message } = await fetchResult.json();
         throw error(fetchResult.status, message);
     }
-    let timeline: EvCatPair[] = await fetchResult.json()
+    let timeline: TimelineEvent[] = await fetchResult.json()
     return {
         timeline
     }

@@ -3,81 +3,40 @@ import path from "path"
 import { readFile } from "fs/promises"
 import { parseString } from 'xml2js'
 import { parseBooleans, parseNumbers } from "xml2js/lib/processors"
-import type { MarkdownPage } from "./markdownPage"
-import { getLinkedFilePath } from "./utilities/links"
-import { loadMarkdownPage } from "./wiki"
 const __dirname = new URL(".", import.meta.url).pathname.substring(1)
 
-export type EvCatPair = { index: number, event: Event, category: Category }
-
-export type Category = {
-    name: string
-    color: string
-    progress_color: string
-    done_color: string
-    font_color: string
-    parent?: string
-}
-
-export type Event = {
-    start: number
-    end: number
-    text: string
-    fuzzy: boolean
-    fuzzy_start: boolean
-    fuzzy_end: boolean
-    locked: boolean
-    ends_today: boolean
-    category: string
-    description?: string
-    labels?: string[] | string
-    default_color?: string
-}
-
-type CategorizedTimeline = {
-    version: string
-    timetype: string
-    categories: Category[]
-    events: Event[]
-}
+let initialized = false
 
 export const TIMELINE_PATH = path.resolve(__dirname, "../../../timeline/Geschichte.timeline")
-export const TIMELINE_API_URL = "/api/timeline"
 
-export let timeline: EvCatPair[] = []
+export let timeline: Timeline = []
 
-export async function loadTimeline() {
-    console.log("Loading timeline...")
-    timeline = await getEvCatPairs()
-    for (let evCatPair of timeline) {
-        let text = evCatPair.event.text
-        if(text.startsWith("/content/")) {
-            let page: MarkdownPage = loadMarkdownPage(getLinkedFilePath(text))
-            evCatPair.event.text = page.title
-            evCatPair.event.description = page.contentHtml
-        }
-
+export async function initTimeline() {
+    if (!initialized) {
+        console.log("Initializing timeline")
+        timeline = await categorizeEvents()
+        initialized = true
     }
-    console.log("Loading timeline... Done!")
 }
 
-function getEvCatPairs(): Promise<EvCatPair[]> {
+function categorizeEvents(): Promise<TimelineEvent[]> {
     return readFile(TIMELINE_PATH).then(xml => {
         return parseTimeline(xml.toString())
-    }).then((timeline: CategorizedTimeline) => {
-        return timeline.events.map((event, index) => {
+    }).then((timeline: XmlTimeline) => {
+        return timeline.events.map((event) => {
             const category = timeline.categories.find(
                 (cat) => cat.name === event.category
-            )
-            if (category) {
-                return { index, event, category }
+            ) ?? null
+            let result: TimelineEvent =  {
+                ...event,
+                category
             }
-            return null
-        }).filter(v => !!v) as EvCatPair[]
+            return result
+        })
     })
 }
 
-function parseTimeline(xml: string): Promise<CategorizedTimeline> {
+function parseTimeline(xml: string): Promise<XmlTimeline> {
     return new Promise((resolve, reject) => {
         parseString(xml, { valueProcessors: [parseNumbers, parseBooleans, parseRgbs], explicitArray: false }, (err, result) => {
             result.timeline.categories = result.timeline.categories.category

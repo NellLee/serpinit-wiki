@@ -6,21 +6,20 @@ import { error } from '@sveltejs/kit';
 import fs from 'fs'
 import * as cheerio from 'cheerio'
 import Fuse from 'fuse.js';
+import { initTimeline, timeline } from './timeline';
 
 export const wiki: Map<string, MarkdownPage> = new Map()
-export const cache: Map<string, string> = new Map() //maps 
+export const cache: Map<string, string> = new Map()
 const __dirname = new URL(".", import.meta.url).pathname.substring(1)
 
 let initialized = false
 
-export const WIKI_URL = '/content'
-export const PAGE_API_URL = "/api/page"
-export const SEARCH_API_URL = "/api/search"
 export const WIKI_PATH = path.resolve(__dirname, "../../../content")
 
-export function initWiki() {
+export async function initWiki() {
     if (!initialized) {
         console.log("Initializing all wiki pages")
+        await initTimeline()
         const files = getFilePathsInFolder(WIKI_PATH, [".md"])
         for (let file of files) {
             loadMarkdownPage(path.resolve(WIKI_PATH, file.substring(1)))
@@ -56,11 +55,6 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
     wiki.set(fullPath, page)
     updateCache(fullPath, markdownForCache)
     return page
-}
-
-export type SearchResult<T> = {
-    item: T;
-    excerpts: string[];
 }
 
 export function search(query: string): SearchResult<MarkdownPage>[] {
