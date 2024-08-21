@@ -3,6 +3,9 @@ import path from "path"
 import { readFile } from "fs/promises"
 import { parseString } from 'xml2js'
 import { parseBooleans, parseNumbers } from "xml2js/lib/processors"
+import type { MarkdownPage } from "./markdownPage"
+import { getLinkedFilePath } from "./utilities/links"
+import { loadMarkdownPage } from "./wiki"
 const __dirname = new URL(".", import.meta.url).pathname.substring(1)
 
 export type EvCatPair = { index: number, event: Event, category: Category }
@@ -46,6 +49,15 @@ export let timeline: EvCatPair[] = []
 export async function loadTimeline() {
     console.log("Loading timeline...")
     timeline = await getEvCatPairs()
+    for (let evCatPair of timeline) {
+        let text = evCatPair.event.text
+        if(text.startsWith("/content/")) {
+            let page: MarkdownPage = loadMarkdownPage(getLinkedFilePath(text))
+            evCatPair.event.text = page.title
+            evCatPair.event.description = page.contentHtml
+        }
+
+    }
     console.log("Loading timeline... Done!")
 }
 

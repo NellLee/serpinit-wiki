@@ -182,7 +182,6 @@ export class MarkdownPage {
     }
 
     generateInitialDOM(): ChangeableDOM {
-
         let overview: DOMPart | null = null;
         const content = new DOMPart(new Marked()
             .use(createDirectives([

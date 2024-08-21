@@ -35,7 +35,7 @@
 
 <div style="width: 15%">
 	<Sidebar>
-		<Tags tags={data.page.tags}/>
+		<Tags tags={data.page.tags} />
 		{#each data.page.references as namedLinkList}
 			<ReferenceList {namedLinkList} />
 		{/each}

@@ -133,6 +133,20 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
+      <start>-3.1412</start>
+      <end>-3.1412</end>
+      <text>/content/Ereignis_/Zirkel-Wettstreit.md</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Aridess</category>
+      <description></description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
       <start>0.0</start>
       <end>0.0</end>
       <text>Beginn der Ikusation</text>

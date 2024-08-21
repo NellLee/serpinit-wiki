@@ -26,28 +26,6 @@ Einen besonderen Stellenwert nehmen daher die Erzlieferanten auf Aridess ein.
 Da die meisten Erzvorkommen in den nördlichsten Gebirgen des Planeten verortet sind, haben viele der komplexen Handelsstrukturen hier ihren Ursprung.
 
 ## Zirkel-Wettstreit
-Ein wichtiger Meilenstein in der Geschichte der Vapornanes ist eine geplante Globalisierung des Planeten Aridess, ausgelöst durch die Ausrichtung des **Zirkel-Wettstreits** durch die Krolpins im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent/Unon/Gebirge_Zirkelgebirge/index.md) und die daraus resultierenden 12 Gewinner.
-Ziel des Wettstreits ist die Entwicklung von mechanischen Erfindungen, die von so fundamentaler Nützlichkeit sind, dass sie Einfluss auf den gesamten Planeten nehmen können.
-
-Um den Wettstreit zu bewerben müssen die Krolpins ihre Position als Hauptversorger für Metalle voll ausnutzen.
-Für die Verkündung werden insgesamt Tausende Handzettel erstellt, welche allen Handelspartnern der Krolpins für die Weiterverbreitung mitgegeben werden.
-Dabei sind die bestehenden Handelsrouten auf Aridess zu großen Teilen stark vernestelt und dadurch nicht selten recht ineffizient.
-Die von den Krolpins gewählte Vorlaufzeit von 10 Zyklen soll daher sicherstellen, dass die Kunde sich möglichst weit verbreitet und mögliche Teilnehmer genug Zeit für die Anreise haben.
-Schließlich finden sich 158 teilnehmende Gruppen (insgesamt über 650 Vapornanes) für den Wettstreit im Tal des Zirkelgebirges ein.
-Der Zirkel-Wettstreit führt letztendlich dazu, dass sich die Lebensqualität nahezu aller erreichter Orte auf Aridess stark verbessert und löst langfristig zudem eine Verstädterung auf Aridess aus.
-
-### Regeln
-Zu Beginn richten die Krolpins eine Eröffnungszeremonie aus, bei welcher neben einer feierlichen Begrüßung auch das Ziel des Wettstreits sowie dessen Rahmenbedingungen verkündet werden.
-Der Wettstreit wird über einen Zeitraum von zwei Zyklen durchgeführt und die Qualifikation der Erfindungen erfolgt über mehrere Runden hinweg durch demokratische Abstimmungen aller Teilnehmer.
-Zur anfänglichen Überraschung vieler Teilnehmer sind die Gruppen nicht für den gesamten Verlauf festgelegt.
-Ausgeschiedenen Gruppen steht es frei, sich sogleich der Weiterentwicklung einer der qualifizierten Erfindungen anzuschließen.
-Zudem legen die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen.
-Mit Abschluss des Wettstreits wird für jede der 12 gewinnenden Erfindungen ein Zirkel gegründet, welcher fortan eine koordinierende Rolle bei der geplanten Globalisierung einnimmt.
-
-### Ablauf
-In der Zeit zwischen der Eröffnungsfeier und den nachfogenden Auswahlrunden haben die Gruppen stetig Zeit kollaborativ an ihrer jeweiligen Erfindung zu arbeiten und sie gemeinsam zu verbessern.
-Hierfür werden unter anderem viele spezielle Veranstaltungen geplant, bei denen die Teilnehmer die Möglichkeit haben bestimmte Techniken, Erkenntnisse oder wissenschaftliche Theorien zu lehren und zu lernen.
-Auf diesem Wege werden unter Anderem das Wissen über die Nutzung von Wasserdampf sowie die Effekte von aufgeladenen Edelsteinen verbreitet, was wiederum zur Verbesserung der meisten der entwickelten Gegenstände führt und so das Gesamtniveau des Wettstreits anhebt.
 
 ## Ikusation
 Die Vapornane profitieren insgesamt außerordentlich von den Folgen der Ikusation.
