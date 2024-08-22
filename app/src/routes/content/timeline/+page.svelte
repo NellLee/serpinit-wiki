@@ -7,45 +7,23 @@
 	import { error } from '@sveltejs/kit';
 	import type { MarkdownPage } from '$lib/markdownPage.js';
 	import { onMount } from 'svelte';
+	import Card from '$lib/components/Card.svelte';
 
 	const title = 'Timeline';
 	export let data;
 
 	let selectedEvent: TimelineEvent | null = null;
-
-	let cardTitle: string | null = null;
-	let cardContentHtml: string | null = null;
-	let cardOverviewHtml: string | null = null;
-
-	$: if (selectedEvent) {
-		if (selectedEvent.text.startsWith(WIKI_URL)) {
-			cardTitle = cardContentHtml = cardOverviewHtml = null
-
-			let linkedFile = selectedEvent.text;
-			fetch(`${PAGE_API_URL}?file=${linkedFile}`)
-				.then((fetchResult) => {
-					if (!fetchResult.ok) {
-						return fetchResult.json().then(({ message }) => {
-							throw error(fetchResult.status, message);
-						});
-					}
-					return fetchResult.json();
-				})
-				.then((fetchJson) => {
-					let page: MarkdownPage = JSON.parse(fetchJson);
-					cardTitle = page.title
-					cardContentHtml = page.contentHtml;
-					cardOverviewHtml = page.overviewHtml;
-				});
-		} else {
-			cardTitle = selectedEvent.text
-			cardContentHtml = selectedEvent.description ?? null
-		}
-	}
+	let linkedPage: string | null;
+	$: linkedPage = selectedEvent?.description?.startsWith(WIKI_URL)
+		? selectedEvent!.description!
+		: null;
 
 	onMount(() => {
-		selectedEvent = data.selectedEvent
-	})
+		selectedEvent = data.selectedEvent;
+		if (selectedEvent?.description?.startsWith(WIKI_URL)) {
+			linkedPage = selectedEvent!.description!;
+		}
+	});
 </script>
 
 <svelte:head>
@@ -66,15 +44,20 @@
 			<div id="timeline">
 				<Timeline bind:selectedEvent timeline={data.timeline}></Timeline>
 			</div>
-			<div id="event-card">
-				<TabbedContentCard
-					tabLinkList={[]}
-					title={cardTitle ?? ''}
-					contentHtml={cardContentHtml ?? ''}
-					overviewHtml={cardOverviewHtml ?? ''}
-					contentMinHeight="300px"
-				></TabbedContentCard>
-			</div>
+			{#if selectedEvent}
+				<div id="event-card">
+					<Card>
+						<div id="event-card-content">
+							<h2 id="event-title">
+								{selectedEvent?.text}
+							</h2>
+							{#if selectedEvent}
+								<a id="page-link" href={linkedPage}>Artikel öffnen</a>
+							{/if}
+						</div>
+					</Card>
+				</div>
+			{/if}
 		</div>
 	</MidPanel>
 </div>
@@ -97,14 +80,39 @@
 		height: fit-content;
 
 		#timeline {
-			height: 400px;
-			width: 1200px;
+			height: 60vh;
+			width: 90%;
 			max-width: 100%;
 		}
 
 		#event-card {
-			margin: 100px;
 			height: fit-content;
+			position: relative;
+			width: 500px;
+			top: -200px;
+			float: right;
+
+			#event-card-content {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: space-between;
+				align-items: center;
+
+				#page-link {
+					background-color: var(--tertiary-background-color);
+					color: var(--primary-color);
+					padding: 10px 20px;
+					border-radius: 8px;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					text-align: center;
+
+					&:hover {
+						background-color: var(--alternative-secondary-background-color);
+					}
+				}
+			}
 		}
 	}
 </style>
