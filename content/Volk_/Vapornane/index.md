@@ -40,7 +40,7 @@ Stattdessen entstehen Zugehörigkeiten unterschiedlicher Orte zu einem Zirkel, w
 # Zirkel
 
 ## Zirkel des Erz-Phoriats
-Das Erz-Phoriat ist letztendlich der älteste und einflussreichste Zirkel der Vapornane und wird angefürt von der Familie Krolpin.
+Das Erz-Phoriat ist letztendlich der älteste und einflussreichste Zirkel der Vapornane und wird angefürt von der Familie [Krolpin](./Politik/Familie_/Krolpin_Zirkelgruender/index.md).
 Noch lange bevor sich die anderen Zirkel bilden, besiedeln die Stämme des Erz-Phoriats bereits die nördlichen Gebirgsketten.
 Dabei sind sie besonders bekannt für ihre effizienten Erzbohrungen und die dafür verwendeten Gerätschaften.
 Über viele transitive Handelsketten stellen sie letztendlich die Hauptversorgung für Metall auf dem Planeten Aridess dar.

@@ -52,7 +52,7 @@ export class FileLink {
         
         this.descriptiveText = this.text
         
-        const folderName = this.href.split('/').at(-2)
+        const folderName = this.href.split('/').at(-2)?.replaceAll("_", " ")
         if (this.fileName != "index") {
             this.descriptiveText = folderName + " > " + this.descriptiveText
         } else {
