@@ -42,7 +42,7 @@
 
 		<div id="content" slot="content">
 			<div id="timeline">
-				<Timeline bind:selectedEvent timeline={data.timeline}></Timeline>
+				<Timeline bind:selectedEvent timeline={data.timeline} initialViewOffset={data.selectedEvent?.start ?? null}></Timeline>
 			</div>
 			{#if selectedEvent}
 				<div id="event-card">
@@ -87,10 +87,7 @@
 
 		#event-card {
 			height: fit-content;
-			position: relative;
-			width: 500px;
-			top: -200px;
-			float: right;
+			width: 400px;
 
 			#event-card-content {
 				display: flex;

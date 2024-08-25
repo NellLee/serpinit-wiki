@@ -5,6 +5,7 @@
 
 	export let timeline: Timeline;
 	export let selectedEvent: TimelineEvent | null = null; // Exported variable for selected event
+	export let initialViewOffset: number | null = null
 
 	type RowConfig = {
 		start: number;
@@ -52,7 +53,7 @@
 	});
 
 	let initialXAxisOffset: number | undefined;
-	$: initialXAxisOffset = effectiveWidth && effectiveWidth / 2;
+	$: initialXAxisOffset = effectiveWidth && -effectiveWidth / 2;
 	let initialYAxisOffset: number | undefined;
 	$: initialYAxisOffset = effectiveHeight && effectiveHeight / 2;
 
@@ -65,10 +66,10 @@
 		}
 
 		if (translateX === undefined) {
-			translateX = effectiveWidth / 2;
+			translateX = initialXAxisOffset;
 		}
 		if (translateY === undefined) {
-			translateY = effectiveHeight / 2;
+			translateY = initialYAxisOffset;
 		}
 		lastTranslateY = initialYAxisOffset!
 
@@ -87,7 +88,6 @@
 	const defaultMeasureFont = '14px Arial';
 
 	function renderTimeline() {
-		console.log(JSON.stringify(selectedEvent));
 		scale = d3
 			.scaleLinear()
 			.domain([translateX! / zoomScale, (translateX! + effectiveWidth!) / zoomScale])
@@ -110,9 +110,11 @@
 				}
 				translateX = initialXAxisOffset! - eventTrans.x - zoomIdentityX.x ;
 				if (zoomScale == eventTrans.k) {
+					// console.log("Panning")
 					mousePos[0] -= 280 // ???
 					translateY = lastTranslateY! + eventTrans.y - zoomIdentityY.y;
 				} else {
+					// console.log("Zooming")
 					zoomIdentityY = eventTrans;
 					lastTranslateY = translateY!
 				}
