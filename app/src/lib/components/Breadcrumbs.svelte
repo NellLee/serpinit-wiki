@@ -11,12 +11,17 @@
 				{#if i == 0}
 					<li>
 						<a href={link.href}>
-							<Icon style="transform: translateY(3px);" src={Home} solid size="16" />
+							<Icon style="transform: translateY(2px);" src={Home} solid size="16" />
 						</a>
 					</li>
 				{:else}
-					<li><a href={link.href}>{link.text}</a></li>
+					<li><a href={link.href}>{link.text.replaceAll('_', ' ').replaceAll('-', ' ')}</a></li>
 				{/if}
+				<li class="delimiter">
+					{#if i != linkList.length - 1}
+						{link.text.endsWith('_') ? '-' : '/'}
+					{/if}
+				</li>
 			{/each}
 			<li>...</li>
 		</ul>
@@ -41,11 +46,6 @@
 			color: var(--primary-color);
 			font-size: 14px;
 
-			&:not(:last-child)::after {
-				content: '/';
-				margin: 0 10px;
-			}
-
 			a {
 				text-decoration: none;
 				color: var(--primary-color);
@@ -55,6 +55,10 @@
 					color: var(--secondary-color);
 				}
 			}
+		}
+
+		.delimiter {
+			margin: 0 7px;
 		}
 	}
 </style>

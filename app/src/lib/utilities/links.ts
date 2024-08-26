@@ -34,8 +34,8 @@ export function generateBreadcrumbs(url: string) {
         .filter((segment) => segment !== '' && !segment.endsWith('.md'))
     for (let [i, segment] of segments.entries()) {
         constructed += '/' + segment
-        let linkedFilePath = getLinkedFilePath(constructed + "/index.md")
-        let text = new FileLink(linkedFilePath).text
+        let linkedFilePath = getLinkedFilePath(constructed)
+        let text = new FileLink(linkedFilePath).fileName
         if (segment == 'content') {
             text = 'Home'
         }
