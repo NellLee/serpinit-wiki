@@ -33,6 +33,9 @@ Zum einen liefert die Erschließung der Sgrisignier-Portale den Vapornanes eine 
 Zum Anderen können die Vapornanes mit Tjosand ihre gesamte Technologie schließlich zusätzlich stark verbessern.
 
 # Gesellschaft
+
+<!-- TODO Matriachat beschreiben (Name erst durch Frau möglich) -->
+
 Die Vapornane leben seit der Globalisierung in Zugehörigkeit zu sogenannten Zirkeln, welche sich durch den Zirkel-Wettstreit im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) gründen. 
 Die Zirkel entstehen zwar ursprünglich aus den gewinnenden Gruppen des Zirkel-Wettstreits, sind jedoch insbesondere durch Aridess' Globalisierung nicht mehr an diese Grenzen gebunden.
 Stattdessen entstehen Zugehörigkeiten unterschiedlicher Orte zu einem Zirkel, wenn eine jeweilige Zirkel-Erfindung ausschlaggebende Auswirkungen auf die Ökonomie und Kultur ihrer Population hat.
