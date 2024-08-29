@@ -2,7 +2,7 @@
 
 :::overview
 
-![Bild des Charakters](Link-zum-Bild)
+![Hiante Krolpin](./images/Hiante-Krolpin_Zirkelgruenderin.png)
 
 **Name:** Hiante Krolpin  
 **Titel/Klasse:** Gründerin der Krolpin-Familie  
@@ -19,9 +19,8 @@
 ## Aussehen
 Hiante Krolpin ist eine Frau von beeindruckender Natur.
 Sie ist groß und durchtrainiert und ihr Gesicht ist markant, mit hohen Wangenknochen und durchdringenden grünen Augen.
-Ihre dunkelbraunen Haare trägt sie meist zu einem strengen Knoten gebunden, was ihre entschlossene Persönlichkeit unterstreicht.
-Sie kleidet sich traditionell in praktische Lederschürzen.
-Ihre Kleidung sticht mit Hiantes steigenden Alter immer stärker durch kunstvolle, metallene Verzierungen hervor – Symbole die sie durch ihre Verbindung zu den Minenleitern und ihre Rolle als Anführerin erhält.
+Ihre silbergrauen Haare trägt sie meist recht kurz und sie kleidet sich typischerweise in praktische Lederschürzen.
+Hiantes Kleidung sticht mit ihrem steigenden Alter immer stärker durch kunstvolle, metallene Verzierungen hervor – Symbole die sie durch ihre Verbindung zu den Minenleitern und ihre Rolle als Anführerin erhält.
 
 ## Persönlichkeit
 
@@ -43,20 +42,20 @@ Obwohl sie wenig offene Feinde hat, steht sie Personen skeptisch gegenüber, die
 # Hintergrundgeschichte
 
 ## Frühes Leben
-Hiante wird im 253.
-Zyklus vor der Ikusation in einer Wüstenkolonie in den nördlichen Ebenen von Aridess geboren.
+Hiante wird im 253. Zyklus vor der Ikusation in einer Wüstenkolonie in den nördlichen Ebenen von Aridess geboren.
 Ihre Geburts-Familie mit dem Namen "Kriolen" lebt als eigenständiger Stamm im Schatten der nördlichen Berge.
-Die Gemeinschaft ist klein und lebt hauptsächlich vom Jagen und Sammeln.
-Sie haben aber mit der Zeit auch einige rudimentäre Handelsbeziehungen zu den nördlichen Bergketten aufgebaut.
-Meist ertauschen die Kriolen dabei verarbeitetes Metall in Form von Waffen für das Leder ihrer letzten Jagdzüge.
+Die Gemeinschaft ist klein und lebt hauptsächlich vom Jagen und Sammeln, hat jedoch mit der Zeit auch einige rudimentäre Handelsbeziehungen zu den nördlichen Bergketten aufgebaut.
+Meist ertauschen sich die Kriolen dabei verarbeitetes Metall in Form von Waffen und Werkzeugen mit dem Leder ihrer letzten Jagdzüge.
 Der frühe Kontakt zu Metall fasziniert Hiante schon als Kind, wo sie sich in den spiegelnden Reflexen oft verlieren kann.
 In ihrer späten Adoleszenz entscheidet sie sich, den Namen "Krolpin" anzunehmen und in die nördlichen Berge zu reisen um die Metallverarbeitung genauer kennenzulernen.
  
 ## Erwachsenenalter
-Als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, findet sie zuerst die Kharrak-Mine, in welcher ausschließlich Eisenerz abgebaut und verarbeitet wird.
-Dort beginnt sie im Zyklus -96 eine Beziehung mit Lerold, dem Leiter der Kharrak-Mine, und zeugt ihren ersten Sohn, Grisham Krolpin.
+
+### Familiengründung in der Kharrak-Mine
+Als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, findet sie zuerst die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
+Dort beginnt sie im Zyklus -96 eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Minenarbeit, und zeugt ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md).
 Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum einen die Metallurgie kennenlernt und zum anderen liebevoll ihren ersten Sohn großzieht.
-In Grishams Jugend erkundet sie die weiteren Minen und etabliert enge polyamore Beziehungen mit den führenden Männern der Region.
+In Grishams Jugend erkundet sie schließlich die weiteren Minen des Zirkelgebirges und etabliert polyamore Beziehungen mit noch weiteren führenden Männern der Region.
 Sie reist fortan viel zwischen den Minen umher und wird dabei immer mal wieder von Grisham und später von ihren anderen Nachkommen begleitet.
 Die Männer mit denen Hiante sich auf ihrer Reise einlässt werden nicht nur ihre Partner und Mitglieder der Krolpin-Familie, sondern auch die Väter weiterer Kinder, die unter Hiantes Idealen aufwachsen und erzogen werden.
 Hiantes zweiter Mann ist Torval, der Leiter der Drakar-Mine, mit welchem sie ihre Zwillings-Töchter Jell und Liss zeugt.

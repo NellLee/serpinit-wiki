@@ -34,6 +34,11 @@ Zum Anderen können die Vapornanes mit Tjosand ihre gesamte Technologie schließ
 
 # Gesellschaft
 
+Beim Volk der Vapornane kommt Frauen und insbesondere Müttern schon immer eine besondere Bedeutung zu, weshalb die vapornanische Gesellschaft als matriachalisch beschrieben werden kann.
+Darüber hinaus ist die Polygamie bei den Vapornanes schon immer Gang und Gäbe.
+Weibliche Vapornane können einen Familienamen wählen wenn sie eine neue Familie gründen.
+Diesen Namen geben sie bei der Zeugung von Kindern sowohl an ihren Partner als auch an ihre gemeinsamen Nachkommen weiter. 
+
 <!-- TODO Matriachat beschreiben (Name erst durch Frau möglich) -->
 
 Die Vapornane leben seit der Globalisierung in Zugehörigkeit zu sogenannten Zirkeln, welche sich durch den Zirkel-Wettstreit im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) gründen. 
