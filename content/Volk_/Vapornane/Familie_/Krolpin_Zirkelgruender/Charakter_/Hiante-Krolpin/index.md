@@ -87,7 +87,7 @@ Ihre Nachkommen verwalten weiterhin die Minen und Handelsposten, die Hiante aufg
 # Fähigkeiten und Kräfte
 
 ## Physische Fähigkeiten
-Hiante ist körperlich sehr robust und besitzt eine große Ausdauer, was ihr hilft, die Strapazen des Lebens in den Minen zu bewältigen.
+Hiante ist körperlich sehr robust, stark und besitzt eine große Ausdauer, was ihr hilft, die Strapazen des Lebens in den Minen zu bewältigen.
 Sie ist zudem eine ausgezeichnete Kämpferin, geschult im Umgang mit einfachen Waffen und im Nahkampf.
 
 ## Magische Fähigkeiten
