@@ -1,16 +1,18 @@
-# Hiante Krolpin
+# Hiante Krolpin, Zirkelgründerin
 
 :::overview
 
 ![Hiante Krolpin](./images/Hiante-Krolpin_Zirkelgruenderin.png)
-
-**Name:** Hiante Krolpin  
-**Titel/Klasse:** Gründerin der Krolpin-Familie  
-**Alter:** 75 Zyklen (verstorben im Zyklus 22)  
-**Geschlecht:** Weiblich  
-**Spezies/Rasse:** Vapornane  
-**Heimat:** Zirkelgebirge, Aridess  
-**Beruf:** Minenführerin, Handelsstrategin
+ 
+|                      |                                                                                                         |
+| -------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Name:**            | Hiante Krolpin (geb. Kriolen)                                                                        |
+| **Titel / Klasse:**  | Zirkelgründerin                                                                                         |
+| **Alter:**           | Erwachsene                                                                                              |
+| **Geschlecht:**      | Weiblich                                                                                                |
+| **Spezies / Rasse:** | [Vapornane](/content/Volk_/Vapornane/index.md)                                                          |
+| **Heimat:**          | [Nördliche Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Wüste_Frilach/index.md)      |
+| **Beruf:**           | Handelsstrategin, Metallurgin                                                                           |
 
 :::
 
@@ -42,19 +44,22 @@ Obwohl sie wenig offene Feinde hat, steht sie Personen skeptisch gegenüber, die
 # Hintergrundgeschichte
 
 ## Frühes Leben
-Hiante wird im 253. Zyklus vor der Ikusation in einer Wüstenkolonie in den nördlichen Ebenen von Aridess geboren.
-Ihre Geburts-Familie mit dem Namen "Kriolen" lebt als eigenständiger Stamm im Schatten der nördlichen Berge.
-Die Gemeinschaft ist klein und lebt hauptsächlich vom Jagen und Sammeln, hat jedoch mit der Zeit auch einige rudimentäre Handelsbeziehungen zu den nördlichen Bergketten aufgebaut.
-Meist ertauschen sich die Kriolen dabei verarbeitetes Metall in Form von Waffen und Werkzeugen mit dem Leder ihrer letzten Jagdzüge.
-Der frühe Kontakt zu Metall fasziniert Hiante schon als Kind, wo sie sich in den spiegelnden Reflexen oft verlieren kann.
-In ihrer späten Adoleszenz entscheidet sie sich, den Namen "Krolpin" anzunehmen und in die nördlichen Berge zu reisen um die Metallverarbeitung genauer kennenzulernen.
+Hiante wird im 253. Zyklus vor der Ikusation in den nördlichen Ebenen der [Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Wüste_Frilach/index.md) von [Aridess](/content/Himmelskoerper_/Aridess/index.md) geboren.
+Ihre Geburts-Familie [Kriolen](../../../Kriolen_Wüstenstamm/index.md) siedelt dort als eigenständiger Stamm im Schatten der nördlichen Berge.
+Die Gemeinschaft ist klein und lebt hauptsächlich vom Jagen und Sammeln, hat jedoch mit der Zeit auch einige rudimentäre Handelsbeziehungen zu den nördlichen liegenden Bergketten aufgebaut.
+Meist ertauschen sich die Kriolen dabei verarbeitetes Metall in Form von Waffen und Werkzeugen mit dem Leder und Fleisch ihrer letzten Jagdzüge.
+Der Kontakt zu dem ertauschtem Rohstoff fasziniert Hiante schon als Kind und sie verliert sich nur zu gern in den spiegelnden Reflexen der Wüstensonne in glänzenden Metallen.
+In ihrer späten Adoleszenz entscheidet sie sich schließlich, die Familie Kriolen zu verlassen und in die nördlichen Berge zu reisen um dort die Metallverarbeitung genauer kennenzulernen.
+Außerdem verfolgt sie das Ziel dort eine eigene Familie mit dem neuen Namen "Krolpin" zu gründen.
  
 ## Erwachsenenalter
 
 ### Familiengründung in der Kharrak-Mine
-Als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, findet sie zuerst die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
-Dort beginnt sie im Zyklus -96 eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Minenarbeit, und zeugt ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md).
-Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum einen die Metallurgie kennenlernt und zum anderen liebevoll ihren ersten Sohn großzieht.
+Als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, findet sie die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
+Dort beginnt sie 96 Zyklen vor der Ikusation eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Mine, und zeugt zweieinhalb Zyklen später ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md) welcher somit schließlich im 87. Zyklus vor der Ikusation auf die Welt kommt.
+Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum einen die Grundlagen der Metallurgie näher kennenlernt und zum anderen liebevoll ihren ersten Sohn großzieht.
+
+
 In Grishams Jugend erkundet sie schließlich die weiteren Minen des Zirkelgebirges und etabliert polyamore Beziehungen mit noch weiteren führenden Männern der Region.
 Sie reist fortan viel zwischen den Minen umher und wird dabei immer mal wieder von Grisham und später von ihren anderen Nachkommen begleitet.
 Die Männer mit denen Hiante sich auf ihrer Reise einlässt werden nicht nur ihre Partner und Mitglieder der Krolpin-Familie, sondern auch die Väter weiterer Kinder, die unter Hiantes Idealen aufwachsen und erzogen werden.

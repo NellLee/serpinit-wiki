@@ -52,12 +52,12 @@ export class FileLink {
         
         this.descriptiveText = this.text
         
-        const folderName = this.href.split('/').at(-2)?.replaceAll("_", " ")
+        const folderName = decodeURIComponent(this.href.split('/').at(-2)?.replaceAll("_", " ")!)
         if (this.fileName != "index") {
             this.descriptiveText = folderName + " > " + this.descriptiveText
         } else {
             if (folderName == "images") {
-                this.descriptiveText = this.href.split('/').at(-3) + " > Gallerie"
+                this.descriptiveText = decodeURIComponent(this.href.split('/').at(-3)!) + " > Gallerie"
             }
         }
     }
@@ -66,7 +66,7 @@ export class FileLink {
     getTags() {
         const tags: string[] = []
         const segments = this.href.split("/")
-        let segment = segments.at(-1)!
+        let segment = decodeURIComponent(segments.at(-1)!)
         if(segment.includes(".")) {
             segment = segment.substring(0, segment.lastIndexOf("."))
         }

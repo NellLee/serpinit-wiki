@@ -63,7 +63,7 @@ export function getLinkedFilePath(link: string, currentFolder: string | null = n
         link = path.resolve(currentFolder, link)
     }
 
-    let filePath = link.replace(/\//g, path.sep)
+    let filePath = decodeURIComponent(link.replace(/\//g, path.sep))
     let fullPath = path.resolve(WIKI_PATH, filePath)
 
     return fullPath
