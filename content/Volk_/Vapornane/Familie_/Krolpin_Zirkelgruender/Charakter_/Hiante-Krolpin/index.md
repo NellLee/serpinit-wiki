@@ -53,9 +53,13 @@ In ihrer späten Adoleszenz entscheidet sie sich schließlich, die Familie Kriol
 Außerdem verfolgt sie das Ziel dort eine eigene Familie mit dem neuen Namen "Krolpin" zu gründen.
  
 ## Erwachsenenalter
+Erst als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, versteht sie wie begrenzt ihr Verständnis von der Welt bisher wirklich war.
+Der Kriolen-Stamm ist sehr traditionell und wertschätzt vor allem altbekannte Werte und Normen.
+Der Bergkette am Horizont und den fremden Händler die den Stamm manchmal besuchten, stehen die Kriolen distanziert gegenüber.
+Sie hegen zwar keinen Groll gegenüber fremden Dingen, doch versuchen sie stets die Kontaktpunkte gering zu halten.
 
-### Familiengründung in der Kharrak-Mine
-Als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, findet sie die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
+### Familiengründung in der Kharrak-Mine 
+Im Zirkelgebirge findet Hiante zuerst die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
 Dort beginnt sie 96 Zyklen vor der Ikusation eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Mine, und zeugt zweieinhalb Zyklen später ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md) welcher somit schließlich im 87. Zyklus vor der Ikusation auf die Welt kommt.
 Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum einen die Grundlagen der Metallurgie näher kennenlernt und zum anderen liebevoll ihren ersten Sohn großzieht.
 
