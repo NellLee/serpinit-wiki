@@ -21,7 +21,7 @@
 ## Aussehen
 Hiante Krolpin ist eine Frau von beeindruckender Natur.
 Sie ist groß und durchtrainiert und ihr Gesicht ist markant, mit hohen Wangenknochen und durchdringenden grünen Augen.
-Ihre silbergrauen Haare trägt sie meist recht kurz und sie kleidet sich typischerweise in praktische Lederschürzen.
+Ihre silbergrauen Haare trägt sie meist recht kurz geschnitten und sie kleidet sich typischerweise in praktische Lederschürzen.
 Hiantes Kleidung sticht mit ihrem steigenden Alter immer stärker durch kunstvolle, metallene Verzierungen hervor – Symbole die sie durch ihre Verbindung zu den Minenleitern und ihre Rolle als Anführerin erhält.
 
 ## Persönlichkeit
@@ -29,7 +29,7 @@ Hiantes Kleidung sticht mit ihrem steigenden Alter immer stärker durch kunstvol
 ### Charakterzüge
 Hiante ist bekannt für ihre strategische Weitsicht und ihren unerschütterlichen Willen.
 Sie ist zielorientiert und pragmatisch, aber gleichzeitig mitfühlend gegenüber ihren Angehörigen.
-Ihre größte Stärke ist ihre Fähigkeit, komplexe Beziehungen und Netzwerke zu pflegen, was ihr durch die polyamorösen und traditionell leicht matriarchalischen Strukturen der Vapornan-Gesellschaft mit der Zeit zu viel Macht verhilft.
+Ihre größte Stärke ist ihre Fähigkeit, komplexe Beziehungen und Netzwerke zu pflegen, was ihr, in Kombination mit den polyamorösen und traditionell leicht matriarchalischen Strukturen der Vapornan-Gesellschaft, mit der Zeit zu viel Macht verhilft.
 
 ### Vorlieben
 Hiante liebt die Arbeit mit Metall und die segende Hitze einer Erzschmiede seitdem sie das erste Mal eine Mine betreten hat.

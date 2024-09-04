@@ -12,7 +12,7 @@
 	export let fancyBoxGallery: boolean = true;
 	export let contentHtml: string;
 	export let overviewHtml: string | null;
-	export let contentMinHeight: string = "70vh"
+	export let contentMinHeight: string = '70vh';
 
 	onMount(() => {
 		if (fancyBoxGallery) {
@@ -141,8 +141,46 @@
 					width: 100%;
 				}
 			}
+			:global(.comment) {
+				width: 100%;
+				margin: 1rem 0;
+				border-radius: 0.5rem;
+				border: 1px solid #ddd;
+				background-color: #f9f9f9;
+				position: relative;
 
-			// Globals for the content included with "@html"
+				:global(.comment-indicator) {
+					width: 100%;
+					padding: 0.5rem;
+					color: #fff;
+					text-align: center;
+					font-weight: bold;
+					border-radius: 0.5rem 0.5rem 0 0;
+					box-sizing: border-box;
+
+					
+					:global(p) {
+						margin: 0.2rem 0 0;
+						line-height: 1.5;
+					}
+				}
+
+				:global(.comment-indicator.todo) {
+					background-color: #e74c3c;
+				}
+
+				:global(.comment-indicator.maybe) {
+					background-color: #f39c12;
+				}
+
+				:global(.comment-indicator.note) {
+					background-color: #2ecc71;
+				}
+				:global(.comment-content p) {
+					margin: 1rem;
+					line-height: 1.5;
+				}
+			}
 
 			:global(.katex-html) {
 				width: fit-content;

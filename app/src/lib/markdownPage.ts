@@ -138,6 +138,8 @@ export class MarkdownPage {
 
         this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, "utf-8")
 
+        this.processComments()
+
         // Initial HTML from markdown
         this.#html = this.generateInitialDOM()
 
@@ -162,6 +164,12 @@ export class MarkdownPage {
         this.overviewHtml = this.#html.sections.overview?.html ?? null
 
         this.href = this.#fileLink.href
+    }
+
+    processComments() {
+        this.markdown = this.markdown.replace(/<!--\s*([A-Z]+)\b(.*?)-->/gs, function(match, p1: string, p2: string) {
+            return `::::div{.comment}\n:::div{.comment-indicator .${p1.trim().toLowerCase()}}\n${p1.trim()}\n:::\n:::div{.comment-content}\n${p2.trim()}\n:::\n::::`;
+        });
     }
 
     extractOverviewSection(current: ChangeableDOM): ChangeMap {
