@@ -1,7 +1,7 @@
 
 # Zirkel-Wettstreit
 
-Der Zirkel-Wettstreit ist eine Veranstaltung der [Vapornan](/content/Volk_/Vapornane/index.md)-Familie [Krolpin](/content/Volk_/Vapornane/Politik/Familie_/Krolpin_Zirkelgruender/index.md), welche im [Zirkel-Gebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) am nördlichen Pol des Planeten [Aridess](/content/Himmelskoerper_/Aridess/index.md) stattfindet.
+Der Zirkel-Wettstreit ist eine Veranstaltung der [Vapornan](/content/Volk_/Vapornane/index.md)-Familie [Krolpin](/content/Volk_/Vapornane/Politik/Familie_/Krolpin_Zirkelgruender/index.md), welche im [Zirkel-Gebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/index.md) am nördlichen Pol des Planeten [Aridess](/content/Himmelskoerper_/Aridess/index.md) stattfindet.
 Der Wettstreit ist ein wichtiger Meilenstein in der Geschichte der Vapornanes.
 Ziel ist die Entwicklung von mechanischen Erfindungen, die von so fundamentaler Nützlichkeit sind, dass sie Einfluss auf den gesamten Planeten nehmen können und so einerseits zur [Globalisierung von Aridess](../Globalisierung-Aridess.md) beitragen sollen und andererseits die Entstehung der [12 Vapornan-Zirkel](/content/Volk_/Vapornane/Politik/Zirkel_/index.md) bedingen.
 Um den Wettstreit zu bewerben müssen die Krolpins ihre Position als Hauptversorger für Metalle voll ausnutzen.

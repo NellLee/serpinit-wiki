@@ -14,4 +14,12 @@ Die Vapornane haben sich an die unwirtlichen Bedingungen ihres Heimatplaneten pr
 Die meisten von ihnen leben entweder in den fruchtbaren Oasen oder in weitlaufenden Untergrund-Städten.
 
 # Geschichte
+
+## Geologische Entwicklung
+Zu Beginn des Serpinit-Systems ist Aridess zwar bereits ein insgesamt trockener Planet, jedoch noch mit einigen wenigen Ozeanen in Äquator- und Polnähe.
+In den darauffolgenden Jahrmillionen verändern spezifische plattentektonische Vorgänge die geologische Ausprägung dieses Planetens grundlegend.
+Die Kontinentalplatten auf beiden Halbkugeln des Planeten beginnen polwärts zu wandern, was zu tektonischen Kollisionen führt durch welche sich am Nord- und Südpol  schließlich riesige Gebirgsregionen bilden.
+Zudem führt die Divergenz der Platten in Äquatornähe zur Bildung von tiefen Schluchten und Canyons.
+Sedimentationsvorgänge und allgemeine Erosion reduzieren schließlich die Prävalenz aller Ozeane, da die Wassermaßen sich entweder in den Tiefen der Äquator-Schluchten, oder als Gletscher in den Pol-Gebirgen sammeln.
+
 Aridess ist der erste Planet welcher von den [Lateralen](/content/Volk_/Lateralen/index.md) mit dem Start der [Ikusation](/content/Ereignis_/Ikusation.md) erschlossen wurde.

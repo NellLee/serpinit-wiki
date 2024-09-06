@@ -1,0 +1,4 @@
+# Zirkel der Sonnenspiegel
+Die Erfindung dieses Zirkels kommt von den Bewohnern der Hudork-Schluchten, welche ihre Metallspiegel schon Zyklen bevor der Wettstreit ausgerufen wurde nutzen um Agrarwirtschaft an den unzugänglichen Orten der Schluchten zu ermöglichen.
+Dabei wird das Metall (meist Silber) für die Spiegel anfänglich mit traditionellen Mitteln verarbeitet, durch Einschmelzen und in-Form-gießen, was widerum einen hohen Aufwand mit sich bringt.
+Durch den Wettstreit lernen die Hudork-Bewohner dann die Auswirkungen der Sgrisignier-Portale auf Metall kennen, was die Herstellung der Silberspiegel stark verinfacht.

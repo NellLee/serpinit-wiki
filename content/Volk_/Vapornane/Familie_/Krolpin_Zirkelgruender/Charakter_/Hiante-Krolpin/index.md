@@ -11,7 +11,7 @@
 | **Alter:**           | Erwachsene                                                                                              |
 | **Geschlecht:**      | Weiblich                                                                                                |
 | **Spezies / Rasse:** | [Vapornane](/content/Volk_/Vapornane/index.md)                                                          |
-| **Heimat:**          | [Nördliche Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Wüste_Frilach/index.md)      |
+| **Heimat:**          | [Nördliche Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md)      |
 | **Beruf:**           | Handelsstrategin, Metallurgin                                                                           |
 
 :::
@@ -44,7 +44,7 @@ Obwohl sie wenig offene Feinde hat, steht sie Personen skeptisch gegenüber, die
 # Hintergrundgeschichte
 
 ## Frühes Leben
-Hiante wird im 253. Zyklus vor der Ikusation in den nördlichen Ebenen der [Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Wüste_Frilach/index.md) von [Aridess](/content/Himmelskoerper_/Aridess/index.md) geboren.
+Hiante wird im 253. Zyklus vor der Ikusation in den nördlichen Ebenen der [Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md) von [Aridess](/content/Himmelskoerper_/Aridess/index.md) geboren.
 Ihre Geburts-Familie [Kriolen](../../../Kriolen_Wüstenstamm/index.md) siedelt dort als eigenständiger Stamm im Schatten der nördlichen Berge.
 Die Gemeinschaft ist klein und lebt hauptsächlich vom Jagen und Sammeln, hat jedoch mit der Zeit auch einige rudimentäre Handelsbeziehungen zu den nördlichen liegenden Bergketten aufgebaut.
 Meist ertauschen sich die Kriolen dabei verarbeitetes Metall in Form von Waffen und Werkzeugen mit dem Leder und Fleisch ihrer letzten Jagdzüge.
@@ -54,19 +54,19 @@ Außerdem verfolgt sie das Ziel dort eine eigene Familie mit dem neuen Namen "Kr
  
 ## Erwachsenenalter
 Erst als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, versteht sie wie begrenzt ihr Verständnis von der Welt bisher wirklich war.
-Der Kriolen-Stamm ist sehr traditionell und wertschätzt vor allem altbekannte Werte und Normen.
-Der Bergkette am Horizont und den fremden Händler die den Stamm manchmal besuchten, stehen die Kriolen distanziert gegenüber.
+Der Kriolen-Stamm ist traditionell und wertschätzt altbekannte Werte und Normen.
+Der Bergkette am Horizont und den fremden Händlern die den Stamm manchmal besuchten, stehen die Kriolen somit stets distanziert gegenüber.
 Sie hegen zwar keinen Groll gegenüber fremden Dingen, doch versuchen sie stets die Kontaktpunkte gering zu halten.
+Hiante kannte lange Zeit also nur ein kleines, wohlvertrautes Umfeld, bis ihre Neugierde sie schließlich hinaus in die Welt trieb.
 
-### Familiengründung in der Kharrak-Mine 
-Im Zirkelgebirge findet Hiante zuerst die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
+### Familiengründung
+Im Zirkelgebirge findet Hiante zuerst die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
 Dort beginnt sie 96 Zyklen vor der Ikusation eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Mine, und zeugt zweieinhalb Zyklen später ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md) welcher somit schließlich im 87. Zyklus vor der Ikusation auf die Welt kommt.
 Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum einen die Grundlagen der Metallurgie näher kennenlernt und zum anderen liebevoll ihren ersten Sohn großzieht.
 
-
 In Grishams Jugend erkundet sie schließlich die weiteren Minen des Zirkelgebirges und etabliert polyamore Beziehungen mit noch weiteren führenden Männern der Region.
-Sie reist fortan viel zwischen den Minen umher und wird dabei immer mal wieder von Grisham und später von ihren anderen Nachkommen begleitet.
-Die Männer mit denen Hiante sich auf ihrer Reise einlässt werden nicht nur ihre Partner und Mitglieder der Krolpin-Familie, sondern auch die Väter weiterer Kinder, die unter Hiantes Idealen aufwachsen und erzogen werden.
+Sie reist fortan viel zwischen den Minen umher und wird dabei immer mal wieder von Grisham und später auch von ihren anderen Nachkommen begleitet.
+Hiante macht einige Minenleiter zu Mitgliedern ihrer Familie und die weiteren Kinder werden unter Hiantes Idealen aufwachsen und erzogen.
 Hiantes zweiter Mann ist Torval, der Leiter der Drakar-Mine, mit welchem sie ihre Zwillings-Töchter Jell und Liss zeugt.
 In der Drakar-Mine wird hauptsächlich Kupfer abgebaut und zu Bronze (später auch Messing) verarbeitet.
 Auf Torval folgt Fynrik, der Leiter der Murgath-Stollen.

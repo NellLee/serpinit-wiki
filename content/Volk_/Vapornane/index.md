@@ -13,19 +13,23 @@ Sie fanden jedoch mit der Zeit trotzdem Möglichkeiten, die magische Energie des
 
 # Lebensraum
 Die meisten Vapornane leben lange Zeit hauptsächlich in Ansammlungen von Höhlen und unterirdischen Tunnelsystemen, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind. 
-Aufgrund der harschen Bedinungen auf Aridess sind die Vapornane letztlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
+Aufgrund der harschen Bedingungen auf Aridess sind die Vapornane letztlich immer auf gegenseitigen Ressourcenaustausch angewiesen, um zu überleben.
 
 # Entwicklung & Geschichte
-Zu den Anfängen der intelligenten Völker sind die Vapornane noch ein recht einfaches Volk, welches Aridess vor Allem aufgrund der Konkurrenzlosigkeit vollumfänglich besiedeln kann.
+Zu den Anfängen der intelligenten Völker bis zur Gründung der 12 Zirkel sind die Vapornane ein einfaches Volk, welches Aridess vor Allem aufgrund der Konkurrenzlosigkeit vollumfänglich besiedeln kann.
 Sie leben lange Zeit ausschließlich in unzähligen kleinen, nahezu indigenen Gruppierungen, da größere Populationen aufgrund der Ressourcenknappheit keine Bestandsfähigkeit haben.
 Dementsprechend divers ist auch die Kultur der Vapornane, wobei ausgeprägte Handelsbeziehungen einen steten Austausch ebendieser Kulturen ermöglichen.
 Ob es diesem Kulturaustausch oder einem ureigenen Instinkt der Vapornane zu verschulden ist, dass insbesondere die Metallverabeitung schon immer einen besonders hohen Stellenwert bei fast jeder Gruppierung dieses Volkes hat, ist nicht ganz klar.
 Vapornanes nutzen Metall seit jeher für Werkzeuge, ihre Unterkünfte, Schmuck und ähnliches.
-Selbst beim Handel wird nicht selten auf die Nutzung einer Währung verzichtet und stattdessen eine Bezahlung in Erzen oder verarbeitetem Metall gewählt.
+Selbst beim Handel wird nicht selten auf die Nutzung einer expliziten Währung verzichtet und stattdessen eine Bezahlung in Erzen oder verarbeitetem Metall gewählt.
 Einen besonderen Stellenwert nehmen daher die Erzlieferanten auf Aridess ein.
 Da die meisten Erzvorkommen in den nördlichsten Gebirgen des Planeten verortet sind, haben viele der komplexen Handelsstrukturen hier ihren Ursprung.
 
-## Zirkel-Wettstreit
+## Globalisierung
+Ein wichtiger Meilenstein in der Geschichte der Vapornane ist die Austragung des [Zirkel-Wettstreits](/content/Ereignis_/Zirkel-Wettstreit/index.md) und der darauffolgende technologische Aufschwung.
+Mit den innovativen Erfindungen und der neu gewonnenen gemeinschaftlichen Koordination schaffen es die Vapornane unter der Führung der [Krolpin-Familie](./Familie_/Krolpin_Zirkelgruender/index.md), ausgehend vom [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/index.md), eine Globalisierung des Planeten Aridess zu starten.
+Diese ermöglicht erstmalig eine effektive Vernetzung der Nordhalbkugel, von den Zirkelgebirgen am Nordpol bis zu den grünen Schluchten des Äquators.
+Eine Ausdehung auf die Südhalbkugel erfolgt verzögert, bedingt durch die weiten Handelswege und die natürlichen Schwierigkeiten der Überquerung der grünen Schluchten
 
 ## Ikusation
 Die Vapornane profitieren insgesamt außerordentlich von den Folgen der Ikusation.
@@ -36,96 +40,20 @@ Zum Anderen können die Vapornanes mit Tjosand ihre gesamte Technologie schließ
 
 Beim Volk der Vapornane kommt Frauen und insbesondere Müttern schon immer eine besondere Bedeutung zu, weshalb die vapornanische Gesellschaft als matriachalisch beschrieben werden kann.
 Darüber hinaus ist die Polygamie bei den Vapornanes schon immer Gang und Gäbe.
-Weibliche Vapornane können einen Familienamen wählen wenn sie eine neue Familie gründen.
+Weibliche Vapornane können einen eigenen Familienamen wählen wenn sie eine neue Familie gründen.
 Diesen Namen geben sie bei der Zeugung von Kindern sowohl an ihren Partner als auch an ihre gemeinsamen Nachkommen weiter. 
 
-<!-- TODO Matriachat beschreiben (Name erst durch Frau möglich) -->
-
-Die Vapornane leben seit der Globalisierung in Zugehörigkeit zu sogenannten Zirkeln, welche sich durch den Zirkel-Wettstreit im [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unon/Gebirge_Zirkelgebirge/index.md) gründen. 
+Die Vapornane leben seit dem Zirkel-Wettstreit und der Globalisierung in Zugehörigkeit zu einem jeweiligen [Zirkel](./Politik/Zirkel_/). 
 Die Zirkel entstehen zwar ursprünglich aus den gewinnenden Gruppen des Zirkel-Wettstreits, sind jedoch insbesondere durch Aridess' Globalisierung nicht mehr an diese Grenzen gebunden.
 Stattdessen entstehen Zugehörigkeiten unterschiedlicher Orte zu einem Zirkel, wenn eine jeweilige Zirkel-Erfindung ausschlaggebende Auswirkungen auf die Ökonomie und Kultur ihrer Population hat.
 
-# Zirkel
+# Theologie & Magie
 
-## Zirkel des Erz-Phoriats
-Das Erz-Phoriat ist letztendlich der älteste und einflussreichste Zirkel der Vapornane und wird angefürt von der Familie [Krolpin](Familie_/Krolpin_Zirkelgruender/index.md).
-Noch lange bevor sich die anderen Zirkel bilden, besiedeln die Stämme des Erz-Phoriats bereits die nördlichen Gebirgsketten.
-Dabei sind sie besonders bekannt für ihre effizienten Erzbohrungen und die dafür verwendeten Gerätschaften.
-Über viele transitive Handelsketten stellen sie letztendlich die Hauptversorgung für Metall auf dem Planeten Aridess dar.
-
-### Entwicklung des Phoriats
-Die Vapornan-Familie Krolpin entwickelt im Zyklus X den ersten Phoriat, ein Bohrer mit dem ein Vapornan effektiv in den Boden graben kann und dabei sowohl Erde als auch Steine problemlos durchdringt.
-Mit den Bohrern entstehen schließlich die vielen Erzminen in den nördlichen Gebirgen.  
-Die Krolpins bauen mit der Zeit immer mehr Handelsbeziehungen auf, da die geschürften Metalle bei den Stämmen außerhalb der Gebirge heiß begehrt sind und nehmen so eine immer mächtiger werdende Position im Zirkelgebirge ein.
-Doch sind die Handelswege insgesamt recht ineffizient und die Krolpins verzeichnen häufig unvorhersehbare Verluste.
-Außerdem sind die ersten Bohrer mühsam angefertigte Einzelstücke, welche nur wenige herzustellen in der Lage sind.
-Dies motiviert die Entscheidung der Krolpins, ihren Einfluss zu nutzen um einen technischen Aufschwung in Form einer Globalisierung anzustoßen.
-Dafür rufen sie den [Zirkel-Wettstreit] aus und nehmen auch selbst als Gruppe an ebendiesem teil.
-Ihre beitragende Erfindung ist natürlich der Phoriat mit dem sie bereits so viele Minen angelegt haben.
-Während diese Bohrer zu Beginn noch vergleichsweise klein sind und von einem einzigen Vapornan bedient werden, entwickeln sie sich durch den Wettstreit schließlich zu riesigen Gerätschaften, welche von innen gesteuert werden und breite Tunnel graben können.
-Dies erhöht nicht nur die Effektivität der vielen Erzbohrungen im Zirkelgebirge, sondern lässt mit der Zeit auch riesige Tunnelsysteme entstehen in welchen sich die Städte des Erz-Phoriats und die Hauptsitze der Zirkel entwickeln konnten.
-
-## Zirkel der Aluminiumfliegen
-Bei der Aliminiumfliege handelt es sich um ein kleines, flugfähiges Gerät.
-Es hat einen Korpus aus Kristall und Flügel aus dünnem Aluminium. 
-Im Körper der "Fliege" ist eine kleine Aussparung, in der eine eingerollte Nachricht befestigt werden kann. 
-Der Sinn der Fliegen liegt in der Kommunikation über große Strecken hinweg.
-Es sind präzise Berechnungen von Nöten, um eine Kirstallfliege mit der exakten Mengen an Energie auszustatten, sodass sie zum passenden Zeitpunkt an Höhe verliert und ihren Zielort erreicht.
-
-<!-- TODO: Post-Ikusation
-Dabei können die Fliegen auch die Sgrisignier-Portale nutzen um planetare Grenzen zu überwinden. Das Ziel kann der Fliege mündlich mitgeteilt werden. Die Vapornane haben über viele Zyklen hinweg unzählige Orte in die Magie der Kristallfliege „programmiert“, sodass diese Orte über die Aussprache erkannt werden können. Dafür wird ein weiterer Zettel mit den Koordinaten verschiedener Orte sowie den dazugehörigen Rufnamen in der Kristallfliege verstaut. Zu Beginn wurden die Kristallfliegen nur von den Vapornanen selbst genutzt, da auch nur diese in der Lage waren die kleinen Geräte aufzuladen. Die Möglichkeit Nachrichten schnell über große Strecken hinweg überbringen zu können hat jedoch auch bei den restlichen Völkern großen Anklang gefunden. Als die Vapornane es schafften die Magie der Fliegen so zu manipulieren, dass sie bei niedrigem Energieniveau automatisch zum Zirkel zurückkehrten um erneut aufgeladen werden zu können, haben sich die kleinen Geräte auch vollends bei den anderen Völkern durchgesetzt. -->
-
-## Zirkel der Silberspiegel
-Die Erfindung dieses Zirkels kommt von den Bewohnern der Hudork-Schluchten, welche ihre Metallspiegel schon Zyklen bevor der Wettstreit ausgerufen wurde nutzen um Agrarwirtschaft an den unzugänglichen Orten der Schluchten zu ermöglichen.
-Dabei wird das Metall (meist Silber) für die Spiegel anfänglich mit traditionellen Mitteln verarbeitet, durch Einschmelzen und in-Form-gießen, was widerum einen hohen Aufwand mit sich bringt.
-Durch den Wettstreit lernen die Hudork-Bewohner dann die Auswirkungen der Sgrisignier-Portale auf Metall kennen, was die Herstellung der Silberspiegel stark verinfacht.
-
-## Zirkel des Dampfrucksacks
-Dieser Zirkel entsteht aus der Entwicklung der Dampfmaschine.
- 
+Die Vapornane haben keine eigenen magischen Fähigkeiten und kommen überhaupt erst durch die Ikusation mit dem Konzept der Magie in Kontakt.
+Aus diesem Grund sind in den vorherrschenden Religonen der Vapornane kaum Bezüge auf die existente Magie des Serpinit-Systems zu finden.
+Eine Ausnahme bilden beispielsweise die Sgrisignier-Portale, welche viele Vapornanes als  
 
 <!-- TODO -->
-
-## Zirkel der Bleischützen
-
-Einige Vapornane haben bereits sehr früh durch Zufall herausgefunden, dass sich Blei unter Einflüssen von Edelsteinmagie äußerst interessant verhält. So vermag die Magie z.B. spontane Veränderungen der Dichte des Metalls hervorzurufen ohne jedoch seine Masse oder Stabilität zu beeinflussen. Dieses Verhalten wurde trotz immer weiter fortschreitender Forschung bei keinem anderen Metall beobachtet.
-
-Da die Wirkungsweise der Edelsteinmagie auf Blei jedoch mit nur leicht größer werdenden Stoffportionen bereits verschwindend gering wird, waren die Vapornane gefordert Geräte zu erfinden die selbst kleinsten Bleikugeln einen Nutzen zu geben.
-
-Dafür wird innerhalb einer kleinen Maschine durch Wasserdampf ein enormer Druck aufgebaut, der dann schlagartig gegen die Bleikugel entladen wird, sodass diese gleich einem Geschoss durch die Luft fliegt. Ohne eine Veränderung der Dichte der Bleikugeln vor dem Schuss wären die Geschosse jedoch viel zu schwer und würden nur sehr geringe Strecken weit fliegen. Mit ihr jedoch, fliegen die Geschosse weit und kräftig und können so zur Jagd oder sogar zur Kriegsführung genutzt werden.
-
-Durch Weiterentwicklung der dabei angewandten Magie wurden verschiedene Waffen erfunden, welche Bleikugeln mit unterschiedlichen Effekten verwenden. So sind die Projektile bei einigen Schusswaffen glühend heiß während des Schusses, bei anderen verflüssigt sich das Metall beim Aufschlag, bei wieder anderen dehnt sich die Kugel aus, usw..
-
-## Zirkel der goldenen Temphora
-
-Viele Vapornane befassten sich schon seit den ersten aufgezeichneten Zyklen mit der Zeit an und für sich. Seit der Entdeckung der Pulsene interessieren sich diese Nanos nicht mehr nur noch für die Definition der Zeit, sondern nunmehr auch für dessen Manipulation.
-
-Nach langer gemeinsamer Zusammenarbeit schafften es einige der intelligentesten Vapornane die jemals lebten durch die Analyse der Zeitmesser der Sgrisigner, die Edelsteinmagie tatsächlich zur Manipulation der Zeit zu katalysieren.
-
-Die entwickelten Gerätschaften sind klein, gleichen einer Taschenuhr und werden Temphora genannt. Sie sind in der Lage die Zeit in einem Umkreis von wenigen Schritten des Trägers leicht zu verlangsamen oder zu beschleunigen. Der Vapornan der die Temphora hält ist von der Zeitmanipulation dabei nicht betroffen. Dies eröffnete den Vapornanen ungeahnte Möglichkeiten und ließ ihren Zirkel zum mächtigsten und wohlhabendsten werden. Seither stellen die Vapornane als Zeichen ihres Reichtums die Temphoras ausschließlich aus Gold her.
-
-Der Zirkel der goldenen Temphora ist einer der wenigen Zirkel der keinen Gebrauch von Wasserdampf in seiner Erfindung macht.
-
-## Zirkel der Silberschiffe
-
-Der Vapornanenzirkel der Silberschiffe hat sich auf dem großen Eistropfen Luqua angesiedelt. Die Schifffahrt auf Luqua ist zwar müßig, da die Wasseroberfläche regelmäßig gefriert, aber die Vapornane haben schon früh die gute Wärmeleitfähigkeit von Silber feststellen können, die sich mithilfe ihrer Edelsteinmagie sogar noch verstärken ließ. So brachten die Vapornane große beheizte Eisbrecher aus Silber an ihren Schiffen an und konnten die Wasseroberfläche von Luqua uneingeschränkt befahren. Das Wasser das als Nebeneffekt verdampft wird in großen Metallfalten an den Seiten der Schiffe aufgefangen und zur erneuten Wärmegeneration genutzt um so Energie zu sparen.
-
-Dieser Zirkel bildet das Verbindungsglied zwischen den Vapornane und den Fluctro, zwischen denen ein reger Handel mit Tjosandt-Quarz herrscht.
-
-## Zirkel der Stahlschmiede
-
-Dieser Zirkel hat sich auf die traditionelle Schmiedekunst fokussiert, für die die Vapornane bereits vor der Gründung der Zirkel bekannt waren. Mit Klingen die von den Vapornanen dieses Zirkels hergestellt werden können sich nur sehr wenige andere Waffen im Serpinit-System messen, denn die Vapornane hatten viel Zeit ihre Methoden zu perfektionieren. In die Griffe von Waffen die für Vapornane hergestellt werden sind häufig Edelsteine eingelassen, welche die Waffe mit zusätzlicher Kraft des Trägers versehen. Der Kern solcher Klingen besteht außerdem aus Tjosandt-Quarz, um die Magie in die Schneide leiten zu können. Damit das Klingenblatt trotz des Quarzes stabil bleibt muss die Stahlummantelung in vielen besonderen Verfahren gehärtet werden.
-
-Auch für andere Völker stellen die Vapornane gelegentlich Waffen her, doch diese sind den magischen Edelsteinklingen weit unterlegen.
-
-
-## Zirkel der kupfernen Flügel
-
-Diese Vapornane haben es geschafft Flügel zu entwickeln, welche sich ähnlich eines Rucksacks umschnallen lassen. Der eingelassene Edelstein manipuliert dabei die umliegenden Winde. Zusammen mit der Kraft des Wasserdampfes ermöglichen so die Flügel selbst dem kleinen und schweren Volk der Vapornane den Flug durch die Luft. Dank der Weiterentwicklung ihrer Erfindung wurden später ganze Gebäude mit einer ähnlichen Technik flugfähig gemacht indem Wolken als dauerhafte Wasserdampfquellen genutzt wurden und die Nanos der kupfernen Flügel konnten sich in den Lüften Agranums ansiedeln ohne räumlich auf den Gravid-Ring beschränkt zu sein.
-
-So ist eine ganze Stadt im Himmel entstanden, welche neben den Mitgliedern dieses Zirkels nur von fliegenden Sodili-Hybriden, Drachenkindern oder anderen fliegenden Lebewesen erreichbar sind.
-
-# Theologie & Magie
 
 ## Gemtech
 Die Vapornans waren schon immer ein Volk der Schmiedekunst.
@@ -134,7 +62,6 @@ Sie setzen Metall gezielt ein um das Überleben sowohl oberhalb also auch unterh
 Die Edelsteinverarbeitung hatte zuerst einen rein ästethischen Wert, doch so fanden die Vapornanes auch die energiespeichernden Eigenschaften von Edelsteinen heraus.
 Der Erfindergeist der Vapornanos führte schließlich zur Kombination von energetisch aufgeladenen Edelsteinen und geschmiedetem Metall, woraus sie zügig bahnbrechende, mechanische Meisterwerke schufen, welche sich die Energie der Edelsteine durch Wasserdampf zunutze machten.
 Mit diesen Erfindungen konnten die Vapornane schließlich zumindest teilweise ausgleichen, dass sie nicht wie die anderen Völker mit magischen Fähigkeiten geboren werden, was insbesondere ab dem Zeitpunkt der Ikusation ein wichtiger Faktor für die interplanetaren Beziehungen ist.
-
 
 
 # Aussehen
