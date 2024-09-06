@@ -36,6 +36,8 @@ Die Vapornane profitieren insgesamt außerordentlich von den Folgen der Ikusatio
 Zum einen liefert die Erschließung der Sgrisignier-Portale den Vapornanes eine Vielzahl an neuen Handelsmöglichkeiten.
 Zum Anderen können die Vapornanes mit Tjosand ihre gesamte Technologie schließlich zusätzlich stark verbessern.
 
+<!-- NOTE Der DnD-Plot setzt hier an. -->
+
 # Gesellschaft
 
 Beim Volk der Vapornane kommt Frauen und insbesondere Müttern schon immer eine besondere Bedeutung zu, weshalb die vapornanische Gesellschaft als matriachalisch beschrieben werden kann.

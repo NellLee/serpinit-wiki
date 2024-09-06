@@ -15,21 +15,25 @@ Die von den Krolpins gewählte Vorlaufzeit von 10 Zyklen soll daher sicherstelle
 Schließlich finden sich 158 teilnehmende Gruppen (insgesamt über 650 Vapornanes) für den Wettstreit im Tal des Zirkelgebirges ein.
 Der Zirkel-Wettstreit führt letztendlich dazu, dass sich die Lebensqualität nahezu aller erreichter Orte auf Aridess stark verbessert und löst langfristig zudem eine Verstädterung auf Aridess aus.
 
-# Regeln
+# Regeln & Ablauf
 Zu Beginn richten die Krolpins eine Eröffnungszeremonie aus, bei welcher [Hiante Krolpin](/content/Volk_/Vapornane/Politik/Familie_/Krolpin_Zirkelgruender/Charakter_/Hiante-Krolpin/index.md) neben einer feierlichen Begrüßung auch das Ziel des Wettstreits sowie dessen Rahmenbedingungen verkündet.
-Der Wettstreit wird über einen Zeitraum von zwei Zyklen durchgeführt und die Qualifikation der Erfindungen erfolgt über mehrere Runden hinweg durch demokratische Abstimmungen aller Teilnehmer.
-Dabei wird die Anzahl an Gruppen mit abnehmender Schrittweite dezimiert.
-Zur anfänglichen Überraschung vieler Teilnehmer sind die Gruppen nicht für den gesamten Verlauf festgelegt.
+Erst nach der Einführungsphase offenbart Hiante einige wichtige Regeländerungen. 
+Zuallererst legen die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen, mit dem übergeordneten Ziel der Globalisierung.
+
+Dem eigentlichen Wettstreit geht dann eine Qualifikationsphase voraus.
+Die Teilnehmer halten diese jedoch bereits für eine waschechte erste Runde. 
+In dieser ersten Phase müssen alle Mitglieder einen Vortrag über ein Unterthema ihrer Wahl halten, wobei dieses bestenfalls in irgendeiner Form innovativ sein sollte.
+Alle Teilnehmer müssen die Vorträge der anderen jeweils mithilfe von 10 Fragen ehrlich bewerten.
+Den Teilnehmern wird zuerst gesagt, dass nur die besten 20 Vorträge eine Chance auf den Gewinn haben.
+Doch nach dem letzten Vortrag und dessen Bewertung enthüllt Hiante:
+Es können sich weit mehr als 20 Gruppen qualifizieren, nur wer viele schlechte Bewertungen erhält, oder wer ausschließlich schlechte Bewertungen gibt, fliegt in dieser Vorrunde aus dem Wettkampf.
+
+Auf diesem Wege werden unter Anderem das Wissen über die Nutzung von Wasserdampf sowie die Effekte von aufgeladenen Edelsteinen unter den Teilnehmern bekannt.
+
+Danach erfolgt die Implementationsphase.
+In dieser arbeiten die Gruppen immer wieder jeweils einen Zyklus an ihrer Erfindung und stellen ihren Fortschritt anschließend vor.
+Durch anschließende Abstimmungen wird die Anzahl der Gruppen so in abnehmender Schrittweite dezimiert.
+Über einen Zeitraum von 7 Zyklen erfolgt so die Auswahl der Gewinner in mehreren Runden.
+Zur anfänglichen Überraschung vieler Teilnehmer ist ein Ausscheiden in der Implementationsphase jedoch nicht permanent.
 Ausgeschiedenen Gruppen steht es frei, sich sogleich der Weiterentwicklung einer der qualifizierten Erfindungen anzuschließen.
-Zudem legen die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen.
 Mit Abschluss des Wettstreits wird für jede der 12 gewinnenden Erfindungen ein Zirkel gegründet, welcher fortan eine koordinierende Rolle bei der geplanten Globalisierung einnimmt.
-
-# Ablauf
-Ab der Eröffnungsfeier haben die Gruppen stetig Zeit kollaborativ an ihrer jeweiligen Erfindung zu arbeiten und sie gemeinsam zu verbessern.
-Hierfür werden unter anderem viele spezielle Veranstaltungen geplant, bei denen die Teilnehmer die Möglichkeit haben bestimmte Techniken, Erkenntnisse oder wissenschaftliche Theorien zu lehren und zu lernen.
-
-## Einführung
-Die erste Lehrveranstaltung übernimmt [Grisham Krolpin](Stolzer Sohn).
-
-
-Auf diesem Wege werden unter Anderem das Wissen über die Nutzung von Wasserdampf sowie die Effekte von aufgeladenen Edelsteinen verbreitet, was wiederum zur Verbesserung der meisten der entwickelten Gegenstände führt und so das Gesamtniveau des Wettstreits anhebt.
