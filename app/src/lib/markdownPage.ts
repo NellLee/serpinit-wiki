@@ -335,7 +335,12 @@ export class MarkdownPage {
 
     generateTabs() {
         const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
-        const tabLinks: FileLink[] = getFilePathsInFolder(parentFolderPath, [".md"], 0)
+        const filePaths = getFilePathsInFolder(parentFolderPath, [".md"], 0)
+        const indexPath = path.sep + "index.md"
+        if(!filePaths.find(p => p == indexPath)) {
+            filePaths.push(indexPath)
+        }
+        const tabLinks: FileLink[] = filePaths
             .map(sibling => new FileLink(parentFolderPath + sibling))
             .sort((a, b) => {
                 if (a.fileName == "index") {
