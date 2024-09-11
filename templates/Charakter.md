@@ -34,9 +34,6 @@ Kurzer Überblick über die Kindheit und Jugend des Charakters.
 ### Wichtige Ereignisse
 Liste und Beschreibung wichtiger Ereignisse, die das Leben des Charakters geprägt haben.
 
-### Aktuelle Situation
-Kurzer Überblick über die aktuelle Situation des Charakters und seine Rolle in der Geschichte.
-
 ## Fähigkeiten und Kräfte
 
 ### Physische Fähigkeiten
@@ -75,9 +72,9 @@ Informationen zu romantischen Beziehungen des Charakters.
 
 ## Zitate
   
-> Wichtiges oder erinnerungswürdiges Zitat des Charakters.
-> Ein weiteres Zitat des Charakters.
-> ...
+> Wichtiges oder erinnerungswürdiges Zitat des Charakters.  
+> Ein weiteres Zitat des Charakters.  
+> ...  
 
 ## Trivia
 

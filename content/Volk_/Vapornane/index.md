@@ -44,6 +44,7 @@ Beim Volk der Vapornane kommt Frauen und insbesondere Müttern schon immer eine 
 Darüber hinaus ist die Polygamie bei den Vapornanes schon immer Gang und Gäbe.
 Weibliche Vapornane können einen eigenen Familienamen wählen wenn sie eine neue Familie gründen.
 Diesen Namen geben sie bei der Zeugung von Kindern sowohl an ihren Partner als auch an ihre gemeinsamen Nachkommen weiter. 
+Bei Vapornanes, welche auch im Erwachsenenalter noch unter dem Namen ihrer Mutter leben, wird dem Familiennamen der Präfix "Hin-" angefügt.
 
 Die Vapornane leben seit dem Zirkel-Wettstreit und der Globalisierung in Zugehörigkeit zu einem jeweiligen [Zirkel](./Politik/Zirkel_/). 
 Die Zirkel entstehen zwar ursprünglich aus den gewinnenden Gruppen des Zirkel-Wettstreits, sind jedoch insbesondere durch Aridess' Globalisierung nicht mehr an diese Grenzen gebunden.

@@ -53,11 +53,11 @@ In ihrer späten Adoleszenz entscheidet sie sich schließlich, die Familie Kriol
 Außerdem verfolgt sie das Ziel dort eine eigene Familie mit dem neuen Namen "Krolpin" zu gründen.
  
 ## Erwachsenenalter
-Erst als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, versteht sie wie begrenzt ihr Verständnis von der Welt bisher wirklich war.
+Erst als Hiante in die nächstgelegenen Ausläufer der nördlichen Gebirge zieht, versteht sie wie begrenzt ihr Verständnis von der Welt bisher war.
 Der Kriolen-Stamm ist traditionell und wertschätzt altbekannte Werte und Normen.
-Der Bergkette am Horizont und den fremden Händlern die den Stamm manchmal besuchten, stehen die Kriolen somit stets distanziert gegenüber.
+Sowohl der fernen Bergkette am Horizont als auch den fremden Händlern die den Stamm manchmal besuchen, stand Hiantes Familie somit stets distanziert gegenüber.
 Sie hegen zwar keinen Groll gegenüber fremden Dingen, doch versuchen sie stets die Kontaktpunkte gering zu halten.
-Hiante kannte lange Zeit also nur ein kleines, wohlvertrautes Umfeld, bis ihre Neugierde sie schließlich hinaus in die Welt trieb.
+Hiante kennt lange Zeit also nur ein kleines, wohlvertrautes Umfeld, bis ihre Neugierde sie schließlich hinaus in die Welt treibt.
 
 ### Familiengründung
 Im Zirkelgebirge findet Hiante zuerst die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
@@ -66,43 +66,49 @@ Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum
 
 In Grishams Jugend erkundet sie schließlich die weiteren Minen des Zirkelgebirges und etabliert polyamore Beziehungen mit noch weiteren führenden Männern der Region.
 Sie reist fortan viel zwischen den Minen umher und wird dabei immer mal wieder von Grisham und später auch von ihren anderen Nachkommen begleitet.
-Hiante macht einige Minenleiter zu Mitgliedern ihrer Familie und die weiteren Kinder werden unter Hiantes Idealen aufwachsen und erzogen.
-Hiantes zweiter Mann ist Torval, der Leiter der Drakar-Mine, mit welchem sie ihre Zwillings-Töchter Jell und Liss zeugt.
+
+Hiantes zweiter Mann ist [Torval](../Torval-Krolpin), der Leiter der [Drakar-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Drakar-Mine/index.md), mit welchem sie ihre Zwillings-Töchter [Jell](../Jell-Krolpin) und [Liss](../Liss-Krolpin) zeugt.
 In der Drakar-Mine wird hauptsächlich Kupfer abgebaut und zu Bronze (später auch Messing) verarbeitet.
-Auf Torval folgt Fynrik, der Leiter der Murgath-Stollen.
+
+Auf Torval folgt [Fynrik](../Fynrik-Krolpin), der Leiter der Murgath-Stollen.
 Diese Stollen haben sich aus den ersten Edelstein- und Goldfunden in den Flussbetten der Gebirge gebildet, welche bei indigeneren Stämmen für die Herstellung von Schmuck sehr beliebt waren.
-Hier wird Hiantes Tochter Legartha geboren.
-Im Zyklus -24 entsteht nahe Arides' Nordpol der Hauptsitz der Krolpin-Familie: "Dronak".
+Hier wird Hiantes Tochter [Legartha](../Legartha-Krolpin) geboren.
+
+Im Zyklus -24 entsteht nahe Arides' Nordpol der Hauptsitz der Krolpin-Familie: [Dronak](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Dronak/index.md).
 Diese Residenz ensteht aus der Zusammenarbeit aller Männer von Hiante und soll fortan als Koordinierungszentrum für die immer komplexer werdenden Handelsbeziehungen dienen.
-In den nachfolgenden Zyklen zeugt Hiante noch drei weitere Söhne, Jopun, Flort und Brill, welche zu großen Teilen in Dronak aufwachsen und neben Hinate auch viel von Jell und Liss erzogen werden.
+In den nachfolgenden Zyklen zeugt Hiante mit ihren Männern noch drei weitere Söhne: [Jopun](../Jopun-Krolpin), [Flort](../Flort-Krolpin) und [Brill](../Brill-Krolpin), welche zu großen Teilen in Dronak aufwachsen und neben Hinate auch viel von Jell und Liss erzogen werden.
 
+## Aridess' Globalisierung
+Im Zyklus -15 initiiert Hiante die Planung einer Globalisierung von Aridess.
+Sie ist unzufrieden mit den ineffizienten Handelswegen der nördlichen Minen und versucht Veränderung auf den Weg zu bringen.
+Während ihre Männer der Überzeugung sind, dass alle ihnen zur Verfügung stehenden Mittel bereits voll ausschöpft werden, hat Hiante aufgrund ihres persönlichen Hintergrunds und ihres Ursprungs im Kriolen-Stamm den festen Glauben, dass ein engerer Außtausch mit Populationen außerhalb des Zirkel-Gebirges viele ihrer Probleme lösen könnte.
+Aus diesem Grund plant sie den [Zirkel-Wettstreit](/content/Ereignis_/Zirkel-Wettstreit/index.md) um ihrem Ziel einer Globalisierung näherzukommen.
+Eine der teilnehmenden Gruppen lässt Hiante von ihrem Sohn Grisham aufstellen, sie selbst nimmt jedoch den gesamten Wettstreit über eine neutrale Position als Ausrichterin ein.
 
-<!-- TODO, polish -->
+Nach dem Wettstreit veranlasst Hiante die Konstruktion von 11 weiteren Residenzen am Nordpol, eine für jeden Zirkel.
+Natürlich wird Dronrak als der Krolpin-Familiensitz die Residenz des [Erzphoriat-Zirkels](/content/Volk_/Vapornane/Politik/Zirkel_/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
 
-## Wichtige Ereignisse
-- **Zyklus 10:** Initiierung des Zirkel-Wettstreits, der die Minenwirtschaft revolutioniert und die Macht der Krolpin-Familie festigt.
-
-## Aktuelle Situation
-Zum Zeitpunkt ihres Todes im Zyklus 22 hat Hiante ihre Familie zu einer der einflussreichsten auf Aridess gemacht.
+## Spätes Leben
+Zum Zeitpunkt ihres Todes im Zyklus 72 hat Hiante ihre Familie zu einer der einflussreichsten auf Aridess gemacht.
 Ihre Nachkommen verwalten weiterhin die Minen und Handelsposten, die Hiante aufgebaut hat, und führen das von ihr begonnene Erbe fort.
-
----
 
 # Fähigkeiten und Kräfte
 
 ## Physische Fähigkeiten
-Hiante ist körperlich sehr robust, stark und besitzt eine große Ausdauer, was ihr hilft, die Strapazen des Lebens in den Minen zu bewältigen.
-Sie ist zudem eine ausgezeichnete Kämpferin, geschult im Umgang mit einfachen Waffen und im Nahkampf.
+Hiante ist körperlich sehr robust, stark und besitzt eine große Ausdauer, was von ihrer Erziehung im Kriolen-Stamm herrührt.
+In ihrer Jugend hat sie gelernt [Sterosse](/content/Himmelskoerper_/Aridess/Fauna_/Sterros/index.md) zu reiten, eine Aktivität welcher sie noch bis ins hohe Alter gerne nachgeht.
+Hiante ist jedoch weder ein gute Kämpferin noch eine Jägerin. 
+Während ihrer Jugend im Kriolen-Stamm sträubt sie sich gegen alle Lehreinheiten die mit dem Erlegen eines Tiers oder dem Führen einer Waffe zu tun haben.
+All das vermisst sie auch nicht im entferntesten, als sie ihren Stamm schließlich verlässt.
 
 ## Magische Fähigkeiten
-Als Vapornane besitzt Hiante keine direkten magischen Fähigkeiten, ist jedoch für ihre taktische und strategische Weitsicht bekannt, die ihr beinahe übernatürliches Geschick in der Planung und Durchführung von Handelsabkommen verleiht.
+Als Vapornane besitzt Hiante keine magischen Fähigkeiten.
 
 ## Talente
-- **Handelsstrategien:** Hiante ist eine Meisterin der Handelsnetzwerkplanung, was ihr erlaubt, komplexe Handelsrouten zu etablieren.
-- **Diplomatie:** Sie hat ein Talent dafür, starke Allianzen zu schmieden und Konflikte durch geschickte Verhandlungen zu lösen.
-- **Erzgewinnung:** Hiante ist eine Expertin in der Erzgewinnung und -verarbeitung und kann den Abbau effizienter gestalten.
-
----
+Hiante ist im allgemeinen bekannt für ihre Empathie und Diplomatie.
+Ihr Geschick im Umgang mit Handelspartnern und ihre innovative Natur sind entscheidend für ihr ambitioniertes Vorhaben der Globalisierung von Aridess.
+Auch ihre Fähigkeiten und ihr Wissen im Bereich der Metallurgie sind heruasragend. 
+Diese hat Hiante sich jedoch mit viel Mühe aneignen müssen, um auf die Führung der nördlichen Minen auf Aridess Einfluss nehmen zu können.
 
 # Ausrüstung
 
@@ -115,8 +121,6 @@ Ihre bevorzugte Kleidung besteht aus dickem Minenleder, das mit Tjosand-Legierun
 ## Sonstiges
 Hiante trägt stets einen kunstvollen Gürtel, an dem verschiedene Werkzeuge und kleine Erze hängen, die sie als Glücksbringer betrachtet.
 Zudem besitzt sie eine Kartensammlung der Minen, die sie selbst angefertigt hat, um die Handelsrouten zu optimieren.
-
----
 
 # Beziehungen
 
@@ -140,15 +144,11 @@ Diese Rivalen bleiben jedoch meist im Schatten, da Hiante sie durch ihre geschic
 Hiante führt mehrere parallele Beziehungen mit Minenleitern, die auf gegenseitiger Zuneigung und strategischer Notwendigkeit basieren.
 Diese Beziehungen sind integraler Bestandteil ihres Plans, die Krolpin-Familie zu gründen und die Kontrolle über die nördlichen Minen zu erlangen.
 
----
-
 # Zitate
 
 > "Die Tiefe der Erde birgt mehr als nur Erz – sie birgt unsere Zukunft."  
 > "Jede Ader, die wir entdecken, ist ein Schritt näher zu unserer wahren Macht."  
 > "Familie ist das Netz, das uns trägt – und ich bin der Knoten, der es zusammenhält."  
-
----
 
 # Trivia
 
@@ -156,8 +156,6 @@ Diese Beziehungen sind integraler Bestandteil ihres Plans, die Krolpin-Familie z
 - Sie führt ein Tagebuch, in dem sie ihre Gedanken und Strategien festhält.
 Dieses wird nach ihrem Tod zu einem wertvollen Familienerbstück.
 - Der Zirkel-Wettstreit, den sie initiiert, wird bis heute in ihrer Ehre abgehalten.
-
----
 
 # Anmerkungen
 
