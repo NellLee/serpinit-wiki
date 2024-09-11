@@ -92,10 +92,19 @@ export class MarkdownPage {
 
     static constructIndexPage(folderPath: string): MarkdownPage {
         const filePath = folderPath + path.sep + "index.md"
-        let constructedMarkdown = "# " + new FileLink(filePath).text + "\n"
+        let constructedMarkdown = MarkdownPage.createIndexContent(folderPath);
+        constructedMarkdown = "# " + new FileLink(filePath).text + "\n" + constructedMarkdown
+        if (folderPath.endsWith("images")) {
+            return new MarkdownPage(folderPath, constructedMarkdown)
+        }
+        return new MarkdownPage(filePath, constructedMarkdown)
+    }
+
+    static createIndexContent(folderPath: string): string {
+        let constructedMarkdown = ""
 
         const markdownFiles = []
-        markdownFiles.push(...getFilePathsInFolder(folderPath, [".md"], 0))
+        markdownFiles.push(...getFilePathsInFolder(folderPath, [".md"], 0).filter(file => !file.endsWith("index.md")))
         markdownFiles.push(...getFolderPathsInFolder(folderPath, 0).map(folder => folder + path.sep + "index.md"))
 
         for (let file of markdownFiles) {
@@ -122,10 +131,7 @@ export class MarkdownPage {
 
             constructedMarkdown += "\n::::"
         }
-        if (folderPath.endsWith("images")) {
-            return new MarkdownPage(folderPath, constructedMarkdown)
-        }
-        return new MarkdownPage(filePath, constructedMarkdown)
+        return constructedMarkdown;
     }
 
     constructor(filePath: string, customMarkdown: string | null = null) {
@@ -167,7 +173,12 @@ export class MarkdownPage {
     }
 
     processComments() {
+        const that = this
         this.markdown = this.markdown.replace(/<!--\s*([A-Z]+)\b(.*?)-->/gs, function(match, p1: string, p2: string) {
+            
+            if(p1.trim() == "INDEX") {
+                return MarkdownPage.createIndexContent(that.#fileLink.path)
+            }
             return `::::div{.comment}\n:::div{.comment-indicator .${p1.trim().toLowerCase()}}\n${p1.trim()}\n:::\n:::div{.comment-content}\n${p2.trim()}\n:::\n::::`;
         });
     }
@@ -232,7 +243,6 @@ export class MarkdownPage {
 
         return images
     }
-
 
     wrapImgTagsForFancyBox(current: ChangeableDOM): ChangeMap {
         const fileName = this.#fileLink.fileName
