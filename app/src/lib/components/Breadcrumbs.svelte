@@ -23,7 +23,6 @@
 					{/if}
 				</li>
 			{/each}
-			<li>...</li>
 		</ul>
 	</div>
 {/if}

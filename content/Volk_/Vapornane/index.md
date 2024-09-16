@@ -29,7 +29,7 @@ Da die meisten Erzvorkommen in den nördlichsten Gebirgen des Planeten verortet 
 Ein wichtiger Meilenstein in der Geschichte der Vapornane ist die Austragung des [Zirkel-Wettstreits](/content/Ereignis_/Zirkel-Wettstreit/index.md) und der darauffolgende technologische Aufschwung.
 Mit den innovativen Erfindungen und der neu gewonnenen gemeinschaftlichen Koordination schaffen es die Vapornane unter der Führung der [Krolpin-Familie](./Familie_/Krolpin_Zirkelgruender/index.md), ausgehend vom [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/index.md), eine Globalisierung des Planeten Aridess zu starten.
 Diese ermöglicht erstmalig eine effektive Vernetzung der Nordhalbkugel, von den Zirkelgebirgen am Nordpol bis zu den grünen Schluchten des Äquators.
-Eine Ausdehung auf die Südhalbkugel erfolgt verzögert, bedingt durch die weiten Handelswege und die natürlichen Schwierigkeiten der Überquerung der grünen Schluchten
+Eine Ausdehung auf die Südhalbkugel erfolgt verzögert, bedingt durch die weiten Handelswege und die natürlichen Schwierigkeiten der Überquerung der grünen Schluchten.
 
 ## Ikusation
 Die Vapornane profitieren insgesamt außerordentlich von den Folgen der Ikusation.
