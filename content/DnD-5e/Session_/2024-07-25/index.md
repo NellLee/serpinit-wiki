@@ -22,31 +22,8 @@
         * Auf längere Sicht sind sie auf dem Weg in die Wüstenstadt Obskuri
     * Die andere Gruppierung befindet sich am Portal
         * Sie besteht aus 4 Vapornane des Silberspiegel-Zirkels
-        * Sie behandeln gerade große Silberplatten an der Roatine, wodurch ihre Oberfläche besonders glatt und glänzend wird
+        * Sie behandeln gerade große Silberplatten am Portal, wodurch ihre Oberfläche besonders glatt und glänzend wird
         * Die Spieler müssen jemanden voranschicken um diese Gruppierung zu erwischen, bevor sie sich vom Protal abwenden und abreist.
         * Mit den frisch behandelten Spiegeln wollen diese Vapornane zurück in Richtung Zirkelgebirge
 * Die Spieler können (ohne sich aufzuteilen) nur mit einer der beiden Gruppierungen interagieren
 * Ihr Verhalten ist kritisch und kann entweder zu einem Kampf oder zu einem möglichen Handelsabkommen führen.
-
-
-# Das zweite Portal
-* Dieses Portal führt nach [Venoxi](/content/Himmelskoerper_/Venoxi/index.md). 
-* Auf Venoxi ist das nächste Portal direkt sichtbar und führt nach Navura.
-* Venoxi ist für die Spieler zu giftig und daher nicht lang betretbar
-
-
-<!-- Weiteres Material -->
-
-# Weitere Portal-Ziele
-
-## Linunar
-* Tote Urzeit-Welt
-* Viele riesiege Insekten, Farn-Bäume und Reptilien
-* Strahlenbelastet
-
-## Luqua
-* Nur Riff-Dörfer sind zugänglich
-* Die Portale sind möglicherweise sehr weit unter Wasser (Gefahr durch Druck)
-
-# Verlauf der Ikusation
-Bei der Etablierung der Versorgungskette stoßen die Spieler früher oder später auf den Planeten Navura und seine Bewohner. Von hier erschließen sie dann als nächstes ein Portal zum Planeten Mognar, was insgesamt zum Start des Krieges der Drachenkinder gegen Navura führt. 
