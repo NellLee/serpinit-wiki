@@ -174,9 +174,9 @@ export class MarkdownPage {
 
     processComments() {
         const that = this
-        this.markdown = this.markdown.replace(/<!--\s*([A-Z]+)\b(.*?)-->/gs, function(match, p1: string, p2: string) {
-            
-            if(p1.trim() == "INDEX") {
+        this.markdown = this.markdown.replace(/<!--\s*([A-Z]+)\b(.*?)-->/gs, function (match, p1: string, p2: string) {
+
+            if (p1.trim() == "INDEX") {
                 return MarkdownPage.createIndexContent(that.#fileLink.path)
             }
             return `::::div{.comment}\n:::div{.comment-indicator .${p1.trim().toLowerCase()}}\n${p1.trim()}\n:::\n:::div{.comment-content}\n${p2.trim()}\n:::\n::::`;
@@ -206,7 +206,18 @@ export class MarkdownPage {
 
     generateInitialDOM(): ChangeableDOM {
         let overview: DOMPart | null = null;
+        const renderer = new marked.Renderer();
+
+        renderer.listitem = function (text) {
+            if (text.includes('<p>')) {
+                text = text.replace(/<\/?p>/g, '');
+            }
+            return `<li>${text}</li>\n`;
+        };
         const content = new DOMPart(new Marked()
+            .setOptions({
+            renderer: renderer
+            })
             .use(createDirectives([
                 ...presetDirectiveConfigs,
                 {
@@ -347,7 +358,7 @@ export class MarkdownPage {
         const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
         const filePaths = getFilePathsInFolder(parentFolderPath, [".md"], 0)
         const indexPath = path.sep + "index.md"
-        if(!filePaths.find(p => p == indexPath)) {
+        if (!filePaths.find(p => p == indexPath)) {
             filePaths.push(indexPath)
         }
         const tabLinks: FileLink[] = filePaths

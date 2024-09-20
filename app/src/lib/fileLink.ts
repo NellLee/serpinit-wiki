@@ -41,9 +41,9 @@ export class FileLink {
             this.text = firstHeader
         } else if(this.fileName == "index") {
             this.text = this.path.substring(this.path.lastIndexOf(path.sep)+1) 
-            if (this.text.endsWith("_")) {
-                this.text = this.text.slice(0, -1) + " Index"
-            }
+        }
+        if (this.text.endsWith("_")) {
+            this.text = this.text.slice(0, -1) + " Index"
         }
 
         
