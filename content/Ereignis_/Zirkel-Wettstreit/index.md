@@ -17,12 +17,11 @@ Der Zirkel-Wettstreit führt letztendlich dazu, dass sich die Lebensqualität na
 
 # Regeln & Ablauf
 Zu Beginn richten die Krolpins eine Eröffnungszeremonie aus, bei welcher [Hiante Krolpin](/content/Volk_/Vapornane/Politik/Familie_/Krolpin_Zirkelgruender/Charakter_/Hiante-Krolpin/index.md) neben einer feierlichen Begrüßung auch das Ziel des Wettstreits sowie dessen Rahmenbedingungen verkündet.
-Erst nach der Einführungsphase offenbart Hiante einige wichtige Regeländerungen. 
 Zuallererst legen die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen, mit dem übergeordneten Ziel der Globalisierung.
 
 Dem eigentlichen Wettstreit geht dann eine Qualifikationsphase voraus.
-Die Teilnehmer halten diese jedoch bereits für eine waschechte erste Runde. 
-In dieser ersten Phase müssen alle Mitglieder einen Vortrag über ein Unterthema ihrer Wahl halten, wobei dieses bestenfalls in irgendeiner Form innovativ sein sollte.
+Die Teilnehmer halten diese jedoch bereits für eine echte erste Runde. 
+In dieser Phase müssen alle Mitglieder einen Vortrag über ein Unterthema ihrer Wahl halten, wobei dieses bestenfalls in irgendeiner Form innovativ sein sollte.
 Alle Teilnehmer müssen die Vorträge der anderen jeweils mithilfe von 10 Fragen ehrlich bewerten.
 Den Teilnehmern wird zuerst gesagt, dass nur die besten 20 Vorträge eine Chance auf den Gewinn haben.
 Doch nach dem letzten Vortrag und dessen Bewertung enthüllt Hiante:

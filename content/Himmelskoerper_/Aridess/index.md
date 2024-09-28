@@ -16,7 +16,7 @@ Die meisten von ihnen leben entweder in den fruchtbaren Oasen oder in weitlaufen
 # Geschichte
 
 ## Geologische Entwicklung
-Zu Beginn des Serpinit-Systems ist Aridess zwar bereits ein insgesamt trockener Planet, jedoch noch mit einigen wenigen Ozeanen in Äquator- und Polnähe.
+Zu Beginn des Serpinit-Systems ist Aridess zwar bereits ein insgesamt trockener Planet, jedoch noch mit einigen wenigen Ozeanen.
 In den darauffolgenden Jahrmillionen verändern spezifische plattentektonische Vorgänge die geologische Ausprägung dieses Planetens grundlegend.
 Die Kontinentalplatten auf beiden Halbkugeln des Planeten beginnen polwärts zu wandern, was zu tektonischen Kollisionen führt durch welche sich am Nord- und Südpol  schließlich riesige Gebirgsregionen bilden.
 Zudem führt die Divergenz der Platten in Äquatornähe zur Bildung von tiefen Schluchten und Canyons.
