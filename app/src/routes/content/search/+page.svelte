@@ -7,15 +7,30 @@
 	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
 
 	let searchInput: string = '';
+	let includeTags: boolean = false;
+	let includeContent: boolean = false;
 
 	function newSearch() {
-		goto(`?q=${encodeURIComponent(searchInput)}`);
+		const params = new URLSearchParams();
+		if (searchInput) {
+			params.set('q', encodeURIComponent(searchInput));
+		}
+		if (includeTags) {
+			params.set('includeTags', 'true');
+		}
+		if (includeContent) {
+			params.set('includeContent', 'true');
+		}
+		goto(`?${params.toString()}`);
 	}
 
-	const title = "Suchergebnisse";
+	const title = 'Suchergebnisse';
 
 	onMount(() => {
-		searchInput = data.query;
+		const params = new URLSearchParams(window.location.search);
+		searchInput = params.get('q') || '';
+		includeTags = params.get('includeTags') === 'true';
+		includeContent = params.get('includeContent') === 'true';
 	});
 
 	export let data;
@@ -42,6 +57,17 @@
 					<Icon src={MagnifyingGlass} solid size="16" />
 				</button>
 			</form>
+			<div id="search-options">
+				<p>Search in:</p>
+				<label>
+					<input type="checkbox" bind:checked={includeTags} on:change={newSearch} />
+					Tags
+				</label>
+				<label>
+					<input type="checkbox" bind:checked={includeContent} on:change={newSearch} />
+					Content
+				</label>
+			</div>
 			<div id="results">
 				{#if data.searchResults.length === 0}
 					<p>No results found</p>
@@ -64,14 +90,6 @@
 </div>
 
 <style lang="scss">
-	#head {
-		width: 100%;
-
-		h1 {
-			text-align: center;
-		}
-	}
-
 	#content {
 		width: 85%;
 		margin: auto;
@@ -80,7 +98,6 @@
 			display: flex;
 			flex-flow: row nowrap;
 			gap: 20px;
-			padding-bottom: 40px;
 
 			input {
 				width: 100%;
@@ -111,6 +128,31 @@
 				}
 			}
 		}
+
+		#search-options {
+			width: 100%;
+			margin: 40px 0;
+			padding: 5px 15px;
+			border-left: 3px solid var(--secondary-border-color);
+
+			p {
+				margin: 0 0 10px;
+				font-weight: bold;
+				font-size: 16px;
+			}
+
+			label {
+				display: flex;
+				align-items: center;
+				margin-bottom: 10px;
+
+				input {
+					margin-right: 10px;
+					transform: scale(1.2);
+				}
+			}
+		}
+
 		#results {
 			display: flex;
 			flex-flow: column nowrap;

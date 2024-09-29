@@ -62,20 +62,24 @@ export class FileLink {
         }
     }
 
-    // TODO
     getTags() {
         const tags: string[] = []
-        const segments = this.href.split("/")
-        let segment = decodeURIComponent(segments.at(-1)!)
-        if(segment.includes(".")) {
+        const segments = this.href.split("/").reverse()
+        let currIndex = 0
+        let segment = decodeURIComponent(segments[currIndex])
+        if (segment.startsWith("index")) {
+            currIndex++
+            segment = decodeURIComponent(segments[currIndex])
+        } else if(segment.endsWith(".md")) {
             segment = segment.substring(0, segment.lastIndexOf("."))
         }
-        if (segment.startsWith("index")) {
-            segment = segments.at(-2)!
-        }
-        if (segment && segment != "content") {
-            tags.push(... segment.split("_"))
-        }
+        do {
+            if (segment && segment != "content") {
+                tags.push(... segment.split("_").filter(s => s != ""))
+            }
+            currIndex++
+            segment = decodeURIComponent(segments[currIndex])
+        } while (segment.endsWith("_"))
         return tags
     }
 }

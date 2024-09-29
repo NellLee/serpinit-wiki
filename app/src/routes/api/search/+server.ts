@@ -8,7 +8,9 @@ export function GET({url}) {
     if (!query) {
         throw error(400, "URL parameter 'q' required")
     }
-    let searchResults = search(query)
+    let includeTags = !!url.searchParams.get('includeTags');
+    let includeContent = !!url.searchParams.get('includeContent');
+    let searchResults = search(query, includeTags, includeContent)
     
     return json(searchResults)
 }

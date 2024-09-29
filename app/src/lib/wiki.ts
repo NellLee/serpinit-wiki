@@ -7,6 +7,7 @@ import fs from 'fs'
 import * as cheerio from 'cheerio'
 import Fuse from 'fuse.js';
 import { initTimeline, timeline } from './timeline';
+import { on } from 'events';
 
 export const wiki: Map<string, MarkdownPage> = new Map()
 export const cache: Map<string, string> = new Map()
@@ -57,15 +58,19 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
     return page
 }
 
-export function search(query: string): SearchResult<MarkdownPage>[] {
-    const pages: MarkdownPage[] = Array.from(wiki.values());
-
+export function search(query: string, includeTags: boolean = false, includeContent: boolean = false): SearchResult<MarkdownPage>[] {
+    const pages: MarkdownPage[] = Array.from(wiki.values())
+    let keys = [
+        { name: 'title', weight: 5 },
+    ]
+    if (includeTags) {
+        keys.push({ name: 'tags.text', weight: 10 })
+    } 
+    if (includeContent) {
+        keys.push({ name: 'contentHtml', weight: 1 })
+    } 
     const fuse = new Fuse(pages, {
-        keys: [
-            { name: 'tags', weight: 10 },
-            { name: 'title', weight: 5 },
-            { name: 'contentHtml', weight: 1 }
-        ],
+        keys,
         threshold: 0.0,
         ignoreLocation: true,
         includeScore: true,

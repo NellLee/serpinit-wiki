@@ -13,7 +13,6 @@ export async function load({ fetch, params, url }) {
     let searchResults: SearchResult<MarkdownPage>[] = await fetchResult.json()
     searchResults.forEach(result => result.item = JSON.parse(result.item as unknown as string))
     return {
-        query: urlParams.get("q")!,
         searchResults,
     }
 }

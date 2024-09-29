@@ -1,4 +1,11 @@
 
+export function debounce(fn: CallableFunction, delay: number) {
+	let timeout: NodeJS.Timeout;
+	return (...args: any) => {
+		clearTimeout(timeout);
+		timeout = setTimeout(() => fn(...args), delay);
+	};
+}
 
 
 export function generateHeaderId(str: string | null) {
