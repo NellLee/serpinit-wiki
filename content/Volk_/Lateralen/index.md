@@ -1,20 +1,31 @@
-<!--TAGS[Volk,homo primian]-->
 # Die Lateralen
+
+Die Lateralen sind ein intelligentes Volk auf dem Planeten [Agranum](/content/Himmelskoerper_/Agranum/index.md).
+Der außergewöhnlichen Geschichte dieses Planeten entsprechend, macht das Volk der Lateralen im Vergleich zu den anderen Völkern des Serpinit-Systems eine einzigartige Entwicklung durch.
+Laterale sind bekannt für ihren Optimismus und ihre sozial und emotional ausgelegte Gesellschaft.
 
 # Entwicklung
 
-## Verstümmelung der *homo primian*
+Schon früh experimentieren die [Sgrisignier](/content/Volk_/Sgrisignier/index.md) zu ihrer persönlichen Belustigung auf magische Weise mit den *homo primian* auf Agranum. 
+Sie erschaffen dafür kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier verwandeln.
+Zuerst sind die Affenartigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fangen sie an den Effekt der Runensteine zu verstehen und sie schließlich für die Jagd zu nutzen.
+Als die Sgrisignier schließlich von Aerion im Zuge der Impuls-Eruption vernichtet werden, da richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in der Genetik der *homo primian* hinterlassen.
+Zwar werden die *homo primian* durch die Magie Aerions nicht vernichtet, doch der magische Impuls hat zur Folge, dass alle gegenwärtigen und künftig gezeugten Lateralen eine Spaltung ihres Geistes durchmachen müssen, weshalb sie seit diesem Ereignis auch als *homo primian fractus* bezeichnet werden. 
+Das ihnen fortan angeborene psychische Trauma führt im Allgemeinen noch vor der Geburt zur Bildung einer zweiten inneren Persönlichkeit.
+Hinzu kommt, dass der Bruch des Planeten Agranum nicht nur ein Massenaussterben nach sich zieht, welches die meisten Lebewesen auf Agranum umbringt, sondern für die übrigen Lebewesen einen komplett neuen Lebensraum schafft, an den diese sich anpassen müssen.
 
-Die Psyche des _homo primian_ auf Agranum wurde schon früh **genetisch verstümmelt** weshalb die betroffenen als *homo primian fractus* bezeichnet werden. Zu ihren Lebzeiten experimentierten die Sgrisignier auf magische Weise zu ihrer Belustigung mit den _homo primian_ auf
-Agranum. Sie erschufen kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier
-verwandelten. Zuerst waren die Affen-Artigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fingen sie an
-die Runensteine für die Jagd zu nutzen.
-Als die Sgrisignier schließlich von Aerion vernichtet wurden, so richtete sich seine Magie kollateral gegen die
-unschuldigen _homo primian_ von Agranum. Die Magie der Runensteine hatte direkte Spuren in der Genetik der *homo primian* hinterlassen. Zwar wurden die _homo primian_ durch die Magie Aerions nicht vernichtet, doch der gegen die Sgrisignier gerichtete, magische Impuls von Aerion hatte auch so zur Folge, dass alle gegenwärtigen und künftig gezeugten Lateralen ein psychisches Trauma erlitten und eine Spaltung ihres Geistes durchmachen mussten. Hinzu kam außerdem, dass die Fraktur des Planeten zum Einen ein Massenaussterben nach sich zog, welches die meisten Lebewesen auf Agranum umbrachte und zum Anderen für die Überlebenden einen komplett neuen Lebensraum schuf, an den sie sich anpassen mussten. Die Lateralen entstanden aus den überlebenden *homo primian fractus* nach dem Fall der [Sgrisignier](../Sgrisignier/index.md) über Jahrmillionen hinweg. 
 
-## Entstehung der Sodili-Lateralen
-
-Die [Arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution), welche sich nach dem Fall der Sgrisignier vollzog, hatte auf die geistig verstümmelten Lateralen einen besonderen Einfluss. Das psychische Traume, welches allen Affenartigen auf Agranum angeboren war, führte zur Bildung einer zweiten inneren Persönlichkeit welche sie seit der Geburt begleitet. Diese Persönlichkeit wurde von den Betroffenen häufig als ein bestimmtes Tier empfunden. Die Arcanogene Evolution führte schließlich dazu, dass diese Persönlichkeit sich nicht nur auf einer geistigen Ebene bildete, sondern sich im Jugendalter sogar vom Körper des Betroffenen abspaltete und so einen eigenen Körper manifestierte. Die Lateralen werden ab diesem Evolutionsschritt als **Sodili-Laterale** bezeichnet, während die Verkörperung der zweiten Persönlichkeit **Micu** genannt wird. Der Körper aller Micu ist dabei ausschließlich von entsprechender, tierischer Natur. Die Geister der beiden Lebewesen sind auch nach der Abspaltung weiterhin untrennbar miteinander verbunden, da sie nach wie vor zwei Persönlichkeiten eines Wesens darstellen. Außerdem ist jedem Sodili-Lateralen eine Hybridisierung mit seiner manifestierten, zweiten Persönlichkeit möglich. Diese Form der Hybridisierung der Lateralen führte zu einer ungeahnten ViLateralealt, womit die Lateralen schließlich ganz Agranum besiedelten.
+Die Lateralen entstehen schließlich nach dem Fall der Sgrisignier über Jahrmillionen hinweg aus den überlebenden *homo primian fractus* durch [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution). 
+Diese magisch beeinflusste Evolution hat dabei auf die geistig Verstümmelten einen besonderen Einfluss.
+Durch ihren magischen Ursprung werden die Effekte der psychische Zweiteilung während der arcanogenen Evolution noch verstärkt.
+Die abgespaltene Persönlichkeit wird leichter zu differenzieren und entwickelt eigene Gedanken, Wünsche und Emotionen.
+Dabei wird sie von den Betroffenen immer häufiger als ein ganz bestimmtes Tier empfunden.
+Die Evolution führt schließlich dazu, dass die zweite Persönlichkeit sich nicht nur auf einer geistigen Ebene bildet, sondern sich im Jugendalter sogar in einer magischen Entladung vom Körper des Betroffenen abspaltet und so einen eigenen Körper manifestiert. 
+Die Lateralen werden ab diesem Evolutionsschritt als **Sodili-Laterale** bezeichnet, während die Verkörperung der zweiten Persönlichkeit **Micu** genannt wird.
+Der Körper aller Micu ist dabei ausschließlich von entsprechender, tierischer Natur.
+Die Geister der beiden Lebewesen sind auch nach der Abspaltung weiterhin untrennbar miteinander verbunden, da sie nach wie vor zwei Persönlichkeiten desselben Wesens darstellen.
+Außerdem ist jedem Sodili eine Hybridisierung mit seiner manifestierten, zweiten Persönlichkeit möglich.
+Diese Form der Hybridisierung führt zu einer ungeahnten Vielfalt, wodurch die Sodili-Lateralen schließlich auch nach der Impuls-Eruption wieder ganz Agranum besiedelen.
 
 ## Abspaltung der Conius-Lateralen
 
