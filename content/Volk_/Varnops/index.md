@@ -40,7 +40,7 @@ Zum Anderen können die Varnops mit Tjosand ihre gesamte Technologie schließlic
 
 # Gesellschaft
 
-Beim Volk der Varnops kommt Frauen und insbesondere Müttern schon immer eine besondere Bedeutung zu, weshalb die vapornanische Gesellschaft als matriachalisch beschrieben werden kann.
+Beim Volk der Varnops kommt Frauen und insbesondere Müttern schon immer eine besondere Bedeutung zu, weshalb die varnopische Gesellschaft als matriachalisch beschrieben werden kann.
 Darüber hinaus ist die Polygamie bei den Varnops schon immer Gang und Gäbe.
 Weibliche Varnops können einen eigenen Familienamen wählen wenn sie eine neue Familie gründen.
 Diesen Namen geben sie bei der Zeugung von Kindern sowohl an ihren Partner als auch an ihre gemeinsamen Nachkommen weiter. 
