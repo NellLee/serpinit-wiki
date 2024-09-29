@@ -10,7 +10,7 @@
 | **Titel / Klasse:**  | Zirkelgründerin                                                                                         |
 | **Alter:**           | Erwachsene                                                                                              |
 | **Geschlecht:**      | Weiblich                                                                                                |
-| **Spezies / Rasse:** | [Vapornane](/content/Volk_/Vapornane/index.md)                                                          |
+| **Spezies / Rasse:** | [Varnops](/content/Volk_/Varnops/index.md)                                                          |
 | **Heimat:**          | [Nördliche Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md)      |
 | **Beruf:**           | Handelsstrategin, Metallurgin                                                                           |
 
@@ -29,7 +29,7 @@ Hiantes Kleidung sticht mit ihrem steigenden Alter immer stärker durch kunstvol
 ### Charakterzüge
 Hiante ist bekannt für ihre strategische Weitsicht und ihren unerschütterlichen Willen.
 Sie ist zielorientiert und pragmatisch, aber gleichzeitig mitfühlend gegenüber ihren Angehörigen.
-Ihre größte Stärke ist ihre Fähigkeit, komplexe Beziehungen und Netzwerke zu pflegen, was ihr, in Kombination mit den polyamorösen und traditionell leicht matriarchalischen Strukturen der Vapornan-Gesellschaft, mit der Zeit zu viel Macht verhilft.
+Ihre größte Stärke ist ihre Fähigkeit, komplexe Beziehungen und Netzwerke zu pflegen, was ihr, in Kombination mit den polyamorösen und traditionell leicht matriarchalischen Strukturen der Varnop-Gesellschaft, mit der Zeit zu viel Macht verhilft.
 
 ### Vorlieben
 Hiante liebt die Arbeit mit Metall und die segende Hitze einer Erzschmiede seitdem sie das erste Mal eine Mine betreten hat.
@@ -86,7 +86,7 @@ Aus diesem Grund plant sie den [Zirkel-Wettstreit](/content/Ereignis_/Zirkel-Wet
 Eine der teilnehmenden Gruppen lässt Hiante von ihrem Sohn Grisham aufstellen, sie selbst nimmt jedoch den gesamten Wettstreit über eine neutrale Position als Ausrichterin ein.
 
 Nach dem Wettstreit veranlasst Hiante die Konstruktion von 11 weiteren Residenzen am Nordpol, eine für jeden Zirkel.
-Natürlich wird Dronrak als der Krolpin-Familiensitz die Residenz des [Erzphoriat-Zirkels](/content/Volk_/Vapornane/Politik/Zirkel_/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
+Natürlich wird Dronrak als der Krolpin-Familiensitz die Residenz des [Erzphoriat-Zirkels](/content/Volk_/Varnops/Politik/Zirkel_/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
 
 ## Spätes Leben
 Zum Zeitpunkt ihres Todes im Zyklus 72 hat Hiante ihre Familie zu einer der einflussreichsten auf Aridess gemacht.
@@ -102,7 +102,7 @@ Während ihrer Jugend im Kriolen-Stamm sträubt sie sich gegen alle Lehreinheite
 All das vermisst sie auch nicht im entferntesten, als sie ihren Stamm schließlich verlässt.
 
 ## Magische Fähigkeiten
-Als Vapornane besitzt Hiante keine magischen Fähigkeiten.
+Als Varnops besitzt Hiante keine magischen Fähigkeiten.
 
 ## Talente
 Hiante ist im allgemeinen bekannt für ihre Empathie und Diplomatie.

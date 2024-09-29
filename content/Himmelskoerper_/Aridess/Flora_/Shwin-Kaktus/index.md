@@ -16,4 +16,4 @@ Die meisten Shwin-Kakteen sind in den trockenen und felsigen Regionen von [Aride
 Diese Pfalnze bevorzugt windgeschützte Lebensräume inmitten von Felsspalten und anderen Nischen, wo optimale Bedingungen für die Produktion der Fäden herrschen. Diese einzigartige Schutzstrategie hat sich über Jahrmillionen der Evolution entwickelt, um zu verhindern, dass er von Tieren wie dem Lurper, die ihn aufgrund seines hohen Wassergehalts verzehren könnten, gefressen wird.
 
 ## Nutzung und Gefahren
-Aufgrund seiner hochgiftigen Natur und der gefährlichen Verteidigungsmechanismen wird der Shwin-Kaktus von den Bewohnern der Region mit äußerster Vorsicht behandelt. Niedrig dosiert soll das Gift gegen Arthritis helfen, doch lohnt sich der Aufwand für die meisten Vapornane nicht
+Aufgrund seiner hochgiftigen Natur und der gefährlichen Verteidigungsmechanismen wird der Shwin-Kaktus von den Bewohnern der Region mit äußerster Vorsicht behandelt. Niedrig dosiert soll das Gift gegen Arthritis helfen, doch lohnt sich der Aufwand für die meisten Varnops nicht

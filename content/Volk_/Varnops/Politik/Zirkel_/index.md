@@ -1,8 +1,8 @@
-# Zirkel der Vapornanes
+# Zirkel der Varnops
 
 # Allgemein
 
-Die **Zirkel** der Vapornanes sind spezialisierte, organisatorische Einheiten, die durch den historischen [Zirkel-Wettstreit](../Zirkel-Wettstreit/index.md) ins Leben gerufen wurden. Jeder Zirkel ist verantwortlich für die Weiterentwicklung, Implementierung und den Erhalt einer bestimmten Erfindung, die im Zuge des Wettstreits als von fundamentaler Bedeutung für die Globalisierung von [Aridess](../../Himmelskoerper_/Aridess/index.md) erachtet wurde.
+Die **Zirkel** der Varnops sind spezialisierte, organisatorische Einheiten, die durch den historischen [Zirkel-Wettstreit](../Zirkel-Wettstreit/index.md) ins Leben gerufen wurden. Jeder Zirkel ist verantwortlich für die Weiterentwicklung, Implementierung und den Erhalt einer bestimmten Erfindung, die im Zuge des Wettstreits als von fundamentaler Bedeutung für die Globalisierung von [Aridess](../../Himmelskoerper_/Aridess/index.md) erachtet wurde.
 
 ## Die 12 Zirkel
 

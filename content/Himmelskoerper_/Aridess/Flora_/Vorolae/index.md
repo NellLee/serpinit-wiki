@@ -18,7 +18,7 @@ Die Vorolae ist eine Fleischfresserin. Sobald ein ahnungsloses Beutetier von der
 Die Vorolae bevorzugt trockene, schattige Umgebungen. Je trockener, desto effektiver ist ihre Jagdmethode, doch vermeidet sie es ihre Frucht in der prallen Sonne auszufahren, damit diese nicht austrocknet. Man findet Vorolaen häufig in den vielen trockenen Felsspalten und Savannen von [](/content/Himmelskoerper_/Aridess/index.md).
 
 ## Nutzung
-In den Kulturen der Vapornane wird die Vorolae wegen ihrer Wasserfrucht geschätzt. Schneidet man den Stamm der Vorolae schnell genug durch, zieht sie sich schnell zurück und man kann die Wasserfrucht mit etwas Geschicklichkeit auffangen.
+In den Kulturen der Varnops wird die Vorolae wegen ihrer Wasserfrucht geschätzt. Schneidet man den Stamm der Vorolae schnell genug durch, zieht sie sich schnell zurück und man kann die Wasserfrucht mit etwas Geschicklichkeit auffangen.
 
 ## Mythologie und Legenden
-In der Folklore vieler Völker der Fantasy-Welt gilt die Vorolae als ein Symbol für die Wildheit und Unberechenbarkeit der Natur. Es gibt zahlreiche Geschichten über unvorsichtige Wanderer und Abenteurer, die in die Falle der Vorolae geraten sind. Einige Vapornane sind der Meinung, dass die Pflanze besonders reine Seelen nicht frisst und freiwillig von ihrer Frucht nährt.
+In der Folklore vieler Völker der Fantasy-Welt gilt die Vorolae als ein Symbol für die Wildheit und Unberechenbarkeit der Natur. Es gibt zahlreiche Geschichten über unvorsichtige Wanderer und Abenteurer, die in die Falle der Vorolae geraten sind. Einige Varnops sind der Meinung, dass die Pflanze besonders reine Seelen nicht frisst und freiwillig von ihrer Frucht nährt.

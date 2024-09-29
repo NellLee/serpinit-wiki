@@ -11,4 +11,4 @@
 - [Die Fluctro](./Fluctro/index.md)
 - [Die Sylvanars](./Sylvanar/index.md)
 - [Die Spirits](./Spirits/index.md)
-- [Die Vapornane](Vapornane/index.md)
+- [Die Varnops](Varnops/index.md)

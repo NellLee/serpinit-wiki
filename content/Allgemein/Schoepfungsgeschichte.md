@@ -44,7 +44,7 @@ Planeten. (siehe [Agranum](../Himmelskoerper_/Agranum/index.md))
 ### Evolution
 
 Die modernen intelligenten Völker entstanden nicht wie die Sgrisignier direkt aus der Kreativität eines Gottes, sondern
-durch natürliche Evolution. Dabei haben die Vapornane, Lateralen, Sylvanars & Feen einen gemeinsamen Vorfahren, welcher dem _
+durch natürliche Evolution. Dabei haben die Varnops, Lateralen, Sylvanars & Feen einen gemeinsamen Vorfahren, welcher dem _
 homo erectus_ der Erde sehr ähnlich ist: der _homo primian_. Diese Affenart existierte bereits vor der Zeit der
 Sgrisignier und stellte wie die äußeren Ähnlichkeiten vermuten lassen eine Basis bei Creapatos' Entwurf der Sgrisignier
 dar.
