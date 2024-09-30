@@ -1,7 +1,7 @@
 
 # Carpebur, die vielschichtige Sodili-Hauptstadt
 
-Carpebur ist die Hauptstadt der [Sodili-Lateralen]. Sie liegt am Rande des Kontinents [Gurontis] auf dem Planeten [Agranum]. Die Stadt ist für ihre unglaubliche Vielfalt bekannt. Hier leben seit jeher die unterschiedlichsten Sodili Seite an Seite. Darüber hinaus ist Carpebur der stetige Wohnsitz des Königshauses der Sodili,die [Dynastie Akilonis](/content/Volk_/Lateralen/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md).
+Carpebur ist die Hauptstadt der [Sodili-Lateralen]. Sie liegt am Rande des Kontinents [Gurontis] auf dem Planeten [Agranum]. Die Stadt ist für ihre unglaubliche Vielfalt bekannt. Hier leben seit jeher die unterschiedlichsten Sodili Seite an Seite. Darüber hinaus ist Carpebur der stetige Wohnsitz des Königshauses der Sodili,die [Dynastie Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md).
 
 # Entstehung
 

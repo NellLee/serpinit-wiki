@@ -1,7 +1,7 @@
 # Thalmar Balena Akilonis, König der Sodili, Herrscher von Carpebur
 
 # Herkunft
-Thalmar Balena Akilonis entstammt der angesehenen [Dynastie Akilonis](/content/Volk_/Lateralen/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md), die seit Generationen über die Sodili herrscht. Geboren als Erbe der Krone, wurde er in Carpebur, der Hauptstadt des Sodili-Reiches, geboren und wuchs im prächtigen Kapis-Schloss auf. Seine Familie ist bekannt für ihre enge Bindung zu wasserbasierten Micus, die eine zentrale Rolle in ihrem Leben und ihrer Kultur spielen.
+Thalmar Balena Akilonis entstammt der angesehenen [Dynastie Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md), die seit Generationen über die Sodili herrscht. Geboren als Erbe der Krone, wurde er in Carpebur, der Hauptstadt des Sodili-Reiches, geboren und wuchs im prächtigen Kapis-Schloss auf. Seine Familie ist bekannt für ihre enge Bindung zu wasserbasierten Micus, die eine zentrale Rolle in ihrem Leben und ihrer Kultur spielen.
 
 # Herrschaft
 Thalmar Balena Akilonis bestieg vor mehreren Jahrzehnten den Thron als König der Sodili und regiert seitdem mit Besonnenheit und Güte. Unter seiner Herrschaft erlebte das Sodili-Reich im Großen und Ganzen eine Phase des Friedens und des Wohlstands, da Thalmar stets das Wohl seiner Untertanen im Blick behält. Seine Regierung zeichnet sich durch eine ausgewogene Politik aus, die auf der Tradition der Sodili basiert, gleichzeitig aber auch auf Fortschritt und Entwicklung der Conius-Lateralen setzt. 

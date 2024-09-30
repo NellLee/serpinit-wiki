@@ -13,14 +13,14 @@ Das genaue weitere Vorgehen ist dann den Spielern überlassen.
 ## Charaktere
 
 ### Sodili
-* [Eolyn Sera (Waldläufer)](/content/Volk_/Lateralen/Sodili/Charakter_/Eolyn-Aksae-Sera_Fezir/DnD-5e_Character-Blatt.md) & [Fezir (Zwergadler)](/content/Volk_/Lateralen/Sodili/Charakter_/Eolyn-Aksae-Sera_Fezir/DnD-5e-Micu-Sheet)
-* [Caelum Storringer (Paladin)](/content/Volk_/Lateralen/Sodili/Charakter_/Caelum-Froso-Storringer_Tempest/DnD-5e_Character-Blatt.md) & [Tempest (Krokodil)](/content/Volk_/Lateralen/Sodili/Charakter_/Caelum-Froso-Storringer_Tempest/DnD-5e-Micu-Sheet)
+* [Eolyn Sera (Waldläufer)](/content/Volk_/Lateralen_/Sodili/Charakter_/Eolyn-Aksae-Sera_Fezir/DnD-5e_Character-Blatt.md) & [Fezir (Zwergadler)](/content/Volk_/Lateralen_/Sodili/Charakter_/Eolyn-Aksae-Sera_Fezir/DnD-5e-Micu-Sheet)
+* [Caelum Storringer (Paladin)](/content/Volk_/Lateralen_/Sodili/Charakter_/Caelum-Froso-Storringer_Tempest/DnD-5e_Character-Blatt.md) & [Tempest (Krokodil)](/content/Volk_/Lateralen_/Sodili/Charakter_/Caelum-Froso-Storringer_Tempest/DnD-5e-Micu-Sheet)
 
 ### Conius
-* [Draven Norint (Alchemist)](/content/Volk_/Lateralen/Conius/Charakter_/Draven-Norrint/DnD-5e_Character-Blatt.md)
-* [Lysandra Swirm (Wasser-Magierin)](/content/Volk_/Lateralen/Conius/Charakter_/Lysandra-Swirm/DnD-5e_Character-Blatt.md)
-* [Ingvor Mandijit (Elementar-Beschwörer)](/content/Volk_/Lateralen/Conius/Charakter_/Ingvor-Nemet-Mandijit/DnD-5e_Character-Blatt.md)
-* [Kwint Gurdun (Professor)](/content/Volk_/Lateralen/Conius/Charakter_/Kwint-Gurdun/DnD-5e_Character-Blatt.md)
+* [Draven Norint (Alchemist)](/content/Volk_/Lateralen_/Conius/Charakter_/Draven-Norrint/DnD-5e_Character-Blatt.md)
+* [Lysandra Swirm (Wasser-Magierin)](/content/Volk_/Lateralen_/Conius/Charakter_/Lysandra-Swirm/DnD-5e_Character-Blatt.md)
+* [Ingvor Mandijit (Elementar-Beschwörer)](/content/Volk_/Lateralen_/Conius/Charakter_/Ingvor-Nemet-Mandijit/DnD-5e_Character-Blatt.md)
+* [Kwint Gurdun (Professor)](/content/Volk_/Lateralen_/Conius/Charakter_/Kwint-Gurdun/DnD-5e_Character-Blatt.md)
 
 # Unvorhergesehener Besuch
 

@@ -16,10 +16,10 @@ Als Hauptaufgabe müssen die Spieler nach wie vor das erste Portal erschließen.
 
 ## Der Inhalt von Kles Bibel
 
-Die [Bibel](/content/Volk_/Lateralen/Sodili/Theologie/die-Bibel-der-Unzaehlbaren.md) die Kle von der Bibliothek abgeholt hat, behandelt lediglich die Religion der Sodili. Als solche ist sie zwar inspiriert von der wahren [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) aber in einer stark verzerrten Form.
+Die [Bibel](/content/Volk_/Lateralen_/Sodili/Theologie/die-Bibel-der-Unzaehlbaren.md) die Kle von der Bibliothek abgeholt hat, behandelt lediglich die Religion der Sodili. Als solche ist sie zwar inspiriert von der wahren [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) aber in einer stark verzerrten Form.
 
 ## Alarics Begegnung mit dem braunen Ring
-* Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Volk_/Lateralen/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tuer_Symbol_Raetsel.png)
+* Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Volk_/Lateralen_/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tuer_Symbol_Raetsel.png)
 * Auf den Tunnelwänden vor der Tür sind viele Kritzeleien, ein geübtes Auge erkennt sie als Diebesschrift.
 * Über der Tür steht: "Spüret die schmerzenden Dornen des bedeutsamen Ringes" / "Drücke auf die relevanten Spitzen des Ring-Symbols"
 * Auf den Tunnelwänden sind insgesamt 3 Hinweise:
@@ -43,19 +43,19 @@ Die [Bibel](/content/Volk_/Lateralen/Sodili/Theologie/die-Bibel-der-Unzaehlbaren
 ## Charaktere
 
 ### Sodili
-* [Eolyn Sera (Waldläufer) & Fezir (Zwergadler)](/content/Volk_/Lateralen/Sodili/Charakter_/Eolyn-Aksae-Sera_Fezir/index.md)
-* [Caelum Storringer (Paladin) & Tempest (Krokodil)](/content/Volk_/Lateralen/Sodili/Charakter_/Caelum-Froso-Storringer_Tempest/index.md)
+* [Eolyn Sera (Waldläufer) & Fezir (Zwergadler)](/content/Volk_/Lateralen_/Sodili/Charakter_/Eolyn-Aksae-Sera_Fezir/index.md)
+* [Caelum Storringer (Paladin) & Tempest (Krokodil)](/content/Volk_/Lateralen_/Sodili/Charakter_/Caelum-Froso-Storringer_Tempest/index.md)
 
 ### Conius
-* [Draven Norint (Alchemist)](/content/Volk_/Lateralen/Conius/Charakter_/Draven-Norrint/index.md)
-* [Lysandra Swirm (Druide)](/content/Volk_/Lateralen/Conius/Charakter_/Lysandra-Swirm/index.md)
+* [Draven Norint (Alchemist)](/content/Volk_/Lateralen_/Conius/Charakter_/Draven-Norrint/index.md)
+* [Lysandra Swirm (Druide)](/content/Volk_/Lateralen_/Conius/Charakter_/Lysandra-Swirm/index.md)
 Außerdem begleitet Ingvor Mandijit die Expedition.
 
 # Erschließung der Portale
 
 ## Expeditionsstart am Wolkenhafen
 
-Bei der Ankunft am Wolkenhafen werden die Spieler von [Kwint Gurdun](/content/Volk_/Lateralen/Conius/Charakter_/Kwint-Gurdun/index.md) erwartet.
+Bei der Ankunft am Wolkenhafen werden die Spieler von [Kwint Gurdun](/content/Volk_/Lateralen_/Conius/Charakter_/Kwint-Gurdun/index.md) erwartet.
 Hinter Kwint sind einige Kisten aufgestapelt, welche die anderen Mitglieder der Expedition (die oben eingeführten, nicht-bespielten Charaktere) und die Crew bereits auf das Schiff laden.
 
 ![](./images/Kisten_Vorraete_Expedition-Ikusation.png)
@@ -90,10 +90,10 @@ aber auch noch einiges mehr, vom König für die Expedition gestellt:
 Außerdem haben die Conius noch zwei Kisten mit magischer Ausrüstung, auf welche die Spieler aber keinen Zugriff haben.
 Die Crew des Schiffes besteht ausschließlich aus Sodili:
 
-* [Erisa Sturint (Kaptänin) & Gale (Seeadler)](/content/Volk_/Lateralen/Sodili/Charakter_/Erisa-Ikal-Sturint_Gale/index.md)
-* [Thaos Swiff (Schiffsnavigator / Steuermann) & Maris (Delphin)](/content/Volk_/Lateralen/Sodili/Charakter_/Thaos-Deakel-Swiff_Maris/index.md)
-* [Maggus Sallet (Koch) & Ink (Tintenfisch)](/content/Volk_/Lateralen/Sodili/Charakter_/Maggus-Firn-Sallet_Ink/index.md)
-* [Renn Ionfor (Schiffsmechaniker) & Wench (Anglerfisch)](/content/Volk_/Lateralen/Sodili/Charakter_/Renn-Kienu-Ionfor_Wench/index.md)
+* [Erisa Sturint (Kaptänin) & Gale (Seeadler)](/content/Volk_/Lateralen_/Sodili/Charakter_/Erisa-Ikal-Sturint_Gale/index.md)
+* [Thaos Swiff (Schiffsnavigator / Steuermann) & Maris (Delphin)](/content/Volk_/Lateralen_/Sodili/Charakter_/Thaos-Deakel-Swiff_Maris/index.md)
+* [Maggus Sallet (Koch) & Ink (Tintenfisch)](/content/Volk_/Lateralen_/Sodili/Charakter_/Maggus-Firn-Sallet_Ink/index.md)
+* [Renn Ionfor (Schiffsmechaniker) & Wench (Anglerfisch)](/content/Volk_/Lateralen_/Sodili/Charakter_/Renn-Kienu-Ionfor_Wench/index.md)
 * [Jaghati Kayn & Odin (Rabe)]() (Von Ákos bespielt)
 * 6x Matrosen (fürs Rudern und allgemeine Aufgaben an Bord, wie Reinigung, Wachen halten usw.):
 <!-- TODO: Die 6 Matrosen ausformulieren (Name, Beschreibung, Stärken, Schwächen, Micu) -->

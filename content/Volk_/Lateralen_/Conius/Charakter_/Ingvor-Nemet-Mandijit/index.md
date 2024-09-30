@@ -6,7 +6,7 @@
 **Titel/Klasse:** Elementar-Beschwörer  
 **Alter:** Mittleren Alters  
 **Geschlecht:** Männlich  
-**Spezies/Rasse:** [Conius-Lateraler](/content/Volk_/Lateralen/index.md)  
+**Spezies/Rasse:** [Conius-Lateraler](/content/Volk_/Lateralen_/index.md)  
 **Heimat:** Villa am See Kulios  
 **Beruf:** Ehemaliger Lehrer an der Resrubor-Akademie, unabhängiger Forscher
 

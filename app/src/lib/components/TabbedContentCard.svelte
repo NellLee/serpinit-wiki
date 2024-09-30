@@ -141,6 +141,10 @@
 					width: 100%;
 				}
 			}
+			:global(.todo) {
+				color: red;
+			}
+
 			:global(.comment) {
 				width: 95%;
 				margin: 1rem auto;

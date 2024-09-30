@@ -6,7 +6,7 @@
 # Die modernen Völker
 - [Die Drachenkinder](./Drachenkinder/index.md)
 - [Die Elementare](./Elementare/index.md)
-- [Die Lateralen](./Lateralen/index.md)
+- [Die Lateralen](Lateralen_/index.md)
 - [Die Feen](./Momensi/index.md)
 - [Die Fluctro](./Fluctro/index.md)
 - [Die Sylvanars](./Sylvanar/index.md)

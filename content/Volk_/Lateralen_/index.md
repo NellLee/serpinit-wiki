@@ -1,12 +1,15 @@
 # Die Lateralen
 
-Die Lateralen sind ein intelligentes Volk auf dem Planeten [Agranum](/content/Himmelskoerper_/Agranum/index.md).
+Die Lateralen sind das intelligente Volk des Planeten [Agranum](/content/Himmelskoerper_/Agranum/index.md).
 Der außergewöhnlichen Geschichte dieses Planeten entsprechend, macht das Volk der Lateralen im Vergleich zu den anderen Völkern des Serpinit-Systems eine einzigartige Entwicklung durch.
-Laterale sind bekannt für ihren Optimismus und ihre sozial und emotional ausgelegte Gesellschaft.
+
+Im Allgemeinen wird bei Lateralen zwischen [Sodili](./Sodili/index.md) und [Conius](./Conius/index.md) unterschieden.
 
 # Entwicklung
 
-Schon früh experimentieren die [Sgrisignier](/content/Volk_/Sgrisignier/index.md) zu ihrer persönlichen Belustigung auf magische Weise mit den *homo primian* auf Agranum. 
+## Entstehung der Sodili
+
+Schon :span{.todo}[früh] experimentieren die [Sgrisignier](/content/Volk_/Sgrisignier/index.md) zu ihrer persönlichen Belustigung auf magische Weise mit den *homo primian* auf Agranum. 
 Sie erschaffen dafür kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier verwandeln.
 Zuerst sind die Affenartigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fangen sie an den Effekt der Runensteine zu verstehen und sie schließlich für die Jagd zu nutzen.
 Als die Sgrisignier schließlich von Aerion im Zuge der Impuls-Eruption vernichtet werden, da richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in der Genetik der *homo primian* hinterlassen.
@@ -14,50 +17,29 @@ Zwar werden die *homo primian* durch die Magie Aerions nicht vernichtet, doch de
 Das ihnen fortan angeborene psychische Trauma führt im Allgemeinen noch vor der Geburt zur Bildung einer zweiten inneren Persönlichkeit.
 Hinzu kommt, dass der Bruch des Planeten Agranum nicht nur ein Massenaussterben nach sich zieht, welches die meisten Lebewesen auf Agranum umbringt, sondern für die übrigen Lebewesen einen komplett neuen Lebensraum schafft, an den diese sich anpassen müssen.
 
-
 Die Lateralen entstehen schließlich nach dem Fall der Sgrisignier über Jahrmillionen hinweg aus den überlebenden *homo primian fractus* durch [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution). 
 Diese magisch beeinflusste Evolution hat dabei auf die geistig Verstümmelten einen besonderen Einfluss.
 Durch ihren magischen Ursprung werden die Effekte der psychische Zweiteilung während der arcanogenen Evolution noch verstärkt.
-Die abgespaltene Persönlichkeit wird leichter zu differenzieren und entwickelt eigene Gedanken, Wünsche und Emotionen.
+Die abgespaltene Persönlichkeit ist leichter zu differenzieren und entwickelt eigene Gedanken, Wünsche und Emotionen.
 Dabei wird sie von den Betroffenen immer häufiger als ein ganz bestimmtes Tier empfunden.
 Die Evolution führt schließlich dazu, dass die zweite Persönlichkeit sich nicht nur auf einer geistigen Ebene bildet, sondern sich im Jugendalter sogar in einer magischen Entladung vom Körper des Betroffenen abspaltet und so einen eigenen Körper manifestiert. 
 Die Lateralen werden ab diesem Evolutionsschritt als **Sodili-Laterale** bezeichnet, während die Verkörperung der zweiten Persönlichkeit **Micu** genannt wird.
 Der Körper aller Micu ist dabei ausschließlich von entsprechender, tierischer Natur.
 Die Geister der beiden Lebewesen sind auch nach der Abspaltung weiterhin untrennbar miteinander verbunden, da sie nach wie vor zwei Persönlichkeiten desselben Wesens darstellen.
 Außerdem ist jedem Sodili eine Hybridisierung mit seiner manifestierten, zweiten Persönlichkeit möglich.
-Diese Form der Hybridisierung führt zu einer ungeahnten Vielfalt, wodurch die Sodili-Lateralen schließlich auch nach der Impuls-Eruption wieder ganz Agranum besiedelen.
+Diese Form der Hybridisierung führt zu einer ungeahnten Vielfalt, wodurch die Sodili-Lateralen schließlich auch nach der Impuls-Eruption wieder ganz Agranum besiedeln können.
 
-## Abspaltung der Conius-Lateralen
+## Abspaltung der Conius
 
-Irgendwann hat sich eine spezielle Gruppierung der Lateralen von ihren Artgenossen distanziert. Diese Lateralen waren der Überzeugung, dass das
-Auftreten der zweiten Persönlichkeit unnatürlich sei und einer geistigen Krankheit entspringt, die das gesamte Volk der
-Lateralen in sich trägt. Sie erkannten, das der geteilte Geist eines Sodili in gewisser Weise sogar die Entwicklung seiner magischen
-Intelligenz beeinträchtigt. Die Gruppierung begann junge Laterale zu therapieren, sodass sich ihre Persönlichkeit wieder
-vereinten lange bevor es zum ersten Magieausbruch kam. Nachdem sie diese Identitätsstörung erfolgreich therapiert haben, konnten sie ihre magische Intelligenz in der Tat mit
-entsprechender Bildung weiterentwickeln. Während Sgrisignier die Fähigkeit hatten Runen mit ihren Gedanken zu *erschaffen*, entwickelten Conius-Laterale eine
-Ausprägung der magitiven Wahrnehmung, welche es ihnen ermöglichte nicht nur die magische Potenz ihrer Umgebung, sondern auch Sgrisignier-Runen mit ihren Gedanken zu *erfühlen*.
-Damit verstanden sie die Magie des Serpinit-Systems besser als jedes andere moderne Volk und konnten auf äußerst
-wissenschaftliche Art und Weise weitere Erkenntnisse gewinnen.
-
-Ihre Theorien fanden mit der Zeit Einzug in die magischen Techniken aller Völker, da ihre wissenschaftliche Korrektheit
-im Grunde nicht anzuzweifeln war. Besonders bedeutend war dabei die Entdeckung der Dreidimensionalität der
-Sgrisignier-Runen. Zuvor kannten die verschiedenen Völker lediglich zweidimensionale Runenschatten die sich auf
-empfänglichen Gesteinsarten bilden konnten wenn ein Zauber ausgeführt wurde. Die Völker versuchten immer wieder diese
-einfachen Runen für ihre Zwecke zu nutzen, aber sie waren unberechenbar und sorgten häufig für magische Unfälle. Erst
-die Analyse der dreidimensionalen Sgrisignier-Runen durch die Conius-Lateralen hat gezeigt von welchen Parametern die
-Stabilität einer einfachen Rune abhängt.
-
-Mit ihrem Wissen um die Funktionsweise der Sgrisignier-Runen erkannten die Conius-Lateralen als erstes Volk auch die
-volle Funktionsweise der Sgrisignier-Portale. Das Geheimnis dieser Portale steckt in den Steinen aus welchen sie
-bestehen, da diese Tjomanten beinhalteten. Die Conius-Lateralen waren in der Lage die Runen im Inneren der
-Portalsteine zu erspüren. Nach einiger Forschung waren sie sogar imstande zu erkennen, ob ein Sgrisignier-Portal eine
-intakte Verbindung zu seinem Gegenstück hat. Dadurch konnten die Portalverbindungen mit der Zeit systematisch
-erschlossen werden.
-
-Es trat eine interplanetare Globalisierung im Serpinit-System ein (die sog. "**Ikusation**"), welche einen großen
-kulturellen und intellektuellen Aufschwung mit sich brachte. Die technologischen Kenntnisse sowei die magische
-Intelligenz nahezu aller Völker vergrößerten sich bedeutend, da nun interplanetarer Handel von Gütern und der Austausch
-von Wissen möglich waren.
+:span{.todo}[Irgendwann] distanziert sich schließlich eine Gruppierung der Sodili-Lateralen von ihren Artgenossen.
+Diese sogenannten **Conius-Lateralen** sind der Überzeugung, dass das Auftreten der zweiten Persönlichkeit unnatürlich sei und einer geistigen Krankheit entspringt, die das gesamte Volk der Lateralen in sich trägt.
+Nachdem sie durch entsprechende Selbstversuche erstmalig eine permanente Verschmelzung der zwei Persönlichkeiten erreichen, erkennen sie, dass der geteilte Geist eines Sodili in gewisser Weise sogar die Entwicklung jeglicher magischer Intelligenz beeinträchtigt.
+Die Gruppierung beginnt daraufhin junge Laterale zu therapieren, mit dem Ziel, dass sich die geteilten Persönlichkeiten schon vereinen noch bevor es überhaupt zur körperlichen Abspaltung kommt. 
+Wird die Identitätsstörung in dieser Form erfolgreich therapiert, so kann die magische Intelligenz des Betroffenen in der Tat mit entsprechender Bildung weiterentwickelt werden.
+So erreichen die Conius-Lateralen eine Ausprägung der magitiven Wahrnehmung, welche es ihnen ermöglicht nicht nur die magische Potenz ihrer Umgebung, sondern auch Sgrisignier-Runen und andere magische Phänomene zu erfühlen.
+Damit verstehen sie die Magie des Serpinit-Systems besser als jedes andere moderne Volk und können fortan auf äußerst wissenschaftliche Art und Weise weitere Erkenntnisse gewinnen.
+Besonders bedeutend ist dabei die Erkenntnis über die Dreidimensionalität der Sgrisignier-Runen. 
+Das Wissen der Conius findet insbesondere nach der [Ikusation](/content/Ereignis_/Ikusation.md) Einzug in die magischen Theorien der meisten intelligenten Völker, da eine wissenschaftliche Korrektheit im Grunde nicht anzuzweifeln ist.
 
 # Lebensraum
 

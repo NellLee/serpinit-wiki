@@ -22,4 +22,4 @@ Die Kontinentalplatten auf beiden Halbkugeln des Planeten beginnen polwärts zu 
 Zudem führt die Divergenz der Platten in Äquatornähe zur Bildung von tiefen Schluchten und Canyons.
 Sedimentationsvorgänge und allgemeine Erosion reduzieren schließlich die Prävalenz aller Ozeane, da die Wassermaßen sich entweder in den Tiefen der Äquator-Schluchten, oder als Gletscher in den Pol-Gebirgen sammeln.
 
-Aridess ist der erste Planet welcher von den [Lateralen](/content/Volk_/Lateralen/index.md) mit dem Start der [Ikusation](/content/Ereignis_/Ikusation.md) erschlossen wurde.
+Aridess ist der erste Planet welcher von den [Lateralen](/content/Volk_/Lateralen_/index.md) mit dem Start der [Ikusation](/content/Ereignis_/Ikusation.md) erschlossen wurde.

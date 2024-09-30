@@ -10,12 +10,29 @@
 	import SmallNamedCard from '$lib/components/Card.svelte';
 
 	export let data;
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		if ('scrollRestoration' in history) {
+			history.scrollRestoration = 'manual';
+		}
+
+		const savedScrollPosition = sessionStorage.getItem('scrollPosition');
+		if (savedScrollPosition) {
+			setTimeout(() => {
+				window.scrollTo(0, parseInt(savedScrollPosition));
+			}, 0);
+		}
+
+		window.addEventListener('beforeunload', () => {
+			sessionStorage.setItem('scrollPosition', window.scrollY as unknown as string);
+		});
+	});
 </script>
 
 <svelte:head>
 	<title>{data.page.title}</title>
 </svelte:head>
-
 
 <div style="width: 15%">
 	<Sidebar>
@@ -40,7 +57,9 @@
 	<Sidebar>
 		{#if data.page.event}
 			<SmallNamedCard name="Timeline">
-				<a href="{TIMELINE_URL}?selected={encodeURIComponent(data.page.event.text)}">Ereignis in Zeitleiste anzeigen</a>
+				<a href="{TIMELINE_URL}?selected={encodeURIComponent(data.page.event.text)}"
+					>Ereignis in Zeitleiste anzeigen</a
+				>
 			</SmallNamedCard>
 		{/if}
 		<Tags tags={data.page.tags} />

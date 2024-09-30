@@ -6,7 +6,7 @@
 **Titel/Klasse:** Alchemist  
 **Alter:** Teenager  
 **Geschlecht:** Männlich  
-**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen/index.md)  
+**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen_/index.md)  
 **Heimat:** Resrubor-Akademie  
 **Beruf:** Schüler und Forscher an der Resrubor-Akademie
 

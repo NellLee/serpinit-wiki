@@ -6,7 +6,7 @@
 **Titel/Klasse:** Paladin  
 **Alter:** Mittleren Alters  
 **Geschlecht:** Männlich  
-**Spezies/Rasse:** [Sodili-Lateral](/content/Volk_/Lateralen/index.md)  
+**Spezies/Rasse:** [Sodili-Lateral](/content/Volk_/Lateralen_/index.md)  
 **Heimat:** [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)  
 **Beruf:** Mitglied der königlichen Garde  
 

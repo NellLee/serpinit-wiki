@@ -6,7 +6,7 @@
 **Titel/Klasse:** Wasser-Magierin  
 **Alter:** Junge Erwachsene  
 **Geschlecht:** Weiblich  
-**Spezies/Rasse:** [Conius-Laterale](/content/Volk_/Lateralen/index.md)  
+**Spezies/Rasse:** [Conius-Laterale](/content/Volk_/Lateralen_/index.md)  
 **Heimat:** Carpebur  
 **Beruf:** Besitzerin einer Unterkunft am Kapis-Schloss
 

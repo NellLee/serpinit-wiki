@@ -10,7 +10,7 @@
 | **Titel / Klasse:**  | Waldläuferin                                                                                            |
 | **Alter:**           | Junge Erwachsene                                                                                        |
 | **Geschlecht:**      | Weiblich                                                                                                |
-| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen/index.md)                                                    |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/index.md)                                                    |
 | **Heimat:**          | [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)    |
 | **Beruf:**           | Handelsvertreterin der Familie Sera                                                                     |
 
