@@ -1,7 +1,7 @@
 # Die Lateralen
 
 Die Lateralen sind das intelligente Volk des Planeten [Agranum](/content/Himmelskoerper_/Agranum/index.md).
-Der außergewöhnlichen Geschichte dieses Planeten entsprechend, macht das Volk der Lateralen im Vergleich zu den anderen Völkern des Serpinit-Systems eine einzigartige Entwicklung durch.
+Der außergewöhnlichen Geschichte dieses Planeten entsprechend, verzeichnet das Volk der Lateralen im Vergleich zu den anderen Völkern des Serpinit-Systems eine einzigartige Entwicklung.
 
 Im Allgemeinen wird bei Lateralen zwischen [Sodili](./Sodili/index.md) und [Conius](./Conius/index.md) unterschieden.
 
@@ -31,7 +31,7 @@ Diese Form der Hybridisierung führt zu einer ungeahnten Vielfalt, wodurch die S
 
 ## Abspaltung der Conius
 
-:span{.todo}[Irgendwann] distanziert sich schließlich eine Gruppierung der Sodili-Lateralen von ihren Artgenossen.
+:span{.todo}[Irgendwann] distanziert sich schließlich eine Gruppierung der Lateralen von ihren Artgenossen.
 Diese sogenannten **Conius-Lateralen** sind der Überzeugung, dass das Auftreten der zweiten Persönlichkeit unnatürlich sei und einer geistigen Krankheit entspringt, die das gesamte Volk der Lateralen in sich trägt.
 Nachdem sie durch entsprechende Selbstversuche erstmalig eine permanente Verschmelzung der zwei Persönlichkeiten erreichen, erkennen sie, dass der geteilte Geist eines Sodili in gewisser Weise sogar die Entwicklung jeglicher magischer Intelligenz beeinträchtigt.
 Die Gruppierung beginnt daraufhin junge Laterale zu therapieren, mit dem Ziel, dass sich die geteilten Persönlichkeiten schon vereinen noch bevor es überhaupt zur körperlichen Abspaltung kommt. 
@@ -41,11 +41,11 @@ Damit verstehen sie die Magie des Serpinit-Systems besser als jedes andere moder
 Besonders bedeutend ist dabei die Erkenntnis über die Dreidimensionalität der Sgrisignier-Runen. 
 Das Wissen der Conius findet insbesondere nach der [Ikusation](/content/Ereignis_/Ikusation.md) Einzug in die magischen Theorien der meisten intelligenten Völker, da eine wissenschaftliche Korrektheit im Grunde nicht anzuzweifeln ist.
 
-# Lebensraum
 
-Die schwebenden Kontinente von Agranum waren nach der Spaltung des Planeten ein vergleichsweise unwirtliche Umgebung für die wenigen Lebewesen die den Aufstieg überlebt haben. Trotzdem haben es die Lateralen geschafft sich an die neuen Bedingungen anzupassen. Während es zu Beginn nur wenige, kleine Populationen gab die weit über die schwebenden Kontinente verstreut waren, führte die Hybridisierung der Lateralen dazu, dass mit der Zeit auch die letzten Winkel der schwebenden Kontinente von Lateralen besiedelt wurden. Dabei leben häufig Laterale mit ähnlichen Hybridformen in kleineren Dörfern oder Städten zusammen. Nach der [Ikusation](/content/Ereignis_/Ikusation.md) breiteten sich die Sodili-Lateralen sogar auf den anderen Planeten rapide aus, während die Conius-Lateralen hauptsächlich auf Agranum blieben. 
+<!-- TODO move -->
 
-Trotz der starken Streuung der Sodili blieb ihre Hauptstadt [Carpebur](../../Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) Wohnsitz eines großen Teils ihrer Bevölkerung. Sie ist darauf ausgelegt der großen Diversität an Micus und Hybridformen gerecht zu werden. Die [Resrubor-Akademie](../../Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md), welche sich ebenfalls auf Agranum befindet ist das Gesellschaftliche Zentrum der Conius-Lateralen.
+
+Die [Resrubor-Akademie](../../Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md), welche sich ebenfalls auf Agranum befindet ist das Gesellschaftliche Zentrum der Conius-Lateralen.
 
 # Gesellschaft
 
