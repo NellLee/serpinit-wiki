@@ -1,4 +1,4 @@
-# 25.07.2024
+# 25. Juli 2024
 
 # Meta / Kontext
 * Die Spieler sind an der Mine

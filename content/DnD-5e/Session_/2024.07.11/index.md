@@ -1,4 +1,4 @@
-# 11.07.2024
+# 11. Juli 2024
 
 # Meta / Kontext
 * Nach wie vor zwei Bandit-Geißeln als Sklaven: [Echse](../2024-05-30/Gegner/Bandit-6_Sodili-Echse-Hybrid.md) & [Eber](../2024-05-30/Gegner/Bandit-8_Sodili-Eber-Hybrid.md)

@@ -1,3 +1,7 @@
+# 7. Feb. 2024
+
+# Carpbebur
+
 ## Ankunft über den Hudori-See
 
 Die Sonne glitzert auf der ruhigen Oberfläche des Hudori-Sees, als euer Boot langsam näher an das Ufer am Staudamm heranfährt. Über den Rand des Staudamms erheben sich die Konturen der Stadt, eine faszinierende Mischung aus Türmen, Brücken und Dächern.

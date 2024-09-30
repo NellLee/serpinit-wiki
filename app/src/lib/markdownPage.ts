@@ -2,7 +2,7 @@
 import fs from "fs"
 import path from "path"
 import { Marked, marked } from 'marked'
-import { createDirectives, presetDirectiveConfigs } from 'marked-directive'
+import { createDirectives, presetDirectiveConfigs, type DirectiveConfig } from 'marked-directive'
 import DOMPurify from 'isomorphic-dompurify'
 import * as cheerio from 'cheerio'
 import { generateHeaderId, resolveRelativeUrl } from '$lib/utilities/utilities'
@@ -208,6 +208,11 @@ export class MarkdownPage {
         let overview: DOMPart | null = null;
         const renderer = new marked.Renderer();
 
+        const level4Container: DirectiveConfig = {
+            level: 'container',
+            marker: '::::',
+        }
+
         renderer.listitem = function (text) {
             if (text.includes('<p>')) {
                 text = text.replace(/<\/?p>/g, '');
@@ -220,10 +225,8 @@ export class MarkdownPage {
             })
             .use(createDirectives([
                 ...presetDirectiveConfigs,
-                {
-                    level: 'container',
-                    marker: '::::',
-                },
+                level4Container,
+
             ]))
             .use(markedKatex({
                 throwOnError: false

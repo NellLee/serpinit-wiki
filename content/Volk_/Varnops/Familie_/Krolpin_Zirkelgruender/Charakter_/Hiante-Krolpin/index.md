@@ -6,11 +6,11 @@
  
 |                      |                                                                                                         |
 | -------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Name:**            | Hiante Krolpin (geb. Kriolen)                                                                        |
+| **Name:**            | Hiante Krolpin (geb. Kriolen)                                                                           |
 | **Titel / Klasse:**  | Zirkelgründerin                                                                                         |
 | **Alter:**           | Erwachsene                                                                                              |
 | **Geschlecht:**      | Weiblich                                                                                                |
-| **Spezies / Rasse:** | [Varnops](/content/Volk_/Varnops/index.md)                                                          |
+| **Spezies / Rasse:** | [Varnops](/content/Volk_/Varnops/index.md)                                                              |
 | **Heimat:**          | [Nördliche Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md)      |
 | **Beruf:**           | Handelsstrategin, Metallurgin                                                                           |
 
@@ -72,7 +72,7 @@ In der Drakar-Mine wird hauptsächlich Kupfer abgebaut und zu Bronze (später au
 
 Auf Torval folgt [Fynrik](../Fynrik-Krolpin), der Leiter der Murgath-Stollen.
 Diese Stollen haben sich aus den ersten Edelstein- und Goldfunden in den Flussbetten der Gebirge gebildet, welche bei indigeneren Stämmen für die Herstellung von Schmuck sehr beliebt waren.
-Hier wird Hiantes Tochter [Legartha](../Legartha-Krolpin) geboren.
+Hier wird Hiantes dritte Tochter [Legartha](../Legartha-Krolpin) geboren.
 
 Im Zyklus -24 entsteht nahe Arides' Nordpol der Hauptsitz der Krolpin-Familie: [Dronak](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Dronak/index.md).
 Diese Residenz ensteht aus der Zusammenarbeit aller Männer von Hiante und soll fortan als Koordinierungszentrum für die immer komplexer werdenden Handelsbeziehungen dienen.

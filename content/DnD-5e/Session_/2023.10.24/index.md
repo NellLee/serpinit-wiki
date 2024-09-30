@@ -1,5 +1,5 @@
 
-# 24.10.2023
+# 24. Okt. 2023
 
 # Intro
 Die Sonne neigt sich langsam dem Horizont entgegen, als die ersten Strahlen über die schwebenden Kontinente von Agranum fallen. Das malerische Fischerdorf der Sodili erstreckt sich am Ufer eines klaren Sees, dessen ruhige Oberfläche von sanften Wellen gekräuselt wird. Die Luft ist erfüllt von einer Mischung aus salzigem Meeresduft und der beruhigenden Geräuschkulisse, die nur ein kleines Dorf bieten kann.

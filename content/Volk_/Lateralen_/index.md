@@ -42,10 +42,11 @@ Besonders bedeutend ist dabei die Erkenntnis über die Dreidimensionalität der 
 Das Wissen der Conius findet insbesondere nach der [Ikusation](/content/Ereignis_/Ikusation.md) Einzug in die magischen Theorien der meisten intelligenten Völker, da eine wissenschaftliche Korrektheit im Grunde nicht anzuzweifeln ist.
 
 
-<!-- TODO move -->
+<!-- TODO Verschiebe unteren Inhalt zu Sodili/Conius -->
 
+# Lebensraum
 
-Die [Resrubor-Akademie](../../Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md), welche sich ebenfalls auf Agranum befindet ist das Gesellschaftliche Zentrum der Conius-Lateralen.
+Die [Resrubor-Akademie](../../Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md), welche sich ebenfalls auf Agranum befindet ist das gesellschaftliche Zentrum der Conius-Lateralen.
 
 # Gesellschaft
 

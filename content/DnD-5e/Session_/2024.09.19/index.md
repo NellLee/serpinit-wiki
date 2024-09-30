@@ -1,4 +1,4 @@
-# 19.09.2024
+# 19. Sep. 2024
 
 # Meta / Kontext
 * Die Expedition (- Widdim & Eolyn) stehen am nächsten Sgrisignier-Portal und haben dort ersten Kontakt zu den Varnops aufgenommen.
