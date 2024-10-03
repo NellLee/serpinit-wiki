@@ -41,7 +41,7 @@
     * Die Varnops mit den Silberspiegeln begleiten, in der Hoffnung eine Stadt oder ähnliches zu finden, mit der Handel aufgebaut werden kann
     * Schnellstmöglich das nächste Portal auf Venoxi erschließen 
         * Dabei leigt die Hoffnung auf einer lukrativeren Welt hinter dem nächsten Portal.
-* Die Teilnehmer entscheiden sich dafür und alle 8 finden bei den Metallplatten auf dem Karren Platz.
+* Die Teilnehmer entscheiden für eine Begleitung der Varnops und alle 8 finden bei den Metallplatten auf dem Karren Platz.
 
 ## Reise zum Zirkel-Tal
 * Während der Fahrt bringen sich die Varnops und Lateralen gegenseitig ihre Sprache bei.
