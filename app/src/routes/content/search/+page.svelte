@@ -7,7 +7,7 @@
 	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
 
 	let searchInput: string = '';
-	let includeTags: boolean = false;
+	let includeCategories: boolean = false;
 	let includeContent: boolean = false;
 
 	function newSearch() {
@@ -15,8 +15,8 @@
 		if (searchInput) {
 			params.set('q', encodeURIComponent(searchInput));
 		}
-		if (includeTags) {
-			params.set('includeTags', 'true');
+		if (includeCategories) {
+			params.set('includeCategories', 'true');
 		}
 		if (includeContent) {
 			params.set('includeContent', 'true');
@@ -29,7 +29,7 @@
 	onMount(() => {
 		const params = new URLSearchParams(window.location.search);
 		searchInput = params.get('q') || '';
-		includeTags = params.get('includeTags') === 'true';
+		includeCategories = params.get('includeCategories') === 'true';
 		includeContent = params.get('includeContent') === 'true';
 	});
 
@@ -60,8 +60,8 @@
 			<div id="search-options">
 				<p>Search in:</p>
 				<label>
-					<input type="checkbox" bind:checked={includeTags} on:change={newSearch} />
-					Tags
+					<input type="checkbox" bind:checked={includeCategories} on:change={newSearch} />
+					Categories
 				</label>
 				<label>
 					<input type="checkbox" bind:checked={includeContent} on:change={newSearch} />

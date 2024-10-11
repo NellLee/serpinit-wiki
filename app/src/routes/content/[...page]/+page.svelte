@@ -4,8 +4,7 @@
 	import ReferenceList from '$lib/components/ReferenceList.svelte';
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
-	import TabbedContentCard from '$lib/components/TabbedContentCard.svelte';
-	import Tags from '$lib/components/Tags.svelte';
+	import ContentCard from '$lib/components/ContentCard.svelte';
 	import { TIMELINE_URL } from '$lib/constants.js';
 	import SmallNamedCard from '$lib/components/Card.svelte';
 
@@ -43,9 +42,8 @@
 <div style="width: 70%">
 	<MidPanel>
 		<Breadcrumbs slot="head" linkList={data.page.breadcrumbs} />
-		<TabbedContentCard
+		<ContentCard
 			slot="content"
-			tabLinkList={data.page.tabs}
 			title={data.page.title}
 			contentHtml={data.page.contentHtml}
 			overviewHtml={data.page.overviewHtml}
@@ -62,7 +60,6 @@
 				>
 			</SmallNamedCard>
 		{/if}
-		<Tags tags={data.page.tags} />
 		{#each data.page.references as namedLinkList}
 			<ReferenceList {namedLinkList} />
 		{/each}

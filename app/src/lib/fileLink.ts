@@ -62,8 +62,8 @@ export class FileLink {
         }
     }
 
-    getTags() {
-        const tags: string[] = []
+    getCategories() {
+        const result: string[] = []
         const segments = this.href.split("/").reverse()
         let currIndex = 0
         let segment = decodeURIComponent(segments[currIndex])
@@ -75,11 +75,17 @@ export class FileLink {
         }
         do {
             if (segment && segment != "content") {
-                tags.push(... segment.split("_").filter(s => s != ""))
+                result.push(... segment.split("_").filter(s => s != ""))
             }
             currIndex++
             segment = decodeURIComponent(segments[currIndex])
         } while (segment.endsWith("_"))
-        return tags
+        return result
+    }
+
+    getFolderCategory() {
+        const segments = this.href.split("/")
+        const category = segments.at(-2)
+        return category == "content" ? "Serpinit" : category
     }
 }

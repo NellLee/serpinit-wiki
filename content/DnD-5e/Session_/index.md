@@ -2,7 +2,7 @@
 
 Chronologische Auflistung:
 
-<!-- INDEX -->
+§index
 
 # Aktuelle Materialien
 

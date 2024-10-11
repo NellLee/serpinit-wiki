@@ -7,7 +7,6 @@
 
 	$: currentPath = $page.url.pathname;
 
-	export let tabLinkList: LinkObject[];
 	export let title: string;
 	export let fancyBoxGallery: boolean = true;
 	export let contentHtml: string;
@@ -26,17 +25,6 @@
 </script>
 
 <div class="content-card">
-	{#if tabLinkList.length > 1}
-		<div class="tabs">
-			<ul>
-				{#each tabLinkList as link}
-					<li>
-						<a href={link.href} class={link.href === currentPath ? 'active' : ''}>{link.text}</a>
-					</li>
-				{/each}
-			</ul>
-		</div>
-	{/if}
 	<div id="content-body">
 		{#if overviewHtml}
 			<div id="overview">
@@ -60,42 +48,7 @@
 
 <style lang="scss">
 	.content-card {
-		.tabs {
-			ul {
-				padding: 10px 10px 0 10px;
-				list-style-type: none;
-				margin: 0;
-				display: flex;
 
-				li {
-					margin: 0;
-					padding: 0;
-				}
-
-				a {
-					display: block;
-					padding: 5px 10px;
-					margin-right: 2px;
-					text-decoration: none;
-					background-color: var(--primary-background-color);
-					border: 1px solid var(--tertiary-background-color);
-					border-bottom: none;
-					border-radius: 8px 8px 0 0;
-					transition: background-color 0.3s ease;
-
-					&:hover {
-						background-color: var(--secondary-background-color);
-					}
-
-					&.active {
-						background-color: var(--secondary-background-color);
-						border: 1px solid var(--secondary-color);
-						border-bottom: 0;
-						font-weight: bold;
-					}
-				}
-			}
-		}
 
 		#content-body {
 			width: 100%;

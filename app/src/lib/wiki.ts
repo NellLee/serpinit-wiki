@@ -58,13 +58,13 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
     return page
 }
 
-export function search(query: string, includeTags: boolean = false, includeContent: boolean = false): SearchResult<MarkdownPage>[] {
+export function search(query: string, includeCategories: boolean = false, includeContent: boolean = false): SearchResult<MarkdownPage>[] {
     const pages: MarkdownPage[] = Array.from(wiki.values())
     let keys = [
         { name: 'title', weight: 5 },
     ]
-    if (includeTags) {
-        keys.push({ name: 'tags.text', weight: 10 })
+    if (includeCategories) {
+        keys.push({ name: 'categories.text', weight: 10 })
     } 
     if (includeContent) {
         keys.push({ name: 'contentHtml', weight: 1 })

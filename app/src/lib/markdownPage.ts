@@ -80,9 +80,8 @@ export class MarkdownPage {
     breadcrumbs: LinkObject[]
     title: string
     images: LinkObject[]
-    tabs: LinkObject[]
     toc: LinkTree
-    tags: LinkObject[]
+    categories: LinkObject[]
     references: NamedLinkList[]
     contentHtml: string
     overviewHtml: string | null
@@ -152,14 +151,14 @@ export class MarkdownPage {
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
         this.title = this.extractTitle()
         this.images = this.generateImages()
-        this.tabs = this.generateTabs()
         this.toc = this.generateTOC()
-        this.tags = this.generateTags()
+        this.categories = this.generateCategories()
 
         // HTML changes
         this.#html.apply(this.extractOverviewSection.bind(this))
         this.#html.apply(this.wrapImgTagsForFancyBox.bind(this))
         this.references = [
+            { name: "Mehr zum Thema '"+this.#fileLink.getFolderCategory()+"'", linkList: this.generateSiblings(true) },
             { name: "Verwandte Artikel", linkList: this.generateRelated() },
             { name: "Hier erwähnt", linkList: this.generateMentions() },
         ]
@@ -207,11 +206,28 @@ export class MarkdownPage {
     generateInitialDOM(): ChangeableDOM {
         let overview: DOMPart | null = null;
         const renderer = new marked.Renderer();
+        const that = this;
 
         const level4Container: DirectiveConfig = {
             level: 'container',
             marker: '::::',
         }
+
+        // FIXME and TODO: swap against pre-marked comment parsing of "<!--INDEX"
+        const indexList: DirectiveConfig = {
+            level: 'block',
+            marker: '§',
+            renderer(token) {
+              if (token.meta.name === 'index') {
+                const listItems = that.generateSiblings()
+                  .map((link: LinkObject) => `<li><a href="${link.href}">${link.text}</a></li>`)
+                  .join('\n');
+          
+                return `<ul class="folder-index">\n${listItems}\n</ul>`;
+              }
+              return false;
+            }
+          };
 
         renderer.listitem = function (text) {
             if (text.includes('<p>')) {
@@ -226,6 +242,7 @@ export class MarkdownPage {
             .use(createDirectives([
                 ...presetDirectiveConfigs,
                 level4Container,
+                indexList
 
             ]))
             .use(markedKatex({
@@ -351,21 +368,22 @@ export class MarkdownPage {
     generateRelated() {
         const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
         const related: FileLink[] = getFolderPathsInFolder(parentFolderPath, 0)
-            .filter(folder => folder != path.sep + "images") // the image folder is instead realised as additional tab
+            .filter(folder => folder != path.sep + "images") // the image folder is instead realised as sibling
             .map(folder => folder + path.sep + "index.md")
             .map(relative => new FileLink(parentFolderPath + relative))
         return related
     }
 
-    generateTabs() {
+    generateSiblings(includeGallery = false) {
         const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep))
         const filePaths = getFilePathsInFolder(parentFolderPath, [".md"], 0)
         const indexPath = path.sep + "index.md"
         if (!filePaths.find(p => p == indexPath)) {
             filePaths.push(indexPath)
         }
-        const tabLinks: FileLink[] = filePaths
+        const siblings: FileLink[] = filePaths
             .map(sibling => new FileLink(parentFolderPath + sibling))
+            .filter(sibling => sibling.fileName != this.#fileLink.fileName)
             .sort((a, b) => {
                 if (a.fileName == "index") {
                     return -1
@@ -373,26 +391,26 @@ export class MarkdownPage {
                 return a.fileName.localeCompare(b.fileName)
             })
 
-        // First tab special naming
-        tabLinks.forEach(link => {
+        // Index special naming
+        siblings.forEach(link => {
             if (link.fileName == "index") {
                 link.text = "Index"
             }
         })
 
-        const tabs: LinkObject[] = tabLinks.map(link => ({ text: link.text, href: link.href }))
+        const result: LinkObject[] = siblings.map(link => ({ text: link.text, href: link.href }))
 
-        // Add gallery tab
-        const fileName = this.#fileLink.fileName
-        const folderHref = this.#fileLink.href.split("/").slice(0, -1).join("/")
-        if (this.images.length > 0) {
-            tabs.push({
-                text: "Gallerie",
-                href: folderHref + "/images"
-            })
+        if (includeGallery) {
+            const folderHref = this.#fileLink.href.split("/").slice(0, -1).join("/")
+            if (this.images.length > 0) {
+                result.push({
+                    text: "Gallerie",
+                    href: folderHref + "/images"
+                })
+            }
         }
 
-        return tabs
+        return result
     }
 
     generateMentions() {
@@ -416,15 +434,9 @@ export class MarkdownPage {
         return mentioned
     }
 
-    generateTags() {
-        const regex = /<!--TAGS\[(.*?)\]-->/
-        const matches = this.markdown.match(regex)
-        const tags = []
-        if (matches) {
-            tags.push(...matches[1].split(','))
-        }
-        tags.push(...this.#fileLink.getTags())
-        return tags.map(tag => ({
+    generateCategories() {
+        const categories = this.#fileLink.getCategories();
+        return categories.map(tag => ({
             href: "/content/search?q=" + encodeURIComponent(tag),
             text: tag
         }))
@@ -438,8 +450,7 @@ export class MarkdownPage {
             markdown: this.markdown,
             breadcrumbs: this.breadcrumbs,
             title: this.title,
-            tags: this.tags,
-            tabs: this.tabs,
+            categories: this.categories,
             toc: this.toc,
             references: this.references,
             href: this.href,

@@ -45,7 +45,7 @@
 		setTimeout(() => {
 			isFocused = false;
 			showResults = false;
-		}, 100);
+		}, 300);
 	};
 </script>
 
