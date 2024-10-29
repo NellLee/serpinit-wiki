@@ -80,9 +80,9 @@ Bevor dieser Bartwuchs beginnt fällt es vielen Angehörigen anderer Völker sch
 
 Trifft man einen Varnop an der neben einem glatten Kinn auch einen kahlen Kopf besitzt, so handelt es sich üblicherweise um einen Verbrecher der für die Zeit seiner Strafe keine Rechte mehr besitzt.
 
-# Mode
+## Mode
 
-## Alltäglich
+### Alltäglich
 
 Alle Varnops besitzen von Kindesalter an breite Metallringe in die das Symbol ihres jeweiligen Zirkels sowie ihr Hauswappen eingraviert sind. Während die Männer diese Ringe über ihren Bartzöpfen tragen, hängen die der weiblichen Varnops meist an Ketten um ihren Hals.
 
@@ -90,7 +90,7 @@ Die Kleidung der Varnops kann je nach Lebensraum und Wohlhaben sehr unterschiedl
 
 Aufgrund der Wirkungsweise der Varnopsnmagie ist Edelsteinschmuck zudem unverzichtbar unter Varnopsn. Ob in Ringen, Halsketten, Haarschmuck oder Armreifen, viele Varnops tragen gleich mehrere reine Edelsteine am Körper damit ihnen stets magische Energie auf Abruf zur Verfügung steht.
 
-## Kampf
+### Kampf
 
 Varnopsnrüstungen sind klassische Rüstungen aus breiten Metallplatten unter denen ein Kettenhemd getragen wird. Die Rüstungen sind darauf ausgelegt die Varnops, die aufgrund ihres gedrungenen Körperbaus ohnehin nicht allzu viel Bewegungsfreiheit besitzen, nicht noch mehr einzuschränken. Dabei greifen die Platten bei jeder Drehbewegung ineinander und blockieren nicht.
 
@@ -98,7 +98,7 @@ In den Rüstungen ist immer das Symbol des jeweiligen Zirkels eingraviert. Auße
 
 Häufig sind Rüstungen für traditionelle Kämpfe und Feste zusätzlich mit dem bezeichnenden Metall des jeweiligen Zirkels und anderen Akzenten verziert.
 
-## Festlich
+### Festlich
 
 Für besondere Anlässe tragen Varnopsn meist feine Leinenstücke mit passenden Umhängen. Die Farben fallen im Allgemeinen kräftig aus, werden dabei aber immer passend zum Edelsteinschmuck des Varnops gewählt.
 

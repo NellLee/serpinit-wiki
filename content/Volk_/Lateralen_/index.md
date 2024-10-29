@@ -7,15 +7,17 @@ Im Allgemeinen wird bei Lateralen zwischen [Sodili](./Sodili/index.md) und [Coni
 
 # Entwicklung
 
-## Entstehung der Sodili
+## Entstehung des *homo primian fractus*
 
 Schon :span{.todo}[früh] experimentieren die [Sgrisignier](/content/Volk_/Sgrisignier/index.md) zu ihrer persönlichen Belustigung auf magische Weise mit den *homo primian* auf Agranum. 
 Sie erschaffen dafür kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier verwandeln.
 Zuerst sind die Affenartigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fangen sie an den Effekt der Runensteine zu verstehen und sie schließlich für die Jagd zu nutzen.
-Als die Sgrisignier schließlich von Aerion im Zuge der Impuls-Eruption vernichtet werden, da richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in der Genetik der *homo primian* hinterlassen.
-Zwar werden die *homo primian* durch die Magie Aerions nicht vernichtet, doch der magische Impuls hat zur Folge, dass alle gegenwärtigen und künftig gezeugten Lateralen eine Spaltung ihres Geistes durchmachen müssen, weshalb sie seit diesem Ereignis auch als *homo primian fractus* bezeichnet werden. 
+Als die Sgrisignier schließlich von Aerion im Zuge der Impuls-Eruption vernichtet werden, da richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in ihrer Genetik hinterlassen.
+Zwar werden sie durch die Magie Aerions nicht vernichtet, doch der magische Impuls hat zur Folge, dass alle gegenwärtigen und künftig gezeugten *homo primian* eine Spaltung ihres Geistes durchmachen müssen, weshalb sie seit diesem Ereignis auch als *homo primian fractus* bezeichnet werden. 
 Das ihnen fortan angeborene psychische Trauma führt im Allgemeinen noch vor der Geburt zur Bildung einer zweiten inneren Persönlichkeit.
 Hinzu kommt, dass der Bruch des Planeten Agranum nicht nur ein Massenaussterben nach sich zieht, welches die meisten Lebewesen auf Agranum umbringt, sondern für die übrigen Lebewesen einen komplett neuen Lebensraum schafft, an den diese sich anpassen müssen.
+
+## Evolution der Sodili-Lateralen
 
 Die Lateralen entstehen schließlich nach dem Fall der Sgrisignier über Jahrmillionen hinweg aus den überlebenden *homo primian fractus* durch [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution). 
 Diese magisch beeinflusste Evolution hat dabei auf die geistig Verstümmelten einen besonderen Einfluss.
@@ -32,9 +34,10 @@ Diese Form der Hybridisierung führt zu einer ungeahnten Vielfalt, wodurch die S
 ## Abspaltung der Conius
 
 :span{.todo}[Irgendwann] distanziert sich schließlich eine Gruppierung der Lateralen von ihren Artgenossen.
-Diese sogenannten **Conius-Lateralen** sind der Überzeugung, dass das Auftreten der zweiten Persönlichkeit unnatürlich sei und einer geistigen Krankheit entspringt, die das gesamte Volk der Lateralen in sich trägt.
+Diese Individuen sind der Überzeugung, dass das Auftreten der zweiten Persönlichkeit unnatürlich sei und einer geistigen Krankheit entspringt, die das gesamte Volk der Lateralen in sich trägt.
 Nachdem sie durch entsprechende Selbstversuche erstmalig eine permanente Verschmelzung der zwei Persönlichkeiten erreichen, erkennen sie, dass der geteilte Geist eines Sodili in gewisser Weise sogar die Entwicklung jeglicher magischer Intelligenz beeinträchtigt.
-Die Gruppierung beginnt daraufhin junge Laterale zu therapieren, mit dem Ziel, dass sich die geteilten Persönlichkeiten schon vereinen noch bevor es überhaupt zur körperlichen Abspaltung kommt. 
+Diese Gruppierung beginnt daraufhin junge Laterale zu therapieren, mit dem Ziel, dass sich die geteilten Persönlichkeiten schon vereinen noch bevor es überhaupt zur körperlichen Abspaltung kommt.
+"Geheilte" Lateralen werden fortan **Conius-Laterale** genannt.
 Wird die Identitätsstörung in dieser Form erfolgreich therapiert, so kann die magische Intelligenz des Betroffenen in der Tat mit entsprechender Bildung weiterentwickelt werden.
 So erreichen die Conius-Lateralen eine Ausprägung der magitiven Wahrnehmung, welche es ihnen ermöglicht nicht nur die magische Potenz ihrer Umgebung, sondern auch Sgrisignier-Runen und andere magische Phänomene zu erfühlen.
 Damit verstehen sie die Magie des Serpinit-Systems besser als jedes andere moderne Volk und können fortan auf äußerst wissenschaftliche Art und Weise weitere Erkenntnisse gewinnen.
@@ -47,28 +50,6 @@ Das Wissen der Conius findet insbesondere nach der [Ikusation](/content/Ereignis
 # Lebensraum
 
 Die [Resrubor-Akademie](../../Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md), welche sich ebenfalls auf Agranum befindet ist das gesellschaftliche Zentrum der Conius-Lateralen.
-
-# Gesellschaft
-
-## Hierarchie
-
-Die Lateralen leben in einer Monarchie. Es gibt zu jeder Zeit einen König der in einem großen Palast in Carpebur lebt.
-Der König vertritt die Lateralen im politischen Sinne und führt außerdem die Do-Uspil aus, für die jeder Laterale einmal in
-seinem Leben zu der Hauptstadt pilgern muss.
-
-Der tatsächliche politische Einflussbereich des Königs beschränkt sich jedoch auf die Hauptstadt und deren Ländereien.
-Das Volk der Lateralen hat sich zu weit verteilt, als dass es in einem einzigen politischen System komplett abgedeckt
-werden könnte. Die vielen kleineren Städte und Dörfer der Lateralen sind daher größtenteils politisch autonom.
-
-Auch die Conius-Lateralen respektieren den König, obwohl sie die Do-Uspil nicht ausführen. Die Resrubor-Akademie hat
-aber ebenfalls eine nicht zu unterschätztende politische Macht unter den Lateralen, die allein durch das dort
-zusammengetragene kollektive Wissen begründet wird.
-
-## Interaktion
-
-Es ist allgemein bekannt, dass die Lateralen ein sehr emanzipiertes Volk sind. Aufgrund der starken Diversität zwischen
-ihren Artgenossen gibt es kaum Rassismus gegen andere Völker der von Lateralen ausgeht. Vor allem in den Dörfern der
-Sodili leben nach der Ikusation häufig auch Vertreter der anderen Völker.
 
 # Aussehen
 
