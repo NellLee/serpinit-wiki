@@ -37,44 +37,36 @@ class DOMPart {
         return this.cheerio.html()
     }
 }
-class ChangeableDOM {
-    sections: DOMSections
-    lastChange: ChangeMap | null
+class SectionizedDOM {
+    content: DOMPart
+    overview: DOMPart | null
 
     constructor(content: DOMPart, overview: DOMPart | null) {
-        this.sections = {
-            content,
-            overview
-        }
-        this.lastChange = null
-    }
-
-    apply(change: DOMPartChanger) {
-        this.lastChange = change(this)
-        return this
+        this.content = content;
+        this.overview = overview;
     }
 
     sanitize() {
-        for (const section of Object.keys(this.sections)) {
-            const domPart = this.sections[section as keyof DOMSections]
-            if (domPart) {
-                domPart.html = DOMPurify.sanitize(domPart.html, { USE_PROFILES: { html: true } })
-                // console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
-            }
+        for (const domPart of this.getParts()) {
+            domPart.html = DOMPurify.sanitize(domPart.html, { USE_PROFILES: { html: true } })
+            // console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
         }
     }
-}
-type ChangeMap = { [key: string]: string | null } // Mapping changed section names to possible extracted value
-type DOMPartChanger = (current: ChangeableDOM) => ChangeMap // Should edit HTML sections and return change map
-type DOMSections = {
-    content: DOMPart,
-    overview: DOMPart | null,
+    getParts(): DOMPart[] {
+        const result: DOMPart[] = []
+        result.push(this.content);
+        if(this.overview) {
+            result.push(this.overview);
+        }
+        return result;
+    }
+
 }
 
 export class MarkdownPage {
     #filePath: string
     #fileLink: FileLink
-    #html: ChangeableDOM
+    #dom: SectionizedDOM
 
     markdown: string
     breadcrumbs: LinkObject[]
@@ -146,7 +138,7 @@ export class MarkdownPage {
         this.processComments()
 
         // Initial HTML from markdown
-        this.#html = this.generateInitialDOM()
+        this.#dom = this.generateInitialDOM()
 
         this.breadcrumbs = generateBreadcrumbs(fileLink.href)
         this.title = this.extractTitle()
@@ -155,8 +147,8 @@ export class MarkdownPage {
         this.categories = this.generateCategories()
 
         // HTML changes
-        this.#html.apply(this.extractOverviewSection.bind(this))
-        this.#html.apply(this.wrapImgTagsForFancyBox.bind(this))
+        this.extractOverviewSection()
+        this.processImages()
         this.references = [
             { name: "Mehr zum Thema '"+this.#fileLink.getFolderCategory()+"'", linkList: this.generateSiblings(true) },
             { name: "Verwandte Artikel", linkList: this.generateRelated() },
@@ -164,9 +156,9 @@ export class MarkdownPage {
         ]
 
         // Final HTML
-        this.#html.sanitize()
-        this.contentHtml = this.#html.sections.content.html
-        this.overviewHtml = this.#html.sections.overview?.html ?? null
+        this.#dom.sanitize()
+        this.contentHtml = this.#dom.content.html
+        this.overviewHtml = this.#dom.overview?.html ?? null
 
         this.href = this.#fileLink.href
     }
@@ -182,8 +174,8 @@ export class MarkdownPage {
         });
     }
 
-    extractOverviewSection(current: ChangeableDOM): ChangeMap {
-        const content = current.sections.content
+    extractOverviewSection() {
+        const content = this.#dom.content;
         const $ = content.cheerio
 
         let overviewHtml = null
@@ -192,18 +184,13 @@ export class MarkdownPage {
         if (overviewElement.length > 0) {
             overviewHtml = overviewElement.html();
 
-            current.sections.overview = new DOMPart(overviewHtml!)
+            this.#dom.overview = new DOMPart(overviewHtml!)
 
             overviewElement.remove();
-
-            return {
-                "overview": null
-            }
         }
-        return {}
     }
 
-    generateInitialDOM(): ChangeableDOM {
+    generateInitialDOM(): SectionizedDOM {
         let overview: DOMPart | null = null;
         const renderer = new marked.Renderer();
         const that = this;
@@ -212,7 +199,6 @@ export class MarkdownPage {
             level: 'container',
             marker: '::::',
         }
-
         // FIXME and TODO: swap against pre-marked comment parsing of "<!--INDEX"
         const indexList: DirectiveConfig = {
             level: 'block',
@@ -250,7 +236,7 @@ export class MarkdownPage {
             }))
             .parse(this.markdown) as string)
 
-        return new ChangeableDOM(content, overview)
+        return new SectionizedDOM(content, overview)
     }
 
     generateImages(): LinkObject[] {
@@ -275,40 +261,37 @@ export class MarkdownPage {
         return images
     }
 
-    wrapImgTagsForFancyBox(current: ChangeableDOM): ChangeMap {
+    processImages() {
         const fileName = this.#fileLink.fileName
         const folderHref = this.#fileLink.href.replace("/content", "").replace(`${fileName}.${this.#fileLink.extension}`, "")
 
-        const changeMap: ChangeMap = {}
-        for (let key of Object.keys(current.sections)) {
-            const section = current.sections[key as keyof DOMSections]!
-            if (section) {
-                const $ = section.cheerio
-                let links: string[] = []
-                $('img').each((_, img) => {
-                    const imgElement = $(img);
-                    let src = imgElement.attr('src')
-                    if (src) {
-                        if (src.startsWith(".")) {
-                            src = resolveRelativeUrl(folderHref, src.substring(2))
-                            imgElement.attr('src', src)
-                        }
-                        imgElement.attr('loading', "lazy")
-                        imgElement.addClass("thumbnail")
-                        const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery');
-                        imgElement.wrap(link);
-                        links.push(src)
+        for (let domPart of this.#dom.getParts()) {
+            const $ = domPart.cheerio
+            let links: string[] = []
+            $('img').each((_, img) => {
+                const imgElement = $(img);
+                let src = imgElement.attr('src')
+                if (src) {
+                    if (src.startsWith(".")) {
+                        src = resolveRelativeUrl(folderHref, src.substring(2))
+                        imgElement.attr('src', src)
                     }
-                });
-                changeMap[key] = links.join(",")
-            }
-        }
 
-        return changeMap
+                    imgElement.attr('loading', "lazy")
+                    imgElement.addClass("thumbnail")
+                    if($(img).closest('.no-fancy').length > 0) {
+                        return;
+                    }
+                    const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery');
+                    imgElement.wrap(link);
+                    links.push(src)
+                }
+            });
+        }
     }
 
     extractTitle(): string {
-        const $ = this.#html.sections.content.cheerio
+        const $ = this.#dom.content.cheerio
 
         let title = this.#fileLink.fileName // fallback to file name
         if ($('h1').length != 0) {
@@ -325,7 +308,7 @@ export class MarkdownPage {
     }
 
     generateTOC() {
-        const $ = this.#html.sections.content.cheerio
+        const $ = this.#dom.content.cheerio
         const tocTree: LinkTree = {
             children: []
         }
@@ -414,7 +397,7 @@ export class MarkdownPage {
     }
 
     generateMentions() {
-        const $ = this.#html.sections.content.cheerio
+        const $ = this.#dom.content.cheerio
         const folderPath = this.#fileLink.path
         const mentioned: LinkObject[] = []
         $('a[href$=".md"]:not(nav a)').each(function (_, element) {
