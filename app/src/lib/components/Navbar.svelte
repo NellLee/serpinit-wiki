@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SearchBar from '$lib/components/Searchbar.svelte';
+	import SearchBar from "$lib/components/Searchbar.svelte";
 	export let items: LinkObject[];
 </script>
 

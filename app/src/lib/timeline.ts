@@ -1,7 +1,7 @@
 
 import path from "path"
 import { readFile } from "fs/promises"
-import { parseString } from 'xml2js'
+import { parseString } from "xml2js"
 import { parseBooleans, parseNumbers } from "xml2js/lib/processors"
 const __dirname = new URL(".", import.meta.url).pathname.substring(1)
 
@@ -43,7 +43,7 @@ function parseTimeline(xml: string): Promise<XmlTimeline> {
             result.timeline.events = result.timeline.events.event
 
             if (err) {
-                console.error('Error parsing XML:', err)
+                console.error("Error parsing XML:", err)
                 reject(err)
                 return
             } else {

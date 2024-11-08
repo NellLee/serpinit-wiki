@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Home, Icon } from 'svelte-hero-icons';
+	import { Home, Icon } from "svelte-hero-icons";
 
 	export let linkList: LinkObject[];
 </script>
@@ -15,11 +15,11 @@
 						</a>
 					</li>
 				{:else}
-					<li><a href={link.href}>{link.text.replaceAll('_', ' ').replaceAll('-', ' ')}</a></li>
+					<li><a href={link.href}>{link.text.replaceAll("_", " ").replaceAll("-", " ")}</a></li>
 				{/if}
 				<li class="delimiter">
 					{#if i != linkList.length - 1}
-						{link.text.endsWith('_') ? '-' : '/'}
+						{link.text.endsWith("_") ? "-" : "/"}
 					{/if}
 				</li>
 			{/each}

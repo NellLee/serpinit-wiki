@@ -1,6 +1,6 @@
 <script lang="ts">
-	import EllipsisText from './EllipsisText.svelte';
-	import Card from './Card.svelte';
+	import EllipsisText from "./EllipsisText.svelte";
+	import Card from "./Card.svelte";
 
 	export let namedLinkList: NamedLinkList;
 </script>

@@ -1,11 +1,11 @@
 
 import fs from "fs"
 import path from "path"
-import { Marked, marked } from 'marked'
-import { createDirectives, presetDirectiveConfigs, type DirectiveConfig } from 'marked-directive'
-import DOMPurify from 'isomorphic-dompurify'
-import * as cheerio from 'cheerio'
-import { generateHeaderId, resolveRelativeUrl } from '$lib/utilities/utilities'
+import { Marked, marked } from "marked"
+import { createDirectives, presetDirectiveConfigs, type DirectiveConfig } from "marked-directive"
+import DOMPurify from "isomorphic-dompurify"
+import * as cheerio from "cheerio"
+import { generateHeaderId, resolveRelativeUrl } from "$lib/utilities/utilities"
 import { generateBreadcrumbs, getLinkedFilePath } from "./utilities/links"
 import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
 import { FileLink } from "./fileLink"
@@ -55,7 +55,7 @@ class SectionizedDOM {
     getParts(): DOMPart[] {
         const result: DOMPart[] = []
         result.push(this.content);
-        if(this.overview) {
+        if (this.overview) {
             result.push(this.overview);
         }
         return result;
@@ -150,7 +150,7 @@ export class MarkdownPage {
         this.extractOverviewSection()
         this.processImages()
         this.references = [
-            { name: "Mehr zum Thema '"+this.#fileLink.getFolderCategory()+"'", linkList: this.generateSiblings(true) },
+            { name: "Mehr zum Thema '" + this.#fileLink.getFolderCategory() + "'", linkList: this.generateSiblings(true) },
             { name: "Verwandte Artikel", linkList: this.generateRelated() },
             { name: "Hier erwähnt", linkList: this.generateMentions() },
         ]
@@ -179,7 +179,7 @@ export class MarkdownPage {
         const $ = content.cheerio
 
         let overviewHtml = null
-        let overviewElement = $('overview');
+        let overviewElement = $("overview");
 
         if (overviewElement.length > 0) {
             overviewHtml = overviewElement.html();
@@ -196,39 +196,54 @@ export class MarkdownPage {
         const that = this;
 
         const level4Container: DirectiveConfig = {
-            level: 'container',
-            marker: '::::',
+            level: "container",
+            marker: "::::",
         }
+
         // FIXME and TODO: swap against pre-marked comment parsing of "<!--INDEX"
-        const indexList: DirectiveConfig = {
-            level: 'block',
-            marker: '§',
+        const customElements: DirectiveConfig = {
+            level: "block",
+            marker: "§",
             renderer(token) {
-              if (token.meta.name === 'index') {
-                const listItems = that.generateSiblings()
-                  .map((link: LinkObject) => `<li><a href="${link.href}">${link.text}</a></li>`)
-                  .join('\n');
-          
-                return `<ul class="folder-index">\n${listItems}\n</ul>`;
-              }
-              return false;
+                if (token.meta.name === "index") {
+                    const listItems = that.generateSiblings()
+                        .map((link: LinkObject) => `<li><a href="${link.href}">${link.text}</a></li>`)
+                        .join("\n");
+
+                    return `<ul class="folder-index">\n${listItems}\n</ul>`;
+                } else if (token.meta.name == "imglink") {
+
+                    const imgSrc = token.attrs?.src;
+                    const linkHref = token.attrs?.href;
+                    const text = token.attrs?.text;
+                    const style = token.attrs?.style;
+                    return `
+                        <a href="${linkHref}" class="img-link no-fancy" style="${style}">
+                            <img src="${imgSrc}" alt="${text}"/>
+                            <div class="img-link-text">
+                                ${text}
+                            </div>
+                        </a>
+                    `;
+                }
+                return false;
             }
-          };
+        };
 
         renderer.listitem = function (text) {
-            if (text.includes('<p>')) {
-                text = text.replace(/<\/?p>/g, '');
+            if (text.includes("<p>")) {
+                text = text.replace(/<\/?p>/g, "");
             }
             return `<li>${text}</li>\n`;
         };
         const content = new DOMPart(new Marked()
             .setOptions({
-            renderer: renderer
+                renderer: renderer
             })
             .use(createDirectives([
                 ...presetDirectiveConfigs,
                 level4Container,
-                indexList
+                customElements
 
             ]))
             .use(markedKatex({
@@ -268,21 +283,21 @@ export class MarkdownPage {
         for (let domPart of this.#dom.getParts()) {
             const $ = domPart.cheerio
             let links: string[] = []
-            $('img').each((_, img) => {
+            $("img").each((_, img) => {
                 const imgElement = $(img);
-                let src = imgElement.attr('src')
+                let src = imgElement.attr("src")
                 if (src) {
                     if (src.startsWith(".")) {
                         src = resolveRelativeUrl(folderHref, src.substring(2))
-                        imgElement.attr('src', src)
+                        imgElement.attr("src", src)
                     }
 
-                    imgElement.attr('loading', "lazy")
+                    imgElement.attr("loading", "lazy")
                     imgElement.addClass("thumbnail")
-                    if($(img).closest('.no-fancy').length > 0) {
+                    if ($(img).closest(".no-fancy").length > 0) {
                         return;
                     }
-                    const link = $('<a></a>').attr('href', src).attr('data-fancybox', 'gallery');
+                    const link = $("<a></a>").attr("href", src).attr("data-fancybox", "gallery");
                     imgElement.wrap(link);
                     links.push(src)
                 }
@@ -294,9 +309,9 @@ export class MarkdownPage {
         const $ = this.#dom.content.cheerio
 
         let title = this.#fileLink.fileName // fallback to file name
-        if ($('h1').length != 0) {
-            $('body').children().each((_, element) => {
-                if ($(element).is('h1')) {
+        if ($("h1").length != 0) {
+            $("body").children().each((_, element) => {
+                if ($(element).is("h1")) {
                     title = $(element).text()
                     $(element).remove();
                     return false;
@@ -313,11 +328,11 @@ export class MarkdownPage {
             children: []
         }
         const stack: (LinkNode | LinkTree)[] = [tocTree];
-        $('h1, h2, h3, h4, h5, h6').each(function (_, element) {
+        $("h1, h2, h3, h4, h5, h6").each(function (_, element) {
             const header = $(element)
             const headerLevel = parseInt(element.tagName.slice(1))
             const headerId = generateHeaderId(header.text())
-            header.attr('id', headerId)
+            header.attr("id", headerId)
 
             // Find the correct parent for this node
             while (stack.length > headerLevel) {
@@ -400,11 +415,11 @@ export class MarkdownPage {
         const $ = this.#dom.content.cheerio
         const folderPath = this.#fileLink.path
         const mentioned: LinkObject[] = []
-        $('a[href$=".md"]:not(nav a)').each(function (_, element) {
+        $("a[href$='.md']:not(nav a)").each(function (_, element) {
             const linkInText = $(element)
-            const href = linkInText.attr('href')
+            const href = linkInText.attr("href")
             if (!href) {
-                throw new ReferenceError('Missing href attribute')
+                throw new ReferenceError("Missing href attribute")
             }
             let linkedFile = getLinkedFilePath(href, folderPath)
             let link = new FileLink(linkedFile)

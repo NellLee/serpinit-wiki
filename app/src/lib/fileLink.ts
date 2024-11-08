@@ -26,11 +26,11 @@ export class FileLink {
     
         this.path = fullPath.substring(0, lastSlash) 
         const file = fullPath.substring(lastSlash + 1)
-        if(fullPath.lastIndexOf('.') < lastSlash) {
+        if(fullPath.lastIndexOf(".") < lastSlash) {
             this.fileName = file
             this.extension = defaultExtension
         } else {
-            const lastDot = file.lastIndexOf('.')
+            const lastDot = file.lastIndexOf(".")
             this.fileName = file.substring(0, lastDot) 
             this.extension = file.substring(lastDot + 1)
         }
@@ -52,12 +52,12 @@ export class FileLink {
         
         this.descriptiveText = this.text
         
-        const folderName = decodeURIComponent(this.href.split('/').at(-2)?.replaceAll("_", " ")!)
+        const folderName = decodeURIComponent(this.href.split("/").at(-2)?.replaceAll("_", " ")!)
         if (this.fileName != "index") {
             this.descriptiveText = folderName + " > " + this.descriptiveText
         } else {
             if (folderName == "images") {
-                this.descriptiveText = decodeURIComponent(this.href.split('/').at(-3)!) + " > Gallerie"
+                this.descriptiveText = decodeURIComponent(this.href.split("/").at(-3)!) + " > Gallerie"
             }
         }
     }

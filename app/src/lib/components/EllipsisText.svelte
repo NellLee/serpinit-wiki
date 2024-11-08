@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount } from "svelte";
 
 	let container: HTMLDivElement;
 	let textOverflows = false;
 	let tooltipStyle = {
-		top: '0',
-		left: '0',
-		maxWidth: '0'
+		top: "0",
+		left: "0",
+		maxWidth: "0"
 	};
 
 	function checkOverflow() {
@@ -42,7 +42,7 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
 	bind:this={container}
-	class="container {textOverflows ? 'hoverable' : ''}"
+	class="container {textOverflows ? "hoverable" : ""}"
 	on:mouseenter={handleMouseEnter}
 >
 	<slot />

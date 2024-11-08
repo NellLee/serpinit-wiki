@@ -1,6 +1,6 @@
 <script lang="ts">
-	import EllipsisText from './EllipsisText.svelte';
-	import { ChevronRight, Icon } from 'svelte-hero-icons';
+	import EllipsisText from "./EllipsisText.svelte";
+	import { ChevronRight, Icon } from "svelte-hero-icons";
 
 	export let node: LinkNode;
 	export let level = 0;
@@ -17,7 +17,7 @@
 
 <div class="link-node" style="--indentation: {level * 8}px">
 	<div class="node-content">
-		<button class="toggle-button {isCollapsed ? 'collapsed' : ''}" on:click={toggleCollapse}>
+		<button class="toggle-button {isCollapsed ? "collapsed" : ""}" on:click={toggleCollapse}>
 			<Icon src={ChevronRight} solid size="14" />
 		</button>
 		<a href={node.link.href}><EllipsisText>{node.link.text}</EllipsisText></a>

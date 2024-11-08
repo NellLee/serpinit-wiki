@@ -1,30 +1,30 @@
 <script lang="ts">
-	import Sidebar from '$lib/components/Sidebar.svelte';
-	import ContentTree from '$lib/components/ContentTree.svelte';
-	import ReferenceList from '$lib/components/ReferenceList.svelte';
-	import MidPanel from '$lib/components/MidPanel.svelte';
-	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
-	import ContentCard from '$lib/components/ContentCard.svelte';
-	import { TIMELINE_URL } from '$lib/constants.js';
-	import SmallNamedCard from '$lib/components/Card.svelte';
+	import Sidebar from "$lib/components/Sidebar.svelte";
+	import ContentTree from "$lib/components/ContentTree.svelte";
+	import ReferenceList from "$lib/components/ReferenceList.svelte";
+	import MidPanel from "$lib/components/MidPanel.svelte";
+	import Breadcrumbs from "$lib/components/Breadcrumbs.svelte";
+	import ContentCard from "$lib/components/ContentCard.svelte";
+	import { TIMELINE_URL } from "$lib/constants.js";
+	import SmallNamedCard from "$lib/components/Card.svelte";
 
 	export let data;
-	import { onMount } from 'svelte';
+	import { onMount } from "svelte";
 
 	onMount(() => {
-		if ('scrollRestoration' in history) {
-			history.scrollRestoration = 'manual';
+		if ("scrollRestoration" in history) {
+			history.scrollRestoration = "manual";
 		}
 
-		const savedScrollPosition = sessionStorage.getItem('scrollPosition');
+		const savedScrollPosition = sessionStorage.getItem("scrollPosition");
 		if (savedScrollPosition) {
 			setTimeout(() => {
 				window.scrollTo(0, parseInt(savedScrollPosition));
 			}, 0);
 		}
 
-		window.addEventListener('beforeunload', () => {
-			sessionStorage.setItem('scrollPosition', window.scrollY as unknown as string);
+		window.addEventListener("beforeunload", () => {
+			sessionStorage.setItem("scrollPosition", window.scrollY as unknown as string);
 		});
 	});
 </script>

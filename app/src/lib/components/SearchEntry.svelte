@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { onMount, afterUpdate } from 'svelte';
-	import { ChevronDown, ChevronUp, Icon } from 'svelte-hero-icons';
+	import { onMount, afterUpdate } from "svelte";
+	import { ChevronDown, ChevronUp, Icon } from "svelte-hero-icons";
 
 	export let title: string;
 	export let href: string;
@@ -25,7 +25,7 @@
 
 	<div
 		class="excerpts"
-		style={expanded ? 'max-height: none;' : `max-height: ${maxHeight}px;`}
+		style={expanded ? "max-height: none;" : `max-height: ${maxHeight}px;`}
 		bind:this={containerRef}
 	>
 		{#each excerpts as excerpt, index}

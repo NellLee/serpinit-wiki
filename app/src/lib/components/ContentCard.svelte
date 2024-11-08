@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { Fancybox } from '@fancyapps/ui';
-	import '@fancyapps/ui/dist/fancybox/fancybox.css';
-	import { onMount } from 'svelte';
-	import Card from './Card.svelte';
+	import { page } from "$app/stores";
+	import { Fancybox } from "@fancyapps/ui";
+	import "@fancyapps/ui/dist/fancybox/fancybox.css";
+	import { onMount } from "svelte";
+	import Card from "./Card.svelte";
 
 	$: currentPath = $page.url.pathname;
 
@@ -11,13 +11,13 @@
 	export let fancyBoxGallery: boolean = true;
 	export let contentHtml: string;
 	export let overviewHtml: string | null;
-	export let contentMinHeight: string = '70vh';
+	export let contentMinHeight: string = "70vh";
 
 	onMount(() => {
 		if (fancyBoxGallery) {
-			Fancybox.bind('[data-fancybox="gallery"]', {
+			Fancybox.bind("[data-fancybox='gallery']", {
 				Thumbs: {
-					type: 'modern'
+					type: "modern"
 				}
 			});
 		}
@@ -48,8 +48,6 @@
 
 <style lang="scss">
 	.content-card {
-
-
 		#content-body {
 			width: 100%;
 			background-color: var(--secondary-background-color);
@@ -94,6 +92,28 @@
 					width: 100%;
 				}
 			}
+			:global(.img-link) {
+				
+				position: relative;
+				display: block;
+				text-decoration: none;
+
+				:global(.thumbnail) {
+					max-width: 100%;
+				}
+
+				:global(.img-link-text) {
+					width: 100%;
+					position: absolute;
+					bottom: 0;
+					background-color: rgba(61, 61, 61, 0.64); // semi-transparent grey
+					color: white;
+					text-align: center;
+					padding: 5px;
+					box-sizing: border-box;
+				}
+			}
+
 			:global(.todo) {
 				color: red;
 			}
@@ -158,7 +178,6 @@
 
 				:global(figcaption) {
 					position: absolute;
-					bottom: 0;
 					bottom: 2px; // Adjusting for the image border
 					left: 2px; // Adjusting for the image border
 					width: calc(100% - 4px); // Adjusting for the image border on both sides

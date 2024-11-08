@@ -1,7 +1,7 @@
 <script lang="ts">
-	import * as d3 from 'd3';
-	import { assert, error } from 'console';
-	import { getTextMeasure, partitionArray } from '$lib/utilities/utilities';
+	import * as d3 from "d3";
+	import { assert, error } from "console";
+	import { getTextMeasure, partitionArray } from "$lib/utilities/utilities";
 
 	export let timeline: Timeline;
 	export let selectedEvent: TimelineEvent | null = null; // Exported variable for selected event
@@ -46,10 +46,10 @@
 	let zoomIdentityY = d3.zoomIdentity;
 	let zoomIdentityX = d3.zoomIdentity;
 	let localeFormatter = d3.formatLocale({
-		decimal: ',',
-		thousands: '.',
+		decimal: ",",
+		thousands: ".",
 		grouping: [3],
-		currency: ['€', '']
+		currency: ["€", ""]
 	});
 
 	let initialXAxisOffset: number | undefined;
@@ -59,10 +59,10 @@
 
 	let initialised = false;
 	$: if (!initialised && effectiveWidth !== undefined && effectiveHeight !== undefined) {
-		console.log('Initialising');
+		console.log("Initialising");
 
 		if (!effectiveWidth || !effectiveHeight) {
-			throw error(502, 'Timeline cannot be rendered: container has effective size 0');
+			throw error(502, "Timeline cannot be rendered: container has effective size 0");
 		}
 
 		if (translateX === undefined) {
@@ -85,7 +85,7 @@
 	$: eventAxisOffset = 30 * eventZoomScale;
 	const flagWidth = 7;
 	const eventTextPadding = 5;
-	const defaultMeasureFont = '14px Arial';
+	const defaultMeasureFont = "14px Arial";
 
 	function renderTimeline() {
 		scale = d3
@@ -93,19 +93,19 @@
 			.domain([translateX! / zoomScale, (translateX! + effectiveWidth!) / zoomScale])
 			.range([0, effectiveWidth!]);
 
-		axis = d3.axisBottom(scale).tickFormat(localeFormatter.format(','));
-		const axisGroup = d3.select(svg).select<SVGGElement>('g.axis');
+		axis = d3.axisBottom(scale).tickFormat(localeFormatter.format(","));
+		const axisGroup = d3.select(svg).select<SVGGElement>("g.axis");
 		axisGroup.transition().duration(10).call(axis);
-		axisGroup.attr('transform', `translate(0, ${translateY})`);
+		axisGroup.attr("transform", `translate(0, ${translateY})`);
 
 		zoom = d3
 			.zoom<SVGSVGElement, unknown>()
-			.on('zoom', (event: d3.D3ZoomEvent<SVGSVGElement, unknown>) => {
+			.on("zoom", (event: d3.D3ZoomEvent<SVGSVGElement, unknown>) => {
 				let mousePos = d3.pointer(event)
 				
 				let eventTrans = event.transform;
 				if (!effectiveWidth || !effectiveHeight) {
-					console.error('Timeline cannot be zoomed: container has effective size 0');
+					console.error("Timeline cannot be zoomed: container has effective size 0");
 					return;
 				}
 				translateX = initialXAxisOffset! - eventTrans.x - zoomIdentityX.x ;
@@ -127,9 +127,9 @@
 		transformY = () => d3.zoomTransform(axisGroup.node()!);
 		d3.select(svg).call(zoom);
 		
-        const timelineDiv = document.getElementsByClassName('timeline')[0];
+        const timelineDiv = document.getElementsByClassName("timeline")[0];
 
-        timelineDiv.addEventListener('mousemove', (event: any) => {
+        timelineDiv.addEventListener("mousemove", (event: any) => {
             const rect = timelineDiv.getBoundingClientRect();
             const x = event.clientX - rect.left;
             const y = event.clientY - rect.top;
@@ -140,60 +140,60 @@
 	}
 
 	function renderCursor(mousePos: [number, number]) {
-		d3.select(svg).selectAll('line.cursor-line').remove();
+		d3.select(svg).selectAll("line.cursor-line").remove();
 		if(mousePos) {
 			d3.select(svg)
-				.append('line')
-				.attr('class', 'cursor-line')
-				.attr('x1', mousePos[0])
-				.attr('x2', mousePos[0])
-				.attr('y1', 0)
-				.attr('y2', effectiveHeight!)
-				.attr('stroke', 'blue')
-				.attr('stroke-width', 1)
-				.attr('stroke-opacity', 0.5);
+				.append("line")
+				.attr("class", "cursor-line")
+				.attr("x1", mousePos[0])
+				.attr("x2", mousePos[0])
+				.attr("y1", 0)
+				.attr("y2", effectiveHeight!)
+				.attr("stroke", "blue")
+				.attr("stroke-width", 1)
+				.attr("stroke-opacity", 0.5);
 		}
 	}
 
 	function renderTickLines() {
-		d3.select(svg).selectAll('line.tick').remove();
-		d3.select(svg).selectAll('line.zero-line').remove();
+		d3.select(svg).selectAll("line.tick").remove();
+		d3.select(svg).selectAll("line.zero-line").remove();
 
 		d3.select(svg)
-			.selectAll('line.tick')
+			.selectAll("line.tick")
 			.data(scale.ticks())
 			.enter()
-			.append('line')
-			.attr('class', 'tick')
-			.attr('x1', (tick) => scale(tick))
-			.attr('x2', (tick) => scale(tick))
-			.attr('y1', 0)
-			.attr('y2', effectiveHeight!)
-			.attr('stroke', 'black')
-			.attr('stroke-dasharray', '2,2')
-			.attr('stroke-opacity', 0.5);
+			.append("line")
+			.attr("class", "tick")
+			.attr("x1", (tick) => scale(tick))
+			.attr("x2", (tick) => scale(tick))
+			.attr("y1", 0)
+			.attr("y2", effectiveHeight!)
+			.attr("stroke", "black")
+			.attr("stroke-dasharray", "2,2")
+			.attr("stroke-opacity", 0.5);
 
 		const zeroTick = scale(0);
 		d3.select(svg)
-			.append('line')
-			.attr('class', 'zero-line')
-			.attr('x1', zeroTick)
-			.attr('x2', zeroTick)
-			.attr('y1', 0)
-			.attr('y2', effectiveHeight!)
-			.attr('stroke', 'red')
-			.attr('stroke-width', 1)
-			.attr('stroke-opacity', 0.5);
+			.append("line")
+			.attr("class", "zero-line")
+			.attr("x1", zeroTick)
+			.attr("x2", zeroTick)
+			.attr("y1", 0)
+			.attr("y2", effectiveHeight!)
+			.attr("stroke", "red")
+			.attr("stroke-width", 1)
+			.attr("stroke-opacity", 0.5);
 	}
 
 	function renderEvents() {
-		const eventGroup = d3.select(svg).select<SVGGElement>('.events');
+		const eventGroup = d3.select(svg).select<SVGGElement>(".events");
 
 		if (!eventGroup.empty()) {
 			eventGroup.remove();
 		}
 
-		const events = d3.select(svg).append('g').attr('class', 'events');
+		const events = d3.select(svg).append("g").attr("class", "events");
 
 		const eventData: EventConfig[] = timeline.map((event) => {
 			let isContainer = false;
@@ -276,89 +276,89 @@
 			renderEvents();
 		};
 
-		const conditionalSelectedColor = (d: EventConfig) => d.event == selectedEvent ? 'red': 'black';
+		const conditionalSelectedColor = (d: EventConfig) => d.event == selectedEvent ? "red": "black";
 		const conditionalSelectedWidth = (d: EventConfig) => d.event == selectedEvent ? 3 : 1;
 
 		events
-			.selectAll('line.moment')
+			.selectAll("line.moment")
 			.data(momentEvents)
 			.enter()
-			.append('line')
-			.attr('class', 'moment')
-			.attr('x1', (d) => d.x)
-			.attr('x2', (d) => d.x)
-			.attr('y1', (d) => d.y + d.height)
-			.attr('y2', (d) => getOriginY(d))
-			.attr('stroke', 'black');
+			.append("line")
+			.attr("class", "moment")
+			.attr("x1", (d) => d.x)
+			.attr("x2", (d) => d.x)
+			.attr("y1", (d) => d.y + d.height)
+			.attr("y2", (d) => getOriginY(d))
+			.attr("stroke", "black");
 
 		events
-			.selectAll('circle.moment-dot')
+			.selectAll("circle.moment-dot")
 			.data(momentEvents)
 			.enter()
-			.append('circle')
-			.attr('class', 'moment-dot')
-			.attr('cx', (d) => d.x)
-			.attr('cy', (d) => getOriginY(d))
-			.attr('r', 3)
-			.attr('fill', 'black');
+			.append("circle")
+			.attr("class", "moment-dot")
+			.attr("cx", (d) => d.x)
+			.attr("cy", (d) => getOriginY(d))
+			.attr("r", 3)
+			.attr("fill", "black");
 
 		events
-			.selectAll('path.moment-flag')
+			.selectAll("path.moment-flag")
 			.data(momentEvents)
 			.enter()
-			.append('path')
-			.attr('class', 'moment-flag')
-			.attr('d', (d) => {
+			.append("path")
+			.attr("class", "moment-flag")
+			.attr("d", (d) => {
 				const flagHeight = d.height;
 				const flagX = d.x + d.width;
 				const flagY = d.y;
 				return `M${d.x},${flagY} L${flagX + flagWidth},${flagY} L${flagX},${flagY + flagHeight / 2} L${flagX + flagWidth},${flagY + flagHeight} L${d.x},${flagY + flagHeight} Z`;
 			})
-			.attr('fill', (d) => d.event.category!.color) //TODO
-			.attr('stroke', conditionalSelectedColor)
-			.attr('stroke-width', conditionalSelectedWidth)
-			.on('click', handleEventClick)
-			.style('cursor', 'pointer')
-			.append('title')
-			.text((d) => d.event.text ?? '');
+			.attr("fill", (d) => d.event.category!.color) //TODO
+			.attr("stroke", conditionalSelectedColor)
+			.attr("stroke-width", conditionalSelectedWidth)
+			.on("click", handleEventClick)
+			.style("cursor", "pointer")
+			.append("title")
+			.text((d) => d.event.text ?? "");
 
 		events
-			.selectAll('rect.event')
+			.selectAll("rect.event")
 			.data([containerEvents, containedEvents, normalEvents].flat())
 			.enter()
-			.append('rect')
-			.attr('class', 'event')
-			.attr('x', (d) => d.x)
-			.attr('width', (d) => d.width)
-			.attr('y', (d) => d.y)
-			.attr('height', (d) => d.height)
-			.attr('fill', (d) => d.event.category!.color) //TODO
-			.attr('stroke', conditionalSelectedColor)
-			.attr('stroke-width', conditionalSelectedWidth)
-			.on('click', handleEventClick)
-			.style('cursor', 'pointer')
-			.append('title')
-			.text((d) => d.event.text ?? '');
+			.append("rect")
+			.attr("class", "event")
+			.attr("x", (d) => d.x)
+			.attr("width", (d) => d.width)
+			.attr("y", (d) => d.y)
+			.attr("height", (d) => d.height)
+			.attr("fill", (d) => d.event.category!.color) //TODO
+			.attr("stroke", conditionalSelectedColor)
+			.attr("stroke-width", conditionalSelectedWidth)
+			.on("click", handleEventClick)
+			.style("cursor", "pointer")
+			.append("title")
+			.text((d) => d.event.text ?? "");
 
 		events
-			.selectAll('text.event-label')
+			.selectAll("text.event-label")
 			.data(partitionedEvents.flat())
 			.enter()
-			.append('text')
-			.attr('class', 'event-label')
-			.attr('x', (d) => d.x + eventTextPadding)
+			.append("text")
+			.attr("class", "event-label")
+			.attr("x", (d) => d.x + eventTextPadding)
 			.attr(
-				'y',
+				"y",
 				(d) =>
-					d.y + eventHeight / 2 + (getTextMeasure('W', defaultMeasureFont)?.emHeightAscent ?? 0) / 2
+					d.y + eventHeight / 2 + (getTextMeasure("W", defaultMeasureFont)?.emHeightAscent ?? 0) / 2
 			)
-			.attr('fill', (d) => d.event.category!.font_color) //TODO
+			.attr("fill", (d) => d.event.category!.font_color) //TODO
 			.text((d) => d.text)
 			.each((d, i, nodes) => stripText(nodes[i], d.width))
-			.on('click', handleEventClick)
-			.style('cursor', 'pointer')
-			.append('title')
-			.text((d) => d.event.text ?? '');
+			.on("click", handleEventClick)
+			.style("cursor", "pointer")
+			.append("title")
+			.text((d) => d.event.text ?? "");
 	}
 
 	function layoutUpperRows(momentEvents: EventConfig[]) {
@@ -456,11 +456,11 @@
 		let text = self.text();
 		while (textLength > width - 2 * eventTextPadding && text.length > 0) {
 			text = text.slice(0, -1);
-			self.text(text + '\u2026');
+			self.text(text + "\u2026");
 			textLength = self.node()!.getComputedTextLength();
 		}
 		if (text.length == 0) {
-			text = '...';
+			text = "...";
 			while (textLength > width - 2 * eventTextPadding && text.length > 0) {
 				text = text.slice(0, -1);
 				self.text(text);

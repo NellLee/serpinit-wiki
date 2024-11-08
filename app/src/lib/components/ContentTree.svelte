@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ContentTreeNode from './ContentTreeNode.svelte';
+	import ContentTreeNode from "./ContentTreeNode.svelte";
 	export let linkTree: LinkTree;
 </script>
 

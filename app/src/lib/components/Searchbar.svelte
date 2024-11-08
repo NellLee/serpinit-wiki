@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { debounce } from '$lib/utilities/utilities';
-	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
+	import { debounce } from "$lib/utilities/utilities";
+	import { Icon, MagnifyingGlass } from "svelte-hero-icons";
 
-	let searchText = '';
+	let searchText = "";
 	let searchResults: any[] = [];
 	let showResults = false;
 	let isFocused = false;
@@ -15,7 +15,7 @@
 				(result: any) => (result.item = JSON.parse(result.item as unknown as string))
 			);
 			searchResults = results.map((result: any) => {
-				const regex = new RegExp(`(${searchText.trim()})`, 'gi'); // Create a regex for the search text (case insensitive)
+				const regex = new RegExp(`(${searchText.trim()})`, "gi"); // Create a regex for the search text (case insensitive)
 				return {
 					href: result.item.href,
 					text: result.item.title.replace(regex, `<strong>$1</strong>`) // Replace with bolded version
@@ -79,7 +79,7 @@
 			</div>
 			<div id="content-search">
 				<a href={`/content/search?q=${encodeURIComponent(searchText.trim())}&includeContent=true`}>
-					Search for pages containing '{searchText}'
+					Search for pages containing "{searchText}"
 				</a>
 			</div>
 		</div>

@@ -1,36 +1,36 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
-	import MidPanel from '$lib/components/MidPanel.svelte';
-	import SearchEntry from '$lib/components/SearchEntry.svelte';
-	import Sidebar from '$lib/components/Sidebar.svelte';
-	import { onMount } from 'svelte';
-	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
+	import { goto } from "$app/navigation";
+	import MidPanel from "$lib/components/MidPanel.svelte";
+	import SearchEntry from "$lib/components/SearchEntry.svelte";
+	import Sidebar from "$lib/components/Sidebar.svelte";
+	import { onMount } from "svelte";
+	import { Icon, MagnifyingGlass } from "svelte-hero-icons";
 
-	let searchInput: string = '';
+	let searchInput: string = "";
 	let includeCategories: boolean = false;
 	let includeContent: boolean = false;
 
 	function newSearch() {
 		const params = new URLSearchParams();
 		if (searchInput) {
-			params.set('q', encodeURIComponent(searchInput));
+			params.set("q", encodeURIComponent(searchInput));
 		}
 		if (includeCategories) {
-			params.set('includeCategories', 'true');
+			params.set("includeCategories", "true");
 		}
 		if (includeContent) {
-			params.set('includeContent', 'true');
+			params.set("includeContent", "true");
 		}
 		goto(`?${params.toString()}`);
 	}
 
-	const title = 'Suchergebnisse';
+	const title = "Suchergebnisse";
 
 	onMount(() => {
 		const params = new URLSearchParams(window.location.search);
-		searchInput = params.get('q') || '';
-		includeCategories = params.get('includeCategories') === 'true';
-		includeContent = params.get('includeContent') === 'true';
+		searchInput = params.get("q") || "";
+		includeCategories = params.get("includeCategories") === "true";
+		includeContent = params.get("includeContent") === "true";
 	});
 
 	export let data;

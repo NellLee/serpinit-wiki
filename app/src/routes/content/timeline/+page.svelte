@@ -1,12 +1,12 @@
 <script lang="ts">
-	import MidPanel from '$lib/components/MidPanel.svelte';
-	import Sidebar from '$lib/components/Sidebar.svelte';
-	import Timeline from '$lib/components/Timeline.svelte';
-	import { WIKI_URL } from '$lib/constants.js';
-	import { onMount } from 'svelte';
-	import Card from '$lib/components/Card.svelte';
+	import MidPanel from "$lib/components/MidPanel.svelte";
+	import Sidebar from "$lib/components/Sidebar.svelte";
+	import Timeline from "$lib/components/Timeline.svelte";
+	import { WIKI_URL } from "$lib/constants.js";
+	import { onMount } from "svelte";
+	import Card from "$lib/components/Card.svelte";
 
-	const title = 'Timeline';
+	const title = "Timeline";
 	export let data;
 
 	let selectedEvent: TimelineEvent | null = null;

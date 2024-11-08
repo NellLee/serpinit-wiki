@@ -1,13 +1,13 @@
 
-import type { MarkdownPage } from '$lib/markdownPage.js';
-import { getLinkedFilePath } from '$lib/utilities/links';
-import { initWiki, loadMarkdownPage } from '$lib/wiki';
-import { error, json } from '@sveltejs/kit';
+import type { MarkdownPage } from "$lib/markdownPage.js";
+import { getLinkedFilePath } from "$lib/utilities/links";
+import { initWiki, loadMarkdownPage } from "$lib/wiki";
+import { error, json } from "@sveltejs/kit";
 
 initWiki()
 
 export function GET({url}) {
-    const file = url.searchParams.get('file');
+    const file = url.searchParams.get("file");
     if(!file) {
         throw error(400, "URL parameter 'file' required")
     }

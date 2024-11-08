@@ -1,13 +1,13 @@
 
-import { MarkdownPage } from '$lib/markdownPage';
-import path from 'path'
-import { getFilePathsInFolder, getFrontendSafePath } from './utilities/files';
-import { error } from '@sveltejs/kit';
-import fs from 'fs'
-import * as cheerio from 'cheerio'
-import Fuse from 'fuse.js';
-import { initTimeline, timeline } from './timeline';
-import { on } from 'events';
+import { MarkdownPage } from "$lib/markdownPage";
+import path from "path"
+import { getFilePathsInFolder, getFrontendSafePath } from "./utilities/files";
+import { error } from "@sveltejs/kit";
+import fs from "fs"
+import * as cheerio from "cheerio"
+import Fuse from "fuse.js";
+import { initTimeline, timeline } from "./timeline";
+import { on } from "events";
 
 export const wiki: Map<string, MarkdownPage> = new Map()
 export const cache: Map<string, string> = new Map()
@@ -45,11 +45,11 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
         if (cache.get(markdownForCache) == fullPath) {
             console.log(`File "${getFrontendSafePath(fullPath)}" has been loaded from the cache.`)
             if (!wiki.has(fullPath)) {
-                throw error(500, `Cache has entry for '${getFrontendSafePath(fullPath)}', but wiki has not.`)
+                throw error(500, `Cache has entry for "${getFrontendSafePath(fullPath)}", but wiki has not.`)
             }
             page = wiki.get(fullPath)!
         } else {
-            console.log(`First page load for '${getFrontendSafePath(fullPath)}' or markdown content has changed.`)
+            console.log(`First page load for "${getFrontendSafePath(fullPath)}" or markdown content has changed.`)
             page = new MarkdownPage(fullPath)
         }
     }
@@ -61,13 +61,13 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
 export function search(query: string, includeCategories: boolean = false, includeContent: boolean = false): SearchResult<MarkdownPage>[] {
     const pages: MarkdownPage[] = Array.from(wiki.values())
     let keys = [
-        { name: 'title', weight: 5 },
+        { name: "title", weight: 5 },
     ]
     if (includeCategories) {
-        keys.push({ name: 'categories.text', weight: 10 })
+        keys.push({ name: "categories.text", weight: 10 })
     } 
     if (includeContent) {
-        keys.push({ name: 'contentHtml', weight: 1 })
+        keys.push({ name: "contentHtml", weight: 1 })
     } 
     const fuse = new Fuse(pages, {
         keys,
@@ -110,29 +110,29 @@ export function search(query: string, includeCategories: boolean = false, includ
 function createExcerpts(html: string, query: string, pageHref: string): string[] {
     const $ = cheerio.load(html);
 
-    $('img').each((_, img) => {
-        const altText = $(img).attr('alt');
+    $("img").each((_, img) => {
+        const altText = $(img).attr("alt");
         const altTextFormatted = `[Image${altText ? ": " + altText : ""}]`;
         $(img).replaceWith($(`<p>${altTextFormatted}</p>`));
     });
 
     const headerParagraphMap: { [key: string]: string } = {}
 
-    $('body > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6)').each((_, element) => {
-        const tagName = $(element).prop('tagName').toLowerCase();
+    $("body > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6)").each((_, element) => {
+        const tagName = $(element).prop("tagName").toLowerCase();
         const content = $(element).text();
         const contentHtml = $(element).html()!;
 
         if (content.toLowerCase().includes(query.toLowerCase())) {
-            let parentHeader = $(element).prevAll('h1, h2, h3, h4, h5, h6').first();
+            let parentHeader = $(element).prevAll("h1, h2, h3, h4, h5, h6").first();
             if (parentHeader.length === 0) {
-                parentHeader = $(element).parent().prevAll('h1, h2, h3, h4, h5, h6').first();
+                parentHeader = $(element).parent().prevAll("h1, h2, h3, h4, h5, h6").first();
             }
 
             const headerHtml = $.html($(parentHeader));
-            const headerLink = `<a href="${pageHref}#${parentHeader.attr('id')}">${headerHtml}</a>`;
+            const headerLink = `<a href="${pageHref}#${parentHeader.attr("id")}">${headerHtml}</a>`;
 
-            const highlightedContentHtml = contentHtml.replace(new RegExp(`(${query})`, 'gi'), '<mark>$1</mark>');
+            const highlightedContentHtml = contentHtml.replace(new RegExp(`(${query})`, "gi"), "<mark>$1</mark>");
             const trimmedContentHtml = trimToWordLimit(highlightedContentHtml, query, 50);
             if (headerParagraphMap[headerLink]) {
                 headerParagraphMap[headerLink] += `<${tagName}>${trimmedContentHtml}</${tagName}>`
@@ -148,7 +148,7 @@ function createExcerpts(html: string, query: string, pageHref: string): string[]
 
 function trimToWordLimit(paragraph: string, query: string, wordLimit: number): string {
     const sentences = paragraph.match(/[^\.!\?]+[\.!\?]+/g) || [paragraph];
-    const queryWords = query.split(' ');
+    const queryWords = query.split(" ");
 
     const queryIndices = sentences.reduce((indices, sentence, index) => {
         if (queryWords.some(qw => sentence.toLowerCase().includes(qw.toLowerCase()))) {
@@ -158,21 +158,21 @@ function trimToWordLimit(paragraph: string, query: string, wordLimit: number): s
     }, [] as number[]);
 
     if (queryIndices.length === 0) {
-        const words = paragraph.split(' ').slice(0, wordLimit);
-        return words.join(' ') + (words.length < paragraph.split(' ').length ? " [...]" : "");
+        const words = paragraph.split(" ").slice(0, wordLimit);
+        return words.join(" ") + (words.length < paragraph.split(" ").length ? " [...]" : "");
     }
 
     let start = Math.max(0, queryIndices[0]);
     let end = start;
 
-    let wordCount = sentences[start].split(' ').length;
+    let wordCount = sentences[start].split(" ").length;
 
-    while (end + 1 < sentences.length && wordCount + sentences[end + 1].split(' ').length <= wordLimit) {
+    while (end + 1 < sentences.length && wordCount + sentences[end + 1].split(" ").length <= wordLimit) {
         end++;
-        wordCount += sentences[end].split(' ').length;
+        wordCount += sentences[end].split(" ").length;
     }
 
-    let result = sentences.slice(start, end + 1).join(' ');
+    let result = sentences.slice(start, end + 1).join(" ");
 
     if (start > 0) {
         result = "[...] " + result;

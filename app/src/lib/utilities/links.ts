@@ -1,5 +1,5 @@
 import { FileLink } from "$lib/fileLink"
-import path from 'path'
+import path from "path"
 import { WIKI_PATH } from "../wiki"
 import { WIKI_URL } from "$lib/constants"
 
@@ -28,16 +28,16 @@ export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
 
 export function generateBreadcrumbs(url: string) {
     let breadcrumbs = []
-    let constructed = ''
+    let constructed = ""
     let segments = url
-        .split('/')
-        .filter((segment) => segment !== '' && !segment.endsWith('.md'))
+        .split("/")
+        .filter((segment) => segment !== "" && !segment.endsWith(".md"))
     for (let [i, segment] of segments.entries()) {
-        constructed += '/' + segment
+        constructed += "/" + segment
         let linkedFilePath = getLinkedFilePath(constructed)
         let text = new FileLink(linkedFilePath).fileName
-        if (segment == 'content') {
-            text = 'Home'
+        if (segment == "content") {
+            text = "Home"
         }
         breadcrumbs.push({
             text,

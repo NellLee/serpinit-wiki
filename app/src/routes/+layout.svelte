@@ -4,10 +4,10 @@
 </svelte:head>
 
 <script lang="ts">
-	import Navbar from '$lib/components/Navbar.svelte';
+	import Navbar from "$lib/components/Navbar.svelte";
 
-	import { onMount } from 'svelte';
-	import { Icon, ChevronUp } from 'svelte-hero-icons';
+	import { onMount } from "svelte";
+	import { Icon, ChevronUp } from "svelte-hero-icons";
 
 	let scrollY = 0;
 
@@ -18,15 +18,15 @@
 	const scrollToTop = () => {
 		window.scrollTo({
 			top: 0,
-			behavior: 'smooth'
+			behavior: "smooth"
 		});
 	};
 
 	onMount(() => {
-		window.addEventListener('scroll', handleScroll);
+		window.addEventListener("scroll", handleScroll);
 
 		return () => {
-			window.removeEventListener('scroll', handleScroll);
+			window.removeEventListener("scroll", handleScroll);
 		};
 	});
 </script>
@@ -35,16 +35,16 @@
 	<Navbar
 		items={[
 			{
-				href: '/content',
-				text: 'Wiki'
+				href: "/content",
+				text: "Wiki"
 			},
 			{
-				href: '/content/timeline',
-				text: 'Timeline'
+				href: "/content/timeline",
+				text: "Timeline"
 			},
 			{
-				href: '/convert',
-				text: 'Converter'
+				href: "/convert",
+				text: "Converter"
 			}
 		]}
 	/>
@@ -106,7 +106,7 @@
 
 	:global(main) {
 		width: 100%;
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 14px;
 		line-height: 1.428571429;
 		margin: 0;
