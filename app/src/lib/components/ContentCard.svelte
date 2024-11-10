@@ -93,24 +93,22 @@
 				}
 			}
 			:global(.img-link) {
-				
+				border: rgb(95, 95, 95) 2px solid;
+				background-color: var(--primary-background-color);
+				border-radius: 10px;
+				padding: 10px 5px;
 				position: relative;
 				display: block;
-				text-decoration: none;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
 				:global(.thumbnail) {
 					max-width: 100%;
+					padding: 20px;
 				}
 
 				:global(.img-link-text) {
 					width: 100%;
-					position: absolute;
-					bottom: 0;
-					background-color: rgba(61, 61, 61, 0.64); // semi-transparent grey
-					color: white;
 					text-align: center;
-					padding: 5px;
-					box-sizing: border-box;
 				}
 			}
 
