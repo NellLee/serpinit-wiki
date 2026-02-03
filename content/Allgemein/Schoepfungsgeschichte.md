@@ -18,20 +18,27 @@ Damit gab Creapatos ihnen eine äußerst abgeschwächte Form seiner eigenen Fäh
 
 ### Die Ovelären Planeten & die Elementdrachen
 
-Nachdem Creapatos die Sgrisignier erschaffen hatte, beschloss er sich zur Ruhe zu setzen und seine Welt von nun nicht mehr aktiv zu beeinflussen.
-Daher spaltete er sein magisches Wesen in 4 göttliche Teile. Jedes Teil band sich an einen der folgenden Himmelskörper des Planetensystems:
+Nachdem Creapatos die Sgrisignier erschaffen hatte, setzte er sich zur Ruhe und nahm sich vor seine Welt von nun an nicht mehr aktiv zu beeinflussen.
+Dafür löste er seine physische Form komplett auf und verteilte seine Energie gleichmäßig über ganz Wymen.
+Diese Entscheidung hatte allerdings bedeutsame Nebenwirkungen, welche von Creapatos nicht direkt vorgesehen waren.
+Trotz ihrer langfristigen Tragweite entschied sich der Drachengott gegen jede Form der Intervention und ließ der Natur ihren freien Lauf.
+Im Detail begann das aufgeladene Wymen in Wechselwirkung mit starken Gravitationskräften zu treten.
+Das Zentrum solcher Gravitationskräfte formte eine minimale Menge der göttlichen magischen Substanz aus der auch Creapatos selbst gemacht ist.
+Dies passierte insbesondere in den folgenden Himmelskörpern des Planetensystems:
 
 - [Agranum](../Himmelskoerper_/Agranum/index.md)
 - [Luqua](../Himmelskoerper_/Luqua/index.md)
 - [Mognar](../Himmelskoerper_/Mognar/index.md)
 - [Navura](../Himmelskoerper_/Navura/index.md)
 
+TODO: Das betrifft natürlich auch Ikus. Verschiebt habitable Zone und begründet Eigenschaften des jeweiligen Planeten.
+
 Diese 4 Planeten nahmen die Kraft Creapatos' in ihren Kern auf und wurden zu den vier **Ovelären** Himmelskörpern. Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und zum anderen einen Persönlichkeitsaspekt des ursprünglichen Drachengottes.
 Dabei kann man sich jeden dieser 4 Planetenkerne als ein riesiges Drachenei bestehend aus göttlicher magischer Substanz vorstellen. Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
 
 - Luft: **Aerion**, das Vertrauen (Agranum)
-- Wasser: **Fluero**, die Trauer (Luqua)
-- Feuer: **Ignatius**, die Wut (Mognar)
+- Wasser: **Fluero**, die Wehmut (Luqua)
+- Feuer: **Ignatius**, die Rage (Mognar)
 - Erde: **Silvaa**, die Güte (Navura)
 
 Seit jeher fürchten die modernen Völker, dass die göttlichen Elementardrachen eines Tages aus ihren Eiern schlüpfen und
