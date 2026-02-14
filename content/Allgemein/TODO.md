@@ -2,6 +2,8 @@
 
 Folgende Themen/Ideen/Anregungen müssen umgesetzt und sortiert werden:
 
+## Mavorak als schwarzes Loch streichen und stattdessen 
+
 ## Timeline
 
 Timeline interaktiv visualisieren
