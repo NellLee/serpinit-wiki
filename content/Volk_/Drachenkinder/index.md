@@ -76,6 +76,8 @@ Sylvanars kein Bleiberecht auf dem Planeten hätten und hegen den Wunsch sie zu 
 Und schließlich hat Fluero ihnen magisches Blut geschenkt, welches ihre direkte Verwandtschaft zu den Drachen
 symbolisiert.
 
+Tatsächlich haben die Drachenkinder nur zu Ignatius eine direkte Verbindung, dessen Hitze ihr Blut zum Kochen bringen kann, und so ihre instinktiven magischen Kräfte speist.
+
 # Magische Fähigkeiten
 
 Als die Drachenkinder geschaffen wurden, stattete sie Ignatius neben ihrem magischen Blut mit magischen Schwingen und

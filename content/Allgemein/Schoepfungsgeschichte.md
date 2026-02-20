@@ -22,16 +22,14 @@ Nachdem Creapatos die Sgrisignier erschaffen hatte, setzte er sich zur Ruhe und 
 Dafür löste er seine physische Form komplett auf und verteilte seine Energie gleichmäßig über ganz Wymen.
 Diese Entscheidung hatte allerdings bedeutsame Nebenwirkungen.
 Trotz ihrer langfristigen Tragweite entschied sich der Drachengott weiterhin gegen eine Intervention und ließ der Welt ihren freien Lauf.
-Im Detail begann das aufgeladene Wymen in Wechselwirkung mit starken Gravitationskräften zu treten.
-Das Zentrum solcher Gravitationskräfte formte eine minimale Menge der göttlichen magischen Substanz aus der auch Creapatos selbst gemacht ist.
+Im Detail begann das aufgeladene Wymen in Wechselwirkung mit einigen Himmelskörpern zu treten.
+Im Kern dieser Planeten manifestierte sich jeweils ein Teil göttliche magische Substanz, aus welcher auch Creapatos selbst gemacht ist.
 Dies passierte insbesondere in den folgenden Himmelskörpern des Planetensystems:
 
 - [Agranum](../Himmelskoerper_/Agranum/index.md)
 - [Luqua](../Himmelskoerper_/Luqua/index.md)
 - [Mognar](../Himmelskoerper_/Mognar/index.md)
 - [Navura](../Himmelskoerper_/Navura/index.md)
-
-TODO: Das betrifft natürlich auch Ikus. Verschiebt habitable Zone und begründet Eigenschaften des jeweiligen Planeten.
 
 Diese 4 Planeten nahmen die Kraft Creapatos' in ihren Kern auf und wurden zu den vier **Ovelären** Himmelskörpern. Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und zum anderen einen Persönlichkeitsaspekt des ursprünglichen Drachengottes.
 Dabei kann man sich jeden dieser 4 Planetenkerne als ein riesiges Drachenei bestehend aus göttlicher magischer Substanz vorstellen. Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:

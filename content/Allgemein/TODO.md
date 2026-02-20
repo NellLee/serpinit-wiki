@@ -16,10 +16,6 @@ Timeline interaktiv visualisieren
 - Wasser hineinhalten und Verfärbungen o.ä. einschätzen
 - Auswirkungen auf Pflanzen
 
-Mavorak und Ikus würden prinzipiell keine habitable Zone zulassen. Creapatos hat das Zentrum des Serpinit-Systems jedoch
-mit einer starken Magie-Blase umgeben, welche die tödliche Strahlung abfängt und in einer unnatürlich breiten habitablen
-Zone resultierte, um genügend Spielraum für seine Kreaturen zu schaffen.
-
 Die Sylvanars ernten riesige Baumperlen.
 
 Magische Substanz durch Quasi-Sterne entstanden?
@@ -45,7 +41,8 @@ Invasion. Doch während sie auf Navura einen aktiven Krieg gegen die Sylvanars f
 vorerst nur Stützpunkte.
 
 Schließlich formulierten die Sylvanars einen der größten Naturzauber in der Geschichte, womit sie die angreifenden
-Drachenkinder um ihre magischen Fähigkeiten brachten. [Wie richten sie die Magie gegen ALLE Drachenkinder?]
+Drachenkinder um ihre magischen Fähigkeiten brachten. 
+Der Zauber richtete sich gegen die Quelle der Macht der Drachenkinder und schwächte die Rage, Ignatius, ab.
 
 
 ## 2D Runen?
