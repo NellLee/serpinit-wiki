@@ -22,7 +22,7 @@ Um die anderen Lebewesen auf Agranum weitesgehend von den Auswirkungen seines im
 Diese sogenannte **Gravidblase** trug sämtliche Landmassen mit sich in die Höhe, wo sie schließlich in ca.
 35 km Höhe zum Stehen kamen.
 Auf dieser Blase schwebten fortan die Kontinentalplatten von Agranum und mit ihr die verbleibenden 15 % allen Lebens.
-Die magische Reaktion Aerions führte trotzdem nicht nur zu diesem katastrophalen Massenaussterben auf Agranum, sondern auch zur psychischen Verstümmelung der [Lateralen](/content/Volk_/Lateralen_/index.md).
+Die magische Reaktion Aerions führte trotzdem nicht nur zu diesem katastrophalen Massenaussterben auf Agranum, sondern auch zur psychischen Verstümmelung der [Lateralen](/content/Volk_/Lateralen_/index.md). Bei ihren Nachfahren blieb darüber hinaus eine magische Fehlstelle im Gehirn zurück, welche für die spätere Entwicklung von Micus und Conius-Therapien von zentraler Bedeutung werden sollte.
 
 ## Die Gravidblase und die Gravitationsozeane 
 

@@ -62,7 +62,7 @@ den _homo primian_ zu experimentieren. Sie erschufen z. B. kleine Runensteine, w
 in ein vordefiniertes Tier verwandelten. Als die Sgrisignier schließlich von Aerion vernichtet wurden, so richtete sich
 seine Magie jedoch daher auch gegen die _homo primian_ von Agranum. Zwar wurden sie nicht direkt vernichtet, doch der
 Einfluss von Aerions Magie war groß genug um bleibende psychische Schäden bei allen Vertretern dieser Art auf Agranum zu
-verursachen.
+verursachen. Besonders folgenschwer war dabei, dass sich diese Beschädigung nicht nur auf die Psyche beschränkte, sondern bei ihren Nachfahren sogar eine magische Fehlkopplung im Gehirn hinterließ.
 Der _homo primian_ hat sich nach dem fall der Sgrisignier über Jahrtausende auf den jeweiligen Planeten zu den modernen
 Arten entwickelt. Dabei wurde die natürliche Evolution auf den Ovelären Planeten extrem von der jeweiligen Kernmagie
 beeinflusst, sodass die meisten Wesen dieser Planeten später ein gewisses Maß an intuitiver Magie in sich trugen.

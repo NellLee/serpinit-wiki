@@ -20,7 +20,7 @@ Trotz der starken Streuung der Sodili blieb ihre Hauptstadt [Carpebur](../../Him
 
 Die Lateralen leben in einer Monarchie. Es gibt zu jeder Zeit einen König der in einem großen Palast in Carpebur lebt.
 Der König vertritt die Lateralen im politischen Sinne und führt außerdem die Do-Uspil aus, für die jeder Laterale einmal in
-seinem Leben zu der Hauptstadt pilgern muss.
+seinem Leben zu der Hauptstadt pilgern muss. Gerade für die Sodili liegt in dieser Aufgabe weit mehr als ein bloßer Brauch. Der König gilt ihnen als jenes Wesen, welches die gefährliche Magie in einem jungen Lateralen zu ordnen vermag, damit aus innerem Zwiespalt ein lebensfähiger Micu hervorgeht.
 
 Der tatsächliche politische Einflussbereich des Königs beschränkt sich jedoch auf die Hauptstadt und deren Ländereien.
 Das Volk der Lateralen hat sich zu weit verteilt, als dass es in einem einzigen politischen System komplett abgedeckt
@@ -38,6 +38,8 @@ Sodili leben nach der Ikusation häufig auch Vertreter der anderen Völker.
 
 # Theologie & Magie
 
+Für die Sodili sind Glaube und Magie kaum voneinander zu trennen. Die zweite Persönlichkeit wird von ihnen nicht als bloße Krankheit verstanden, sondern als ein ihnen innewohnendes Gegenüber, welches nur darauf wartet im rechten Augenblick erkannt zu werden. Dass ein ungeordneter Umgang mit diesem inneren Wesen zu Leid, Wahnsinn oder einem qualvollen Schlaf führen kann, ist dabei im allgemeinen Bewusstsein fest verankert. Entsprechend ranken sich um die Do-Uspil zahllose religiöse Vorstellungen, welche den König nicht als Schöpfer des Micu, sondern als rechtmäßigen Führer durch einen gefährlichen Übergang deuten.
+
 # Aussehen
 
 ## Mode
@@ -45,3 +47,7 @@ Sodili leben nach der Ikusation häufig auch Vertreter der anderen Völker.
 # Theologie
 
 # Magische Fähigkeiten
+
+Die Magie der Sodili äußert sich zunächst nicht in Runen, Artefakten oder anderen bewusst gewirkten Zaubern. Sie liegt im eigenen Geist begründet. Seit der Impuls-Eruption wirkt bei ihnen fortwährend Magie auf die Denkprozesse ein, wodurch sich früh eine zweite Persönlichkeit ausbildet. Die Do-Uspil bringt diese bereits gewachsene Persönlichkeit schließlich in eine dauerhafte äußere Form. Der Micu ist somit keineswegs nur Begleiter oder Symbolbild, sondern eine tatsächlich abgespaltene, eigenständige Persönlichkeit desselben Wesens.
+
+Nach einer erfolgreichen Do-Uspil bleibt die tiefe magische Verbindung zwischen Sodili und Micu bestehen. Zwar wird der Geist des Sodili durch die äußere Manifestation stark entlastet, doch beide Wesen bleiben weiterhin so eng miteinander verknüpft, dass sie Gefühle, innere Spannungen und mitunter sogar Gedanken des jeweils anderen intuitiv erfassen. Aus dieser bleibenden Bindung ergibt sich auch die Möglichkeit der Hybridisierung, bei welcher Sodili und Micu ihre getrennten Gestalten zeitweise wieder enger aneinander koppeln.

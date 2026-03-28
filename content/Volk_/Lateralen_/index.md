@@ -14,7 +14,7 @@ Sie erschaffen dafür kleine Runensteine, welche bei Berührung den Betroffenen 
 Zuerst sind die Affenartigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fangen sie an den Effekt der Runensteine zu verstehen und sie schließlich für die Jagd zu nutzen.
 Als die Sgrisignier schließlich von Aerion im Zuge der Impuls-Eruption vernichtet werden, da richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in ihrer Genetik hinterlassen.
 Zwar werden sie durch die Magie Aerions nicht vernichtet, doch der magische Impuls hat zur Folge, dass alle gegenwärtigen und künftig gezeugten *homo primian* eine Spaltung ihres Geistes durchmachen müssen, weshalb sie seit diesem Ereignis auch als *homo primian fractus* bezeichnet werden. 
-Das ihnen fortan angeborene psychische Trauma führt im Allgemeinen noch vor der Geburt zur Bildung einer zweiten inneren Persönlichkeit.
+Das ihnen fortan angeborene psychische Trauma führt im Allgemeinen noch vor der Geburt zur Bildung einer zweiten inneren Persönlichkeit. Der Grund dafür liegt nicht allein in einer psychischen Beschädigung. Vielmehr wurde durch Aerions Impuls bei den Nachfahren der betroffenen *homo primian* eine kleine, aber folgenreiche Fehlstelle im Gehirn hinterlassen, an welcher durchgehend magische Potenz aus dem Wymen in die natürlichen Denkvorgänge einwirkt. Diese stetige Fehlkopplung verstärkt die angeborene Zweiteilung des Geistes immer weiter.
 Hinzu kommt, dass der Bruch des Planeten Agranum nicht nur ein Massenaussterben nach sich zieht, welches die meisten Lebewesen auf Agranum umbringt, sondern für die übrigen Lebewesen einen komplett neuen Lebensraum schafft, an den diese sich anpassen müssen.
 
 ## Evolution der Sodili-Lateralen
@@ -24,7 +24,7 @@ Diese magisch beeinflusste Evolution hat dabei auf die geistig Verstümmelten ei
 Durch ihren magischen Ursprung werden die Effekte der psychische Zweiteilung während der arcanogenen Evolution noch verstärkt.
 Die abgespaltene Persönlichkeit ist leichter zu differenzieren und entwickelt eigene Gedanken, Wünsche und Emotionen.
 Dabei wird sie von den Betroffenen immer häufiger als ein ganz bestimmtes Tier empfunden.
-Die Evolution führt schließlich dazu, dass die zweite Persönlichkeit sich nicht nur auf einer geistigen Ebene bildet, sondern sich im Jugendalter sogar in einer magischen Entladung vom Körper des Betroffenen abspaltet und so einen eigenen Körper manifestiert. 
+Die Evolution führt schließlich dazu, dass die zweite Persönlichkeit sich nicht nur auf einer geistigen Ebene bildet, sondern sich im Jugendalter sogar in einer magischen Entladung vom Körper des Betroffenen abspaltet und so einen eigenen Körper manifestiert. Diese Entladung ist jedoch keine willkürliche Laune der Magie. Sie ist der Moment, in dem der stetige magische Zufluss im Geist des Betroffenen schließlich eine stabile äußere Form findet.
 Die Lateralen werden ab diesem Evolutionsschritt als **Sodili-Laterale** bezeichnet, während die Verkörperung der zweiten Persönlichkeit **Micu** genannt wird.
 Der Körper aller Micu ist dabei ausschließlich von entsprechender, tierischer Natur.
 Die Geister der beiden Lebewesen sind auch nach der Abspaltung weiterhin untrennbar miteinander verbunden, da sie nach wie vor zwei Persönlichkeiten desselben Wesens darstellen.
@@ -36,9 +36,9 @@ Diese Form der Hybridisierung führt zu einer ungeahnten Vielfalt, wodurch die S
 :span{.todo}[Irgendwann] distanziert sich schließlich eine Gruppierung der Lateralen von ihren Artgenossen.
 Diese Individuen sind der Überzeugung, dass das Auftreten der zweiten Persönlichkeit unnatürlich sei und einer geistigen Krankheit entspringt, die das gesamte Volk der Lateralen in sich trägt.
 Nachdem sie durch entsprechende Selbstversuche erstmalig eine permanente Verschmelzung der zwei Persönlichkeiten erreichen, erkennen sie, dass der geteilte Geist eines Sodili in gewisser Weise sogar die Entwicklung jeglicher magischer Intelligenz beeinträchtigt.
-Diese Gruppierung beginnt daraufhin junge Laterale zu therapieren, mit dem Ziel, dass sich die geteilten Persönlichkeiten schon vereinen noch bevor es überhaupt zur körperlichen Abspaltung kommt.
+Diese Gruppierung beginnt daraufhin junge Laterale zu therapieren, mit dem Ziel, dass sich die geteilten Persönlichkeiten schon vereinen noch bevor es überhaupt zur körperlichen Abspaltung kommt. Mit der Zeit verstehen diese frühen Conius, dass nicht bloß die zweite Persönlichkeit selbst das Problem darstellt, sondern vor allem die magische Fehlkopplung im Gehirn, welche sie dauerhaft nährt.
 "Geheilte" Lateralen werden fortan **Conius-Laterale** genannt.
-Wird die Identitätsstörung in dieser Form erfolgreich therapiert, so kann die magische Intelligenz des Betroffenen in der Tat mit entsprechender Bildung weiterentwickelt werden.
+Wird die Identitätsstörung in dieser Form erfolgreich therapiert, so kann die magische Intelligenz des Betroffenen in der Tat mit entsprechender Bildung weiterentwickelt werden. Die Therapie der Conius zielt dabei letztendlich darauf ab, die betroffene Fehlstelle frühzeitig zu schließen oder zumindest so weit zu kompensieren, dass die zweite Persönlichkeit nicht mehr zu einer eigenständig manifestierbaren Gestalt heranwächst.
 So erreichen die Conius-Lateralen eine Ausprägung der magitiven Wahrnehmung, welche es ihnen ermöglicht nicht nur die magische Potenz ihrer Umgebung, sondern auch Sgrisignier-Runen und andere magische Phänomene zu erfühlen.
 Damit verstehen sie die Magie des Serpinit-Systems besser als jedes andere moderne Volk und können fortan auf äußerst wissenschaftliche Art und Weise weitere Erkenntnisse gewinnen.
 Besonders bedeutend ist dabei die Erkenntnis über die Dreidimensionalität der Sgrisignier-Runen. 
@@ -78,7 +78,7 @@ Die Conius glauben an die Sgrisignier, auch wenn ihnen deren wahre Gestalt nach 
 
 Die Lateralen sind seit der Impuls-Eruption geistige Doppelwesen und haben daher von Geburt an immer zwei Persönlichkeiten. Lange Zeit glaubten die
 Lateralen, dass ihre zweite Persönlichkeit unabdingbar für den Gebrauch von Magie war. Da die Abspaltung eines Micu und die mögliche Hybridisierung mit diesem die einzige Form von Magie war, welche die Lateralen vor der Abspaltung der Conius ausüben konnten, wurde diese Annahme im Allgemeinen nicht angezweifelt. Die Conius-Lateralen behaupteten dagegen eines Tages, dass es sich bei der zweiten Persönlichkeit um den Effekt einer genetischen
-Krankheit handelt von der das gesamte Volk betroffen ist. Sie vereinen fortan ihre zweite Persönlichkeit bereits im Kindesalter
+Krankheit handelt von der das gesamte Volk betroffen ist. Tatsächlich geht die Magie der Lateralen jedoch auf eine krankhafte Fehlkopplung zurück, welche fortwährend geringe Mengen magischer Potenz aus dem Wymen in das Gehirn eines betroffenen Sodili lenkt. Die zweite Persönlichkeit wird dadurch nicht nur psychisch, sondern auch magisch genährt. Sie vereinen fortan ihre zweite Persönlichkeit bereits im Kindesalter
 mit der eigenen und "heilen" so das Doppelwesen-Dasein. Nach dieser Heilung waren sie sogar in der Lage größere
 magische Fähigkeiten zu entwickeln als die Sodili indem sie ihre magitive Wahrnehmung schulen. Trotzdem
 entscheiden sich viele Lateralen auch nach diesen Erkenntnissen für das Leben eines Sodili, da die Existenz eines eigenen Micu auch viele Vorteile mit
@@ -97,9 +97,9 @@ nur dem Volk der Lateralen zu großem Fortschritt verholfen hat.
 
 Zum Eintritt in das Jugendalter wird ein Sodili von seinem König in einen magischen Trance-Zustand versetzt in welcher er seinen
 Micu in Tiergestalt trifft. Hat der Sodili seinen Micu akzeptiert wird er in eine geistige und magische Ekstase erhoben.
-Es kommt zu einem ersten stärkeren Ausbruch der in ihm steckenden Magie. Der Ausbruch ist so kraftvoll, dass er die
-zweite Persönlichkeit des betreffenden Sodili abspaltet und ihm die stetige, eigenständige Tiergestalt des Micu
-verleiht. Dieser ist von nun an der treue Gefährte des Lateralen.
+Es kommt zu einem ersten stärkeren Ausbruch der in ihm steckenden Magie. Der König verleiht dem Sodili diese Kraft dabei nicht, sondern lenkt lediglich einen ohnehin anstehenden Vorgang in geordnete Bahnen. Der Ausbruch ist so kraftvoll, dass er die
+zweite Persönlichkeit des betreffenden Sodili kontrolliert abspaltet und ihr die stetige, eigenständige Tiergestalt des Micu
+verleiht. Dieser ist von nun an der treue Gefährte des Lateralen. Zugleich bindet sich ein Großteil jener Magie, welche zuvor unkontrolliert auf den Geist des Sodili eingewirkt hat, fortan an die neue äußere Gestalt. So wird der Sodili geistig entlastet, ohne dass die tiefe Verbindung zwischen beiden Wesen verloren geht.
 
 Wird die Persönlichkeit eines Sodili nicht in einer Do-Úspil abgespalten, so kann dem Sodili ab einem gewissen Alter
 jederzeit sein Micu im Schlaf begegnen. Der Laterale fällt dann in eine Art Koma und durchläuft einen ähnlichen Vorgang wie
@@ -116,6 +116,6 @@ ihre Geister währenddessen bis zu einem gewissen Grad getrennt. Die Sodili bevo
 Reisen und das Betreten fremder Territorien, da der Micu nicht nur ihr Gefährte ist, sondern oft auch ihren Schwachpunkt
 darstellt. Kaum ein Laterale bleibt rational und zurechnungsfähig wenn das Leben oder Wohlergehen seines Micu auf dem Spiel
 steht, da beide tiefgreifend miteinander verbunden sind. Einige Lateralen entscheiden sich aufgrund der Vorzüge der
-Hybridisierung sogar dauerhaft für eine solche Lebensweise. Nur so gelang es unterschiedlichen Gruppen von Sodili sich
+Hybridisierung sogar dauerhaft für eine solche Lebensweise. Magietheoretisch handelt es sich dabei nicht um die Erschaffung einer dritten Gestalt, sondern um eine zeitweilige Rückkopplung zweier bleibend verbundener Teile desselben Wesens. Nur so gelang es unterschiedlichen Gruppen von Sodili sich
 in nahezu jedem Lebensraum niederzulassen, ob in tiefen Ozeanen, auf den höchsten Berggipfeln oder sogar in den Lüften.
 

@@ -32,6 +32,7 @@ Wymen kann als dreidimensionales Netz aus *theoretischer* magischer Potenz verst
 Dieses Energienetz ist direkt an Creapatos göttliche Kräfte gekoppelt und bietet somit aus Sicht einer sterblichen Kreatur nahezu unendliche Energie. 
 Die theoretische magische Potenz von Wymen kann durch Risse in die physische Welt fließen, wobei die magische Potenz von allen umliegenden Materialien angereichert wird. 
 Wymen besitzt dabei einen selbstheilenden Charakter, sodass sich solche Risse wieder schließen, wenn sie nicht aktiv offen gehalten wird. Creapatos schuf Wymen ursprünglich als sein eigenes Werkzeug um magische Substanz zielgerichtet synthetisieren zu können.
+Das eigentliche Problem sterblicher Magie liegt daher nur selten in einem grundsätzlichen Mangel an Energie. Vielmehr scheitern magische Vorgänge meist daran, dass die einwirkende Kraft nicht präzise genug geformt, gelenkt oder stabilisiert wird. Unkontrollierte Magie ist daher im Allgemeinen kein Zeichen dafür, dass "zu viel" Magie vorhanden wäre, sondern dafür, dass eine vorhandene magische Kraft keine geeignete Form erhalten hat.
 
 Als Creapatos mit den Sgrisigniern sein erstes intelligentes Volk erschuf wollte er ihnen die Wunder der Magie nicht vorenthalten. 
 Er merkte er jedoch schnell, dass Wymen allein nicht ausreichte um seinen Lebewesen einen tatsächlichen Zugang zur Magie zu bieten. 
@@ -73,6 +74,7 @@ Auf diesen ovelären Planeten hat daraufhin über Millionen Jahre hinweg eine **
 Alle Lebewesen der Ovelären Planeten entwickelten im Verlauf einer magisch beeinflussten Evolution nach dem Fall der Sgrisignier ein Sinnesorgan im Gehirn, welches sie befähigt die magische Potenz in ihrer Umgebung zu erfühlen. 
 Diese „magitive Wahrnehmung“ ist dabei für den Wahrnehmenden immer relativ zum Potenzpunkt eines jeweiligen Elementes. 
 Die meisten dieser Lebewesen sind außerdem in der Lage die magische Potenz der Stoffe die lokal an ihrem Körper anliegen mehr oder minder stark zu beeinflussen.
+Je weiter die arcanogene Evolution bei einem Lebewesen die Ausbildung einer magischen Intelligenz begünstigte, desto feiner kann dieses Wesen magische Vorgänge nicht nur wahrnehmen, sondern auch in ihrer Form erfassen und beeinflussen.
 
 Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war jedoch für die modernen Völker lange Zeit unbekannt. 
 Viele Lebewesen konnten die aktiven Runensteine der Sgrisignier-Portale oder die Überreste der Magie in antiken Sgrisignier-Strukturen zwar prinzipiell spüren, jedoch war ihre magitive Wahrnehmung zu stumpfsinnig um die Feinheiten einer komplexen Sgrisignier-Rune auch nur ansatzweise erfassen zu können. 
