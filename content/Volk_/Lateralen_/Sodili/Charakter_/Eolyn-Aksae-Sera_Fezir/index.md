@@ -19,9 +19,9 @@
 ## Allgemein
 
 ### Aussehen
-Eolyn ist eine junge Frau mit einer schlanken Statur und einer energetischen Ausstrahlung. 
-Sie hat dunkle, lange Haare, die sie oft zu einem praktischen Zopf gebunden trägt. 
-Ihre Augen sind von einem intensiven Grün, und sie hat eine leicht schiefe Nase über vollen Lippen. 
+Eolyn ist eine junge Frau mit einer schlanken Statur und einer energetischen Ausstrahlung.
+Sie hat dunkle, lange Haare, die sie oft zu einem praktischen Zopf gebunden trägt.
+Ihre Augen sind von einem intensiven Grün, und sie hat eine leicht schiefe Nase über vollen Lippen.
 Sie trägt meist eine leichte Lederrüstung, die ihre Beweglichkeit nicht einschränkt.
 
 ### Persönlichkeit
@@ -34,7 +34,7 @@ Sie begegnet neuen Menschen immer aufgeschlossen und freundlich, nicht zuletzt u
 Die junge Sodili ist jedoch keinesfalls naiv und lässt sich von Lügnern und Betrügern nicht einschüchtern.
 
 #### Vorlieben
-Eolyn genießt das Reisen, die Erkundung neuer Orte und die Herausforderungen, die damit einhergehen. 
+Eolyn genießt das Reisen, die Erkundung neuer Orte und die Herausforderungen, die damit einhergehen.
 Sie schätzt die Freiheit und die Möglichkeit, sich in der Natur zu bewegen.
 Nicht selten schlägt sie bei einer altbekannten Route einen unbekannten Weg ein, um neue Erfahrungen zu machen.
 Außerdem schreibt Eolyn liebnd gerne Tagebuch über ihr tägliches Leben.

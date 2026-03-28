@@ -19,18 +19,17 @@ Zum Höhepunkt dieses Wahnsinns, als sich fast alle Sgrisignier auf Agranum befa
 Der Creapatos' Vertrauen verkörpernde Elementdrache feuerte einen mächtigen Schub seiner Magie aus dem Kern, welcher auf die magische Intelligenz der Sgrisignier abzielte und sie so in Sekundenschnelle tötete.
 Der magische Schub war so energiereich, dass Agranums Oberfläche förmlich zerrissen wurde, weshalb dieses Ereignis als **Impuls-Eruption** bekannt wurde.
 Um die anderen Lebewesen auf Agranum weitesgehend von den Auswirkungen seines impulsiven Handelns zu bewahren, entlud Aerion zudem einen sphärischen Schub annullierter Gravitation.
-Diese sogenannte **Gravidblase** trug sämtliche Landmassen mit sich in die Höhe, wo sie schließlich in ca.
-35 km Höhe zum Stehen kamen.
+Diese sogenannte **Gravidblase** trug sämtliche Landmassen mit sich in die Höhe, wo sie schließlich in ca. 35 km Höhe zum Stehen kamen.
 Auf dieser Blase schwebten fortan die Kontinentalplatten von Agranum und mit ihr die verbleibenden 15 % allen Lebens.
-Die magische Reaktion Aerions führte trotzdem nicht nur zu diesem katastrophalen Massenaussterben auf Agranum, sondern auch zur psychischen Verstümmelung der [Lateralen](/content/Volk_/Lateralen_/index.md). Bei ihren Nachfahren blieb darüber hinaus eine magische Fehlstelle im Gehirn zurück, welche für die spätere Entwicklung von Micus und Conius-Therapien von zentraler Bedeutung werden sollte.
+Die magische Reaktion Aerions führte trotzdem nicht nur zu diesem katastrophalen Massenaussterben auf Agranum, sondern auch zur psychischen Verstümmelung der [Lateralen](/content/Volk_/Lateralen_/index.md).
+Bei ihren Nachfahren blieb darüber hinaus eine magische Fehlstelle im Gehirn zurück, welche für die spätere Entwicklung von Micus und Conius-Therapien von zentraler Bedeutung werden sollte.
 
 ## Die Gravidblase und die Gravitationsozeane 
 
 Die circa 1 km dicke Gravidblase ist ein Ergebnis komplexer, göttlicher Magie.
 An ihrer Oberfläche ist die Gravitation für feste und flüssige Stoffe komplett umgekehrt.
 Damit ist die Gravidblase für diese Stoffe undurchlässig, sie schweben effektiv in der Luft, getragen von den gegensätzlichen Gravitationskräften.
-Die magische Schicht gibt dabei basierend auf dem Gewicht des aufliegenden Objektes und seiner Oberflächengröße mehr oder weniger stark nach und sinkt ein, weshalb z.B.
-die schwebenden Kontinente Agranums in entsprechenden "Kuhlen" liegen.
+Die magische Schicht gibt dabei basierend auf dem Gewicht des aufliegenden Objektes und seiner Oberflächengröße mehr oder weniger stark nach und sinkt ein, weshalb z.B. die schwebenden Kontinente Agranums in entsprechenden "Kuhlen" liegen.
 Dies ist auch der Grund, weshalb um jeden Kontinent von Agranum ein Meeresgürtel liegt, da sich das Wasser durch die tieferliegende Gravidblase um die Küsten herum sammelt.
 Diese Gewässer werden der **Gravitationsozean** genannt.
 Außerdem führt die Nachgiebigkeit der Gravidblase dazu, dass eine Fortbewegung auf der offenen Oberfläche für die meisten Lebewesen kaum möglich ist.
@@ -47,10 +46,8 @@ Darüber hinaus hat Aerion die Gravidblase auch komplett durchlässig für Tjosa
 Auf diese Weise filterte er bei der Impuls-Eruption sämtliches Tjosand und sammelte es um Agranums Kern.
 
 Die überlebenden Lebewesen auf den schwebenden Kontinenten haben sich im Laufe der Zeit an die ungewöhnliche Umgebung angepasst.
-So gibt es z.
-B.
-viele Flugwesen die zwischen den schwebenden Inseln gleiten, und sogar Pflanzen, die sich auf die schwerkraftfreie Ebene ausbreiten konnten.
+So gibt es z. B. viele Flugwesen die zwischen den schwebenden Inseln gleiten, und sogar Pflanzen, die sich auf die schwerkraftfreie Ebene ausbreiten konnten.
 
 Durch die Windmagie des hoch-reaktiven magischen Kerns durchströmte den Wüstenkern an vielen Stellen große Gasmassen von innen heraus, welche den normalen Sand "verflüssigten" (vgl. [youtube.com](https://www.youtube.com/watch?v=CCiIUjPF060)), während der Tjosand wiederum häufig die bezeichnenden Quarz-Strukturen bildete.
 Aufgrund der Undurchlässigkeit der Gravidblase gab es um den Kern von Agranum jedoch nie wieder Leben, abgesehen von den [Elementaren](../../Volk_/Elementare/index.md) die sich hier bildeten.
-Der innere Wüstenkern von Agranum ist seit der Impuls-Eruption von zerklüfteten Schluchten und glühend heißem Gestein geprägt. 
+Der innere Wüstenkern von Agranum ist seit der Impuls-Eruption von zerklüfteten Schluchten und glühend heißem Gestein geprägt.

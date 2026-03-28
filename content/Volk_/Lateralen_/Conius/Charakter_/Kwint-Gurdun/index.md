@@ -1,30 +1,24 @@
 # Kwint Gurdun (Professor)
 ![Bild des Charakters](Link-zum-Bild)
 
-**Name:** Kwint Gurdun  
-**Titel/Klasse:** Professor für explorative Forschung  
-**Alter:** Hohes Alter  
-**Geschlecht:** Männlich  
-**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen_/index.md)  
-**Heimat:** Resrubor Akademie  
-**Beruf:** Professor  
+**Name:** Kwint Gurdun**Titel/Klasse:** Professor für explorative Forschung**Alter:** Hohes Alter**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** Resrubor Akademie**Beruf:** Professor
 
 ## Allgemein
 
 ### Aussehen
-Kwint Gurdun ist eine imposante Erscheinung unter den Conius-Lateralen. 
-Feine Linien durchziehen sein Gesicht, aber sein klarer Blick und sein energisches Auftreten verraten eine anhaltende Leidenschaft für die Welt um ihn herum. 
-Er ist bekannt für seine lebendigen Erzählungen und seine Fähigkeit, komplexe Konzepte auf verständliche Weise zu vermitteln. 
+Kwint Gurdun ist eine imposante Erscheinung unter den Conius-Lateralen.
+Feine Linien durchziehen sein Gesicht, aber sein klarer Blick und sein energisches Auftreten verraten eine anhaltende Leidenschaft für die Welt um ihn herum.
+Er ist bekannt für seine lebendigen Erzählungen und seine Fähigkeit, komplexe Konzepte auf verständliche Weise zu vermitteln.
 
 ### Persönlichkeit
 
 #### Charakterzüge
-Kwint hat eine imposante Erscheinung und strahlt eine Aura von Weisheit aus. 
-Sein umfassendes Wissen über die Kultur und Magie der Sgrisignier ist unübertroffen. 
+Kwint hat eine imposante Erscheinung und strahlt eine Aura von Weisheit aus.
+Sein umfassendes Wissen über die Kultur und Magie der Sgrisignier ist unübertroffen.
 Allerdings neigt er möglicherweise dazu, zu streng und unnachgiebig in seiner Lehre zu sein, und vernachlässigt manchmal persönliche Bedürfnisse oder Gefühle zugunsten der Wissenschaft.
 
 #### Vorlieben
-Kwint liebt es, komplexe Konzepte zu vermitteln und sein Wissen mit anderen zu teilen. 
+Kwint liebt es, komplexe Konzepte zu vermitteln und sein Wissen mit anderen zu teilen.
 Seine Leidenschaft gilt der Erforschung vergangener Zeitalter und der Bewahrung des kulturellen Erbes.
 
 #### Abneigungen
@@ -39,7 +33,7 @@ Der genaue Hintergrund von Kwint Gurdun ist unbekannt, aber es wird angenommen, 
 Kwint Gurdun wurde zum leitenden Professor für explorative Forschung an der Resrubor Akademie ernannt, wo er seitdem sein umfassendes Wissen und seine Leidenschaft für die Wissenschaft weitergibt.
 
 ### Aktuelle Situation
-Kwint widmet sein Leben der Forschung und Lehre an der Resrubor Akademie. 
+Kwint widmet sein Leben der Forschung und Lehre an der Resrubor Akademie.
 Sein Ziel ist es, weiterhin neue Entdeckungen zu machen und sein Wissen mit anderen zu teilen, um die Welt besser zu verstehen und die Menschheit voranzubringen.
 
 ## Fähigkeiten und Kräfte

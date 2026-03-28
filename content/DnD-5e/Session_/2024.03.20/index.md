@@ -2,13 +2,17 @@
 
 # Meta / Kontext
 
-Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen. Sie haben sich gegen das naheliegendere entschieden, um mit einem Schiff über den Gravitationsozean zu fahren. Sie werden begleitet von 3 Conius-Forschern (unter anderem Kwint Gurdun) und 2 Sodili im Auftrage des Köngis.
+Die Spieler werden am nächsten Tag zu ihrem ersten Portal aufbrechen.
+Sie haben sich gegen das naheliegendere entschieden, um mit einem Schiff über den Gravitationsozean zu fahren.
+Sie werden begleitet von 3 Conius-Forschern (unter anderem Kwint Gurdun) und 2 Sodili im Auftrage des Köngis.
 
 Ákos tritt der Gruppe bei und übernimmt einen der Charaktere der Expedition (außer Kwint).
 
-Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich. Taeron hat einen Unsichtbarkeits-Umhang in einem geheimen Conius-Laden in der grauen Zone gekauft, Alaric hat den "braunen Ring" in den Schwarztunneln gesucht und steht nun vor dessen Türen, und Kle hat eine Bibel von der Bibliothek abgeholt.
+Den verbleibenden Tag in Carpebur nutzen die Spieler unterschiedlich.
+Taeron hat einen Unsichtbarkeits-Umhang in einem geheimen Conius-Laden in der grauen Zone gekauft, Alaric hat den "braunen Ring" in den Schwarztunneln gesucht und steht nun vor dessen Türen, und Kle hat eine Bibel von der Bibliothek abgeholt.
 
-Malte wird nicht zur Session anwesend sein. Kles Bibel wird daher als allgemeiner Aufhänger für die anderen Spieler genutzt um sie an die Religion der Sgrisignier und die theologische Bedeutung der "Roiatinen" heranzuführen.
+Malte wird nicht zur Session anwesend sein.
+Kles Bibel wird daher als allgemeiner Aufhänger für die anderen Spieler genutzt um sie an die Religion der Sgrisignier und die theologische Bedeutung der "Roiatinen" heranzuführen.
 
 Jaghati sitzt mit einigen Matrosenkollegen in einer Taverne, als die Kapitänin der Crew Erisa Sturint hereintritt und von dem neuen Auftrag erzählt.
 
@@ -16,7 +20,8 @@ Als Hauptaufgabe müssen die Spieler nach wie vor das erste Portal erschließen.
 
 ## Der Inhalt von Kles Bibel
 
-Die [Bibel](/content/Volk_/Lateralen_/Sodili/Theologie/die-Bibel-der-Unzaehlbaren.md) die Kle von der Bibliothek abgeholt hat, behandelt lediglich die Religion der Sodili. Als solche ist sie zwar inspiriert von der wahren [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) aber in einer stark verzerrten Form.
+Die [Bibel](/content/Volk_/Lateralen_/Sodili/Theologie/die-Bibel-der-Unzaehlbaren.md) die Kle von der Bibliothek abgeholt hat, behandelt lediglich die Religion der Sodili.
+Als solche ist sie zwar inspiriert von der wahren [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) aber in einer stark verzerrten Form.
 
 ## Alarics Begegnung mit dem braunen Ring
 * Alaric steht in der Dunkelheit vor einer abgewetzten Holztür mit einem eingeritztem gezackten Kreis. ![](/content/Volk_/Lateralen_/Sodili_Clans/Diebesgilde_Brauner-Ring/images/Eingang_Tuer_Symbol_Raetsel.png)
@@ -60,12 +65,14 @@ Hinter Kwint sind einige Kisten aufgestapelt, welche die anderen Mitglieder der 
 
 ![](./images/Kisten_Vorraete_Expedition-Ikusation.png)
 
-Als Kwint die Spieler sieht, winkt er sie rasch zu sich herüber und sagt nur: 
+Als Kwint die Spieler sieht, winkt er sie rasch zu sich herüber und sagt nur:
 > "Da seit ihr ja endlich. Kommt schnell und helft beim Verladen, wir sollten zügig aufbrechen"
 
 ![](./images/Sodili-Schiff_Katamaran_Expedition-Ikusation.png)
 
-Nachdem die Spieler (hoffentlich) beim Verladen geholfen haben, legt die Mannschaft schnellstmöglich ab. Kwint winkt bei allen näheren Nachfragen ab, da er die geheimen Details erst auf hoher See besprechen möchte. Sollten die Spieler in die Kisten gucken finden sie die Dinge ihrer Bestellung:
+Nachdem die Spieler (hoffentlich) beim Verladen geholfen haben, legt die Mannschaft schnellstmöglich ab.
+Kwint winkt bei allen näheren Nachfragen ab, da er die geheimen Details erst auf hoher See besprechen möchte.
+Sollten die Spieler in die Kisten gucken finden sie die Dinge ihrer Bestellung:
 
 * Proviant für 1 Tag
 * Kochtopf und Feuer
@@ -102,22 +109,34 @@ Die Crew des Schiffes besteht ausschließlich aus Sodili:
 
 Sobald die Crew abgelegt hat, versammelt Kwint die Expeditionsteilnehmer in der Kajüte um ihnen die nächsten Schritte zu vermitteln.
 
-Das angestrebte Vorgehen ist die Etablierung einer Versorgungskette durch mehrere Portale. Es wurde sich explizit gegen eine großflächige Erschließung mehrerer einzelner Portale entschieden, da die Gefahren zu wenig bekannt und zu unberechenbar sind. Sollten z. B. mehrere Portale in der Umgebung der Stadt erschlossen werden woraufhin sich dann ungeahnte Gefahren ergeben, könnte das die gesamte Sodili-Hauptstadt gefährden. Stattdessen soll mit der Zeit ein einziger gefestigter Stützpunkt um das erste erschlossene Portal errichtet werden. Vom Ziel-Ort des Portals werden dann weitere Portale gesucht und erschlossen, sodass im schlimmsten Fall nur ein Portal verteidigt werden muss. Kwint macht der gesamten Expedition aber auch ausdrücklich klar, dass der Frieden immer im Vordergrund steht. Die Erschließung der Portale soll neue Handelsrouten und interplanetare Verbindungen herstellen, keine neuen Gefahren und Krieg bringen.
+Das angestrebte Vorgehen ist die Etablierung einer Versorgungskette durch mehrere Portale.
+Es wurde sich explizit gegen eine großflächige Erschließung mehrerer einzelner Portale entschieden, da die Gefahren zu wenig bekannt und zu unberechenbar sind.
+Sollten z. B. mehrere Portale in der Umgebung der Stadt erschlossen werden woraufhin sich dann ungeahnte Gefahren ergeben, könnte das die gesamte Sodili-Hauptstadt gefährden.
+Stattdessen soll mit der Zeit ein einziger gefestigter Stützpunkt um das erste erschlossene Portal errichtet werden.
+Vom Ziel-Ort des Portals werden dann weitere Portale gesucht und erschlossen, sodass im schlimmsten Fall nur ein Portal verteidigt werden muss.
+Kwint macht der gesamten Expedition aber auch ausdrücklich klar, dass der Frieden immer im Vordergrund steht.
+Die Erschließung der Portale soll neue Handelsrouten und interplanetare Verbindungen herstellen, keine neuen Gefahren und Krieg bringen.
 
 Allgemein können die Spieler während der Fahrt die Aussicht genießen, angeln, oder die Crew kennenlernen.
 
-Die ersten ~2 Stunden der Schiffahrt passiert das Schiff lediglich die großen Klippen von Carpebur. In den steilen Steinwänden sind viele kleine Löcher in denen Vögel nisten und von den überhängenden Kanten der Klippen hängen dicke Lianen zwischen denen Hörnchen-Affen schwingen.
-Die Klippen nehmen mit der Zeit an Höhe ab, bis die Küste knapp auf Höhe der Meeresoberfläche ist. 
+Die ersten ~2 Stunden der Schiffahrt passiert das Schiff lediglich die großen Klippen von Carpebur.
+In den steilen Steinwänden sind viele kleine Löcher in denen Vögel nisten und von den überhängenden Kanten der Klippen hängen dicke Lianen zwischen denen Hörnchen-Affen schwingen.
+Die Klippen nehmen mit der Zeit an Höhe ab, bis die Küste knapp auf Höhe der Meeresoberfläche ist.
 
-Dann muss der Katamaran einen Umweg nach außen nehmen, da Gurontis an dieser Stelle ein weitreichendes Plateau unter der Wasseroberfläche aufweist. Für Schiffe sind diese Gewässer zu seicht und außerdem wird das Plateau am Ende von einer dichten Inselkette gesäumt. In den seichten Gewässern hat sich ein Korallenriff gebildet, mit einer vielfältigen Flora und Fauna.
+Dann muss der Katamaran einen Umweg nach außen nehmen, da Gurontis an dieser Stelle ein weitreichendes Plateau unter der Wasseroberfläche aufweist.
+Für Schiffe sind diese Gewässer zu seicht und außerdem wird das Plateau am Ende von einer dichten Inselkette gesäumt.
+In den seichten Gewässern hat sich ein Korallenriff gebildet, mit einer vielfältigen Flora und Fauna.
 
 ## Ankunft am Zielort
 
-Die Expedition legt in einer Bucht nahe der passierten Inselkette an. Das Portal ist von dieser Stelle einen ~20 minütigen Marsch entfernt, in einem kleinen Waldstück. Es ist ca. 10 Meter hoch und versehen mit altem, getrocknetem Blut.
+Die Expedition legt in einer Bucht nahe der passierten Inselkette an.
+Das Portal ist von dieser Stelle einen ~20 minütigen Marsch entfernt, in einem kleinen Waldstück.
+Es ist ca. 10 Meter hoch und versehen mit altem, getrocknetem Blut.
 
 ![](../../../Allgemein/Magie/images/Sgrisignier-Portal_Roiatin.png)
 
-Die Conius-Lateralen haben bisher nur ein theoretisches Vorgehen zur Erschließung der Portale entworfen und konnten dieses noch nicht in der Praxis erproben. Folgende Erkenntnisse hat Kwint Gurdun mit seinen bisherigen Forschungen gewonnen:
+Die Conius-Lateralen haben bisher nur ein theoretisches Vorgehen zur Erschließung der Portale entworfen und konnten dieses noch nicht in der Praxis erproben.
+Folgende Erkenntnisse hat Kwint Gurdun mit seinen bisherigen Forschungen gewonnen:
 
 * Jeder Stein eines Portals trägt zur Portal-Magie bei.
 * Im Inneren der Steine befinden sich Tjomanten (Tjosand-Quarz-Steine mit Sgrisignier Runen). Dies wurde bei der Analyse der Überreste eines zerstörten Portals herausgefunden.
@@ -130,4 +149,8 @@ Die Conius-Lateralen haben bisher nur ein theoretisches Vorgehen zur Erschließu
 * Da die Conius noch nicht herausgefunden haben wie die Portale sich selbst mit Energie versorgen, muss die zusätzliche Rune immer von einem Conius aktiv aufrecht erhalten werden. Daraus ergiebt sich der Beruf des Portalwächters.
 * Laut Kwint kann das Portal mit den anwesenden Conius vorerst ca. 2 Stunden stabil gehalten werden (Kwint 40 min, Lysandra 40 min, Draven 10 min, Taeron 30 min) ohne die Entkräftung eines Mitglieds in Kauf zu nehmen.
 
-Die Expedition beginnt direkt um das Portal herum einen Stützpunkt zu errichten. Zuerst werden die Zelte aufgebaut und grundlegende Dinge wie eine Feuerstelle etc. eingerichtet. Dann wird Holz für Barrikaden gesammelt. Die erste Barrikade formt einen inneren Ring um das Portal um eine "Invasion" verteidigen zu können. Eine zweiter Ring umgibt das Lager nach aussen um vor Außenstehenden zu schützen und die Geheimhaltung weitesgehend zu wahren.
+Die Expedition beginnt direkt um das Portal herum einen Stützpunkt zu errichten.
+Zuerst werden die Zelte aufgebaut und grundlegende Dinge wie eine Feuerstelle etc. eingerichtet.
+Dann wird Holz für Barrikaden gesammelt.
+Die erste Barrikade formt einen inneren Ring um das Portal um eine "Invasion" verteidigen zu können.
+Eine zweiter Ring umgibt das Lager nach aussen um vor Außenstehenden zu schützen und die Geheimhaltung weitesgehend zu wahren.

@@ -20,12 +20,11 @@ Zu Beginn richten die Krolpins eine Eröffnungszeremonie aus, bei welcher [Hiant
 Zuallererst legen die Wettstreitbedingungen fest, dass sich alle Teilnehmer dazu verpflichten die Verbreitung der Gewinner-Erfindungen auf dem gesamten Planeten zu unterstützen, mit dem übergeordneten Ziel der Globalisierung.
 
 Dem eigentlichen Wettstreit geht dann eine Qualifikationsphase voraus.
-Die Teilnehmer halten diese jedoch bereits für eine echte erste Runde. 
+Die Teilnehmer halten diese jedoch bereits für eine echte erste Runde.
 In dieser Phase müssen alle Mitglieder einen Vortrag über ein Unterthema ihrer Wahl halten, wobei dieses bestenfalls in irgendeiner Form innovativ sein sollte.
 Alle Teilnehmer müssen die Vorträge der anderen jeweils mithilfe von 10 Fragen ehrlich bewerten.
 Den Teilnehmern wird zuerst gesagt, dass nur die besten 20 Vorträge eine Chance auf den Gewinn haben.
-Doch nach dem letzten Vortrag und dessen Bewertung enthüllt Hiante:
-Es können sich weit mehr als 20 Gruppen qualifizieren, nur wer viele schlechte Bewertungen erhält, oder wer ausschließlich schlechte Bewertungen gibt, fliegt in dieser Vorrunde aus dem Wettkampf.
+Doch nach dem letzten Vortrag und dessen Bewertung enthüllt Hiante: Es können sich weit mehr als 20 Gruppen qualifizieren, nur wer viele schlechte Bewertungen erhält, oder wer ausschließlich schlechte Bewertungen gibt, fliegt in dieser Vorrunde aus dem Wettkampf.
 
 Auf diesem Wege werden unter Anderem das Wissen über die Nutzung von Wasserdampf sowie die Effekte von aufgeladenen Edelsteinen unter den Teilnehmern bekannt.
 

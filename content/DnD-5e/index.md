@@ -225,5 +225,6 @@
 | 4   | Maximale Trefferpunkte halbiert      |
 | 5   | Geschwindigkeit auf 0 reduziert      |
 | 6   | Tod                                  |
-Die Effekte der Erschöpfung sind kumulativ. Am Ende einer langen Ruhepause, wenn eine Kreatur Nahrung oder Getränke zu sich genommen hat, verringert sie ihre Erschöpfungsstufe um eins.
+Die Effekte der Erschöpfung sind kumulativ.
+Am Ende einer langen Ruhepause, wenn eine Kreatur Nahrung oder Getränke zu sich genommen hat, verringert sie ihre Erschöpfungsstufe um eins.
 

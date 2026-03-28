@@ -2,13 +2,7 @@
 
 ![Bild des Charakters](Link-zum-Bild)
 
-**Name:** Charaktername  
-**Titel/Klasse:** Titel oder Spitzname 
-**Alter:** Alter des Charakters  
-**Geschlecht:** Geschlecht des Charakters  
-**Spezies/Rasse:** Spezies oder Rasse des Charakters  
-**Heimat:** Geburtsort oder aktueller Wohnort  
-**Beruf:** Beruf oder Rolle in der Welt
+**Name:** Charaktername**Titel/Klasse:** Titel oder Spitzname**Alter:** Alter des Charakters**Geschlecht:** Geschlecht des Charakters**Spezies/Rasse:** Spezies oder Rasse des Charakters**Heimat:** Geburtsort oder aktueller Wohnort**Beruf:** Beruf oder Rolle in der Welt
 
 ## Allgemein
 
@@ -21,10 +15,12 @@ Kurze Beschreibung des Aussehens, inklusive besonderer Merkmale, Kleidung, und A
 Beschreibung der Hauptcharakterzüge, inklusive Stärken und Schwächen.
 
 #### Vorlieben
-Was mag der Charakter? (Hobbys, Vorlieben, Interessen)
+Was mag der Charakter?
+(Hobbys, Vorlieben, Interessen)
 
 #### Abneigungen 
-Was mag der Charakter nicht? (Ängste, Abneigungen, Feinde)
+Was mag der Charakter nicht?
+(Ängste, Abneigungen, Feinde)
 
 ## Hintergrundgeschichte
 

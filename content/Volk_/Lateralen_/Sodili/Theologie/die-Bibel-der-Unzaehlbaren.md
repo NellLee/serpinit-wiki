@@ -2,29 +2,80 @@
 
 # 1. Buch
 
-Vor Beginn aller Dinge wütete das Chaos. Alles war verworren und nichts war geordnet, doch war auch alles noch nichts und das Verworrene die einzige Ordnung der Welt. Ohne jedwede Regeln wusste die Zeit nicht wie sie zu fließen, das Licht nicht wie es zu scheinen und die Kraft nicht wie sie zu wirken vermochte. Erst als die Finger der Ordnung das ungezügelte Chaos ergriffen, glitt die Realität in ihr Muster und die Geburt der drei Mächte der Dinge markierte den Beginn des Seins. 
+Vor Beginn aller Dinge wütete das Chaos.
+Alles war verworren und nichts war geordnet, doch war auch alles noch nichts und das Verworrene die einzige Ordnung der Welt.
+Ohne jedwede Regeln wusste die Zeit nicht wie sie zu fließen, das Licht nicht wie es zu scheinen und die Kraft nicht wie sie zu wirken vermochte.
+Erst als die Finger der Ordnung das ungezügelte Chaos ergriffen, glitt die Realität in ihr Muster und die Geburt der drei Mächte der Dinge markierte den Beginn des Seins.
 
-Zuerst fügte sich die Zeit. Erst zeterte sie, wehrte sich, zögerte die Ordnung immer wieder hinaus. Doch ein endloser Kampf ist ohne Bedeutung wenn der Anfang nie gemacht wurde und so gab sie schließlich auf. Statt dass sie nach vorn und wieder zurück schwang, statt dass sie mal flog und mal kroch, statt dass sie sich teilte oder gar zum Stillstand kam, statt all dem wurde die Zeit letztlich zahm. So nahm ihr Verlauf eine geordnete Form an, dessen Geradlinigkeit fortan nie mehr gestört werden sollte. Die erste Macht der Dinge, die ewige Zeit, ward geboren. Die ewige Zeit trägt den Namen "Mavorak".
+Zuerst fügte sich die Zeit.
+Erst zeterte sie, wehrte sich, zögerte die Ordnung immer wieder hinaus.
+Doch ein endloser Kampf ist ohne Bedeutung wenn der Anfang nie gemacht wurde und so gab sie schließlich auf.
+Statt dass sie nach vorn und wieder zurück schwang, statt dass sie mal flog und mal kroch, statt dass sie sich teilte oder gar zum Stillstand kam, statt all dem wurde die Zeit letztlich zahm.
+So nahm ihr Verlauf eine geordnete Form an, dessen Geradlinigkeit fortan nie mehr gestört werden sollte.
+Die erste Macht der Dinge, die ewige Zeit, ward geboren.
+Die ewige Zeit trägt den Namen "Mavorak".
 
-Als zweites fügte sich das Licht, doch war es zaghaft und scheu. Eingeschüchtert vom Chaos verbarg es sich lang und ließ die Welt im Dunkeln. Mit dem steten Fluss der Zeit vermochten die Finger der Ordnung schließlich das Licht zu beruhigen. Noch lag das schwarze Tuch träge über allem was war, nie gestört und ohne Konkurrenz, bis der erste Funken des Lichts endlich eine tiefe Wunde in die Dunkelheit schlug. Als das Licht vernahm welche Macht ihm ihnewohnte, ließ es sich auf dem Rücken der Zeit  durch die Weiten der Welt tragen. Seither jagt das Licht die Dunkelheit und die Dunkelheit das Licht, im ewigen Streit um ihren Teil der Welt. Die zweite Macht der Dinge, das unendliche Licht, ward geboren. Das unendliche Licht trägt den Namen "Ikus".
+Als zweites fügte sich das Licht, doch war es zaghaft und scheu.
+Eingeschüchtert vom Chaos verbarg es sich lang und ließ die Welt im Dunkeln.
+Mit dem steten Fluss der Zeit vermochten die Finger der Ordnung schließlich das Licht zu beruhigen.
+Noch lag das schwarze Tuch träge über allem was war, nie gestört und ohne Konkurrenz, bis der erste Funken des Lichts endlich eine tiefe Wunde in die Dunkelheit schlug.
+Als das Licht vernahm welche Macht ihm ihnewohnte, ließ es sich auf dem Rücken der Zeit durch die Weiten der Welt tragen.
+Seither jagt das Licht die Dunkelheit und die Dunkelheit das Licht, im ewigen Streit um ihren Teil der Welt.
+Die zweite Macht der Dinge, das unendliche Licht, ward geboren.
+Das unendliche Licht trägt den Namen "Ikus".
 
-Zuletzt fügte sich die Kraft. Sie kämpfte unerbittlich und vermochte die Finger der Ordnung fast zu brechen, doch die Ordnung war geschickt und wusste sich zu helfen. Der ungezügelten Kraft fehlten nur die Grenzen. Und so formten sich die Finger der Ordnung schließlich selbst zu einem Körper der die Kraft umfassen konnte. Die dritte und größte Macht der Dinge, die unermessliche Kraft, ward in Form eines dreibeinigen Lindwurms geboren. Diese Macht trägt den Namen "Ersaspial".
+Zuletzt fügte sich die Kraft.
+Sie kämpfte unerbittlich und vermochte die Finger der Ordnung fast zu brechen, doch die Ordnung war geschickt und wusste sich zu helfen.
+Der ungezügelten Kraft fehlten nur die Grenzen.
+Und so formten sich die Finger der Ordnung schließlich selbst zu einem Körper der die Kraft umfassen konnte.
+Die dritte und größte Macht der Dinge, die unermessliche Kraft, ward in Form eines dreibeinigen Lindwurms geboren.
+Diese Macht trägt den Namen "Ersaspial".
 
-Schon die eigene Geburt erfüllte Ersaspial mit dem unzähmbaren Drang, seine Essenz in die Stofflichkeit der Welt zu überführen. Gleichwie das unendliche Licht zu scheinen trachtet und die ewige Zeit immer zu fließen sinnt, so strebt Ersaspial danach, zu wirken und die Nichtigkeit mit Kraft zu formen. Sein Herz, eine unversiegbare Quelle göttlicher Macht, schlug im Takt des Verlangens, das Antlitz der Welt zu gestalten und aufrecht zu erhalten.
+Schon die eigene Geburt erfüllte Ersaspial mit dem unzähmbaren Drang, seine Essenz in die Stofflichkeit der Welt zu überführen.
+Gleichwie das unendliche Licht zu scheinen trachtet und die ewige Zeit immer zu fließen sinnt, so strebt Ersaspial danach, zu wirken und die Nichtigkeit mit Kraft zu formen.
+Sein Herz, eine unversiegbare Quelle göttlicher Macht, schlug im Takt des Verlangens, das Antlitz der Welt zu gestalten und aufrecht zu erhalten.
 
-Die unermessliche Kraft verbündete sich mite dem unendlichen Licht und der ewigen Zeit, und die Dreifaltigkeit zog aus um die Leere der Welt zu befüllen. Sie durchquerten das Nichts und wo immer Ersaspials Pranken die Wirklichkeit berührten, spross eine neue Quelle der Kraft wie ein Samen aus heiligem Nährboden. Die göttlichen Fußabdrücke nahmen einen Teil des unendlichen Lichtes und der ewigen Zeit in sich auf, und wurden so die immerwährenden Sterne des Firmaments.
+Die unermessliche Kraft verbündete sich mite dem unendlichen Licht und der ewigen Zeit, und die Dreifaltigkeit zog aus um die Leere der Welt zu befüllen.
+Sie durchquerten das Nichts und wo immer Ersaspials Pranken die Wirklichkeit berührten, spross eine neue Quelle der Kraft wie ein Samen aus heiligem Nährboden.
+Die göttlichen Fußabdrücke nahmen einen Teil des unendlichen Lichtes und der ewigen Zeit in sich auf, und wurden so die immerwährenden Sterne des Firmaments.
 
-Schließlich kam die Dreifaltigkeit zum Stehen. Ersaspial webte die ewige Zeit und das unendliche Lichts in die Gestalt zweier mächtiger Entitäten an seiner Seite. Ikus ward zur unermüdlich blau strahlenden Sonne, dessen Glanz die Finsternis endgültig verscheuchte. Mavorak ward zum schwarzen Loch, fortan der offene Verkünder der Zeit selbst. Sein Blinzeln vor Ikus formt das ewige Metronom der Existenz. 
+Schließlich kam die Dreifaltigkeit zum Stehen.
+Ersaspial webte die ewige Zeit und das unendliche Lichts in die Gestalt zweier mächtiger Entitäten an seiner Seite.
+Ikus ward zur unermüdlich blau strahlenden Sonne, dessen Glanz die Finsternis endgültig verscheuchte.
+Mavorak ward zum schwarzen Loch, fortan der offene Verkünder der Zeit selbst.
+Sein Blinzeln vor Ikus formt das ewige Metronom der Existenz.
 
 So ward die Ära der Schöpfung eingeläutet in der die Welt unter den drei Mächten erblühte.
-Durch das Ineinanderfließen von Licht und Zeit, geleitet durch die unermessliche Kraft, legte Ersaspial den Grundstein für alles was je sein sollte. Sein Odem schmiedete das Land und die Meere und alles Leben, sein Geheiß formte die Naturgesetze und das Schicksal eines jeden. Die Erschaffung der Welt war ein Wunderwerk der göttlichen Gestaltung, in vollkommener Eintracht mit den Kräften von Mavorak und Ikus. Und doch vermochte die unermessliche Kraft nach der Vollendung nicht zu ruhen, denn auch diese frische Welt konnte seine inneren Dränge nicht ewig stillen. Der Gott der Schöpfung konnte spüren wie ihn die Kraft in seinem Inneren stetig aufzehrte. Als das Ende Ersaspials nahte, weinte der Lindwurm bitterliche Tränen der Göttlichkeit. Aus den unzählbaren Tropfen erwuchsen mächtige Götter, während Ersaspials erhabener Körper dahinsiechte. Die Unzählbaren wurden geboren: die Tiergötter, welche an Ersaspials Stelle über die Welt wachen sollten.
+Durch das Ineinanderfließen von Licht und Zeit, geleitet durch die unermessliche Kraft, legte Ersaspial den Grundstein für alles was je sein sollte.
+Sein Odem schmiedete das Land und die Meere und alles Leben, sein Geheiß formte die Naturgesetze und das Schicksal eines jeden.
+Die Erschaffung der Welt war ein Wunderwerk der göttlichen Gestaltung, in vollkommener Eintracht mit den Kräften von Mavorak und Ikus.
+Und doch vermochte die unermessliche Kraft nach der Vollendung nicht zu ruhen, denn auch diese frische Welt konnte seine inneren Dränge nicht ewig stillen.
+Der Gott der Schöpfung konnte spüren wie ihn die Kraft in seinem Inneren stetig aufzehrte.
+Als das Ende Ersaspials nahte, weinte der Lindwurm bitterliche Tränen der Göttlichkeit.
+Aus den unzählbaren Tropfen erwuchsen mächtige Götter, während Ersaspials erhabener Körper dahinsiechte.
+Die Unzählbaren wurden geboren: die Tiergötter, welche an Ersaspials Stelle über die Welt wachen sollten.
 
 # 2. Buch
 
-Doch das Chaos war näher als der Allmächtige es zu seinen Lebzeiten zu ahnen vermochte. Aus den göttlichen Überresten des dreibeinigen Lindwurms schlüpften die Roiatinen - eine Verkörperung des Chaos' - und prasselten auf die Welt hernieder. Ihre steinharten Körper gruben sich in die Erde und schlugen tiefe Furchen und Tunnel in das Land. Die Erde bebte und krachte während der aufgewirbelte Staub den Himmel verdunkelte. Das Leben und die Ordnung waren einer Zeit der Angst und des Todes ausgesetzt. Die von Ersaspial geschaffenen Götter waren nicht in der Lage dem Geschehen entgegen zu wirken. Ihre Existenzen waren noch zu frisch auf dieser Welt, sie waren erst noch im Begriff zu werden und kannten weder sich selbst noch ihre Artgenossen oder gar das niedere Leben.
+Doch das Chaos war näher als der Allmächtige es zu seinen Lebzeiten zu ahnen vermochte.
+Aus den göttlichen Überresten des dreibeinigen Lindwurms schlüpften die Roiatinen - eine Verkörperung des Chaos' - und prasselten auf die Welt hernieder.
+Ihre steinharten Körper gruben sich in die Erde und schlugen tiefe Furchen und Tunnel in das Land.
+Die Erde bebte und krachte während der aufgewirbelte Staub den Himmel verdunkelte.
+Das Leben und die Ordnung waren einer Zeit der Angst und des Todes ausgesetzt.
+Die von Ersaspial geschaffenen Götter waren nicht in der Lage dem Geschehen entgegen zu wirken.
+Ihre Existenzen waren noch zu frisch auf dieser Welt, sie waren erst noch im Begriff zu werden und kannten weder sich selbst noch ihre Artgenossen oder gar das niedere Leben.
 
-Irgendwann brachen die Landmassen unter der Invasion der Roiatinen. Die Roiatinen verteilten sich nach ihrem Angriff auf den übrigen Ländereien und formten eine letzte ewigwährende Manifestation des Bösen. Die Körper der steinernen Kreaturen rollten sich zusammen und synthetisierten in ihrem Kern ihre chaotische Energie zu den allbekannten Quellen des Todes. 
+Irgendwann brachen die Landmassen unter der Invasion der Roiatinen.
+Die Roiatinen verteilten sich nach ihrem Angriff auf den übrigen Ländereien und formten eine letzte ewigwährende Manifestation des Bösen.
+Die Körper der steinernen Kreaturen rollten sich zusammen und synthetisierten in ihrem Kern ihre chaotische Energie zu den allbekannten Quellen des Todes.
 
-Die gebrochenen Kontinente trieben immer weiter auseinander bis sie schließlich langsam zum Stehen kamen. Zwischen ihnen klaffte bereits das weite Nichts. Die Welt erhohlte sich nur langsam, kein einziger Lebensraum glich mehr dem was ihre Bewohner mal kannten. Die wenigen überlebenden Tiere und Pflanzen passten sich mühsahm über Generationen an die neuen Umstände an. Die Unzählbaren wurden auf dieses Leiden aufmerksam und begannen sich verantwortlich für die Kreaturen der Welt zu fühlen. Sie begannen ihre niederen Ebenbilder zu unterstützen und zu schützen.
+Die gebrochenen Kontinente trieben immer weiter auseinander bis sie schließlich langsam zum Stehen kamen.
+Zwischen ihnen klaffte bereits das weite Nichts.
+Die Welt erhohlte sich nur langsam, kein einziger Lebensraum glich mehr dem was ihre Bewohner mal kannten.
+Die wenigen überlebenden Tiere und Pflanzen passten sich mühsahm über Generationen an die neuen Umstände an.
+Die Unzählbaren wurden auf dieses Leiden aufmerksam und begannen sich verantwortlich für die Kreaturen der Welt zu fühlen.
+Sie begannen ihre niederen Ebenbilder zu unterstützen und zu schützen.
 
-Die Unzählbaren nahmen auch wahr wie stark insbesondere das intelligenteste aller Völker unter dem Angriff der Roatinen gelitten hatte. So schlossen sie daher ihre Mächte zusammen um dem Volke den seelischen Beistand der Micus zu schenken. Seither sind die Existenzen von Micus und Lateralen eng verknüpft, gemeinsam gesegnet mit Fähigkeiten die eine Anpassung selbst an die widrigsten Gegegenheiten ermöglichte.
+Die Unzählbaren nahmen auch wahr wie stark insbesondere das intelligenteste aller Völker unter dem Angriff der Roatinen gelitten hatte.
+So schlossen sie daher ihre Mächte zusammen um dem Volke den seelischen Beistand der Micus zu schenken.
+Seither sind die Existenzen von Micus und Lateralen eng verknüpft, gemeinsam gesegnet mit Fähigkeiten die eine Anpassung selbst an die widrigsten Gegegenheiten ermöglichte.

@@ -2,13 +2,7 @@
 
 ![Caelum Storringer](./images/Sodili-Lateral_Caelum-Froso-Storringer.png)
 
-**Name:** Caelum Froso Storringer  
-**Titel/Klasse:** Paladin  
-**Alter:** Mittleren Alters  
-**Geschlecht:** Männlich  
-**Spezies/Rasse:** [Sodili-Lateral](/content/Volk_/Lateralen_/index.md)  
-**Heimat:** [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)  
-**Beruf:** Mitglied der königlichen Garde  
+**Name:** Caelum Froso Storringer**Titel/Klasse:** Paladin**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Sodili-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)**Beruf:** Mitglied der königlichen Garde
 
 ## Allgemein
 
@@ -20,7 +14,8 @@ Er trägt eine schwere Rüstung aus dem besten Stahl des Königreichs, und sein 
 ### Persönlichkeit
 Caelum zeichnet sich durch seine unerschütterliche Treue und seinen starken Sinn für Gerechtigkeit aus.
 Er ist ernsthaft und pflichtbewusst, was ihn zu einem verlässlichen und standhaften Beschützer macht.
-Seine Starrköpfigkeit und der unbedingte Wille, immer das Richtige zu tun, können jedoch zu Konflikten führen, besonders wenn es um moralische Entscheidungen geht. Trotz seiner Tapferkeit hat Caelum eine tief verwurzelte Angst vor Magie, die er jedoch zu verbergen versucht.
+Seine Starrköpfigkeit und der unbedingte Wille, immer das Richtige zu tun, können jedoch zu Konflikten führen, besonders wenn es um moralische Entscheidungen geht.
+Trotz seiner Tapferkeit hat Caelum eine tief verwurzelte Angst vor Magie, die er jedoch zu verbergen versucht.
 
 #### Charakterzüge
 Caelum ist treu, gerecht und pflichtbewusst.
@@ -42,7 +37,7 @@ Als Mitglied der königlichen Garde erlangte er schließlich durch seine Tapferk
 
 ### Wichtige Ereignisse
 Als Caelum dabei erwischt wurde, wie er einer der königlichen Patroullien nachstellte, hat der Truppführer <span style="color: red;">XXX</span> statt ihn zu bestrafen das Potenzial in dem Jungen gesehen.
-Er nahm ihn in der Jugendgarde auf und wurde fortan zu seinem Mentor welcher ihm Recht und Ordnung beibrachte. 
+Er nahm ihn in der Jugendgarde auf und wurde fortan zu seinem Mentor welcher ihm Recht und Ordnung beibrachte.
 
 ### Aktuelle Situation
 Seine Loyalität und sein Gerechtigkeitssinn brachten Caelum den Respekt des Königs ein, weshalb er auf Empfehlung persönlich vom König für die [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) ausgewählt wurde.
@@ -62,7 +57,7 @@ Caelum verfügt über keine aktiven magischen Fähigkeiten.
 Caelums Micu ist ein imposantes Krokodil namens Tempest.
 Mit seiner beeindruckenden Größe und Agilität im Wasser ist Tempest ein mächtiger Verbündeter.
 Seine bloße Präsenz kann Gegner einschüchtern, und im Kampf ist Tempest sowohl an Land als auch im Wasser eine unaufhaltsame Kraft.
-Darüber hinaus ist die Hybridform von Caelum und Tempest unglaubglich stark im direkten Kampf. 
+Darüber hinaus ist die Hybridform von Caelum und Tempest unglaubglich stark im direkten Kampf.
 
 ### Talente
 Caelum ist besonders talentiert im (Schwert-)Kampf, im Schutz seiner Verbündeten und in der Führung.

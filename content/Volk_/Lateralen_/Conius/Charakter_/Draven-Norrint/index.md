@@ -2,13 +2,7 @@
 
 ![Draven Norint](./images/Conius-Lateral_Draven-Norint.png)
 
-**Name:** Draven Norint  
-**Titel/Klasse:** Alchemist  
-**Alter:** Teenager  
-**Geschlecht:** Männlich  
-**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen_/index.md)  
-**Heimat:** Resrubor-Akademie  
-**Beruf:** Schüler und Forscher an der Resrubor-Akademie
+**Name:** Draven Norint**Titel/Klasse:** Alchemist**Alter:** Teenager**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** Resrubor-Akademie**Beruf:** Schüler und Forscher an der Resrubor-Akademie
 
 ## Allgemein
 

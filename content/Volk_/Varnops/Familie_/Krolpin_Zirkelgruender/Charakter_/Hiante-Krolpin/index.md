@@ -44,7 +44,8 @@ Obwohl sie wenig offene Feinde hat, steht sie Personen skeptisch gegenüber, die
 # Hintergrundgeschichte
 
 ## Frühes Leben
-Hiante wird im 253. Zyklus vor der Ikusation in den nördlichen Ebenen der [Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md) von [Aridess](/content/Himmelskoerper_/Aridess/index.md) geboren.
+Hiante wird im 253.
+Zyklus vor der Ikusation in den nördlichen Ebenen der [Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md) von [Aridess](/content/Himmelskoerper_/Aridess/index.md) geboren.
 Ihre Geburts-Familie [Kriolen](../../../Kriolen_Wüstenstamm/index.md) siedelt dort als eigenständiger Stamm im Schatten der nördlichen Berge.
 Die Gemeinschaft ist klein und lebt hauptsächlich vom Jagen und Sammeln, hat jedoch mit der Zeit auch einige rudimentäre Handelsbeziehungen zu den nördlichen liegenden Bergketten aufgebaut.
 Meist ertauschen sich die Kriolen dabei verarbeitetes Metall in Form von Waffen und Werkzeugen mit dem Leder und Fleisch ihrer letzten Jagdzüge.
@@ -61,7 +62,8 @@ Hiante kennt lange Zeit also nur ein kleines, wohlvertrautes Umfeld, bis ihre Ne
 
 ### Familiengründung
 Im Zirkelgebirge findet Hiante zuerst die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
-Dort beginnt sie 96 Zyklen vor der Ikusation eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Mine, und zeugt zweieinhalb Zyklen später ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md) welcher somit schließlich im 87. Zyklus vor der Ikusation auf die Welt kommt.
+Dort beginnt sie 96 Zyklen vor der Ikusation eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Mine, und zeugt zweieinhalb Zyklen später ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md) welcher somit schließlich im 87.
+Zyklus vor der Ikusation auf die Welt kommt.
 Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum einen die Grundlagen der Metallurgie näher kennenlernt und zum anderen liebevoll ihren ersten Sohn großzieht.
 
 In Grishams Jugend erkundet sie schließlich die weiteren Minen des Zirkelgebirges und etabliert polyamore Beziehungen mit noch weiteren führenden Männern der Region.
@@ -97,7 +99,7 @@ Ihre Nachkommen verwalten weiterhin die Minen und Handelsposten, die Hiante aufg
 ## Physische Fähigkeiten
 Hiante ist körperlich sehr robust, stark und besitzt eine große Ausdauer, was von ihrer Erziehung im Kriolen-Stamm herrührt.
 In ihrer Jugend hat sie gelernt [Sterosse](/content/Himmelskoerper_/Aridess/Fauna_/Sterros/index.md) zu reiten, eine Aktivität welcher sie noch bis ins hohe Alter gerne nachgeht.
-Hiante ist jedoch weder ein gute Kämpferin noch eine Jägerin. 
+Hiante ist jedoch weder ein gute Kämpferin noch eine Jägerin.
 Während ihrer Jugend im Kriolen-Stamm sträubt sie sich gegen alle Lehreinheiten die mit dem Erlegen eines Tiers oder dem Führen einer Waffe zu tun haben.
 All das vermisst sie auch nicht im entferntesten, als sie ihren Stamm schließlich verlässt.
 
@@ -107,7 +109,7 @@ Als Varnops besitzt Hiante keine magischen Fähigkeiten.
 ## Talente
 Hiante ist im allgemeinen bekannt für ihre Empathie und Diplomatie.
 Ihr Geschick im Umgang mit Handelspartnern und ihre innovative Natur sind entscheidend für ihr ambitioniertes Vorhaben der Globalisierung von Aridess.
-Auch ihre Fähigkeiten und ihr Wissen im Bereich der Metallurgie sind heruasragend. 
+Auch ihre Fähigkeiten und ihr Wissen im Bereich der Metallurgie sind heruasragend.
 Diese hat Hiante sich jedoch mit viel Mühe aneignen müssen, um auf die Führung der nördlichen Minen auf Aridess Einfluss nehmen zu können.
 
 # Ausrüstung

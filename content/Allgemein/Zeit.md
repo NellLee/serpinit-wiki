@@ -7,37 +7,26 @@ Dieser Zyklus wird jedoch auf den verschiedenen Planeten unterschiedlich wahrgen
 Da die meisten Lebewesen des Serpinit-Systems lange Zeit angenommen haben, dass Ikus das Zentrum des Systems darstellt, um welches sich auch Mavorak dreht, wurde diese Zeiteinheit im Allgemeinen "Mavorak-Zyklus" genannt.
 
 ## Herleitung 
-Die exakte Umlaufzeit $T$ von Mavorak und Ikus lässt sich mithilfe des 3. Keplerschen Gesetzes berechnen:
+Die exakte Umlaufzeit $T$ von Mavorak und Ikus lässt sich mithilfe des 3.
+Keplerschen Gesetzes berechnen:
 
-$$
-\begin{aligned}
-T^2 = \frac{4 \pi^2 \cdot a^3}{G \cdot M} \\
-\end{aligned}
-$$
+$$ \begin{aligned} T^2 = \frac{4 \pi^2 \cdot a^3}{G \cdot M} \\ \end{aligned} $$
 
-Wobei gilt: 
+Wobei gilt:
 * $M = M_{Mavorak}+M_{Ikus}$
 * $G$ ist die allgemeine Gravitationskonstante 
 * $a$ ist die große Halbachse zwischen Ikus und Mavorak.
 
 Demnach ergibt sich:
 
-$$
-\begin{aligned}
-T &= \sqrt{\frac{4 \pi^2 \cdot (1.1 \, \text{AU})^3}{(6.67430 \cdot 10^{-11} \, \frac{\text{m}^3}{\text{kg} \cdot \text{s}^{2}}) \cdot (24.3 \, M_\odot + 40.07 \, M_\odot)}} \\
-&= \sqrt{\frac{4 \pi^2 \cdot (1.1 \cdot 1.496 \cdot 10^{11} \, \text{m})^3}{(6.67430 \cdot 10^{-11} \, \frac{\text{m}^3}{\text{kg} \cdot \text{s}^{2}}) \cdot (64.37 \cdot 1.989 \cdot 10^{30} \, \text{kg})}} \\
-&= \sqrt{\frac{1.75927 \cdot 10^{35} \, \text{m}^3}{8.5452 \cdot 10^{21} \, \frac{\text{m}^3}{\text{s}^{2}}}} \\
-&= \sqrt{2.86436 \cdot 10^{16} \, \text{s}^2} \\
-&= 4.53738 \cdot 10^6 \, \text{s} \\
-&= 52 \, \text{d} \, 12 \, \text{h} \, 23 \, \text{m} \\
-\end{aligned}
+$$ \begin{aligned} T &= \sqrt{\frac{4 \pi^2 \cdot (1.1 \, \text{AU})^3}{(6.67430 \cdot 10^{-11} \, \frac{\text{m}^3}{\text{kg} \cdot \text{s}^{2}}) \cdot (24.3 \, M_\odot + 40.07 \, M_\odot)}} \\ &= \sqrt{\frac{4 \pi^2 \cdot (1.1 \cdot 1.496 \cdot 10^{11} \, \text{m})^3}{(6.67430 \cdot 10^{-11} \, \frac{\text{m}^3}{\text{kg} \cdot \text{s}^{2}}) \cdot (64.37 \cdot 1.989 \cdot 10^{30} \, \text{kg})}} \\ &= \sqrt{\frac{1.75927 \cdot 10^{35} \, \text{m}^3}{8.5452 \cdot 10^{21} \, \frac{\text{m}^3}{\text{s}^{2}}}} \\ &= \sqrt{2.86436 \cdot 10^{16} \, \text{s}^2} \\ &= 4.53738 \cdot 10^6 \, \text{s} \\ &= 52 \, \text{d} \, 12 \, \text{h} \, 23 \, \text{m} \\ \end{aligned}
 
 $$
 
 
 # Pulsene
-Die kleinste zuverlässig konstante messbare Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura. 
-Dieser wird **Pulsene** genannt und dauert exakt 1,8675 Erd-Sekunden. 
+Die kleinste zuverlässig konstante messbare Zeiteinheit im Serpinit-System ist der Herzschlag des Planeten Navura.
+Dieser wird **Pulsene** genannt und dauert exakt 1,8675 Erd-Sekunden.
 Die Pulsene konnte jedoch interplanetar erst nach der Ikusation durchgesetzt werden.
 
 

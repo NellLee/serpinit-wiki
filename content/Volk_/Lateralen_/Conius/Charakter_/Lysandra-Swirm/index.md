@@ -2,19 +2,13 @@
 
 ![Lysandra Swirm](./images/Conius-Lateral_Lysandra-Swirm.png)
 
-**Name:** Lysandra Swirm  
-**Titel/Klasse:** Wasser-Magierin  
-**Alter:** Junge Erwachsene  
-**Geschlecht:** Weiblich  
-**Spezies/Rasse:** [Conius-Laterale](/content/Volk_/Lateralen_/index.md)  
-**Heimat:** Carpebur  
-**Beruf:** Besitzerin einer Unterkunft am Kapis-Schloss
+**Name:** Lysandra Swirm**Titel/Klasse:** Wasser-Magierin**Alter:** Junge Erwachsene**Geschlecht:** Weiblich**Spezies/Rasse:** [Conius-Laterale](/content/Volk_/Lateralen_/index.md)**Heimat:** Carpebur**Beruf:** Besitzerin einer Unterkunft am Kapis-Schloss
 
 ## Allgemein
 
 ### Aussehen
 Lysandra ist eine korpulente Frau mit grau-blauen Augen und langem, welligen blonden Haar, welches sie oft in einem lockeren Zopf trägt.
-An ihrem Hals hängt stets ein blaues Amulett in Tropfenfrom, spiegelnd wie das Wasser, das sie so liebt. 
+An ihrem Hals hängt stets ein blaues Amulett in Tropfenfrom, spiegelnd wie das Wasser, das sie so liebt.
 Sie trägt meist einfache Kleider in hellen Farbtönen und verzichtet auf Stoffe wie Leder oder Fell wenn möglich.
 
 ### Persönlichkeit
@@ -22,7 +16,7 @@ Sie trägt meist einfache Kleider in hellen Farbtönen und verzichtet auf Stoffe
 #### Charakterzüge
 Lysandra ist ruhig und besonnen und strahlt eine natürliche Gelassenheit aus, die auch auf andere beruhigend wirkt.
 Sie ist sehr charismatisch und hat ein großes Herz für Tiere, besonders für Micus.
-Außerdem ist Lysandra immer neugierig auf den neusten Klatsch und Tratsch des Adels aus Carpebur. 
+Außerdem ist Lysandra immer neugierig auf den neusten Klatsch und Tratsch des Adels aus Carpebur.
 
 #### Vorlieben
 Lysandra liebt es, Zeit mit ihren Gästen (vor allem den Micus) zu verbringen.
@@ -36,7 +30,7 @@ Sie empfindet außerdem eine Abneigung gegenüber Sodili, die ihren Micu als sel
 ## Hintergrundgeschichte
 
 ### Frühes Leben
-Lysandra wurde auf einem Hof in der Nähe von Resrubor geboren, sodass ihr die Liebe zu Tieren quasi in die Wiege gelegt wurde. 
+Lysandra wurde auf einem Hof in der Nähe von Resrubor geboren, sodass ihr die Liebe zu Tieren quasi in die Wiege gelegt wurde.
 Ihre Eltern schickten sie schließlich auf die Resrubor-Akademie, da sie die Hoffnung hatten, dass die Runen-Magie ihnen schließlich ein besseres Leben ermöglichen würde.
 Nach ihrer Ausbildung in der Akademie kehrte sie auf den Hof zurück, wo sie sich um ihre Eltern un deren Micus kümmerte, besonders nachdem diese krank wurden.
 

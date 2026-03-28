@@ -2,13 +2,7 @@
 
 ![Ingvor-Nemet Mandijit](./images/Conius-Lateral_Ingvor-Nemet-Mandijit.png)
 
-**Name:** Ingvor-Nemet Mandijit  
-**Titel/Klasse:** Elementar-Beschwörer  
-**Alter:** Mittleren Alters  
-**Geschlecht:** Männlich  
-**Spezies/Rasse:** [Conius-Lateraler](/content/Volk_/Lateralen_/index.md)  
-**Heimat:** Villa am See Kulios  
-**Beruf:** Ehemaliger Lehrer an der Resrubor-Akademie, unabhängiger Forscher
+**Name:** Ingvor-Nemet Mandijit**Titel/Klasse:** Elementar-Beschwörer**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateraler](/content/Volk_/Lateralen_/index.md)**Heimat:** Villa am See Kulios**Beruf:** Ehemaliger Lehrer an der Resrubor-Akademie, unabhängiger Forscher
 
 ## Allgemein
 
@@ -23,14 +17,14 @@ Er ist immer mit Pergament, Federkiel und Zauberbüchern ausgestattet, bereit, s
 #### Charakterzüge
 Ingvor ist ein rationaler und überlegter Lateral, der sich durch sachliches Auftreten und einen scharfen Verstand auszeichnet.
 Seine Leidenschaft für die Magie und seine Neigung zur Beschwörung machen ihn zu einem motiviertem aber manchmal leicht aufbrausenden Lehrer und Forscher.
-Trotz seines Temperaments war sein Unterricht an der Resrubor-Akademie sehr beliebt. 
+Trotz seines Temperaments war sein Unterricht an der Resrubor-Akademie sehr beliebt.
 In Akuelon ist er als temperamentvoller Lateraler bekannt, insbesondere aufgrund seines Streits mit dem Bürgermeister Stavros.
 Hinter seiner diplomatischen Fassade verbirgt sich seither ein Hauch von Verbitterung.
 
 ### Ideale, Ziele und Bindungen
 "Fortschritt dem Wissen" - Ingvor strebt danach, die Wissenschaft der Magie voranzutreiben.
 Insbesondere möchte er die Forschung und Anwendung der Elementarbeschwörung weiterzuentwickeln.
-Die Resrubor-Akademie war lange sein Zuhause, aber die träge Forschungspolitik trieb ihn dazu, seine Forschungen privat fortzuführen. 
+Die Resrubor-Akademie war lange sein Zuhause, aber die träge Forschungspolitik trieb ihn dazu, seine Forschungen privat fortzuführen.
 Seine Erkenntnisse zur Elementarbeschwörung, sind sowohl innovativ als auch gefährlich.
 
 ## Fähigkeiten und Ausrüstung
@@ -39,14 +33,14 @@ Seine Erkenntnisse zur Elementarbeschwörung, sind sowohl innovativ als auch gef
 Ingvor hat keine herausragenden physischen Fähigkeiten, aber er ist geschickt im Umgang mit magischen Apparaturen und hat eine ausgezeichnete Feinmotorik für das Zeichnen komplexer Runen und Zauberzeichen.
 
 ### Magische Fähigkeiten
-Ingvor ist ein erfahrener Zauberer mit besonderer Expertise in der Beschwörung und Kontrolle von Elementaren. 
+Ingvor ist ein erfahrener Zauberer mit besonderer Expertise in der Beschwörung und Kontrolle von Elementaren.
 
 ### Talente
 Ingvor ist ein geschickter Diplomat, auch wenn er diese Fähigkeiten inzwischen eher selten nutzt.
 Er hat außerdem tiefes Wissen in der Runenwissenschaft und langjährige Erfahrung in der Forschung.
 
 ### Ausrüstung
-Ingvor trägt meist prächtige Roben aus farbiger Seide und ist immer mit Pergament, Federkiel und Zauberbüchern ausgestattet. 
+Ingvor trägt meist prächtige Roben aus farbiger Seide und ist immer mit Pergament, Federkiel und Zauberbüchern ausgestattet.
 Sein Anwesen ist voller magischer Pflanzen und Gegenstände, die er für seine Forschungen und Beschwörungen nutzt.
 
 ## Hintergrundgeschichte

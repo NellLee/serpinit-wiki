@@ -2,7 +2,8 @@
 
 # Meta / Kontext
 
-Die Spieler sichern aktuell noch das Lager. Dafür müssen sie entscheiden wo die Zelte und Zäune aufgestellt werden.
+Die Spieler sichern aktuell noch das Lager.
+Dafür müssen sie entscheiden wo die Zelte und Zäune aufgestellt werden.
 Nach dem Aufbau ruft Kwint Gurdun sie in das Hauptzelt, erklärt die nächsten Schritte und erinnert die Spieler, dass sie folgende Aufgaben erledigen sollen:
 * Herausfinden ob die Welt hinter dem Portal (Über-)Leben zulässt
 * Hindurchschreiten, die direkte Umgebung sichern und direkt zurückkehren um Bericht zu erstatten.

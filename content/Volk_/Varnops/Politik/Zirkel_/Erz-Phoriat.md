@@ -6,7 +6,7 @@ Dabei sind sie besonders bekannt für ihre effizienten Erzbohrungen und die daf�
 
 ## Entwicklung des Phoriats
 Die Varnop-Familie Krolpin entwickelt im Zyklus X den ersten Phoriat, ein Bohrer mit dem ein Varnop effektiv in den Boden graben kann und dabei sowohl Erde als auch Steine problemlos durchdringt.
-Mit den Bohrern entstehen schließlich die vielen Erzminen in den nördlichen Gebirgen.  
+Mit den Bohrern entstehen schließlich die vielen Erzminen in den nördlichen Gebirgen.
 Die Krolpins bauen mit der Zeit immer mehr Handelsbeziehungen auf, da die geschürften Metalle bei den Stämmen außerhalb der Gebirge heiß begehrt sind und nehmen so eine immer mächtiger werdende Position im Zirkelgebirge ein.
 Doch sind die Handelswege insgesamt recht ineffizient und die Krolpins verzeichnen häufig unvorhersehbare Verluste.
 Außerdem sind die ersten Bohrer mühsam angefertigte Einzelstücke, welche nur wenige herzustellen in der Lage sind.

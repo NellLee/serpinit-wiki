@@ -1,1 +1,1 @@
-Bürgermeister von [Akuelon](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Dorf_Akuelon/index.md) 
+Bürgermeister von [Akuelon](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Dorf_Akuelon/index.md)
