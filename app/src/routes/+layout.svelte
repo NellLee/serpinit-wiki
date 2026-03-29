@@ -1,13 +1,7 @@
-
-<svelte:head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
-</svelte:head>
-
 <script lang="ts">
-	import Navbar from "$lib/components/Navbar.svelte";
-
-	import { onMount } from "svelte";
-	import { Icon, ChevronUp } from "svelte-hero-icons";
+	import Navbar from '$lib/components/Navbar.svelte';
+	import { onMount } from 'svelte';
+	import { Icon, ChevronUp } from 'svelte-hero-icons';
 
 	let scrollY = 0;
 
@@ -18,47 +12,56 @@
 	const scrollToTop = () => {
 		window.scrollTo({
 			top: 0,
-			behavior: "smooth"
+			behavior: 'smooth'
 		});
 	};
 
 	onMount(() => {
-		window.addEventListener("scroll", handleScroll);
+		window.addEventListener('scroll', handleScroll);
 
 		return () => {
-			window.removeEventListener("scroll", handleScroll);
+			window.removeEventListener('scroll', handleScroll);
 		};
 	});
 </script>
 
-<main>
+<svelte:head>
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
+		integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn"
+		crossorigin="anonymous"
+	/>
+</svelte:head>
+
+<div class="app-shell">
 	<Navbar
 		items={[
 			{
-				href: "/content",
-				text: "Wiki"
+				href: '/content',
+				text: 'Wiki'
 			},
 			{
-				href: "/content/timeline",
-				text: "Timeline"
+				href: '/content/timeline',
+				text: 'Timeline'
 			},
 			{
-				href: "/convert",
-				text: "Converter"
+				href: '/convert',
+				text: 'Converter'
 			}
 		]}
 	/>
 
-	<body>
+	<main class="page-shell">
 		<slot />
-	</body>
+	</main>
 
 	<button id="scroll-to-top" class:show={scrollY > 100} on:click={scrollToTop}>
 		<Icon src={ChevronUp} solid size="20" />
-		Zurück nach oben
+		Zurueck nach oben
 		<Icon src={ChevronUp} solid size="20" />
 	</button>
-</main>
+</div>
 
 <style global lang="scss">
 	:root {
@@ -71,7 +74,11 @@
 		--alternative-secondary-background-color: #c5c5c5;
 		--primary-border-color: #ccc;
 		--secondary-border-color: #b1b1b1;
+		--shell-max-width: 1600px;
+		--shell-inline-padding: clamp(16px, 2.5vw, 32px);
+		--shell-content-gap: clamp(16px, 2vw, 28px);
 	}
+
 	#scroll-to-top {
 		display: none;
 		flex-flow: row nowrap;
@@ -104,24 +111,41 @@
 		box-sizing: border-box;
 	}
 
-	:global(main) {
-		width: 100%;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-size: 14px;
-		line-height: 1.428571429;
+	:global(html) {
 		margin: 0;
+		min-height: 100%;
 	}
 
 	:global(body) {
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		line-height: 1.428571429;
 		color: var(--primary-color);
 		background-color: var(--primary-background-color);
 		margin: 0;
+		min-height: 100vh;
+	}
 
-		max-width: 100vw;
-		min-height: fit-content;
+	.app-shell {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+
+	.page-shell {
+		width: min(100%, var(--shell-max-width));
+		flex: 1 1 auto;
+		margin: 0 auto;
+		padding: 0 var(--shell-inline-padding) 32px;
 		display: flex;
 		flex-flow: row nowrap;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: stretch;
+		gap: var(--shell-content-gap);
+	}
+
+	.page-shell > :global(*) {
+		min-width: 0;
 	}
 </style>
