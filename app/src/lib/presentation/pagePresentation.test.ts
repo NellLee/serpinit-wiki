@@ -44,6 +44,14 @@ assert.deepEqual(getContentPagePresentation("/content/images/gallery/index.md"),
 	emphasizeOverview: true
 });
 
+assert.deepEqual(getContentPagePresentation("/content/atlas/images/diagram.md"), {
+	pageClass: "article",
+	showToc: true,
+	showContextRail: true,
+	contentWidth: "standard",
+	emphasizeOverview: false
+});
+
 assert.deepEqual(getContentPagePresentation("/content/atlas/media/index.md"), {
 	pageClass: "index",
 	showToc: false,

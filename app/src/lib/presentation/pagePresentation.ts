@@ -70,10 +70,6 @@ const UTILITY_PRESENTATIONS: Record<UtilityView, PagePresentation> = {
 
 const MEDIA_BRANCHES = new Set(["images", "gallery", "galleries"]);
 
-function clonePresentation(presentation: PagePresentation): PagePresentation {
-	return { ...presentation };
-}
-
 function normalizePagePath(pagePath: string | null | undefined): string {
 	if (!pagePath) {
 		return "";
@@ -92,12 +88,14 @@ function isHubPage(pagePath: string): boolean {
 }
 
 function isMediaPage(pagePath: string): boolean {
-	const segments = pagePath.split("/").filter(Boolean);
-	if (segments.length === 0) {
+	if (!isIndexPage(pagePath)) {
 		return false;
 	}
 
-	return segments.some((segment) => MEDIA_BRANCHES.has(segment));
+	const branchSegments = pagePath.replace(/\/index\.md$/, "").split("/").filter(Boolean);
+	const terminalBranch = branchSegments.at(-1);
+
+	return terminalBranch != null && MEDIA_BRANCHES.has(terminalBranch);
 }
 
 function isIndexPage(pagePath: string): boolean {
@@ -108,22 +106,22 @@ export function getContentPagePresentation(pagePath: string | null | undefined):
 	const normalizedPath = normalizePagePath(pagePath);
 
 	if (isHubPage(normalizedPath)) {
-		return clonePresentation(HUB_PRESENTATION);
+		return { ...HUB_PRESENTATION };
 	}
 
 	if (isMediaPage(normalizedPath)) {
-		return clonePresentation(MEDIA_PRESENTATION);
+		return { ...MEDIA_PRESENTATION };
 	}
 
 	if (isIndexPage(normalizedPath)) {
-		return clonePresentation(INDEX_PRESENTATION);
+		return { ...INDEX_PRESENTATION };
 	}
 
-	return clonePresentation(ARTICLE_PRESENTATION);
+	return { ...ARTICLE_PRESENTATION };
 }
 
 export function getUtilityPagePresentation(view: UtilityView): PagePresentation {
 	// Utility routes such as /content/search, /content/timeline, and /convert
 	// must share this module instead of duplicating classification logic.
-	return clonePresentation(UTILITY_PRESENTATIONS[view]);
+	return { ...UTILITY_PRESENTATIONS[view] };
 }
