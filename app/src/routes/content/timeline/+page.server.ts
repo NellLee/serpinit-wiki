@@ -1,5 +1,6 @@
 
 import { TIMELINE_API_URL } from "$lib/constants";
+import { getUtilityPagePresentation } from "$lib/presentation/pagePresentation";
 import { error } from "@sveltejs/kit";
 
 export async function load({ fetch, params, url }) {
@@ -13,6 +14,7 @@ export async function load({ fetch, params, url }) {
     let selectedEvent = timeline.find(event => event.text === selectedEventTitle) ?? null
     return {
         timeline,
-        selectedEvent
+        selectedEvent,
+        presentation: getUtilityPagePresentation("timeline")
     }
 }

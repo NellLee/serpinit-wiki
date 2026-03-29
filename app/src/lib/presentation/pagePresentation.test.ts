@@ -1,8 +1,16 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
 import {
 	getContentPagePresentation,
 	getUtilityPagePresentation,
 } from "./pagePresentation";
+
+const APP_ROOT = process.cwd();
+
+function readAppFile(relativePath: string): string {
+	return fs.readFileSync(path.resolve(APP_ROOT, relativePath), "utf8");
+}
 
 assert.deepEqual(getContentPagePresentation("/content"), {
 	pageClass: "hub",
@@ -67,3 +75,18 @@ assert.deepEqual(getUtilityPagePresentation("convert"), {
 	contentWidth: "standard",
 	emphasizeOverview: false
 });
+
+const searchRouteSource = readAppFile("src/routes/content/search/+page.server.ts");
+assert.match(searchRouteSource, /getUtilityPagePresentation/);
+assert.match(searchRouteSource, /presentation:\s*getUtilityPagePresentation\("search"\)/);
+
+const timelineRouteSource = readAppFile("src/routes/content/timeline/+page.server.ts");
+assert.match(timelineRouteSource, /getUtilityPagePresentation/);
+assert.match(timelineRouteSource, /presentation:\s*getUtilityPagePresentation\("timeline"\)/);
+
+const convertRoutePath = path.resolve(APP_ROOT, "src/routes/convert/+page.ts");
+assert.equal(fs.existsSync(convertRoutePath), true);
+
+const convertRouteSource = fs.readFileSync(convertRoutePath, "utf8");
+assert.match(convertRouteSource, /getUtilityPagePresentation/);
+assert.match(convertRouteSource, /presentation:\s*getUtilityPagePresentation\("convert"\)/);
