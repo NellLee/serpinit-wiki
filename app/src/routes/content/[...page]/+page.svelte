@@ -44,14 +44,16 @@
 	class:index={pageClass === 'index'}
 	class:article={pageClass === 'article'}
 	class:media={pageClass === 'media'}
+	class:left-rail={showLeftRail}
+	class:right-rail={showRightRail}
 >
-	<div class="rail rail-left" class:is-hidden={!showLeftRail}>
-		{#if showLeftRail}
+	{#if showLeftRail}
+		<div class="rail rail-left">
 			<Sidebar>
 				<ContentTree linkTree={data.page.toc} />
 			</Sidebar>
-		{/if}
-	</div>
+		</div>
+	{/if}
 
 	<div class="main-column">
 		<MidPanel contentWidth={data.presentation.contentWidth}>
@@ -65,8 +67,8 @@
 		</MidPanel>
 	</div>
 
-	<div class="rail rail-right" class:is-hidden={!showRightRail}>
-		{#if showRightRail}
+	{#if showRightRail}
+		<div class="rail rail-right">
 			<Sidebar>
 				{#if data.page.event}
 					<SmallNamedCard name="Timeline">
@@ -79,28 +81,28 @@
 					<ReferenceList {namedLinkList} />
 				{/each}
 			</Sidebar>
-		{/if}
-	</div>
+		</div>
+	{/if}
 </div>
 
 <style lang="scss">
 	.content-page {
 		width: 100%;
 		display: grid;
-		grid-template-columns: minmax(0, 17rem) minmax(0, 1fr) minmax(0, 19rem);
+		grid-template-columns: minmax(0, 1fr);
 		align-items: start;
 		gap: var(--shell-content-gap, 24px);
 
-		&.hub {
-			grid-template-columns: minmax(0, 0.2fr) minmax(0, 1fr) minmax(0, 0.2fr);
+		&.left-rail.right-rail {
+			grid-template-columns: minmax(0, 17rem) minmax(0, 1fr) minmax(0, 19rem);
 		}
 
-		&.index {
-			grid-template-columns: minmax(0, 0.1fr) minmax(0, 1fr) minmax(0, 18rem);
+		&.right-rail:not(.left-rail) {
+			grid-template-columns: minmax(0, 1fr) minmax(0, 18rem);
 		}
 
-		&.media {
-			grid-template-columns: minmax(0, 0.1fr) minmax(0, 1fr) minmax(0, 0.1fr);
+		&.left-rail:not(.right-rail) {
+			grid-template-columns: minmax(0, 17rem) minmax(0, 1fr);
 		}
 	}
 
@@ -111,11 +113,6 @@
 
 	.rail {
 		width: 100%;
-	}
-
-	.rail.is-hidden {
-		visibility: hidden;
-		pointer-events: none;
 	}
 
 	.main-column {
