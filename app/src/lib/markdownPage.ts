@@ -11,6 +11,7 @@ import { getFilePathsInFolder, getFolderPathsInFolder } from "./utilities/files"
 import { FileLink } from "./fileLink"
 import markedKatex from "marked-katex-extension"
 import { timeline } from "./timeline"
+import { applyMarkdownRenderHooks } from "./markdownRenderHooks"
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m
 
@@ -134,6 +135,7 @@ export class MarkdownPage {
         this.event = timeline.find(event => event.description == fileLink.href) ?? null
 
         this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, "utf-8")
+        this.markdown = applyMarkdownRenderHooks(this.markdown)
 
         this.processComments()
 
