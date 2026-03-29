@@ -1,6 +1,7 @@
 import { WIKI_URL, PAGE_API_URL } from "$lib/constants";
 import type { MarkdownPage } from "$lib/markdownPage.js";
 import { getLinkedFilePath } from "$lib/utilities/links";
+import { getContentPagePresentation } from "$lib/presentation/pagePresentation";
 import { error, redirect } from "@sveltejs/kit";
 
 
@@ -27,5 +28,6 @@ export async function load({ fetch, params, url }) {
 
     return {
         page,
+        presentation: getContentPagePresentation(linkedFile),
     }
 }
