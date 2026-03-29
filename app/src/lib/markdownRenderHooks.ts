@@ -1,4 +1,5 @@
 const REGEX_OVERVIEW_HOOK = /^\s*<!--\s*layout:\s*overview\s*-->\s*$/i;
+const REGEX_FOLDER_INDEX_HOOK = /^\s*<!--\s*render:\s*folder-index\s*-->\s*$/gim;
 const REGEX_TABLE_LINE = /^\s*\|.*\|\s*$/;
 const REGEX_TABLE_SEPARATOR = /^\s*\|?[\s:-]+\|[\s|:-]*$/;
 const REGEX_IMAGE = /^\s*!\[[^\]]*\]\([^)]+\)\s*$/;
@@ -76,5 +77,5 @@ function transformOverviewHooks(markdown: string) {
 }
 
 export function applyMarkdownRenderHooks(markdown: string) {
-	return transformOverviewHooks(markdown);
+	return transformOverviewHooks(markdown).replace(REGEX_FOLDER_INDEX_HOOK, "<!-- INDEX -->");
 }

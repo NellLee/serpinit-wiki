@@ -17,13 +17,22 @@ const overviewMarkdown = `# Markdown Hook Preview
 This paragraph should remain in the main content body.
 `;
 
+const folderIndexMarkdown = `# Markdown Hook Preview
+
+<!-- render: folder-index -->
+`;
+
 export function buildMarkdownHookFixture(fixture: string) {
-	if (fixture !== "overview") {
+	let markdown = overviewMarkdown;
+	let fakePath = path.resolve(WIKI_PATH, "Himmelskoerper_", "__markdown-hook-preview__.md");
+
+	if (fixture === "folder-index") {
+		markdown = folderIndexMarkdown;
+	} else if (fixture !== "overview") {
 		throw error(404, `Unknown markdown hook fixture: ${fixture}`);
 	}
 
-	const fakePath = path.resolve(WIKI_PATH, "Himmelskoerper_", "__markdown-hook-preview__.md");
-	const page = new MarkdownPage(fakePath, overviewMarkdown);
+	const page = new MarkdownPage(fakePath, markdown);
 
 	return JSON.parse(page.toJSON());
 }
