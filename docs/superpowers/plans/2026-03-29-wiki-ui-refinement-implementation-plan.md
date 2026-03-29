@@ -26,6 +26,7 @@
 - Modify: `app/src/lib/components/MidPanel.svelte`
 - Modify: `app/src/routes/content/search/+page.svelte`
 - Modify: `app/src/routes/content/timeline/+page.svelte`
+- Modify: `app/src/routes/convert/+page.svelte`
 
 ### New files to create
 
@@ -50,6 +51,30 @@
 - Use the fixed desktop review set from the spec rather than validating on one article only.
 - Prefer minimal layout-model additions over broad architectural churn.
 - Use TDD where practical for page classification and presentation-rule helpers.
+
+### Fixed Desktop Review Set
+
+Use these exact routes for manual validation throughout the implementation:
+
+- Hub/root: `/content/index.md`
+- Section index: `/content/Volk_/index.md`
+- Long-form article A: `/content/Volk_/Varnops/index.md`
+- Long-form article B: `/content/Allgemein/Magie/index.md`
+- Media page: `/content/Volk_/Varnops/images`
+- Search: `/content/search?q=Varnops`
+- Timeline: `/content/timeline`
+- Convert: `/convert`
+
+### Single Source of Truth for Presentation State
+
+`app/src/lib/presentation/pagePresentation.ts` is the single source of truth for presentation state.
+
+It should expose:
+- one shared helper for content-route classification and layout flags
+- one shared helper for standalone utility-route presentation with a hard-coded `utility` page class plus per-view layout options
+
+Do not duplicate presentation logic independently inside `search`, `timeline`, or `convert`.
+Those routes may supply their own utility-view identifier, but they should consume the same presentation module.
 
 ## Task 1: Bootstrap the isolated implementation workspace
 
@@ -94,29 +119,30 @@ git commit -m "chore: prepare worktree verification baseline"
 - Modify: `docs/superpowers/plans/2026-03-29-wiki-ui-refinement-implementation-plan.md`
 - Optional Create: `docs/superpowers/plans/review-set.md`
 
-- [ ] **Step 1: Pick the concrete review pages**
+- [ ] **Step 1: Copy the fixed desktop review set into active working notes**
 
-Select exact desktop validation URLs for:
-- root/home
-- one section index
-- two structurally different long-form articles
-- one media-heavy page
-- search
-- timeline
+Use the exact routes defined in the implementation notes:
+- `/content/index.md`
+- `/content/Volk_/index.md`
+- `/content/Volk_/Varnops/index.md`
+- `/content/Allgemein/Magie/index.md`
+- `/content/Volk_/Varnops/images`
+- `/content/search?q=Varnops`
+- `/content/timeline`
+- `/convert`
 
-- [ ] **Step 2: Write the review-set list into the plan or companion checklist**
+- [ ] **Step 2: Associate each fixed route with its validation purpose**
 
-Include exact route paths so later verification is repeatable.
+- `/content/index.md`: validates hub framing
+- `/content/Volk_/index.md`: validates navigation-first index behavior
+- `/content/Volk_/Varnops/index.md`: validates prose-first article layout
+- `/content/Allgemein/Magie/index.md`: validates heading rhythm and denser structural variation
+- `/content/Volk_/Varnops/images`: validates media-page layout behavior and reduced text-first chrome assumptions
+- `/content/search?q=Varnops`: validates utility search framing
+- `/content/timeline`: validates utility visualization framing
+- `/convert`: validates converter tool-surface framing
 
-- [ ] **Step 3: Define what each page in the review set is validating**
-
-Examples:
-- home validates hub framing
-- section index validates navigation-first composition
-- long-form article A validates dense prose
-- long-form article B validates heading-heavy structure
-
-- [ ] **Step 4: Commit the review-set definition if a separate file was created**
+- [ ] **Step 3: Commit the review-set definition if a separate file was created**
 
 ```bash
 git add docs/superpowers/plans/2026-03-29-wiki-ui-refinement-implementation-plan.md docs/superpowers/plans/review-set.md
@@ -138,6 +164,13 @@ Cover at least:
 - article page
 - media-oriented page
 - utility page
+
+Use concrete starter signals so classification does not drift during implementation:
+- `hub`: top-level root entry such as `/content` or equivalent root wiki landing view
+- `index`: directory/branch overview pages whose primary role is navigation into child content
+- `article`: standard prose-first markdown pages
+- `media`: image/gallery-dominant pages, including generated gallery index pages
+- `utility`: non-markdown workflow pages such as `/content/search`, `/content/timeline`, and `/convert`
 
 - [ ] **Step 2: Run the test to verify it fails**
 
@@ -163,6 +196,16 @@ export interface PagePresentation {
 }
 ```
 
+Also add a shared utility-route entry point, for example:
+
+```ts
+export type UtilityView = "search" | "timeline" | "convert";
+
+export function getUtilityPagePresentation(view: UtilityView): PagePresentation {
+  // returns pageClass: "utility" plus view-specific layout flags
+}
+```
+
 - [ ] **Step 4: Implement minimal page classification heuristics**
 
 Base them on route/page context only.
@@ -172,11 +215,15 @@ Do not modify markdown semantics.
 
 Return `presentation` alongside `page`.
 
-- [ ] **Step 6: Run the narrow verification again**
+- [ ] **Step 6: Document that utility routes must consume the same presentation module**
+
+Do not create independent per-route classification logic in `search`, `timeline`, or `convert`.
+
+- [ ] **Step 7: Run the narrow verification again**
 
 Expected: helper compiles and classification logic is exercised
 
-- [ ] **Step 7: Commit the presentation model**
+- [ ] **Step 8: Commit the presentation model**
 
 ```bash
 git add app/src/lib/presentation/pagePresentation.ts app/src/lib/presentation/pagePresentation.test.ts app/src/routes/content/[...page]/+page.server.ts
@@ -278,23 +325,27 @@ Include:
 
 Make the article card read as a deliberate surface instead of a generic panel.
 
-- [ ] **Step 3: Reduce rigid image assumptions**
+- [ ] **Step 3: Refine heading hierarchy and inline-link readability**
+
+Explicitly improve heading scale, heading spacing rhythm, and in-body link treatment so long-form articles are easier to scan.
+
+- [ ] **Step 4: Reduce rigid image assumptions**
 
 Keep current figure behavior, but avoid overfitting it to one article shape.
 
-- [ ] **Step 4: Improve note/comment/table/list styling without changing markdown semantics**
+- [ ] **Step 5: Improve note/comment/table/list styling without changing markdown semantics**
 
 Keep authoring behavior stable.
 
-- [ ] **Step 5: Run `yarn check`**
+- [ ] **Step 6: Run `yarn check`**
 
 Expected: style/script changes compile cleanly
 
-- [ ] **Step 6: Manually verify both dense prose and image-heavy article pages**
+- [ ] **Step 7: Manually verify both dense prose and image-heavy article pages**
 
 Use two different article types from the review set.
 
-- [ ] **Step 7: Commit article-body improvements**
+- [ ] **Step 8: Commit article-body improvements**
 
 ```bash
 git add app/src/lib/components/ContentCard.svelte
@@ -347,32 +398,34 @@ git commit -m "feat: refine support navigation hierarchy"
 **Files:**
 - Modify: `app/src/routes/content/search/+page.svelte`
 - Modify: `app/src/routes/content/timeline/+page.svelte`
+- Modify: `app/src/routes/convert/+page.svelte`
 
-- [ ] **Step 1: Inspect current search and timeline layout constraints**
+- [ ] **Step 1: Inspect current utility-route layout constraints**
 
-Confirm where they currently inherit article assumptions.
+Confirm where search, timeline, and converter currently inherit article assumptions.
 
 - [ ] **Step 2: Define their utility-page presentation needs**
 
 Search should prioritize results scanning.
 Timeline should prioritize visualization and controls.
+Converter should prioritize the working tool surface and its inputs/outputs.
 
 - [ ] **Step 3: Adjust each route so it aligns with the shared shell without pretending to be an article page**
 
-Keep consistency, drop inappropriate article framing.
+Keep consistency, drop inappropriate article framing, and source presentation state from `app/src/lib/presentation/pagePresentation.ts`.
 
 - [ ] **Step 4: Run `yarn check`**
 
 Expected: utility views compile cleanly
 
-- [ ] **Step 5: Manually verify both routes**
+- [ ] **Step 5: Manually verify all utility routes**
 
 Expected: utility pages feel coherent with the site but not constrained by article composition
 
 - [ ] **Step 6: Commit utility-page adjustments**
 
 ```bash
-git add app/src/routes/content/search/+page.svelte app/src/routes/content/timeline/+page.svelte
+git add app/src/routes/content/search/+page.svelte app/src/routes/content/timeline/+page.svelte app/src/routes/convert/+page.svelte
 git commit -m "feat: align utility pages with presentation model"
 ```
 
