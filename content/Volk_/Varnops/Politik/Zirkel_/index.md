@@ -9,7 +9,7 @@ Jeder Zirkel ist verantwortlich für die Weiterentwicklung, Implementierung und 
 
 Nach dem Abschluss des Zirkel-Wettstreits wurden die **12 Zirkel** gegründet:
 
-<!-- INDEX -->
+<!-- render: folder-index -->
 
 ## Struktur und Aufgaben
 

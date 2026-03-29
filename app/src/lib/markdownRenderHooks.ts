@@ -2,7 +2,7 @@ const REGEX_OVERVIEW_HOOK = /^\s*<!--\s*layout:\s*overview\s*-->\s*$/i;
 const REGEX_FOLDER_INDEX_HOOK = /^\s*<!--\s*render:\s*folder-index\s*-->\s*$/gim;
 const REGEX_GALLERY_HOOK = /^\s*<!--\s*render:\s*gallery\s*-->\s*$/gim;
 const REGEX_CALLOUT_HOOK = /^\s*<!--\s*callout:\s*(note|todo|maybe)\s*-->\s*$/i;
-const REGEX_CARD_LINK_HOOK = /^\s*<!--\s*display:\s*card-link\s*-->\s*$/i;
+const REGEX_CARD_LINK_HOOK = /^\s*<!--\s*display:\s*card-link(?<attrs>.*?)-->\s*$/i;
 const REGEX_MARKDOWN_IMAGE_LINK = /^\s*\[!\[([^\]]*)\]\(([^)]+)\)\]\(([^)]+)\)\s*$/;
 const REGEX_TABLE_LINE = /^\s*\|.*\|\s*$/;
 const REGEX_TABLE_SEPARATOR = /^\s*\|?[\s:-]+\|[\s|:-]*$/;
@@ -141,7 +141,8 @@ function transformCardLinkHooks(markdown: string) {
 	for (let index = 0; index < lines.length; index++) {
 		const line = lines[index];
 
-		if (!REGEX_CARD_LINK_HOOK.test(line)) {
+		const hookMatch = line.match(REGEX_CARD_LINK_HOOK);
+		if (!hookMatch) {
 			output.push(line);
 			continue;
 		}
@@ -167,7 +168,11 @@ function transformCardLinkHooks(markdown: string) {
 			continue;
 		}
 
-		output.push(`§imglink{text="${text}" href="${href}" src="${imgSrc}"}`);
+		const attrs = hookMatch.groups?.attrs ?? "";
+		const styleMatch = attrs.match(/style="([^"]+)"/i);
+		const styleAttribute = styleMatch ? ` style="${styleMatch[1]}"` : "";
+
+		output.push(`§imglink{text="${text}" href="${href}" src="${imgSrc}"${styleAttribute}}`);
 		index = cursor;
 	}
 
