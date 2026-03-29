@@ -50,7 +50,25 @@ const UTILITY_PRESENTATION: PagePresentation = {
 	emphasizeOverview: false
 };
 
-const MEDIA_BRANCHES = new Set(["images", "gallery", "galleries", "media"]);
+const UTILITY_PRESENTATIONS: Record<UtilityView, PagePresentation> = {
+	search: UTILITY_PRESENTATION,
+	timeline: {
+		pageClass: "utility",
+		showToc: false,
+		showContextRail: true,
+		contentWidth: "wide",
+		emphasizeOverview: false
+	},
+	convert: {
+		pageClass: "utility",
+		showToc: false,
+		showContextRail: false,
+		contentWidth: "standard",
+		emphasizeOverview: false
+	}
+};
+
+const MEDIA_BRANCHES = new Set(["images", "gallery", "galleries"]);
 
 function clonePresentation(presentation: PagePresentation): PagePresentation {
 	return { ...presentation };
@@ -79,7 +97,7 @@ function isMediaPage(pagePath: string): boolean {
 		return false;
 	}
 
-	return segments.some((segment) => MEDIA_BRANCHES.has(segment)) || pagePath.includes("/images/");
+	return segments.some((segment) => MEDIA_BRANCHES.has(segment));
 }
 
 function isIndexPage(pagePath: string): boolean {
@@ -104,8 +122,8 @@ export function getContentPagePresentation(pagePath: string | null | undefined):
 	return clonePresentation(ARTICLE_PRESENTATION);
 }
 
-export function getUtilityPagePresentation(_view: UtilityView): PagePresentation {
+export function getUtilityPagePresentation(view: UtilityView): PagePresentation {
 	// Utility routes such as /content/search, /content/timeline, and /convert
 	// must share this module instead of duplicating classification logic.
-	return clonePresentation(UTILITY_PRESENTATION);
+	return clonePresentation(UTILITY_PRESENTATIONS[view]);
 }

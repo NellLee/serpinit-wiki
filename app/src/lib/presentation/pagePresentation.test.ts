@@ -36,10 +36,34 @@ assert.deepEqual(getContentPagePresentation("/content/images/gallery/index.md"),
 	emphasizeOverview: true
 });
 
+assert.deepEqual(getContentPagePresentation("/content/atlas/media/index.md"), {
+	pageClass: "index",
+	showToc: false,
+	showContextRail: true,
+	contentWidth: "wide",
+	emphasizeOverview: true
+});
+
 assert.deepEqual(getUtilityPagePresentation("search"), {
 	pageClass: "utility",
 	showToc: false,
 	showContextRail: false,
 	contentWidth: "wide",
+	emphasizeOverview: false
+});
+
+assert.deepEqual(getUtilityPagePresentation("timeline"), {
+	pageClass: "utility",
+	showToc: false,
+	showContextRail: true,
+	contentWidth: "wide",
+	emphasizeOverview: false
+});
+
+assert.deepEqual(getUtilityPagePresentation("convert"), {
+	pageClass: "utility",
+	showToc: false,
+	showContextRail: false,
+	contentWidth: "standard",
 	emphasizeOverview: false
 });
