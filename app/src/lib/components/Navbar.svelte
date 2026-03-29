@@ -31,7 +31,8 @@
 		border: 1px solid var(--primary-border-color);
 		border-radius: 14px;
 		display: flex;
-		flex-flow: row nowrap;
+		flex-flow: row wrap;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
 		gap: 16px;
@@ -42,10 +43,17 @@
 		margin: 0;
 		padding: 0;
 		display: flex;
-		flex-flow: row nowrap;
+		flex-flow: row wrap;
+		flex-wrap: wrap;
 		justify-content: flex-start;
 		align-items: center;
 		gap: 18px;
+		flex: 1 1 360px;
+		min-width: 0;
+	}
+
+	:global(#searchbar) {
+		flex: 0 1 300px;
 	}
 
 	li a {

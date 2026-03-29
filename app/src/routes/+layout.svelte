@@ -138,14 +138,5 @@
 		flex: 1 1 auto;
 		margin: 0 auto;
 		padding: 0 var(--shell-inline-padding) 32px;
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: center;
-		align-items: stretch;
-		gap: var(--shell-content-gap);
-	}
-
-	.page-shell > :global(*) {
-		min-width: 0;
 	}
 </style>
