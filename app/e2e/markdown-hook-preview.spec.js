@@ -45,3 +45,12 @@ test("card-link hook renders an image link card", async ({ page }) => {
 	await expect(page.locator("#content-html .img-link .img-link-text")).toContainText("Die Magie");
 	await expect(page.locator("#content-html p")).toHaveCount(0);
 });
+
+test("gallery hook renders generated gallery markup", async ({ page }) => {
+	await page.goto("/dev/markdown-hook-preview/gallery", {
+		waitUntil: "domcontentloaded"
+	});
+
+	await expect(page.locator("#content-html #gallery")).toBeVisible();
+	await expect(page.locator("#content-html #gallery a[data-fancybox='gallery']")).toHaveCount(1);
+});

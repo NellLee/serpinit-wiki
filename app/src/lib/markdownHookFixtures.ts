@@ -36,6 +36,11 @@ const cardLinkMarkdown = `# Markdown Hook Preview
 Die Magie
 `;
 
+const galleryMarkdown = `# Markdown Hook Preview
+
+<!-- render: gallery -->
+`;
+
 export function buildMarkdownHookFixture(fixture: string) {
 	let markdown = overviewMarkdown;
 	let fakePath = path.resolve(WIKI_PATH, "Himmelskoerper_", "__markdown-hook-preview__.md");
@@ -46,6 +51,9 @@ export function buildMarkdownHookFixture(fixture: string) {
 		markdown = calloutNoteMarkdown;
 	} else if (fixture === "card-link") {
 		markdown = cardLinkMarkdown;
+	} else if (fixture === "gallery") {
+		markdown = galleryMarkdown;
+		fakePath = path.resolve(WIKI_PATH, "Himmelskoerper_", "Aridess", "__markdown-hook-preview__.md");
 	} else if (fixture !== "overview") {
 		throw error(404, `Unknown markdown hook fixture: ${fixture}`);
 	}

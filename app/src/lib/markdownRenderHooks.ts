@@ -1,5 +1,6 @@
 const REGEX_OVERVIEW_HOOK = /^\s*<!--\s*layout:\s*overview\s*-->\s*$/i;
 const REGEX_FOLDER_INDEX_HOOK = /^\s*<!--\s*render:\s*folder-index\s*-->\s*$/gim;
+const REGEX_GALLERY_HOOK = /^\s*<!--\s*render:\s*gallery\s*-->\s*$/gim;
 const REGEX_CALLOUT_HOOK = /^\s*<!--\s*callout:\s*(note|todo|maybe)\s*-->\s*$/i;
 const REGEX_CARD_LINK_HOOK = /^\s*<!--\s*display:\s*card-link\s*-->\s*$/i;
 const REGEX_MARKDOWN_IMAGE_LINK = /^\s*\[!\[([^\]]*)\]\(([^)]+)\)\]\(([^)]+)\)\s*$/;
@@ -173,8 +174,39 @@ function transformCardLinkHooks(markdown: string) {
 	return output.join("\n");
 }
 
-export function applyMarkdownRenderHooks(markdown: string) {
-	return transformCardLinkHooks(
+function buildGalleryMarkup(folderHref: string, imageFiles: string[]) {
+	if (imageFiles.length === 0) {
+		return "";
+	}
+
+	const galleryEntries = imageFiles
+		.map((filePath) => {
+			const fileName = filePath.split("/").at(-1) ?? filePath;
+			const imageHref = `${folderHref}/images/${fileName}`;
+			const caption = fileName
+				.replace(/\.[^.]+$/, "")
+				.replaceAll("_", " ");
+
+			return `:::figure{style="width: 400px;"}\n![${caption}](${imageHref})\n::figcaption[${caption}]\n:::`;
+		})
+		.join("\n\n");
+
+	return `::::div{#gallery}\n${galleryEntries}\n::::`;
+}
+
+export function applyMarkdownRenderHooks(
+	markdown: string,
+	options: {
+		folderHref?: string;
+		imageFiles?: string[];
+	} = {}
+) {
+	const transformed = transformCardLinkHooks(
 		transformCalloutHooks(transformOverviewHooks(markdown))
 	).replace(REGEX_FOLDER_INDEX_HOOK, "<!-- INDEX -->");
+
+	return transformed.replace(
+		REGEX_GALLERY_HOOK,
+		buildGalleryMarkup(options.folderHref ?? "", options.imageFiles ?? [])
+	);
 }

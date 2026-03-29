@@ -135,7 +135,14 @@ export class MarkdownPage {
         this.event = timeline.find(event => event.description == fileLink.href) ?? null
 
         this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, "utf-8")
-        this.markdown = applyMarkdownRenderHooks(this.markdown)
+        const galleryPath = fileLink.path + path.sep + "images"
+        const galleryFiles = fs.existsSync(galleryPath)
+            ? getFilePathsInFolder(galleryPath, [".png", ".jpg", ".jpeg", ".webp"], 0)
+            : []
+        this.markdown = applyMarkdownRenderHooks(this.markdown, {
+            folderHref: fileLink.href.replace("/content", "").split("/").slice(0, -1).join("/"),
+            imageFiles: galleryFiles
+        })
 
         this.processComments()
 
