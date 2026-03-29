@@ -22,12 +22,30 @@ const folderIndexMarkdown = `# Markdown Hook Preview
 <!-- render: folder-index -->
 `;
 
+const calloutNoteMarkdown = `# Markdown Hook Preview
+
+<!-- callout: note -->
+> **Note:** This note should render as a comment card.
+`;
+
+const cardLinkMarkdown = `# Markdown Hook Preview
+
+<!-- display: card-link -->
+[![Die Magie](/content/images/Potentiale-Querschnitte.png)](/content/Allgemein/Magie/index.md)
+
+Die Magie
+`;
+
 export function buildMarkdownHookFixture(fixture: string) {
 	let markdown = overviewMarkdown;
 	let fakePath = path.resolve(WIKI_PATH, "Himmelskoerper_", "__markdown-hook-preview__.md");
 
 	if (fixture === "folder-index") {
 		markdown = folderIndexMarkdown;
+	} else if (fixture === "callout-note") {
+		markdown = calloutNoteMarkdown;
+	} else if (fixture === "card-link") {
+		markdown = cardLinkMarkdown;
 	} else if (fixture !== "overview") {
 		throw error(404, `Unknown markdown hook fixture: ${fixture}`);
 	}
