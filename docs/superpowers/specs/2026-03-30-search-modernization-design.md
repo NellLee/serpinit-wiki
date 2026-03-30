@@ -64,9 +64,11 @@ Primary facets:
 - `Kategorien`: derived from existing page categories
 
 Search scope controls remain available:
-- title
 - categories
 - content
+
+Title remains always enabled and is not user-toggleable off.
+If the API exposes `includeTitle` for schema clarity, it must always be `true`.
 
 ### Sorting
 
@@ -76,6 +78,9 @@ Support these sort modes:
 - `Bereich`
 
 If implementation cost remains low, `Titel Z-A` may be added as a mirror option, but it is not required.
+
+`Bereich` sorting must use locale-aware ascending ordering on the display domain label.
+Within a shared domain label, use `Titel A-Z` as the deterministic tie-breaker.
 
 ### Result Presentation
 
@@ -117,6 +122,9 @@ Examples:
 - `title:"Do Uspil"`
 - `category:Religion -Lateralen`
 - `path:Sodili type:article`
+
+`path:` matches the normalized content-relative path, including individual path segments.
+It is a structural filter and is intentionally more precise than the derived `Bereich` facet.
 
 Deliberately out of scope:
 - boolean expression trees
@@ -163,6 +171,10 @@ Repeated field filters are OR within the same field:
 Different filter fields combine with AND:
 - `path:Sodili type:article`
   - must match both path and page type
+
+`path:` and `Bereich` are not synonyms:
+- `path:` filters raw normalized structural path content
+- `Bereich` filters derived top-level domain keys used for the user-facing facet
 
 #### Free Text Semantics
 
@@ -246,6 +258,9 @@ Field weighting should continue to prefer:
 - title
 - categories
 - content
+
+Title must always participate in candidate selection and ranking.
+Category and content participation may be toggled by the UI scope controls.
 
 Phrase hits and exact structured filters should be allowed to boost ranking without replacing the existing fuzzy baseline entirely.
 
@@ -372,8 +387,13 @@ type SearchApiResponse = {
     nearbyQueries: string[];
   };
   results: SearchResultPayload[];
-};
+  };
 ```
+
+`includeTitle` is always `true`.
+
+`activeFilters.domains` contains derived `Bereich` domain keys only.
+`parsedQuery.fieldFilters.path` contains explicit `path:` query filters.
 
 `SearchResultPayload` includes:
 - serialized page item
