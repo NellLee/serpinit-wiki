@@ -1,9 +1,9 @@
 <script lang="ts">
-	import ContentTreeNode from "./ContentTreeNode.svelte";
+	import ContentTreeNode from './ContentTreeNode.svelte';
 	export let linkTree: LinkTree;
 </script>
 
-<div class="table-of-content">
+<div id="table-of-content" class="table-of-content">
 	{#if linkTree.children.length > 0}
 		<nav aria-label="Table of contents">
 			<h2>Inhalt</h2>
