@@ -1,17 +1,12 @@
 <script lang="ts">
-	import { buildHighlightedHtml, type HighlightRange } from '$lib/searchCore';
+	import type { SearchPreviewResponse } from '$lib/searchContracts';
+	import { buildHighlightedHtml } from '$lib/searchCore';
 	import { debounce } from '$lib/utilities/utilities';
 	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
 
 	type SearchPreviewItem = {
 		href: string;
 		title: string;
-	};
-
-	type SerializedSearchResult = {
-		item: string;
-		excerpts: string[];
-		titleHighlights?: HighlightRange[];
 	};
 
 	type SearchResultPreview = {
@@ -27,8 +22,8 @@
 	const handleSearchInput = debounce(async () => {
 		if (searchText.trim().length > 0) {
 			const response = await fetch(`/api/search?q=${encodeURIComponent(searchText.trim())}&preview=true`);
-			const results = (await response.json()) as SerializedSearchResult[];
-			searchResults = results.map((result) => {
+			const previewResponse = (await response.json()) as SearchPreviewResponse;
+			searchResults = previewResponse.results.map((result) => {
 				const item = JSON.parse(result.item) as SearchPreviewItem;
 				return {
 					href: item.href,

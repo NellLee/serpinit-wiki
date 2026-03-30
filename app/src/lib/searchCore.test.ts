@@ -98,3 +98,7 @@ const searchEntrySource = readAppFile('src/lib/components/SearchEntry.svelte');
 assert.match(searchEntrySource, /titleHighlights/);
 assert.match(searchEntrySource, /buildHighlightedHtml/);
 assert.match(searchEntrySource, /metadata/);
+
+const searchbarSource = readAppFile('src/lib/components/Searchbar.svelte');
+assert.match(searchbarSource, /SearchPreviewResponse/);
+assert.match(searchbarSource, /previewResponse\.results/);
