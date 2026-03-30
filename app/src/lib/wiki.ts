@@ -9,6 +9,7 @@ import { createSearchExcerpts } from './searchExcerpt';
 import {
 	buildDerivedRecord,
 	buildFacetCatalogs,
+	getPageTypeLabel,
 	type SearchDerivedRecord
 } from './searchDerivedData';
 import { getContentPagePresentation, type PageClass } from './presentation/pagePresentation';
@@ -31,7 +32,6 @@ let initialized = false;
 let initializationPromise: Promise<void> | null = null;
 let searchIndexDirty = true;
 let searchRecords: SearchDerivedRecord[] = [];
-let searchFacets = buildFacetCatalogs([]);
 
 export const WIKI_PATH = path.resolve(__dirname, '../../../content');
 
@@ -120,7 +120,6 @@ function ensureSearchState() {
 			contentHtml: page.contentHtml
 		})
 	);
-	searchFacets = buildFacetCatalogs(searchRecords);
 	searchIndexDirty = false;
 }
 
@@ -151,7 +150,7 @@ function buildSearchResultPayload(
 		excerpts: includeContent ? createSearchExcerpts(page.contentHtml, query, page.href) : [],
 		titleHighlights,
 		domain: record.domain,
-		pageType: record.pageClass,
+		pageType: getPageTypeLabel(record.pageClass),
 		categories: record.categories
 	};
 }
@@ -177,15 +176,21 @@ export function search(
 	const rankingOutput = runSearchRanking(searchRecords, parsedQuery, {
 		includeCategories: activeFilters.includeCategories,
 		includeContent: activeFilters.includeContent,
-		sort
+		sort,
+		activeFilters: {
+			domains: activeFilters.domains,
+			pageTypes: activeFilters.pageTypes,
+			categories: activeFilters.categories
+		}
 	});
+	const responseFacets = buildFacetCatalogs(rankingOutput.results.map((result) => result.item));
 
 	return {
 		query,
 		parsedQuery,
 		activeFilters,
 		sort,
-		facets: searchFacets,
+		facets: responseFacets,
 		suggestions: buildZeroResultSuggestions({
 			parsedQuery,
 			activeFilters,

@@ -12,12 +12,20 @@ export async function GET({ url }) {
 	const includeCategories = url.searchParams.get('includeCategories') !== 'false';
 	const includeContent = url.searchParams.get('includeContent') !== 'false';
 	const sort = (url.searchParams.get('sort') as 'relevance' | 'title-asc' | 'domain' | null) ?? 'relevance';
+	const domains = url.searchParams.getAll('domain');
+	const pageTypes = url.searchParams.getAll('pageType');
+	const categories = url.searchParams.getAll('category');
 
 	return json(
 		search(query, {
 			includeCategories,
 			includeContent,
-			sort
+			sort,
+			activeFilters: {
+				domains,
+				pageTypes,
+				categories
+			}
 		})
 	);
 }

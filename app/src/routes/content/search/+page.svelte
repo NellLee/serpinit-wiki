@@ -14,12 +14,61 @@
 	let selectedPageTypes = [...data.activeFilters.pageTypes];
 	let selectedCategories = [...data.activeFilters.categories];
 
+	function findFacetLabel(
+		facets: Array<{ key: string; label: string }>,
+		key: string,
+		fallback = key
+	) {
+		return facets.find((facet) => facet.key === key)?.label ?? fallback;
+	}
+
 	$: activeChips = [
-		...selectedDomains.map((value) => ({ kind: 'domain', value, label: `Bereich: ${value}` })),
-		...selectedPageTypes.map((value) => ({ kind: 'pageType', value, label: `Seitentyp: ${value}` })),
-		...selectedCategories.map((value) => ({ kind: 'category', value, label: `Kategorie: ${value}` })),
-		...data.parsedQuery.exclusions.map((value) => ({ kind: 'query', value, label: `-${value}` }))
+		...selectedDomains.map((value) => ({
+			kind: 'domain',
+			value,
+			label: `Bereich: ${findFacetLabel(data.facets.domains, value)}`
+		})),
+		...selectedPageTypes.map((value) => ({
+			kind: 'pageType',
+			value,
+			label: `Seitentyp: ${findFacetLabel(data.facets.pageTypes, value)}`
+		})),
+		...selectedCategories.map((value) => ({
+			kind: 'category',
+			value,
+			label: `Kategorie: ${findFacetLabel(data.facets.categories, value)}`
+		})),
+		...data.parsedQuery.fieldFilters.title.map((value) => ({
+			kind: 'title',
+			value,
+			label: `title:${value}`
+		})),
+		...data.parsedQuery.fieldFilters.category.map((value) => ({
+			kind: 'query-category',
+			value,
+			label: `category:${value}`
+		})),
+		...data.parsedQuery.fieldFilters.path.map((value) => ({
+			kind: 'path',
+			value,
+			label: `path:${value}`
+		})),
+		...data.parsedQuery.fieldFilters.type.map((value) => ({
+			kind: 'type',
+			value,
+			label: `type:${value}`
+		})),
+		...data.parsedQuery.exclusions.map((value) => ({
+			kind: 'query',
+			value,
+			label: `-${value}`
+		}))
 	];
+
+	$: hasFacets =
+		data.facets.domains.length > 0 ||
+		data.facets.pageTypes.length > 0 ||
+		data.facets.categories.length > 0;
 
 	function toggleFilterValue(values: string[], value: string) {
 		return values.includes(value) ? values.filter((entry) => entry !== value) : [...values, value];
@@ -90,13 +139,13 @@
 				<section class="search-controls">
 					<form on:submit|preventDefault={newSearch} id="searchbar">
 						<input type="text" bind:value={searchInput} placeholder="Im Wiki suchen..." />
-						<button type="submit" aria-label="Suche ausfÃ¼hren">
+						<button type="submit" aria-label="Suche ausführen">
 							<Icon src={MagnifyingGlass} solid size="16" />
 						</button>
 					</form>
 
 					<div class="syntax-help" id="syntax-help">
-						<strong>Syntax:</strong>
+						<strong>Feldfilter:</strong>
 						<span>"Zitat"</span>
 						<span>-Ausschluss</span>
 						<span>title:</span>
@@ -140,24 +189,24 @@
 				<section id="results" aria-live="polite">
 					<div class="results-header">
 						{#if data.query}
-							<h2>Treffer fÃ¼r "{data.query}"</h2>
+							<h2>Treffer für "{data.query}"</h2>
 							<p>{data.results.length} Ergebnis{data.results.length === 1 ? '' : 'se'}</p>
 						{:else}
 							<h2>Suche starten</h2>
-							<p>Gib einen Begriff ein, um das Wiki zu durchsuchen.</p>
+							<p>Gib einen Begriff ein oder nutze Filter, um die Suche vorzubereiten.</p>
 						{/if}
 					</div>
 
 					{#if !data.query}
-						<p class="empty-state">
-							Die Suchseite durchsucht standardmÃ¤ÃŸig Titel, Kategorien und Artikelinhalte.
-							Mit Filtern und Syntax lÃ¤sst sich die Suche gezielt eingrenzen.
-						</p>
+						<div class="empty-state prose-state">
+							<p>Die Suchseite durchsucht standardmäßig Titel, Kategorien und Artikelinhalte.</p>
+							<p>Mit Filtern und Syntax lässt sich die Suche gezielt eingrenzen.</p>
+						</div>
 					{:else if data.results.length === 0}
 						<div class="empty-state">
 							<p>Keine Treffer gefunden.</p>
 							{#if data.suggestions.broadenSearch}
-								<p>Die Suche kann erweitert werden, indem Filter oder AusschlÃ¼sse entfernt werden.</p>
+								<p>Die Suche kann erweitert werden, indem Filter oder Ausschlüsse entfernt werden.</p>
 							{/if}
 							{#if data.suggestions.nearbyQueries.length > 0}
 								<p>Nahe Suchanfragen: {data.suggestions.nearbyQueries.join(', ')}</p>
@@ -179,58 +228,63 @@
 				</section>
 			</section>
 
-			<aside class="facet-rail">
-				<section class="facet-group">
-					<h3>Bereiche</h3>
-					<div class="facet-list">
-						{#each data.facets.domains as facet}
-							<label class="facet-option">
-								<input
-									type="checkbox"
-									checked={selectedDomains.includes(facet.key)}
-									on:change={() => toggleDomain(facet.key)}
-								/>
-								<span>{facet.label}</span>
-								<small>{facet.count}</small>
-							</label>
-						{/each}
-					</div>
-				</section>
+			{#if data.query && hasFacets}
+				<aside class="facet-rail">
+					<section class="facet-group">
+						<h3>Bereiche</h3>
+						<div class="facet-list">
+							{#each data.facets.domains as facet}
+								<label class="facet-option">
+									<input
+										type="checkbox"
+										checked={selectedDomains.includes(facet.key)}
+										on:change={() => toggleDomain(facet.key)}
+									/>
+									<span>{facet.label}</span>
+									<small>{facet.count}</small>
+								</label>
+							{/each}
+						</div>
+					</section>
 
-				<section class="facet-group">
-					<h3>Seitentypen</h3>
-					<div class="facet-list">
-						{#each data.facets.pageTypes as facet}
-							<label class="facet-option">
-								<input
-									type="checkbox"
-									checked={selectedPageTypes.includes(facet.key)}
-									on:change={() => togglePageType(facet.key)}
-								/>
-								<span>{facet.label}</span>
-								<small>{facet.count}</small>
-							</label>
-						{/each}
-					</div>
-				</section>
+					<section class="facet-group">
+						<h3>Seitentypen</h3>
+						<div class="facet-list">
+							{#each data.facets.pageTypes as facet}
+								<label class="facet-option">
+									<input
+										type="checkbox"
+										checked={selectedPageTypes.includes(facet.key)}
+										on:change={() => togglePageType(facet.key)}
+									/>
+									<span>{facet.label}</span>
+									<small>{facet.count}</small>
+								</label>
+							{/each}
+						</div>
+					</section>
 
-				<section class="facet-group">
-					<h3>Kategorien</h3>
-					<div class="facet-list">
-						{#each data.facets.categories as facet}
-							<label class="facet-option">
-								<input
-									type="checkbox"
-									checked={selectedCategories.includes(facet.key)}
-									on:change={() => toggleCategory(facet.key)}
-								/>
-								<span>{facet.label}</span>
-								<small>{facet.count}</small>
-							</label>
-						{/each}
-					</div>
-				</section>
-			</aside>
+					{#if data.facets.categories.length > 0}
+						<section class="facet-group">
+							<h3>Suche verfeinern</h3>
+							<p class="facet-copy">Handverlesene Kategorien mit echtem Mehrwert für die Suche.</p>
+							<div class="facet-list">
+								{#each data.facets.categories as facet}
+									<label class="facet-option">
+										<input
+											type="checkbox"
+											checked={selectedCategories.includes(facet.key)}
+											on:change={() => toggleCategory(facet.key)}
+										/>
+										<span>{facet.label}</span>
+										<small>{facet.count}</small>
+									</label>
+								{/each}
+							</div>
+						</section>
+					{/if}
+				</aside>
+			{/if}
 		</div>
 	</MidPanel>
 </div>
@@ -421,6 +475,13 @@
 		}
 	}
 
+	.facet-copy {
+		margin: 0;
+		font-size: 0.88rem;
+		color: rgba(0, 0, 0, 0.66);
+		line-height: 1.5;
+	}
+
 	.facet-list {
 		display: grid;
 		gap: 0.55rem;
@@ -438,6 +499,15 @@
 		margin: 0;
 		color: rgba(0, 0, 0, 0.72);
 		line-height: 1.65;
+	}
+
+	.prose-state {
+		display: grid;
+		gap: 0.5rem;
+
+		p {
+			margin: 0;
+		}
 	}
 
 	@media (max-width: 900px) {

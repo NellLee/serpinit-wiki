@@ -1,6 +1,6 @@
 import { buildSearchIndex, normalizeSearchText, searchDocuments } from './searchCore';
 import type { PageClass } from './presentation/pagePresentation';
-import type { SearchDomainInfo } from './searchDerivedData';
+import { expandCuratedCategoryFilter, type SearchDomainInfo } from './searchDerivedData';
 import type { ParsedSearchQuery, SearchSortMode } from './searchContracts';
 
 export type SearchRankingRecord = {
@@ -18,6 +18,11 @@ export type SearchRankingOptions = {
 	includeCategories: boolean;
 	includeContent: boolean;
 	sort: SearchSortMode;
+	activeFilters: {
+		domains: string[];
+		pageTypes: string[];
+		categories: string[];
+	};
 };
 
 export type SearchRankingResult = {
@@ -40,7 +45,8 @@ function matchesCategoryFilters(record: SearchRankingRecord, filters: string[]):
 		return true;
 	}
 
-	return record.categories.some((category) => matchesAnyNormalizedValue(category, filters));
+	const expandedFilters = filters.flatMap(expandCuratedCategoryFilter);
+	return record.categories.some((category) => matchesAnyNormalizedValue(category, expandedFilters));
 }
 
 function matchesPathFilters(record: SearchRankingRecord, filters: string[]): boolean {
@@ -58,6 +64,14 @@ function matchesTypeFilters(record: SearchRankingRecord, filters: string[]): boo
 	}
 
 	return filters.some((filterValue) => normalizeSearchText(filterValue) === normalizeSearchText(record.pageClass));
+}
+
+function matchesDomainFilters(record: SearchRankingRecord, filters: string[]): boolean {
+	if (filters.length === 0) {
+		return true;
+	}
+
+	return filters.some((filterValue) => normalizeSearchText(filterValue) === record.domain.key);
 }
 
 function matchesTitleFilters(record: SearchRankingRecord, filters: string[]): boolean {
@@ -120,6 +134,15 @@ export function runSearchRanking(
 ): SearchRankingOutput {
 	const filteredRecords = records.filter((record) => {
 		if (!matchesTitleFilters(record, parsedQuery.fieldFilters.title)) {
+			return false;
+		}
+		if (!matchesDomainFilters(record, options.activeFilters.domains)) {
+			return false;
+		}
+		if (!matchesTypeFilters(record, options.activeFilters.pageTypes)) {
+			return false;
+		}
+		if (!matchesCategoryFilters(record, options.activeFilters.categories)) {
 			return false;
 		}
 		if (!matchesCategoryFilters(record, parsedQuery.fieldFilters.category)) {

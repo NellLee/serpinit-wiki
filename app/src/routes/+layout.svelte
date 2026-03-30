@@ -43,11 +43,11 @@
 			},
 			{
 				href: '/content/Himmelskoerper_/index.md',
-				text: 'Himmelskoerper'
+				text: 'Himmelskörper'
 			},
 			{
 				href: '/content/Volk_/index.md',
-				text: 'Voelker'
+				text: 'Völker'
 			},
 			{
 				href: '/content/timeline',
@@ -66,7 +66,7 @@
 
 	<button id="scroll-to-top" class:show={scrollY > 100} on:click={scrollToTop}>
 		<Icon src={ChevronUp} solid size="20" />
-		Zurueck nach oben
+		Zurück nach oben
 		<Icon src={ChevronUp} solid size="20" />
 	</button>
 </div>

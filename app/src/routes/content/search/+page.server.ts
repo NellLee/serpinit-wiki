@@ -53,6 +53,19 @@ export async function load({ fetch, url }) {
 	params.set('q', query);
 	params.set('includeCategories', urlParams.get('includeCategories') ?? 'true');
 	params.set('includeContent', urlParams.get('includeContent') ?? 'true');
+	params.set('sort', urlParams.get('sort') ?? 'relevance');
+
+	for (const domain of urlParams.getAll('domain')) {
+		params.append('domain', domain);
+	}
+
+	for (const pageType of urlParams.getAll('pageType')) {
+		params.append('pageType', pageType);
+	}
+
+	for (const category of urlParams.getAll('category')) {
+		params.append('category', category);
+	}
 
 	const fetchResult = await fetch(`${SEARCH_API_URL}?${params.toString()}`);
 	if (!fetchResult.ok) {

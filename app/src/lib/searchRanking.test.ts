@@ -33,13 +33,28 @@ const records = [
 		categories: ['Orte'],
 		contentText: 'Arkten ist ein Himmelskörper.',
 		contentHtml: '<p>Arkten ist ein Himmelskörper.</p>'
+	},
+	{
+		title: 'Akils-Anfänge',
+		href: '/content/Stories/Akils-Anfaenge.md',
+		path: 'content/Stories/Akils-Anfaenge.md',
+		domain: deriveDomainInfo('content/Stories/Akils-Anfaenge.md'),
+		pageClass: 'article' as const,
+		categories: ['Charakter'],
+		contentText: 'Do Uspil ist für Akil prägend.',
+		contentHtml: '<p>Do Uspil ist für Akil prägend.</p>'
 	}
 ];
 
 const pathFiltered = runSearchRanking(records, parseSearchQuery('path:Sodili'), {
 	includeCategories: true,
 	includeContent: true,
-	sort: 'relevance'
+	sort: 'relevance',
+	activeFilters: {
+		domains: [],
+		pageTypes: [],
+		categories: []
+	}
 });
 assert.deepEqual(
 	pathFiltered.results.map((result) => result.item.title),
@@ -49,7 +64,12 @@ assert.deepEqual(
 const categoryFiltered = runSearchRanking(records, parseSearchQuery('category:Rituale category:Orte'), {
 	includeCategories: true,
 	includeContent: true,
-	sort: 'relevance'
+	sort: 'relevance',
+	activeFilters: {
+		domains: [],
+		pageTypes: [],
+		categories: []
+	}
 });
 assert.deepEqual(
 	categoryFiltered.results.map((result) => result.item.title),
@@ -59,23 +79,62 @@ assert.deepEqual(
 const titleOnlyStillWorks = runSearchRanking(records, parseSearchQuery('Arkten'), {
 	includeCategories: false,
 	includeContent: false,
-	sort: 'relevance'
+	sort: 'relevance',
+	activeFilters: {
+		domains: [],
+		pageTypes: [],
+		categories: []
+	}
 });
 assert.deepEqual(titleOnlyStillWorks.results.map((result) => result.item.title), ['Arkten']);
 
 const exclusionRemovesMatches = runSearchRanking(records, parseSearchQuery('Sodili -Lateralen'), {
 	includeCategories: true,
 	includeContent: true,
-	sort: 'relevance'
+	sort: 'relevance',
+	activeFilters: {
+		domains: [],
+		pageTypes: [],
+		categories: []
+	}
 });
 assert.deepEqual(exclusionRemovesMatches.results.map((result) => result.item.title), []);
 
 const domainSorted = runSearchRanking(records, parseSearchQuery(''), {
 	includeCategories: true,
 	includeContent: true,
-	sort: 'domain'
+	sort: 'domain',
+	activeFilters: {
+		domains: [],
+		pageTypes: [],
+		categories: []
+	}
 });
 assert.deepEqual(
 	domainSorted.results.map((result) => result.item.title),
-	['Arkten', 'Dur-Uspil Zeremonien', 'Sodili Übersicht']
+	['Arkten', 'Akils-Anfänge', 'Dur-Uspil Zeremonien', 'Sodili Übersicht']
 );
+
+const uiFiltered = runSearchRanking(records, parseSearchQuery('Sodili'), {
+	includeCategories: true,
+	includeContent: true,
+	sort: 'relevance',
+	activeFilters: {
+		domains: ['volk'],
+		pageTypes: ['article'],
+		categories: ['rituale']
+	}
+});
+assert.deepEqual(uiFiltered.results.map((result) => result.item.title), ['Dur-Uspil Zeremonien']);
+
+const curatedCategoryFiltered = runSearchRanking(records, parseSearchQuery('Do Uspil'), {
+	includeCategories: true,
+	includeContent: true,
+	sort: 'relevance',
+	activeFilters: {
+		domains: [],
+		pageTypes: [],
+		categories: ['charaktere']
+	}
+});
+assert.deepEqual(curatedCategoryFiltered.results.map((result) => result.item.title), ['Akils-Anfänge']);
