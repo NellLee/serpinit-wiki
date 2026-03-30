@@ -4,8 +4,8 @@ import { getFilePathsInFolder, getFrontendSafePath } from './utilities/files';
 import { error } from '@sveltejs/kit';
 import fs from 'fs';
 import * as cheerio from 'cheerio';
-import Fuse from 'fuse.js';
 import { initTimeline } from './timeline';
+import { buildSearchIndex, normalizeSearchText, searchDocuments, type SearchCoreIndex } from './searchCore';
 
 export const wiki: Map<string, MarkdownPage> = new Map();
 export const cache: Map<string, string> = new Map();
@@ -13,6 +13,8 @@ const __dirname = new URL('.', import.meta.url).pathname.substring(1);
 
 let initialized = false;
 let initializationPromise: Promise<void> | null = null;
+let searchIndex: SearchCoreIndex | null = null;
+let searchIndexDirty = true;
 
 export const WIKI_PATH = path.resolve(__dirname, '../../../content');
 
@@ -74,6 +76,7 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
 	}
 	wiki.set(fullPath, page);
 	updateCache(fullPath, markdownForCache);
+	searchIndexDirty = true;
 	return page;
 }
 
@@ -82,57 +85,48 @@ export function search(
 	includeCategories: boolean = false,
 	includeContent: boolean = false
 ): SearchResult<MarkdownPage>[] {
-	const pages: MarkdownPage[] = Array.from(wiki.values());
-	const keys = [{ name: 'title', weight: 5 }];
-	if (includeCategories) {
-		keys.push({ name: 'categories.text', weight: 10 });
+	const normalizedQuery = normalizeSearchText(query);
+	if (normalizedQuery.length === 0) {
+		return [];
 	}
-	if (includeContent) {
-		keys.push({ name: 'contentHtml', weight: 1 });
+
+	if (searchIndex == null || searchIndexDirty) {
+		searchIndex = buildSearchIndex(
+			Array.from(wiki.values()).map((page) => ({
+				title: page.title,
+				href: page.href,
+				categories: page.categories.map((category) => category.text),
+				contentText: extractSearchableText(page),
+				contentHtml: page.contentHtml
+			}))
+		);
+		searchIndexDirty = false;
 	}
-	const fuse = new Fuse(pages, {
-		keys,
-		threshold: 0.0,
-		ignoreLocation: true,
-		includeScore: true,
-		findAllMatches: true,
-		ignoreFieldNorm: true
-	});
 
-	const fuseResults = fuse.search(query);
-
-	const queryInLink = (contentHtml: string, query: string): boolean => {
-		const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
-		let match;
-		while ((match = linkRegex.exec(contentHtml)) !== null) {
-			const linkText = match[1];
-			const linkUrl = match[2];
-			if (
-				linkText.toLowerCase().includes(query.toLowerCase()) ||
-				linkUrl.toLowerCase().includes(query.toLowerCase())
-			) {
-				return true;
-			}
+	return searchDocuments(searchIndex, query, { includeCategories, includeContent }).map((result) => {
+		const page = Array.from(wiki.values()).find((candidate) => candidate.href === result.item.href);
+		if (!page) {
+			throw error(500, `Search result page "${result.item.href}" not found in wiki cache`);
 		}
-		return false;
-	};
 
-	const result: SearchResult<MarkdownPage>[] = fuseResults
-		.filter((result) => !queryInLink(result.item.contentHtml, query))
-		.map((result) => {
-			const { contentHtml, href } = result.item;
+		return {
+			item: page,
+			excerpts: includeContent ? createExcerpts(page.contentHtml, query, page.href) : []
+		};
+	});
+}
 
-			const excerpts = createExcerpts(contentHtml, query, href);
-			return {
-				item: result.item,
-				excerpts
-			};
-		});
-	return result;
+function extractSearchableText(page: MarkdownPage): string {
+	const content = cheerio.load(page.contentHtml).text();
+	const overview = page.overviewHtml ? cheerio.load(page.overviewHtml).text() : '';
+	return [page.title, ...page.categories.map((category) => category.text), overview, content]
+		.filter(Boolean)
+		.join(' ');
 }
 
 function createExcerpts(html: string, query: string, pageHref: string): string[] {
 	const $ = cheerio.load(html);
+	const normalizedQuery = normalizeSearchText(query);
 
 	$('img').each((_, img) => {
 		const altText = $(img).attr('alt');
@@ -147,19 +141,19 @@ function createExcerpts(html: string, query: string, pageHref: string): string[]
 		const content = $(element).text();
 		const contentHtml = $(element).html()!;
 
-		if (content.toLowerCase().includes(query.toLowerCase())) {
+		if (normalizeSearchText(content).includes(normalizedQuery)) {
 			let parentHeader = $(element).prevAll('h1, h2, h3, h4, h5, h6').first();
 			if (parentHeader.length === 0) {
 				parentHeader = $(element).parent().prevAll('h1, h2, h3, h4, h5, h6').first();
 			}
 
 			const headerHtml = $.html($(parentHeader));
-			const headerLink = `<a href="${pageHref}#${parentHeader.attr('id')}">${headerHtml}</a>`;
+			const headerId = parentHeader.attr('id');
+			const headerLink = headerId
+				? `<a href="${pageHref}#${headerId}">${headerHtml}</a>`
+				: `<a href="${pageHref}">${headerHtml || pageHref}</a>`;
 
-			const highlightedContentHtml = contentHtml.replace(
-				new RegExp(`(${query})`, 'gi'),
-				'<mark>$1</mark>'
-			);
+			const highlightedContentHtml = highlightQueryMatches(contentHtml, query);
 			const trimmedContentHtml = trimToWordLimit(highlightedContentHtml, query, 50);
 			if (headerParagraphMap[headerLink]) {
 				headerParagraphMap[headerLink] += `<${tagName}>${trimmedContentHtml}</${tagName}>`;
@@ -173,6 +167,15 @@ function createExcerpts(html: string, query: string, pageHref: string): string[]
 	);
 
 	return excerpts;
+}
+
+function highlightQueryMatches(html: string, query: string): string {
+	const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').trim();
+	if (!escapedQuery) {
+		return html;
+	}
+
+	return html.replace(new RegExp(`(${escapedQuery})`, 'gi'), '<mark>$1</mark>');
 }
 
 function trimToWordLimit(paragraph: string, query: string, wordLimit: number): string {

@@ -24,7 +24,7 @@
 
 	const handleSearchInput = debounce(async () => {
 		if (searchText.trim().length > 0) {
-			const response = await fetch(`/api/search?q=${encodeURIComponent(searchText.trim())}`);
+			const response = await fetch(`/api/search?q=${encodeURIComponent(searchText.trim())}&preview=true`);
 			const results = (await response.json()) as SerializedSearchResult[];
 			searchResults = results.map((result) => {
 				const item = JSON.parse(result.item) as SearchPreviewItem;

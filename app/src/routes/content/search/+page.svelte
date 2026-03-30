@@ -2,37 +2,29 @@
 	import { goto } from '$app/navigation';
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import SearchEntry from '$lib/components/SearchEntry.svelte';
-	import { onMount } from 'svelte';
 	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
 
 	export let data;
 
-	let searchInput = '';
-	let includeCategories = false;
-	let includeContent = false;
+	let searchInput = data.query;
+	let includeCategories = data.includeCategories;
+	let includeContent = data.includeContent;
 
 	function newSearch() {
 		const params = new URLSearchParams();
-		if (searchInput) {
-			params.set('q', encodeURIComponent(searchInput));
+		const trimmedSearch = searchInput.trim();
+
+		if (trimmedSearch) {
+			params.set('q', trimmedSearch);
 		}
-		if (includeCategories) {
-			params.set('includeCategories', 'true');
-		}
-		if (includeContent) {
-			params.set('includeContent', 'true');
-		}
-		goto(`?${params.toString()}`);
+
+		params.set('includeCategories', includeCategories ? 'true' : 'false');
+		params.set('includeContent', includeContent ? 'true' : 'false');
+
+		goto(trimmedSearch ? `?${params.toString()}` : '');
 	}
 
 	const title = 'Suchergebnisse';
-
-	onMount(() => {
-		const params = new URLSearchParams(window.location.search);
-		searchInput = params.get('q') || '';
-		includeCategories = params.get('includeCategories') === 'true';
-		includeContent = params.get('includeContent') === 'true';
-	});
 </script>
 
 <svelte:head>
@@ -45,14 +37,14 @@
 			<p class="eyebrow">Werkzeug</p>
 			<h1>{title}</h1>
 			<p class="lede">
-				Durchsuche Treffer schneller und grenze die Ergebnisliste mit leichten Filtern ein.
+				Durchsuche Titel, Kategorien und bei Bedarf auch den Artikelinhalt.
 			</p>
 		</div>
 
 		<div class="utility-content search-content" slot="content">
 			<section class="search-controls">
 				<form on:submit|preventDefault={newSearch} id="searchbar">
-					<input type="text" bind:value={searchInput} placeholder="Search..." />
+					<input type="text" bind:value={searchInput} placeholder="Im Wiki suchen..." />
 					<button type="submit" aria-label="Suche ausführen">
 						<Icon src={MagnifyingGlass} solid size="16" />
 					</button>
@@ -62,22 +54,32 @@
 					<p>Suchen in</p>
 					<label>
 						<input type="checkbox" bind:checked={includeCategories} on:change={newSearch} />
-						Categories
+						Kategorien
 					</label>
 					<label>
 						<input type="checkbox" bind:checked={includeContent} on:change={newSearch} />
-						Content
+						Inhalt
 					</label>
 				</div>
 			</section>
 
 			<section id="results" aria-live="polite">
 				<div class="results-header">
-					<h2>Treffer</h2>
-					<p>{data.searchResults.length} Ergebnis{data.searchResults.length === 1 ? '' : 'se'}</p>
+					{#if data.query}
+						<h2>Treffer für "{data.query}"</h2>
+						<p>{data.searchResults.length} Ergebnis{data.searchResults.length === 1 ? '' : 'se'}</p>
+					{:else}
+						<h2>Suche starten</h2>
+						<p>Gib einen Begriff ein, um das Wiki zu durchsuchen.</p>
+					{/if}
 				</div>
 
-				{#if data.searchResults.length === 0}
+				{#if !data.query}
+					<p class="empty-state">
+						Die Suchseite durchsucht standardmäßig Titel, Kategorien und Artikelinhalte.
+						Die Filter können die Suche gezielt eingrenzen.
+					</p>
+				{:else if data.searchResults.length === 0}
 					<p class="empty-state">Keine Treffer gefunden.</p>
 				{:else}
 					{#each data.searchResults as result}
@@ -204,10 +206,15 @@
 		align-items: baseline;
 		gap: 1rem;
 		margin-bottom: 1rem;
+		flex-wrap: wrap;
 
 		h2,
 		p {
 			margin: 0;
+		}
+
+		p {
+			color: rgba(0, 0, 0, 0.68);
 		}
 	}
 
@@ -219,5 +226,6 @@
 	.empty-state {
 		margin: 0;
 		color: rgba(0, 0, 0, 0.72);
+		line-height: 1.65;
 	}
 </style>

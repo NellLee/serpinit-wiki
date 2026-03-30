@@ -1,15 +1,20 @@
 import { ensureWikiInitialized, search } from '$lib/wiki';
-import { error, json } from '@sveltejs/kit';
+import { json } from '@sveltejs/kit';
 
 export async function GET({ url }) {
 	await ensureWikiInitialized();
-	const query = url.searchParams.get('q');
+	const query = url.searchParams.get('q')?.trim() ?? '';
 	if (!query) {
-		throw error(400, 'URL parameter "q" required');
+		return json([]);
 	}
-	const includeCategories = !!url.searchParams.get('includeCategories');
-	const includeContent = !!url.searchParams.get('includeContent');
+	const isPreview = url.searchParams.get('preview') === 'true';
+	const includeCategories = isPreview
+		? true
+		: url.searchParams.get('includeCategories') !== 'false';
+	const includeContent = isPreview
+		? false
+		: url.searchParams.get('includeContent') !== 'false';
 	const searchResults = search(query, includeCategories, includeContent);
 
-	return json(searchResults);
+	return json(isPreview ? searchResults.slice(0, 8) : searchResults);
 }
