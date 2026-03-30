@@ -87,7 +87,7 @@
 							title={result.item.title}
 							href={result.item.href}
 							excerpts={result.excerpts}
-							query={data.query}
+							titleHighlights={result.titleHighlights ?? []}
 						/>
 					{/each}
 				{/if}

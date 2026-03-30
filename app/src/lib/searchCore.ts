@@ -1,4 +1,4 @@
-import Fuse from 'fuse.js';
+import Fuse, { type FuseResult, type RangeTuple } from 'fuse.js';
 
 export type SearchDocument = {
 	title: string;
@@ -10,6 +10,7 @@ export type SearchDocument = {
 
 type IndexedSearchDocument = SearchDocument & {
 	normalizedTitle: string;
+	normalizedTitleIndexMap: number[];
 	normalizedCategories: string[];
 	normalizedContentText: string;
 };
@@ -29,9 +30,10 @@ export type SearchOptions = {
 	limit?: number;
 };
 
-export function normalizeSearchText(value: string): string {
+export type HighlightRange = [number, number];
+
+function normalizeSearchFragment(value: string): string {
 	return value
-		.trim()
 		.toLowerCase()
 		.replace(/\u00e4/g, 'ae')
 		.replace(/\u00f6/g, 'oe')
@@ -40,9 +42,47 @@ export function normalizeSearchText(value: string): string {
 		.normalize('NFKD')
 		.replace(/[\u0300-\u036f]/g, '')
 		.replace(/[_/\\-]+/g, ' ')
-		.replace(/[^\p{L}\p{N}\s]+/gu, ' ')
-		.replace(/\s+/g, ' ')
-		.trim();
+		.replace(/[^\p{L}\p{N}\s]+/gu, ' ');
+}
+
+function normalizeSearchTextWithIndexMap(value: string): {
+	normalizedText: string;
+	indexMap: number[];
+} {
+	let normalizedText = '';
+	const indexMap: number[] = [];
+
+	for (let index = 0; index < value.length; index++) {
+		const fragment = normalizeSearchFragment(value[index]);
+		for (const character of fragment) {
+			const isWhitespace = /\s/.test(character);
+			if (isWhitespace) {
+				if (normalizedText.length === 0 || normalizedText.endsWith(' ')) {
+					continue;
+				}
+				normalizedText += ' ';
+				indexMap.push(index);
+				continue;
+			}
+
+			normalizedText += character;
+			indexMap.push(index);
+		}
+	}
+
+	if (normalizedText.endsWith(' ')) {
+		normalizedText = normalizedText.slice(0, -1);
+		indexMap.pop();
+	}
+
+	return {
+		normalizedText,
+		indexMap
+	};
+}
+
+export function normalizeSearchText(value: string): string {
+	return normalizeSearchTextWithIndexMap(value).normalizedText;
 }
 
 function escapeHtml(value: string): string {
@@ -54,48 +94,71 @@ function escapeHtml(value: string): string {
 		.replace(/'/g, '&#39;');
 }
 
-function buildHighlightRegex(query: string): RegExp | null {
-	const tokens = normalizeSearchText(query).split(' ').filter(Boolean);
-	if (tokens.length === 0) {
-		return null;
+function mergeHighlightRanges(ranges: HighlightRange[]): HighlightRange[] {
+	const sortedRanges = [...ranges].sort((left, right) => left[0] - right[0]);
+	if (sortedRanges.length === 0) {
+		return [];
 	}
 
-	const pattern = tokens
-		.map((token) =>
-			token
-				.replace(/ae/g, '(?:ae|ä)')
-				.replace(/oe/g, '(?:oe|ö)')
-				.replace(/ue/g, '(?:ue|ü)')
-				.replace(/ss/g, '(?:ss|ß)')
-		)
-		.join('|');
+	const mergedRanges: HighlightRange[] = [sortedRanges[0]];
+	for (const range of sortedRanges.slice(1)) {
+		const current = mergedRanges[mergedRanges.length - 1];
+		if (range[0] <= current[1] + 1) {
+			current[1] = Math.max(current[1], range[1]);
+			continue;
+		}
 
-	return new RegExp(pattern, 'giu');
+		mergedRanges.push([...range]);
+	}
+
+	return mergedRanges;
 }
 
-export function highlightSearchMatches(text: string, query: string): string {
-	const regex = buildHighlightRegex(query);
-	if (!regex) {
+export function buildHighlightedHtml(text: string, ranges: HighlightRange[]): string {
+	const mergedRanges = mergeHighlightRanges(ranges);
+	if (mergedRanges.length === 0) {
 		return escapeHtml(text);
 	}
 
 	let result = '';
 	let lastIndex = 0;
 
-	for (const match of text.matchAll(regex)) {
-		const start = match.index ?? 0;
-		const end = start + match[0].length;
+	for (const [start, end] of mergedRanges) {
 		result += escapeHtml(text.slice(lastIndex, start));
-		result += `<mark>${escapeHtml(text.slice(start, end))}</mark>`;
-		lastIndex = end;
-	}
-
-	if (lastIndex === 0) {
-		return escapeHtml(text);
+		result += `<mark>${escapeHtml(text.slice(start, end + 1))}</mark>`;
+		lastIndex = end + 1;
 	}
 
 	result += escapeHtml(text.slice(lastIndex));
 	return result;
+}
+
+function mapNormalizedRangesToSource(
+	ranges: ReadonlyArray<RangeTuple>,
+	indexMap: number[]
+): HighlightRange[] {
+	return mergeHighlightRanges(
+		ranges
+			.map(([start, end]) => {
+				const sourceStart = indexMap[start];
+				const sourceEnd = indexMap[end];
+				if (sourceStart == null || sourceEnd == null) {
+					return null;
+				}
+
+				return [sourceStart, sourceEnd] satisfies HighlightRange;
+			})
+			.filter((range): range is HighlightRange => range != null)
+	);
+}
+
+function getTitleHighlights(result: FuseResult<IndexedSearchDocument>): HighlightRange[] {
+	const titleMatch = result.matches?.find((match) => match.key === 'normalizedTitle');
+	if (!titleMatch) {
+		return [];
+	}
+
+	return mapNormalizedRangesToSource(titleMatch.indices, result.item.normalizedTitleIndexMap);
 }
 
 function createFuse(
@@ -121,6 +184,7 @@ function createFuse(
 		threshold: mode === 'full' ? 0.32 : 0.24,
 		ignoreLocation: true,
 		includeScore: true,
+		includeMatches: true,
 		findAllMatches: true,
 		ignoreFieldNorm: true,
 		minMatchCharLength: 1
@@ -128,12 +192,16 @@ function createFuse(
 }
 
 export function buildSearchIndex(documents: SearchDocument[]): SearchCoreIndex {
-	const indexedDocuments = documents.map((document) => ({
-		...document,
-		normalizedTitle: normalizeSearchText(document.title),
-		normalizedCategories: document.categories.map(normalizeSearchText),
-		normalizedContentText: normalizeSearchText(document.contentText)
-	}));
+	const indexedDocuments = documents.map((document) => {
+		const normalizedTitle = normalizeSearchTextWithIndexMap(document.title);
+		return {
+			...document,
+			normalizedTitle: normalizedTitle.normalizedText,
+			normalizedTitleIndexMap: normalizedTitle.indexMap,
+			normalizedCategories: document.categories.map(normalizeSearchText),
+			normalizedContentText: normalizeSearchText(document.contentText)
+		};
+	});
 
 	return {
 		documents: indexedDocuments,
@@ -161,6 +229,7 @@ export function searchDocuments(index: SearchCoreIndex, query: string, options: 
 		.search(normalizedQuery, options.limit != null ? { limit: options.limit } : undefined)
 		.map((result) => ({
 			item: result.item,
-			score: result.score ?? 0
+			score: result.score ?? 0,
+			titleHighlights: getTitleHighlights(result)
 		}));
 }

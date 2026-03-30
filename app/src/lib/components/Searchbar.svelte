@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { buildHighlightedHtml, type HighlightRange } from '$lib/searchCore';
 	import { debounce } from '$lib/utilities/utilities';
 	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
 
@@ -10,6 +11,7 @@
 	type SerializedSearchResult = {
 		item: string;
 		excerpts: string[];
+		titleHighlights?: HighlightRange[];
 	};
 
 	type SearchResultPreview = {
@@ -28,10 +30,9 @@
 			const results = (await response.json()) as SerializedSearchResult[];
 			searchResults = results.map((result) => {
 				const item = JSON.parse(result.item) as SearchPreviewItem;
-				const regex = new RegExp(`(${searchText.trim()})`, 'gi'); // Create a regex for the search text (case insensitive)
 				return {
 					href: item.href,
-					text: item.title.replace(regex, `<strong>$1</strong>`) // Replace with bolded version
+					text: buildHighlightedHtml(item.title, result.titleHighlights ?? [])
 				};
 			});
 			showResults = searchResults.length > 0;

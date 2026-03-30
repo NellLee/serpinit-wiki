@@ -111,7 +111,8 @@ export function search(
 
 		return {
 			item: page,
-			excerpts: includeContent ? createExcerpts(page.contentHtml, query, page.href) : []
+			excerpts: includeContent ? createExcerpts(page.contentHtml, query, page.href) : [],
+			titleHighlights: result.titleHighlights
 		};
 	});
 }

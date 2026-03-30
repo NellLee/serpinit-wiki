@@ -73,4 +73,5 @@ type XmlTimeline = {
 type SearchResult<T> = {
 	item: T;
 	excerpts: string[];
+	titleHighlights?: [number, number][];
 };

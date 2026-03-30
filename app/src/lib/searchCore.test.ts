@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
 	buildSearchIndex,
-	highlightSearchMatches,
+	buildHighlightedHtml,
 	normalizeSearchText,
 	searchDocuments
 } from './searchCore';
@@ -17,7 +17,7 @@ function readAppFile(relativePath: string): string {
 assert.equal(normalizeSearchText('Himmelsk\u00f6rper'), 'himmelskoerper');
 assert.equal(normalizeSearchText(' V\u00f6lker-\u00dcbersicht '), 'voelker uebersicht');
 assert.equal(normalizeSearchText('Schoepfung'), 'schoepfung');
-assert.match(highlightSearchMatches('Himmelsk\u00f6rper', 'himmelskoerper'), /<mark>Himmelsk\u00f6rper<\/mark>/);
+assert.equal(buildHighlightedHtml('Himmelsk\u00f6rper', [[0, 12]]), '<mark>Himmelsk\u00f6rper</mark>');
 
 const documents = [
 	{
@@ -42,6 +42,14 @@ assert.equal(searchDocuments(index, 'himmelskoerper').at(0)?.item.title, 'Himmel
 assert.equal(searchDocuments(index, 'voelker').at(0)?.item.title, 'V\u00f6lker');
 assert.equal(searchDocuments(index, 'geschichte', { includeContent: true }).at(0)?.item.title, 'V\u00f6lker');
 assert.equal(searchDocuments(index, '', { includeContent: true }).length, 0);
+assert.deepEqual(searchDocuments(index, 'himmelskoper').at(0)?.titleHighlights, [[0, 12]]);
+assert.equal(
+	buildHighlightedHtml(
+		searchDocuments(index, 'himmelskoper').at(0)?.item.title ?? '',
+		searchDocuments(index, 'himmelskoper').at(0)?.titleHighlights ?? []
+	),
+	'<mark>Himmelsk\u00f6rper</mark>'
+);
 
 const searchServerSource = readAppFile('src/routes/content/search/+page.server.ts');
 assert.match(searchServerSource, /if \(!query\)/);
@@ -51,8 +59,8 @@ const searchPageSource = readAppFile('src/routes/content/search/+page.svelte');
 assert.doesNotMatch(searchPageSource, /placeholder="Search\.\.\."/);
 assert.doesNotMatch(searchPageSource, />Categories</);
 assert.doesNotMatch(searchPageSource, />Content</);
-assert.match(searchPageSource, /query=\{data\.query\}/);
+assert.match(searchPageSource, /titleHighlights=\{result\.titleHighlights \?\? \[\]\}/);
 
 const searchEntrySource = readAppFile('src/lib/components/SearchEntry.svelte');
-assert.match(searchEntrySource, /titleHtml/);
-assert.match(searchEntrySource, /@\s*html\s+titleHtml/);
+assert.match(searchEntrySource, /titleHighlights/);
+assert.match(searchEntrySource, /buildHighlightedHtml/);

@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { highlightSearchMatches } from '$lib/searchCore';
+	import { buildHighlightedHtml, type HighlightRange } from '$lib/searchCore';
 	import { ChevronDown, ChevronUp, Icon } from 'svelte-hero-icons';
 
 	export let title: string;
 	export let href: string;
 	export let excerpts: string[];
-	export let query = '';
+	export let titleHighlights: HighlightRange[] = [];
 
 	let expanded = false;
 	let containerRef: HTMLDivElement | null = null;
@@ -19,7 +19,7 @@
 	$: shouldShowExpandButton =
 		containerRef &&
 		containerRef.scrollHeight > containerRef.clientHeight + fuzzyAllowedHeightOffset;
-	$: titleHtml = highlightSearchMatches(title, query);
+	$: titleHtml = buildHighlightedHtml(title, titleHighlights);
 </script>
 
 <div class="search-result">
