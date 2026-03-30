@@ -79,7 +79,7 @@ Support these sort modes:
 
 If implementation cost remains low, `Titel Z-A` may be added as a mirror option, but it is not required.
 
-`Bereich` sorting must use locale-aware ascending ordering on the display domain label.
+`Bereich` sorting must use locale-aware ascending ordering on the display domain label with German collation (`de` / `de-DE`).
 Within a shared domain label, use `Titel A-Z` as the deterministic tie-breaker.
 
 ### Result Presentation
