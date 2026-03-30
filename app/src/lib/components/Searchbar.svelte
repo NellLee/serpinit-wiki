@@ -1,24 +1,37 @@
 <script lang="ts">
-	import { debounce } from "$lib/utilities/utilities";
-	import { Icon, MagnifyingGlass } from "svelte-hero-icons";
+	import { debounce } from '$lib/utilities/utilities';
+	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
 
-	let searchText = "";
-	let searchResults: any[] = [];
+	type SearchPreviewItem = {
+		href: string;
+		title: string;
+	};
+
+	type SerializedSearchResult = {
+		item: string;
+		excerpts: string[];
+	};
+
+	type SearchResultPreview = {
+		href: string;
+		text: string;
+	};
+
+	let searchText = '';
+	let searchResults: SearchResultPreview[] = [];
 	let showResults = false;
 	let isFocused = false;
 
 	const handleSearchInput = debounce(async () => {
 		if (searchText.trim().length > 0) {
 			const response = await fetch(`/api/search?q=${encodeURIComponent(searchText.trim())}`);
-			const results = await response.json();
-			results.forEach(
-				(result: any) => (result.item = JSON.parse(result.item as unknown as string))
-			);
-			searchResults = results.map((result: any) => {
-				const regex = new RegExp(`(${searchText.trim()})`, "gi"); // Create a regex for the search text (case insensitive)
+			const results = (await response.json()) as SerializedSearchResult[];
+			searchResults = results.map((result) => {
+				const item = JSON.parse(result.item) as SearchPreviewItem;
+				const regex = new RegExp(`(${searchText.trim()})`, 'gi'); // Create a regex for the search text (case insensitive)
 				return {
-					href: result.item.href,
-					text: result.item.title.replace(regex, `<strong>$1</strong>`) // Replace with bolded version
+					href: item.href,
+					text: item.title.replace(regex, `<strong>$1</strong>`) // Replace with bolded version
 				};
 			});
 			showResults = searchResults.length > 0;
@@ -71,6 +84,7 @@
 					{#each searchResults as result}
 						<li>
 							<a href={result.href} on:focus={handleFocus} on:blur={handleBlur}>
+								<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 								{@html result.text}
 							</a>
 						</li>

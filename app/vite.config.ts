@@ -1,13 +1,9 @@
-import { sveltekit } from "@sveltejs/kit/vite"
-import { defineConfig } from "vite"
-import { nodePolyfills } from "vite-plugin-node-polyfills"
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-	plugins: [
-		sveltekit(),
-		nodePolyfills()
-	],
+	plugins: [sveltekit()],
 	build: {
 		commonjsOptions: { transformMixedEsModules: true }
 	}
-})
+});

@@ -1,10 +1,8 @@
+import { timeline } from '$lib/timeline';
+import { ensureWikiInitialized } from '$lib/wiki.js';
+import { json } from '@sveltejs/kit';
 
-import { timeline } from "$lib/timeline";
-import { initWiki } from "$lib/wiki.js";
-import { json } from "@sveltejs/kit";
-
-initWiki()
-
-export function GET({url}) {
-    return json(timeline)
+export async function GET() {
+	await ensureWikiInitialized();
+	return json(timeline);
 }

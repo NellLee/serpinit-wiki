@@ -1,89 +1,89 @@
-export type PageClass = "hub" | "index" | "article" | "media" | "utility";
+export type PageClass = 'hub' | 'index' | 'article' | 'media' | 'utility';
 
-export type UtilityView = "search" | "timeline" | "convert";
+export type UtilityView = 'search' | 'timeline' | 'convert';
 
 export interface PagePresentation {
 	pageClass: PageClass;
 	showToc: boolean;
 	showContextRail: boolean;
-	contentWidth: "standard" | "wide";
+	contentWidth: 'standard' | 'wide';
 	emphasizeOverview: boolean;
 }
 
 const HUB_PRESENTATION: PagePresentation = {
-	pageClass: "hub",
+	pageClass: 'hub',
 	showToc: false,
 	showContextRail: false,
-	contentWidth: "wide",
+	contentWidth: 'wide',
 	emphasizeOverview: true
 };
 
 const INDEX_PRESENTATION: PagePresentation = {
-	pageClass: "index",
+	pageClass: 'index',
 	showToc: false,
 	showContextRail: true,
-	contentWidth: "wide",
+	contentWidth: 'wide',
 	emphasizeOverview: true
 };
 
 const ARTICLE_PRESENTATION: PagePresentation = {
-	pageClass: "article",
+	pageClass: 'article',
 	showToc: true,
 	showContextRail: true,
-	contentWidth: "standard",
+	contentWidth: 'standard',
 	emphasizeOverview: false
 };
 
 const MEDIA_PRESENTATION: PagePresentation = {
-	pageClass: "media",
+	pageClass: 'media',
 	showToc: false,
 	showContextRail: false,
-	contentWidth: "wide",
+	contentWidth: 'wide',
 	emphasizeOverview: true
 };
 
 const UTILITY_PRESENTATION: PagePresentation = {
-	pageClass: "utility",
+	pageClass: 'utility',
 	showToc: false,
 	showContextRail: false,
-	contentWidth: "wide",
+	contentWidth: 'wide',
 	emphasizeOverview: false
 };
 
 const UTILITY_PRESENTATIONS: Record<UtilityView, PagePresentation> = {
 	search: UTILITY_PRESENTATION,
 	timeline: {
-		pageClass: "utility",
+		pageClass: 'utility',
 		showToc: false,
 		showContextRail: true,
-		contentWidth: "wide",
+		contentWidth: 'wide',
 		emphasizeOverview: false
 	},
 	convert: {
-		pageClass: "utility",
+		pageClass: 'utility',
 		showToc: false,
 		showContextRail: false,
-		contentWidth: "standard",
+		contentWidth: 'standard',
 		emphasizeOverview: false
 	}
 };
 
-const MEDIA_BRANCHES = new Set(["images", "gallery", "galleries"]);
+const MEDIA_BRANCHES = new Set(['images', 'gallery', 'galleries']);
 
 function normalizePagePath(pagePath: string | null | undefined): string {
 	if (!pagePath) {
-		return "";
+		return '';
 	}
 
-	return pagePath.replace(/\\/g, "/").replace(/^\/+/, "");
+	return pagePath.replace(/\\/g, '/').replace(/^\/+/, '');
 }
 
 function isHubPage(pagePath: string): boolean {
 	return (
-		pagePath === "" ||
-		pagePath === "content" ||
-		pagePath === "index.md" ||
-		pagePath === "content/index.md"
+		pagePath === '' ||
+		pagePath === 'content' ||
+		pagePath === 'index.md' ||
+		pagePath === 'content/index.md'
 	);
 }
 
@@ -92,14 +92,17 @@ function isMediaPage(pagePath: string): boolean {
 		return false;
 	}
 
-	const branchSegments = pagePath.replace(/\/index\.md$/, "").split("/").filter(Boolean);
+	const branchSegments = pagePath
+		.replace(/\/index\.md$/, '')
+		.split('/')
+		.filter(Boolean);
 	const terminalBranch = branchSegments.at(-1);
 
 	return terminalBranch != null && MEDIA_BRANCHES.has(terminalBranch);
 }
 
 function isIndexPage(pagePath: string): boolean {
-	return pagePath.endsWith("/index.md");
+	return pagePath.endsWith('/index.md');
 }
 
 export function getContentPagePresentation(pagePath: string | null | undefined): PagePresentation {

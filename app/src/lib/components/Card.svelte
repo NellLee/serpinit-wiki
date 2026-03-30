@@ -1,22 +1,22 @@
 <script lang="ts">
-	export let name = "";
+	export let name = '';
 </script>
 
 <div class="card">
-	{#if name != ""}
+	{#if name != ''}
 		<h2>{name}</h2>
-		<hr/>
+		<hr />
 	{/if}
-    <div id="slot">
-        <slot />
-    </div>
+	<div id="slot">
+		<slot />
+	</div>
 </div>
 
 <style lang="scss">
 	.card {
-        max-width: 100%;
-        min-width: 160px;
-        min-height: 100px;
+		max-width: 100%;
+		min-width: 160px;
+		min-height: 100px;
 		background-color: var(--primary-background-color);
 		padding: 8px 12px 8px 12px;
 		border-radius: 8px;
@@ -28,12 +28,12 @@
 			text-align: center;
 		}
 
-        hr {
-            color: rgb(0,0,0,0.4);
-        }
+		hr {
+			color: rgb(0, 0, 0, 0.4);
+		}
 
-        #slot {
-            padding: 16px 6px 16px 6px;
-        }
+		#slot {
+			padding: 16px 6px 16px 6px;
+		}
 	}
 </style>

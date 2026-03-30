@@ -1,11 +1,8 @@
 <script lang="ts">
-	import { page } from '$app/stores';
 	import { Fancybox } from '@fancyapps/ui';
 	import '@fancyapps/ui/dist/fancybox/fancybox.css';
 	import { onMount } from 'svelte';
 	import Card from './Card.svelte';
-
-	$: currentPath = $page.url.pathname;
 
 	export let title: string;
 	export let fancyBoxGallery: boolean = true;
@@ -30,6 +27,7 @@
 			<div id="overview">
 				<Card>
 					<div lang="de" id="overview-html">
+						<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 						{@html overviewHtml}
 					</div>
 				</Card>
@@ -40,6 +38,7 @@
 		</div>
 		<div id="content" style="min-height: {contentMinHeight}">
 			<div lang="de" id="content-html">
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 				{@html contentHtml}
 			</div>
 		</div>

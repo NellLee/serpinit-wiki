@@ -21,10 +21,19 @@ module.exports = {
 	},
 	overrides: [
 		{
+			files: ['*.ts'],
+			rules: {
+				'no-undef': 'off'
+			}
+		},
+		{
 			files: ['*.svelte'],
 			parser: 'svelte-eslint-parser',
 			parserOptions: {
 				parser: '@typescript-eslint/parser'
+			},
+			rules: {
+				'no-undef': 'off'
 			}
 		}
 	]

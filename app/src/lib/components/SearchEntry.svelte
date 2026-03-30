@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { onMount, afterUpdate } from "svelte";
-	import { ChevronDown, ChevronUp, Icon } from "svelte-hero-icons";
+	import { ChevronDown, ChevronUp, Icon } from 'svelte-hero-icons';
 
 	export let title: string;
 	export let href: string;
@@ -9,13 +8,15 @@
 	let expanded = false;
 	let containerRef: HTMLDivElement | null = null;
 	const maxHeight = 300;
-	const fuzzyAllowedHeightOffset = 40
+	const fuzzyAllowedHeightOffset = 40;
 
 	function toggleExpand() {
 		expanded = !expanded;
 	}
 
-	$: shouldShowExpandButton = containerRef && containerRef.scrollHeight > containerRef.clientHeight + fuzzyAllowedHeightOffset;
+	$: shouldShowExpandButton =
+		containerRef &&
+		containerRef.scrollHeight > containerRef.clientHeight + fuzzyAllowedHeightOffset;
 </script>
 
 <div class="search-result">
@@ -25,12 +26,13 @@
 
 	<div
 		class="excerpts"
-		style={expanded ? "max-height: none;" : `max-height: ${maxHeight}px;`}
+		style={expanded ? 'max-height: none;' : `max-height: ${maxHeight}px;`}
 		bind:this={containerRef}
 	>
-		{#each excerpts as excerpt, index}
+		{#each excerpts as excerpt}
 			<div class="excerpt">
 				<hr />
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 				{@html excerpt}
 			</div>
 		{/each}
