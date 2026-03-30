@@ -42,6 +42,8 @@ Der Zauber richtete sich gegen die Quelle der Macht der Drachenkinder und schwä
 
 ## Funktionsweise moderne Magie Pre-Conius
 
+<!-- NOTE: Für Lateralen und Sylvanars inzwischen in Grundzügen geklärt. Offen ist hier vor allem noch die saubere Ausformulierung der übrigen Magiezweige und ihrer Übergänge. -->
+
 ## Mögliche Zukunft
 
 Die Varnops entwickeln nach der Ikusation mithilfe der Kenntnis über die Sgrisignier-Runen ausgefeilte magische Technologien.
@@ -55,6 +57,7 @@ Eine Hybridisierung der modernen Völker ist nicht nachhaltig möglich, da keine
 
 ## Sylvanar macht sich zum Artefakt
 
+<!-- NOTE: Das zugrundeliegende Sylvanar-Artefakt-Konzept gilt vorerst nicht als fester Kanon. Diese Idee bleibt deshalb bewusst nur als Altbestand/Story-Notiz stehen. -->
 Latericas - eine geheime "Insel" von Navura, wo ein Sylvanar mit Runen auf Lebewesen experimentiert.
 Er wurde verbannt, da er seinen Stamm hereingelegt hat, um sich selbst in ein Artefakt zu verwandeln.
 Daher sieht er aus wie Groot.
@@ -72,6 +75,7 @@ Die Abtrünnigen starten neue Angriffe auf die Sylvanars auf Navura, doch diese 
 
 ## Artefakte:
 
+<!-- NOTE: Artefakte als breit etablierter Magiezweig sind derzeit noch nicht sauber in das vereinheitlichte Magiesystem eingepasst und gelten daher vorerst nicht als fester Kanon. -->
 - Lumpenkugel mit Kohlekern (Rune auf Kohlekern: brennt, wenn an der Luft, explodiert bei Aufprall)
 - Handschuh dessen Stoff bei hautkontakt stahlhart wird. (inlets sorgen dafür, dass die Hand selbst nicht zur Härtung
 führt)

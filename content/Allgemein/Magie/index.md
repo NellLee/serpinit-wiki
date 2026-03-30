@@ -82,6 +82,14 @@ Alle Lebewesen der Ovelären Planeten entwickelten im Verlauf einer magisch beei
 Diese „magitive Wahrnehmung“ ist dabei für den Wahrnehmenden immer relativ zum Potenzpunkt eines jeweiligen Elementes.
 Die meisten dieser Lebewesen sind außerdem in der Lage die magische Potenz der Stoffe die lokal an ihrem Körper anliegen mehr oder minder stark zu beeinflussen.
 Je weiter die arcanogene Evolution bei einem Lebewesen die Ausbildung einer magischen Intelligenz begünstigte, desto feiner kann dieses Wesen magische Vorgänge nicht nur wahrnehmen, sondern auch in ihrer Form erfassen und beeinflussen.
+Dies bedeutet jedoch nicht, dass jedes oveläre Volk die Magie auf dieselbe Art nutzen kann.
+Die modernen Magieformen des Serpinit-Systems folgen zwar denselben Naturgesetzen, doch unterscheiden sie sich stark darin, auf welche Weise sie vorhandene magische Potenz überhaupt in eine belastbare Form bringen.
+Die Sgrisignier-Runen bilden dabei die allgemeinste und präziseste bekannte Schnittstelle zur Magie.
+Andere Völker greifen dagegen auf enger begrenzte, natürliche oder kulturell tradierte Formen der Katalyse zurück, welche nur in bestimmten Bereichen zuverlässig funktionieren.
+
+So nutzen die Sodili-Lateralen eine pathologische, im Ritual der Do-Úspil geordnete Fehlkopplung ihres eigenen Geistes.
+Die Sylvanars wiederum wirken keine frei formulierbaren Zauber im Sinne der Runenmagie, sondern beeinflussen durch Gesänge und Tänze bereits bestehende magische Muster lebendiger Wesen in ihrer Umgebung.
+Auch die Blutrituale der Drachenkinder und die Edelsteinmagie der Varnops folgen letztlich denselben Grundlagen, sind jedoch an sehr spezielle Trägerstoffe und biologische Voraussetzungen gebunden.
 
 Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war jedoch für die modernen Völker lange Zeit unbekannt.
 Viele Lebewesen konnten die aktiven Runensteine der Sgrisignier-Portale oder die Überreste der Magie in antiken Sgrisignier-Strukturen zwar prinzipiell spüren, jedoch war ihre magitive Wahrnehmung zu stumpfsinnig um die Feinheiten einer komplexen Sgrisignier-Rune auch nur ansatzweise erfassen zu können.
@@ -123,6 +131,8 @@ Natürliche Vorkommen von Gravitationsenergie werden Gravids genannt.
 Größter bekannter Gravid ist die Gravidblase von Agranum.
 
 ### Floral
+
+Zusammenhang mit lebendigen, bereits vorstrukturierten magischen Mustern.
 
 ### Temperal
 

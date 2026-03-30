@@ -1,5 +1,6 @@
 # Baldryn Schmedowski
 
+<!-- NOTE: Dieser Charaktertext baut auf einem älteren, noch nicht vollständig kanonisierten Artefakt-Konzept auf. Er bleibt vorerst als Altbestand erhalten und ist bis zur späteren Kanonklärung dieses Magiezweigs nicht als vollständig gesicherte Lore zu lesen. -->
 ![Bild des Charakters](Link-zum-Bild)
 
 **Name:** Baldryn Schmedowski**Titel/Klasse:** Meister der Artefakte**Alter:** Alter des Charakters**Geschlecht:** Geschlecht des Charakters**Spezies/Rasse:** Spezies oder Rasse des Charakters**Heimat:** Geburtsort oder aktueller Wohnort**Beruf:** Beruf oder Rolle in der Welt
