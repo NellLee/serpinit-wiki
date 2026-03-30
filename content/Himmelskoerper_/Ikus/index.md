@@ -1,6 +1,6 @@
 # Ikus, der große purpurne Stern
 
-:::overview
+<!-- layout: overview -->
 
 ![Ikus](./images/Ikus_Stern_Weltraum-Ansicht.png)
 
@@ -8,7 +8,6 @@
 |-|-|
 |**Masse:**|$40.07 M_\odot$|
 |**Abstand zu Mavorak:**|$1.1 AU$|
-:::
 
 
 Ikus wird der Purpurstern genannt.
