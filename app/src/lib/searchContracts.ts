@@ -7,3 +7,5 @@ export type ParsedSearchQuery = {
 	exclusions: string[];
 	fieldFilters: Record<SearchFieldFilterKey, string[]>;
 };
+
+export type SearchSortMode = 'relevance' | 'title-asc' | 'domain';
