@@ -45,6 +45,59 @@ export function normalizeSearchText(value: string): string {
 		.trim();
 }
 
+function escapeHtml(value: string): string {
+	return value
+		.replace(/&/g, '&amp;')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;')
+		.replace(/"/g, '&quot;')
+		.replace(/'/g, '&#39;');
+}
+
+function buildHighlightRegex(query: string): RegExp | null {
+	const tokens = normalizeSearchText(query).split(' ').filter(Boolean);
+	if (tokens.length === 0) {
+		return null;
+	}
+
+	const pattern = tokens
+		.map((token) =>
+			token
+				.replace(/ae/g, '(?:ae|ä)')
+				.replace(/oe/g, '(?:oe|ö)')
+				.replace(/ue/g, '(?:ue|ü)')
+				.replace(/ss/g, '(?:ss|ß)')
+		)
+		.join('|');
+
+	return new RegExp(pattern, 'giu');
+}
+
+export function highlightSearchMatches(text: string, query: string): string {
+	const regex = buildHighlightRegex(query);
+	if (!regex) {
+		return escapeHtml(text);
+	}
+
+	let result = '';
+	let lastIndex = 0;
+
+	for (const match of text.matchAll(regex)) {
+		const start = match.index ?? 0;
+		const end = start + match[0].length;
+		result += escapeHtml(text.slice(lastIndex, start));
+		result += `<mark>${escapeHtml(text.slice(start, end))}</mark>`;
+		lastIndex = end;
+	}
+
+	if (lastIndex === 0) {
+		return escapeHtml(text);
+	}
+
+	result += escapeHtml(text.slice(lastIndex));
+	return result;
+}
+
 function createFuse(
 	documents: IndexedSearchDocument[],
 	mode: SearchMode

@@ -87,6 +87,7 @@
 							title={result.item.title}
 							href={result.item.href}
 							excerpts={result.excerpts}
+							query={data.query}
 						/>
 					{/each}
 				{/if}

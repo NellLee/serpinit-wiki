@@ -1,9 +1,11 @@
 <script lang="ts">
+	import { highlightSearchMatches } from '$lib/searchCore';
 	import { ChevronDown, ChevronUp, Icon } from 'svelte-hero-icons';
 
 	export let title: string;
 	export let href: string;
 	export let excerpts: string[];
+	export let query = '';
 
 	let expanded = false;
 	let containerRef: HTMLDivElement | null = null;
@@ -17,11 +19,15 @@
 	$: shouldShowExpandButton =
 		containerRef &&
 		containerRef.scrollHeight > containerRef.clientHeight + fuzzyAllowedHeightOffset;
+	$: titleHtml = highlightSearchMatches(title, query);
 </script>
 
 <div class="search-result">
 	<div class="title">
-		<a {href}>{title}</a>
+		<a {href}>
+			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+			{@html titleHtml}
+		</a>
 	</div>
 
 	<div
