@@ -124,6 +124,75 @@ Deliberately out of scope:
 - wildcard mini-language
 - range operators
 
+### Query Semantics
+
+The parser must use deterministic semantics.
+
+#### Token Classes
+
+The raw query is parsed into:
+- free-text terms
+- quoted phrases
+- exclusions
+- field filters
+
+#### Prefix Binding
+
+A field prefix binds only to the next syntactic unit:
+- next quoted phrase, or
+- next single token
+
+Examples:
+- `title:"Do Uspil" foo`
+  - title phrase filter: `Do Uspil`
+  - global free-text term: `foo`
+- `category:Religion category:Politik`
+  - two category filters
+- `path:Sodili Lateralen`
+  - path filter: `Sodili`
+  - global free-text term: `Lateralen`
+
+#### Repeated Filter Semantics
+
+Repeated field filters are OR within the same field:
+- `category:Religion category:Politik`
+  - matches pages with either category
+- `type:article type:index`
+  - matches either page type
+
+Different filter fields combine with AND:
+- `path:Sodili type:article`
+  - must match both path and page type
+
+#### Free Text Semantics
+
+Free-text terms and quoted phrases participate in ranking and candidate selection.
+They do not create hard field restrictions unless they are attached to a field prefix.
+
+#### Exclusion Semantics
+
+Exclusions apply globally after structured filters are resolved and before final scoring output.
+If any exclusion matches a candidate in title, categories, path-derived labels, or searchable content, the candidate is removed.
+
+#### UI Filter Merge Rules
+
+UI-selected filters and query-syntax filters merge by field.
+
+Rules:
+- query-syntax filters remain visible as active chips
+- UI filters in the same field are OR-added to the same field set
+- different fields remain AND-combined
+- clearing a chip removes only that filter source
+
+Example:
+- query: `path:Sodili`
+- UI page type filter: `article`
+  - result set must satisfy:
+    - path in `Sodili`
+    - type in `article`
+
+This keeps syntax and UI behavior aligned and testable.
+
 ## Architecture
 
 ### Derived Search Model
@@ -212,9 +281,28 @@ Domains are derived from path structure, then normalized for display.
 
 Rules:
 - use stable path branches, not ad hoc snippet content
-- strip technical artifacts such as underscores when possible
-- convert structural names into user-facing labels
-- keep normalization deterministic and testable
+- start from the content-relative path
+- discard the filename leaf (`index.md` or article filename)
+- ignore utility routes and non-content search routes
+- choose the first meaningful path branch beneath `content/` as the primary domain key
+- if that branch is empty, the page belongs to a fallback root domain such as `Allgemein`
+- normalize for display by:
+  - replacing underscore separators with spaces
+  - trimming trailing structural underscores
+  - preserving existing transliteration where it is part of the actual stored path
+  - title-casing only when the existing branch naming does not already encode the intended label
+- media/gallery branches should derive their domain from the nearest non-media ancestor branch
+- domain normalization must be implemented as one helper with regression tests, not duplicated across UI and API
+
+Examples:
+- `content/Volk_/Lateralen_/Sodili/index.md`
+  - domain key: `volk`
+  - domain label: `Volk`
+- `content/Himmelskoerper_/index.md`
+  - domain key: `himmelskoerper`
+  - domain label: `Himmelskoerper`
+- `content/index.md`
+  - fallback domain label: `Allgemein`
 
 ### Category Facets
 
@@ -242,6 +330,79 @@ The API should be usable by both:
 
 Preview mode can continue to request a reduced payload.
 
+### API Contract
+
+The API contract must be explicit and stable.
+
+#### Full Search Response
+
+`GET /api/search` returns an object:
+
+```ts
+type SearchApiResponse = {
+  query: string;
+  parsedQuery: {
+    freeTextTerms: string[];
+    phrases: string[];
+    exclusions: string[];
+    fieldFilters: {
+      title: string[];
+      category: string[];
+      path: string[];
+      type: string[];
+    };
+  };
+  activeFilters: {
+    domains: string[];
+    pageTypes: string[];
+    categories: string[];
+    includeTitle: boolean;
+    includeCategories: boolean;
+    includeContent: boolean;
+  };
+  sort: 'relevance' | 'title-asc' | 'domain';
+  facets: {
+    domains: Array<{ key: string; label: string; count: number }>;
+    pageTypes: Array<{ key: string; label: string; count: number }>;
+    categories: Array<{ key: string; label: string; count: number }>;
+  };
+  suggestions: {
+    broadenSearch: boolean;
+    removeFilters: string[];
+    nearbyQueries: string[];
+  };
+  results: SearchResultPayload[];
+};
+```
+
+`SearchResultPayload` includes:
+- serialized page item
+- title highlight ranges
+- excerpts
+- derived metadata fields needed by the UI
+
+#### Preview Response
+
+`GET /api/search?preview=true` returns an object, not a bare array:
+
+```ts
+type SearchPreviewResponse = {
+  query: string;
+  results: Array<{
+    item: string;
+    titleHighlights?: [number, number][];
+  }>;
+};
+```
+
+Preview intentionally omits:
+- facets
+- parsed query details
+- suggestions
+- full excerpt payload
+
+This prevents shape drift between preview and full search while keeping the preview transport small.
+
 ## UI Changes
 
 Files likely affected:
@@ -268,6 +429,10 @@ Add focused tests for:
 - phrase handling
 - exclusions
 - field prefix handling
+- prefix binding rules
+- repeated filter OR behavior
+- cross-field AND behavior
+- UI-filter and query-filter merge behavior
 - path-to-domain normalization
 - category facet derivation
 - page type facet derivation
@@ -276,6 +441,21 @@ Add focused tests for:
 - excerpt highlighting behavior
 - zero-result fallback behavior
 - search page/server payload contract
+
+Zero-result behavior must be testable with explicit rules:
+- `broadenSearch` becomes `true` when at least one hard filter is active or at least one exclusion is present
+- `removeFilters` lists active hard filters in a stable order
+- `nearbyQueries` appears only when:
+  - the parsed query has at least one non-empty free-text term or phrase
+  - total results are zero
+  - a relaxed query produced at least one result
+
+Allowed relaxed strategies, in order:
+1. remove exclusions
+2. disable content/category/path/type hard filters from UI
+3. drop field prefixes while preserving free text
+
+Do not invent spelling suggestions from external data.
 
 Verification should include:
 - targeted esbuild-based regression tests for the new helpers
