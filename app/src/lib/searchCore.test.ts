@@ -33,6 +33,13 @@ const documents = [
 		categories: ['Kulturen'],
 		contentText: 'Die V\u00f6lker des Systems besitzen vielf\u00e4ltige Geschichte.',
 		contentHtml: '<p>Die V\u00f6lker des Systems besitzen vielf\u00e4ltige Geschichte.</p>'
+	},
+	{
+		title: 'Dur-Uspil Zeremonien',
+		href: '/content/Test.md',
+		categories: ['Rituale'],
+		contentText: 'Dur-Uspil Zeremonien werden durchgef\u00fchrt.',
+		contentHtml: '<p>Dur-Uspil Zeremonien werden durchgef\u00fchrt.</p>'
 	}
 ];
 
@@ -43,12 +50,26 @@ assert.equal(searchDocuments(index, 'voelker').at(0)?.item.title, 'V\u00f6lker')
 assert.equal(searchDocuments(index, 'geschichte', { includeContent: true }).at(0)?.item.title, 'V\u00f6lker');
 assert.equal(searchDocuments(index, '', { includeContent: true }).length, 0);
 assert.deepEqual(searchDocuments(index, 'himmelskoper').at(0)?.titleHighlights, [[0, 12]]);
+assert.deepEqual(
+	searchDocuments(index, 'Dur Uspil').find((result) => result.item.title === 'Dur-Uspil Zeremonien')
+		?.titleHighlights,
+	[[0, 8]]
+);
 assert.equal(
 	buildHighlightedHtml(
 		searchDocuments(index, 'himmelskoper').at(0)?.item.title ?? '',
 		searchDocuments(index, 'himmelskoper').at(0)?.titleHighlights ?? []
 	),
 	'<mark>Himmelsk\u00f6rper</mark>'
+);
+assert.equal(
+	buildHighlightedHtml(
+		searchDocuments(index, 'Dur Uspil').find((result) => result.item.title === 'Dur-Uspil Zeremonien')
+			?.item.title ?? '',
+		searchDocuments(index, 'Dur Uspil').find((result) => result.item.title === 'Dur-Uspil Zeremonien')
+			?.titleHighlights ?? []
+	),
+	'<mark>Dur-Uspil</mark> Zeremonien'
 );
 
 const searchServerSource = readAppFile('src/routes/content/search/+page.server.ts');

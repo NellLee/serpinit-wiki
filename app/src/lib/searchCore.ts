@@ -171,6 +171,40 @@ export function getFuzzyHighlightRanges(text: string, query: string): HighlightR
 	return mapNormalizedRangesToSource(match.indices, normalizedText.indexMap);
 }
 
+function findControlledHighlightRanges(text: string, query: string): HighlightRange[] {
+	const normalizedQuery = normalizeSearchText(query);
+	if (!normalizedQuery) {
+		return [];
+	}
+
+	const normalizedText = normalizeSearchTextWithIndexMap(text);
+	const phraseMatches = findExactNormalizedMatchRanges(normalizedText, normalizedQuery);
+	if (phraseMatches.length > 0) {
+		return phraseMatches;
+	}
+
+	const queryTokens = normalizedQuery.split(' ').filter(Boolean);
+	const wordCandidates = extractWordCandidates(text);
+	const exactTokenMatches = mergeHighlightRanges(
+		queryTokens.flatMap((token) =>
+			wordCandidates
+				.filter((candidate) => candidate.normalized === token)
+				.map((candidate) => [candidate.start, candidate.end] as HighlightRange)
+		)
+	);
+	if (exactTokenMatches.length > 0) {
+		return exactTokenMatches;
+	}
+
+	return mergeHighlightRanges(
+		queryTokens
+			.filter((token) => token.length >= 4)
+			.map((token) => findBestFuzzyWordCandidate(wordCandidates, token))
+			.filter((candidate): candidate is WordCandidate => candidate != null)
+			.map((candidate) => [candidate.start, candidate.end] as HighlightRange)
+	);
+}
+
 function mapNormalizedRangesToSource(
 	ranges: ReadonlyArray<RangeTuple>,
 	indexMap: number[]
@@ -190,13 +224,113 @@ function mapNormalizedRangesToSource(
 	);
 }
 
-function getTitleHighlights(result: FuseResult<IndexedSearchDocument>): HighlightRange[] {
-	const titleMatch = result.matches?.find((match) => match.key === 'normalizedTitle');
-	if (!titleMatch) {
-		return [];
+type WordCandidate = {
+	normalized: string;
+	start: number;
+	end: number;
+};
+
+function findExactNormalizedMatchRanges(
+	normalizedText: { normalizedText: string; indexMap: number[] },
+	normalizedQuery: string
+): HighlightRange[] {
+	const ranges: HighlightRange[] = [];
+	let searchStart = 0;
+
+	while (searchStart < normalizedText.normalizedText.length) {
+		const matchStart = normalizedText.normalizedText.indexOf(normalizedQuery, searchStart);
+		if (matchStart === -1) {
+			break;
+		}
+
+		const sourceStart = normalizedText.indexMap[matchStart];
+		const sourceEnd = normalizedText.indexMap[matchStart + normalizedQuery.length - 1];
+		if (sourceStart != null && sourceEnd != null) {
+			ranges.push([sourceStart, sourceEnd]);
+		}
+
+		searchStart = matchStart + normalizedQuery.length;
 	}
 
-	return mapNormalizedRangesToSource(titleMatch.indices, result.item.normalizedTitleIndexMap);
+	return ranges;
+}
+
+function extractWordCandidates(text: string): WordCandidate[] {
+	const candidates: WordCandidate[] = [];
+	const wordRegex = /[\p{L}\p{N}]+(?:[-–—][\p{L}\p{N}]+)*/gu;
+
+	for (const match of text.matchAll(wordRegex)) {
+		const rawWord = match[0];
+		const matchStart = match.index ?? 0;
+		const rawParts = rawWord.split(/[-–—]/);
+		let partOffset = 0;
+
+		for (const rawPart of rawParts) {
+			const start = matchStart + partOffset;
+			const end = start + rawPart.length - 1;
+			const normalized = normalizeSearchText(rawPart);
+			if (normalized) {
+				candidates.push({ normalized, start, end });
+			}
+			partOffset += rawPart.length + 1;
+		}
+	}
+
+	return candidates;
+}
+
+function findBestFuzzyWordCandidate(
+	candidates: WordCandidate[],
+	token: string
+): WordCandidate | null {
+	let bestCandidate: WordCandidate | null = null;
+	let bestDistance = Number.POSITIVE_INFINITY;
+
+	for (const candidate of candidates) {
+		const lengthDelta = Math.abs(candidate.normalized.length - token.length);
+		if (lengthDelta > 2) {
+			continue;
+		}
+
+		const distance = getLevenshteinDistance(candidate.normalized, token);
+		const maxLength = Math.max(candidate.normalized.length, token.length);
+		if (distance > 2 || distance / maxLength > 0.3) {
+			continue;
+		}
+
+		if (distance < bestDistance) {
+			bestCandidate = candidate;
+			bestDistance = distance;
+		}
+	}
+
+	return bestCandidate;
+}
+
+function getLevenshteinDistance(left: string, right: string): number {
+	const distances = Array.from({ length: right.length + 1 }, (_, index) => index);
+
+	for (let leftIndex = 1; leftIndex <= left.length; leftIndex++) {
+		let previousDiagonal = leftIndex - 1;
+		distances[0] = leftIndex;
+
+		for (let rightIndex = 1; rightIndex <= right.length; rightIndex++) {
+			const previousValue = distances[rightIndex];
+			if (left[leftIndex - 1] === right[rightIndex - 1]) {
+				distances[rightIndex] = previousDiagonal;
+			} else {
+				distances[rightIndex] =
+					Math.min(distances[rightIndex - 1], distances[rightIndex], previousDiagonal) + 1;
+			}
+			previousDiagonal = previousValue;
+		}
+	}
+
+	return distances[right.length];
+}
+
+function getTitleHighlights(result: FuseResult<IndexedSearchDocument>, query: string): HighlightRange[] {
+	return findControlledHighlightRanges(result.item.title, query);
 }
 
 function createFuse(
@@ -268,6 +402,6 @@ export function searchDocuments(index: SearchCoreIndex, query: string, options: 
 		.map((result) => ({
 			item: result.item,
 			score: result.score ?? 0,
-			titleHighlights: getTitleHighlights(result)
+			titleHighlights: getTitleHighlights(result, query)
 		}));
 }
