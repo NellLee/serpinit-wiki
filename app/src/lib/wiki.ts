@@ -6,6 +6,7 @@ import fs from 'fs';
 import * as cheerio from 'cheerio';
 import { initTimeline } from './timeline';
 import { buildSearchIndex, normalizeSearchText, searchDocuments, type SearchCoreIndex } from './searchCore';
+import { createSearchExcerpts } from './searchExcerpt';
 
 export const wiki: Map<string, MarkdownPage> = new Map();
 export const cache: Map<string, string> = new Map();
@@ -111,7 +112,7 @@ export function search(
 
 		return {
 			item: page,
-			excerpts: includeContent ? createExcerpts(page.contentHtml, query, page.href) : [],
+			excerpts: includeContent ? createSearchExcerpts(page.contentHtml, query, page.href) : [],
 			titleHighlights: result.titleHighlights
 		};
 	});
@@ -123,102 +124,6 @@ function extractSearchableText(page: MarkdownPage): string {
 	return [page.title, ...page.categories.map((category) => category.text), overview, content]
 		.filter(Boolean)
 		.join(' ');
-}
-
-function createExcerpts(html: string, query: string, pageHref: string): string[] {
-	const $ = cheerio.load(html);
-	const normalizedQuery = normalizeSearchText(query);
-
-	$('img').each((_, img) => {
-		const altText = $(img).attr('alt');
-		const altTextFormatted = `[Image${altText ? ': ' + altText : ''}]`;
-		$(img).replaceWith($(`<p>${altTextFormatted}</p>`));
-	});
-
-	const headerParagraphMap: { [key: string]: string } = {};
-
-	$('body > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6)').each((_, element) => {
-		const tagName = $(element).prop('tagName').toLowerCase();
-		const content = $(element).text();
-		const contentHtml = $(element).html()!;
-
-		if (normalizeSearchText(content).includes(normalizedQuery)) {
-			let parentHeader = $(element).prevAll('h1, h2, h3, h4, h5, h6').first();
-			if (parentHeader.length === 0) {
-				parentHeader = $(element).parent().prevAll('h1, h2, h3, h4, h5, h6').first();
-			}
-
-			const headerHtml = $.html($(parentHeader));
-			const headerId = parentHeader.attr('id');
-			const headerLink = headerId
-				? `<a href="${pageHref}#${headerId}">${headerHtml}</a>`
-				: `<a href="${pageHref}">${headerHtml || pageHref}</a>`;
-
-			const highlightedContentHtml = highlightQueryMatches(contentHtml, query);
-			const trimmedContentHtml = trimToWordLimit(highlightedContentHtml, query, 50);
-			if (headerParagraphMap[headerLink]) {
-				headerParagraphMap[headerLink] += `<${tagName}>${trimmedContentHtml}</${tagName}>`;
-			} else {
-				headerParagraphMap[headerLink] = `<${tagName}>${trimmedContentHtml}</${tagName}>`;
-			}
-		}
-	});
-	const excerpts: string[] = Object.keys(headerParagraphMap).map(
-		(headerWithLink) => headerWithLink + headerParagraphMap[headerWithLink]
-	);
-
-	return excerpts;
-}
-
-function highlightQueryMatches(html: string, query: string): string {
-	const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').trim();
-	if (!escapedQuery) {
-		return html;
-	}
-
-	return html.replace(new RegExp(`(${escapedQuery})`, 'gi'), '<mark>$1</mark>');
-}
-
-function trimToWordLimit(paragraph: string, query: string, wordLimit: number): string {
-	const sentences = paragraph.match(/[^.!?]+[.!?]+/g) || [paragraph];
-	const queryWords = query.split(' ');
-
-	const queryIndices = sentences.reduce((indices, sentence, index) => {
-		if (queryWords.some((qw) => sentence.toLowerCase().includes(qw.toLowerCase()))) {
-			indices.push(index);
-		}
-		return indices;
-	}, [] as number[]);
-
-	if (queryIndices.length === 0) {
-		const words = paragraph.split(' ').slice(0, wordLimit);
-		return words.join(' ') + (words.length < paragraph.split(' ').length ? ' [...]' : '');
-	}
-
-	const start = Math.max(0, queryIndices[0]);
-	let end = start;
-
-	let wordCount = sentences[start].split(' ').length;
-
-	while (
-		end + 1 < sentences.length &&
-		wordCount + sentences[end + 1].split(' ').length <= wordLimit
-	) {
-		end++;
-		wordCount += sentences[end].split(' ').length;
-	}
-
-	let result = sentences.slice(start, end + 1).join(' ');
-
-	if (start > 0) {
-		result = '[...] ' + result;
-	}
-
-	if (end < sentences.length - 1) {
-		result = result + ' [...]';
-	}
-
-	return result;
 }
 
 function updateCache(fullPath: string, markdownForCache: string) {

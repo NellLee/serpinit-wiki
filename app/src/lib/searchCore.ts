@@ -133,6 +133,44 @@ export function buildHighlightedHtml(text: string, ranges: HighlightRange[]): st
 	return result;
 }
 
+export function getFuzzyHighlightRanges(text: string, query: string): HighlightRange[] {
+	const normalizedQuery = normalizeSearchText(query);
+	if (normalizedQuery.length === 0) {
+		return [];
+	}
+
+	const normalizedText = normalizeSearchTextWithIndexMap(text);
+	if (normalizedText.normalizedText.length === 0) {
+		return [];
+	}
+
+	const fuse = new Fuse(
+		[
+			{
+				value: normalizedText.normalizedText,
+				indexMap: normalizedText.indexMap
+			}
+		],
+		{
+			keys: [{ name: 'value', weight: 1 }],
+			threshold: 0.32,
+			ignoreLocation: true,
+			includeMatches: true,
+			findAllMatches: true,
+			ignoreFieldNorm: true,
+			minMatchCharLength: 1
+		}
+	);
+
+	const result = fuse.search(normalizedQuery).at(0);
+	const match = result?.matches?.find((entry) => entry.key === 'value');
+	if (!match) {
+		return [];
+	}
+
+	return mapNormalizedRangesToSource(match.indices, normalizedText.indexMap);
+}
+
 function mapNormalizedRangesToSource(
 	ranges: ReadonlyArray<RangeTuple>,
 	indexMap: number[]
