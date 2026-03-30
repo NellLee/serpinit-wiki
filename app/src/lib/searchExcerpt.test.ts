@@ -20,4 +20,13 @@ const umlautExcerpt = createSearchExcerpts(
 assert.equal(umlautExcerpt.length, 1);
 assert.match(umlautExcerpt[0], /<mark>Himmelsk\u00f6rper<\/mark>/);
 
+const phraseExcerpt = createSearchExcerpts(
+	'<h2 id="ritual">Ritual</h2><p>Der König führt außerdem die Do-Uspil aus, für die jeder Laterale pilgern muss.</p>',
+	'Do Uspil',
+	'/content/Test'
+);
+assert.equal(phraseExcerpt.length, 1);
+assert.match(phraseExcerpt[0], /<mark>Do-Uspil<\/mark>/);
+assert.doesNotMatch(phraseExcerpt[0], /<mark>D<\/mark>er/);
+
 assert.deepEqual(createSearchExcerpts(html, 'unauffindbar', '/content/Test'), []);
