@@ -529,8 +529,7 @@
 				}
 
 				:global(figure) {
-					width: min(100%, 26rem);
-					max-width: clamp(18rem, 36vw, 26rem);
+					width: fit-content;
 					margin: 0 0 1.5rem 1.75rem !important;
 					float: right;
 					overflow: hidden;
@@ -562,9 +561,11 @@
 
 				:global(a[data-fancybox]) {
 					max-width: 100%;
+					width: auto;
 
 					&:not(:is(figure *) > a[data-fancybox]) {
-						width: min(100%, 11rem);
+						flex: 1 1 14rem;
+						min-width: 0;
 
 						&:hover {
 							transform: translateY(-2px) scale(1.01);
@@ -582,9 +583,8 @@
 					gap: clamp(1.5rem, 3vw, 3rem);
 
 					:global(a[data-fancybox]) {
-						&:not(:is(figure *) > a[data-fancybox]) {
-							width: min(100%, 16rem);
-						}
+						flex: 1 1 14rem;
+						min-width: 0;
 					}
 				}
 
