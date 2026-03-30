@@ -29,8 +29,13 @@
 
 <style lang="scss">
 	.breadcrumbs {
-		width: 75%;
-		padding: 10px 20px;
+		width: fit-content;
+		max-width: 100%;
+		padding: 0.6rem 0.9rem;
+		border-radius: 999px;
+		background-color: rgba(255, 250, 241, 0.86);
+		border: 1px solid var(--border-subtle);
+		box-shadow: var(--shadow-soft);
 
 		ul {
 			list-style: none;
@@ -45,16 +50,16 @@
 			display: flex;
 			align-items: center;
 			color: var(--primary-color);
-			font-size: 14px;
+			font-size: 0.84rem;
 			line-height: 1.3;
 
 			a {
 				text-decoration: none;
-				color: var(--primary-color);
+				color: var(--text-muted);
 
 				&:hover {
 					text-decoration: underline;
-					color: var(--secondary-color);
+					color: var(--primary-color);
 				}
 			}
 		}
@@ -64,26 +69,12 @@
 			opacity: 0.55;
 		}
 
-		@media (min-width: 960px) {
-			width: fit-content;
-			max-width: 100%;
-			padding: 0.55rem 0.85rem;
-			border-radius: 999px;
-			background-color: var(--primary-background-color);
-			border: 1px solid rgba(0, 0, 0, 0.08);
-			box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+		ul {
+			gap: 0.05rem;
+		}
 
-			ul {
-				gap: 0.05rem;
-			}
-
-			li {
-				font-size: 0.84rem;
-			}
-
-			.delimiter {
-				margin: 0 0.45rem;
-			}
+		.delimiter {
+			margin: 0 0.45rem;
 		}
 	}
 </style>

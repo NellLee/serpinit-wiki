@@ -30,10 +30,10 @@
 	.reference-list :global(.card) {
 		width: min(100%, 24rem);
 		margin-left: auto;
-		background-color: var(--primary-background-color);
-		border: 1px solid rgba(0, 0, 0, 0.08);
-		border-left: 4px solid var(--secondary-color);
-		box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+		background-color: var(--surface-raised);
+		border: 1px solid var(--border-subtle);
+		border-left: 4px solid var(--accent-strong);
+		box-shadow: var(--shadow-soft);
 	}
 
 	.reference-list :global(.card h2) {
@@ -72,7 +72,7 @@
 		padding: 0.5rem 0.7rem;
 		border-radius: 0.6rem;
 		border: 1px solid transparent;
-		background: rgba(0, 0, 0, 0.03);
+		background: rgba(244, 235, 219, 0.9);
 		color: var(--primary-color);
 		text-decoration: none;
 		transition:
@@ -83,9 +83,9 @@
 	}
 
 	a:hover {
-		background: rgba(0, 0, 0, 0.05);
-		border-color: rgba(0, 0, 0, 0.08);
-		color: var(--secondary-color);
+		background: rgba(235, 226, 209, 0.94);
+		border-color: var(--border-subtle);
+		color: var(--accent-strong);
 		transform: translateX(1px);
 	}
 

@@ -41,17 +41,21 @@
 		.node-content {
 			display: flex;
 			align-items: center;
+			gap: 0.25rem;
+			min-width: 0;
 
 			.toggle-button {
 				cursor: pointer;
 				font-size: 14px;
-				transition: transform 0.3s ease;
+				transition: transform 0.2s ease;
 				background-color: transparent;
 				border: none;
-				margin-right: 8px; // Add some space between button and link
+				margin-right: 2px;
+				color: var(--text-muted);
+				flex: 0 0 auto;
 
 				&.collapsed {
-					transform: rotate(90deg); // Rotate ">" to indicate expanded state
+					transform: rotate(90deg);
 				}
 			}
 
@@ -61,6 +65,14 @@
 				overflow: hidden;
 				white-space: nowrap;
 				text-overflow: ellipsis;
+				padding: 0.3rem 0.45rem;
+				border-radius: 0.55rem;
+				color: var(--text-muted);
+
+				&:hover {
+					color: var(--primary-color);
+					background: rgba(235, 226, 209, 0.84);
+				}
 			}
 		}
 	}

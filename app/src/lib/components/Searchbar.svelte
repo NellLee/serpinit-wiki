@@ -66,7 +66,7 @@
 	<input
 		type="text"
 		name="q"
-		placeholder="Search..."
+		placeholder="Im Wiki suchen..."
 		bind:value={searchText}
 		on:input={handleSearchInput}
 		on:focus={handleFocus}
@@ -93,7 +93,7 @@
 			</div>
 			<div id="content-search">
 				<a href={`/content/search?q=${encodeURIComponent(searchText.trim())}&includeContent=true`}>
-					Search for pages containing "{searchText}"
+					Nach Seiten mit "{searchText}" im Inhalt suchen
 				</a>
 			</div>
 		</div>
@@ -104,34 +104,47 @@
 	#searchbar {
 		display: flex;
 		flex-flow: row nowrap;
-		gap: 10px;
+		gap: 0.65rem;
 		width: 100%;
-		max-width: 300px;
+		max-width: 320px;
 		position: relative;
 
 		input {
 			width: 100%;
-			font-size: 12px;
-			padding-left: 10px;
-			border-radius: 5px;
-			border: 2px solid var(--tertiary-background-color);
+			font-size: 0.94rem;
+			padding: 0.8rem 1rem;
+			border-radius: 999px;
+			border: 1px solid rgba(112, 88, 48, 0.15);
+			background: rgba(247, 242, 232, 0.96);
+			color: var(--primary-color);
+
+			&:focus {
+				outline: none;
+				border-color: rgba(112, 88, 48, 0.32);
+				box-shadow: 0 0 0 4px rgba(141, 95, 32, 0.08);
+			}
 		}
 
 		button {
-			width: 30px;
-			height: 30px;
+			width: 2.9rem;
+			height: 2.9rem;
 			border-radius: 50%;
 			flex-shrink: 0;
-			border: none;
+			border: 1px solid rgba(112, 88, 48, 0.15);
 			cursor: pointer;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			transition: border-color 0.3s ease;
-			border: 2px solid var(--secondary-background-color);
+			transition:
+				border-color 0.2s ease,
+				background-color 0.2s ease,
+				transform 0.2s ease;
+			background: linear-gradient(180deg, rgba(244, 235, 219, 0.98), rgba(231, 216, 188, 0.98));
 
 			&:hover {
-				border-color: var(--secondary-color);
+				border-color: rgba(112, 88, 48, 0.34);
+				background-color: rgba(231, 216, 188, 1);
+				transform: translateY(-1px);
 			}
 
 			&:focus {
@@ -146,15 +159,17 @@
 			top: 100%;
 			left: 0;
 			width: 100%;
-			background-color: white;
-			border: 1px solid var(--primary-border-color);
-			border-radius: 5px;
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			background-color: var(--surface-strong);
+			border: 1px solid var(--border-subtle);
+			border-radius: 0.75rem;
+			box-shadow: var(--shadow-soft);
 			z-index: 1000;
 			font-size: 14px;
+			min-width: min(100vw - 2rem, 24rem);
+
 			#result-list {
-				padding: 5px;
-				max-height: 200px;
+				padding: 0.5rem;
+				max-height: 18rem;
 				overflow-y: auto;
 
 				ul {
@@ -163,34 +178,40 @@
 					list-style-type: none;
 
 					li {
-						padding: 5px 10px;
-
-						&:hover {
-							background-color: #f0f0f0;
-						}
+						padding: 0;
 
 						a {
 							color: var(--primary-color);
 							text-decoration: none;
+							padding: 0.75rem 0.8rem;
+							border-radius: 0.75rem;
 							white-space: nowrap;
 							overflow: hidden;
 							text-overflow: ellipsis;
 							display: block;
 							width: 100%;
+
+							&:hover {
+								background-color: var(--secondary-background-color);
+							}
 						}
 					}
 				}
 			}
 
 			#content-search {
-				padding: 10px;
-				border-top: 1px solid var(--primary-border-color);
+				padding: 0.9rem 1rem 1rem;
+				border-top: 1px solid var(--border-subtle);
 				text-align: center;
 
 				a {
-					color: var(--secondary-color);
-					text-decoration: underline;
-					font-size: 14px;
+					color: var(--accent-strong);
+					text-decoration: none;
+					font-size: 0.92rem;
+
+					&:hover {
+						text-decoration: underline;
+					}
 				}
 			}
 		}

@@ -113,6 +113,12 @@
 
 	.rail {
 		width: 100%;
+
+		@media (min-width: 960px) {
+			position: sticky;
+			top: 6.2rem;
+			align-self: start;
+		}
 	}
 
 	.main-column {

@@ -1,5 +1,8 @@
 # Die 9 Himmelskörper
 
+Dieser Bereich sammelt die großen Himmelskörper des Serpinit-Systems sowie ihre wichtigsten Einordnungen.
+Die vier ovelären Planeten sind für viele magische und geschichtliche Entwicklungen des Settings besonders relevant.
+
 # Das Zentrum
 
 - [Ikus](./Ikus/index.md), der große purpurne Stern
@@ -15,4 +18,9 @@
 - [Navura](./Navura/index.md)<span style="color: red;">*</span>, der Herzplanet
 - [Venoxi](./Venoxi/index.md), der Giftriese
 
-<span style="color: red;">*</span> = Oveläre Planeten. Die vier Planeten die seit Creapatos Teilung ein Drachenei aus magischer Substanz in sich tragen.  
+## Schnellstart
+
+Wenn du einen schnellen Überblick willst, beginne mit [Agranum](./Agranum/index.md), [Aridess](./Aridess/index.md) und der [Schöpfungsgeschichte](../Allgemein/Schoepfungsgeschichte.md).
+
+<span style="color: red;">*</span> = Oveläre Planeten.
+Die vier Planeten tragen seit Creapatos' Teilung ein Drachenei aus magischer Substanz in sich.

@@ -17,23 +17,29 @@
 		max-width: 100%;
 		min-width: 160px;
 		min-height: 100px;
-		background-color: var(--primary-background-color);
-		padding: 8px 12px 8px 12px;
-		border-radius: 8px;
-		box-shadow: 2px 2px 6px -3px rgb(0, 0, 0, 0.7);
+		background-color: var(--surface-raised);
+		padding: 0.9rem 1rem;
+		border-radius: 0.75rem;
+		border: 1px solid var(--border-subtle);
+		box-shadow: var(--shadow-soft);
 
 		h2 {
-			margin: 0px;
-			padding-bottom: 6px;
-			text-align: center;
+			margin: 0;
+			padding-bottom: 0.55rem;
+			text-align: left;
+			font-size: 1rem;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
 		}
 
 		hr {
-			color: rgb(0, 0, 0, 0.4);
+			border: none;
+			border-top: 1px solid var(--border-subtle);
+			margin: 0;
 		}
 
 		#slot {
-			padding: 16px 6px 16px 6px;
+			padding: 1rem 0.1rem 0.2rem;
 		}
 	}
 </style>

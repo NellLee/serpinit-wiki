@@ -25,19 +25,20 @@
 
 		nav {
 			width: 100%;
-			padding: 0.95rem 1rem 1rem;
-			border-radius: 0.9rem;
-			background-color: var(--primary-background-color);
-			border: 1px solid rgba(0, 0, 0, 0.08);
-			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+			padding: 1rem;
+			border-radius: 1rem;
+			background-color: var(--surface-raised);
+			border: 1px solid var(--border-subtle);
+			box-shadow: var(--shadow-soft);
 		}
 
 		h2 {
 			margin: 0 0 0.7rem;
-			font-size: 0.98rem;
+			font-size: 0.88rem;
 			font-weight: 650;
-			letter-spacing: 0.04em;
+			letter-spacing: 0.12em;
 			text-transform: uppercase;
+			color: var(--accent-strong);
 		}
 
 		ul {

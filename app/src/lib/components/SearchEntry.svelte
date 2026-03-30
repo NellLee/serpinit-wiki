@@ -58,22 +58,24 @@
 
 <style lang="scss">
 	.search-result {
-		padding: 15px;
-		border: 1px solid var(--primary-border-color);
-		border-radius: 5px;
-		background-color: var(--alternative-primary-background-color);
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		padding: 1rem 1.05rem;
+		border: 1px solid var(--border-subtle);
+		border-radius: 0.75rem;
+		background-color: var(--surface-raised);
+		box-shadow: var(--shadow-soft);
 
 		.title {
-			font-size: 1.6em;
-			margin-bottom: 5px;
+			font-size: 1.4rem;
+			margin-bottom: 0.35rem;
 
 			a {
 				text-decoration: none;
 				font-weight: bold;
+				color: var(--primary-color);
 
 				&:hover {
 					text-decoration: underline;
+					color: var(--accent-strong);
 				}
 			}
 		}
@@ -137,9 +139,10 @@
 			align-items: center;
 			gap: 10px;
 			background-color: var(--primary-background-color);
-			border: 1px solid #dadada;
-			border-radius: 5px;
+			border: 1px solid var(--border-subtle);
+			border-radius: 999px;
 			margin: auto;
+			color: var(--primary-color);
 
 			&:hover {
 				background-color: var(--secondary-background-color);

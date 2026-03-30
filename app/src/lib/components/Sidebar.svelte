@@ -8,17 +8,17 @@
 		width: 100%;
 		max-width: 100%;
 		flex-shrink: 0;
-		background-color: var(--alternative-primary-background-color);
-		border: 1px solid var(--primary-border-color);
+		background-color: rgba(255, 250, 241, 0.5);
+		border: 1px solid rgba(112, 88, 48, 0.08);
 		border-radius: 12px;
-		padding: 18px 16px;
+		padding: 16px 14px;
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: flex-start;
 		align-items: stretch;
 		text-overflow: ellipsis;
 		gap: 28px;
-		box-shadow: 0 8px 18px rgba(0, 0, 0, 0.04);
+		box-shadow: none;
 
 		:global(ul) {
 			width: 100%;
