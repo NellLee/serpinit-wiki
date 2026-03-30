@@ -1,20 +1,23 @@
-import { ensureWikiInitialized, search } from '$lib/wiki';
+import { ensureWikiInitialized, search, searchPreview } from '$lib/wiki';
 import { json } from '@sveltejs/kit';
 
 export async function GET({ url }) {
 	await ensureWikiInitialized();
 	const query = url.searchParams.get('q')?.trim() ?? '';
-	if (!query) {
-		return json([]);
-	}
 	const isPreview = url.searchParams.get('preview') === 'true';
-	const includeCategories = isPreview
-		? true
-		: url.searchParams.get('includeCategories') !== 'false';
-	const includeContent = isPreview
-		? false
-		: url.searchParams.get('includeContent') !== 'false';
-	const searchResults = search(query, includeCategories, includeContent);
+	if (isPreview) {
+		return json(query ? searchPreview(query) : { query: '', results: [] });
+	}
 
-	return json(isPreview ? searchResults.slice(0, 8) : searchResults);
+	const includeCategories = url.searchParams.get('includeCategories') !== 'false';
+	const includeContent = url.searchParams.get('includeContent') !== 'false';
+	const sort = (url.searchParams.get('sort') as 'relevance' | 'title-asc' | 'domain' | null) ?? 'relevance';
+
+	return json(
+		search(query, {
+			includeCategories,
+			includeContent,
+			sort
+		})
+	);
 }

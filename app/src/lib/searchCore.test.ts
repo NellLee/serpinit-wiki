@@ -74,13 +74,21 @@ assert.equal(
 
 const searchServerSource = readAppFile('src/routes/content/search/+page.server.ts');
 assert.match(searchServerSource, /if \(!query\)/);
-assert.match(searchServerSource, /searchResults:\s*\[\]/);
+assert.match(searchServerSource, /results:\s*\[\]/);
+assert.match(searchServerSource, /parsedQuery:/);
+assert.match(searchServerSource, /facets:/);
 
 const searchPageSource = readAppFile('src/routes/content/search/+page.svelte');
 assert.doesNotMatch(searchPageSource, /placeholder="Search\.\.\."/);
 assert.doesNotMatch(searchPageSource, />Categories</);
 assert.doesNotMatch(searchPageSource, />Content</);
 assert.match(searchPageSource, /titleHighlights=\{result\.titleHighlights \?\? \[\]\}/);
+
+const apiSearchServerSource = readAppFile('src/routes/api/search/+server.ts');
+assert.match(apiSearchServerSource, /return json\(/);
+assert.match(apiSearchServerSource, /query,/);
+assert.match(apiSearchServerSource, /results:/);
+assert.match(apiSearchServerSource, /searchPreview/);
 
 const searchEntrySource = readAppFile('src/lib/components/SearchEntry.svelte');
 assert.match(searchEntrySource, /titleHighlights/);

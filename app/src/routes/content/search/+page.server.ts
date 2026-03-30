@@ -1,6 +1,7 @@
 import { SEARCH_API_URL } from '$lib/constants';
 import type { MarkdownPage } from '$lib/markdownPage';
 import { getUtilityPagePresentation } from '$lib/presentation/pagePresentation';
+import type { SearchApiResponse } from '$lib/searchContracts';
 import { error } from '@sveltejs/kit';
 
 export async function load({ fetch, url }) {
@@ -9,8 +10,39 @@ export async function load({ fetch, url }) {
 
 	if (!query) {
 		return {
-			searchResults: [],
+			results: [],
 			query: '',
+			parsedQuery: {
+				rawQuery: '',
+				freeTextTerms: [],
+				phrases: [],
+				exclusions: [],
+				fieldFilters: {
+					title: [],
+					category: [],
+					path: [],
+					type: []
+				}
+			},
+			facets: {
+				domains: [],
+				pageTypes: [],
+				categories: []
+			},
+			suggestions: {
+				broadenSearch: false,
+				removeFilters: [],
+				nearbyQueries: []
+			},
+			sort: 'relevance',
+			activeFilters: {
+				domains: [],
+				pageTypes: [],
+				categories: [],
+				includeTitle: true,
+				includeCategories: true,
+				includeContent: true
+			},
 			includeCategories: true,
 			includeContent: true,
 			presentation: getUtilityPagePresentation('search')
@@ -27,11 +59,18 @@ export async function load({ fetch, url }) {
 		const { message } = await fetchResult.json();
 		throw error(fetchResult.status, message);
 	}
-	const searchResults: SearchResult<MarkdownPage>[] = await fetchResult.json();
-	searchResults.forEach((result) => (result.item = JSON.parse(result.item as unknown as string)));
+	const searchResponse: SearchApiResponse<MarkdownPage> = await fetchResult.json();
+	searchResponse.results.forEach(
+		(result) => (result.item = JSON.parse(result.item as unknown as string))
+	);
 	return {
-		searchResults,
+		results: searchResponse.results,
 		query,
+		parsedQuery: searchResponse.parsedQuery,
+		facets: searchResponse.facets,
+		suggestions: searchResponse.suggestions,
+		sort: searchResponse.sort,
+		activeFilters: searchResponse.activeFilters,
 		includeCategories: (urlParams.get('includeCategories') ?? 'true') === 'true',
 		includeContent: (urlParams.get('includeContent') ?? 'true') === 'true',
 		presentation: getUtilityPagePresentation('search')

@@ -26,6 +26,14 @@ export type SearchFacetSource = {
 	categories: string[];
 };
 
+export type SearchDerivedRecord = SearchFacetSource & {
+	title: string;
+	href: string;
+	path: string;
+	contentText: string;
+	contentHtml: string;
+};
+
 const PAGE_TYPE_LABELS: Record<PageClass, string> = {
 	article: 'Artikel',
 	hub: 'Hub',
@@ -126,5 +134,26 @@ export function buildFacetCatalogs(entries: SearchFacetSource[]): SearchFacetCat
 		domains: buildFacetValues(domains),
 		pageTypes: buildFacetValues(pageTypes),
 		categories: buildFacetValues(categories)
+	};
+}
+
+export function buildDerivedRecord(entry: {
+	title: string;
+	href: string;
+	path: string;
+	pageClass: PageClass;
+	categories: string[];
+	contentText: string;
+	contentHtml: string;
+}): SearchDerivedRecord {
+	return {
+		title: entry.title,
+		href: entry.href,
+		path: entry.path,
+		domain: deriveDomainInfo(entry.path),
+		pageClass: entry.pageClass,
+		categories: entry.categories,
+		contentText: entry.contentText,
+		contentHtml: entry.contentHtml
 	};
 }
