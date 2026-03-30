@@ -1,5 +1,6 @@
 import { SEARCH_API_URL } from "$lib/constants";
 import type { MarkdownPage } from "$lib/markdownPage";
+import { getUtilityPagePresentation } from "$lib/presentation/pagePresentation";
 import { error } from "@sveltejs/kit";
 
 
@@ -14,5 +15,6 @@ export async function load({ fetch, params, url }) {
     searchResults.forEach(result => result.item = JSON.parse(result.item as unknown as string))
     return {
         searchResults,
+        presentation: getUtilityPagePresentation("search"),
     }
 }

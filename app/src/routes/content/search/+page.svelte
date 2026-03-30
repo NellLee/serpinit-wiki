@@ -1,162 +1,223 @@
 <script lang="ts">
-	import { goto } from "$app/navigation";
-	import MidPanel from "$lib/components/MidPanel.svelte";
-	import SearchEntry from "$lib/components/SearchEntry.svelte";
-	import Sidebar from "$lib/components/Sidebar.svelte";
-	import { onMount } from "svelte";
-	import { Icon, MagnifyingGlass } from "svelte-hero-icons";
+	import { goto } from '$app/navigation';
+	import MidPanel from '$lib/components/MidPanel.svelte';
+	import SearchEntry from '$lib/components/SearchEntry.svelte';
+	import { onMount } from 'svelte';
+	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
 
-	let searchInput: string = "";
-	let includeCategories: boolean = false;
-	let includeContent: boolean = false;
+	export let data;
+
+	let searchInput = '';
+	let includeCategories = false;
+	let includeContent = false;
 
 	function newSearch() {
 		const params = new URLSearchParams();
 		if (searchInput) {
-			params.set("q", encodeURIComponent(searchInput));
+			params.set('q', encodeURIComponent(searchInput));
 		}
 		if (includeCategories) {
-			params.set("includeCategories", "true");
+			params.set('includeCategories', 'true');
 		}
 		if (includeContent) {
-			params.set("includeContent", "true");
+			params.set('includeContent', 'true');
 		}
 		goto(`?${params.toString()}`);
 	}
 
-	const title = "Suchergebnisse";
+	const title = 'Suchergebnisse';
 
 	onMount(() => {
 		const params = new URLSearchParams(window.location.search);
-		searchInput = params.get("q") || "";
-		includeCategories = params.get("includeCategories") === "true";
-		includeContent = params.get("includeContent") === "true";
+		searchInput = params.get('q') || '';
+		includeCategories = params.get('includeCategories') === 'true';
+		includeContent = params.get('includeContent') === 'true';
 	});
-
-	export let data;
 </script>
 
 <svelte:head>
 	<title>{title}</title>
 </svelte:head>
 
-<div style="width: 15%">
-	<Sidebar></Sidebar>
-</div>
-
-<div style="width: 70%">
-	<MidPanel>
-		<div id="head" slot="head">
+<div class="utility-page search-page">
+	<MidPanel contentWidth={data.presentation.contentWidth}>
+		<div class="utility-head" slot="head">
+			<p class="eyebrow">Werkzeug</p>
 			<h1>{title}</h1>
+			<p class="lede">
+				Durchsuche Treffer schneller und grenze die Ergebnisliste mit leichten Filtern ein.
+			</p>
 		</div>
 
-		<div id="content" slot="content">
-			<form on:submit|preventDefault={newSearch} id="searchbar">
-				<input type="text" bind:value={searchInput} placeholder="Search..." />
-				<button type="submit">
-					<Icon src={MagnifyingGlass} solid size="16" />
-				</button>
-			</form>
-			<div id="search-options">
-				<p>Search in:</p>
-				<label>
-					<input type="checkbox" bind:checked={includeCategories} on:change={newSearch} />
-					Categories
-				</label>
-				<label>
-					<input type="checkbox" bind:checked={includeContent} on:change={newSearch} />
-					Content
-				</label>
-			</div>
-			<div id="results">
+		<div class="utility-content search-content" slot="content">
+			<section class="search-controls">
+				<form on:submit|preventDefault={newSearch} id="searchbar">
+					<input type="text" bind:value={searchInput} placeholder="Search..." />
+					<button type="submit" aria-label="Suche ausführen">
+						<Icon src={MagnifyingGlass} solid size="16" />
+					</button>
+				</form>
+
+				<div id="search-options">
+					<p>Suchen in</p>
+					<label>
+						<input type="checkbox" bind:checked={includeCategories} on:change={newSearch} />
+						Categories
+					</label>
+					<label>
+						<input type="checkbox" bind:checked={includeContent} on:change={newSearch} />
+						Content
+					</label>
+				</div>
+			</section>
+
+			<section id="results" aria-live="polite">
+				<div class="results-header">
+					<h2>Treffer</h2>
+					<p>{data.searchResults.length} Ergebnis{data.searchResults.length === 1 ? '' : 'se'}</p>
+				</div>
+
 				{#if data.searchResults.length === 0}
-					<p>No results found</p>
+					<p class="empty-state">Keine Treffer gefunden.</p>
 				{:else}
 					{#each data.searchResults as result}
 						<SearchEntry
 							title={result.item.title}
 							href={result.item.href}
 							excerpts={result.excerpts}
-						></SearchEntry>
+						/>
 					{/each}
 				{/if}
-			</div>
+			</section>
 		</div>
 	</MidPanel>
 </div>
 
-<div style="width: 15%">
-	<Sidebar></Sidebar>
-</div>
-
 <style lang="scss">
-	#content {
-		width: 85%;
-		margin: auto;
+	.utility-page {
+		width: 100%;
+	}
 
-		#searchbar {
-			display: flex;
-			flex-flow: row nowrap;
-			gap: 20px;
+	.utility-head {
+		display: grid;
+		gap: 0.55rem;
 
-			input {
-				width: 100%;
-				font-size: 16px;
-				padding-left: 10px;
-				border-radius: 5px;
-				border: 2px solid var(--tertiary-background-color);
-			}
-
-			button {
-				width: 40px;
-				height: 40px;
-				border-radius: 50%;
-				border: none;
-				cursor: pointer;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				transition: border-color 0.3s ease;
-				border: 2px solid var(--secondary-background-color);
-
-				&:hover {
-					border-color: var(--secondary-color);
-				}
-
-				&:focus {
-					outline: none;
-				}
-			}
+		h1 {
+			margin: 0;
 		}
+	}
 
-		#search-options {
+	.eyebrow {
+		margin: 0;
+		font-size: 0.82rem;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--secondary-color);
+	}
+
+	.lede {
+		margin: 0;
+		max-width: 42rem;
+		color: rgba(0, 0, 0, 0.7);
+		line-height: 1.6;
+	}
+
+	.search-content {
+		display: grid;
+		gap: 1.5rem;
+	}
+
+	.search-controls,
+	#results {
+		padding: 1.2rem 1.35rem;
+		border-radius: 1rem;
+		background: var(--primary-background-color);
+		border: 1px solid rgba(0, 0, 0, 0.08);
+		box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+	}
+
+	#searchbar {
+		display: flex;
+		flex-flow: row nowrap;
+		gap: 0.9rem;
+
+		input {
 			width: 100%;
-			margin: 40px 0;
-			padding: 5px 15px;
-			border-left: 3px solid var(--secondary-border-color);
-
-			p {
-				margin: 0 0 10px;
-				font-weight: bold;
-				font-size: 16px;
-			}
-
-			label {
-				display: flex;
-				align-items: center;
-				margin-bottom: 10px;
-
-				input {
-					margin-right: 10px;
-					transform: scale(1.2);
-				}
-			}
+			font-size: 1rem;
+			padding: 0.8rem 1rem;
+			border-radius: 999px;
+			border: 1px solid rgba(0, 0, 0, 0.14);
+			background: var(--secondary-background-color);
 		}
 
-		#results {
+		button {
+			width: 3rem;
+			height: 3rem;
+			border-radius: 50%;
+			border: 1px solid rgba(0, 0, 0, 0.12);
+			cursor: pointer;
 			display: flex;
-			flex-flow: column nowrap;
-			gap: 20px;
+			justify-content: center;
+			align-items: center;
+			transition:
+				border-color 0.2s ease,
+				background-color 0.2s ease;
+			background: var(--secondary-background-color);
+
+			&:hover {
+				border-color: var(--secondary-color);
+				background: var(--alternative-primary-background-color);
+			}
+
+			&:focus {
+				outline: none;
+			}
 		}
+	}
+
+	#search-options {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 1rem 1.5rem;
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px solid rgba(0, 0, 0, 0.08);
+
+		p {
+			margin: 0;
+			font-weight: 700;
+		}
+
+		label {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.55rem;
+			margin: 0;
+		}
+	}
+
+	.results-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		gap: 1rem;
+		margin-bottom: 1rem;
+
+		h2,
+		p {
+			margin: 0;
+		}
+	}
+
+	#results {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.empty-state {
+		margin: 0;
+		color: rgba(0, 0, 0, 0.72);
 	}
 </style>

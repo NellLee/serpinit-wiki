@@ -1,4 +1,3 @@
-
 <aside>
 	<slot />
 </aside>
@@ -9,16 +8,17 @@
 		width: 100%;
 		max-width: 100%;
 		flex-shrink: 0;
-		background-color: var(--secondary-background-color);
-		padding: 10px 20px;
+		background-color: var(--alternative-primary-background-color);
+		border: 1px solid var(--primary-border-color);
+		border-radius: 12px;
+		padding: 18px 16px;
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: flex-start;
-		align-items: center;
+		align-items: stretch;
 		text-overflow: ellipsis;
-		gap: 50px;
-		padding-top: 50px;
-
+		gap: 28px;
+		box-shadow: 0 8px 18px rgba(0, 0, 0, 0.04);
 
 		:global(ul) {
 			width: 100%;

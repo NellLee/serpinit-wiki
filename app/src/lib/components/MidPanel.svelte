@@ -1,10 +1,18 @@
-<div id="mid-panel">
-    <div id="head">
-        <slot name="head"></slot>
-    </div>
-    <div id="content">
-        <slot name="content"></slot>
-    </div>
+<script lang="ts">
+	export let contentWidth: 'standard' | 'wide' = 'wide';
+</script>
+
+<div
+	id="mid-panel"
+	class:standard={contentWidth === 'standard'}
+	class:wide={contentWidth === 'wide'}
+>
+	<div id="head">
+		<slot name="head" />
+	</div>
+	<div id="content">
+		<slot name="content" />
+	</div>
 </div>
 
 <style lang="scss">
@@ -14,16 +22,29 @@
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: flex-start;
-		align-items: center;
-		gap: 25px;
+		align-items: stretch;
+		gap: 24px;
 
+		#head {
+			width: 100%;
+		}
 
-        #head {
-            width: 100%;
-        }
+		#content {
+			width: 100%;
+			max-width: 100%;
+			margin: 0 auto;
+		}
 
-        #content {
-            width: 90%;
-        }
+		&.standard {
+			#content {
+				max-width: 960px;
+			}
+		}
+
+		&.wide {
+			#content {
+				max-width: 1200px;
+			}
+		}
 	}
 </style>
