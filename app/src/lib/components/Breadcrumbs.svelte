@@ -5,7 +5,7 @@
 </script>
 
 {#if linkList.length > 0}
-	<div class="breadcrumbs">
+	<nav class="breadcrumbs" aria-label="Breadcrumb">
 		<ul>
 			{#each linkList as link, i}
 				{#if i == 0}
@@ -24,7 +24,7 @@
 				</li>
 			{/each}
 		</ul>
-	</div>
+	</nav>
 {/if}
 
 <style lang="scss">
@@ -37,6 +37,8 @@
 			padding: 0;
 			margin: 0;
 			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
 		}
 
 		li {
@@ -44,6 +46,7 @@
 			align-items: center;
 			color: var(--primary-color);
 			font-size: 14px;
+			line-height: 1.3;
 
 			a {
 				text-decoration: none;
@@ -57,7 +60,30 @@
 		}
 
 		.delimiter {
-			margin: 0 7px;
+			margin: 0 0.35rem;
+			opacity: 0.55;
+		}
+
+		@media (min-width: 960px) {
+			width: fit-content;
+			max-width: 100%;
+			padding: 0.55rem 0.85rem;
+			border-radius: 999px;
+			background-color: var(--primary-background-color);
+			border: 1px solid rgba(0, 0, 0, 0.08);
+			box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+
+			ul {
+				gap: 0.05rem;
+			}
+
+			li {
+				font-size: 0.84rem;
+			}
+
+			.delimiter {
+				margin: 0 0.45rem;
+			}
 		}
 	}
 </style>
