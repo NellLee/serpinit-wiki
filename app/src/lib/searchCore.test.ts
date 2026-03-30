@@ -83,6 +83,10 @@ assert.doesNotMatch(searchPageSource, /placeholder="Search\.\.\."/);
 assert.doesNotMatch(searchPageSource, />Categories</);
 assert.doesNotMatch(searchPageSource, />Content</);
 assert.match(searchPageSource, /titleHighlights=\{result\.titleHighlights \?\? \[\]\}/);
+assert.match(searchPageSource, /facet/);
+assert.match(searchPageSource, /syntax-help/);
+assert.match(searchPageSource, /active-chips/);
+assert.match(searchPageSource, /sortInput/);
 
 const apiSearchServerSource = readAppFile('src/routes/api/search/+server.ts');
 assert.match(apiSearchServerSource, /return json\(/);
@@ -93,3 +97,4 @@ assert.match(apiSearchServerSource, /searchPreview/);
 const searchEntrySource = readAppFile('src/lib/components/SearchEntry.svelte');
 assert.match(searchEntrySource, /titleHighlights/);
 assert.match(searchEntrySource, /buildHighlightedHtml/);
+assert.match(searchEntrySource, /metadata/);

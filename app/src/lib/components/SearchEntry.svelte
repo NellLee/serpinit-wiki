@@ -6,6 +6,9 @@
 	export let href: string;
 	export let excerpts: string[];
 	export let titleHighlights: HighlightRange[] = [];
+	export let domainLabel = '';
+	export let pageType = '';
+	export let categories: string[] = [];
 
 	let expanded = false;
 	let containerRef: HTMLDivElement | null = null;
@@ -29,6 +32,20 @@
 			{@html titleHtml}
 		</a>
 	</div>
+
+	{#if domainLabel || pageType || categories.length > 0}
+		<p class="metadata">
+			{#if domainLabel}
+				<span>{domainLabel}</span>
+			{/if}
+			{#if pageType}
+				<span>{pageType}</span>
+			{/if}
+			{#if categories.length > 0}
+				<span>{categories.join(', ')}</span>
+			{/if}
+		</p>
+	{/if}
 
 	<div
 		class="excerpts"
@@ -84,6 +101,15 @@
 					color: var(--accent-strong);
 				}
 			}
+		}
+
+		.metadata {
+			margin: 0 0 0.55rem;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.45rem 0.8rem;
+			font-size: 0.88rem;
+			color: rgba(0, 0, 0, 0.62);
 		}
 
 		hr {
