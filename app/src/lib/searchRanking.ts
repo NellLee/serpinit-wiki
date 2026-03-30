@@ -165,20 +165,19 @@ export function runSearchRanking(
 		includeContent: options.includeContent
 	});
 
-	const mappedResults = searchResults
-		.map((searchResult) => {
-			const record = filteredRecords.find((candidate) => candidate.href === searchResult.item.href);
-			if (!record) {
-				return null;
-			}
+	const mappedResults: SearchRankingResult[] = [];
+	for (const searchResult of searchResults) {
+		const record = filteredRecords.find((candidate) => candidate.href === searchResult.item.href);
+		if (!record) {
+			continue;
+		}
 
-			return {
-				item: record,
-				titleHighlights: searchResult.titleHighlights,
-				score: searchResult.score
-			} satisfies SearchRankingResult;
-		})
-		.filter((result): result is SearchRankingResult => result != null);
+		mappedResults.push({
+			item: record,
+			titleHighlights: searchResult.titleHighlights,
+			score: searchResult.score
+		});
+	}
 
 	return {
 		results: sortResults(mappedResults, options.sort)
