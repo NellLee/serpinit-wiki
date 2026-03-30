@@ -561,9 +561,27 @@
 
 				:global(a[data-fancybox]) {
 					max-width: 100%;
-					width: auto;
 
-					&:not(:is(figure *) > a[data-fancybox]) {
+					:global(.thumbnail) {
+						border-radius: 0.75rem;
+					}
+				}
+
+				:global(a[data-fancybox]:not(:is(figure *, #gallery *))) {
+					width: min(100%, 11rem);
+
+					&:hover {
+						transform: translateY(-2px) scale(1.01);
+						box-shadow: 0 18px 34px rgba(0, 0, 0, 0.16);
+						border-color: rgba(0, 0, 0, 0.2);
+					}
+				}
+
+				:global(#gallery) {
+					gap: clamp(1.5rem, 3vw, 3rem);
+
+					:global(a[data-fancybox]) {
+						width: auto;
 						flex: 1 1 14rem;
 						min-width: 0;
 
@@ -572,19 +590,6 @@
 							box-shadow: 0 18px 34px rgba(0, 0, 0, 0.16);
 							border-color: rgba(0, 0, 0, 0.2);
 						}
-					}
-
-					:global(.thumbnail) {
-						border-radius: 0.75rem;
-					}
-				}
-
-				:global(#gallery) {
-					gap: clamp(1.5rem, 3vw, 3rem);
-
-					:global(a[data-fancybox]) {
-						flex: 1 1 14rem;
-						min-width: 0;
 					}
 				}
 
@@ -640,6 +645,13 @@
 
 				:global(blockquote p:last-child) {
 					margin-bottom: 0;
+				}
+
+				:global(figure:first-child),
+				:global(table:first-child),
+				:global(blockquote:first-child),
+				:global(.comment:first-child) {
+					margin-top: 0;
 				}
 			}
 		}
