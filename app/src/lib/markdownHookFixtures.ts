@@ -7,7 +7,7 @@ const overviewMarkdown = `# Markdown Hook Preview
 
 <!-- layout: overview -->
 
-![Preview](/content/images/Potentiale-Querschnitte.png)
+![Preview](/content/Allgemein/Magie/images/Sgrisignier-Rune_komplex_2_Transparent.png)
 
 | Key | Value |
 | --- | --- |

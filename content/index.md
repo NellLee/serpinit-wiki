@@ -7,8 +7,15 @@ Dieses Wiki dient als Nachschlagewerk für Orte, Völker, Magie, Schöpfung und 
 
 Wenn du das Setting neu erkunden willst, sind diese Themen die besten Startpunkte:
 
-§imglink{style="width: 220px;" text="Die Magie" href="/content/Allgemein/Magie/index.md" src="./Allgemein/Magie/images/Sgrisignier-Rune_komplex_2_Transparent.png"}
-§imglink{style="width: 220px;" text="Die Schöpfungsgeschichte" href="/content/Allgemein/Schoepfungsgeschichte.md" src="./Allgemein/images/Creapatos_Drache_Gott_6_Erschaffung-Ikus.png"}
+<!-- display: card-link style="width: 220px;" -->
+[![Die Magie](./Allgemein/Magie/images/Sgrisignier-Rune_komplex_2_Transparent.png)](/content/Allgemein/Magie/index.md)
+
+Die Magie
+
+<!-- display: card-link style="width: 220px;" -->
+[![Die Schöpfungsgeschichte](./Allgemein/images/Creapatos_Drache_Gott_6_Erschaffung-Ikus.png)](/content/Allgemein/Schoepfungsgeschichte.md)
+
+Die Schöpfungsgeschichte
 
 ## Große Einstiege
 

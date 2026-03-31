@@ -14,7 +14,7 @@ const REGEX_HTML = /^\s*<[^>]+>\s*$/;
 
 function isOverviewContentLine(line: string) {
 	const trimmed = line.trim();
-	if (trimmed === "") {
+	if (trimmed === '') {
 		return true;
 	}
 
@@ -41,7 +41,7 @@ function transformOverviewHooks(markdown: string) {
 		}
 
 		let cursor = index + 1;
-		while (cursor < lines.length && lines[cursor].trim() === "") {
+		while (cursor < lines.length && lines[cursor].trim() === '') {
 			cursor++;
 		}
 
@@ -51,7 +51,7 @@ function transformOverviewHooks(markdown: string) {
 
 			if (
 				overviewLines.length > 0 &&
-				currentLine.trim() !== "" &&
+				currentLine.trim() !== '' &&
 				!isOverviewContentLine(currentLine)
 			) {
 				break;
@@ -69,19 +69,19 @@ function transformOverviewHooks(markdown: string) {
 			continue;
 		}
 
-		while (overviewLines.length > 0 && overviewLines.at(-1)?.trim() === "") {
+		while (overviewLines.length > 0 && overviewLines.at(-1)?.trim() === '') {
 			overviewLines.pop();
 		}
 
-		output.push(":::overview", "", ...overviewLines, ":::");
+		output.push(':::overview', '', ...overviewLines, ':::');
 		index = cursor - 1;
 	}
 
-	return output.join("\n");
+	return output.join('\n');
 }
 
 function normalizeBlockquoteLine(line: string) {
-	return line.replace(/^\s*>\s?/, "");
+	return line.replace(/^\s*>\s?/, '');
 }
 
 function transformCalloutHooks(markdown: string) {
@@ -99,7 +99,7 @@ function transformCalloutHooks(markdown: string) {
 
 		const calloutType = hookMatch[1].toLowerCase();
 		let cursor = index + 1;
-		while (cursor < lines.length && lines[cursor].trim() === "") {
+		while (cursor < lines.length && lines[cursor].trim() === '') {
 			cursor++;
 		}
 
@@ -113,9 +113,9 @@ function transformCalloutHooks(markdown: string) {
 			continue;
 		}
 
-		let content = blockquoteLines.join("\n").trim();
-		const labelRegex = new RegExp(`^\\*\\*${calloutType}:\\*\\*\\s*`, "i");
-		content = content.replace(labelRegex, "").trim();
+		let content = blockquoteLines.join('\n').trim();
+		const labelRegex = new RegExp(`^\\*\\*${calloutType}:\\*\\*\\s*`, 'i');
+		content = content.replace(labelRegex, '').trim();
 
 		output.push(
 			`::::div{.comment}`,
@@ -131,7 +131,7 @@ function transformCalloutHooks(markdown: string) {
 		index = cursor - 1;
 	}
 
-	return output.join("\n");
+	return output.join('\n');
 }
 
 function transformCardLinkHooks(markdown: string) {
@@ -140,15 +140,15 @@ function transformCardLinkHooks(markdown: string) {
 
 	for (let index = 0; index < lines.length; index++) {
 		const line = lines[index];
-
 		const hookMatch = line.match(REGEX_CARD_LINK_HOOK);
+
 		if (!hookMatch) {
 			output.push(line);
 			continue;
 		}
 
 		let cursor = index + 1;
-		while (cursor < lines.length && lines[cursor].trim() === "") {
+		while (cursor < lines.length && lines[cursor].trim() === '') {
 			cursor++;
 		}
 
@@ -159,7 +159,7 @@ function transformCardLinkHooks(markdown: string) {
 
 		const [, , imgSrc, href] = imageLinkMatch;
 		cursor++;
-		while (cursor < lines.length && lines[cursor].trim() === "") {
+		while (cursor < lines.length && lines[cursor].trim() === '') {
 			cursor++;
 		}
 
@@ -168,33 +168,38 @@ function transformCardLinkHooks(markdown: string) {
 			continue;
 		}
 
-		const attrs = hookMatch.groups?.attrs ?? "";
+		const attrs = hookMatch.groups?.attrs ?? '';
 		const styleMatch = attrs.match(/style="([^"]+)"/i);
-		const styleAttribute = styleMatch ? ` style="${styleMatch[1]}"` : "";
+		const styleAttribute = styleMatch ? ` style="${styleMatch[1]}"` : '';
 
-		output.push(`§imglink{text="${text}" href="${href}" src="${imgSrc}"${styleAttribute}}`);
+		output.push(
+			`<a href="${href}" class="img-link no-fancy"${styleAttribute}>`,
+			`    <img src="${imgSrc}" alt="${text}"/>`,
+			`    <div class="img-link-text">`,
+			`        ${text}`,
+			`    </div>`,
+			`</a>`
+		);
 		index = cursor;
 	}
 
-	return output.join("\n");
+	return output.join('\n');
 }
 
 function buildGalleryMarkup(folderHref: string, imageFiles: string[]) {
 	if (imageFiles.length === 0) {
-		return "";
+		return '';
 	}
 
 	const galleryEntries = imageFiles
 		.map((filePath) => {
-			const fileName = filePath.split("/").at(-1) ?? filePath;
+			const fileName = filePath.split('/').at(-1) ?? filePath;
 			const imageHref = `${folderHref}/images/${fileName}`;
-			const caption = fileName
-				.replace(/\.[^.]+$/, "")
-				.replaceAll("_", " ");
+			const caption = fileName.replace(/\.[^.]+$/, '').replaceAll('_', ' ');
 
 			return `:::figure{style="width: 400px;"}\n![${caption}](${imageHref})\n::figcaption[${caption}]\n:::`;
 		})
-		.join("\n\n");
+		.join('\n\n');
 
 	return `::::div{#gallery}\n${galleryEntries}\n::::`;
 }
@@ -204,14 +209,15 @@ export function applyMarkdownRenderHooks(
 	options: {
 		folderHref?: string;
 		imageFiles?: string[];
+		folderIndexMarkdown?: string;
 	} = {}
 ) {
 	const transformed = transformCardLinkHooks(
 		transformCalloutHooks(transformOverviewHooks(markdown))
-	).replace(REGEX_FOLDER_INDEX_HOOK, "<!-- INDEX -->");
+	).replace(REGEX_FOLDER_INDEX_HOOK, options.folderIndexMarkdown ?? '');
 
 	return transformed.replace(
 		REGEX_GALLERY_HOOK,
-		buildGalleryMarkup(options.folderHref ?? "", options.imageFiles ?? [])
+		buildGalleryMarkup(options.folderHref ?? '', options.imageFiles ?? [])
 	);
 }

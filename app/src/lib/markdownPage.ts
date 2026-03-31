@@ -37,6 +37,7 @@ class DOMPart {
 		return this.cheerio.html();
 	}
 }
+
 class SectionizedDOM {
 	content: DOMPart;
 	overview: DOMPart | null;
@@ -49,9 +50,9 @@ class SectionizedDOM {
 	sanitize() {
 		for (const domPart of this.getParts()) {
 			domPart.html = DOMPurify.sanitize(domPart.html, { USE_PROFILES: { html: true } });
-			// console.log(DOMPurify.removed.map(element => element.element?.constructor?.name ?? "unknown")) // log removed elements
 		}
 	}
+
 	getParts(): DOMPart[] {
 		const result: DOMPart[] = [];
 		result.push(this.content);
@@ -135,18 +136,18 @@ export class MarkdownPage {
 
 		this.event = timeline.find((event) => event.description == fileLink.href) ?? null;
 		this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, 'utf-8');
+
 		const galleryPath = fileLink.path + path.sep + 'images';
 		const galleryFiles = fs.existsSync(galleryPath)
 			? getFilePathsInFolder(galleryPath, ['.png', '.jpg', '.jpeg', '.webp'], 0)
 			: [];
+
 		this.markdown = applyMarkdownRenderHooks(this.markdown, {
 			folderHref: fileLink.href.replace('/content', '').split('/').slice(0, -1).join('/'),
-			imageFiles: galleryFiles
+			imageFiles: galleryFiles,
+			folderIndexMarkdown: MarkdownPage.createIndexContent(this.#fileLink.path)
 		});
 
-		this.processComments();
-
-		// Initial HTML from markdown
 		this.#dom = this.generateInitialDOM();
 
 		this.breadcrumbs = generateBreadcrumbs(fileLink.href);
@@ -155,7 +156,6 @@ export class MarkdownPage {
 		this.toc = this.generateTOC();
 		this.categories = this.generateCategories();
 
-		// HTML changes
 		this.extractOverviewSection();
 		this.processImages();
 		this.references = [
@@ -167,24 +167,11 @@ export class MarkdownPage {
 			{ name: 'Hier erwähnt', linkList: this.generateMentions() }
 		];
 
-		// Final HTML
 		this.#dom.sanitize();
 		this.contentHtml = this.#dom.content.html;
 		this.overviewHtml = this.#dom.overview?.html ?? null;
 
 		this.href = this.#fileLink.href;
-	}
-
-	processComments() {
-		this.markdown = this.markdown.replace(
-			/<!--\s*([A-Z]+)\b(.*?)-->/gs,
-			(_match, p1: string, p2: string) => {
-				if (p1.trim() == 'INDEX') {
-					return MarkdownPage.createIndexContent(this.#fileLink.path);
-				}
-				return `::::div{.comment}\n:::div{.comment-indicator .${p1.trim().toLowerCase()}}\n${p1.trim()}\n:::\n:::div{.comment-content}\n${p2.trim()}\n:::\n::::`;
-			}
-		);
 	}
 
 	extractOverviewSection() {
@@ -196,9 +183,7 @@ export class MarkdownPage {
 
 		if (overviewElement.length > 0) {
 			overviewHtml = overviewElement.html();
-
 			this.#dom.overview = new DOMPart(overviewHtml!);
-
 			overviewElement.remove();
 		}
 	}
@@ -212,47 +197,19 @@ export class MarkdownPage {
 			marker: '::::'
 		};
 
-		// FIXME and TODO: swap against pre-marked comment parsing of "<!--INDEX"
-		const customElements: DirectiveConfig = {
-			level: 'block',
-			marker: '§',
-			renderer: (token) => {
-				if (token.meta.name === 'index') {
-					const listItems = this.generateSiblings()
-						.map((link: LinkObject) => `<li><a href="${link.href}">${link.text}</a></li>`)
-						.join('\n');
-
-					return `<ul class="folder-index">\n${listItems}\n</ul>`;
-				} else if (token.meta.name == 'imglink') {
-					const imgSrc = token.attrs?.src;
-					const linkHref = token.attrs?.href;
-					const text = token.attrs?.text;
-					const style = token.attrs?.style;
-					return `
-                        <a href="${linkHref}" class="img-link no-fancy" style="${style}">
-                            <img src="${imgSrc}" alt="${text}"/>
-                            <div class="img-link-text">
-                                ${text}
-                            </div>
-                        </a>
-                    `;
-				}
-				return false;
-			}
-		};
-
 		renderer.listitem = function (text) {
 			if (text.includes('<p>')) {
 				text = text.replace(/<\/?p>/g, '');
 			}
 			return `<li>${text}</li>\n`;
 		};
+
 		const content = new DOMPart(
 			new Marked()
 				.setOptions({
-					renderer: renderer
+					renderer
 				})
-				.use(createDirectives([...presetDirectiveConfigs, level4Container, customElements]))
+				.use(createDirectives([...presetDirectiveConfigs, level4Container]))
 				.use(
 					markedKatex({
 						throwOnError: false
@@ -318,7 +275,7 @@ export class MarkdownPage {
 	extractTitle(): string {
 		const $ = this.#dom.content.cheerio;
 
-		let title = this.#fileLink.fileName; // fallback to file name
+		let title = this.#fileLink.fileName;
 		if ($('h1').length != 0) {
 			$('body')
 				.children()
@@ -346,7 +303,6 @@ export class MarkdownPage {
 			const headerId = generateHeaderId(header.text());
 			header.attr('id', headerId);
 
-			// Find the correct parent for this node
 			while (stack.length > headerLevel) {
 				stack.pop();
 			}
@@ -358,7 +314,7 @@ export class MarkdownPage {
 					text: header.text()
 				},
 				children: [],
-				parent: parent
+				parent
 			};
 
 			parent.children.push(node);
@@ -377,7 +333,7 @@ export class MarkdownPage {
 	generateRelated() {
 		const parentFolderPath = this.#filePath.substring(0, this.#filePath.lastIndexOf(path.sep));
 		const related: FileLink[] = getFolderPathsInFolder(parentFolderPath, 0)
-			.filter((folder) => folder != path.sep + 'images') // the image folder is instead realised as sibling
+			.filter((folder) => folder != path.sep + 'images')
 			.map((folder) => folder + path.sep + 'index.md')
 			.map((relative) => new FileLink(parentFolderPath + relative));
 		return related;
@@ -400,7 +356,6 @@ export class MarkdownPage {
 				return a.fileName.localeCompare(b.fileName);
 			});
 
-		// Index special naming
 		siblings.forEach((link) => {
 			if (link.fileName == 'index') {
 				link.text = 'Index';
