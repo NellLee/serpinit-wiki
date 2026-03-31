@@ -23,6 +23,7 @@ Implementation-specific instructions:
 - All implementation-oriented communication, plans, specs, code comments, and technical documentation must be written in English.
 - Treat implementation work as separate from lore and content work whenever practical.
 - Do not mix implementation refactors with ongoing lore/content edits unless the user explicitly asks for both in the same change.
-- For implementation work, Git worktrees are normally avoided in this repository.
-- Exception: if the user explicitly asks for an isolated implementation workspace to avoid conflicts with ongoing content changes, using a Git worktree is allowed for that implementation work.
+- For implementation work, prefer using a Git worktree by default.
+- Exception: if the user explicitly wants the implementation work to happen in the current workspace, a worktree is not required.
+- Worktrees are for technical/UI/code changes only. Do not use a worktree for pure lore or content writing/editing unless the user explicitly asks for it.
 - When working in a worktree for implementation changes, keep the scope limited to technical/UI/code changes and avoid unrelated lore or content edits.

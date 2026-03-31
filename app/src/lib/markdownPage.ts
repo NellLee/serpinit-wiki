@@ -10,6 +10,7 @@ import { getFilePathsInFolder, getFolderPathsInFolder } from './utilities/files'
 import { FileLink } from './fileLink';
 import markedKatex from 'marked-katex-extension';
 import { timeline } from './timeline';
+import { applyMarkdownRenderHooks } from './markdownRenderHooks';
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m;
 
@@ -133,8 +134,15 @@ export class MarkdownPage {
 		this.#fileLink = fileLink;
 
 		this.event = timeline.find((event) => event.description == fileLink.href) ?? null;
-
 		this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, 'utf-8');
+		const galleryPath = fileLink.path + path.sep + 'images';
+		const galleryFiles = fs.existsSync(galleryPath)
+			? getFilePathsInFolder(galleryPath, ['.png', '.jpg', '.jpeg', '.webp'], 0)
+			: [];
+		this.markdown = applyMarkdownRenderHooks(this.markdown, {
+			folderHref: fileLink.href.replace('/content', '').split('/').slice(0, -1).join('/'),
+			imageFiles: galleryFiles
+		});
 
 		this.processComments();
 
@@ -457,7 +465,6 @@ export class MarkdownPage {
 			contentHtml: this.contentHtml,
 			overviewHtml: this.overviewHtml
 		};
-
 		return JSON.stringify(result);
 	}
 }

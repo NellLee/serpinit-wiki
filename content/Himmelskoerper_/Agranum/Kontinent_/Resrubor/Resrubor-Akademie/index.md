@@ -11,6 +11,7 @@ Es gab jedoch immer wieder Schüler die diese Rune unbemerkt manipuliert haben.
 
 ## Die Gründung der Resrubor Akademie
 
+<!-- NOTE: Die folgende Gründungserzählung enthält noch ältere Artefakt-Annahmen und ist bis zur späteren Kanonklärung dieses Teilbereichs nicht als vollständig gesicherter Stand zu behandeln. -->
 Vater, verlor Micu erforscht Artefakte, bekommt Sohn, therapiert Sohn bereits als Baby, erster Conius.
 
 Die beiden begannen, Calions magische Fähigkeiten gemeinsam zu erkunden.

@@ -1,6 +1,6 @@
 # Hiante Krolpin, Zirkelgründerin
 
-:::overview
+<!-- layout: overview -->
 
 ![Hiante Krolpin](./images/Hiante-Krolpin_Zirkelgruenderin.png)
  
@@ -13,8 +13,6 @@
 | **Spezies / Rasse:** | [Varnops](/content/Volk_/Varnops/index.md)                                                              |
 | **Heimat:**          | [Nördliche Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md)      |
 | **Beruf:**           | Handelsstrategin, Metallurgin                                                                           |
-
-:::
 
 # Allgemein
 

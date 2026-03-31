@@ -1,10 +1,8 @@
 # Aridess, der Wüstenplanet
 
-:::overview
+<!-- layout: overview -->
 
 ![Aridess](./images/Aridess_Planet_Weltraum-Ansicht.png)
-
-:::
 
 # Allgemein
 Aridess ist ein nicht-ovelärer Planet des Serpinit-Systems, welcher sich vor allem durch seine trockene Atmosphäre und Oberfläche auszeichnet.

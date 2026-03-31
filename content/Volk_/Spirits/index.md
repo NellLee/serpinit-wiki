@@ -6,5 +6,7 @@ Sie entspringt ihrem Wesen selbst und wird daher auch direkt von den Gedanken un
 Während einige nur ungewöhnlich intelligent sind und sich daher bevorzugt in den größeren Städten des Serpinit-Systems neben anderen Völkern niederlassen, sind andere so mächtig, dass sie mit ihrer Magie ganze Schicksale verändern können weshalb sie sich nur wenigen Wesen direkt offenbaren.
 Aus vielen Legenden geht hervor, dass die mächtigsten Spirits oft nur zukünftigen Helden gegenüber erschienen sind um ihnen den rechten Weg zu weisen oder sie sogar zeitweilig auf ihrer Reise zu begleiten.
 
+<!-- NOTE: Die genaue magietheoretische Einordnung der Spirits in das vereinheitlichte, harte Magiesystem ist derzeit noch nicht abschließend geklärt. Dieser Artikel beschreibt daher weiterhin nur den beobachtbaren Stand der Lore und soll vorerst nicht als vollständige theoretische Erklärung verstanden werden. -->
+
 Oft ähneln Spirits kleinen Tieren wie Katzen, Füchsen, Ottern oder Vögeln, doch bereits auf dem ersten Blick erkennt man ihre offensichtlich magische Natur.
 Viele Spirits sind in ihrer Erscheinung sehr farbenfroh, einige sehen sogar aus als würden sie aus purem Licht (oder Schatten) bestehen, andere wiederum sind von Blumen und Pflanzen bewachsen oder weisen ein ähnlich ungewöhnliches Fell oder Federkleid auf.

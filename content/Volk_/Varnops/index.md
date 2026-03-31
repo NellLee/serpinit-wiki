@@ -137,4 +137,5 @@ Stattdessen haben Varnops nur das unglaublich starke Verlangen Edelsteine zu erl
 Berührt ein Varnop einen reinen Edelstein kann er intuitiv eine Verbindung zu diesem Stein aufbauen und ist nun in der Lage seine magische Energie auf den Stein zu übertragen.
 Aufgeladene Edelsteine können genutzt werden um Magie in die Technologien der Varnops zu integrieren.
 Besonders in Verbindung mit Metall und durch die leitenden Fähigkeiten des Tjosandt-Quarzes konnten die Varnops Erfindungen entwickeln die so bahnbrechend waren, dass sie auch ohne intuitive magische Fähigkeiten schnell zu einem der mächtigsten Völker im Serpinit-System werden konnten.
-
+Die Edelsteinmagie der Varnops stellt dabei keine zweite, eigene Magietheorie dar.
+Sie beruht vielmehr darauf, dass gebundene magische Potenz in einem geeigneten Trägerstoff gesammelt, gespeichert und schließlich technisch nutzbar gemacht wird.

@@ -138,6 +138,9 @@ Aufgrund dieser starken Kontroversität wurden die Elementardrachen vollkommen a
 Da die Sylvanars tatsächlich Magie wirken können ist die Existenz des Collektivoras nicht anzuzweifeln.
 Das Collektivora ist aber entgegen dem Glauben der Sylvanars keine eigenständige, übergeordnete Kraft.
 Die Sylvanars sind lediglich in der Lage die Lebensenergie der Tiere und Pflanzen in einem bestimmten Umkreis "anzuzapfen".
+Unter den modernen Völkern besitzen die Sylvanars dabei die feinste magitive Wahrnehmung für lebendige Wesen.
+Sie spüren nicht bloß die allgemeine Abstrahlung magischer Potenz, sondern können auch die bereits vorhandenen magischen Muster lebendiger Flora und Fauna in groben Zügen erfassen.
+Diese außergewöhnliche Sensibilität ist eine direkte Folge der arcanogenen Evolution auf Navura und steht damit in engem Zusammenhang mit dem Einfluss Silvaas.
 
 # Magische Fähigkeiten
 
@@ -149,15 +152,20 @@ Die freiwerdende Energie wird dann von den Gesängen der Sylvanars in die gewün
 Sylvanars brauchen daher aber Ruhe und Zeit um Zauber zu wirken, anders als die meisten anderen Völker.
 Außerdem sind Sylvanar Zauber immer davon abhängig wie viele Sylvanars an der Magiekatalyse teilnehmen und wie fruchtbar ihre Umgebung ist.
 Mithilfe ihrer Magie schützen Sylvanars z.B. ihre Wälder vor Naturkatastrophen, verstärken das Wachstum der Pflanzen und Tiere in ihrem Einflussbereich, etc.
+Ihre Naturzauber stellen dabei keine frei formulierbare Zaubersprache wie die Runenmagie der Sgrisignier dar.
+Stattdessen greifen die Sylvanars auf bereits vorhandene magische Muster des Lebendigen zu, verstärken, beruhigen oder synchronisieren diese und zwingen sie so in eine bestimmte Richtung.
+Gerade deshalb wirkt ihre Magie in fruchtbaren Gebieten besonders stark, während sie in lebensarmen Regionen wie Aridess nur eingeschränkt zur Verfügung steht.
 
 Einige wenige Male haben Sylvanar-Stämme ihre Kraft auch für starke Bannflüche genutzt die gegen andere Völkergruppen gerichtet waren.
 So wurden z.B. die Drachenkinder um ihre Magie gebracht, da sie die Sylvanars schon viele Zyklen terrorisiert und bekämpft hatten.
+Ein solcher Bannfluch richtet sich nicht gegen eine abstrakte "Zauberkraft", sondern gegen die lebendige magische Struktur des betroffenen Volkes selbst.
 Normalerweise sehen Sylvanars aber davon ab ihre Kraft für Vorgänge zu nutzen die sich außerhalb ihres Territoriums ereignen.
 
 ## Traditionen
 
 ### Artefakte
 
+<!-- NOTE: Die folgenden Artefakt-Abschnitte gelten vorerst nicht als fester Kanon. Sie bleiben als ältere oder unfertige Konzeption im Wiki stehen, bis Runensprache, Verbreitung und die Einbindung unbelebter Objekte in das vereinheitlichte Magiesystem sauber geklärt sind. -->
 <!-- TODO: Mit Ikusation vereinbaren (Schmedowski-Plot?) -->
 Nach der Entdeckung der Runen-Magie durch die Conius-Lateralen gelang es den Sylvanars schließlich die Kraft des Collektivoras auf ein unbelebtes Objekt zu übertragen.
 Solche Gegenstände werden Artefakte genannt.
@@ -194,6 +202,7 @@ Ab diesem Zeitpunkt beginnt die letzte Phase der Prosadúr, der Cre'Athem.
 
 ### Cre'Athem
 
+<!-- NOTE: Die folgenden Traditionen hängen am vorläufig ent-kanonisierten Artefakt-Konzept und gelten daher bis auf Weiteres ebenfalls nicht als fester Kanon. -->
 Der Cre'Athem ist der Akt des Schaffens eines persönlichen Artefaktes.
 Er umfasst die letzten 10 Zyklen der Prosadúr und wird von der Indux-Zeremonie abgeschlossen.
 Während der Zeit des Cre'Athem ist es dem betroffenen Sylvanar wieder gestattet das Stammeslager zu betreten, sodass er keine Energie mehr für die Nahrungsbeschaffung o.ä. aufwenden muss.
@@ -216,6 +225,7 @@ Hat das Sylvanar-Kind auch diese Herausforderung gemeistert, steht ihm an seiner
 
 ### Indux-Zeremonie
 
+<!-- NOTE: Dieser Abschnitt bleibt aus Gründen der Nachvollziehbarkeit erhalten, ist aber bis zur späteren Kanonklärung der Sylvanar-Artefakte nicht als fester Kanon zu behandeln. -->
 Dieses Ereignis beendet die Prosadúr und gleichzeitig auch das Kindesalter eines Sylvanars.
 Nach der Indux-Zeremonie gelten Sylvanars als Jugendliche und somit als vollwertige Stammesmitglieder.
 

@@ -2,7 +2,7 @@
 
 Chronologische Auflistung:
 
-§index
+<!-- render: folder-index -->
 
 # Aktuelle Materialien
 

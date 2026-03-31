@@ -11,10 +11,13 @@
 		"check:stability": "esbuild src/lib/stability/apiInitialization.test.ts --bundle --platform=node --format=esm | node --input-type=module",
 		"check:presentation": "esbuild src/lib/presentation/pagePresentation.test.ts --bundle --platform=node --format=esm | node --input-type=module",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test:e2e": "playwright test",
+		"test:e2e:update": "playwright test --update-snapshots",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@playwright/test": "1.44.1",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",

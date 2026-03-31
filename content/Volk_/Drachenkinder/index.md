@@ -73,6 +73,7 @@ Tatsächlich haben die Drachenkinder nur zu Ignatius eine direkte Verbindung, de
 
 Als die Drachenkinder geschaffen wurden, stattete sie Ignatius neben ihrem magischen Blut mit magischen Schwingen und der Fähigkeit Feuer zu speien aus.
 Letztere beide Fähigkeiten wurden den Drachenkindern jedoch bei ihrer größten Niederlage gegen die Sylvanars durch mächtige Naturzauber genommen.
+Der Bann der Sylvanars entzog den Drachenkindern dabei nicht einfach rohe Energie, sondern störte die lebendige magische Struktur, durch welche Ignatius' Kraft in ihnen wirksam wurde.
 Danach waren die Drachenkinder gezwungen sich auf die verbliebenen Aspekte ihrer Magie zu konzentrieren.
 Sie fingen an mit ihrem magischen Blut zu experimentieren und schafften es schließlich die darin enthaltene Magie in Verbindung mit der Feuermagie des Planeten Mognar in sogenannten Blutvulkanen nutzbar zu machen.
 Durch verschiedene Blutrituale konnten die Drachenkinder so wieder Magie wirken.
@@ -84,3 +85,4 @@ Eine der beliebtesten Anwendungen der Blut-Magie ist z.B. die Erschaffung von Sp
 
 Die übrigen Drachenkinder können mit ihrem eigenen Blut ebenso Rituale im kleinen Stil ausführen und so Magie für die unterschiedlichsten Zwecke nutzen.
 Der begrenzende Faktor ist hierbei die Menge an Blut, die ein Drachenkind opfern möchte bzw. kann.
+Das Blut eines Drachenkindes ist dabei nicht bloß symbolisches Opfer, sondern der zentrale Träger jener magischen Struktur, welche seit Ignatius' Eingriff in diesem Volk verblieben ist.
