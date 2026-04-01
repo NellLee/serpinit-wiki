@@ -478,7 +478,7 @@ Allowed relaxed strategies, in order:
 Do not invent spelling suggestions from external data.
 
 Verification should include:
-- targeted esbuild-based regression tests for the new helpers
+- targeted regression tests for the new helpers
 - `yarn run check`
 - `yarn run build`
 
