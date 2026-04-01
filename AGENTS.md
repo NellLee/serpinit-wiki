@@ -24,6 +24,8 @@ Implementation-specific instructions:
 - Treat implementation work as separate from lore and content work whenever practical.
 - Do not mix implementation refactors with ongoing lore/content edits unless the user explicitly asks for both in the same change.
 - Before starting a new user task, assistants must ensure the previous completed task is committed if its changes are meant to be kept. Do not leave completed work uncommitted across task boundaries unless the user explicitly asks for that.
+- Before starting a new implementation task in a workspace or worktree, assistants must check for unrelated uncommitted changes. If such changes exist, stop immediately and surface them to the user before proceeding.
+- Do not continue a new implementation task on top of mixed uncommitted state unless the user explicitly authorizes that exception.
 - For implementation work, prefer using a Git worktree by default.
 - Exception: if the user explicitly wants the implementation work to happen in the current workspace, a worktree is not required.
 - Worktrees are for technical/UI/code changes only. Do not use a worktree for pure lore or content writing/editing unless the user explicitly asks for it.

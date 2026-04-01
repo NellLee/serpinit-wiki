@@ -1,20 +1,28 @@
-import assert from 'node:assert/strict';
+import { describe, expect, test } from 'vitest';
 import { parseSearchQuery } from './searchQuery';
 
-const parsed = parseSearchQuery('title:"Do Uspil" foo -Lateralen path:Sodili type:article');
+describe('searchQuery', () => {
+	test('parses mixed filters and exclusions', () => {
+		const parsed = parseSearchQuery('title:"Do Uspil" foo -Lateralen path:Sodili type:article');
 
-assert.deepEqual(parsed.freeTextTerms, ['foo']);
-assert.deepEqual(parsed.phrases, []);
-assert.deepEqual(parsed.exclusions, ['Lateralen']);
-assert.deepEqual(parsed.fieldFilters.title, ['Do Uspil']);
-assert.deepEqual(parsed.fieldFilters.path, ['Sodili']);
-assert.deepEqual(parsed.fieldFilters.type, ['article']);
+		expect(parsed.freeTextTerms).toEqual(['foo']);
+		expect(parsed.phrases).toEqual([]);
+		expect(parsed.exclusions).toEqual(['Lateralen']);
+		expect(parsed.fieldFilters.title).toEqual(['Do Uspil']);
+		expect(parsed.fieldFilters.path).toEqual(['Sodili']);
+		expect(parsed.fieldFilters.type).toEqual(['article']);
+	});
 
-const repeatedFilters = parseSearchQuery('category:Religion category:Politik type:article type:index');
-assert.deepEqual(repeatedFilters.fieldFilters.category, ['Religion', 'Politik']);
-assert.deepEqual(repeatedFilters.fieldFilters.type, ['article', 'index']);
+	test('keeps repeated filters in order', () => {
+		const repeatedFilters = parseSearchQuery('category:Religion category:Politik type:article type:index');
+		expect(repeatedFilters.fieldFilters.category).toEqual(['Religion', 'Politik']);
+		expect(repeatedFilters.fieldFilters.type).toEqual(['article', 'index']);
+	});
 
-const mixedTerms = parseSearchQuery('path:Sodili Lateralen "Do Uspil"');
-assert.deepEqual(mixedTerms.fieldFilters.path, ['Sodili']);
-assert.deepEqual(mixedTerms.freeTextTerms, ['Lateralen']);
-assert.deepEqual(mixedTerms.phrases, ['Do Uspil']);
+	test('separates path filters, plain terms, and phrases', () => {
+		const mixedTerms = parseSearchQuery('path:Sodili Lateralen "Do Uspil"');
+		expect(mixedTerms.fieldFilters.path).toEqual(['Sodili']);
+		expect(mixedTerms.freeTextTerms).toEqual(['Lateralen']);
+		expect(mixedTerms.phrases).toEqual(['Do Uspil']);
+	});
+});

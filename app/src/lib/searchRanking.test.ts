@@ -1,4 +1,4 @@
-import assert from 'node:assert/strict';
+import { describe, expect, test } from 'vitest';
 import { deriveDomainInfo } from './searchDerivedData';
 import { parseSearchQuery } from './searchQuery';
 import { runSearchRanking } from './searchRanking';
@@ -46,95 +46,107 @@ const records = [
 	}
 ];
 
-const pathFiltered = runSearchRanking(records, parseSearchQuery('path:Sodili'), {
-	includeCategories: true,
-	includeContent: true,
-	sort: 'relevance',
-	activeFilters: {
-		domains: [],
-		pageTypes: [],
-		categories: []
-	}
-});
-assert.deepEqual(
-	pathFiltered.results.map((result) => result.item.title),
-	['Dur-Uspil Zeremonien', 'Sodili Übersicht']
-);
+describe('searchRanking', () => {
+	test('matches path and category filters', () => {
+		const pathFiltered = runSearchRanking(records, parseSearchQuery('path:Sodili'), {
+			includeCategories: true,
+			includeContent: true,
+			sort: 'relevance',
+			activeFilters: {
+				domains: [],
+				pageTypes: [],
+				categories: []
+			}
+		});
+		expect(pathFiltered.results.map((result) => result.item.title)).toEqual([
+			'Dur-Uspil Zeremonien',
+			'Sodili Übersicht'
+		]);
 
-const categoryFiltered = runSearchRanking(records, parseSearchQuery('category:Rituale category:Orte'), {
-	includeCategories: true,
-	includeContent: true,
-	sort: 'relevance',
-	activeFilters: {
-		domains: [],
-		pageTypes: [],
-		categories: []
-	}
-});
-assert.deepEqual(
-	categoryFiltered.results.map((result) => result.item.title),
-	['Dur-Uspil Zeremonien', 'Arkten']
-);
+		const categoryFiltered = runSearchRanking(records, parseSearchQuery('category:Rituale category:Orte'), {
+			includeCategories: true,
+			includeContent: true,
+			sort: 'relevance',
+			activeFilters: {
+				domains: [],
+				pageTypes: [],
+				categories: []
+			}
+		});
+		expect(categoryFiltered.results.map((result) => result.item.title)).toEqual([
+			'Dur-Uspil Zeremonien',
+			'Arkten'
+		]);
+	});
 
-const titleOnlyStillWorks = runSearchRanking(records, parseSearchQuery('Arkten'), {
-	includeCategories: false,
-	includeContent: false,
-	sort: 'relevance',
-	activeFilters: {
-		domains: [],
-		pageTypes: [],
-		categories: []
-	}
-});
-assert.deepEqual(titleOnlyStillWorks.results.map((result) => result.item.title), ['Arkten']);
+	test('handles title-only and exclusion filtering', () => {
+		const titleOnlyStillWorks = runSearchRanking(records, parseSearchQuery('Arkten'), {
+			includeCategories: false,
+			includeContent: false,
+			sort: 'relevance',
+			activeFilters: {
+				domains: [],
+				pageTypes: [],
+				categories: []
+			}
+		});
+		expect(titleOnlyStillWorks.results.map((result) => result.item.title)).toEqual(['Arkten']);
 
-const exclusionRemovesMatches = runSearchRanking(records, parseSearchQuery('Sodili -Lateralen'), {
-	includeCategories: true,
-	includeContent: true,
-	sort: 'relevance',
-	activeFilters: {
-		domains: [],
-		pageTypes: [],
-		categories: []
-	}
-});
-assert.deepEqual(exclusionRemovesMatches.results.map((result) => result.item.title), []);
+		const exclusionRemovesMatches = runSearchRanking(records, parseSearchQuery('Sodili -Lateralen'), {
+			includeCategories: true,
+			includeContent: true,
+			sort: 'relevance',
+			activeFilters: {
+				domains: [],
+				pageTypes: [],
+				categories: []
+			}
+		});
+		expect(exclusionRemovesMatches.results.map((result) => result.item.title)).toEqual([]);
+	});
 
-const domainSorted = runSearchRanking(records, parseSearchQuery(''), {
-	includeCategories: true,
-	includeContent: true,
-	sort: 'domain',
-	activeFilters: {
-		domains: [],
-		pageTypes: [],
-		categories: []
-	}
-});
-assert.deepEqual(
-	domainSorted.results.map((result) => result.item.title),
-	['Arkten', 'Akils-Anfänge', 'Dur-Uspil Zeremonien', 'Sodili Übersicht']
-);
+	test('supports domain sorting and UI filter state', () => {
+		const domainSorted = runSearchRanking(records, parseSearchQuery(''), {
+			includeCategories: true,
+			includeContent: true,
+			sort: 'domain',
+			activeFilters: {
+				domains: [],
+				pageTypes: [],
+				categories: []
+			}
+		});
+		expect(domainSorted.results.map((result) => result.item.title)).toEqual([
+			'Arkten',
+			'Akils-Anfänge',
+			'Dur-Uspil Zeremonien',
+			'Sodili Übersicht'
+		]);
 
-const uiFiltered = runSearchRanking(records, parseSearchQuery('Sodili'), {
-	includeCategories: true,
-	includeContent: true,
-	sort: 'relevance',
-	activeFilters: {
-		domains: ['volk'],
-		pageTypes: ['article'],
-		categories: ['rituale']
-	}
-});
-assert.deepEqual(uiFiltered.results.map((result) => result.item.title), ['Dur-Uspil Zeremonien']);
+		const uiFiltered = runSearchRanking(records, parseSearchQuery('Sodili'), {
+			includeCategories: true,
+			includeContent: true,
+			sort: 'relevance',
+			activeFilters: {
+				domains: ['volk'],
+				pageTypes: ['article'],
+				categories: ['rituale']
+			}
+		});
+		expect(uiFiltered.results.map((result) => result.item.title)).toEqual(['Dur-Uspil Zeremonien']);
+	});
 
-const curatedCategoryFiltered = runSearchRanking(records, parseSearchQuery('Do Uspil'), {
-	includeCategories: true,
-	includeContent: true,
-	sort: 'relevance',
-	activeFilters: {
-		domains: [],
-		pageTypes: [],
-		categories: ['charaktere']
-	}
+	test('maps curated category aliases during filtering', () => {
+		const curatedCategoryFiltered = runSearchRanking(records, parseSearchQuery('Do Uspil'), {
+			includeCategories: true,
+			includeContent: true,
+			sort: 'relevance',
+			activeFilters: {
+				domains: [],
+				pageTypes: [],
+				categories: ['charaktere']
+			}
+		});
+		expect(curatedCategoryFiltered.results.map((result) => result.item.title)).toEqual(['Akils-Anfänge']);
+	});
 });
-assert.deepEqual(curatedCategoryFiltered.results.map((result) => result.item.title), ['Akils-Anfänge']);

@@ -6,7 +6,9 @@
 
 **Architecture:** Extend the existing Fuse-based search into a cached derived search model with explicit query parsing, facet derivation, and structured API responses. Keep preview search intentionally narrow, rebuild the full search page around the new contract, and lock behavior down with focused regression tests for parsing, ranking, filters, highlighting, and zero-result flows.
 
-**Tech Stack:** SvelteKit, TypeScript, Fuse.js, existing wiki/Markdown pipeline, esbuild-based regression tests, `svelte-check`, Vite build
+**Tech Stack:** SvelteKit, TypeScript, Fuse.js, existing wiki/Markdown pipeline, regression tests, `svelte-check`, Vite build
+
+> **Testing note (2026-03-31):** The repo no longer uses manual `esbuild | node` test execution for `app/src/**/*.test.ts`. Run `yarn test` from `app/` for the unified Vitest suite and keep `yarn test:e2e` for Playwright.
 
 ---
 
@@ -84,7 +86,7 @@ assert.deepEqual(parsed.fieldFilters.type, ['article']);
 
 - [ ] **Step 2: Run test to verify it fails**
 
-Run: `node .\node_modules\esbuild\bin\esbuild src/lib/searchQuery.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+Run: `yarn test -- src/lib/searchQuery.test.ts`
 
 Expected: FAIL because `searchQuery.ts` does not exist or `parseSearchQuery` is not implemented.
 
@@ -99,7 +101,7 @@ Implement:
 
 - [ ] **Step 4: Run test to verify it passes**
 
-Run: `node .\node_modules\esbuild\bin\esbuild src/lib/searchQuery.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+Run: `yarn test -- src/lib/searchQuery.test.ts`
 
 Expected: PASS
 
@@ -138,7 +140,7 @@ Include tests for:
 
 - [ ] **Step 2: Run test to verify it fails**
 
-Run: `node .\node_modules\esbuild\bin\esbuild src/lib/searchDerivedData.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+Run: `yarn test -- src/lib/searchDerivedData.test.ts`
 
 Expected: FAIL because `searchDerivedData.ts` does not exist or functions are missing.
 
@@ -153,7 +155,7 @@ Implement:
 
 - [ ] **Step 4: Run test to verify it passes**
 
-Run: `node .\node_modules\esbuild\bin\esbuild src/lib/searchDerivedData.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+Run: `yarn test -- src/lib/searchDerivedData.test.ts`
 
 Expected: PASS
 
@@ -194,7 +196,7 @@ Add explicit cases for:
 
 - [ ] **Step 2: Run test to verify it fails**
 
-Run: `node .\node_modules\esbuild\bin\esbuild src/lib/searchRanking.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+Run: `yarn test -- src/lib/searchRanking.test.ts`
 
 Expected: FAIL because ranking helpers are not implemented.
 
@@ -211,7 +213,7 @@ Implement:
 
 - [ ] **Step 4: Run test to verify it passes**
 
-Run: `node .\node_modules\esbuild\bin\esbuild src/lib/searchRanking.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+Run: `yarn test -- src/lib/searchRanking.test.ts`
 
 Expected: PASS
 
@@ -243,7 +245,7 @@ import { buildZeroResultSuggestions } from './searchZeroResults';
 
 - [ ] **Step 2: Run test to verify it fails**
 
-Run: `node .\node_modules\esbuild\bin\esbuild src/lib/searchZeroResults.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+Run: `yarn test -- src/lib/searchZeroResults.test.ts`
 
 Expected: FAIL because the helper does not exist.
 
@@ -259,7 +261,7 @@ Implement:
 
 - [ ] **Step 4: Run test to verify it passes**
 
-Run: `node .\node_modules\esbuild\bin\esbuild src/lib/searchZeroResults.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+Run: `yarn test -- src/lib/searchZeroResults.test.ts`
 
 Expected: PASS
 
@@ -288,7 +290,7 @@ Extend tests to assert:
 - [ ] **Step 2: Run targeted tests to verify they fail**
 
 Run:
-- `node .\node_modules\esbuild\bin\esbuild src/lib/searchCore.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+- `yarn test -- src/lib/searchCore.test.ts`
 
 Expected: FAIL because the server/page assumptions still reflect the old contract.
 
@@ -303,7 +305,7 @@ Implement:
 - [ ] **Step 4: Run targeted tests to verify they pass**
 
 Run:
-- `node .\node_modules\esbuild\bin\esbuild src/lib/searchCore.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+- `yarn test -- src/lib/searchCore.test.ts`
 
 Expected: PASS
 
@@ -331,7 +333,7 @@ Extend or add source-inspection assertions covering:
 
 - [ ] **Step 2: Run targeted tests to verify they fail**
 
-Run the relevant esbuild-based UI/source assertions.
+Run the relevant Vitest-backed UI/source assertions.
 
 Expected: FAIL because the current page still renders the simple search form and result list.
 
@@ -374,7 +376,7 @@ Add assertions for:
 
 - [ ] **Step 2: Run targeted tests to verify they fail**
 
-Run the relevant esbuild-based search tests.
+Run the relevant Vitest-backed search tests.
 
 Expected: FAIL because preview still assumes the old response shape.
 
@@ -418,12 +420,12 @@ Add or extend tests for:
 - [ ] **Step 2: Run focused regression tests**
 
 Run:
-- `node .\node_modules\esbuild\bin\esbuild src/lib/searchQuery.test.ts --bundle --platform=node --format=esm | node --input-type=module`
-- `node .\node_modules\esbuild\bin\esbuild src/lib/searchDerivedData.test.ts --bundle --platform=node --format=esm | node --input-type=module`
-- `node .\node_modules\esbuild\bin\esbuild src/lib/searchRanking.test.ts --bundle --platform=node --format=esm | node --input-type=module`
-- `node .\node_modules\esbuild\bin\esbuild src/lib/searchZeroResults.test.ts --bundle --platform=node --format=esm | node --input-type=module`
-- `node .\node_modules\esbuild\bin\esbuild src/lib/searchCore.test.ts --bundle --platform=node --format=esm | node --input-type=module`
-- `node .\node_modules\esbuild\bin\esbuild src/lib/searchExcerpt.test.ts --bundle --platform=node --format=esm | node --input-type=module`
+- `yarn test -- src/lib/searchQuery.test.ts`
+- `yarn test -- src/lib/searchDerivedData.test.ts`
+- `yarn test -- src/lib/searchRanking.test.ts`
+- `yarn test -- src/lib/searchZeroResults.test.ts`
+- `yarn test -- src/lib/searchCore.test.ts`
+- `yarn test -- src/lib/searchExcerpt.test.ts`
 
 Expected: PASS on all six commands.
 
