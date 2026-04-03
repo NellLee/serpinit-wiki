@@ -10,18 +10,19 @@ Sie gelten unter den Lateralen als besonders klar im Geist und als das Volk mit 
 
 # Lebensraum
 
-Das gesellschaftliche und wissenschaftliche Zentrum der Conius ist die [Resrubor-Akademie](../../../Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) auf Agranum.
+Das gesellschaftliche und wissenschaftliche Zentrum der Conius ist die [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) auf Agranum.
 
 # Entwicklung & Geschichte
 
 Die Conius entstanden aus einer Gruppierung von Lateralen, welche das eigene Doppelleben nicht als göttliche Fügung, sondern als Folge einer schweren Störung begriffen.
 Durch frühe Selbstversuche erkannten sie, dass nicht nur die zweite Persönlichkeit selbst problematisch ist, sondern auch jene magische Fehlkopplung im Geist, welche diese dauerhaft nährt.
-Auf dieser Erkenntnis bauten sie mit der Zeit Therapien auf, die darauf abzielen die betroffene Fehlstelle frühzeitig zu schließen oder zumindest so weit auszugleichen, dass es nicht mehr zu einer späteren Abspaltung kommt.
+Auf dieser Erkenntnis bauten sie mit der Zeit Verfahren auf, die später als [Therapie der Conius](/content/Volk_/Lateralen_/Conius/Therapie.md) zum Kern ihrer Identität wurden.
 
 # Gesellschaft
 
 Das Selbstverständnis der Conius wird stark von Bildung, Disziplin und einer nüchternen Betrachtung der Magie geprägt.
 Sie sehen in der Heilung junger Lateraler keinen Frevel, sondern eine Befreiung von einem gefährlichen Erbe der Sgrisignier.
+Gerade deshalb besitzt die Akademie innerhalb ihres Volkes nicht nur pädagogische, sondern auch kulturelle und politische Autorität.
 
 # Theologie & Magie
 
@@ -46,3 +47,4 @@ Gerade deshalb sind Conius in der Lage ihre magische Intelligenz mit Bildung deu
 
 Aus diesem Umstand erwuchs schließlich auch das besondere Talent der Conius für die Erforschung von Runen, Runenschatten und anderen magischen Phänomenen.
 Während Sodili die Magie ihres eigenen Wesens vor allem erfahren und leben, zerlegen die Conius dieselben Naturgesetze in beobachtbare Muster und nutzen dieses Wissen für eine gezielte, wissenschaftliche Form der Magie.
+Ein großer Teil dieses Wissens bündelt sich heute in der [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md).

@@ -4,130 +4,84 @@
 
 Die Magie ist eine elementare Naturkonstante und der Ursprung zahlloser fantastischer Phänomene im Universum, einschließlich aller Gottheiten.
 
-Grundsätzlich gilt: Alles hat Magie in sich - die **magische Potenz** - und alles kann aus einer bestimmten Form der Magie - der **magischen Substanz** - geschaffen werden.
+Grundsätzlich gilt: Alles hat Magie in sich, die **magische Potenz**, und alles kann aus einer bestimmten Form der Magie, der **magischen Substanz**, geschaffen werden.
 
 Zum Verständnis kann die magische Potenz auf Atome und Elemente abgebildet werden.
 Jedes Element hat einen fest definierten **Potenzpunkt**.
 Liegt ein Atom dieses Elements ohne Einfluss von Magie in der Welt vor, so wird es seine magische Potenz diesem Wert mit der Zeit angleichen.
 Die Geschwindigkeit dieser Angleichung wird von der **Potenzleitfähigkeit** des betroffenen sowie seiner anliegenden Atome definiert.
-Die Potenzleitfähigkeit ist charakteristisch für das jeweilige Element unter Berücksichtigung seines energetischen Zustandes.
 
 Wenn die magische Potenz eines Atoms sich so stark vergrößert, dass sie die **Substanzkonstante** überschreitet, wird das betroffene Atom zu **magischer Substanz**.
 Magische Substanz ist ein theoretisch unmöglicher Teilchenzustand, aus welchem jedes beliebige Element entstehen kann.
-Liegt magische Substanz in der physischen Welt vor und wird nicht aktiv zu einem Element geformt, so wird die magische Substanz mit der Zeit "abkühlen".
-Dabei gleicht sie ihre Eigenschaften graduel an das jeweils angrenzende Element an und wird so nach und nach in den umliegenden Stoff konvertiert.
-Dabei strahlt die magische Substanz sowohl Wärme als auch magische Potenz ab.
-Eine Ausnahme bildeten die hochkonzentrierten Vorkommen der magischen Substanz welche beim Urknall in das Universum geschleudert wurden (siehe [Schöpfungsgeschichte](../Schoepfungsgeschichte.md#die-gottheiten)).
+Liegt magische Substanz in der physischen Welt vor und wird nicht aktiv zu einem Element geformt, so wird sie mit der Zeit abkühlen.
+Dabei gleicht sie ihre Eigenschaften graduell an das jeweils angrenzende Element an und wird so nach und nach in den umliegenden Stoff konvertiert.
+Eine Ausnahme bilden die hochkonzentrierten Vorkommen der magischen Substanz welche beim Urknall in das Universum geschleudert wurden.
 Diese kühlten niemals ab und entwickelten stattdessen mit der Zeit ein eigenes Bewusstsein.
-Die so entstandenen Gottheiten besaßen die Macht jedes Atom zu magischer Substanz zu machen um aus dieser wiederum jedes beliebige andere Element zu synthetisieren.
 
-Magische Potenz hat sehr unterschiedliche Auswirkungen auf pyhsische Stoffe:
-* Metall hat eine niedrige Leitfähigkeit und einen niedrigen Potenzpunk. Trotzdessen kann Metall sehr schlecht magische Potenz speichern, da es diese schnell in hohem Maße als Wärme abgibt.
-* Edelsteine und Kristalle haben einen extrem hohen Potenzpunkt. 
-Als solche "entziehen" sie ihrer Umgebung förmlich Energie, falls vorhanden.
-Da auch nicht-magische Lebewesen über ihre Haut durchgehend magische Potenz abstrahlen, reicht es einen Edelstein über längere Zeit zu berühren um ihn stetig aufzuladen.
+Magische Potenz hat sehr unterschiedliche Auswirkungen auf physische Stoffe:
+* Metall hat eine niedrige Leitfähigkeit und einen niedrigen Potenzpunkt.
+  Trotzdem kann Metall sehr schlecht magische Potenz speichern, da es diese schnell in hohem Maße als Wärme abgibt.
+* Edelsteine und Kristalle haben einen extrem hohen Potenzpunkt.
+  Als solche entziehen sie ihrer Umgebung förmlich Energie, falls vorhanden.
+  Da auch nicht-magische Lebewesen über ihre Haut durchgehend magische Potenz abstrahlen, reicht es einen Edelstein über längere Zeit zu berühren um ihn stetig aufzuladen.
 
 # Serpinitäre Magie
 
-Die serpinitäre Magie basiert auf einem magischen Energienetz, welches das gesamte Planetensystem umgibt und **Wymen** genannt wird.
-Wymen kann als dreidimensionales Netz aus *theoretischer* magischer Potenz verstanden werden.
-Dieses Energienetz ist direkt an Creapatos göttliche Kräfte gekoppelt und bietet somit aus Sicht einer sterblichen Kreatur nahezu unendliche Energie.
-Die theoretische magische Potenz von Wymen kann durch Risse in die physische Welt fließen, wobei die magische Potenz von allen umliegenden Materialien angereichert wird.
-Wymen besitzt dabei einen selbstheilenden Charakter, sodass sich solche Risse wieder schließen, wenn sie nicht aktiv offen gehalten wird.
-Creapatos schuf Wymen ursprünglich als sein eigenes Werkzeug um magische Substanz zielgerichtet synthetisieren zu können.
+Die serpinitäre Magie basiert auf einem magischen Energienetz, welches das gesamte Planetensystem umgibt und [Wymen](/content/Allgemein/Magie/Wymen.md) genannt wird.
+Wymen kann als dreidimensionales Netz aus theoretischer magischer Potenz verstanden werden.
+Dieses Energienetz ist direkt an Creapatos' göttliche Kräfte gekoppelt und bietet somit aus Sicht einer sterblichen Kreatur nahezu unendliche Energie.
 Das eigentliche Problem sterblicher Magie liegt daher nur selten in einem grundsätzlichen Mangel an Energie.
 Vielmehr scheitern magische Vorgänge meist daran, dass die einwirkende Kraft nicht präzise genug geformt, gelenkt oder stabilisiert wird.
-Unkontrollierte Magie ist daher im Allgemeinen kein Zeichen dafür, dass "zu viel" Magie vorhanden wäre, sondern dafür, dass eine vorhandene magische Kraft keine geeignete Form erhalten hat.
 
 Als Creapatos mit den Sgrisigniern sein erstes intelligentes Volk erschuf wollte er ihnen die Wunder der Magie nicht vorenthalten.
-Er merkte er jedoch schnell, dass Wymen allein nicht ausreichte um seinen Lebewesen einen tatsächlichen Zugang zur Magie zu bieten.
-Zwar konnten die Sgrisignier Risse in Wymen reißen, die ausreichten um kleinere Mengen magische Substanz zu erschaffen, doch hatten sie anders als Creapatos keine Möglichkeit mit dieser magischen Substanz zu interagieren.
-Sie konnten nur zusehen wie die magische Substanz wieder abkühlte und so bestenfalls eine gewissen Menge eines umliegenden Stoffes vervielfältigte.
-Aus diesem Grund schuf Creapatos eine weitere magische Naturkonstante: den magischen Wind **Vendos** und die dazugehörige dreidimensionale Runenschrift zur Katalyse.
-Da Creapatos diese Runen explizit für das Volk der Sgrisignier erschuf, werden sie im Allgemeinen **Sgrisignier-Runen** genannt.
+Er merkte jedoch schnell, dass Wymen allein nicht ausreichte um seinen Lebewesen einen tatsächlichen Zugang zur Magie zu bieten.
+Aus diesem Grund schuf er mit Vendos und den [Sgrisignier-Runen](/content/Allgemein/Magie/Sgrisignier-Runen.md) eine zusätzliche Formsprache der Katalyse.
 
 ## Sgrisignier-Runen
 
-Die Runenschrift bildet eine vielseitige Schnittstelle zur Magie.
-Die Sgrisignier nutzten diese Runen äußerst geschickt und erlangten große Macht durch sie.
-Auch der Hinterhalt auf Aerion war nur mit einer einzigen riesigen Rune möglich, welche die Sgrisignier über lange Zeit hinweg in dem Planeten [Agranum](../../Himmelskoerper_/Agranum/index.md) anbrachten.
-Anschaulich betrachtet sind die Sgrisignier-Runen eine „Programmiersprache der Realität“.
-Sie transformieren die Energie von magischer Substanz in komplexen Vorgängen um die unterschiedlichsten Effekte zu erzielen.
+Die Sgrisignier-Runen bilden die allgemeinste und präziseste bekannte Schnittstelle zur Magie.
+Sie transformieren die Energie magischer Substanz in geordnete Wirkungen und ermöglichen dadurch sowohl einfache Bewegungszauber als auch hochkomplexe Systeme wie [Sgrisignier-Portale](/content/Allgemein/Magie/Sgrisignier-Portale.md).
+Ihre volle Struktur ist dreidimensional und wurde von den modernen Völkern erst sehr spät verstanden.
+Der Hauptartikel dazu ist [Sgrisignier-Runen](/content/Allgemein/Magie/Sgrisignier-Runen.md).
 
-Die Lehre der Sgrisignier-Runen korrespondiert mit der mathematischen Lehre der Topologie.
-Eine Rune schafft in der Theorie topologische Knoten aus magischen Windkanälen die um einen **Runenkern** herum angeordnet werden.
-Der Runenkern besteht stets aus magischer Substanz und weißt daher eine äußerst hohe magische Potenz auf.
-Diese magische Potenz wird dann über die umliegenden Kanäle von Vendos geleitet und so für unterschiedliche Zwecke manipuliert.
-Eine vergleichsweise einfache Rune wandelt so beispielsweise die magische Energie des Runenkerns in kinetische Energie um, wodurch betroffene Objekte ohne direkte Interaktion bewegt werden.
-Kompliziertere Runen dagegen können die Energie der magischen Substanz sogar zur Manipulation von Zeit und Raum nutzen.
-Ein Beispiel für eine derart machtvolle Nutzung der magischen Runen sind die Sgrisignier-Portale.
-Creapatos hat für solch komplexe Implementationen verschiedene Kontrollstrukturen in der Runensprache eingebaut, sodass diese beispielsweise den Zustand ihrer Umgebung abfragen kann, zeitgesteuerte Effekte aufweist, u.v.m.
-
-:::figure{style="width: 400px;"}
-![Erstellung einer Sgrisignier Rune](./images/Sgrisignier-Rune_Programmierung_komplex.png)
-::figcaption[Sgrisignier Rune in einem Runenstein bevor (links) und nachdem (rechts) die Kraft des magischen Substanz-Kerns programmiert wurde]
-:::
-
-### Allgemeine Oveläre Magie
+### Allgemeine oveläre Magie
 
 Nach dem Fall der Sgrisignier existierte für lange Zeit keine einzige Spezies mit magischen Fähigkeiten im Serpinit-System.
-Eine Ausnahme bilden die Elementare die sich spontan an Orten mit Magie bilden, doch da sie effektiv aus Magie bestehen werden sie nur selten als traditionelle Lebewesen gezählt.
-Alle anderen Lebewesen auf den 7 Planeten waren für lange Zeit nicht-magisch, abgesehen von der Tatsache, dass alle Lebewesen minimale Mengen an magischer Potenz abstrahlen.
-Die Aufteilung von Creapatos in die vier Elementardrachen hat zwar vier der sieben Planeten mit extrem mächtiger Magie erfüllt, doch dauerte es Jahrtausende bis diese Magie bis an die jeweilige Oberfläche drang.
+Die Aufteilung von Creapatos in die vier Elementardrachen hat jedoch vier der sieben Planeten mit extrem mächtiger Magie erfüllt.
 Auf diesen ovelären Planeten hat daraufhin über Millionen Jahre hinweg eine **arcanogene Evolution** stattgefunden, welche stetigen magischen Einfluss auf die Lebewesen nahm.
 
 #### Arcanogene Evolution
 
-Alle Lebewesen der Ovelären Planeten entwickelten im Verlauf einer magisch beeinflussten Evolution nach dem Fall der Sgrisignier ein Sinnesorgan im Gehirn, welches sie befähigt die magische Potenz in ihrer Umgebung zu erfühlen.
-Diese „magitive Wahrnehmung“ ist dabei für den Wahrnehmenden immer relativ zum Potenzpunkt eines jeweiligen Elementes.
-Die meisten dieser Lebewesen sind außerdem in der Lage die magische Potenz der Stoffe die lokal an ihrem Körper anliegen mehr oder minder stark zu beeinflussen.
-Je weiter die arcanogene Evolution bei einem Lebewesen die Ausbildung einer magischen Intelligenz begünstigte, desto feiner kann dieses Wesen magische Vorgänge nicht nur wahrnehmen, sondern auch in ihrer Form erfassen und beeinflussen.
-Dies bedeutet jedoch nicht, dass jedes oveläre Volk die Magie auf dieselbe Art nutzen kann.
-Die modernen Magieformen des Serpinit-Systems folgen zwar denselben Naturgesetzen, doch unterscheiden sie sich stark darin, auf welche Weise sie vorhandene magische Potenz überhaupt in eine belastbare Form bringen.
-Die Sgrisignier-Runen bilden dabei die allgemeinste und präziseste bekannte Schnittstelle zur Magie.
-Andere Völker greifen dagegen auf enger begrenzte, natürliche oder kulturell tradierte Formen der Katalyse zurück, welche nur in bestimmten Bereichen zuverlässig funktionieren.
+Alle Lebewesen der ovelären Planeten entwickelten im Verlauf dieser magisch beeinflussten Evolution eine magitive Wahrnehmung für Potenzunterschiede in ihrer Umgebung.
+Je weiter diese Entwicklung fortschritt, desto feiner konnten Wesen magische Vorgänge nicht nur spüren, sondern auch beeinflussen.
+Dies bedeutet jedoch nicht, dass jedes oveläre Volk Magie auf dieselbe Art nutzt.
+Die modernen Magieformen des Serpinit-Systems folgen zwar denselben Naturgesetzen, unterscheiden sich aber stark darin, auf welche Weise sie vorhandene Potenz überhaupt in eine belastbare Form bringen.
 
-So nutzen die Sodili-Lateralen eine pathologische, im Ritual der Do-Úspil geordnete Fehlkopplung ihres eigenen Geistes.
-Die Sylvanars wiederum wirken keine frei formulierbaren Zauber im Sinne der Runenmagie, sondern beeinflussen durch Gesänge und Tänze bereits bestehende magische Muster lebendiger Wesen in ihrer Umgebung.
-Auch die Blutrituale der Drachenkinder und die Edelsteinmagie der Varnops folgen letztlich denselben Grundlagen, sind jedoch an sehr spezielle Trägerstoffe und biologische Voraussetzungen gebunden.
+So nutzen die Sodili-Lateralen eine pathologische, im Ritual der [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) geordnete Fehlkopplung ihres eigenen Geistes.
+Die Sylvanars beeinflussen durch Gesänge und Tänze bereits bestehende magische Muster lebendiger Wesen in ihrer Umgebung.
+Auch die Blutrituale der Drachenkinder und die [Gemtech der Varnops](/content/Volk_/Varnops/Gemtech.md) folgen letztlich denselben Grundlagen, sind jedoch an sehr spezielle Trägerstoffe und biologische Voraussetzungen gebunden.
 
-Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war jedoch für die modernen Völker lange Zeit unbekannt.
-Viele Lebewesen konnten die aktiven Runensteine der Sgrisignier-Portale oder die Überreste der Magie in antiken Sgrisignier-Strukturen zwar prinzipiell spüren, jedoch war ihre magitive Wahrnehmung zu stumpfsinnig um die Feinheiten einer komplexen Sgrisignier-Rune auch nur ansatzweise erfassen zu können.
-Für die meisten Lebewesen war die magitive Wahrnehmung daher vor Allem ein Warnsystem.
-Spürbare Abweichungen vom Potenzpunkt eines wahrgenommenen Materials bedeuten, dass sich ein Wymen-Riss in der Nähe befindet, an dem sich potentiell immer Elementare bilden können.
-Erhöhte magische Potenz kann alternativ bedeuten, dass starke, potentiell gefährliche Magie in der Nähe stattfindet.
+## Wiederentdeckung der Runenlehre
 
-Die Lateralen entdeckten schließlich als erstes Volk das Phänomen der [Runenschatten](./Tjosand.md#magische-eigenschaften) in einer antiken Tjosand-Mine der Sgrisignier auf Agranum.
-Zuerst konnten sie zwar nur wenig mit diesen für sie kryptischen Schriftzeichen anfangen, doch mit den Conius-Lateralen entwickelte sich eine starkes Interesse gefolgt von einer gezielten Analyse ebendieser Schriftzeichen.
-Mit der Zeit verstanden die Conius die Verbindung zur Magie immer besser und erlangten so letztendlich als erstes Volk wieder das Wissen um die Existenz der dreidimensionalen, magischen Sgrisignier-Runen, auch wenn sie nicht in der Lage waren solch komplexe Runen selbst zu erstellen.
-In der Resrubor-Akademie wurden stattdessen mit der Zeit immer mehr Querschnitte von Sgrisignier Runen entschlüsselt.
-Einigen wenigen Teilen von Querschnitten von dreidimensionalen Sgrisignier-Runen konnte dabei ein konkreter magischer Effekt zugeordnet werden.
-Dies befähigte die Conius-Lateralen mit der zeit zumindest eine reduzierte Form der magischen Runen für sich nutzen zu können.
+Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war für die modernen Völker lange Zeit unbekannt.
+Viele Lebewesen konnten die aktiven Runensteine der Sgrisignier-Portale oder die Überreste der Magie in antiken Sgrisignier-Strukturen zwar prinzipiell spüren, jedoch reichte ihre Wahrnehmung meist nicht aus um die Feinheiten komplexer Runen zu erfassen.
 
-Es wird zwischen stumpfen, scharfen und aktiven Runen unterschieden.
-Stumpfe Runen sind z.B. aufgemalt und haben noch keinen direkten magischen Effekt.
-Während die Linien der Rune selbst aus einem Stoff mit einer sehr hohen Potenzleitfähigkeit bestehen müssen, sollte der Untergrund und die Umgebung wiederum eine niedrige Potenzleitfähigkeit haben, damit die Rune die Energie des Runenkerns effektiv leiten kann.
-Eine stumpfe Rune hat noch keinen aktiven Runenkern und kann daher von einem Lebewesen mit den entsprechenden magischen Fähigkeiten aktiviert ("scharf gemacht") werden.
-Scharfe Runen sind jedoch noch nicht zwingend aktiv, da ihre Aktivierung zum Beispiel noch von einem äußeren Faktor abhängt, ohne den die Rune keine Wirkung zeigt.
-Scharfe Runen werden bei fehlender Auslösung durch die Abkühlung des Runenkerns mit der Zeit schwächer und stumpfen ab.
-
+Die Lateralen entdeckten schließlich als erstes Volk das Phänomen der [Runenschatten](/content/Allgemein/Magie/Tjosand.md#magische-eigenschaften) in einer antiken Tjosand-Mine der Sgrisignier auf Agranum.
+Mit den [Conius-Lateralen](/content/Volk_/Lateralen_/Conius/index.md) entwickelte sich daraus ein systematisches Forschungsprogramm.
+In der [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) wurden immer mehr Querschnitte von Sgrisignier-Runen entschlüsselt und einzelnen Effekten zugeordnet.
+Dies befähigte die Conius-Lateralen mit der Zeit zumindest eine reduzierte Form der Runenmagie für sich zu nutzen und schuf die theoretische Grundlage der späteren [Ikusation](/content/Ereignis_/Ikusation.md).
 
 ## Mögliche Magieformen <span style="color: red;">(TODO)</span>
 
 ### Elementar
 
-Zusammenhang mit den Ovelären Planeten
+Zusammenhang mit den ovelären Planeten.
 
 ### Radiativ
 
-https://tvtropes.org/pmwiki/posts.php?discussion=14466949450A46998300&page=1
-
 ### Gravitativ
 
-https://powerlisting.fandom.com/wiki/Gravity_Manipulation
-
 Natürliche Vorkommen von Gravitationsenergie werden Gravids genannt.
-
 Größter bekannter Gravid ist die Gravidblase von Agranum.
 
 ### Floral
