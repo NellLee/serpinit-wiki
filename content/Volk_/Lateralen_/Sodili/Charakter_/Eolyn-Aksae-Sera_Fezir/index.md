@@ -1,4 +1,4 @@
-# Eolyn Sera (Waldläuferin) & Fezir (Adler)
+# Eolyn Sera & Fezir
 
 <!-- layout: overview -->
 
@@ -7,7 +7,7 @@
 |                      |                                                                                                         |
 | -------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Name:**            | Eolyn Aksae Sera                                                                                        |
-| **Titel / Klasse:**  | Waldläuferin                                                                                            |
+| **Rolle:**           | Kundschafterin und Handelsvertreterin                                                                   |
 | **Alter:**           | Junge Erwachsene                                                                                        |
 | **Geschlecht:**      | Weiblich                                                                                                |
 | **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/index.md)                                                    |
@@ -52,8 +52,10 @@ Mit fortschreitendem Alter verließen ihre Eltern selbst immer seltener die Stad
 Als Eolyn von ihren Eltern zur offiziellen Handelsvertreterin der Familie Sera ernannt wurde, war dies ein wichtiger Meilenstein in ihrem Leben.
 
 ### Aktuelle Situation
-Eolyns Teilnahme an der königlichen Ikusations-Expedition ist sowohl eine Ehre als auch eine Herausforderung.
+Eolyns Teilnahme an der königlichen [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) ist sowohl eine Ehre als auch eine Herausforderung.
 Sie sieht es als ihre Aufgabe, nicht nur die Interessen ihrer Familie zu vertreten, sondern auch ihren eigenen Wissensdurst zu stillen und ihre Fähigkeiten weiter zu verfeinern.
+Während der frühen Erschließung von [Aridess](/content/Himmelskoerper_/Aridess/index.md) gehört Eolyn zu den wichtigsten Späherinnen der Expedition.
+Insbesondere Fezirs scharfer Blick spielt eine entscheidende Rolle beim rechtzeitigen Erkennen von Bedrohungen und bei der ersten Annäherung an fremde Gruppen.
 
 ## Fähigkeiten und Kräfte
 
@@ -83,6 +85,7 @@ Sie trägt eine leichte, aber robuste Lederrüstung, die ihre Beweglichkeit nich
 
 ### Sonstiges
 Eolyn trägt stets ein Tagebuch bei sich, in dem sie ihre Entdeckungen und Beobachtungen festhält.
+Außerdem führt sie auf längeren Reisen meist eine kompakte Kundschafterausrüstung mit, darunter Seil, Laterne, Wasserschlauch, Notrationen und mehrere Reserveklingen.
 
 ## Beziehungen
 

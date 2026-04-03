@@ -1,15 +1,15 @@
-# Caelum Storringer (Paladin) & Tempest (Krokodil)
+# Caelum Storringer & Tempest
 
 ![Caelum Storringer](./images/Sodili-Lateral_Caelum-Froso-Storringer.png)
 
-**Name:** Caelum Froso Storringer**Titel/Klasse:** Paladin**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Sodili-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)**Beruf:** Mitglied der königlichen Garde
+**Name:** Caelum Froso Storringer**Rolle:** Gardist des Königshauses**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Sodili-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)**Beruf:** Mitglied der königlichen Garde
 
 ## Allgemein
 
 ### Aussehen
 Caelum ist ein imposanter Mann mit einer breiten Statur und einem ernsten Gesichtsausdruck.
 Sein kurzes, dunkles Haar ist meist unter seinem Helm verborgen, und seine Augen strahlen Entschlossenheit aus.
-Er trägt eine schwere Rüstung aus dem besten Stahl des Königreichs, und sein Schwert, das Symbol seiner Stellung als Paladin, ist stets an seiner Seite.
+Er trägt eine schwere Rüstung aus dem besten Stahl des Königreichs, und sein Schwert, Symbol seiner Stellung in der Garde, ist stets an seiner Seite.
 
 ### Persönlichkeit
 Caelum zeichnet sich durch seine unerschütterliche Treue und seinen starken Sinn für Gerechtigkeit aus.
@@ -43,6 +43,7 @@ Er nahm ihn in der Jugendgarde auf und wurde fortan zu seinem Mentor welcher ihm
 Seine Loyalität und sein Gerechtigkeitssinn brachten Caelum den Respekt des Königs ein, weshalb er auf Empfehlung persönlich vom König für die [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) ausgewählt wurde.
 Die Teilnahme an der Expedition ist für Caelum eine Ehre und möglicherweise sein letzter Schritt, bevor er zum Truppführer befördert wird.
 Neben der Aufgabe, die Gruppe zu schützen, soll er die Conius-Lateralen überwachen, eine Verantwortung, die er ernst nimmt, trotz oder gerade wegen seiner inneren Ängste gegenüber Magie.
+Auf [Aridess](/content/Himmelskoerper_/Aridess/index.md) tritt er immer wieder als jene Person hervor, die das unmittelbare Überleben der Gruppe über wissenschaftliche Neugier stellt.
 
 ## Fähigkeiten und Kräfte
 
@@ -65,7 +66,7 @@ Caelum ist besonders talentiert im (Schwert-)Kampf, im Schutz seiner Verbündete
 ## Ausrüstung
 
 ### Waffen
-Sein Schwert, das Symbol seiner Stellung als Paladin, ist stets an seiner Seite.
+Sein Schwert, das Symbol seiner Stellung in der Garde, ist stets an seiner Seite.
 
 ### Rüstung
 Caelum trägt eine schwere Rüstung aus dem besten Stahl des Königreichs.

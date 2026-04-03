@@ -1,77 +1,30 @@
-﻿# Widim Mandijit
+# Widim Mandijit
 
-Widim Mandijit, ein talentierter Conius und der Neffe von Ingvor Nemet Mandijit, wird von der Schulleitung der Resrubor-Akademie mit einer wichtigen Mission betraut.
-Als junger und vielversprechender Magier ist er auf dem Weg zu seinem Onkel, um eine verschlossene Schriftrolle zu Ã¼bergeben.
-Diese Rolle birgt eine streng geheime Information Ã¼ber einen Durchbruch in der Runenforschung, der die ErschlieÃŸung von Portalen ermÃ¶glicht.
+Widim Mandijit ist ein junger Conius und der Neffe von [Ingvor Nemet Mandijit](/content/Volk_/Lateralen_/Conius/Charakter_/Ingvor-Nemet-Mandijit/index.md).
+Als begabter Schüler der Resrubor-Akademie wurde er früh mit vertraulichen Botengängen betraut, da man ihm Disziplin, Verschwiegenheit und ernsthafte Wissbegier zuschrieb.
 
-## PersÃ¶nlichkeit
-Widim zeichnet sich durch seine Entschlossenheit und sein Streben nach Wissen aus.
-Als Verwandter von Ingvor teilt er die Leidenschaft fÃ¼r die Magie und das Streben nach Erkenntnis.
-Sein jugendlicher Enthusiasmus wird jedoch durch die Verantwortung, die ihm als Gesandter der Akademie zuteilwird, in den Hintergrund gedrÃ¤ngt.
+## Persönlichkeit
 
-Mission und Geheimnisse: Die Schulleitung der Resrubor-Akademie hat Widim beauftragt, Ingvor mit den streng vertraulichen Informationen zu konfrontieren.
-Die Schriftrolle informiert Ã¼ber einen bedeutenden Fortschritt in der Runenforschung, der die MÃ¶glichkeit erÃ¶ffnet, Portale zu Ã¶ffnen.
-Die Resrubor-Akademie plant eine globale Erkundungsinitiative und plant ein geheimes Treffen mit dem Sodili KÃ¶nig in wenigen Wochen.
-Die Brisanz dieser Informationen betont die Notwendigkeit strikter Geheimhaltung.
+Widim gilt als fleißig, introvertiert und ehrgeizig.
+Er neigt dazu, seine eigenen Fähigkeiten zu unterschätzen, versucht dies aber durch umso größere Gewissenhaftigkeit auszugleichen.
+Sein starkes Pflichtgefühl hängt auch mit dem Wunsch zusammen, dem Namen seiner Familie gerecht zu werden, ohne dabei einfach nur im Schatten seines berühmten Onkels zu stehen.
 
-Verantwortung und Zukunft: Widim steht vor der Herausforderung, die Nachricht an Ingvor zu Ã¼bermitteln und dabei die Tragweite der Informationen zu betonen.
-Seine Zukunft hÃ¤ngt nicht nur von seiner FÃ¤higkeit ab, die Nachricht sicher zu Ã¼berbringen, sondern auch davon, wie er mit den geheimen PlÃ¤nen der Akademie umgeht.
+## Rolle vor der Ikusation
 
-Widim Mandijit, als junger Magier, trÃ¤gt eine schwere Verantwortung auf seinen Schultern und steht vor einer wichtigen Mission, die nicht nur seine eigene Zukunft, sondern auch die Geschicke der Magiewelt beeinflussen kÃ¶nnte.
+Noch vor Beginn der [Ikusation](/content/Ereignis_/Ikusation.md) wurde Widim von der Leitung der Resrubor-Akademie zu Ingvor geschickt.
+Er sollte eine streng vertrauliche Nachricht über den bevorstehenden Durchbruch in der Portal-Forschung überbringen und Ingvor in den engeren Kreis der geheimen Vorbereitungen einbinden.
 
-<!-- callout: todo -->
-> **Todo:** Convert into char sheet pdf and sync with existing
+## Der Kulios-Zwischenfall
 
-Widim Mandijit - Human Wizard Apprentice
+Während des [Kulios-Zwischenfalls](/content/Ereignis_/Kulios-Zwischenfall.md) geriet Widim selbst in die Wirkung der instabilen Rune seines Onkels.
+In einem Akt panischer Selbstaufopferung brachte er sich näher an die Quelle der magischen Entladung und wurde dadurch beinahe vollständig ausgesaugt.
+Nur die kontrollierte Abschaltung der Rune rettete ihm das Leben.
 
-Background: Sage Alignment: Lawful Neutral
+## Späteres Leben
 
-Personality Traits:
+Widim überlebte den Vorfall, trug jedoch lange an den körperlichen und geistigen Folgen der Entkräftung.
+Die Resrubor-Akademie zog ihn daraufhin aus allen weiteren Außeneinsätzen ab.
+Offiziell geschah dies mit Verweis auf seine Rekonvaleszenz und sein junges Alter.
+Inoffiziell galt Widim seitdem als lebende Mahnung, wie rasch Forschung an Runen und Portalen selbst für disziplinierte Conius außer Kontrolle geraten konnte.
 
-Diligent and eager to prove himself to his uncle and the academy.
-Introverted but determined, especially when entrusted with important tasks.
-
-Ideals:
-
-Knowledge for the Future: Believes that the pursuit of knowledge is essential for the betterment of the future.
-
-Bonds:
-
-Uncle's Legacy: Feels a strong connection to his uncle, Ingvor Mandijit, and aspires to uphold the family legacy.
-
-Flaws:
-
-Insecurity: Often doubts his own abilities and worries about measuring up to the expectations placed on him.
-
-Background Feature: Researcher: Widim has access to the academy's extensive resources and can more easily navigate libraries and archives.
-
-Class Features (Wizard - School of Evocation):
-
-Evocation Savant: Reduces the gold and time required to copy evocation spells into his spellbook.
-Sculpt Spells: Can protect allies from the effects of his evocation spells.
-
-Stats:
-
-Strength: 10 (+0) Dexterity: 12 (+1) Constitution: 13 (+1) Intelligence: 16 (+3) Wisdom: 11 (+0) Charisma: 14 (+2)
-
-Proficiency Bonus: +2 Armor Class (AC): 11 (Dex modifier) Hit Points (HP): 18 (6 + 1x Con modifier) Speed: 30 feet
-
-Saves:
-
-Strength: +0 Dexterity: +1 Constitution: +1 Intelligence: +5 Wisdom: +0 Charisma: +2
-
-Skills:
-
-Arcana, Investigation, Insight, Persuasion
-
-Equipment:
-
-A quarterstaff A component pouch A scholar's pack A spellbook A letter from the academy's principal, sealed A set of common clothes A pouch containing 10 gp
-
-Spells:
-
-Cantrips: Mage Hand, Prestidigitation, Ray of Frost 1st-level Spells: Mage Armor, Magic Missile, Identify 2nd-level Spells: Mirror Image, Misty Step
-
-Widim Mandijit, though still an apprentice, has shown great promise in the pursuit of magical knowledge.
-As the chosen messenger of the academy's principal, he eagerly embarks on a journey to deliver the sealed letter to his uncle, Ingvor Mandijit.
-
+Aus diesem Grund blieb Widim später auf Agranum zurück und nahm nicht an der Feldarbeit der Ikusation teil.

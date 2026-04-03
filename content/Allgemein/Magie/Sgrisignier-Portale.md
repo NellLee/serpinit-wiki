@@ -29,6 +29,8 @@ DarÃ¼ber hinaus macht die Existenz der Chaos-Portale auch das Reisen mit vollk
 Ein Chaos-Portal bildet beim Verbindungsaufbau mit einem anderen Portal fÃ¼r kurze Zeit ein gerichtetes Teleportations-Dreieck mit dem Ziel-Portal und seinem eigentlichen GegenstÃ¼ck.
 Sollte also ein Lebewesen gerade auf dem regulÃ¤ren Weg zum Ziel-Portal sein, so kann es ebenfalls vom Chaos-Portal zerrissen werden.
 Die Conius-Lateralen fanden schlieÃŸlich einen Weg dieses PhÃ¤nomen zu unterbinden und starteten darauf basierend schlieÃŸlich die [Ikusation](/content/Ereignis_/Ikusation.md).
+Die frÃ¼hen Expeditionen der Ikusation zeigten jedoch auch, dass selbst gesicherte Portale nur einen Teil des Risikos beseitigen.
+Ein Zielort konnte weiterhin durch Klima, Gifte, Fauna oder politische UmstÃ¤nde unbenutzbar bleiben, wie sich etwa an den ersten Routen Ã¼ber [Aridess](/content/Himmelskoerper_/Aridess/index.md) und [Venoxi](/content/Himmelskoerper_/Venoxi/index.md) deutlich zeigte.
 
 ## Aufbau
 

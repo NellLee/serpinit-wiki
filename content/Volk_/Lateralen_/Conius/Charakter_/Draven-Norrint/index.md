@@ -2,7 +2,7 @@
 
 ![Draven Norint](./images/Conius-Lateral_Draven-Norint.png)
 
-**Name:** Draven Norint**Titel/Klasse:** Alchemist**Alter:** Teenager**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** Resrubor-Akademie**Beruf:** Schüler und Forscher an der Resrubor-Akademie
+**Name:** Draven Norint**Rolle:** Alchemist**Alter:** Teenager**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** Resrubor-Akademie**Beruf:** Schüler und Nachwuchsforscher an der Resrubor-Akademie
 
 ## Allgemein
 
@@ -38,9 +38,10 @@ Draven entwickelte einen besonders wirksamen Heiltrank, der ihm Anerkennung unte
 Auf Drängen seines Vaters wurde Draven in eine geheime Expedition (die [Ikusations-Expedition](/content/Ereignis_/Ikusation.md)) unter der Leitung von Vorian Sierfehl aufgenommen, in der Hoffnung, dass er die Bedeutung der Runenmagie erkennt.
 
 ### Aktuelle Situation
-Draven soll sich während der Ikusation an Kwint Gurdun halten und möglichst viel über die Runenmagie lernen.
+Draven soll sich während der [Ikusation](/content/Ereignis_/Ikusation.md) an [Kwint Gurdun](/content/Volk_/Lateralen_/Conius/Charakter_/Kwint-Gurdun/index.md) halten und möglichst viel über die Runenmagie lernen.
 Obwohl ihm dies missfällt, möchte er seinen Vater nicht wieder enttäuschen.
-Trotzdem versucht er die Expedition auch zu seinen Gunsten zu nutzen und sammelt heimlich Kräuter und andere Zutaten die er für Tränke gebrauchen könnte.
+Trotzdem versucht er die Expedition auch zu seinen Gunsten zu nutzen und sammelt unterwegs heimlich Kräuter, tierische Stoffe und andere Zutaten, die er für alchemistische Zwecke gebrauchen könnte.
+Gerade auf Aridess schärft die Expedition sein Verständnis dafür, dass Alchemie und Runenforschung nicht als getrennte Welten behandelt werden können.
 
 ## Fähigkeiten und Kräfte
 
@@ -65,7 +66,7 @@ Draven trägt keine traditionellen Waffen, sondern verlässt sich auf seine Wurf
 Er trägt keine schwere Rüstung, sondern eine robuste Alchemistenrobe, die gegen Hitze und chemische Angriffe schützt.
 
 ### Sonstiges
-Draven hat immer einen Vorrat an verschiedenen Tränken und alchemistischen Werkzeugen bei sich, einschließlich einer tragbaren Destille und einem Notizbuch mit seinen Rezepturen und Forschungsergebnissen.
+Draven hat immer einen Vorrat an verschiedenen Tränken, Wurffläschchen und alchemistischen Werkzeugen bei sich, einschließlich einer tragbaren Destille und einem Notizbuch mit seinen Rezepturen und Forschungsergebnissen.
 
 ## Beziehungen
 

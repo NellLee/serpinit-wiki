@@ -147,6 +147,20 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
+      <start>-0.01</start>
+      <end>-0.01</end>
+      <text>Kulios-Zwischenfall</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>/content/Ereignis_/Kulios-Zwischenfall.md</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
       <start>0.0</start>
       <end>0.0</end>
       <text>Beginn der Ikusation</text>
@@ -157,13 +171,36 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Ikusation</category>
-      <description>Die Resrubor-Lateralen haben die Funktionsweise der Sgrisignier-Portale erfolgreich analysiert
-              und ermöglichen eine gefahrlose Nutzung dieser. Sie starten außerdem gemeinsam mit ihren Artgenossen, den
-              Sodili, eine Initiative um sämtliche bewohnten Planeten des Sonnensystems zu vernetzen und einen Austausch
-              von Kultur, Gütern und Wissen zu ermöglichen. Dabei etablieren sie das Jahr 0 und eine neue Zeitrechnung
-              basierend auf dem Herzschlag des Planeten Navura.
-          </description>
+      <description>/content/Ereignis_/Ikusation.md</description>
       <labels>Agranum</labels>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>0.012</start>
+      <end>0.012</end>
+      <text>Aridess-Expedition</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Aridess</category>
+      <description>/content/Ereignis_/Aridess-Expedition.md</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>0.024</start>
+      <end>0.024</end>
+      <text>Erstkontakt mit den Varnops</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Aridess</category>
+      <description>/content/Ereignis_/Erstkontakt-Varnops.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>

@@ -36,8 +36,7 @@ Die Varnops profitieren insgesamt auÃŸerordentlich von den Folgen der Ikusatio
 Zum einen liefert die ErschlieÃŸung der Sgrisignier-Portale den Varnops eine Vielzahl an neuen HandelsmÃ¶glichkeiten.
 Zum Anderen kÃ¶nnen die Varnops mit Tjosand ihre gesamte Technologie schlieÃŸlich zusÃ¤tzlich stark verbessern.
 
-<!-- callout: note -->
-> **Note:** Der DnD-Plot setzt hier an.
+Der erste belastbare Kontakt zwischen Varnops und Lateralen wird im Rahmen der frühen [Ikusation](/content/Ereignis_/Ikusation.md) hergestellt und ist als [Erstkontakt mit den Varnops](/content/Ereignis_/Erstkontakt-Varnops.md) überliefert.
 
 # Gesellschaft
 

@@ -17,6 +17,12 @@ Die Magie Silvaas, welche die Erdreiche Navuras durchdringt, wird von unterschie
 Aus diesem Grunde und auch aufgrund der starken Fruchtbarkeit des Planeten wurde die Analogie zu einem lebendigen Herzen hergestellt.
 Dieser "Rhythmus" der Magie ist äußerst regelmäßig und wird sogar für die interplanetare Zeitrechnung genutzt.
 
+## Rolle in der frühen Ikusation
+
+Navura wurde den Lateralen bereits in einer sehr frühen Phase der [Ikusation](/content/Ereignis_/Ikusation.md) indirekt bekannt.
+Hinter einem giftigen Zwischenportal auf [Venoxi](/content/Himmelskoerper_/Venoxi/index.md) wurde von dort aus ein weiteres Portal nach Navura sichtbar.
+Damit zeichnete sich früh ab, dass die Portalrouten des Serpinit-Systems nicht nur direkte Verbindungen zwischen habitablen Welten, sondern auch lebensfeindliche Übergangsräume enthalten konnten.
+
 # Kristallmond
 <span style="color: red;">TODO</span> Pseudo-Realismus einfügen
 

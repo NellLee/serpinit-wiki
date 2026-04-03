@@ -1,13 +1,27 @@
-# Jaghati Kayn (Seemann) & Odin (Rabe)
+# Jaghati Kayn & Odin
 
-* **Stärken**: Jaghati ist ein geschickter Seemann mit umfangreicher Erfahrung auf hoher See. Seine Fähigkeiten als Swarmkeeper ermöglichen es ihm, seine Umgebung zu kontrollieren und Feinde aus der Ferne zu bekämpfen. Er ist auch ein Meister im Umgang mit seiner Hakenhand und der versteckten Pistole, die er geschickt einsetzt, um seine Gegner zu überraschen.
+Jaghati Kayn ist ein erfahrener Sodili-Seemann, der lange auf Handels- und Versorgungsschiffen im Einflussbereich von Carpebur gearbeitet hat.
+Sein Micu Odin ist ein kluger Rabe, der ihm auf Reisen als Späher und unruhiges Gewissen dient.
 
-* **Schwächen**: Trotz seiner Entschlossenheit, sich zu beweisen, kann Jaghati manchmal zu forsch sein und überstürzte Entscheidungen treffen. Seine Vergangenheit als Pirat hinterlässt manchmal noch Spuren in seinem Verhalten, was ihn dazu bringen kann, in gefährlichen Situationen zu stürzen.
+## Persönlichkeit
 
-* **Beschreibung**: Jaghati Kayn ist ein ehemaliger Pirat, der seine rücksichtslose Lebensweise hinter sich gelassen hat und nun auf der Suche nach einer Möglichkeit ist, sich zu beweisen. Er spielt auf Reichweite und nutzt seine Swarmkeeper-Fähigkeiten, um seine Gegner aus der Ferne zu bekämpfen. Seine Hakenhand, die eine versteckte Pistole enthält, ist ein Zeichen seiner Vergangenheit und ein Werkzeug, das er geschickt einsetzt, um sich in brenzligen Situationen zu behaupten. Obwohl er chaotisch neutral ist, versucht Jaghati das Richtige zu tun, inspiriert von seiner verstorbenen Frau, die ihn dazu ermutigte, tugendhaft zu sein, selbst nach ihrem Tod.
+Jaghati wirkt rau, direkt und manchmal vorschnell.
+Er versucht jedoch ernsthaft, sich als verlässlicher Teil einer größeren Gemeinschaft zu beweisen.
+Gerade darin liegt ein Spannungsfeld seines Charakters: Er will Verantwortung übernehmen, neigt aber dazu, sich in entscheidenden Momenten zu schnell vorzuwagen.
 
-* **Motivation**: Jaghati ist entschlossen, seinen eigenen Weg zu finden und sich von seiner Vergangenheit als Pirat zu lösen. Seine Suche nach Selbstbeweis und seine Bindung an seine verstorbene Frau treiben ihn an, auch wenn er manchmal zu forschen und unüberlegt handelt.
+## Hintergrund
 
-* **Micu (Odin)**: Odin ist ein kluger Rabe mit einer tiefen Bindung zu Jaghati. Er unterstützt ihn mit seinem scharfen Verstand und seiner geschickten Flugfähigkeit, und die beiden haben eine enge Partnerschaft entwickelt, die auf Vertrauen und gegenseitiger Unterstützung basiert.
+Vor seiner Beteiligung an der [Ikusation](/content/Ereignis_/Ikusation.md) verbrachte Jaghati einen großen Teil seines Lebens auf See.
+Er arbeitete auf Schiffen unterschiedlicher Qualität und lernte dabei sowohl ehrbare Handelsrouten als auch die zwielichtigeren Ränder des maritimen Lebens kennen.
+Diese Vergangenheit machte ihn misstrauisch, zäh und anpassungsfähig, ohne dass er dauerhaft in offene Gesetzlosigkeit abglitt.
 
-* **Aussehen**: Jaghati Kayn ist etwa 40 Jahre alt und von mittlerer Statur. Er hat schwarze Haare und ein markantes Gesicht, das von den Narben seiner Vergangenheit gezeichnet ist. Sein Aussehen strahlt Entschlossenheit und Entschlossenheit aus, auch wenn seine Augen manchmal von einem Hauch von Trauer und Reue gezeichnet sind.
+## Fähigkeiten
+
+Jaghatis größte Stärke liegt in seiner Erfahrung auf See.
+Er ist belastbar, improvisationsstark und kann Entfernungen, Wetterumschwünge und praktische Risiken erstaunlich gut einschätzen.
+Odin erweitert diese Stärken durch Wachsamkeit aus der Luft und eine enge nonverbale Abstimmung mit seinem Partner.
+
+## Rolle in der Ikusation
+
+Im Rahmen der frühen Ikusation gehörte Jaghati zu den sodilischen Kräften, die praktische Reiseerfahrung in die Expedition einbrachten.
+Gerade auf den ersten Wegen zwischen Küste, Lager und Portalstellungen war seine Fähigkeit wertvoll, sich auch unter Unsicherheit handlungsfähig zu halten.
