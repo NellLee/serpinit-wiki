@@ -147,6 +147,20 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
+      <start>-3.13</start>
+      <end>0.18</end>
+      <text>Globalisierung von Aridess</text>
+      <progress>0</progress>
+      <fuzzy>True</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Aridess</category>
+      <description>/content/Ereignis_/Globalisierung-Aridess.md</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
       <start>-0.01</start>
       <end>-0.01</end>
       <text>Kulios-Zwischenfall</text>
@@ -368,10 +382,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Agranum</category>
-      <description>Die Conius-Lateralen spalten sich aufgrund ihrer unterschiedlichen Sichtweisen von den Sodili ab
-            und gründen die Resrubor-Akademie. Hier werden junge Vertreter ihres Volkes von Ihrer Identitätsstörung
-            geheilt um weiterführend die Theorie der Magie zu studieren.
-        </description>
+      <description>/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
