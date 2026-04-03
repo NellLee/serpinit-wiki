@@ -26,7 +26,7 @@ Damit gab Creapatos ihnen eine äußerst abgeschwächte Form seiner eigenen Fäh
 ### Die Ovelären Planeten & die Elementdrachen
 
 Nachdem Creapatos die Sgrisignier erschaffen hatte, setzte er sich zur Ruhe und nahm sich vor seine Welt von nun an nicht mehr aktiv zu beeinflussen.
-Dafür löste er seine physische Form komplett auf und verteilte seine Energie gleichmäßig über ganz Wymen.
+Dafür löste er seine physische Form komplett auf und verteilte seine Energie gleichmäßig über ganz [Wymen](/content/Allgemein/Magie/Wymen.md).
 Diese Entscheidung hatte allerdings bedeutsame Nebenwirkungen.
 Trotz ihrer langfristigen Tragweite entschied sich der Drachengott weiterhin gegen eine Intervention und ließ der Welt ihren freien Lauf.
 Im Detail begann das aufgeladene Wymen in Wechselwirkung mit einigen Himmelskörpern zu treten.
