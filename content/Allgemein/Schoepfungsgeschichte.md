@@ -45,7 +45,7 @@ Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
 
 - Luft: **Aerion**, das Vertrauen (Agranum)
 - Wasser: **Fluero**, die Wehmut (Luqua)
-- Feuer: **Ignatius**, die Rage (Mognar)
+- Feuer: [**Ignatius**](/content/Allgemein/Ignatius.md), die Rage ([Mognar](../Himmelskoerper_/Mognar/index.md))
 - Erde: **Silvaa**, die Güte (Navura)
 
 Seit jeher fürchten die modernen Völker, dass die göttlichen Elementardrachen eines Tages aus ihren Eiern schlüpfen und sich unvorhergesehene Folgen für das gesamte Serpinit-System manifestieren.
