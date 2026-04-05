@@ -16,6 +16,7 @@ Es gibt ganze Städte dieses Volkes in den geheimnisvollen Wäldern, da sie die 
 Die Magie Silvaas, welche die Erdreiche Navuras durchdringt, wird von unterschiedlichen sensiblen Lebensformen als ein leichtes Pulsieren wahrgenommen.
 Aus diesem Grunde und auch aufgrund der starken Fruchtbarkeit des Planeten wurde die Analogie zu einem lebendigen Herzen hergestellt.
 Dieser Rhythmus der Magie ist äußerst regelmäßig und wird sogar für die interplanetare Zeitrechnung genutzt.
+Die daraus abgeleitete kleinste Standardeinheit ist die [Pulsene](/content/Allgemein/Pulsene.md).
 
 ## Rolle in der frühen Ikusation
 

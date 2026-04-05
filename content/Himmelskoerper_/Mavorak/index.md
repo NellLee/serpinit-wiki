@@ -15,3 +15,4 @@ Mavorak ist ein äußerst kleines schwarzes Loch im Zentrum des Serpinit-Systems
 Mavorak wird "Ikus' Augenlid" genannt, da das schwarze Loch bei seinem Orbit regelmäßig das Licht des Sterns für dahinter liegende Planeten teilweise absorbiert.
 
 Um die Geschichte des Serpinit-Systems besser aufzeichnen zu können, wurde ein Zyklus von Mavorak um Ikus als historische Zeiteinheit etabliert.
+Der zugehörige Hauptartikel ist [Mavorak-Zyklus](/content/Allgemein/Mavorak-Zyklus.md).
