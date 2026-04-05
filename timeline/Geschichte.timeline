@@ -274,6 +274,20 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
+      <start>-349703.9995</start>
+      <end>-349703.9995</end>
+      <text>Impuls-Eruption auf Agranum</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>/content/Ereignis_/Impuls-Eruption.md</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
       <start>-372606.0</start>
       <end>-372606.0</end>
       <text>Creapatos' Vier-Teilung</text>
