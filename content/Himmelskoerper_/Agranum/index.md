@@ -12,11 +12,12 @@ Gerade diese Entwicklung führte schließlich zur [Impuls-Eruption](/content/Ere
 
 ## Die Impuls-Eruption
 
-Die Impuls-Eruption war jener Schlag Aerions, mit dem die Sgrisignier auf Agranum vernichtet und zugleich große Teile der Planetengestalt dauerhaft verändert wurden.
+Die Impuls-Eruption war jener Schlag [Aerions](/content/Allgemein/Aerion.md), mit dem die Sgrisignier auf Agranum vernichtet und zugleich große Teile der Planetengestalt dauerhaft verändert wurden.
 Der magische Impuls zerriss die Oberfläche des Planeten und machte aus dem einst geschlossenen Himmelskörper eine Welt schwebender Landmassen, schwer gestörter Schwereverhältnisse und radikal veränderter Lebensräume.
 
 Dieses Ereignis ist nicht nur für die Geografie Agranums bedeutsam.
 Es bildet auch den entscheidenden Hintergrund für die spätere Entwicklung der [Lateralen](/content/Volk_/Lateralen_/index.md), deren Vorfahren dabei auf folgenschwere Weise magisch verletzt wurden.
+Diese Beschädigung wird im Bestand als [Psychische Verstümmelung der Lateralen](/content/Ereignis_/Psychische-Verstuemmelung-der-Lateralen.md) gefasst.
 Der Hauptartikel dazu ist [Impuls-Eruption](/content/Ereignis_/Impuls-Eruption.md).
 
 ## Die Gravidblase und die Gravitationsozeane

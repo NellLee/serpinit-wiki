@@ -454,7 +454,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Agranum</category>
-      <description>Die Sgrisignier hatten bei ihren magischen Experimenten mit den Lateralen Spuren hinterlassen. Als die Agranum-Rune detonierte und der Elementdrache Aerion den Sferin-Stoß als Antwort entsendete, vernichtete er auch einen Teil des Verstandes der Lateralen. Er löschte die Nutzung der Tjomanten einfach aus ihren Gehirnen, und zwar auf einer genetischen Ebene. Die Folge war jedoch, dass neugeborene Lateralen eine genetisch bedingte dissoziative Identitätsstörung entwickelten. Jedem geborenen Lateralen wurde auf intuitive magische Art und Weise ein Teil ihres Verstandes genommen, die sie jedoch nie besaßen. Meist äußerte sich diese Störung in nur einer einzigen weiteren Persönlichkeit, häufig in Tiergestalt.</description>
+      <description>/content/Ereignis_/Psychische-Verstuemmelung-der-Lateralen.md</description>
       <default_color>192,192,192</default_color>
     </event>
   </events>

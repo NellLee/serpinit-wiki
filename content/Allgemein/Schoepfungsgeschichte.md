@@ -43,7 +43,7 @@ Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und 
 Dabei kann man sich jeden dieser 4 Planetenkerne als ein riesiges Drachenei bestehend aus göttlicher magischer Substanz vorstellen.
 Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
 
-- Luft: **Aerion**, das Vertrauen (Agranum)
+- Luft: [**Aerion**](/content/Allgemein/Aerion.md), das Vertrauen ([Agranum](../Himmelskoerper_/Agranum/index.md))
 - Wasser: [**Fluero**](/content/Allgemein/Fluero.md), die Wehmut ([Luqua](../Himmelskoerper_/Luqua/index.md))
 - Feuer: [**Ignatius**](/content/Allgemein/Ignatius.md), die Rage ([Mognar](../Himmelskoerper_/Mognar/index.md))
 - Erde: [**Silvaa**](/content/Allgemein/Silvaa.md), die Güte ([Navura](../Himmelskoerper_/Navura/index.md))

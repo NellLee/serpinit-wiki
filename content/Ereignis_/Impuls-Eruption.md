@@ -1,6 +1,6 @@
 # Impuls-Eruption
 
-Als Impuls-Eruption wird das katastrophale Ereignis bezeichnet, bei dem der Elementardrache Aerion die auf [Agranum](/content/Himmelskoerper_/Agranum/index.md) verbliebenen [Sgrisignier](/content/Volk_/Sgrisignier/index.md) vernichtete und dabei die Oberfläche des Planeten dauerhaft veränderte.
+Als Impuls-Eruption wird das katastrophale Ereignis bezeichnet, bei dem der Elementardrache [Aerion](/content/Allgemein/Aerion.md) die auf [Agranum](/content/Himmelskoerper_/Agranum/index.md) verbliebenen [Sgrisignier](/content/Volk_/Sgrisignier/index.md) vernichtete und dabei die Oberfläche des Planeten dauerhaft veränderte.
 Die Impuls-Eruption markiert einen der tiefsten Einschnitte der gesamten Geschichte des Serpinit-Systems.
 
 ## Vorgeschichte
@@ -33,6 +33,7 @@ Sie war zugleich Planetenspaltung, Massensterben und Geburtsmoment des späteren
 Die Magie Aerions traf nicht nur die Sgrisignier.
 Da deren frühere Eingriffe bereits Spuren in den Vorfahren der späteren [Lateralen](/content/Volk_/Lateralen_/index.md) hinterlassen hatten, wirkte der Impuls auch auf diese Lebewesen ein.
 Bei den Überlebenden und ihren Nachfahren blieb eine folgenschwere Fehlkopplung im Gehirn zurück, die später für Micu, [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) und conische Therapien zentral wurde.
+Der zusammenhängende historische Zusammenhang ist im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis_/Psychische-Verstuemmelung-der-Lateralen.md) beschrieben.
 
 Die Impuls-Eruption ist deshalb nicht nur für die Planetengeschichte Agranums bedeutsam, sondern auch für die gesamte spätere Entwicklung der Lateralen.
 

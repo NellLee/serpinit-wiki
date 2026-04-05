@@ -12,12 +12,13 @@ Im Allgemeinen wird bei Lateralen zwischen [Sodili](./Sodili/index.md) und [Coni
 Schon früh experimentieren die [Sgrisignier](/content/Volk_/Sgrisignier/index.md) zu ihrer persönlichen Belustigung auf magische Weise mit den *homo primian* auf Agranum.
 Sie erschaffen dafür kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier verwandeln.
 Zuerst sind die Affenartigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fangen sie an den Effekt der Runensteine zu verstehen und sie schließlich für die Jagd zu nutzen.
-Als die Sgrisignier schließlich von Aerion im Zuge der Impuls-Eruption vernichtet werden, richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in ihrer Genetik hinterlassen.
+Als die Sgrisignier schließlich von [Aerion](/content/Allgemein/Aerion.md) im Zuge der [Impuls-Eruption](/content/Ereignis_/Impuls-Eruption.md) vernichtet werden, richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in ihrer Genetik hinterlassen.
 Zwar werden sie durch die Magie Aerions nicht vernichtet, doch der magische Impuls hat zur Folge, dass alle gegenwärtigen und künftig gezeugten *homo primian* eine Spaltung ihres Geistes durchmachen müssen, weshalb sie seit diesem Ereignis auch als *homo primian fractus* bezeichnet werden.
 Das ihnen fortan angeborene psychische Trauma führt im Allgemeinen noch vor der Geburt zur Bildung einer zweiten inneren Persönlichkeit.
 Der Grund dafür liegt nicht allein in einer psychischen Beschädigung.
 Vielmehr wurde durch Aerions Impuls bei den Nachfahren der betroffenen *homo primian* eine kleine, aber folgenreiche Fehlstelle im Gehirn hinterlassen, an welcher durchgehend magische Potenz aus dem Wymen in die natürlichen Denkvorgänge einwirkt.
 Diese stetige Fehlkopplung verstärkt die angeborene Zweiteilung des Geistes immer weiter.
+Der zusammenhängende Bruch wird im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis_/Psychische-Verstuemmelung-der-Lateralen.md) gebündelt.
 Hinzu kommt, dass der Bruch des Planeten Agranum nicht nur ein Massenaussterben nach sich zieht, welches die meisten Lebewesen auf Agranum umbringt, sondern für die übrigen Lebewesen einen komplett neuen Lebensraum schafft, an den diese sich anpassen müssen.
 
 ## Evolution der Sodili-Lateralen
