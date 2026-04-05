@@ -106,6 +106,23 @@ Collection metadata will live separately in index documents.
 
 This keeps reuse and versioning simple and avoids large monolithic files.
 
+### Index Authority
+
+`runes/index/` is authoritative for library discovery and navigation in the first slice.
+The app should not discover runic documents by ad hoc recursive directory scanning.
+
+Index documents exist to provide:
+
+- stable ordering
+- grouping by document kind
+- curated visibility in the inspector
+- predictable inputs for later automation and skills
+
+The source of truth for a definition remains the referenced per-file JSON document.
+The source of truth for library membership and inspector discovery is the relevant index document.
+
+This intentionally accepts explicit registration work in exchange for deterministic behavior and avoidance of stale implicit discovery rules.
+
 ## Data Model Shape
 
 The first schema cut should stay intentionally small.
@@ -120,7 +137,7 @@ Each runic document needs:
 - semantic meaning
 - topological structure
 - geometry
-- current 2D projection data
+- canonical 2D projection description
 - compositional references
 
 ### Conceptual Sections
@@ -136,9 +153,55 @@ The model should separate these concerns:
 4. Geometry
    Renderer-neutral spatial placement.
 5. Projection
-   Current 2D projection hints only.
+   Canonical renderer-agnostic 2D projection description.
 6. Composition
    Imports and instantiated substructures.
+
+### Minimum Required Fields
+
+The first slice must define one shared core contract plus document-kind-specific requirements.
+
+Shared required top-level fields:
+
+- `id`
+- `name`
+- `kind`
+- `version`
+- `description`
+- `semantics`
+- `topology`
+- `geometry`
+- `projection2d`
+
+Optional top-level fields:
+
+- `constraints`
+- `imports`
+- `instances`
+- `notes`
+
+The first slice should support these `kind` values:
+
+- `primitive`
+- `structure`
+- `rune`
+
+Minimum kind-specific expectations:
+
+- `primitive`
+  Must define its own local elements, local topology, and a self-contained canonical 2D projection.
+- `structure`
+  May define local elements directly and may also compose imported definitions through `instances`.
+- `rune`
+  Must represent a complete assembled definition and may combine direct local definitions with imported instances.
+
+### Reference Format
+
+Composition references must be explicit and file-stable.
+The first slice should use document ids as canonical cross-document references.
+Index documents map library groupings to those ids, and app-side loading resolves ids to files through the index layer.
+
+This avoids file-path coupling in the canonical structure definitions and keeps renames manageable.
 
 ### Dimensions
 
@@ -150,6 +213,102 @@ In practice this means:
 - geometry must be stored in neutral coordinate structures
 - rendering-specific SVG path logic must stay in the app layer
 - 2D projection data may exist, but it must be clearly distinguished from the canonical geometry
+
+### Projection Boundary
+
+The first slice deliberately keeps a canonical 2D projection description inside each runic document.
+This is not a contradiction of the canonical/app separation.
+It is part of the canonical runic definition because reduced 2D readability is itself part of the lore and working model.
+
+Allowed in canonical `projection2d`:
+
+- radial layer assignments
+- sector assignments
+- sector spans
+- layer spans
+- canonical orientation metadata
+- renderer-neutral shape families
+- renderer-neutral relation path modes
+
+Not allowed in canonical `projection2d`:
+
+- raw SVG path strings
+- CSS classes
+- concrete colors for app styling
+- pixel-tuned screen coordinates
+- app layout metadata such as panel state or inspector preferences
+
+The app is responsible for deriving final SVG primitives, labels, visual styling, and interaction state from the canonical projection description.
+
+### Radial Projection System
+
+The canonical 2D projection model for the first slice uses a discrete radial system centered on the runic core.
+
+The projection system must include:
+
+- concentric layers
+- eight named sectors
+- optional offsets and spans within those layers and sectors
+- an orientation frame that describes how the projection is embedded relative to the physical world
+
+The sector system is not decorative.
+It is a reduced 2D expression of vendotic syntax.
+
+### Sector Axes
+
+The first slice defines eight sectors through three binary axes:
+
+1. Gravitative mode
+   - `hebend`
+   - `senkend`
+2. Polar mode
+   - `polwaerts`
+   - `feldwaerts`
+3. Rotative mode
+   - `fortlaufend`
+   - `gegenlaufend`
+
+These three binary axes produce the eight named sector classes used in canonical 2D projection.
+
+### Sector Set
+
+The first slice should use this sector set and treat the names as canonical:
+
+- `auslass`
+- `lenkung`
+- `entfaltung`
+- `spaltung`
+- `praegung`
+- `siegelung`
+- `sammlung`
+- `begrenzung`
+
+These sectors are positions with weak functional tendencies, not hard single-word meanings.
+Concrete meaning still depends on primitive kind, radial position, topology, and composition.
+
+### Sector Oppositions
+
+The sector model should preserve four opposition pairs:
+
+- `auslass` ↔ `begrenzung`
+- `lenkung` ↔ `sammlung`
+- `entfaltung` ↔ `siegelung`
+- `spaltung` ↔ `praegung`
+
+Opposition is defined by inversion across the three binary sector axes, not by arbitrary placement.
+
+### Orientation Frame
+
+Vendos is treated as the syntax and semantics of ordered magical form, not as a global directional field.
+Therefore, physical orientation must be represented separately from vendotic structure.
+
+The first slice should model a canonical 2D orientation frame that can later grow without breaking compatibility.
+At minimum, the orientation frame must allow the definition to state how its projected sector system is embedded relative to physical conditions such as local gravity and any target-facing anchor orientation.
+
+The exact field names can be finalized in the implementation plan, but the schema and plan must preserve this distinction:
+
+- vendotic structure defines meaning
+- physical orientation defines embedding and operational alignment
 
 ## Initial Semantic Inventory
 
