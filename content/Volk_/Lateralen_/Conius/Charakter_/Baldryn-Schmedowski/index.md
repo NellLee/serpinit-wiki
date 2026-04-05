@@ -1,7 +1,7 @@
 ﻿# Baldryn Schmedowski
 
 <!-- callout: note -->
-> **Note:** Dieser Charaktertext baut auf einem Ã¤lteren, noch nicht vollstÃ¤ndig kanonisierten Artefakt-Konzept auf. Er bleibt vorerst als Altbestand erhalten und ist bis zur spÃ¤teren KanonklÃ¤rung dieses Magiezweigs nicht als vollstÃ¤ndig gesicherte Lore zu lesen.
+> **Note:** Dieser Charaktertext baut auf einem Ã¤lteren, noch nicht vollstÃ¤ndig kanonisierten Artefakt-Konzept auf. Er bleibt vorerst als Altbestand erhalten und ist bis zur spÃ¤teren KanonklÃ¤rung dieses Magiezweigs nicht als vollstÃ¤ndig gesicherte Lore zu lesen. Zum konzeptionellen Hintergrund siehe [Sylvanar-Artefakte](/content/Volk_/Sylvanar/Artefakte.md).
 ![Bild des Charakters](Link-zum-Bild)
 
 **Name:** Baldryn Schmedowski**Rolle:** Meister der Artefakte**Alter:** Alter des Charakters**Geschlecht:** Geschlecht des Charakters**Spezies/Rasse:** Spezies oder Rasse des Charakters**Heimat:** Geburtsort oder aktueller Wohnort**Beruf:** Beruf oder Rolle in der Welt
