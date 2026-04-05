@@ -18,6 +18,12 @@ Aus diesem Grunde und auch aufgrund der starken Fruchtbarkeit des Planeten wurde
 Dieser Rhythmus der Magie ist äußerst regelmäßig und wird sogar für die interplanetare Zeitrechnung genutzt.
 Die daraus abgeleitete kleinste Standardeinheit ist die [Pulsene](/content/Allgemein/Pulsene.md).
 
+## Silvaas Einfluss
+
+Navura gehört zu jenen Welten, deren planetare Identität ohne den im Kern ruhenden Elementardrachen kaum zu verstehen ist.
+Die Gegenwart [Silvaas](/content/Allgemein/Silvaa.md) erscheint hier nicht als offenes Eingreifen, sondern als fortwährende Fruchtbarkeit, als rhythmisches Pulsieren und als enge Bindung zwischen Landschaft und Leben.
+Gerade deshalb wird Silvaa von vielen Bewohnern Navuras weniger als ferne Gottheit denn als ständig spürbarer Grundzustand ihrer Welt verstanden.
+
 ## Rolle in der frühen Ikusation
 
 Navura wurde den Lateralen bereits in einer sehr frühen Phase der [Ikusation](/content/Ereignis_/Ikusation.md) indirekt bekannt.
