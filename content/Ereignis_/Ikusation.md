@@ -66,4 +66,4 @@ Die Ikusation führte langfristig dazu, dass sämtliche intelligenten Völker de
 Sie schuf neue Handelswege, beschleunigte den Austausch magischer Theorien und technischer Verfahren und verschob bestehende Machtverhältnisse im gesamten Serpinit-System.
 
 Gleichzeitig legte die Ikusation auch den Grundstein für neue Konflikte.
-Die Öffnung weiterer Portale führte mittelbar zum Kontakt mit Navura und Mognar und damit zum späteren Krieg zwischen den Drachenkindern und den Sylvanars.
+Die Öffnung weiterer Portale führte mittelbar zum Kontakt mit Navura und Mognar und damit zu einer neuen historischen Phase des [Krieges um Navura](/content/Ereignis_/Krieg-um-Navura.md).

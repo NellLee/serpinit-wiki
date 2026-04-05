@@ -59,7 +59,7 @@ Die modernen Magieformen des Serpinit-Systems folgen zwar denselben Naturgesetze
 
 So nutzen die Sodili-Lateralen eine pathologische, im Ritual der [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) geordnete Fehlkopplung ihres eigenen Geistes.
 Die Sylvanars beeinflussen durch Gesänge und Tänze bereits bestehende magische Muster lebendiger Wesen in ihrer Umgebung.
-Auch die Blutrituale der Drachenkinder und die [Gemtech der Varnops](/content/Volk_/Varnops/Gemtech.md) folgen letztlich denselben Grundlagen, sind jedoch an sehr spezielle Trägerstoffe und biologische Voraussetzungen gebunden.
+Auch die [Blutrituale der Drachenkinder](/content/Volk_/Drachenkinder/Blutrituale.md) und die [Gemtech der Varnops](/content/Volk_/Varnops/Gemtech.md) folgen letztlich denselben Grundlagen, sind jedoch an sehr spezielle Trägerstoffe und biologische Voraussetzungen gebunden.
 
 ## Wiederentdeckung der Runenlehre
 

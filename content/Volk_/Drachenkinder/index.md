@@ -1,88 +1,73 @@
 # Die Drachenkinder
 
+Die Drachenkinder sind ein künstlich geschaffenes Volk des Serpinit-Systems.
+Sie wurden auf [Mognar](/content/Himmelskoerper_/Mognar/index.md) durch Ignatius aus verbannten [Sylvanars](/content/Volk_/Sylvanar/index.md) neu geformt und tragen bis heute die Folgen dieser gewaltsamen Herkunft.
+Ihre Geschichte ist eng mit dem [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md), dem Verlust ihrer ursprünglichen Magie und dem Aufstieg der [Blutrituale](/content/Volk_/Drachenkinder/Blutrituale.md) verbunden.
+
 # Entstehung
 
-Die Drachenkinder entstanden nicht wie die anderen Völker durch natürliche Evolution.
-Sie wurden auf Mognar von Ignatius geschaffen.
-Ignatius nutzte dabei die Körper von Sylvanars welche von ihren Artgenossen verbannt wurden.
-Ignatius füllte ihre Körper mit neuem Leben, indem er das Blut in ihren Adern mit Magie anreicherte und so sinnbildlich zum Kochen brachte.
-Die Sylvanars wurden so zu einem neuen Volk geformt, welches äußerlich Ähnlichkeiten mit den Drachen aufwies.
+Die Drachenkinder entstanden nicht wie die anderen modernen Völker durch natürliche Evolution.
+Ignatius nutzte die Körper verbannter Sylvanars und füllte ihr Blut mit seiner wutverzerrten Magie.
+So entstand ein neues Volk, das äußerlich deutlich an Drachen erinnert und dessen innere Magiestruktur von Anfang an unausgewogen war.
 
-Da die Drachenkinder von Ignatius künstlich geschaffen wurden, konnten sich ihre Fähigkeiten und Verhaltensweisen nicht durch Evolution ausgewogen entwickeln.
-Dieses Volk ist daher im Allgemeinen unausgewogen und wird häufig sogar als grundsätzlich böse bezeichnet.
+Gerade die ersten Generationen trugen noch Erinnerungsreste und emotionale Spannungen aus ihrem früheren Leben in sich.
+Aus dieser deformierten Herkunft erwuchs der tiefe Hass vieler Drachenkinder auf die Sylvanars und die Fixierung auf [Navura](/content/Himmelskoerper_/Navura/index.md), das sie zugleich als verlorene Heimat und als rechtmäßiges Erbe deuteten.
 
 # Lebensraum
 
-Die Kinder der Drachen leben seit ihrer Erschaffung hauptsächlich auf Mognar.
-Obwohl sie diesen Planeten nahezu gänzlich für sich allein haben, waren die Drachenkinder von Anfang an neidisch auf die Sylvanars und auf ihren Planeten Navura.
-Der Hass auf die Sylvanars rührt vor allem daher, dass die ersten Drachenkinder ihre Erinnerungen nach der Wiederauferstehung behielten und die
+Die Drachenkinder leben seit ihrer Erschaffung vor allem auf Mognar.
+Fast ihr gesamter verbliebener Bestand konzentriert sich in der Hauptstadt Zanguor.
+Trotz dieser eigenen Welt blieb Navura über viele Zyklen der entscheidende Bezugspunkt ihres politischen und religiösen Selbstverständnisses.
 
-Auf Mognar befindet sich die Hauptstadt Zanguor, welche fast alle ihrer Art beherbergt.
-
-Die Drachenkinder haben seit der Ikusation viele Versuche unternommen die Sylvanars von Navura zu vertreiben, doch die Naturzauber der Sylvanars waren immer zu mächtig.
-
-Nachdem ein weiterer, ganz bestimmter Angriff der Drachenkinder fehlschlug, verloren sie einen Großteil ihrer magischen Kräfte.
-
-Mit der Zeit entstand im Herzen von Zangour dann der Blutvulkan der eine zentrale Rolle im Magiegebrauch der Drachenkinder spielte, nachdem sie ihre natürliche Magie verloren.
+Der Krieg gegen die Bewohner Navuras war daher nie nur ein äußerer Feldzug.
+Er war für viele Drachenkinder ein Versuch, die eigene Herkunft umzudeuten und ihre Stellung im Serpinit-System gewaltsam zu behaupten.
+Der historische Zusammenhang wird im Artikel [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) beschrieben.
 
 # Gesellschaft
 
-Der Bestand dieses Volkes ist im Vergleich zu den anderen Völkern sehr klein.
-Dies liegt allerdings nicht daran, dass die Gruppe der Sylvanars aus welchen die Drachenkinder entstanden nicht besonders groß war, denn die Drachenkinder sind im Grunde sehr fruchtbar.
-Doch die vielen Kriege und die andauernden Feindschaften mit anderen Völkern wie den Sylvanars forderten immer wieder ihren Tribut.
-Der verbliebene Bestand lebt größtenteils in der Hautstadt Zanguor, unter der Führung eines einzelnen mächtigen Drachenkindes.
-Die Art der Regierung gleicht dabei einer von der Allgemeinheit akzeptierten Diktatur, wobei hin und wieder das machthabende Drachenkind ermordet und von seinem Mörder ersetzt wird.
-Da bei den Drachenkindern seit ihrer großen Niederlage politische Macht auch magische Macht mit sich zieht, ist ein solcher Mordversuch nicht einfach umzusetzen.
+Der Bestand dieses Volkes ist im Vergleich zu anderen Völkern gering.
+Nicht mangelnde Fruchtbarkeit, sondern die lange Kette aus Kriegen, Feindschaften und inneren Machtkämpfen hat diese geringe Zahl hervorgebracht.
 
-Alle Drachenkinder müssen seit dem Verlust ihrer Magie, sobald sie ausgewachsen sind regelmäßig Blutzoll an ihren Herrscher zahlen.
-Wer dem momentanen Herrscher mit einem einmaligen Blutschwur ewige Treue und ungebrochene Loyalität bietet, der kann diese Bezahlung zeit seines Lebens aussetzen.
-Stirbt jedoch ein Herrscher, so werden die Blutgeschworenen aufgrund ihrer Loyalität ausnahmslos exekutiert.
+Die Herrschaftsform der Drachenkinder gleicht einer allgemein akzeptierten Diktatur.
+An der Spitze steht jeweils ein einzelnes mächtiges Drachenkind, das seinen Anspruch nicht nur politisch, sondern auch magisch sichern muss.
+Gerade seit der großen Niederlage auf Navura hängt Herrschaft eng mit der Kontrolle über rituelle Blutmagie zusammen.
+
+Aus dieser Ordnung ging auch der Blutzoll hervor.
+Er bindet den Bestand Zanguors materiell und magisch an den jeweiligen Herrscher.
+Die politische und magische Logik dahinter wird im Überblick zu den [Blutritualen](/content/Volk_/Drachenkinder/Blutrituale.md) zusammengefasst.
+
+Eine späte Folge des Navura-Konflikts war zudem die [Polarisierung der Drachenkinder](/content/Ereignis_/Polarisierung-der-Drachenkinder.md).
+Sie machte sichtbar, dass das Volk nicht mehr geschlossen denselben Anspruch auf Krieg, Herkunft und Zukunft teilte.
 
 # Aussehen
 
 Drachenkinder sind größer als die meisten Vertreter der anderen Völker.
-Die Wirbelsäule eines Drachenkindes geht in einen langen Schwanz über, der ebenso wie der Rücken mit Stacheln besetzt ist.
-Ihre Köpfe sind überwiegend gehörnt, sehr kantig und massiv, mit einem breiten Kiefer und einem Mund der mehr einem großen Maul gleicht.
-Auch ihre Extremitäten enden eher in großen Pranken als in tatsächlichen Händen und Füßen.
+Ihre Wirbelsäule geht in einen langen, stachelbesetzten Schwanz über.
+Auch Rücken, Kopf und Extremitäten erinnern eher an drachische als an humanoide Formen.
 
-Alle ursprünglichen Drachenkinder hatten zudem große Schwingen am Rücken, deren Spannweite ihre Körpergröße weit übertrifft.
-Von diesen ist jedoch nichts weiter übrig als kleine, knubbelige Knochenstummel knapp unterhalb der Schulterblätter.
+Die ursprünglichen Drachenkinder besaßen außerdem große Schwingen und konnten Feuer speien.
+Von diesen Merkmalen blieben nach dem großen sylvanarischen Bann nur rudimentäre Knochenstummel unterhalb der Schulterblätter und die Erinnerung an verlorene Fähigkeiten.
 
 # Theologie
 
-Die Drachenkinder glauben wie viele andere Völker auch an die serpinitären Lehren.
-Es ist jedoch allgemein bekannt, dass die Drachenkinder diese Lehren sehr verzerrt und zu Ihren Gunsten auslegen.
+Die Drachenkinder orientieren sich grundsätzlich an serpinitären Lehren, deuten diese jedoch stark zu ihren Gunsten um.
+Sie sehen sich als dem Bild Creapatos' am nächsten stehend und lesen die späteren Drachengötter als Bestätigung ihres eigenen Vorrangs.
 
-Sie sehen sich als direkte Nachfahren des großen Schöpferdrachen.
-In ihrem Glauben wurden nur sie von Creapatos gezielt erschaffen, die anderen Völkern sind demnach mehr oder weniger durch Zufall entstanden.
-Aus diesem Grunde entsprechen auch nur die Drachenkinder dem Abbild des Gottes.
-Sie sehen außerdem jeden der späteren Götterdrachen in einem Aspekt ihres Lebens.
+Ignatius gilt ihnen als Ursprung des magischen Feuers.
+Aerion wird mit den verlorenen Schwingen verbunden.
+Fluero steht für das magische Blut.
+Vor allem aber leiten viele Drachenkinder aus Silvaa einen vermeintlich rechtmäßigen Anspruch auf Navura ab.
+Daraus erwächst die Überzeugung, dass die Sylvanars dort kein eigentliches Bleiberecht hätten.
 
-So hat Ihnen Ignatius das magische Feuer geschenkt, dessen sie schon bald beraubt wurden.
-
-Aerion hat ihnen die großen Schwingen geschenkt, die ihnen ebenfalls wieder genommen wurden.
-
-Silvaa hat Ihnen angeblich rechtmäßig den Planeten Navura überlassen.
-Daher glauben die Drachenkinder auch, dass die Sylvanars kein Bleiberecht auf dem Planeten hätten und hegen den Wunsch sie zu vertreiben bzw. auszurotten.
-
-Und schließlich hat Fluero ihnen magisches Blut geschenkt, welches ihre direkte Verwandtschaft zu den Drachen symbolisiert.
-
-Tatsächlich haben die Drachenkinder nur zu Ignatius eine direkte Verbindung, dessen Hitze ihr Blut zum Kochen bringen kann, und so ihre instinktiven magischen Kräfte speist.
+Tatsächlich ist nur die Verbindung zu Ignatius unmittelbar in ihrer Magiestruktur verankert.
+Gerade diese Differenz zwischen theologischer Selbstdeutung und magischer Wirklichkeit prägt das Volk bis heute.
 
 # Magische Fähigkeiten
 
-Als die Drachenkinder geschaffen wurden, stattete sie Ignatius neben ihrem magischen Blut mit magischen Schwingen und der Fähigkeit Feuer zu speien aus.
-Letztere beide Fähigkeiten wurden den Drachenkindern jedoch bei ihrer größten Niederlage gegen die Sylvanars durch mächtige Naturzauber genommen.
-Der Bann der Sylvanars entzog den Drachenkindern dabei nicht einfach rohe Energie, sondern störte die lebendige magische Struktur, durch welche Ignatius' Kraft in ihnen wirksam wurde.
-Danach waren die Drachenkinder gezwungen sich auf die verbliebenen Aspekte ihrer Magie zu konzentrieren.
-Sie fingen an mit ihrem magischen Blut zu experimentieren und schafften es schließlich die darin enthaltene Magie in Verbindung mit der Feuermagie des Planeten Mognar in sogenannten Blutvulkanen nutzbar zu machen.
-Durch verschiedene Blutrituale konnten die Drachenkinder so wieder Magie wirken.
-Sobald die Techniken weiter ausgereift waren, hat der Herrscher der Drachenkinder Koltt zu seiner Zeit den Blutzoll eingeführt.
-Einmal pro Zyklus müssen seitdem alle Drachenkinder die in Zanguor leben eine bestimmte Menge ihres Blutes abgeben.
-Im Sitz des Herrschers im Zentrum von Zanguor befindet sich seitdem der größte Blutvulkan, in welchem der jeweilige Herrscher seine Blutvorräte aufbewahrt.
-Durch die große Menge an Blut, die einem Drachenkindherrscher so zur Verfügung steht, kann dieser sehr mächtige Zauber und Rituale ausführen.
-Eine der beliebtesten Anwendungen der Blut-Magie ist z.B. die Erschaffung von Spektral-Flügeln, welche dem Drachenkind erneut das Fliegen ermöglicht, vorausgesetzt er erneuert den Zauber regelmäßig.
+Ursprünglich verfügten die Drachenkinder über von Ignatius geprägte Instinktmagie.
+Dazu gehörten insbesondere Feueratem und tragfähige Schwingen.
+Diese Fähigkeiten wurden ihnen im Verlauf des Navura-Krieges durch einen starken sylvanarischen Bann weitgehend genommen.
 
-Die übrigen Drachenkinder können mit ihrem eigenen Blut ebenso Rituale im kleinen Stil ausführen und so Magie für die unterschiedlichsten Zwecke nutzen.
-Der begrenzende Faktor ist hierbei die Menge an Blut, die ein Drachenkind opfern möchte bzw. kann.
-Das Blut eines Drachenkindes ist dabei nicht bloß symbolisches Opfer, sondern der zentrale Träger jener magischen Struktur, welche seit Ignatius' Eingriff in diesem Volk verblieben ist.
+Statt ihre Magie gänzlich zu verlieren, verlagerten die Drachenkinder ihren Zugriff auf die im eigenen Blut verbliebene magische Struktur.
+So entstanden Blutvulkane, Blutzoll und eine ritualisierte Form der Macht, mit der auch größere Zauber weiterhin möglich blieben.
+Der zusammenhängende Überblick dazu steht im Artikel [Blutrituale der Drachenkinder](/content/Volk_/Drachenkinder/Blutrituale.md).
