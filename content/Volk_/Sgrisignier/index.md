@@ -1,4 +1,4 @@
-# Die Sgrisignier
+﻿# Die Sgrisignier
 
 Die Sgrisignier sind eine uralte Hochkultur des Serpinit-Systems.
 So lange es sie gab waren sie die ersten und einzigen intelligenten Bewohner der 7 Planeten.
@@ -15,8 +15,9 @@ Ihre Haut ist gräulich und leicht rauh und ihre Augen sind zumeist rot oder lil
 
 Die Sgrisignier-Runen stellen eine Schnittstelle zur Magie dar, welche Creapatos den Sgrisigniern bot.
 Creapatos nutzte in seiner Allmächtigkeit die von ihm erschaffenen Magiefaktoren Wymen & Vendos in einer sehr intuitiven Form.
-Um seinem ersten Volk ebenfalls einen Zugang zur Magie zu geben, gab er ihnen magische Intelligenz und insbesondere das Wissen um ein magisches, dreidimensionales Schriftsystem, mit welchem Wymen & Vendos ebenfalls manipuliert werden konnten.
+Um seinem ersten Volk ebenfalls einen Zugang zur Magie zu geben, gab er ihnen magische Intelligenz und insbesondere das Wissen um ein magisches, dreidimensionales Schriftsystem, mit welchem sie vendotische Struktur materiell ausdrücken und so Wymen in belastbare Wirkungen überführen konnten.
 Man kann sich die Sgrisignier-Runen wie eine Programmiersprache der Realität vorstellen, geschrieben in einem Schriftsystem das mit topologischer Knotenlehre korreliert.
+Der unmittelbare Antrieb einzelner Runen ging dabei von Runenkernen aus magischer Substanz aus, während Wymen das große Potenzialfeld und Vendos die zugrundeliegende Syntax dieser Magie bildete.
 
 Runen werden von vielen Völkern weiterhin genutzt, da sie das Wymen beeinflussen können.
 
@@ -26,4 +27,3 @@ Die von den Sgrisigniern gebauten Portale dienen dem Zweck schnell und unkompliz
 Es sind große Steintore, mit eingelassenen Runensteinen die vhöchst mächtig sind.
 Die Portale waren die die erste große Errungenschaft der Sgrisignier nachdem sie lernten einen selbsterhaltenden Wymen-Riss zu erschaffen.
 Als solche blieben sie auch nach dem Fall der Sgrisignier funktionstüchtig und werden letztendlich sogar von den modernen Völkern genutzt.
-
