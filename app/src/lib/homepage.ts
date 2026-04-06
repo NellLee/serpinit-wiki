@@ -6,12 +6,6 @@ export type HomepageLink = {
 	imageAlt?: string;
 };
 
-export type HomepageSection = {
-	title: string;
-	description: string;
-	items: HomepageLink[];
-};
-
 export type HomepageStat = {
 	label: string;
 	value: string;
@@ -23,8 +17,7 @@ export type HomepageData = {
 	searchPrompt: string;
 	stats: HomepageStat[];
 	primaryBrowse: HomepageLink[];
-	featuredSections: HomepageSection[];
-	quickLinks: HomepageLink[];
+	utilityLinks: HomepageLink[];
 };
 
 export function getHomepageData(): HomepageData {
@@ -64,51 +57,7 @@ export function getHomepageData(): HomepageData {
 				imageAlt: 'Conius-Lateraler Charakter'
 			}
 		],
-		featuredSections: [
-			{
-				title: 'Übersichten',
-				description: 'Dauerhafte Einstiegspunkte statt einzelner Beispielartikel.',
-				items: [
-					{
-						title: 'Himmelskörper',
-						description: 'Das gesamte System mit Stern, Planeten und zentralen Einordnungen.',
-						href: '/content/Himmelskoerper_/index.md'
-					},
-					{
-						title: 'Völker',
-						description: 'Die großen Spezies des Settings und ihre wichtigsten Untergruppen.',
-						href: '/content/Volk_/index.md'
-					},
-					{
-						title: 'Allgemein',
-						description: 'Der Ort für Grundlagentexte, Magie und Schöpfung.',
-						href: '/content/Allgemein/index.md'
-					}
-				]
-			},
-			{
-				title: 'Hilfreiche Pfade',
-				description: 'Werkzeuge und Sammelstellen, die das weitere Stöbern erleichtern.',
-				items: [
-					{
-						title: 'Timeline',
-						description: 'Ereignisse visuell entlang der Geschichte nachvollziehen.',
-						href: '/content/timeline'
-					},
-					{
-						title: 'Suche',
-						description: 'Direkt nach Begriffen, Artikeln und Erwähnungen suchen.',
-						href: '/content/search'
-					},
-					{
-						title: 'Charaktere',
-						description: 'Vorläufiger Sammelpunkt für Figuren und spätere Registerseiten.',
-						href: '/content/Charaktere.md'
-					}
-				]
-			}
-		],
-		quickLinks: [
+		utilityLinks: [
 			{
 				title: 'Timeline',
 				description: 'Geschichte visuell erkunden.',
@@ -120,9 +69,9 @@ export function getHomepageData(): HomepageData {
 				href: '/content/search'
 			},
 			{
-				title: 'Allgemein',
-				description: 'Zu den Grundlagen und Überblicksseiten wechseln.',
-				href: '/content/Allgemein/index.md'
+				title: 'Converter',
+				description: 'Zwischen Schriftsystemen und Formaten wechseln.',
+				href: '/convert'
 			}
 		]
 	};

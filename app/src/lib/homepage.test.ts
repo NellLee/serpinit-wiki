@@ -13,15 +13,13 @@ describe('homepage', () => {
 	test('returns the expected homepage section structure', () => {
 		const homepageData = getHomepageData();
 
-		expect(homepageData.primaryBrowse.length >= 4).toBe(true);
-		expect(homepageData.featuredSections.length >= 2).toBe(true);
-		expect(homepageData.quickLinks.length >= 3).toBe(true);
+		expect(homepageData.primaryBrowse.length).toBe(4);
+		expect(homepageData.utilityLinks.length).toBe(3);
 		expect(homepageData.stats.length).toBe(0);
-		expect(homepageData.primaryBrowse.map((item) => item.title)).toEqual([
-			'Himmelskörper',
-			'Völker',
-			'Allgemein',
-			'Charaktere'
+		expect(homepageData.utilityLinks.map((item) => item.title)).toEqual([
+			'Timeline',
+			'Suche',
+			'Converter'
 		]);
 
 		for (const item of homepageData.primaryBrowse) {
@@ -30,8 +28,10 @@ describe('homepage', () => {
 			expect(item.description.length > 0).toBe(true);
 		}
 
-		for (const section of homepageData.featuredSections) {
-			expect(section.items.length > 0).toBe(true);
+		for (const item of homepageData.utilityLinks) {
+			expect(item.href.length > 0).toBe(true);
+			expect(item.title.length > 0).toBe(true);
+			expect(item.description.length > 0).toBe(true);
 		}
 	});
 
@@ -42,8 +42,9 @@ describe('homepage', () => {
 
 		const homepageRouteSource = readAppFile('src/routes/content/+page.svelte');
 		expect(homepageRouteSource).toMatch(/primaryBrowse/);
-		expect(homepageRouteSource).toMatch(/featuredSections/);
-		expect(homepageRouteSource).toMatch(/quickLinks/);
+		expect(homepageRouteSource).toMatch(/utilityLinks/);
+		expect(homepageRouteSource).not.toMatch(/featuredSections/);
+		expect(homepageRouteSource).not.toMatch(/quickLinks/);
 		expect(homepageRouteSource).not.toMatch(/homepage\.stats/);
 
 		const contentCardSource = readAppFile('src/lib/components/ContentCard.svelte');
