@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Output Review"
+  short_description: "Review rendered UI output for complex website changes."
+  default_prompt: "Review the current rendered UI output, prioritize findings by severity, and focus on visible clarity, hierarchy, behavior, and coherence."
