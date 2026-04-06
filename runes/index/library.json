@@ -1,0 +1,38 @@
+{
+	"version": "1.0.0",
+	"groups": [
+		{
+			"kind": "primitive",
+			"name": "Primitive",
+			"entries": [
+				{ "id": "primitive.leitbahn", "name": "Leitbahn", "file": "runes/primitives/leitbahn.json" },
+				{ "id": "primitive.drossel", "name": "Drossel", "file": "runes/primitives/drossel.json" },
+				{ "id": "primitive.kammer", "name": "Kammer", "file": "runes/primitives/kammer.json" },
+				{ "id": "primitive.gabel", "name": "Gabel", "file": "runes/primitives/gabel.json" },
+				{ "id": "primitive.anker", "name": "Anker", "file": "runes/primitives/anker.json" },
+				{ "id": "primitive.mantel", "name": "Mantel", "file": "runes/primitives/mantel.json" },
+				{ "id": "primitive.sperre", "name": "Sperre", "file": "runes/primitives/sperre.json" }
+			]
+		},
+		{
+			"kind": "structure",
+			"name": "Strukturen",
+			"entries": [
+				{ "id": "structure.gebundene-leitbahn", "name": "Gebundene Leitbahn", "file": "runes/structures/gebundene-leitbahn.json" },
+				{ "id": "structure.geschuetzter-auslass", "name": "Geschuetzter Auslass", "file": "runes/structures/geschuetzter-auslass.json" }
+			]
+		},
+		{
+			"kind": "rune",
+			"name": "Runen",
+			"entries": [
+				{ "id": "rune.lokaler-auslass", "name": "Lokaler Auslass", "file": "runes/runes/lokaler-auslass.json" },
+				{
+					"id": "rune.substrat-gebundener-auslass",
+					"name": "Substratgebundener Auslass",
+					"file": "runes/runes/substrat-gebundener-auslass.json"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"id": "rune.lokaler-auslass",
+	"name": "Lokaler Auslass",
+	"kind": "rune",
+	"version": "1.0.0",
+	"description": "Eine einfache Rune, die Potenz in eine lokal gebundene Auslassrichtung fuehrt.",
+	"semantics": {
+		"ontologyClasses": ["fluss", "ort", "potenz", "bindung"],
+		"processRoles": ["leiten", "binden", "ausrichten"]
+	},
+	"constraints": [
+		"Die Zielrichtung muss ueber den Zielanker eingebettet bleiben.",
+		"Die Projektion soll den Unterschied zwischen Auslasspfad und Zielpraegung klar zeigen."
+	],
+	"topology": {
+		"elements": [
+			{
+				"id": "zielpraegung",
+				"kind": "anker",
+				"semanticRole": "lokale Zielpraegung",
+				"ontologyClasses": ["ort", "bindung"]
+			}
+		],
+		"relations": [
+			{ "id": "rune-channel", "kind": "contains", "source": "instance:body", "target": "element:zielpraegung" },
+			{ "id": "rune-skin", "kind": "bounds", "source": "instance:skin", "target": "instance:body" }
+		],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-outward", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "core-relative", "dimensions": 2 },
+		"entries": [
+			{ "ref": "instance:body", "center": { "radius": 0.5, "angleDegrees": -90 }, "size": { "radial": 0.56, "angular": 28 }, "rotationDegrees": -90 },
+			{ "ref": "element:zielpraegung", "center": { "radius": 0.84, "angleDegrees": -90 }, "size": { "radial": 0.2, "angular": 24 }, "rotationDegrees": -90 },
+			{ "ref": "instance:skin", "center": { "radius": 0.78, "angleDegrees": 135 }, "size": { "radial": 0.12, "angular": 120 }, "rotationDegrees": 135 }
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotic-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "up-opposes-gravity",
+				"anchorReference": "outward-follows-primary-anchor",
+				"notes": "Die vollstaendige Rune uebernimmt ihre physische Vorzugsrichtung von der gebundenen Leitbahn."
+			}
+		},
+		"placements": [
+			{ "ref": "instance:body", "layer": 1, "layerOffset": 0, "sector": "auslass", "sectorOffset": 0, "radialSpan": 3, "sectorSpan": 2, "shapeFamily": "channel" },
+			{ "ref": "element:zielpraegung", "layer": 3, "layerOffset": 0, "sector": "praegung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "anchor" },
+			{ "ref": "instance:skin", "layer": 3, "layerOffset": 0.1, "sector": "begrenzung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 3, "shapeFamily": "ring" }
+		],
+		"relationPaths": [
+			{ "relationId": "rune-channel", "mode": "radial", "source": "instance:body", "target": "element:zielpraegung" },
+			{ "relationId": "rune-skin", "mode": "arc", "source": "instance:skin", "target": "instance:body" }
+		]
+	},
+	"imports": ["structure.gebundene-leitbahn", "primitive.mantel"],
+	"instances": [
+		{ "id": "body", "documentId": "structure.gebundene-leitbahn", "role": "assembled-body" },
+		{ "id": "skin", "documentId": "primitive.mantel", "role": "outer-skin" }
+	]
+}

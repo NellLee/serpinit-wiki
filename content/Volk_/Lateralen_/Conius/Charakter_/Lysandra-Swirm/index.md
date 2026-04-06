@@ -1,8 +1,8 @@
-# Lysandra Swirm (Wasser-Magierin)
+# Lysandra Swirm
 
 ![Lysandra Swirm](./images/Conius-Lateral_Lysandra-Swirm.png)
 
-**Name:** Lysandra Swirm**Titel/Klasse:** Wasser-Magierin**Alter:** Junge Erwachsene**Geschlecht:** Weiblich**Spezies/Rasse:** [Conius-Laterale](/content/Volk_/Lateralen_/index.md)**Heimat:** Carpebur**Beruf:** Besitzerin einer Unterkunft am Kapis-Schloss
+**Name:** Lysandra Swirm**Rolle:** Runenkundige mit Schwerpunkt Wasser**Alter:** Junge Erwachsene**Geschlecht:** Weiblich**Spezies/Rasse:** [Conius-Laterale](/content/Volk_/Lateralen_/index.md)**Heimat:** Carpebur**Beruf:** Besitzerin einer Unterkunft am Kapis-Schloss
 
 ## Allgemein
 
@@ -43,6 +43,7 @@ Ihre Unterkunft wurde schnell beliebt, besonders bei wohlhabenden Sodili die das
 ### Aktuelle Situation
 Varion Sierfehl suchte Lysandra auf und bat sie, an der geheimen [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) teilzunehmen, da sie als eine der wenigen Conius gilt, die das Vertrauen der Sodili gewonnen hat.
 Sie versucht dabei eine wertneutrale Berichterstattung zu gewährleisten, um keinen Konflikt zwischen Resrubor und Carpebur entstehen zu lassen.
+Beim [Erstkontakt mit den Varnops](/content/Ereignis_/Erstkontakt-Varnops.md) bleibt Lysandra zunächst im Zirkel-Tal zurück und wird so zu einer der ersten Lateralen, die über längere Zeit unmittelbar unter Varnops leben.
 
 ## Fähigkeiten und Kräfte
 
@@ -56,6 +57,7 @@ Sie beherrscht verschiedene Runen, die es ihr ermöglichen, Wasser zu kontrollie
 ### Talente
 Ihre ruhige Art und ihre Güte machen Lysandra zu einer ausgezeichneten Tier- und Micupflegerin.
 Lysandras Charisma und ihre besonnene Art schafft zudem oft und schnell Vertrauen bei Fremden.
+Besonders sicher bewegt sie sich überall dort, wo Wasser selbst zum Werkzeug oder zum Risiko wird.
 
 ## Ausrüstung
 

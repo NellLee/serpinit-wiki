@@ -2,7 +2,7 @@
 
 ![Ingvor-Nemet Mandijit](./images/Conius-Lateral_Ingvor-Nemet-Mandijit.png)
 
-**Name:** Ingvor-Nemet Mandijit**Titel/Klasse:** Elementar-Beschwörer**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateraler](/content/Volk_/Lateralen_/index.md)**Heimat:** Villa am See Kulios**Beruf:** Ehemaliger Lehrer an der Resrubor-Akademie, unabhängiger Forscher
+**Name:** Ingvor-Nemet Mandijit**Rolle:** Elementarforscher**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateraler](/content/Volk_/Lateralen_/index.md)**Heimat:** Villa am See Kulios**Beruf:** Ehemaliger Lehrer an der Resrubor-Akademie, unabhängiger Forscher
 
 ## Allgemein
 
@@ -53,12 +53,13 @@ In seiner Schulzeit hatte Ingvor nur wenige Freunde, da er sich vollends auf sei
 
 ### Wichtige Ereignisse
 Gegen Ende seiner Ausbildung verstarben Ingvors Eltern bei einer Epidemie, was ihn dazu brachte, auch nach seinem Abschluss an der Resrubor-Akademie zu verbleiben.
-Ingvor wurde ein erfolgreicher Lehrer und Forscher an der Akademie, bekannt für seine Expertise in der Beschwörung von Elementaren.
-Nach einigen Jahren verließ Ingvor die Akademie, da ihm die Forschungspolitik zu träge war, und zog sich an den See Kulios zurück, wo er seine Forschungen privat fortführte.
-Ein Unfall bei seiner Forschung führte zur Persistenz eines Riesen-Elementars im See Kulios, der das nahegekegene Dorf Akuelon gefährdete.
+Ingvor wurde ein erfolgreicher Lehrer und Forscher an der Akademie, bekannt für seine Expertise in der Beschwörung und Stabilisierung von Elementaren.
+Nach einigen Jahren verließ Ingvor die Akademie, da ihm die Forschungspolitik zu träge war, und zog sich an den [See Kulios](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/See_Kulios/index.md) zurück, wo er seine Forschungen privat fortführte.
+Ein missglückter Versuch mit einer instabilen Rune führte dort zum [Kulios-Zwischenfall](/content/Ereignis_/Kulios-Zwischenfall.md), bei dem ein riesiger Wasserelementar den See und das nahe [Akuelon](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Dorf_Akuelon/index.md) bedrohte.
 
 ### Aktuelle Situation
-Ingvor wurde vom König der Sodili berufen der [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) beizuwohnen.
+Nach dem Kulios-Zwischenfall steht Ingvor im Spannungsfeld zwischen fachlicher Unersetzlichkeit und tiefem Misstrauen gegenüber seiner Verantwortung.
+Gerade weil seine Forschungen die Gefahren komplexer Runen so deutlich offenlegten, wurde er später in den engeren Kreis der frühen [Ikusation](/content/Ereignis_/Ikusation.md) eingebunden.
 
 ## Beziehungen
 

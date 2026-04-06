@@ -1,0 +1,78 @@
+{
+	"id": "structure.geschuetzter-auslass",
+	"name": "Geschuetzter Auslass",
+	"kind": "structure",
+	"version": "1.0.0",
+	"description": "Ein gerichteter Auslass mit aeusserem Mantel und siegelnder Sperre gegen unerwuenschten Rueckfluss.",
+	"semantics": {
+		"ontologyClasses": ["fluss", "grenze", "ort", "bindung"],
+		"processRoles": ["leiten", "abschirmen", "binden"]
+	},
+	"constraints": [
+		"Mantel und Sperre duerfen die Zielausrichtung nicht vollstaendig verdecken.",
+		"Die Sperre muss gegenlaufend zur Hauptbahn lesbar bleiben."
+	],
+	"topology": {
+		"elements": [],
+		"relations": [
+			{ "id": "lead-to-anchor", "kind": "anchors", "source": "instance:leitbahn", "target": "instance:anker" },
+			{ "id": "mantle-bounds-lead", "kind": "bounds", "source": "instance:mantel", "target": "instance:leitbahn" },
+			{ "id": "seal-modulates-lead", "kind": "modulates", "source": "instance:sperre", "target": "instance:leitbahn" }
+		],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-outward", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "core-relative", "dimensions": 2 },
+		"entries": [
+			{ "ref": "instance:leitbahn", "center": { "radius": 0.4, "angleDegrees": -90 }, "size": { "radial": 0.5, "angular": 24 }, "rotationDegrees": -90 },
+			{ "ref": "instance:anker", "center": { "radius": 0.84, "angleDegrees": -90 }, "size": { "radial": 0.2, "angular": 26 }, "rotationDegrees": -90 },
+			{ "ref": "instance:mantel", "center": { "radius": 0.8, "angleDegrees": 135 }, "size": { "radial": 0.12, "angular": 110 }, "rotationDegrees": 135 },
+			{ "ref": "instance:sperre", "center": { "radius": 0.62, "angleDegrees": 135 }, "size": { "radial": 0.12, "angular": 24 }, "rotationDegrees": 135 }
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotic-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "up-opposes-gravity",
+				"anchorReference": "outward-follows-primary-anchor",
+				"notes": "Die Zielachse folgt weiterhin dem Anker, waehrend Mantel und Sperre als seitliche Grenz- und Siegelkomponenten gelesen werden."
+			}
+		},
+		"placements": [
+			{ "ref": "instance:leitbahn", "layer": 1, "layerOffset": 0, "sector": "auslass", "sectorOffset": 0, "radialSpan": 2, "sectorSpan": 1, "shapeFamily": "channel" },
+			{ "ref": "instance:anker", "layer": 3, "layerOffset": 0, "sector": "praegung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "anchor" },
+			{ "ref": "instance:mantel", "layer": 3, "layerOffset": 0.1, "sector": "begrenzung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 3, "shapeFamily": "ring" },
+			{ "ref": "instance:sperre", "layer": 2, "layerOffset": 0, "sector": "siegelung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "barrier" }
+		],
+		"relationPaths": [
+			{ "relationId": "lead-to-anchor", "mode": "radial", "source": "instance:leitbahn", "target": "instance:anker" },
+			{ "relationId": "mantle-bounds-lead", "mode": "arc", "source": "instance:mantel", "target": "instance:leitbahn" },
+			{ "relationId": "seal-modulates-lead", "mode": "bridge", "source": "instance:sperre", "target": "instance:leitbahn" }
+		]
+	},
+	"imports": ["primitive.leitbahn", "primitive.anker", "primitive.mantel", "primitive.sperre"],
+	"instances": [
+		{ "id": "leitbahn", "documentId": "primitive.leitbahn", "role": "main-channel" },
+		{ "id": "anker", "documentId": "primitive.anker", "role": "target-anchor" },
+		{ "id": "mantel", "documentId": "primitive.mantel", "role": "outer-boundary" },
+		{ "id": "sperre", "documentId": "primitive.sperre", "role": "counterflow-seal" }
+	]
+}

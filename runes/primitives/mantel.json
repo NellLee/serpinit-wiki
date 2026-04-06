@@ -1,0 +1,77 @@
+{
+	"id": "primitive.mantel",
+	"name": "Mantel",
+	"kind": "primitive",
+	"version": "1.0.0",
+	"description": "Eine umschliessende Grenzstruktur, die seitliches Auslaufen begrenzt und die Rune als Koerper fasst.",
+	"semantics": {
+		"ontologyClasses": ["grenze", "bindung"],
+		"processRoles": ["begrenzen", "abschirmen"]
+	},
+	"constraints": [
+		"Soll mehrere angrenzende Sektoren umfassen koennen, ohne selbst zum Zielanker zu werden."
+	],
+	"topology": {
+		"elements": [
+			{
+				"id": "ring",
+				"kind": "mantel",
+				"semanticRole": "umschliessender Rand",
+				"ontologyClasses": ["grenze", "bindung"]
+			}
+		],
+		"relations": [],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-outward", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "core-relative", "dimensions": 2 },
+		"entries": [
+			{
+				"ref": "element:ring",
+				"center": { "radius": 0.8, "angleDegrees": 90 },
+				"size": { "radial": 0.12, "angular": 110 },
+				"rotationDegrees": 90
+			}
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotic-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "up-opposes-gravity",
+				"anchorReference": "outward-follows-structure",
+				"notes": "Der Mantel liest sich als aeussere Grenzhaut und verankert die Rune gegen laterales Entweichen."
+			}
+		},
+		"placements": [
+			{
+				"ref": "element:ring",
+				"layer": 3,
+				"layerOffset": 0.1,
+				"sector": "begrenzung",
+				"sectorOffset": 0,
+				"radialSpan": 1,
+				"sectorSpan": 3,
+				"shapeFamily": "ring"
+			}
+		],
+		"relationPaths": []
+	}
+}

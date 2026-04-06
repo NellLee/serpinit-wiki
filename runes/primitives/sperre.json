@@ -1,0 +1,78 @@
+{
+	"id": "primitive.sperre",
+	"name": "Sperre",
+	"kind": "primitive",
+	"version": "1.0.0",
+	"description": "Eine gegenlaufende Schliessstruktur, die Rueckstroeme hemmt oder einen Durchlass nur unter spezifischer Vorlast erlaubt.",
+	"semantics": {
+		"ontologyClasses": ["grenze", "potenz"],
+		"processRoles": ["abschirmen", "begrenzen"]
+	},
+	"constraints": [
+		"Soll gegen den primaeren Strom lesbar eingebettet sein.",
+		"Wirkt ohne angrenzenden Leiter oft wie ein blosser Bruch."
+	],
+	"topology": {
+		"elements": [
+			{
+				"id": "riegel",
+				"kind": "sperre",
+				"semanticRole": "gegenlaufender Riegel",
+				"ontologyClasses": ["grenze", "potenz"]
+			}
+		],
+		"relations": [],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-outward", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "core-relative", "dimensions": 2 },
+		"entries": [
+			{
+				"ref": "element:riegel",
+				"center": { "radius": 0.66, "angleDegrees": 135 },
+				"size": { "radial": 0.14, "angular": 28 },
+				"rotationDegrees": 135
+			}
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotic-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "up-opposes-gravity",
+				"anchorReference": "outward-follows-structure",
+				"notes": "Die Sperre liest sich ueber ihre gegenlaufende Lage gegen den radialen Ausstrom."
+			}
+		},
+		"placements": [
+			{
+				"ref": "element:riegel",
+				"layer": 2,
+				"layerOffset": 0,
+				"sector": "siegelung",
+				"sectorOffset": 0,
+				"radialSpan": 1,
+				"sectorSpan": 1,
+				"shapeFamily": "barrier"
+			}
+		],
+		"relationPaths": []
+	}
+}

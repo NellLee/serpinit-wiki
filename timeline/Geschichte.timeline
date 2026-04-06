@@ -116,6 +116,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Navura</category>
+      <description>/content/Ereignis_/Krieg-um-Navura.md</description>
     </event>
     <event>
       <start>1.5577254667248868</start>
@@ -128,8 +129,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Interplanetar</category>
-      <description>Da die Lage für die Drachenkinder immer verzweifelter wird, versucht die neue Königin der Drachenkinder einen Friedensvertrag mit den Orcs auszuhandeln. 
-[WER BEHÄLT SEINE MAGIE???]</description>
+      <description>/content/Ereignis_/Polarisierung-der-Drachenkinder.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -147,6 +147,34 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
+      <start>-3.13</start>
+      <end>0.18</end>
+      <text>Globalisierung von Aridess</text>
+      <progress>0</progress>
+      <fuzzy>True</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Aridess</category>
+      <description>/content/Ereignis_/Globalisierung-Aridess.md</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-0.01</start>
+      <end>-0.01</end>
+      <text>Kulios-Zwischenfall</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>/content/Ereignis_/Kulios-Zwischenfall.md</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
       <start>0.0</start>
       <end>0.0</end>
       <text>Beginn der Ikusation</text>
@@ -157,13 +185,36 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Ikusation</category>
-      <description>Die Resrubor-Lateralen haben die Funktionsweise der Sgrisignier-Portale erfolgreich analysiert
-              und ermöglichen eine gefahrlose Nutzung dieser. Sie starten außerdem gemeinsam mit ihren Artgenossen, den
-              Sodili, eine Initiative um sämtliche bewohnten Planeten des Sonnensystems zu vernetzen und einen Austausch
-              von Kultur, Gütern und Wissen zu ermöglichen. Dabei etablieren sie das Jahr 0 und eine neue Zeitrechnung
-              basierend auf dem Herzschlag des Planeten Navura.
-          </description>
+      <description>/content/Ereignis_/Ikusation.md</description>
       <labels>Agranum</labels>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>0.012</start>
+      <end>0.012</end>
+      <text>Aridess-Expedition</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Aridess</category>
+      <description>/content/Ereignis_/Aridess-Expedition.md</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>0.024</start>
+      <end>0.024</end>
+      <text>Erstkontakt mit den Varnops</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Aridess</category>
+      <description>/content/Ereignis_/Erstkontakt-Varnops.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -177,7 +228,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Mognar</category>
-      <description>Aus den Körpern verbannter und verbrannter Orcs auf Mognar erschafft der Neiderfüllte Ignatius ein neues Volk nach seinem Abbild. Das entstandene Volk der Drachenkinder kann dank seiner Magie selbst die unwirtlichen Bedingungen des Lavaplaneten aushalten. Doch die Drachenkinder treibt die Wut auf die Orcs, sowohl aus Neid auf ihren fruchtbaren Planeten, als auch aus Rachsucht, für ihre ursprüngliche Verbannung</description>
+      <description>/content/Volk_/Drachenkinder/index.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -205,7 +256,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Navura</category>
-      <description>Die Drachenkinder greifen schon bald die Orcs auf ihrem Heimatplaneten an. Sie siegten ohne Anstrengung dank des Überaschungsmomentes und nehmen das Land rund um das Sgrisignier-Portal ein durch welches sie verbannt wurden.</description>
+      <description>/content/Ereignis_/Krieg-um-Navura.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -220,6 +271,20 @@
       <ends_today>False</ends_today>
       <category>Agranum</category>
       <description>Die Sgrisigner aktivieren die gigantische Rune welche sie im Geheimen im Planeten Agranum angebracht haben. Statt den Drachengott Creapatos zu vernichten, bannt die Rune ihn jedoch nur, unfähig seine Kräfte zu manifestieren.</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>-349703.9995</start>
+      <end>-349703.9995</end>
+      <text>Impuls-Eruption auf Agranum</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Agranum</category>
+      <description>/content/Ereignis_/Impuls-Eruption.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -317,7 +382,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Navura</category>
-      <description>Die jüngeren Generationen der Drachenkinder können den Hass auf die Orcs nicht nachvollziehen und möchten, dass der Krieg um Navura endet. Mit der Zeit werden die Streitigkeiten innerhalb des Volkes der Drachenkinder immer hitziger und es kommt zu Verlusten hinter den eigenen Reihen. Diese interne Schwächung führt dazu, dass die Drachenkinder immer größere Niederlagen vermerken müssen, was die Polarisierung noch verstärkt</description>
+      <description>/content/Ereignis_/Polarisierung-der-Drachenkinder.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -331,10 +396,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Agranum</category>
-      <description>Die Conius-Lateralen spalten sich aufgrund ihrer unterschiedlichen Sichtweisen von den Sodili ab
-            und gründen die Resrubor-Akademie. Hier werden junge Vertreter ihres Volkes von Ihrer Identitätsstörung
-            geheilt um weiterführend die Theorie der Magie zu studieren.
-        </description>
+      <description>/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -348,10 +410,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Ikusation</category>
-      <description>Die Drachen-Sodili-Elfin Elikta meldet sich freiwillig bei der Ikusations-Kampagne der
-              Conius-Lateralen. Das gezähmte Chaos-Portal der Conius-Lateralen bringt sie auf den Planeten Navura.
-              Elikta entdeckt nach und nach die Gechichte der Drachenkinder und möchte dem Volk hLateralen.
-          </description>
+      <description>/content/Volk_/Lateralen_/Sodili/Charakter_/Elikta/index.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -381,7 +440,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Navura</category>
-      <description>Die neue Königin findet Anklang bei den jüngeren Drachenkindern, da diese hoffen, dass so endlich die Streitigkeiten mit den anderen Rassen beigelegt werden können. Viele konservative Drachenkinder respektieren die neue Königin jedoch nicht und rebellieren.</description>
+      <description>/content/Volk_/Lateralen_/Sodili/Charakter_/Elikta/index.md</description>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -395,7 +454,7 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>Agranum</category>
-      <description>Die Sgrisignier hatten bei ihren magischen Experimenten mit den Lateralen Spuren hinterlassen. Als die Agranum-Rune detonierte und der Elementdrache Aerion den Sferin-Stoß als Antwort entsendete, vernichtete er auch einen Teil des Verstandes der Lateralen. Er löschte die Nutzung der Tjomanten einfach aus ihren Gehirnen, und zwar auf einer genetischen Ebene. Die Folge war jedoch, dass neugeborene Lateralen eine genetisch bedingte dissoziative Identitätsstörung entwickelten. Jedem geborenen Lateralen wurde auf intuitive magische Art und Weise ein Teil ihres Verstandes genommen, die sie jedoch nie besaßen. Meist äußerte sich diese Störung in nur einer einzigen weiteren Persönlichkeit, häufig in Tiergestalt.</description>
+      <description>/content/Ereignis_/Psychische-Verstuemmelung-der-Lateralen.md</description>
       <default_color>192,192,192</default_color>
     </event>
   </events>

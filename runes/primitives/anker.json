@@ -1,0 +1,78 @@
+{
+	"id": "primitive.anker",
+	"name": "Anker",
+	"kind": "primitive",
+	"version": "1.0.0",
+	"description": "Eine Zielstruktur, die Wirkung an Ort, Substrat oder Leib bindet und die Ausrichtung nach aussen stabilisiert.",
+	"semantics": {
+		"ontologyClasses": ["ort", "bindung"],
+		"processRoles": ["binden", "praegen"]
+	},
+	"constraints": [
+		"Soll in der Regel an einer aeusseren Schale lesbar bleiben.",
+		"Gibt der Projektion ihre bevorzugte Vorzugsrichtung."
+	],
+	"topology": {
+		"elements": [
+			{
+				"id": "zielkopf",
+				"kind": "anker",
+				"semanticRole": "aussenorientierter Zielkopf",
+				"ontologyClasses": ["ort", "bindung"]
+			}
+		],
+		"relations": [],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-outward", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "core-relative", "dimensions": 2 },
+		"entries": [
+			{
+				"ref": "element:zielkopf",
+				"center": { "radius": 0.82, "angleDegrees": 180 },
+				"size": { "radial": 0.2, "angular": 30 },
+				"rotationDegrees": 180
+			}
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotic-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "up-opposes-gravity",
+				"anchorReference": "outward-follows-primary-anchor",
+				"notes": "Der Anker definiert die primaere Ausrichtung der Projektion nach aussen."
+			}
+		},
+		"placements": [
+			{
+				"ref": "element:zielkopf",
+				"layer": 3,
+				"layerOffset": 0,
+				"sector": "praegung",
+				"sectorOffset": 0,
+				"radialSpan": 1,
+				"sectorSpan": 1,
+				"shapeFamily": "anchor"
+			}
+		],
+		"relationPaths": []
+	}
+}

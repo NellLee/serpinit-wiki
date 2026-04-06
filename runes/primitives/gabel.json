@@ -1,0 +1,75 @@
+{
+	"id": "primitive.gabel",
+	"name": "Gabel",
+	"kind": "primitive",
+	"version": "1.0.0",
+	"description": "Eine kontrollierte Aufspaltung eines Stroms in zwei lesbare Folgearme.",
+	"semantics": {
+		"ontologyClasses": ["fluss", "bindung"],
+		"processRoles": ["teilen", "entfalten"]
+	},
+	"constraints": ["Braucht einen lesbaren Folgezweig, um nicht als blosser Bruch zu erscheinen."],
+	"topology": {
+		"elements": [
+			{
+				"id": "abzweig",
+				"kind": "gabel",
+				"semanticRole": "zweifacher Abzweig",
+				"ontologyClasses": ["fluss", "bindung"]
+			}
+		],
+		"relations": [],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-outward", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "core-relative", "dimensions": 2 },
+		"entries": [
+			{
+				"ref": "element:abzweig",
+				"center": { "radius": 0.58, "angleDegrees": 45 },
+				"size": { "radial": 0.28, "angular": 38 },
+				"rotationDegrees": 45
+			}
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotic-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "up-opposes-gravity",
+				"anchorReference": "outward-follows-structure",
+				"notes": "Die Gabel wird ueber zwei fortlaufende Folgearme gegen eine einzelne Abbruchkante gelesen."
+			}
+		},
+		"placements": [
+			{
+				"ref": "element:abzweig",
+				"layer": 2,
+				"layerOffset": 0,
+				"sector": "spaltung",
+				"sectorOffset": 0,
+				"radialSpan": 1,
+				"sectorSpan": 2,
+				"shapeFamily": "fork"
+			}
+		],
+		"relationPaths": []
+	}
+}

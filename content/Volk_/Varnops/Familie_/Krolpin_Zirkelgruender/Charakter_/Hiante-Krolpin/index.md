@@ -7,7 +7,7 @@
 |                      |                                                                                                         |
 | -------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Name:**            | Hiante Krolpin (geb. Kriolen)                                                                           |
-| **Titel / Klasse:**  | Zirkelgründerin                                                                                         |
+| **Rolle:**           | Zirkelgründerin                                                                                         |
 | **Alter:**           | Erwachsene                                                                                              |
 | **Geschlecht:**      | Weiblich                                                                                                |
 | **Spezies / Rasse:** | [Varnops](/content/Volk_/Varnops/index.md)                                                              |

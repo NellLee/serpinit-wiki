@@ -26,7 +26,7 @@ Damit gab Creapatos ihnen eine äußerst abgeschwächte Form seiner eigenen Fäh
 ### Die Ovelären Planeten & die Elementdrachen
 
 Nachdem Creapatos die Sgrisignier erschaffen hatte, setzte er sich zur Ruhe und nahm sich vor seine Welt von nun an nicht mehr aktiv zu beeinflussen.
-Dafür löste er seine physische Form komplett auf und verteilte seine Energie gleichmäßig über ganz Wymen.
+Dafür löste er seine physische Form komplett auf und verteilte seine Energie gleichmäßig über ganz [Wymen](/content/Allgemein/Magie/Wymen.md).
 Diese Entscheidung hatte allerdings bedeutsame Nebenwirkungen.
 Trotz ihrer langfristigen Tragweite entschied sich der Drachengott weiterhin gegen eine Intervention und ließ der Welt ihren freien Lauf.
 Im Detail begann das aufgeladene Wymen in Wechselwirkung mit einigen Himmelskörpern zu treten.
@@ -43,10 +43,10 @@ Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und 
 Dabei kann man sich jeden dieser 4 Planetenkerne als ein riesiges Drachenei bestehend aus göttlicher magischer Substanz vorstellen.
 Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
 
-- Luft: **Aerion**, das Vertrauen (Agranum)
-- Wasser: **Fluero**, die Wehmut (Luqua)
-- Feuer: **Ignatius**, die Rage (Mognar)
-- Erde: **Silvaa**, die Güte (Navura)
+- Luft: [**Aerion**](/content/Allgemein/Aerion.md), das Vertrauen ([Agranum](../Himmelskoerper_/Agranum/index.md))
+- Wasser: [**Fluero**](/content/Allgemein/Fluero.md), die Wehmut ([Luqua](../Himmelskoerper_/Luqua/index.md))
+- Feuer: [**Ignatius**](/content/Allgemein/Ignatius.md), die Rage ([Mognar](../Himmelskoerper_/Mognar/index.md))
+- Erde: [**Silvaa**](/content/Allgemein/Silvaa.md), die Güte ([Navura](../Himmelskoerper_/Navura/index.md))
 
 Seit jeher fürchten die modernen Völker, dass die göttlichen Elementardrachen eines Tages aus ihren Eiern schlüpfen und sich unvorhergesehene Folgen für das gesamte Serpinit-System manifestieren.
 Doch schon der magische Einfluss der Eier innerhalb ihres jeweiligen Planeten veränderte diese mit den Jahrtausenden grundlegend.

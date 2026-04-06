@@ -21,3 +21,6 @@ Zudem führt die Divergenz der Platten in Äquatornähe zur Bildung von tiefen S
 Sedimentationsvorgänge und allgemeine Erosion reduzieren schließlich die Prävalenz aller Ozeane, da die Wassermaßen sich entweder in den Tiefen der Äquator-Schluchten, oder als Gletscher in den Pol-Gebirgen sammeln.
 
 Aridess ist der erste Planet welcher von den [Lateralen](/content/Volk_/Lateralen_/index.md) mit dem Start der [Ikusation](/content/Ereignis_/Ikusation.md) erschlossen wurde.
+Die erste gesicherte Passage führte in eine extrem trockene Randregion des Planeten, wo die Expedition zunächst einen provisorischen Stützpunkt um das Portal errichtete.
+Von dort aus wurden Oasen, Felsformationen, weitere Portale und schließlich die ersten Kontakte zu den [Varnops](/content/Volk_/Varnops/index.md) erschlossen.
+Diese Phase ist als [Aridess-Expedition](/content/Ereignis_/Aridess-Expedition.md) überliefert.

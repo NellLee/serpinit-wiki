@@ -1,3 +1,4 @@
 node_modules/
 /blender
 .worktrees/
+.githooks/pre-commit.exe
