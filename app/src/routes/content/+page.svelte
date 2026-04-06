@@ -50,34 +50,14 @@
 		</div>
 	</section>
 
-	<div class="homepage-columns">
-		{#each homepage.featuredSections as section}
-			<section class="feature-column panel">
-				<div class="section-heading compact">
-					<h2>{section.title}</h2>
-					<p>{section.description}</p>
-				</div>
-
-				<div class="feature-list">
-					{#each section.items as item}
-						<a class="feature-item" href={item.href}>
-							<strong>{item.title}</strong>
-							<span>{item.description}</span>
-						</a>
-					{/each}
-				</div>
-			</section>
-		{/each}
-	</div>
-
 	<section class="quick-links panel">
 		<div class="section-heading compact">
-			<h2>Schnellzugriff</h2>
-			<p>Direkte Wege zu den wichtigsten Werkzeugen und Grundlagentexten.</p>
+			<h2>Hilfreiche Pfade</h2>
+			<p>Kompakte Wege zu Werkzeugen und alternativen Einstiegen.</p>
 		</div>
 
 		<div class="quick-link-list">
-			{#each homepage.quickLinks as item}
+			{#each homepage.utilityLinks as item}
 				<a href={item.href}>
 					<strong>{item.title}</strong>
 					<span>{item.description}</span>
@@ -265,21 +245,10 @@
 		}
 	}
 
-	.homepage-columns {
-		display: grid;
-		gap: 1rem;
-
-		@media (min-width: 960px) {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-	}
-
-	.feature-column,
 	.quick-links {
 		padding: 1.2rem;
 	}
 
-	.feature-list,
 	.quick-link-list {
 		display: grid;
 		gap: 0.8rem;
@@ -289,7 +258,6 @@
 		}
 	}
 
-	.feature-item,
 	.quick-link-list a {
 		display: grid;
 		gap: 0.35rem;
