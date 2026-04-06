@@ -38,6 +38,7 @@ Do not use this skill for:
 5. Report findings first, then open questions or assumptions, then a brief summary or residual risks.
 
 If direct inspection is not possible in the current harness, say so explicitly and downgrade certainty instead of pretending the output was seen.
+In that case, limit findings to verified output risks, missing confidence points, or clearly marked assumptions rather than aesthetic verdicts.
 
 ## Base Dimensions
 
