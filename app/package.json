@@ -45,6 +45,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fancyapps/ui": "^5.0.36",
+		"ajv": "^6.12.6",
 		"cheerio": "^1.0.0-rc.12",
 		"d3": "^7.9.0",
 		"fuse.js": "^7.0.0",

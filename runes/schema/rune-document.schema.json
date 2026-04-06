@@ -1,0 +1,314 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://serpinit.local/schemas/rune-document.schema.json",
+	"title": "Runic Document",
+	"type": "object",
+	"required": [
+		"id",
+		"name",
+		"kind",
+		"version",
+		"description",
+		"semantics",
+		"topology",
+		"geometry",
+		"projection2d"
+	],
+	"additionalProperties": false,
+	"definitions": {
+		"documentId": {
+			"type": "string",
+			"pattern": "^(primitive|structure|rune)\\.[a-z0-9-]+$"
+		},
+		"ref": {
+			"type": "string",
+			"pattern": "^(element|instance):[a-z0-9-]+$"
+		},
+		"ontologyClass": {
+			"type": "string",
+			"enum": ["substrat", "fluss", "leib", "geist", "ort", "bindung", "grenze", "wandel", "potenz"]
+		},
+		"processRole": {
+			"type": "string",
+			"enum": [
+				"leiten",
+				"stauen",
+				"teilen",
+				"binden",
+				"abschirmen",
+				"ausrichten",
+				"wandeln",
+				"koppeln",
+				"begrenzen",
+				"entfalten",
+				"praegen"
+			]
+		},
+		"primitiveKind": {
+			"type": "string",
+			"enum": ["leitbahn", "drossel", "kammer", "gabel", "anker", "mantel", "sperre"]
+		},
+		"sector": {
+			"type": "string",
+			"enum": ["auslass", "lenkung", "entfaltung", "spaltung", "praegung", "siegelung", "sammlung", "begrenzung"]
+		},
+		"gravitativeMode": { "type": "string", "enum": ["hebend", "senkend"] },
+		"polarMode": { "type": "string", "enum": ["polwaerts", "feldwaerts"] },
+		"rotativeMode": { "type": "string", "enum": ["fortlaufend", "gegenlaufend"] },
+		"shapeFamily": {
+			"type": "string",
+			"enum": ["channel", "throat", "chamber", "fork", "anchor", "ring", "barrier"]
+		},
+		"relationKind": {
+			"type": "string",
+			"enum": ["feeds", "bounds", "anchors", "modulates", "contains", "branches-to"]
+		},
+		"relationPathMode": {
+			"type": "string",
+			"enum": ["radial", "arc", "radial-arc", "bridge"]
+		},
+		"layer": {
+			"type": "object",
+			"required": ["id", "index", "name"],
+			"additionalProperties": false,
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+				"index": { "type": "integer", "minimum": 0 },
+				"name": { "type": "string" }
+			}
+		},
+		"semanticElement": {
+			"type": "object",
+			"required": ["id", "kind", "semanticRole"],
+			"additionalProperties": false,
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+				"kind": { "$ref": "#/definitions/primitiveKind" },
+				"semanticRole": { "type": "string" },
+				"ontologyClasses": {
+					"type": "array",
+					"items": { "$ref": "#/definitions/ontologyClass" },
+					"uniqueItems": true
+				}
+			}
+		},
+		"relation": {
+			"type": "object",
+			"required": ["id", "kind", "source", "target"],
+			"additionalProperties": false,
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+				"kind": { "$ref": "#/definitions/relationKind" },
+				"source": { "$ref": "#/definitions/ref" },
+				"target": { "$ref": "#/definitions/ref" }
+			}
+		},
+		"instance": {
+			"type": "object",
+			"required": ["id", "documentId", "role"],
+			"additionalProperties": false,
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+				"documentId": { "$ref": "#/definitions/documentId" },
+				"role": { "type": "string" }
+			}
+		},
+		"geometryEntry": {
+			"type": "object",
+			"required": ["ref", "center", "size", "rotationDegrees"],
+			"additionalProperties": false,
+			"properties": {
+				"ref": { "$ref": "#/definitions/ref" },
+				"center": {
+					"type": "object",
+					"required": ["radius", "angleDegrees"],
+					"additionalProperties": false,
+					"properties": {
+						"radius": { "type": "number", "minimum": 0 },
+						"angleDegrees": { "type": "number" }
+					}
+				},
+				"size": {
+					"type": "object",
+					"required": ["radial", "angular"],
+					"additionalProperties": false,
+					"properties": {
+						"radial": { "type": "number", "exclusiveMinimum": 0 },
+						"angular": { "type": "number", "exclusiveMinimum": 0 }
+					}
+				},
+				"rotationDegrees": { "type": "number" }
+			}
+		},
+		"projectionPlacement": {
+			"type": "object",
+			"required": ["ref", "layer", "sector", "radialSpan", "sectorSpan", "shapeFamily"],
+			"additionalProperties": false,
+			"properties": {
+				"ref": { "$ref": "#/definitions/ref" },
+				"layer": { "type": "integer", "minimum": 0 },
+				"layerOffset": { "type": "number", "minimum": -0.49, "maximum": 0.49 },
+				"sector": { "$ref": "#/definitions/sector" },
+				"sectorOffset": { "type": "number", "minimum": -0.49, "maximum": 0.49 },
+				"radialSpan": { "type": "integer", "minimum": 1 },
+				"sectorSpan": { "type": "integer", "minimum": 1, "maximum": 8 },
+				"shapeFamily": { "$ref": "#/definitions/shapeFamily" }
+			}
+		},
+		"projectionRelationPath": {
+			"type": "object",
+			"required": ["relationId", "mode", "source", "target"],
+			"additionalProperties": false,
+			"properties": {
+				"relationId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+				"mode": { "$ref": "#/definitions/relationPathMode" },
+				"source": { "$ref": "#/definitions/ref" },
+				"target": { "$ref": "#/definitions/ref" }
+			}
+		}
+	},
+	"properties": {
+		"id": { "$ref": "#/definitions/documentId" },
+		"name": { "type": "string", "minLength": 1 },
+		"kind": { "type": "string", "enum": ["primitive", "structure", "rune"] },
+		"version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+		"description": { "type": "string", "minLength": 1 },
+		"semantics": {
+			"type": "object",
+			"required": ["ontologyClasses", "processRoles"],
+			"additionalProperties": false,
+			"properties": {
+				"ontologyClasses": {
+					"type": "array",
+					"items": { "$ref": "#/definitions/ontologyClass" },
+					"minItems": 1,
+					"uniqueItems": true
+				},
+				"processRoles": {
+					"type": "array",
+					"items": { "$ref": "#/definitions/processRole" },
+					"minItems": 1,
+					"uniqueItems": true
+				}
+			}
+		},
+		"constraints": { "type": "array", "items": { "type": "string" } },
+		"topology": {
+			"type": "object",
+			"required": ["elements", "relations", "layers", "flow"],
+			"additionalProperties": false,
+			"properties": {
+				"elements": { "type": "array", "items": { "$ref": "#/definitions/semanticElement" } },
+				"relations": { "type": "array", "items": { "$ref": "#/definitions/relation" } },
+				"layers": { "type": "array", "items": { "$ref": "#/definitions/layer" }, "minItems": 1 },
+				"flow": {
+					"type": "object",
+					"required": ["direction", "allowsReturn"],
+					"additionalProperties": false,
+					"properties": {
+						"direction": { "type": "string", "enum": ["radial-outward"] },
+						"allowsReturn": { "type": "boolean" }
+					}
+				}
+			}
+		},
+		"geometry": {
+			"type": "object",
+			"required": ["space", "entries"],
+			"additionalProperties": false,
+			"properties": {
+				"space": {
+					"type": "object",
+					"required": ["kind", "dimensions"],
+					"additionalProperties": false,
+					"properties": {
+						"kind": { "type": "string", "enum": ["core-relative"] },
+						"dimensions": { "type": "integer", "enum": [2] }
+					}
+				},
+				"entries": { "type": "array", "items": { "$ref": "#/definitions/geometryEntry" }, "minItems": 1 }
+			}
+		},
+		"projection2d": {
+			"type": "object",
+			"required": ["system", "placements", "relationPaths"],
+			"additionalProperties": false,
+			"properties": {
+				"system": {
+					"type": "object",
+					"required": ["kind", "layerCount", "sectors", "orientationFrame"],
+					"additionalProperties": false,
+					"properties": {
+						"kind": { "type": "string", "enum": ["vendotic-radial"] },
+						"layerCount": { "type": "integer", "minimum": 1 },
+						"sectors": {
+							"type": "array",
+							"minItems": 8,
+							"maxItems": 8,
+							"items": {
+								"type": "object",
+								"required": ["name", "gravitativeMode", "polarMode", "rotativeMode"],
+								"additionalProperties": false,
+								"properties": {
+									"name": { "$ref": "#/definitions/sector" },
+									"gravitativeMode": { "$ref": "#/definitions/gravitativeMode" },
+									"polarMode": { "$ref": "#/definitions/polarMode" },
+									"rotativeMode": { "$ref": "#/definitions/rotativeMode" }
+								}
+							}
+						},
+						"orientationFrame": {
+							"type": "object",
+							"required": ["gravityReference", "anchorReference", "notes"],
+							"additionalProperties": false,
+							"properties": {
+								"gravityReference": { "type": "string", "enum": ["up-opposes-gravity"] },
+								"anchorReference": {
+									"type": "string",
+									"enum": ["outward-follows-primary-anchor", "outward-follows-structure"]
+								},
+								"notes": { "type": "string" }
+							}
+						}
+					}
+				},
+				"placements": {
+					"type": "array",
+					"items": { "$ref": "#/definitions/projectionPlacement" },
+					"minItems": 1
+				},
+				"relationPaths": { "type": "array", "items": { "$ref": "#/definitions/projectionRelationPath" } }
+			}
+		},
+		"imports": { "type": "array", "items": { "$ref": "#/definitions/documentId" }, "uniqueItems": true },
+		"instances": { "type": "array", "items": { "$ref": "#/definitions/instance" } },
+		"notes": { "type": "array", "items": { "type": "string" } }
+	},
+	"allOf": [
+		{
+			"if": { "properties": { "kind": { "const": "primitive" } }, "required": ["kind"] },
+			"then": {
+				"properties": {
+					"topology": { "properties": { "elements": { "minItems": 1 } } },
+					"projection2d": { "properties": { "placements": { "minItems": 1 } } }
+				}
+			}
+		},
+		{
+			"if": { "properties": { "kind": { "const": "structure" } }, "required": ["kind"] },
+			"then": {
+				"properties": {
+					"projection2d": { "properties": { "placements": { "minItems": 1 } } }
+				}
+			}
+		},
+		{
+			"if": { "properties": { "kind": { "const": "rune" } }, "required": ["kind"] },
+			"then": {
+				"properties": {
+					"projection2d": { "properties": { "relationPaths": { "minItems": 1 } } }
+				}
+			}
+		}
+	]
+}

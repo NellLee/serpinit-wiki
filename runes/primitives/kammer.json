@@ -1,0 +1,78 @@
+{
+	"id": "primitive.kammer",
+	"name": "Kammer",
+	"kind": "primitive",
+	"version": "1.0.0",
+	"description": "Eine lokale Erweiterung, die Potenz kurz sammelt, glaettet und vorbereitend haelt.",
+	"semantics": {
+		"ontologyClasses": ["potenz", "fluss"],
+		"processRoles": ["stauen", "begrenzen"]
+	},
+	"constraints": [
+		"Gewinnt an Lesbarkeit in sammelnden oder begrenzenden Sektoren.",
+		"Soll nicht als alleinige Endstruktur verwendet werden."
+	],
+	"topology": {
+		"elements": [
+			{
+				"id": "tasche",
+				"kind": "kammer",
+				"semanticRole": "sammelnde Tasche",
+				"ontologyClasses": ["potenz", "fluss"]
+			}
+		],
+		"relations": [],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-outward", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "core-relative", "dimensions": 2 },
+		"entries": [
+			{
+				"ref": "element:tasche",
+				"center": { "radius": 0.54, "angleDegrees": 180 },
+				"size": { "radial": 0.24, "angular": 36 },
+				"rotationDegrees": 180
+			}
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotic-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "up-opposes-gravity",
+				"anchorReference": "outward-follows-structure",
+				"notes": "Die Kammer wird in dieser Projektion ueber ihre sammelnde Gegenlage zum Auslass gelesen."
+			}
+		},
+		"placements": [
+			{
+				"ref": "element:tasche",
+				"layer": 2,
+				"layerOffset": 0,
+				"sector": "sammlung",
+				"sectorOffset": 0,
+				"radialSpan": 1,
+				"sectorSpan": 1,
+				"shapeFamily": "chamber"
+			}
+		],
+		"relationPaths": []
+	}
+}

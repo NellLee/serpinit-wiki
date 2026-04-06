@@ -1,0 +1,75 @@
+{
+	"id": "rune.substrat-gebundener-auslass",
+	"name": "Substratgebundener Auslass",
+	"kind": "rune",
+	"version": "1.0.0",
+	"description": "Eine etwas reichere Beispielrune, die einen geschuetzten Auslass mit ausdruecklicher Substratbindung zusammenzieht.",
+	"semantics": {
+		"ontologyClasses": ["substrat", "fluss", "ort", "bindung", "potenz"],
+		"processRoles": ["leiten", "binden", "abschirmen", "praegen"]
+	},
+	"constraints": [
+		"Die Substratbindung soll als senkende Gegenkraft zur hebenden Auslassachse lesbar bleiben."
+	],
+	"topology": {
+		"elements": [
+			{
+				"id": "substrat-siegel",
+				"kind": "kammer",
+				"semanticRole": "substratbindende Tasche",
+				"ontologyClasses": ["substrat", "bindung"]
+			}
+		],
+		"relations": [
+			{ "id": "guarded-channel", "kind": "contains", "source": "instance:guarded-outlet", "target": "element:substrat-siegel" },
+			{ "id": "substrat-anchors-outlet", "kind": "anchors", "source": "element:substrat-siegel", "target": "instance:guarded-outlet" }
+		],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-outward", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "core-relative", "dimensions": 2 },
+		"entries": [
+			{ "ref": "instance:guarded-outlet", "center": { "radius": 0.48, "angleDegrees": -90 }, "size": { "radial": 0.58, "angular": 32 }, "rotationDegrees": -90 },
+			{ "ref": "element:substrat-siegel", "center": { "radius": 0.72, "angleDegrees": 180 }, "size": { "radial": 0.22, "angular": 34 }, "rotationDegrees": 180 }
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotic-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "up-opposes-gravity",
+				"anchorReference": "outward-follows-primary-anchor",
+				"notes": "Die physische Ausrichtung folgt dem geschuetzten Auslass, waehrend die Substratbindung als senkende Gegenlage gelesen wird."
+			}
+		},
+		"placements": [
+			{ "ref": "instance:guarded-outlet", "layer": 1, "layerOffset": 0, "sector": "auslass", "sectorOffset": 0, "radialSpan": 3, "sectorSpan": 2, "shapeFamily": "channel" },
+			{ "ref": "element:substrat-siegel", "layer": 3, "layerOffset": 0, "sector": "praegung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "chamber" }
+		],
+		"relationPaths": [
+			{ "relationId": "guarded-channel", "mode": "radial-arc", "source": "instance:guarded-outlet", "target": "element:substrat-siegel" },
+			{ "relationId": "substrat-anchors-outlet", "mode": "bridge", "source": "element:substrat-siegel", "target": "instance:guarded-outlet" }
+		]
+	},
+	"imports": ["structure.geschuetzter-auslass"],
+	"instances": [
+		{ "id": "guarded-outlet", "documentId": "structure.geschuetzter-auslass", "role": "primary-structure" }
+	]
+}
