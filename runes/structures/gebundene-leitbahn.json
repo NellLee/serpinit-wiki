@@ -15,8 +15,8 @@
 	"topology": {
 		"elements": [],
 		"relations": [
-			{ "id": "lead-to-throat", "kind": "feeds", "source": "instance:leitbahn", "target": "instance:drossel" },
-			{ "id": "throat-to-anchor", "kind": "anchors", "source": "instance:drossel", "target": "instance:anker" }
+			{ "id": "lead-to-throat", "kind": "speist", "source": "instance:leitbahn", "target": "instance:drossel" },
+			{ "id": "throat-to-anchor", "kind": "verankert", "source": "instance:drossel", "target": "instance:anker" }
 		],
 		"layers": [
 			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
@@ -24,10 +24,10 @@
 			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
 			{ "id": "bindung", "index": 3, "name": "Bindung" }
 		],
-		"flow": { "direction": "radial-outward", "allowsReturn": false }
+		"flow": { "direction": "radial-auswaerts", "allowsReturn": false }
 	},
 	"geometry": {
-		"space": { "kind": "core-relative", "dimensions": 2 },
+		"space": { "kind": "kernrelativ", "dimensions": 2 },
 		"entries": [
 			{ "ref": "instance:leitbahn", "center": { "radius": 0.35, "angleDegrees": -90 }, "size": { "radial": 0.48, "angular": 22 }, "rotationDegrees": -90 },
 			{ "ref": "instance:drossel", "center": { "radius": 0.56, "angleDegrees": -90 }, "size": { "radial": 0.12, "angular": 12 }, "rotationDegrees": -90 },
@@ -36,7 +36,7 @@
 	},
 	"projection2d": {
 		"system": {
-			"kind": "vendotic-radial",
+			"kind": "vendotisch-radial",
 			"layerCount": 4,
 			"sectors": [
 				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
@@ -49,19 +49,19 @@
 				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
 			],
 			"orientationFrame": {
-				"gravityReference": "up-opposes-gravity",
-				"anchorReference": "outward-follows-primary-anchor",
+				"gravityReference": "oben-gegen-schwerkraft",
+				"anchorReference": "auswaerts-folgt-hauptanker",
 				"notes": "Der Zielanker richtet die gesamte Struktur entlang der hebenden polwaerts-Achse aus."
 			}
 		},
 		"placements": [
-			{ "ref": "instance:leitbahn", "layer": 1, "layerOffset": 0.05, "sector": "auslass", "sectorOffset": 0, "radialSpan": 2, "sectorSpan": 1, "shapeFamily": "channel" },
-			{ "ref": "instance:drossel", "layer": 2, "layerOffset": -0.1, "sector": "lenkung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "throat" },
-			{ "ref": "instance:anker", "layer": 3, "layerOffset": 0, "sector": "praegung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "anchor" }
+			{ "ref": "instance:leitbahn", "layer": 1, "layerOffset": 0.05, "sector": "auslass", "sectorOffset": 0, "radialSpan": 2, "sectorSpan": 1, "shapeFamily": "leitbahn" },
+			{ "ref": "instance:drossel", "layer": 2, "layerOffset": -0.1, "sector": "lenkung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "drossel" },
+			{ "ref": "instance:anker", "layer": 3, "layerOffset": 0, "sector": "praegung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "anker" }
 		],
 		"relationPaths": [
-			{ "relationId": "lead-to-throat", "mode": "radial", "source": "instance:leitbahn", "target": "instance:drossel" },
-			{ "relationId": "throat-to-anchor", "mode": "radial", "source": "instance:drossel", "target": "instance:anker" }
+			{ "relationId": "lead-to-throat", "mode": "strahl", "source": "instance:leitbahn", "target": "instance:drossel" },
+			{ "relationId": "throat-to-anchor", "mode": "strahl", "source": "instance:drossel", "target": "instance:anker" }
 		]
 	},
 	"imports": ["primitive.leitbahn", "primitive.drossel", "primitive.anker"],
@@ -71,3 +71,4 @@
 		{ "id": "anker", "documentId": "primitive.anker", "role": "target-anchor" }
 	]
 }
+

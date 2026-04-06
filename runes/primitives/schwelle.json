@@ -1,24 +1,24 @@
 {
-	"id": "primitive.anker",
-	"name": "Anker",
+	"id": "primitive.schwelle",
+	"name": "Schwelle",
 	"kind": "primitive",
 	"version": "1.0.0",
-	"description": "Eine Zielstruktur, die Wirkung an Ort, Substrat oder Leib bindet und die Ausrichtung nach aussen stabilisiert.",
+	"description": "Eine druckabhaengige Schwellenform, die Fluss erst ab ausreichender Vorlast in den naechsten Abschnitt entlaesst.",
 	"semantics": {
-		"ontologyClasses": ["ort", "bindung"],
-		"processRoles": ["binden", "praegen"]
+		"ontologyClasses": ["fluss", "potenz", "grenze"],
+		"processRoles": ["stauen", "begrenzen", "ausrichten"]
 	},
 	"constraints": [
-		"Soll in der Regel an einer aeusseren Schale lesbar bleiben.",
-		"Gibt der Projektion ihre bevorzugte Vorzugsrichtung."
+		"Die Schwelle muss kernnaeher gelesen werden als der nachfolgende Auslass.",
+		"Sie verliert Sinn, wenn kein anschliessender Wirkpfad vorbereitet ist."
 	],
 	"topology": {
 		"elements": [
 			{
-				"id": "zielkopf",
-				"kind": "anker",
-				"semanticRole": "aussenorientierter Zielkopf",
-				"ontologyClasses": ["ort", "bindung"]
+				"id": "schwellenkamm",
+				"kind": "schwelle",
+				"semanticRole": "druckabhaengiger Freigabekamm",
+				"ontologyClasses": ["fluss", "potenz", "grenze"]
 			}
 		],
 		"relations": [],
@@ -34,10 +34,10 @@
 		"space": { "kind": "kernrelativ", "dimensions": 2 },
 		"entries": [
 			{
-				"ref": "element:zielkopf",
-				"center": { "radius": 0.82, "angleDegrees": 180 },
-				"size": { "radial": 0.2, "angular": 30 },
-				"rotationDegrees": 180
+				"ref": "element:schwellenkamm",
+				"center": { "radius": 0.48, "angleDegrees": -90 },
+				"size": { "radial": 0.18, "angular": 18 },
+				"rotationDegrees": -90
 			}
 		]
 	},
@@ -57,23 +57,22 @@
 			],
 			"orientationFrame": {
 				"gravityReference": "oben-gegen-schwerkraft",
-				"anchorReference": "auswaerts-folgt-hauptanker",
-				"notes": "Der Anker definiert die primaere Ausrichtung der Projektion nach aussen."
+				"anchorReference": "auswaerts-folgt-struktur",
+				"notes": "Die Schwelle ist als kernnahe Freigabe gegen den Ausstrom lesbar."
 			}
 		},
 		"placements": [
 			{
-				"ref": "element:zielkopf",
-				"layer": 3,
+				"ref": "element:schwellenkamm",
+				"layer": 1,
 				"layerOffset": 0,
-				"sector": "praegung",
+				"sector": "lenkung",
 				"sectorOffset": 0,
 				"radialSpan": 1,
 				"sectorSpan": 1,
-				"shapeFamily": "anker"
+				"shapeFamily": "schwelle"
 			}
 		],
 		"relationPaths": []
 	}
 }
-

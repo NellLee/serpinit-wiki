@@ -1,31 +1,31 @@
-<script lang="ts">
+﻿<script lang="ts">
 	import type { RunicDocument } from '$lib/runes/contracts';
 
 	export let document: RunicDocument;
 </script>
 
 <section class="detail-panel">
-	<h2>Structure</h2>
+	<h2>Struktur</h2>
 	<p>{document.description}</p>
 
 	<div class="detail-block">
-		<h3>Semantics</h3>
-		<p><strong>Ontology:</strong> {document.semantics.ontologyClasses.join(', ')}</p>
-		<p><strong>Process roles:</strong> {document.semantics.processRoles.join(', ')}</p>
+		<h3>Semantik</h3>
+		<p><strong>Ontologie:</strong> {document.semantics.ontologyClasses.join(', ')}</p>
+		<p><strong>Wirkrollen:</strong> {document.semantics.processRoles.join(', ')}</p>
 	</div>
 
 	<div class="detail-block">
-		<h3>Topology</h3>
-		<p><strong>Flow:</strong> {document.topology.flow.direction}</p>
-		<p><strong>Allows return:</strong> {document.topology.flow.allowsReturn ? 'yes' : 'no'}</p>
-		<p><strong>Elements:</strong> {document.topology.elements.length}</p>
-		<p><strong>Relations:</strong> {document.topology.relations.length}</p>
-		<p><strong>Layers:</strong> {document.topology.layers.map((layer) => `${layer.index}:${layer.name}`).join(' � ')}</p>
+		<h3>Gefuege</h3>
+		<p><strong>Fluss:</strong> {document.topology.flow.direction}</p>
+		<p><strong>Rueckfluss:</strong> {document.topology.flow.allowsReturn ? 'ja' : 'nein'}</p>
+		<p><strong>Elemente:</strong> {document.topology.elements.length}</p>
+		<p><strong>Beziehungen:</strong> {document.topology.relations.length}</p>
+		<p><strong>Schalen:</strong> {document.topology.layers.map((layer) => `${layer.index}:${layer.name}`).join(' · ')}</p>
 	</div>
 
 	{#if document.instances?.length}
 		<div class="detail-block">
-			<h3>Instances</h3>
+			<h3>Instanzen</h3>
 			<ul>
 				{#each document.instances as instance}
 					<li><strong>{instance.id}</strong> -&gt; {instance.documentId} ({instance.role})</li>
@@ -36,7 +36,7 @@
 
 	{#if document.constraints?.length}
 		<div class="detail-block">
-			<h3>Constraints</h3>
+			<h3>Bindungen</h3>
 			<ul>
 				{#each document.constraints as constraint}
 					<li>{constraint}</li>

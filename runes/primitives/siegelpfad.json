@@ -1,24 +1,24 @@
 {
-	"id": "primitive.anker",
-	"name": "Anker",
+	"id": "primitive.siegelpfad",
+	"name": "Siegelpfad",
 	"kind": "primitive",
 	"version": "1.0.0",
-	"description": "Eine Zielstruktur, die Wirkung an Ort, Substrat oder Leib bindet und die Ausrichtung nach aussen stabilisiert.",
+	"description": "Ein abschliessender Pfad, der Restdruck in eine Siegelung hinein abfuehrt und offene Wirkung beendet.",
 	"semantics": {
-		"ontologyClasses": ["ort", "bindung"],
-		"processRoles": ["binden", "praegen"]
+		"ontologyClasses": ["grenze", "bindung", "potenz"],
+		"processRoles": ["abschirmen", "binden", "begrenzen"]
 	},
 	"constraints": [
-		"Soll in der Regel an einer aeusseren Schale lesbar bleiben.",
-		"Gibt der Projektion ihre bevorzugte Vorzugsrichtung."
+		"Der Siegelpfad muss immer als Abschluss und nicht als Hauptauslass lesbar sein.",
+		"Ohne vorgelagerte Bahn wirkt er wie eine tote Sperre."
 	],
 	"topology": {
 		"elements": [
 			{
-				"id": "zielkopf",
-				"kind": "anker",
-				"semanticRole": "aussenorientierter Zielkopf",
-				"ontologyClasses": ["ort", "bindung"]
+				"id": "siegelbahn",
+				"kind": "siegelpfad",
+				"semanticRole": "abschliessende Siegelbahn",
+				"ontologyClasses": ["grenze", "bindung", "potenz"]
 			}
 		],
 		"relations": [],
@@ -34,10 +34,10 @@
 		"space": { "kind": "kernrelativ", "dimensions": 2 },
 		"entries": [
 			{
-				"ref": "element:zielkopf",
-				"center": { "radius": 0.82, "angleDegrees": 180 },
-				"size": { "radial": 0.2, "angular": 30 },
-				"rotationDegrees": 180
+				"ref": "element:siegelbahn",
+				"center": { "radius": 0.72, "angleDegrees": 110 },
+				"size": { "radial": 0.16, "angular": 24 },
+				"rotationDegrees": 110
 			}
 		]
 	},
@@ -57,23 +57,22 @@
 			],
 			"orientationFrame": {
 				"gravityReference": "oben-gegen-schwerkraft",
-				"anchorReference": "auswaerts-folgt-hauptanker",
-				"notes": "Der Anker definiert die primaere Ausrichtung der Projektion nach aussen."
+				"anchorReference": "auswaerts-folgt-struktur",
+				"notes": "Der Siegelpfad wird ueber seine gegenlaufende Endstellung als Abschluss gelesen."
 			}
 		},
 		"placements": [
 			{
-				"ref": "element:zielkopf",
+				"ref": "element:siegelbahn",
 				"layer": 3,
 				"layerOffset": 0,
-				"sector": "praegung",
+				"sector": "siegelung",
 				"sectorOffset": 0,
 				"radialSpan": 1,
 				"sectorSpan": 1,
-				"shapeFamily": "anker"
+				"shapeFamily": "siegelpfad"
 			}
 		],
 		"relationPaths": []
 	}
 }
-

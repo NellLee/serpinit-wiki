@@ -31,7 +31,12 @@ export const PRIMITIVE_KINDS = [
 	'gabel',
 	'anker',
 	'mantel',
-	'sperre'
+	'sperre',
+	'schwelle',
+	'pruefkammer',
+	'weiche',
+	'rueckfuehrung',
+	'siegelpfad'
 ] as const;
 
 export const RUNIC_SECTORS = [
@@ -46,13 +51,18 @@ export const RUNIC_SECTORS = [
 ] as const;
 
 export const SHAPE_FAMILIES = [
-	'channel',
-	'throat',
-	'chamber',
-	'fork',
-	'anchor',
-	'ring',
-	'barrier'
+	'leitbahn',
+	'drossel',
+	'kammer',
+	'gabel',
+	'anker',
+	'mantel',
+	'sperre',
+	'schwelle',
+	'pruefkammer',
+	'weiche',
+	'rueckfuehrung',
+	'siegelpfad'
 ] as const;
 
 export type OntologyClass = (typeof ONTOLOGY_CLASSES)[number];
@@ -64,19 +74,24 @@ export type RunicDocumentKind = 'primitive' | 'structure' | 'rune';
 export type RunicRef = `${'element' | 'instance'}:${string}`;
 
 export type RelationKind =
-	| 'feeds'
-	| 'bounds'
-	| 'anchors'
-	| 'modulates'
-	| 'contains'
-	| 'branches-to';
+	| 'speist'
+	| 'begrenzt'
+	| 'verankert'
+	| 'moduliert'
+	| 'enthaelt'
+	| 'verzweigt-zu'
+	| 'prueft'
+	| 'hemmt'
+	| 'leitet-um'
+	| 'rueckfuehrt'
+	| 'versiegelt';
 
-export type RelationPathMode = 'radial' | 'arc' | 'radial-arc' | 'bridge';
+export type RelationPathMode = 'strahl' | 'bogen' | 'strahlbogen' | 'bruecke';
 export type GravitativeMode = 'hebend' | 'senkend';
 export type PolarMode = 'polwaerts' | 'feldwaerts';
 export type RotativeMode = 'fortlaufend' | 'gegenlaufend';
-export type GravityReference = 'up-opposes-gravity';
-export type AnchorReference = 'outward-follows-primary-anchor' | 'outward-follows-structure';
+export type GravityReference = 'oben-gegen-schwerkraft';
+export type AnchorReference = 'auswaerts-folgt-hauptanker' | 'auswaerts-folgt-struktur';
 
 export type RunicSemantics = {
 	ontologyClasses: OntologyClass[];
@@ -108,7 +123,7 @@ export type RunicTopology = {
 	relations: RunicRelation[];
 	layers: RunicLayer[];
 	flow: {
-		direction: 'radial-outward';
+		direction: 'radial-auswaerts';
 		allowsReturn: boolean;
 	};
 };
@@ -128,7 +143,7 @@ export type RunicGeometryEntry = {
 
 export type RunicGeometry = {
 	space: {
-		kind: 'core-relative';
+		kind: 'kernrelativ';
 		dimensions: 2;
 	};
 	entries: RunicGeometryEntry[];
@@ -167,7 +182,7 @@ export type ProjectionRelationPath = {
 
 export type RunicProjection2D = {
 	system: {
-		kind: 'vendotic-radial';
+		kind: 'vendotisch-radial';
 		layerCount: number;
 		sectors: ProjectionSectorDefinition[];
 		orientationFrame: ProjectionOrientationFrame;

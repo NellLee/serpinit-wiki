@@ -1,0 +1,70 @@
+{
+	"id": "structure.substratgekoppelte-pruefung",
+	"name": "Substratgekoppelte Pruefung",
+	"kind": "structure",
+	"version": "1.0.0",
+	"description": "Eine Pruefstruktur, die ihr Urteil ueber eine bindende Substratkammer abstuetzt.",
+	"semantics": {
+		"ontologyClasses": ["substrat", "fluss", "bindung", "potenz"],
+		"processRoles": ["koppeln", "binden", "stauen"]
+	},
+	"constraints": [
+		"Die Substratkammer muss die pruefende Kammer eindeutig unterfangen.",
+		"Die Bindung darf den Weiterpfad nicht selbst ersetzen."
+	],
+	"topology": {
+		"elements": [],
+		"relations": [
+			{ "id": "substratkammer-prueft-pruefkammer", "kind": "prueft", "source": "instance:substratkammer", "target": "instance:pruefkammer" },
+			{ "id": "substratkammer-verankert-pruefkammer", "kind": "verankert", "source": "instance:substratkammer", "target": "instance:pruefkammer" }
+		],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-auswaerts", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "kernrelativ", "dimensions": 2 },
+		"entries": [
+			{ "ref": "instance:pruefkammer", "center": { "radius": 0.42, "angleDegrees": 0 }, "size": { "radial": 0.2, "angular": 24 }, "rotationDegrees": 0 },
+			{ "ref": "instance:substratkammer", "center": { "radius": 0.68, "angleDegrees": 180 }, "size": { "radial": 0.22, "angular": 32 }, "rotationDegrees": 180 }
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotisch-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "oben-gegen-schwerkraft",
+				"anchorReference": "auswaerts-folgt-struktur",
+				"notes": "Die Substratkammer liegt als senkende Gegenlage unter der kernnahen Pruefkammer."
+			}
+		},
+		"placements": [
+			{ "ref": "instance:pruefkammer", "layer": 1, "layerOffset": 0.1, "sector": "lenkung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "pruefkammer" },
+			{ "ref": "instance:substratkammer", "layer": 3, "layerOffset": 0, "sector": "praegung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "kammer" }
+		],
+		"relationPaths": [
+			{ "relationId": "substratkammer-prueft-pruefkammer", "mode": "strahlbogen", "source": "instance:substratkammer", "target": "instance:pruefkammer" },
+			{ "relationId": "substratkammer-verankert-pruefkammer", "mode": "bruecke", "source": "instance:substratkammer", "target": "instance:pruefkammer" }
+		]
+	},
+	"imports": ["primitive.pruefkammer", "primitive.kammer"],
+	"instances": [
+		{ "id": "pruefkammer", "documentId": "primitive.pruefkammer", "role": "resonanzpruefung" },
+		{ "id": "substratkammer", "documentId": "primitive.kammer", "role": "substratbindung" }
+	]
+}

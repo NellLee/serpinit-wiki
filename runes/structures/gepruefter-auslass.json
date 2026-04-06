@@ -1,0 +1,73 @@
+{
+	"id": "structure.gepruefter-auslass",
+	"name": "Gepruefter Auslass",
+	"kind": "structure",
+	"version": "1.0.0",
+	"description": "Ein Auslasskoerper, der erst nach einer vorgeschalteten Pruefkammer in den eigentlichen Leitpfad entlaesst.",
+	"semantics": {
+		"ontologyClasses": ["fluss", "potenz", "ort", "bindung"],
+		"processRoles": ["leiten", "ausrichten", "koppeln"]
+	},
+	"constraints": [
+		"Die Pruefkammer muss kernnaeher bleiben als der eigentliche Auslass.",
+		"Die Auslassrichtung darf durch die Pruefung nicht unlesbar werden."
+	],
+	"topology": {
+		"elements": [],
+		"relations": [
+			{ "id": "pruefung-speist-leitbahn", "kind": "speist", "source": "instance:pruefkammer", "target": "instance:leitbahn" },
+			{ "id": "leitbahn-verankert-anker", "kind": "verankert", "source": "instance:leitbahn", "target": "instance:anker" }
+		],
+		"layers": [
+			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
+			{ "id": "formung", "index": 1, "name": "Formung" },
+			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
+			{ "id": "bindung", "index": 3, "name": "Bindung" }
+		],
+		"flow": { "direction": "radial-auswaerts", "allowsReturn": false }
+	},
+	"geometry": {
+		"space": { "kind": "kernrelativ", "dimensions": 2 },
+		"entries": [
+			{ "ref": "instance:pruefkammer", "center": { "radius": 0.34, "angleDegrees": -60 }, "size": { "radial": 0.22, "angular": 20 }, "rotationDegrees": -60 },
+			{ "ref": "instance:leitbahn", "center": { "radius": 0.5, "angleDegrees": -90 }, "size": { "radial": 0.42, "angular": 24 }, "rotationDegrees": -90 },
+			{ "ref": "instance:anker", "center": { "radius": 0.84, "angleDegrees": -90 }, "size": { "radial": 0.2, "angular": 24 }, "rotationDegrees": -90 }
+		]
+	},
+	"projection2d": {
+		"system": {
+			"kind": "vendotisch-radial",
+			"layerCount": 4,
+			"sectors": [
+				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "lenkung", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "entfaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "spaltung", "gravitativeMode": "hebend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "praegung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "siegelung", "gravitativeMode": "senkend", "polarMode": "polwaerts", "rotativeMode": "gegenlaufend" },
+				{ "name": "sammlung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "fortlaufend" },
+				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
+			],
+			"orientationFrame": {
+				"gravityReference": "oben-gegen-schwerkraft",
+				"anchorReference": "auswaerts-folgt-hauptanker",
+				"notes": "Die Pruefung sitzt seitlich kernnah, bevor der Auslass in die hebende Achse uebergeht."
+			}
+		},
+		"placements": [
+			{ "ref": "instance:pruefkammer", "layer": 1, "layerOffset": 0, "sector": "lenkung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "pruefkammer" },
+			{ "ref": "instance:leitbahn", "layer": 1, "layerOffset": 0.1, "sector": "auslass", "sectorOffset": 0, "radialSpan": 2, "sectorSpan": 1, "shapeFamily": "leitbahn" },
+			{ "ref": "instance:anker", "layer": 3, "layerOffset": 0, "sector": "praegung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "anker" }
+		],
+		"relationPaths": [
+			{ "relationId": "pruefung-speist-leitbahn", "mode": "strahl", "source": "instance:pruefkammer", "target": "instance:leitbahn" },
+			{ "relationId": "leitbahn-verankert-anker", "mode": "strahl", "source": "instance:leitbahn", "target": "instance:anker" }
+		]
+	},
+	"imports": ["primitive.pruefkammer", "primitive.leitbahn", "primitive.anker"],
+	"instances": [
+		{ "id": "pruefkammer", "documentId": "primitive.pruefkammer", "role": "eingangspruefung" },
+		{ "id": "leitbahn", "documentId": "primitive.leitbahn", "role": "hauptauslass" },
+		{ "id": "anker", "documentId": "primitive.anker", "role": "zielanker" }
+	]
+}

@@ -25,6 +25,30 @@ const ajv = new Ajv({
 let compiledValidator: Ajv.ValidateFunction | null = null;
 let cachedLibrary: ResolvedRunicLibrary | null = null;
 
+const DEPRECATED_CANONICAL_VOCABULARY = new Map<string, string>([
+	['shapeFamily', 'wirkform'],
+	['channel', 'leitbahn'],
+	['throat', 'drossel'],
+	['chamber', 'kammer'],
+	['fork', 'gabel'],
+	['anchor', 'anker'],
+	['ring', 'mantel'],
+	['barrier', 'sperre'],
+	['feeds', 'speist'],
+	['bounds', 'begrenzt'],
+	['anchors', 'verankert'],
+	['modulates', 'moduliert'],
+	['contains', 'enthaelt'],
+	['branches-to', 'verzweigt-zu'],
+	['radial', 'strahlend'],
+	['arc', 'bogen'],
+	['radial-arc', 'strahlbogen'],
+	['bridge', 'bruecke'],
+	['up-opposes-gravity', 'oben-gegen-schwerkraft'],
+	['outward-follows-primary-anchor', 'auswaerts-folgt-hauptanker'],
+	['outward-follows-structure', 'auswaerts-folgt-struktur']
+]);
+
 function readJsonFile<T>(fullPath: string): T {
 	return JSON.parse(fs.readFileSync(fullPath, 'utf-8')) as T;
 }
@@ -91,6 +115,55 @@ function assertCanonicalSectors(document: RunicDocument, documentPath: string) {
 			);
 		}
 	}
+}
+
+function findDeprecatedCanonicalVocabulary(value: unknown, path = '(root)'): { path: string; value: string; replacement: string } | null {
+	if (typeof value === 'string') {
+		const replacement = DEPRECATED_CANONICAL_VOCABULARY.get(value);
+		return replacement ? { path, value, replacement } : null;
+	}
+
+	if (Array.isArray(value)) {
+		for (const [index, entry] of value.entries()) {
+			const found = findDeprecatedCanonicalVocabulary(entry, `${path}[${index}]`);
+			if (found) {
+				return found;
+			}
+		}
+
+		return null;
+	}
+
+	if (value && typeof value === 'object') {
+		for (const [key, entry] of Object.entries(value)) {
+			const keyReplacement = DEPRECATED_CANONICAL_VOCABULARY.get(key);
+			if (keyReplacement) {
+				return {
+					path: `${path}.${key}`,
+					value: key,
+					replacement: keyReplacement
+				};
+			}
+
+			const found = findDeprecatedCanonicalVocabulary(entry, `${path}.${key}`);
+			if (found) {
+				return found;
+			}
+		}
+	}
+
+	return null;
+}
+
+export function assertNoDeprecatedCanonicalVocabulary(document: unknown, documentPath = '(inline)') {
+	const found = findDeprecatedCanonicalVocabulary(document);
+	if (!found) {
+		return;
+	}
+
+	throw new Error(
+		`Invalid runic document at ${documentPath}: deprecated canonical vocabulary "${found.value}" at ${found.path}; use "${found.replacement}" instead`
+	);
 }
 
 export function validateRunicDocumentData(document: unknown): document is RunicDocument {

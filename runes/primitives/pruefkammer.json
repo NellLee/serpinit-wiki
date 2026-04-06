@@ -1,24 +1,24 @@
 {
-	"id": "primitive.anker",
-	"name": "Anker",
+	"id": "primitive.pruefkammer",
+	"name": "Pruefkammer",
 	"kind": "primitive",
 	"version": "1.0.0",
-	"description": "Eine Zielstruktur, die Wirkung an Ort, Substrat oder Leib bindet und die Ausrichtung nach aussen stabilisiert.",
+	"description": "Eine Kammerform, die eintretende Potenz vor der Weitergabe auf passende Spannung und Musterung prueft.",
 	"semantics": {
-		"ontologyClasses": ["ort", "bindung"],
-		"processRoles": ["binden", "praegen"]
+		"ontologyClasses": ["fluss", "potenz", "bindung"],
+		"processRoles": ["stauen", "koppeln", "begrenzen"]
 	},
 	"constraints": [
-		"Soll in der Regel an einer aeusseren Schale lesbar bleiben.",
-		"Gibt der Projektion ihre bevorzugte Vorzugsrichtung."
+		"Die Pruefkammer braucht einen klaren Zulauf und einen unterscheidbaren Weiterpfad.",
+		"Zu weit aussen verliert sie ihre pruefende Feinstufigkeit."
 	],
 	"topology": {
 		"elements": [
 			{
-				"id": "zielkopf",
-				"kind": "anker",
-				"semanticRole": "aussenorientierter Zielkopf",
-				"ontologyClasses": ["ort", "bindung"]
+				"id": "pruefraum",
+				"kind": "pruefkammer",
+				"semanticRole": "pruefender Resonanzraum",
+				"ontologyClasses": ["fluss", "potenz", "bindung"]
 			}
 		],
 		"relations": [],
@@ -34,10 +34,10 @@
 		"space": { "kind": "kernrelativ", "dimensions": 2 },
 		"entries": [
 			{
-				"ref": "element:zielkopf",
-				"center": { "radius": 0.82, "angleDegrees": 180 },
-				"size": { "radial": 0.2, "angular": 30 },
-				"rotationDegrees": 180
+				"ref": "element:pruefraum",
+				"center": { "radius": 0.54, "angleDegrees": -20 },
+				"size": { "radial": 0.2, "angular": 22 },
+				"rotationDegrees": -20
 			}
 		]
 	},
@@ -57,23 +57,22 @@
 			],
 			"orientationFrame": {
 				"gravityReference": "oben-gegen-schwerkraft",
-				"anchorReference": "auswaerts-folgt-hauptanker",
-				"notes": "Der Anker definiert die primaere Ausrichtung der Projektion nach aussen."
+				"anchorReference": "auswaerts-folgt-struktur",
+				"notes": "Die Pruefkammer liest sich als seitlich verschobene Kontrollvertiefung im hebenden Bereich."
 			}
 		},
 		"placements": [
 			{
-				"ref": "element:zielkopf",
-				"layer": 3,
+				"ref": "element:pruefraum",
+				"layer": 2,
 				"layerOffset": 0,
-				"sector": "praegung",
+				"sector": "lenkung",
 				"sectorOffset": 0,
 				"radialSpan": 1,
 				"sectorSpan": 1,
-				"shapeFamily": "anker"
+				"shapeFamily": "pruefkammer"
 			}
 		],
 		"relationPaths": []
 	}
 }
-

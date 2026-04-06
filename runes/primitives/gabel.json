@@ -25,10 +25,10 @@
 			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
 			{ "id": "bindung", "index": 3, "name": "Bindung" }
 		],
-		"flow": { "direction": "radial-outward", "allowsReturn": false }
+		"flow": { "direction": "radial-auswaerts", "allowsReturn": false }
 	},
 	"geometry": {
-		"space": { "kind": "core-relative", "dimensions": 2 },
+		"space": { "kind": "kernrelativ", "dimensions": 2 },
 		"entries": [
 			{
 				"ref": "element:abzweig",
@@ -40,7 +40,7 @@
 	},
 	"projection2d": {
 		"system": {
-			"kind": "vendotic-radial",
+			"kind": "vendotisch-radial",
 			"layerCount": 4,
 			"sectors": [
 				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
@@ -53,8 +53,8 @@
 				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
 			],
 			"orientationFrame": {
-				"gravityReference": "up-opposes-gravity",
-				"anchorReference": "outward-follows-structure",
+				"gravityReference": "oben-gegen-schwerkraft",
+				"anchorReference": "auswaerts-folgt-struktur",
 				"notes": "Die Gabel wird ueber zwei fortlaufende Folgearme gegen eine einzelne Abbruchkante gelesen."
 			}
 		},
@@ -67,9 +67,10 @@
 				"sectorOffset": 0,
 				"radialSpan": 1,
 				"sectorSpan": 2,
-				"shapeFamily": "fork"
+				"shapeFamily": "gabel"
 			}
 		],
 		"relationPaths": []
 	}
 }
+

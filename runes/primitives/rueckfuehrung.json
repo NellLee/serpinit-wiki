@@ -1,24 +1,24 @@
 {
-	"id": "primitive.anker",
-	"name": "Anker",
+	"id": "primitive.rueckfuehrung",
+	"name": "Rueckfuehrung",
 	"kind": "primitive",
 	"version": "1.0.0",
-	"description": "Eine Zielstruktur, die Wirkung an Ort, Substrat oder Leib bindet und die Ausrichtung nach aussen stabilisiert.",
+	"description": "Eine kontrollierte Rueckbahn, die Druckanteile in eine innere Zone zurueckleitet und damit spaetere Stabilisierung vorbereitet.",
 	"semantics": {
-		"ontologyClasses": ["ort", "bindung"],
-		"processRoles": ["binden", "praegen"]
+		"ontologyClasses": ["fluss", "bindung", "potenz"],
+		"processRoles": ["koppeln", "binden", "wandeln"]
 	},
 	"constraints": [
-		"Soll in der Regel an einer aeusseren Schale lesbar bleiben.",
-		"Gibt der Projektion ihre bevorzugte Vorzugsrichtung."
+		"Die Rueckfuehrung darf nicht wie ein freier Rueckstrom gelesen werden.",
+		"Sie braucht immer eine begrenzende Gegenstruktur."
 	],
 	"topology": {
 		"elements": [
 			{
-				"id": "zielkopf",
-				"kind": "anker",
-				"semanticRole": "aussenorientierter Zielkopf",
-				"ontologyClasses": ["ort", "bindung"]
+				"id": "ruecklauf",
+				"kind": "rueckfuehrung",
+				"semanticRole": "gedaempfter Ruecklauf",
+				"ontologyClasses": ["fluss", "bindung", "potenz"]
 			}
 		],
 		"relations": [],
@@ -28,16 +28,16 @@
 			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
 			{ "id": "bindung", "index": 3, "name": "Bindung" }
 		],
-		"flow": { "direction": "radial-auswaerts", "allowsReturn": false }
+		"flow": { "direction": "radial-auswaerts", "allowsReturn": true }
 	},
 	"geometry": {
 		"space": { "kind": "kernrelativ", "dimensions": 2 },
 		"entries": [
 			{
-				"ref": "element:zielkopf",
-				"center": { "radius": 0.82, "angleDegrees": 180 },
-				"size": { "radial": 0.2, "angular": 30 },
-				"rotationDegrees": 180
+				"ref": "element:ruecklauf",
+				"center": { "radius": 0.62, "angleDegrees": 155 },
+				"size": { "radial": 0.16, "angular": 26 },
+				"rotationDegrees": 155
 			}
 		]
 	},
@@ -57,23 +57,22 @@
 			],
 			"orientationFrame": {
 				"gravityReference": "oben-gegen-schwerkraft",
-				"anchorReference": "auswaerts-folgt-hauptanker",
-				"notes": "Der Anker definiert die primaere Ausrichtung der Projektion nach aussen."
+				"anchorReference": "auswaerts-folgt-struktur",
+				"notes": "Die Rueckfuehrung liest sich als gesammelter Gegenbogen in der senkenden Gegenlage."
 			}
 		},
 		"placements": [
 			{
-				"ref": "element:zielkopf",
-				"layer": 3,
+				"ref": "element:ruecklauf",
+				"layer": 2,
 				"layerOffset": 0,
-				"sector": "praegung",
+				"sector": "sammlung",
 				"sectorOffset": 0,
 				"radialSpan": 1,
 				"sectorSpan": 1,
-				"shapeFamily": "anker"
+				"shapeFamily": "rueckfuehrung"
 			}
 		],
 		"relationPaths": []
 	}
 }
-

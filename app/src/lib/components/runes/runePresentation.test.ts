@@ -30,19 +30,17 @@ describe('rune presentation', () => {
 	test('maps shape families from canonical placements', () => {
 		const presentation = createRunePresentation(getRunicDocumentById('structure.geschuetzter-auslass'));
 
-		expect(presentation.shapeFamilies).toEqual(
-			expect.arrayContaining(['channel', 'anchor', 'ring', 'barrier'])
-		);
+		expect(presentation.shapeFamilies).toEqual(expect.arrayContaining(['leitbahn', 'anker', 'mantel', 'sperre']));
 		expect(presentation.relations).toHaveLength(3);
 	});
 
 	test('renders distinct path patterns for different relation modes', () => {
 		const presentation = createRunePresentation(getRunicDocumentById('rune.substrat-gebundener-auslass'));
-		const radialArc = presentation.relations.find((relation) => relation.mode === 'radial-arc');
-		const bridge = presentation.relations.find((relation) => relation.mode === 'bridge');
+		const strahlbogen = presentation.relations.find((relation) => relation.mode === 'strahlbogen');
+		const bruecke = presentation.relations.find((relation) => relation.mode === 'bruecke');
 
-		expect(radialArc?.path).toContain('A');
-		expect(bridge?.path).toContain('Q');
-		expect(radialArc?.path).not.toBe(bridge?.path);
+		expect(strahlbogen?.path).toContain('A');
+		expect(bruecke?.path).toContain('Q');
+		expect(strahlbogen?.path).not.toBe(bruecke?.path);
 	});
 });

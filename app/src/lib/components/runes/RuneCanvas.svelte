@@ -4,13 +4,18 @@
 	export let presentation: RunePresentation;
 
 	const familyClassNames: Record<string, string> = {
-		channel: 'shape-channel',
-		throat: 'shape-throat',
-		chamber: 'shape-chamber',
-		fork: 'shape-fork',
-		anchor: 'shape-anchor',
-		ring: 'shape-ring',
-		barrier: 'shape-barrier'
+		leitbahn: 'shape-leitbahn',
+		drossel: 'shape-drossel',
+		kammer: 'shape-kammer',
+		gabel: 'shape-gabel',
+		anker: 'shape-anker',
+		mantel: 'shape-mantel',
+		sperre: 'shape-sperre',
+		schwelle: 'shape-schwelle',
+		pruefkammer: 'shape-pruefkammer',
+		weiche: 'shape-weiche',
+		rueckfuehrung: 'shape-rueckfuehrung',
+		siegelpfad: 'shape-siegelpfad'
 	};
 
 	$: outerRadius = presentation.layerRadii[presentation.layerRadii.length - 1] ?? 0;
@@ -83,19 +88,19 @@
 		stroke-width: 2;
 	}
 
-	.relation-radial {
+	.relation-strahl {
 		stroke-dasharray: 6 4;
 	}
 
-	.relation-arc {
+	.relation-bogen {
 		stroke: rgba(78, 70, 34, 0.6);
 	}
 
-	.relation-radial-arc {
+	.relation-strahlbogen {
 		stroke: rgba(38, 88, 112, 0.62);
 	}
 
-	.relation-bridge {
+	.relation-bruecke {
 		stroke: rgba(88, 46, 108, 0.62);
 	}
 
@@ -104,13 +109,18 @@
 		stroke-width: 2;
 	}
 
-	.shape-channel { fill: rgba(171, 127, 47, 0.38); }
-	.shape-throat { fill: rgba(160, 89, 32, 0.42); }
-	.shape-chamber { fill: rgba(116, 141, 78, 0.38); }
-	.shape-fork { fill: rgba(114, 101, 175, 0.3); }
-	.shape-anchor { fill: rgba(40, 106, 121, 0.35); }
-	.shape-ring { fill: rgba(88, 78, 66, 0.24); }
-	.shape-barrier { fill: rgba(126, 53, 46, 0.35); }
+	.shape-leitbahn { fill: rgba(171, 127, 47, 0.38); }
+	.shape-drossel { fill: rgba(160, 89, 32, 0.42); }
+	.shape-kammer { fill: rgba(116, 141, 78, 0.38); }
+	.shape-gabel { fill: rgba(114, 101, 175, 0.3); }
+	.shape-anker { fill: rgba(40, 106, 121, 0.35); }
+	.shape-mantel { fill: rgba(88, 78, 66, 0.24); }
+	.shape-sperre { fill: rgba(126, 53, 46, 0.35); }
+	.shape-schwelle { fill: rgba(178, 116, 34, 0.38); }
+	.shape-pruefkammer { fill: rgba(85, 127, 72, 0.42); }
+	.shape-weiche { fill: rgba(89, 97, 176, 0.34); }
+	.shape-rueckfuehrung { fill: rgba(58, 122, 139, 0.34); }
+	.shape-siegelpfad { fill: rgba(135, 58, 78, 0.36); }
 
 	.sector-label,
 	.shape-label {

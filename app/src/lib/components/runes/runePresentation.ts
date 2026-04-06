@@ -96,15 +96,15 @@ function createRelationPath(source: DerivedProjectionPlacement, target: DerivedP
 	const sourcePoint = polarToCartesian(source.centerAngle, sourceRadius);
 	const targetPoint = polarToCartesian(target.centerAngle, targetRadius);
 
-	if (mode === 'radial') {
+	if (mode === 'strahl') {
 		return `M ${sourcePoint.x} ${sourcePoint.y} L ${targetPoint.x} ${targetPoint.y}`;
 	}
 
-	if (mode === 'arc') {
+	if (mode === 'bogen') {
 		return createArcPath(source, target);
 	}
 
-	if (mode === 'radial-arc') {
+	if (mode === 'strahlbogen') {
 		const midRadius = ((sourceRadius + targetRadius) / 2) || OUTER_RADIUS / 2;
 		const arcStart = polarToCartesian(source.centerAngle, midRadius);
 		const arcEnd = polarToCartesian(target.centerAngle, midRadius);

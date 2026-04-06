@@ -11,7 +11,12 @@
 				{ "id": "primitive.gabel", "name": "Gabel", "file": "runes/primitives/gabel.json" },
 				{ "id": "primitive.anker", "name": "Anker", "file": "runes/primitives/anker.json" },
 				{ "id": "primitive.mantel", "name": "Mantel", "file": "runes/primitives/mantel.json" },
-				{ "id": "primitive.sperre", "name": "Sperre", "file": "runes/primitives/sperre.json" }
+				{ "id": "primitive.sperre", "name": "Sperre", "file": "runes/primitives/sperre.json" },
+				{ "id": "primitive.schwelle", "name": "Schwelle", "file": "runes/primitives/schwelle.json" },
+				{ "id": "primitive.pruefkammer", "name": "Pruefkammer", "file": "runes/primitives/pruefkammer.json" },
+				{ "id": "primitive.weiche", "name": "Weiche", "file": "runes/primitives/weiche.json" },
+				{ "id": "primitive.rueckfuehrung", "name": "Rueckfuehrung", "file": "runes/primitives/rueckfuehrung.json" },
+				{ "id": "primitive.siegelpfad", "name": "Siegelpfad", "file": "runes/primitives/siegelpfad.json" }
 			]
 		},
 		{
@@ -19,7 +24,11 @@
 			"name": "Strukturen",
 			"entries": [
 				{ "id": "structure.gebundene-leitbahn", "name": "Gebundene Leitbahn", "file": "runes/structures/gebundene-leitbahn.json" },
-				{ "id": "structure.geschuetzter-auslass", "name": "Geschuetzter Auslass", "file": "runes/structures/geschuetzter-auslass.json" }
+				{ "id": "structure.geschuetzter-auslass", "name": "Geschuetzter Auslass", "file": "runes/structures/geschuetzter-auslass.json" },
+				{ "id": "structure.gepruefter-auslass", "name": "Gepruefter Auslass", "file": "runes/structures/gepruefter-auslass.json" },
+				{ "id": "structure.gebundene-umschaltung", "name": "Gebundene Umschaltung", "file": "runes/structures/gebundene-umschaltung.json" },
+				{ "id": "structure.substratgekoppelte-pruefung", "name": "Substratgekoppelte Pruefung", "file": "runes/structures/substratgekoppelte-pruefung.json" },
+				{ "id": "structure.gedaempfte-rueckfuehrung", "name": "Gedaempfte Rueckfuehrung", "file": "runes/structures/gedaempfte-rueckfuehrung.json" }
 			]
 		},
 		{
@@ -36,3 +45,4 @@
 		}
 	]
 }
+

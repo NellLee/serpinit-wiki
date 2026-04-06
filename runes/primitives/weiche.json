@@ -1,24 +1,24 @@
 {
-	"id": "primitive.anker",
-	"name": "Anker",
+	"id": "primitive.weiche",
+	"name": "Weiche",
 	"kind": "primitive",
 	"version": "1.0.0",
-	"description": "Eine Zielstruktur, die Wirkung an Ort, Substrat oder Leib bindet und die Ausrichtung nach aussen stabilisiert.",
+	"description": "Eine umleitende Gabelung, die Fluss unter kontrollierter Last in alternative Bahnen ablenkt.",
 	"semantics": {
-		"ontologyClasses": ["ort", "bindung"],
-		"processRoles": ["binden", "praegen"]
+		"ontologyClasses": ["fluss", "wandel", "ort"],
+		"processRoles": ["teilen", "ausrichten", "wandeln"]
 	},
 	"constraints": [
-		"Soll in der Regel an einer aeusseren Schale lesbar bleiben.",
-		"Gibt der Projektion ihre bevorzugte Vorzugsrichtung."
+		"Die Weiche braucht mindestens zwei lesbare Abgaenge.",
+		"Ohne vorgeschaltete Pruefung wird ihre Umlenkung instabil."
 	],
 	"topology": {
 		"elements": [
 			{
-				"id": "zielkopf",
-				"kind": "anker",
-				"semanticRole": "aussenorientierter Zielkopf",
-				"ontologyClasses": ["ort", "bindung"]
+				"id": "umlenkknoten",
+				"kind": "weiche",
+				"semanticRole": "bedingter Umlenkknoten",
+				"ontologyClasses": ["fluss", "wandel", "ort"]
 			}
 		],
 		"relations": [],
@@ -34,10 +34,10 @@
 		"space": { "kind": "kernrelativ", "dimensions": 2 },
 		"entries": [
 			{
-				"ref": "element:zielkopf",
-				"center": { "radius": 0.82, "angleDegrees": 180 },
-				"size": { "radial": 0.2, "angular": 30 },
-				"rotationDegrees": 180
+				"ref": "element:umlenkknoten",
+				"center": { "radius": 0.58, "angleDegrees": 25 },
+				"size": { "radial": 0.18, "angular": 28 },
+				"rotationDegrees": 25
 			}
 		]
 	},
@@ -57,23 +57,22 @@
 			],
 			"orientationFrame": {
 				"gravityReference": "oben-gegen-schwerkraft",
-				"anchorReference": "auswaerts-folgt-hauptanker",
-				"notes": "Der Anker definiert die primaere Ausrichtung der Projektion nach aussen."
+				"anchorReference": "auswaerts-folgt-struktur",
+				"notes": "Die Weiche entfaltet sich zwischen Lenkung und Spaltung als kontrollierter Abzweig."
 			}
 		},
 		"placements": [
 			{
-				"ref": "element:zielkopf",
-				"layer": 3,
+				"ref": "element:umlenkknoten",
+				"layer": 2,
 				"layerOffset": 0,
-				"sector": "praegung",
+				"sector": "spaltung",
 				"sectorOffset": 0,
 				"radialSpan": 1,
 				"sectorSpan": 1,
-				"shapeFamily": "anker"
+				"shapeFamily": "weiche"
 			}
 		],
 		"relationPaths": []
 	}
 }
-

@@ -5,11 +5,11 @@
 </script>
 
 <section class="detail-panel">
-	<h2>Legend</h2>
-	<p><strong>Orientation summary:</strong> {presentation.orientationSummary}</p>
+	<h2>Legende</h2>
+	<p><strong>Ausrichtung:</strong> {presentation.orientationSummary}</p>
 
 	<div class="detail-block">
-		<h3>Sector Oppositions</h3>
+		<h3>Sektorpaare</h3>
 		<ul>
 			{#each presentation.oppositions as pair}
 				<li>{pair.left} &lt;-&gt; {pair.right}</li>
@@ -18,7 +18,7 @@
 	</div>
 
 	<div class="detail-block">
-		<h3>Shape Families</h3>
+		<h3>Wirkformen</h3>
 		<ul>
 			{#each presentation.shapeFamilies as shapeFamily}
 				<li>{shapeFamily}</li>

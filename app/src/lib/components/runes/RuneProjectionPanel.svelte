@@ -5,33 +5,33 @@
 </script>
 
 <section class="detail-panel">
-	<h2>Projection</h2>
-	<p><strong>Orientation:</strong> {document.projection2d.system.orientationFrame.gravityReference} / {document.projection2d.system.orientationFrame.anchorReference}</p>
+	<h2>Projektion</h2>
+	<p><strong>Ausrichtung:</strong> {document.projection2d.system.orientationFrame.gravityReference} / {document.projection2d.system.orientationFrame.anchorReference}</p>
 	<p>{document.projection2d.system.orientationFrame.notes}</p>
 
 	<div class="detail-block">
-		<h3>Projection System</h3>
-		<p><strong>Layers:</strong> {document.projection2d.system.layerCount}</p>
-		<p><strong>Sectors:</strong> {document.projection2d.system.sectors.map((sector) => sector.name).join(', ')}</p>
+		<h3>Projektionssystem</h3>
+		<p><strong>Schalen:</strong> {document.projection2d.system.layerCount}</p>
+		<p><strong>Sektoren:</strong> {document.projection2d.system.sectors.map((sector) => sector.name).join(', ')}</p>
 	</div>
 
 	<div class="detail-block">
-		<h3>Placements</h3>
+		<h3>Setzungen</h3>
 		<ul>
 			{#each document.projection2d.placements as placement}
 				<li>
 					<strong>{placement.ref}</strong>
-					-&gt; layer {placement.layer}, sector {placement.sector}, spans {placement.radialSpan} radial / {placement.sectorSpan} sector, family {placement.shapeFamily}
+					-&gt; Schale {placement.layer}, Sektor {placement.sector}, Spannen {placement.radialSpan} radial / {placement.sectorSpan} sektoral, Wirkform {placement.shapeFamily}
 				</li>
 			{/each}
 		</ul>
 	</div>
 
 	<div class="detail-block">
-		<h3>Relation Paths</h3>
+		<h3>Beziehungsbahnen</h3>
 		<ul>
 			{#if document.projection2d.relationPaths.length === 0}
-				<li>No relation paths</li>
+				<li>Keine Beziehungsbahnen</li>
 			{:else}
 				{#each document.projection2d.relationPaths as path}
 					<li><strong>{path.relationId}</strong> -&gt; {path.mode} ({path.source} -&gt; {path.target})</li>

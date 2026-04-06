@@ -46,7 +46,20 @@
 		},
 		"primitiveKind": {
 			"type": "string",
-			"enum": ["leitbahn", "drossel", "kammer", "gabel", "anker", "mantel", "sperre"]
+			"enum": [
+				"leitbahn",
+				"drossel",
+				"kammer",
+				"gabel",
+				"anker",
+				"mantel",
+				"sperre",
+				"schwelle",
+				"pruefkammer",
+				"weiche",
+				"rueckfuehrung",
+				"siegelpfad"
+			]
 		},
 		"sector": {
 			"type": "string",
@@ -57,15 +70,40 @@
 		"rotativeMode": { "type": "string", "enum": ["fortlaufend", "gegenlaufend"] },
 		"shapeFamily": {
 			"type": "string",
-			"enum": ["channel", "throat", "chamber", "fork", "anchor", "ring", "barrier"]
+			"enum": [
+				"leitbahn",
+				"drossel",
+				"kammer",
+				"gabel",
+				"anker",
+				"mantel",
+				"sperre",
+				"schwelle",
+				"pruefkammer",
+				"weiche",
+				"rueckfuehrung",
+				"siegelpfad"
+			]
 		},
 		"relationKind": {
 			"type": "string",
-			"enum": ["feeds", "bounds", "anchors", "modulates", "contains", "branches-to"]
+			"enum": [
+				"speist",
+				"begrenzt",
+				"verankert",
+				"moduliert",
+				"enthaelt",
+				"verzweigt-zu",
+				"prueft",
+				"hemmt",
+				"leitet-um",
+				"rueckfuehrt",
+				"versiegelt"
+			]
 		},
 		"relationPathMode": {
 			"type": "string",
-			"enum": ["radial", "arc", "radial-arc", "bridge"]
+			"enum": ["strahl", "bogen", "strahlbogen", "bruecke"]
 		},
 		"layer": {
 			"type": "object",
@@ -206,7 +244,7 @@
 					"required": ["direction", "allowsReturn"],
 					"additionalProperties": false,
 					"properties": {
-						"direction": { "type": "string", "enum": ["radial-outward"] },
+						"direction": { "type": "string", "enum": ["radial-auswaerts"] },
 						"allowsReturn": { "type": "boolean" }
 					}
 				}
@@ -222,7 +260,7 @@
 					"required": ["kind", "dimensions"],
 					"additionalProperties": false,
 					"properties": {
-						"kind": { "type": "string", "enum": ["core-relative"] },
+						"kind": { "type": "string", "enum": ["kernrelativ"] },
 						"dimensions": { "type": "integer", "enum": [2] }
 					}
 				},
@@ -239,7 +277,7 @@
 					"required": ["kind", "layerCount", "sectors", "orientationFrame"],
 					"additionalProperties": false,
 					"properties": {
-						"kind": { "type": "string", "enum": ["vendotic-radial"] },
+						"kind": { "type": "string", "enum": ["vendotisch-radial"] },
 						"layerCount": { "type": "integer", "minimum": 1 },
 						"sectors": {
 							"type": "array",
@@ -262,10 +300,10 @@
 							"required": ["gravityReference", "anchorReference", "notes"],
 							"additionalProperties": false,
 							"properties": {
-								"gravityReference": { "type": "string", "enum": ["up-opposes-gravity"] },
+								"gravityReference": { "type": "string", "enum": ["oben-gegen-schwerkraft"] },
 								"anchorReference": {
 									"type": "string",
-									"enum": ["outward-follows-primary-anchor", "outward-follows-structure"]
+									"enum": ["auswaerts-folgt-hauptanker", "auswaerts-folgt-struktur"]
 								},
 								"notes": { "type": "string" }
 							}

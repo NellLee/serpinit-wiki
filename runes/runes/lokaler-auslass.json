@@ -3,27 +3,21 @@
 	"name": "Lokaler Auslass",
 	"kind": "rune",
 	"version": "1.0.0",
-	"description": "Eine einfache Rune, die Potenz in eine lokal gebundene Auslassrichtung fuehrt.",
+	"description": "Eine lokale Auslassrune, die erst nach einer Schwellenfreigabe in eine gepruefte Zielpraegung entlaesst.",
 	"semantics": {
 		"ontologyClasses": ["fluss", "ort", "potenz", "bindung"],
-		"processRoles": ["leiten", "binden", "ausrichten"]
+		"processRoles": ["leiten", "binden", "ausrichten", "stauen"]
 	},
 	"constraints": [
 		"Die Zielrichtung muss ueber den Zielanker eingebettet bleiben.",
-		"Die Projektion soll den Unterschied zwischen Auslasspfad und Zielpraegung klar zeigen."
+		"Die Schwelle muss vor dem geprueften Auslass lesbar bleiben.",
+		"Die Projektion soll den Unterschied zwischen Freigabe, Auslasspfad und Zielpraegung klar zeigen."
 	],
 	"topology": {
-		"elements": [
-			{
-				"id": "zielpraegung",
-				"kind": "anker",
-				"semanticRole": "lokale Zielpraegung",
-				"ontologyClasses": ["ort", "bindung"]
-			}
-		],
+		"elements": [],
 		"relations": [
-			{ "id": "rune-channel", "kind": "contains", "source": "instance:body", "target": "element:zielpraegung" },
-			{ "id": "rune-skin", "kind": "bounds", "source": "instance:skin", "target": "instance:body" }
+			{ "id": "schwelle-speist-auslass", "kind": "speist", "source": "instance:schwelle", "target": "instance:gepruefter-auslass" },
+			{ "id": "mantel-begrenzt-auslass", "kind": "begrenzt", "source": "instance:mantel", "target": "instance:gepruefter-auslass" }
 		],
 		"layers": [
 			{ "id": "kern", "index": 0, "name": "Kernnaehe" },
@@ -31,19 +25,19 @@
 			{ "id": "steuerung", "index": 2, "name": "Steuerung" },
 			{ "id": "bindung", "index": 3, "name": "Bindung" }
 		],
-		"flow": { "direction": "radial-outward", "allowsReturn": false }
+		"flow": { "direction": "radial-auswaerts", "allowsReturn": false }
 	},
 	"geometry": {
-		"space": { "kind": "core-relative", "dimensions": 2 },
+		"space": { "kind": "kernrelativ", "dimensions": 2 },
 		"entries": [
-			{ "ref": "instance:body", "center": { "radius": 0.5, "angleDegrees": -90 }, "size": { "radial": 0.56, "angular": 28 }, "rotationDegrees": -90 },
-			{ "ref": "element:zielpraegung", "center": { "radius": 0.84, "angleDegrees": -90 }, "size": { "radial": 0.2, "angular": 24 }, "rotationDegrees": -90 },
-			{ "ref": "instance:skin", "center": { "radius": 0.78, "angleDegrees": 135 }, "size": { "radial": 0.12, "angular": 120 }, "rotationDegrees": 135 }
+			{ "ref": "instance:schwelle", "center": { "radius": 0.28, "angleDegrees": -65 }, "size": { "radial": 0.16, "angular": 18 }, "rotationDegrees": -65 },
+			{ "ref": "instance:gepruefter-auslass", "center": { "radius": 0.54, "angleDegrees": -90 }, "size": { "radial": 0.52, "angular": 30 }, "rotationDegrees": -90 },
+			{ "ref": "instance:mantel", "center": { "radius": 0.8, "angleDegrees": 135 }, "size": { "radial": 0.12, "angular": 120 }, "rotationDegrees": 135 }
 		]
 	},
 	"projection2d": {
 		"system": {
-			"kind": "vendotic-radial",
+			"kind": "vendotisch-radial",
 			"layerCount": 4,
 			"sectors": [
 				{ "name": "auslass", "gravitativeMode": "hebend", "polarMode": "polwaerts", "rotativeMode": "fortlaufend" },
@@ -56,24 +50,25 @@
 				{ "name": "begrenzung", "gravitativeMode": "senkend", "polarMode": "feldwaerts", "rotativeMode": "gegenlaufend" }
 			],
 			"orientationFrame": {
-				"gravityReference": "up-opposes-gravity",
-				"anchorReference": "outward-follows-primary-anchor",
-				"notes": "Die vollstaendige Rune uebernimmt ihre physische Vorzugsrichtung von der gebundenen Leitbahn."
+				"gravityReference": "oben-gegen-schwerkraft",
+				"anchorReference": "auswaerts-folgt-hauptanker",
+				"notes": "Die vollstaendige Rune uebernimmt ihre Vorzugsrichtung vom geprueften Auslass, waehrend die Schwelle kernnah die Freigabe vorgibt."
 			}
 		},
 		"placements": [
-			{ "ref": "instance:body", "layer": 1, "layerOffset": 0, "sector": "auslass", "sectorOffset": 0, "radialSpan": 3, "sectorSpan": 2, "shapeFamily": "channel" },
-			{ "ref": "element:zielpraegung", "layer": 3, "layerOffset": 0, "sector": "praegung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "anchor" },
-			{ "ref": "instance:skin", "layer": 3, "layerOffset": 0.1, "sector": "begrenzung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 3, "shapeFamily": "ring" }
+			{ "ref": "instance:schwelle", "layer": 1, "layerOffset": 0, "sector": "lenkung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 1, "shapeFamily": "schwelle" },
+			{ "ref": "instance:gepruefter-auslass", "layer": 1, "layerOffset": 0.1, "sector": "auslass", "sectorOffset": 0, "radialSpan": 3, "sectorSpan": 2, "shapeFamily": "leitbahn" },
+			{ "ref": "instance:mantel", "layer": 3, "layerOffset": 0.1, "sector": "begrenzung", "sectorOffset": 0, "radialSpan": 1, "sectorSpan": 3, "shapeFamily": "mantel" }
 		],
 		"relationPaths": [
-			{ "relationId": "rune-channel", "mode": "radial", "source": "instance:body", "target": "element:zielpraegung" },
-			{ "relationId": "rune-skin", "mode": "arc", "source": "instance:skin", "target": "instance:body" }
+			{ "relationId": "schwelle-speist-auslass", "mode": "strahl", "source": "instance:schwelle", "target": "instance:gepruefter-auslass" },
+			{ "relationId": "mantel-begrenzt-auslass", "mode": "bogen", "source": "instance:mantel", "target": "instance:gepruefter-auslass" }
 		]
 	},
-	"imports": ["structure.gebundene-leitbahn", "primitive.mantel"],
+	"imports": ["primitive.schwelle", "structure.gepruefter-auslass", "primitive.mantel"],
 	"instances": [
-		{ "id": "body", "documentId": "structure.gebundene-leitbahn", "role": "assembled-body" },
-		{ "id": "skin", "documentId": "primitive.mantel", "role": "outer-skin" }
+		{ "id": "schwelle", "documentId": "primitive.schwelle", "role": "freigabeschwelle" },
+		{ "id": "gepruefter-auslass", "documentId": "structure.gepruefter-auslass", "role": "hauptauslass" },
+		{ "id": "mantel", "documentId": "primitive.mantel", "role": "aeussere-begrenzung" }
 	]
 }
