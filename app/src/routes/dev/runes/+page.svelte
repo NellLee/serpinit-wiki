@@ -1,9 +1,7 @@
 <script lang="ts">
 	import RuneCanvas from '$lib/components/runes/RuneCanvas.svelte';
-	import RuneLegend from '$lib/components/runes/RuneLegend.svelte';
+	import RuneDetailTabs from '$lib/components/runes/RuneDetailTabs.svelte';
 	import RuneLibraryPanel from '$lib/components/runes/RuneLibraryPanel.svelte';
-	import RuneProjectionPanel from '$lib/components/runes/RuneProjectionPanel.svelte';
-	import RuneStructurePanel from '$lib/components/runes/RuneStructurePanel.svelte';
 
 	export let data;
 </script>
@@ -24,11 +22,9 @@
 
 		<div class="workspace">
 			<RuneLibraryPanel groups={data.library.groups} selectedId={data.selectedId} />
-			<RuneCanvas presentation={data.presentation} />
-			<div class="details">
-				<RuneStructurePanel document={data.selectedDocument} />
-				<RuneProjectionPanel document={data.selectedDocument} />
-				<RuneLegend presentation={data.presentation} />
+			<div class="focus">
+				<RuneCanvas presentation={data.presentation} />
+				<RuneDetailTabs document={data.selectedDocument} presentation={data.presentation} />
 			</div>
 		</div>
 	</div>
@@ -72,13 +68,18 @@
 		gap: 1rem;
 
 		@media (min-width: 1100px) {
-			grid-template-columns: minmax(15rem, 18rem) minmax(0, 1.4fr) minmax(18rem, 24rem);
+			grid-template-columns: minmax(16rem, 18rem) minmax(0, 1fr);
 			align-items: start;
 		}
 	}
 
-	.details {
+	.focus {
 		display: grid;
 		gap: 1rem;
+
+		@media (min-width: 1100px) {
+			grid-template-columns: minmax(0, 1.15fr) minmax(19rem, 24rem);
+			align-items: start;
+		}
 	}
 </style>

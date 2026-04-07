@@ -61,11 +61,14 @@
 		border-radius: 1rem;
 		padding: 1rem;
 		box-shadow: var(--shadow-soft);
+		align-self: start;
+		display: grid;
 
 		svg {
 			width: 100%;
 			height: auto;
 			overflow: visible;
+			max-height: min(46rem, calc(100vh - 14rem));
 		}
 	}
 

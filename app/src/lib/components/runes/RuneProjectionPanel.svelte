@@ -45,11 +45,7 @@
 	.detail-panel {
 		display: grid;
 		gap: 0.9rem;
-		padding: 1rem;
-		background: var(--surface-raised);
-		border: 1px solid var(--border-subtle);
-		border-radius: 1rem;
-		box-shadow: var(--shadow-soft);
+		min-height: 0;
 	}
 
 	h2,
