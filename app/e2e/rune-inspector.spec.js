@@ -42,3 +42,21 @@ test("rune inspector marks the selected library entry and keeps it readable on r
 	await expect(page.getByRole("heading", { level: 1 })).toHaveText("Substratgebundener Auslass");
 	await expect(selectedRune).toHaveAttribute("aria-current", "page");
 });
+
+test("rune inspector renders multiple distinct control path classes for complex runes", async ({
+	page
+}) => {
+	await page.goto("/dev/runes?id=rune.substrat-gebundener-auslass", {
+		waitUntil: "load"
+	});
+	await page.waitForTimeout(500);
+
+	const canvas = page.locator("svg[aria-label='Substratgebundener Auslass']");
+
+	await expect(canvas.locator(".relation-strahlbogen")).toHaveCount(1);
+	await expect(canvas.locator(".relation-bruecke")).toHaveCount(1);
+	await expect(canvas.locator(".relation")).toHaveCount(3);
+	await expect(canvas.locator(".relation-strahl, .relation-bogen")).toHaveCount(1);
+	await expect(canvas.locator(".relation[data-emphasis='primary']")).toHaveCount(2);
+	await expect(canvas.locator(".relation[data-emphasis='secondary']")).toHaveCount(1);
+});
