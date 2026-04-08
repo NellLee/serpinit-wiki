@@ -25,11 +25,11 @@ Implementation-specific instructions:
 - Do not mix implementation refactors with ongoing lore/content edits unless the user explicitly asks for both in the same change.
 - Repo-local skills for this project live under `skills/`. When a repo-local skill is relevant, assistants must read and follow its `SKILL.md`.
 - Before starting a new user task, assistants must ensure the previous completed task is committed if its changes are meant to be kept. Do not leave completed work uncommitted across task boundaries unless the user explicitly asks for that.
-- Before starting a new implementation task in a workspace or worktree, assistants must check for unrelated uncommitted changes. If such changes exist, stop immediately and surface them to the user before proceeding.
+- Before starting a new implementation task, assistants must check for unrelated uncommitted changes in the current workspace. If such changes exist, stop immediately and surface them to the user before proceeding.
 - Do not continue a new implementation task on top of mixed uncommitted state unless the user explicitly authorizes that exception.
-- For implementation work, prefer using a Git worktree by default.
-- Exception: if the user explicitly wants the implementation work to happen in the current workspace, a worktree is not required.
-- Worktrees are for technical/UI/code changes only. Do not use a worktree for pure lore or content writing/editing unless the user explicitly asks for it.
-- When working in a worktree for implementation changes, keep the scope limited to technical/UI/code changes and avoid unrelated lore or content edits.
+- For implementation work, use the current workspace by default.
+- Implementation work should happen on a deliberate branch, not casually on `master` or `main`, unless the user explicitly asks for direct work there.
+- Do not start a new implementation task if previous completed work that should be kept is still uncommitted.
+- Do not run parallel implementation strands against the same repository state.
 - For complex UI work, assistants must run `skills/ui-output-review/SKILL.md` before calling the work complete. This applies especially to larger visual refactors, dense multi-panel pages, custom inspectors or dev surfaces, and changes whose success depends on rendered legibility or visible state behavior.
 - Use `skills/ui-output-review/SKILL.md` as well when the user explicitly asks for a review of UI output, rendered behavior, or how a page actually looks.
