@@ -2,15 +2,6 @@
 	import type { RunePresentation } from './runePresentation';
 
 	export let presentation: RunePresentation;
-
-	const relationLabels: Record<string, string> = {
-		strahl: 'Strahlpfad',
-		bogen: 'Schalenbogen',
-		strahlbogen: 'Gelenkter Strahlbogen',
-		bruecke: 'Querbruecke'
-	};
-
-	$: relationModes = Array.from(new Set(presentation.relations.map((relation) => relation.mode)));
 </script>
 
 <section class="detail-panel">
@@ -34,24 +25,17 @@
 			{/each}
 		</ul>
 	</div>
-
-	{#if relationModes.length > 0}
-		<div class="detail-block">
-			<h3>Beziehungspfade</h3>
-			<ul>
-				{#each relationModes as relationMode}
-					<li>{relationLabels[relationMode] ?? relationMode}</li>
-				{/each}
-			</ul>
-		</div>
-	{/if}
 </section>
 
 <style lang="scss">
 	.detail-panel {
 		display: grid;
 		gap: 0.9rem;
-		min-height: 0;
+		padding: 1rem;
+		background: var(--surface-raised);
+		border: 1px solid var(--border-subtle);
+		border-radius: 1rem;
+		box-shadow: var(--shadow-soft);
 	}
 
 	h2,

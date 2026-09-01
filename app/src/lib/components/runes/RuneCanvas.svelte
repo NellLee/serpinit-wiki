@@ -19,8 +19,6 @@
 	};
 
 	$: outerRadius = presentation.layerRadii[presentation.layerRadii.length - 1] ?? 0;
-	$: lowerRelations = presentation.relations.filter((relation) => relation.layering === 'below-shapes');
-	$: upperRelations = presentation.relations.filter((relation) => relation.layering === 'above-shapes');
 </script>
 
 <div class="canvas-panel">
@@ -45,27 +43,12 @@
 			</text>
 		{/each}
 
-		{#each lowerRelations as relation}
-			<path
-				class={`relation relation-${relation.mode} relation-${relation.emphasis}`}
-				data-emphasis={relation.emphasis}
-				d={relation.path}
-			/>
+		{#each presentation.relations as relation}
+			<path class={`relation relation-${relation.mode}`} d={relation.path} />
 		{/each}
 
 		{#each presentation.shapes as shape}
 			<path class={`shape ${familyClassNames[shape.shapeFamily] ?? ''}`} d={shape.path} />
-		{/each}
-
-		{#each upperRelations as relation}
-			<path
-				class={`relation relation-${relation.mode} relation-${relation.emphasis}`}
-				data-emphasis={relation.emphasis}
-				d={relation.path}
-			/>
-		{/each}
-
-		{#each presentation.shapes as shape}
 			<text class="shape-label" x={shape.labelX} y={shape.labelY}>{shape.label}</text>
 		{/each}
 	</svg>
@@ -78,14 +61,11 @@
 		border-radius: 1rem;
 		padding: 1rem;
 		box-shadow: var(--shadow-soft);
-		align-self: start;
-		display: grid;
 
 		svg {
 			width: 100%;
 			height: auto;
 			overflow: visible;
-			max-height: min(46rem, calc(100vh - 14rem));
 		}
 	}
 
@@ -104,37 +84,24 @@
 
 	.relation {
 		fill: none;
-		stroke-linecap: round;
-		stroke-linejoin: round;
+		stroke: rgba(54, 36, 13, 0.55);
+		stroke-width: 2;
 	}
 
 	.relation-strahl {
-		stroke: rgba(88, 55, 18, 0.72);
-		stroke-width: 2.2;
+		stroke-dasharray: 6 4;
 	}
 
 	.relation-bogen {
-		stroke: rgba(92, 85, 48, 0.54);
-		stroke-width: 2.4;
+		stroke: rgba(78, 70, 34, 0.6);
 	}
 
 	.relation-strahlbogen {
-		stroke: rgba(24, 96, 128, 0.9);
-		stroke-width: 3.4;
+		stroke: rgba(38, 88, 112, 0.62);
 	}
 
 	.relation-bruecke {
-		stroke: rgba(122, 54, 76, 0.88);
-		stroke-width: 3.2;
-		stroke-dasharray: 3 6;
-	}
-
-	.relation-secondary {
-		opacity: 0.78;
-	}
-
-	.relation-primary {
-		opacity: 0.98;
+		stroke: rgba(88, 46, 108, 0.62);
 	}
 
 	.shape {
