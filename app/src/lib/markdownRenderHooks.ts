@@ -3,14 +3,28 @@ const REGEX_FOLDER_INDEX_HOOK = /^\s*<!--\s*render:\s*folder-index\s*-->\s*$/gim
 const REGEX_GALLERY_HOOK = /^\s*<!--\s*render:\s*gallery\s*-->\s*$/gim;
 const REGEX_CALLOUT_HOOK = /^\s*<!--\s*callout:\s*(note|todo|maybe)\s*-->\s*$/i;
 const REGEX_CARD_LINK_HOOK = /^\s*<!--\s*display:\s*card-link(?<attrs>.*?)-->\s*$/i;
+const REGEX_FIGURE_HOOK = /^\s*<!--\s*display:\s*figure(?<attrs>.*?)-->\s*$/i;
 const REGEX_MARKDOWN_IMAGE_LINK = /^\s*\[!\[([^\]]*)\]\(([^)]+)\)\]\(([^)]+)\)\s*$/;
+const REGEX_BARE_IMAGE_LINE = /^\s*!\[([^\]]*)\]\(([^)]+)\)\s*$/;
 const REGEX_TABLE_LINE = /^\s*\|.*\|\s*$/;
 const REGEX_TABLE_SEPARATOR = /^\s*\|?[\s:-]+\|[\s|:-]*$/;
 const REGEX_IMAGE = /^\s*!\[[^\]]*\]\([^)]+\)\s*$/;
 const REGEX_LIST = /^\s*(?:[-+*]|\d+\.)\s+/;
 const REGEX_BLOCKQUOTE = /^\s*>\s?/;
-const REGEX_HEADING = /^\s*#{1,6}\s+/;
+export const REGEX_HEADING = /^\s*#{1,6}\s+/;
 const REGEX_HTML = /^\s*<[^>]+>\s*$/;
+
+export function isStructuralLine(line: string): boolean {
+	return (
+		REGEX_HEADING.test(line) ||
+		REGEX_IMAGE.test(line) ||
+		REGEX_TABLE_LINE.test(line) ||
+		REGEX_TABLE_SEPARATOR.test(line) ||
+		REGEX_LIST.test(line) ||
+		REGEX_BLOCKQUOTE.test(line) ||
+		REGEX_HTML.test(line)
+	);
+}
 
 function isOverviewContentLine(line: string) {
 	const trimmed = line.trim();
@@ -186,6 +200,41 @@ function transformCardLinkHooks(markdown: string) {
 	return output.join('\n');
 }
 
+function transformFigureHooks(markdown: string) {
+	const lines = markdown.split(/\r?\n/);
+	const output: string[] = [];
+
+	for (let index = 0; index < lines.length; index++) {
+		const line = lines[index];
+		const hookMatch = line.match(REGEX_FIGURE_HOOK);
+
+		if (!hookMatch) {
+			output.push(line);
+			continue;
+		}
+
+		let cursor = index + 1;
+		while (cursor < lines.length && lines[cursor].trim() === '') {
+			cursor++;
+		}
+
+		const imageMatch = lines[cursor]?.match(REGEX_BARE_IMAGE_LINE);
+		if (!imageMatch) {
+			continue;
+		}
+
+		const [, alt, src] = imageMatch;
+		const attrs = hookMatch.groups?.attrs ?? '';
+		const styleMatch = attrs.match(/style="([^"]+)"/i);
+		const style = styleMatch ? styleMatch[1] : 'width: 400px;';
+
+		output.push(`:::figure{style="${style}"}`, `![${alt}](${src})`, `::figcaption[${alt}]`, ':::');
+		index = cursor;
+	}
+
+	return output.join('\n');
+}
+
 function buildGalleryMarkup(folderHref: string, imageFiles: string[]) {
 	if (imageFiles.length === 0) {
 		return '';
@@ -212,8 +261,8 @@ export function applyMarkdownRenderHooks(
 		folderIndexMarkdown?: string;
 	} = {}
 ) {
-	const transformed = transformCardLinkHooks(
-		transformCalloutHooks(transformOverviewHooks(markdown))
+	const transformed = transformFigureHooks(
+		transformCardLinkHooks(transformCalloutHooks(transformOverviewHooks(markdown)))
 	).replace(REGEX_FOLDER_INDEX_HOOK, options.folderIndexMarkdown ?? '');
 
 	return transformed.replace(

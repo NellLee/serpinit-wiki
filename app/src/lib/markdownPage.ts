@@ -77,7 +77,7 @@ export class MarkdownPage {
 	references: NamedLinkList[];
 	contentHtml: string;
 	overviewHtml: string | null;
-	event: TimelineEvent | null;
+	events: TimelineEvent[];
 
 	href: string;
 
@@ -134,7 +134,7 @@ export class MarkdownPage {
 		const fileLink = new FileLink(filePath);
 		this.#fileLink = fileLink;
 
-		this.event = timeline.find((event) => event.description == fileLink.href) ?? null;
+		this.events = timeline.filter((event) => event.href == fileLink.href);
 		this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, 'utf-8');
 
 		const galleryPath = fileLink.path + path.sep + 'images';
@@ -408,7 +408,7 @@ export class MarkdownPage {
 
 	toJSON() {
 		const result = {
-			event: this.event,
+			events: this.events,
 			markdown: this.markdown,
 			breadcrumbs: this.breadcrumbs,
 			title: this.title,

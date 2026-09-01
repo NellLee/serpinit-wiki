@@ -1,65 +1,125 @@
+import fs from 'fs';
 import path from 'path';
-import { readFile } from 'fs/promises';
-import { parseString } from 'xml2js';
-import { parseBooleans, parseNumbers } from 'xml2js/lib/processors';
-const __dirname = new URL('.', import.meta.url).pathname.substring(1);
+import { FileLink } from './fileLink';
+import { getFilePathsInFolder } from './utilities/files';
+import { isStructuralLine } from './markdownRenderHooks';
+import { TIMELINE_CATEGORIES } from './timelineCategories';
+import { WIKI_PATH } from './wiki';
+
+const REGEX_EVENT_HOOK = /^\s*<!--\s*event:(?<attrs>.*?)-->\s*$/i;
+const REGEX_ATTR = /(\w+)="([^"]*)"|(\w+)=(\S+)|(\w+)/g;
+const REGEX_MARKDOWN_LINK = /\[([^\]]*)\]\([^)]*\)/g;
 
 let initialized = false;
-
-export const TIMELINE_PATH = path.resolve(__dirname, '../../../timeline/Geschichte.timeline');
 
 export let timeline: Timeline = [];
 
 export async function initTimeline() {
 	if (!initialized) {
 		console.log('Initializing timeline');
-		timeline = await categorizeEvents();
+		timeline = scrapeTimelineEvents();
 		initialized = true;
 	}
 }
 
-function categorizeEvents(): Promise<TimelineEvent[]> {
-	return readFile(TIMELINE_PATH)
-		.then((xml) => {
-			return parseTimeline(xml.toString());
-		})
-		.then((timeline: XmlTimeline) => {
-			return timeline.events.map((event) => {
-				const category = timeline.categories.find((cat) => cat.name === event.category) ?? null;
-				const result: TimelineEvent = {
-					...event,
-					category
-				};
-				return result;
-			});
-		});
-}
+function scrapeTimelineEvents(): TimelineEvent[] {
+	const events: TimelineEvent[] = [];
+	const files = getFilePathsInFolder(WIKI_PATH, ['.md']);
 
-function parseTimeline(xml: string): Promise<XmlTimeline> {
-	return new Promise((resolve, reject) => {
-		parseString(
-			xml,
-			{ valueProcessors: [parseNumbers, parseBooleans, parseRgbs], explicitArray: false },
-			(err, result) => {
-				result.timeline.categories = result.timeline.categories.category;
-				result.timeline.events = result.timeline.events.event;
+	for (const file of files) {
+		const fullPath = path.resolve(WIKI_PATH, file.substring(1));
+		const raw = fs.readFileSync(fullPath, 'utf-8');
 
-				if (err) {
-					console.error('Error parsing XML:', err);
-					reject(err);
-					return;
-				} else {
-					const timeline = result.timeline;
-					resolve(timeline);
-				}
-			}
-		);
-	});
-}
+		if (!raw.includes('<!-- event:') && !raw.includes('<!--event:')) {
+			continue;
+		}
 
-function parseRgbs(value: string) {
-	if (/(\d{1,3}),(\d{1,3}),(\d{1,3})/.test(value)) {
-		return `rgb(${value})`;
+		const href = new FileLink(fullPath).href;
+		events.push(...extractEventsFromRawMarkdown(raw, href));
 	}
-	return value;
+
+	return events;
+}
+
+function parseAttrs(attrs: string): Record<string, string | true> {
+	const result: Record<string, string | true> = {};
+	let match: RegExpExecArray | null;
+	REGEX_ATTR.lastIndex = 0;
+	while ((match = REGEX_ATTR.exec(attrs))) {
+		if (match[1] !== undefined) {
+			result[match[1]] = match[2];
+		} else if (match[3] !== undefined) {
+			result[match[3]] = match[4];
+		} else if (match[5] !== undefined) {
+			result[match[5]] = true;
+		}
+	}
+	return result;
+}
+
+function captureFollowingParagraph(lines: string[], startIndex: number): string | undefined {
+	let cursor = startIndex;
+	while (cursor < lines.length && lines[cursor].trim() === '') {
+		cursor++;
+	}
+
+	if (cursor >= lines.length || isStructuralLine(lines[cursor]) || lines[cursor].trim() === '') {
+		return undefined;
+	}
+
+	const collected: string[] = [];
+	while (cursor < lines.length && lines[cursor].trim() !== '' && !isStructuralLine(lines[cursor])) {
+		collected.push(lines[cursor].trim());
+		cursor++;
+	}
+
+	if (collected.length === 0) {
+		return undefined;
+	}
+
+	return collected
+		.join(' ')
+		.replace(REGEX_MARKDOWN_LINK, '$1')
+		.trim();
+}
+
+export function extractEventsFromRawMarkdown(raw: string, href: string): TimelineEvent[] {
+	const lines = raw.split(/\r?\n/);
+	const results: TimelineEvent[] = [];
+
+	for (let index = 0; index < lines.length; index++) {
+		const hookMatch = lines[index].match(REGEX_EVENT_HOOK);
+		if (!hookMatch) {
+			continue;
+		}
+
+		const attrs = parseAttrs(hookMatch.groups?.attrs ?? '');
+		const start = attrs.start !== undefined ? Number(attrs.start) : NaN;
+		const text = typeof attrs.text === 'string' ? attrs.text : undefined;
+		const category = typeof attrs.category === 'string' ? attrs.category : undefined;
+
+		if (Number.isNaN(start) || !text || !category) {
+			console.warn(`Skipping malformed event hook in "${href}": ${lines[index].trim()}`);
+			continue;
+		}
+
+		const end = attrs.end !== undefined ? Number(attrs.end) : start;
+		const categoryObj = TIMELINE_CATEGORIES.find((c) => c.name === category) ?? null;
+		if (!categoryObj) {
+			console.warn(`Unknown timeline category "${category}" in "${href}"`);
+		}
+
+		results.push({
+			start,
+			end: Number.isNaN(end) ? start : end,
+			text,
+			fuzzy_start: Boolean(attrs.fuzzy) || Boolean(attrs.fuzzy_start),
+			fuzzy_end: Boolean(attrs.fuzzy) || Boolean(attrs.fuzzy_end),
+			category: categoryObj,
+			href,
+			description: captureFollowingParagraph(lines, index + 1)
+		});
+	}
+
+	return results;
 }

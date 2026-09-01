@@ -70,11 +70,11 @@
 	{#if showRightRail}
 		<div class="rail rail-right">
 			<Sidebar>
-				{#if data.page.event}
+				{#if data.page.events.length > 0}
 					<SmallNamedCard name="Timeline">
-						<a href="{TIMELINE_URL}?selected={encodeURIComponent(data.page.event.text)}"
-							>Ereignis in Zeitleiste anzeigen</a
-						>
+						{#each data.page.events as event}
+							<a href="{TIMELINE_URL}?selected={encodeURIComponent(event.text)}">{event.text}</a>
+						{/each}
 					</SmallNamedCard>
 				{/if}
 				{#each data.page.references as namedLinkList}

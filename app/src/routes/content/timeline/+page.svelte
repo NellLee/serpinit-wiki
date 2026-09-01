@@ -1,7 +1,6 @@
 <script lang="ts">
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import Timeline from '$lib/components/Timeline.svelte';
-	import { WIKI_URL } from '$lib/constants.js';
 	import { onMount } from 'svelte';
 	import Card from '$lib/components/Card.svelte';
 
@@ -11,15 +10,10 @@
 
 	let selectedEvent: TimelineEvent | null = null;
 	let linkedPage: string | null;
-	$: linkedPage = selectedEvent?.description?.startsWith(WIKI_URL)
-		? selectedEvent.description
-		: null;
+	$: linkedPage = selectedEvent?.href ?? null;
 
 	onMount(() => {
 		selectedEvent = data.selectedEvent;
-		if (selectedEvent?.description?.startsWith(WIKI_URL)) {
-			linkedPage = selectedEvent.description;
-		}
 	});
 </script>
 
@@ -59,6 +53,9 @@
 									<span> bis {selectedEvent.end}</span>
 								{/if}
 							</p>
+							{#if selectedEvent.description}
+								<p class="event-description">{selectedEvent.description}</p>
+							{/if}
 							{#if linkedPage}
 								<a id="page-link" href={linkedPage}>Artikel öffnen</a>
 							{/if}
@@ -141,6 +138,7 @@
 
 	#event-title,
 	.event-range,
+	.event-description,
 	.empty-state {
 		margin: 0;
 	}
@@ -148,6 +146,12 @@
 	.event-range {
 		font-size: 0.94rem;
 		color: rgba(0, 0, 0, 0.68);
+	}
+
+	.event-description {
+		font-size: 0.94rem;
+		line-height: 1.5;
+		color: rgba(0, 0, 0, 0.8);
 	}
 
 	#page-link {

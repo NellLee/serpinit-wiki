@@ -56,22 +56,20 @@
 	$: initialYAxisOffset = effectiveHeight && effectiveHeight / 2;
 
 	let initialised = false;
-	$: if (!initialised && effectiveWidth !== undefined && effectiveHeight !== undefined) {
-		console.log('Initialising');
+	$: if (effectiveWidth && effectiveHeight) {
+		if (!initialised) {
+			console.log('Initialising');
 
-		if (!effectiveWidth || !effectiveHeight) {
-			throw new Error('Timeline cannot be rendered: container has effective size 0');
-		}
+			if (translateX === undefined) {
+				translateX = initialXAxisOffset;
+			}
+			if (translateY === undefined) {
+				translateY = initialYAxisOffset;
+			}
+			lastTranslateY = initialYAxisOffset!;
 
-		if (translateX === undefined) {
-			translateX = initialXAxisOffset;
+			initialised = true;
 		}
-		if (translateY === undefined) {
-			translateY = initialYAxisOffset;
-		}
-		lastTranslateY = initialYAxisOffset!;
-
-		initialised = true;
 		renderTimeline();
 	}
 
