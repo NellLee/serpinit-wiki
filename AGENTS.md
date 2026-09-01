@@ -35,3 +35,4 @@ Implementation-specific instructions:
 - Implementation work should happen on a deliberate branch, not casually on `master` or `main`, unless the user explicitly asks for direct work there.
 - For complex UI work, assistants must run `skills/ui-output-review/SKILL.md` before calling the work complete. This applies especially to larger visual refactors, dense multi-panel pages, custom inspectors or dev surfaces, and changes whose success depends on rendered legibility or visible state behavior.
 - Use `skills/ui-output-review/SKILL.md` as well when the user explicitly asks for a review of UI output, rendered behavior, or how a page actually looks.
+- For website work and for lore work alike, keep a monitored background dev server running per `skills/dev-server/SKILL.md`, so the human can see changes live via hot reload.
