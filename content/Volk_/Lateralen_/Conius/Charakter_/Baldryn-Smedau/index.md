@@ -1,13 +1,11 @@
-# Baldryn Schmedowski
+# Baldryn Smedau
 
-<!-- callout: note -->
-> **Note:** Dieser Charaktertext baut auf einem älteren, noch nicht vollständig kanonisierten Artefakt-Konzept auf. Er bleibt vorerst als Altbestand erhalten und ist bis zur späteren Kanonklärung dieses Magiezweigs nicht als vollständig gesicherte Lore zu lesen. Zum konzeptionellen Hintergrund siehe [Sylvanar-Artefakte](/content/Volk_/Sylvanar/Artefakte.md).
 ![Bild des Charakters](Link-zum-Bild)
 
-**Name:** Baldryn Schmedowski**Rolle:** Meister der Artefakte**Alter:** Alter des Charakters**Geschlecht:** Geschlecht des Charakters**Spezies/Rasse:** Spezies oder Rasse des Charakters**Heimat:** Geburtsort oder aktueller Wohnort**Beruf:** Beruf oder Rolle in der Welt
+**Name:** Baldryn Smedau**Rolle:** Meister der Artefakte**Alter:** Alter des Charakters**Geschlecht:** Geschlecht des Charakters**Spezies/Rasse:** Spezies oder Rasse des Charakters**Heimat:** Geburtsort oder aktueller Wohnort**Beruf:** Beruf oder Rolle in der Welt
 
 
-Baldryn Schmedowski war ein herausragender Conius-Lateraler, der für seine einzigartigen Beiträge zur Magie und die Entwicklung faszinierender Artefakte bekannt war.
+Baldryn Smedau war ein herausragender Conius-Lateraler, der für seine einzigartigen Beiträge zur Magie und die Entwicklung faszinierender Artefakte bekannt war.
 Sein Leben war geprägt von Entdeckungen, Herausforderungen und einem Erbe, das bis heute Rätsel aufgibt.
 
 ## Frühes Leben und Ausbildung
@@ -25,9 +23,11 @@ Baldryns Fähigkeiten und Kreativität manifestierten sich in der Erschaffung ei
 
 ## Beiträge zur Magie
 
-Eine seiner herausragenden Schöpfungen waren die Kristallfliegen, magische Artefakte aus klarem Bergkristall und graviertem Metall, die als effizientes Kommunikationsmittel dienten.
+Eine seiner herausragenden Schöpfungen waren die Kristallfliegen, magische Artefakte aus klarem Bergkristall und mit Sgrisignier-Runen graviertem Metall, die als effizientes Kommunikationsmittel dienten.
 Seine berühmteste Kreation war jedoch die legendäre Angelrute.
 Diese Rute, ausgestattet mit einem energetisch geladenen Smaragd-Kristall und Sgrisignier-Runen, lockte Fische magisch an.
+
+![Konzeptbild von Smedaus magischem Fischerhaken](./images/Smedau-Artefakt_magischer-Fischerhaken_Runen-Magie.png)
 
 ## Späteres Leben und Vermächtnis
 
@@ -38,6 +38,6 @@ Es ist nicht bekannt, ob er diese bewusst zerstörte, versteckte oder ob sie and
 
 ## Erbe für die Welt
 
-Baldryn Schmedowskis Einfluss auf die Magie und die Welt selbst ist unbestreitbar.
+Baldryn Smedaus Einfluss auf die Magie und die Welt selbst ist unbestreitbar.
 Seine verlorenen Werke könnten noch immer in den Schatten darauf warten, entdeckt zu werden.
 Die mysteriösen Umstände seines Lebens und die Suche nach seinen verschollenen Schätzen könnten die Grundlage für eine fesselnde Geschichte bilden, die die Leser in die Tiefen der Magie entführt.

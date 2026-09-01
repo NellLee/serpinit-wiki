@@ -4,6 +4,8 @@ Elikta ist eine [Sodili-Laterale](/content/Volk_/Lateralen_/Sodili/index.md), di
 
 ## Rolle in der Ikusation
 
+<!-- event: start=0.07053290728198958 category="Ikusation" text="(14)Drachen-Sodili Elikta landet auf Navura" -->
+
 Der aktuelle Bestand beschreibt Elikta als freiwillige Teilnehmerin einer späteren Navura-Mission der Ikusation.
 Sie erreichte den Planeten über ein von Conius-Lateralen gezähmtes Chaos-Portal und traf damit in eine Lage ein, die bereits von Misstrauen, Grenzgewalt und drachenkinderlichen Angriffswellen geprägt war.
 
@@ -11,11 +13,19 @@ Sie erreichte den Planeten über ein von Conius-Lateralen gezähmtes Chaos-Porta
 
 Elikta wird in den bestehenden Notizen und Timeline-Einträgen vor allem als Vermittlungsfigur greifbar.
 Sie versuchte, die Geschichte der Drachenkinder nicht nur als Feindbild, sondern auch als deformierte Herkunftsgeschichte zu verstehen.
-Gerade dadurch gewann sie in Teilen des erschöpften Drachenkinder-Volkes Vertrauen.
+Ihr Micu nimmt dabei eine Gestalt an, die einem Drachenkind stark ähnelt, sodass sie unter ihnen als eine der Ihren durchging.
+Ihre wahre Sodili-Herkunft behielt sie bewusst für sich, um überhaupt gehört und nicht sofort als Fremde abgewiesen zu werden.
+Gerade durch diese Nähe und die als echt erlebte Empathie gewann sie in Teilen des erschöpften Drachenkinder-Volkes Vertrauen.
+
+<!-- event: start=0.19642655464612768 category="Navura" text="(14)Elikta wird neue Königin der Drachenkinder" -->
 
 Später wurde sie sogar als Königin der Drachenkinder anerkannt.
-Diese Entwicklung bedeutete keine einfache Befriedung, sondern löste neue Spannungen aus.
-Während vor allem jüngere oder kriegsmüde Gruppen in ihr eine Chance auf Neuordnung sahen, lehnten konservative Drachenkinder ihre Herrschaft entschieden ab.
+
+<!-- event: start=1.52 category="Navura" text="(14)Eliktas wahre Identität wird enthüllt" -->
+
+Erst nach ihrem Aufstieg kam ihre wahre Identität als Sodili-Laterale ans Licht.
+Diese Enthüllung beendete keine einfache Befriedung, sondern löste neue, tiefere Spannungen aus:
+Während jüngere oder kriegsmüde Gruppen ihr trotz der Täuschung weiter vertrauten, weil sich an ihren Taten nichts geändert hatte, lehnten konservative Drachenkinder ihre Herrschaft nun endgültig ab und werteten die Enthüllung als Bestätigung, dass ihre Herrschaft von Anfang an unrechtmäßig gewesen sei.
 
 ## Bedeutung
 
@@ -26,5 +36,5 @@ Sie ist weniger als klassische Eroberin oder Feldherrin bedeutsam, sondern als j
 ## Offene Konturen
 
 Mehrere persönliche Details Eliktas sind im derzeitigen Bestand noch nicht ausgearbeitet.
-Offen bleiben insbesondere ihre frühere Stellung unter den Sodili, die genaue Gestalt ihres Micu und der präzise Verlauf ihres Aufstiegs innerhalb der drachenkinderlichen Machtordnung.
+Offen bleiben insbesondere ihre frühere Stellung unter den Sodili, die genaue Gestalt und Entstehung ihres Micu sowie die Umstände, unter denen ihre wahre Identität schließlich aufgedeckt wurde.
 Ihre historische Funktion innerhalb des Navura-Blocks ist jedoch bereits klar genug, um sie als eigenen Wissensknoten zu behandeln.

@@ -1,4 +1,4 @@
-# Mavorak, das schwarze Loch
+# Mavorak, der Neutronenstern
 
 <!-- layout: overview -->
 
@@ -6,13 +6,15 @@
 
 | | |
 |-|-|
-|**Masse:**|$24.3 M_\odot$|
-|**Abstand zu Ikus:**|$1.1 AU$|
+|**Masse:**|$2.1 M_\odot$|
+|**Abstand zu Ikus:**|$0.95 AU$|
 
 <span style="color: red;">TODO</span> Eigenens Bild aus Blender
 
-Mavorak ist ein äußerst kleines schwarzes Loch im Zentrum des Serpinit-Systems und bildet mit Ikus ein binäres System.
-Mavorak wird "Ikus' Augenlid" genannt, da das schwarze Loch bei seinem Orbit regelmäßig das Licht des Sterns für dahinter liegende Planeten teilweise absorbiert.
+Mavorak ist ein kompakter, alter Neutronenstern im Zentrum des Serpinit-Systems und bildet mit Ikus ein binäres System.
+Für sich genommen ist er praktisch unsichtbar, da seine Eigenhelligkeit um ein Vielfaches unter der Ikus' liegt.
+Bei jeder nahen Annäherung an Ikus (Periastron) fängt Mavorak kurzzeitig deutlich mehr Sternwind-Material ein, was zu einem kurzen, deutlichen Aufhellen und Weißwerden von Ikus' sonst purpurnem Licht führt.
+Dieser Effekt wird "Ikus' Fanal" genannt.
 
 Um die Geschichte des Serpinit-Systems besser aufzeichnen zu können, wurde ein Zyklus von Mavorak um Ikus als historische Zeiteinheit etabliert.
 Der zugehörige Hauptartikel ist [Mavorak-Zyklus](/content/Allgemein/Mavorak-Zyklus.md).

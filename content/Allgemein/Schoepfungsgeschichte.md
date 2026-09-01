@@ -2,18 +2,31 @@
 
 # Die Gottheiten
 
+<!-- event: start=-1045611458 category="Universal" text="Urknall" fuzzy_end -->
+<!-- event: start=-1018934342 end=-21129957 category="Universal" text="Entstehung der Gottheiten" -->
+
 Mit dem Universum entstanden beim Urknall ca. 50 konzentrierte Vorkommen der [Magischen Substanz](/content/Allgemein/Magie/index.md#Allgemein), welche über Billionen Jahre hinweg Bewusstseine mit magischer Intelligenz entwickelten und zu Gottheiten wurden, die Fortan das Universum nach Belieben formten.
+
+Nicht jede Konzentration magischer Substanz entstand beim Urknall selbst.
+Auch andere extreme Frühphasen des Universums, etwa der Kollaps sogenannter Quasi-Sterne, formten gelegentlich kleinere Vorkommen.
+Da diese jedoch nie die schiere Größe der ursprünglichen Urknall-Vorkommen erreichten, blieben sie nicht von der gewöhnlichen Abkühlung ausgenommen und lösten sich längst wieder in gewöhnlichen Stoff auf — keine weiteren Gottheiten gingen aus ihnen hervor.
 Die Götter konnten nicht nur die physische Welt formen, sondern auch ihre Naturgesetze und die Funktionsweise der Magie selbst beeinflussen.
 So konnten sie ganz eigene Welten schaffen.
 Die meisten Gottheiten respektierten sich gegenseitig und sahen keinen Grund in die Galaxien und Planetensysteme der anderen einzudringen.
 
 ## Creapatos
+
+<!-- event: start=-21006404 category="Interplanetar" text="Creapatos erschafft das Serpinit-Sonnensystem" fuzzy_end -->
+
 In einer Galaxis entwickelte sich die konzentrierte magische Substanz zu einer namenlosen Gottheit, welche später die Bezeichnung Creapatos von ihren Völkern erhält.
 Die Gottheit nimmt gerne die Gestalt eines Drachen an und formt im Laufe der Zeit unter Anderem auch das Serpinit-System.
 
 ### Das Serpinit-Planetensystem
 Die Naturgesetze des Serpinit-Systems entsprechen im groben, denen des Universums welches wir kennen.
 Creapatos belebte sein System zu Anfang mit einer Vielzahl nicht magisch-intelligenter Lebewesen und Pflanzen.
+
+<!-- event: start=-21000000 end=-372707 category="Interplanetar" text="Evolution unter Creapatos' Aufsicht" fuzzy_start -->
+
 Creapatos musste jedoch, wie jede Gottheit, festellen, dass seine Lebewesen sich durch natürliche Evolution auch ohne seinen direkten Einfluss weiterentwickelten.
 Bei einigen Wesen entdeckte Creapatos nach vielen Jahrmillionen sogar die Entwicklung von Intelligenz.
 Diese "normale" Intelligenz erinnerte Creapatos in ihren Grundzügen an seine eigene magische Intelligenz.
@@ -24,6 +37,8 @@ Er stattete sie mit dem maximalen Maß an magischer Intelligenz aus, die ein ste
 Damit gab Creapatos ihnen eine äußerst abgeschwächte Form seiner eigenen Fähigkeit die Magie in der Welt zu lenken.
 
 ### Die Ovelären Planeten & die Elementdrachen
+
+<!-- event: start=-372606 category="Interplanetar" text="Creapatos' Vier-Teilung" -->
 
 Nachdem Creapatos die Sgrisignier erschaffen hatte, setzte er sich zur Ruhe und nahm sich vor seine Welt von nun an nicht mehr aktiv zu beeinflussen.
 Dafür löste er seine physische Form komplett auf und verteilte seine Energie gleichmäßig über ganz [Wymen](/content/Allgemein/Magie/Wymen.md).
@@ -50,13 +65,17 @@ Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
 
 Seit jeher fürchten die modernen Völker, dass die göttlichen Elementardrachen eines Tages aus ihren Eiern schlüpfen und sich unvorhergesehene Folgen für das gesamte Serpinit-System manifestieren.
 Doch schon der magische Einfluss der Eier innerhalb ihres jeweiligen Planeten veränderte diese mit den Jahrtausenden grundlegend.
+<!-- event: start=-349704 category="Agranum" text="Detonation der Agranum-Rune" -->
+
 Da die Sgrisignier auf Agranum jedoch nach Creapatos Spaltung eine riesige Rune anbrachten, um den Kern aus göttlicher magischer Substanz zu bannen, waren auf Agranum deutlich schneller Veränderungen zu spüren als auf den anderen Ovelären Planeten.
 (siehe [Agranum](../Himmelskoerper_/Agranum/index.md))
 
 ### Evolution
 
+<!-- event: start=-349705.70080763614 end=-16 category="Interplanetar" text="Magisch beeinflusste Evolution der modernen Völker" fuzzy -->
+
 Die modernen intelligenten Völker entstanden nicht wie die Sgrisignier direkt aus der Kreativität eines Gottes, sondern durch natürliche Evolution.
-Dabei haben die Varnops, Lateralen, Sylvanars & Feen einen gemeinsamen Vorfahren, welcher dem _homo erectus_ der Erde sehr ähnlich ist: der _homo primian_.
+Dabei haben die Varnops, Lateralen & Sylvanars einen gemeinsamen Vorfahren, welcher dem _homo erectus_ der Erde sehr ähnlich ist: der _homo primian_.
 Diese Affenart existierte bereits vor der Zeit der Sgrisignier und stellte wie die äußeren Ähnlichkeiten vermuten lassen eine Basis bei Creapatos' Entwurf der Sgrisignier dar.
 Die Sgrisignier wussten um ihre "Verwandschaft" mit den Affen-Artigen und brachten daher dem _homo primian_ ein gewisses Maß an Interesse entgegen.
 Manche Sgrisignier hielten sich sogar ihre eigene "Herde" dieser Art und beschützten sie vor natürlichen Fressfeinden.
@@ -68,7 +87,7 @@ Zwar wurden sie nicht direkt vernichtet, doch der Einfluss von Aerions Magie war
 Besonders folgenschwer war dabei, dass sich diese Beschädigung nicht nur auf die Psyche beschränkte, sondern bei ihren Nachfahren sogar eine magische Fehlkopplung im Gehirn hinterließ.
 Der _homo primian_ hat sich nach dem fall der Sgrisignier über Jahrtausende auf den jeweiligen Planeten zu den modernen Arten entwickelt.
 Dabei wurde die natürliche Evolution auf den Ovelären Planeten extrem von der jeweiligen Kernmagie beeinflusst, sodass die meisten Wesen dieser Planeten später ein gewisses Maß an intuitiver Magie in sich trugen.
-Die Fluctro sind das einzige intelligente Volk welches nicht vom _homo primian_ abstammt.
-Sie haben sich auf dem Wasserplaneten Luqua unter Einfluss des Elementardrachens Fluero aus einer Oktopusart entwickelt.
+Die Fluctro und die Momensi sind die einzigen intelligenten Völker, die nicht vom _homo primian_ abstammen.
+Die Fluctro haben sich auf dem Wasserplaneten Luqua unter Einfluss des Elementardrachens Fluero aus einer Oktopusart entwickelt, die Momensi auf Navura unter Einfluss Silvaas aus einer Insektenart.
 
 <span style="color: red;">TODO</span> Evolutionsdiagramm

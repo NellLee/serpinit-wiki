@@ -7,7 +7,7 @@
 | | |
 |-|-|
 |**Masse:**|$40.07 M_\odot$|
-|**Abstand zu Mavorak:**|$1.1 AU$|
+|**Abstand zu Mavorak:**|$0.95 AU$|
 
 Ikus wird der Purpurstern genannt.
 Er bildet gemeinsam mit [Mavorak](/content/Himmelskoerper_/Mavorak/index.md) das Zentrum des Serpinit-Systems.

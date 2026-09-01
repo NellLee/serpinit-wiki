@@ -1,5 +1,7 @@
 # Krieg um Navura
 
+<!-- event: start=-12.230136219371174 end=1.5577254667248868 category="Navura" text="[14]Krieg um Navura" -->
+
 Als Krieg um Navura wird der langwierige Konflikt bezeichnet, in dem die [Drachenkinder](/content/Volk_/Drachenkinder/index.md) versuchten, auf [Navura](/content/Himmelskoerper_/Navura/index.md) dauerhaft Fuß zu fassen und die [Sylvanars](/content/Volk_/Sylvanar/index.md) aus weiten Teilen des Planeten zu verdrängen.
 Der Krieg prägte sowohl die politische Ordnung Navuras als auch die spätere Entwicklung der drachenkinderlichen Blutmagie.
 
@@ -10,10 +12,14 @@ Sie wurden auf [Mognar](/content/Himmelskoerper_/Mognar/index.md) aus verbannten
 Gerade daraus wuchs ein widersprüchliches Verhältnis zu Navura:
 der Planet erschien zugleich als verlorene Herkunft, begehrter Lebensraum und vermeintlich geraubtes Erbe.
 
+Den Anstoß zum Kontakt lieferte dabei ausgerechnet zurückgelassenes Testmaterial der [Ikusation](/content/Ereignis_/Ikusation.md): Neugierig auf die von den Lateralen liegen gelassenen Gegenstände an einem Mognar-Portal, wagten die ersten Drachenkinder den Schritt durch ein anderes, ungetestetes Portal und entdeckten so Navura (siehe [Mognar](/content/Himmelskoerper_/Mognar/index.md#entdeckung-navuras)).
+
 Diese Deutung wurde später theologisch zugespitzt.
 Viele Drachenkinder leiteten aus ihrer Nähe zu Ignatius und aus ihrer drachenähnlichen Gestalt einen Anspruch auf Navura ab und verstanden die Sylvanars nicht als rechtmäßige Bewohner, sondern als Hindernis.
 
 ## Verlauf
+
+<!-- event: start=-12.230136219371174 category="Navura" text="(14)Erster Angriff der Drachenkinder auf die Sylvanars" -->
 
 Der Krieg verlief nicht als einzelne Feldschlacht, sondern in vielen Wellen.
 Über nutzbar gewordene Portalrouten drangen immer wieder Gruppen der Drachenkinder nach Navura vor, errichteten Stützpunkte und versuchten, Gelände um wichtige Zugänge zu sichern.

@@ -1,5 +1,7 @@
 # Kulios-Zwischenfall
 
+<!-- event: start=-0.01 category="Agranum" text="Kulios-Zwischenfall" -->
+
 Als Kulios-Zwischenfall wird jene Verkettung von Ereignissen bezeichnet, die am [See Kulios](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/See_Kulios/index.md) beinahe zur Entstehung einer regionalen Katastrophe führte und später zu einem wichtigen Vorlauf der [Ikusation](/content/Ereignis_/Ikusation.md) wurde.
 
 ## Ursache

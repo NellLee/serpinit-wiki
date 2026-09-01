@@ -6,14 +6,14 @@ Die vier ovelären Planeten sind für viele magische und geschichtliche Entwickl
 # Das Zentrum
 
 - [Ikus](./Ikus/index.md), der große purpurne Stern
-- [Mavorak](./Mavorak/index.md), das kleine schwarze Loch
+- [Mavorak](./Mavorak/index.md), der kleine Neutronenstern
 
 # Die Planeten
 
 - [Agranum](./Agranum/index.md)<span style="color: red;">*</span>, der Gürtelplanet
 - [Aridess](./Aridess/index.md), der Wüstenplanet
 - [Collot & Linunar](./Collot_und_Linunar/index.md), der Gasriese und sein Mondplanet
-- [Luqua](./Luqua/index.md)<span style="color: red;">*</span>, der planetare Tropfen
+- [Luqua](./Luqua/index.md)<span style="color: red;">*</span>, die Eiswüste
 - [Mognar](./Mognar/index.md)<span style="color: red;">*</span>, der Magmaplanet
 - [Navura](./Navura/index.md)<span style="color: red;">*</span>, der Herzplanet
 - [Venoxi](./Venoxi/index.md), der Giftriese

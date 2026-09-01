@@ -1,5 +1,7 @@
 # Aridess-Expedition
 
+<!-- event: start=0.012 category="Aridess" text="Aridess-Expedition" -->
+
 Als Aridess-Expedition wird die frühe Phase der [Ikusation](/content/Ereignis_/Ikusation.md) bezeichnet, in der die Lateralen den ersten dauerhaft gesicherten Portalzugang nach [Aridess](/content/Himmelskoerper_/Aridess/index.md) nutzten, dort einen Stützpunkt errichteten und die unmittelbare Umgebung des ersten Übergangs erschlossen.
 
 ## Erstes Lager

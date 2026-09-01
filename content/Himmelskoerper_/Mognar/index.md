@@ -8,9 +8,11 @@ Sämtliche bekannten Aktivitäten an seiner Oberfläche stammen im Wesentlichen 
 
 ## Planetare Prägung
 
-Mognar gehört zu den ovelären Himmelskörpern des Serpinit-Systems.
-Im Kern des Planeten ruht der Elementardrache [Ignatius](/content/Allgemein/Ignatius.md), dessen feuermagische Präsenz Mognar dauerhaft prägt.
-Gerade weil diese göttliche Kraft hier nicht zu fruchtbarem Leben, sondern zu anhaltender Hitze, Lava und magischer Aggression führte, gilt Mognar unter den habitablen Welten als Sonderfall.
+Mognar gehört zu den ovelären Himmelskörpern des Serpinit-Systems: Ein Teil der magischen Substanz, die bei Creapatos' Vier-Teilung entstand, ist als Emulsion mit der geschmolzenen Kernmasse des Planeten vermischt — der Sitz des Elementardrachen [Ignatius](/content/Allgemein/Ignatius.md).
+Anders als Fluero auf Luqua, der seine Substanz in ein stabiles Element wandelt, stabilisiert sich Ignatius' Anteil nie: Passend zu seinem Wesen als Rage setzt er fortwährend rohe Wärmeenergie frei, ohne je zur Ruhe zu kommen.
+Diese Wärme verteilt sich von dort ganz gewöhnlich per Konvektion und Wärmeleitung durch den Mantel und macht Mognars Kern erheblich heißer, als es rein geologische Prozesse je könnten — die Ursache für die anhaltende Lava und vulkanische Aktivität des Planeten.
+Dieselbe Instabilität lässt Wymen in Kernnähe immer wieder aufreißen, weshalb Mognar zu den Himmelskörpern mit der höchsten Dichte an Feuer-Elementaren im gesamten System zählt.
+Gerade weil diese göttliche Kraft hier nicht zu fruchtbarem Leben, sondern zu anhaltender Hitze, Lava und magischer Aggression führte, gilt Mognar unter den ovelären Welten als Sonderfall.
 
 Die feuermagische Struktur des Planeten ist später auch für die [Blutrituale der Drachenkinder](/content/Volk_/Drachenkinder/Blutrituale.md) bedeutsam geworden, da sie in den Blutvulkanen Mognars ritualisiert nutzbar gemacht wird.
 
@@ -24,7 +26,17 @@ Ignatius antwortete auf diesen Vorgang nicht mit Rettung im gewohnten Sinn, sond
 Die sterbenden Körper wurden durch seine wutverzerrte Magie zu einem neuen Volk geformt und als Drachenkinder wiederbelebt.
 Mognar wurde dadurch vom bloßen Extremplaneten zum Ursprungsort eines ganzen historischen Konfliktfeldes.
 
+## Entdeckung Navuras
+
+<!-- event: start=-12.26 category="Mognar" text="Drachenkinder entdecken Navura" -->
+
+Als Nachfahren der ersten Drachenkinder auf die von den Lateralen zurückgelassenen Testgegenstände an einem der Mognar-Portale stießen, weckte das ihre Neugier auf das Portalnetz.
+Über ein anderes, von den Lateralen nie getestetes Portal wagten schließlich einige von ihnen den Schritt hindurch — und entdeckten so [Navura](/content/Himmelskoerper_/Navura/index.md), einen für sie paradiesisch wirkenden Planeten voller leicht entflammbarer Wälder und leicht zu fangender Beute.
+
 ## Bedeutung im späteren Bestand
+
+Neben dem Portal nach Navura erschlossen die Drachenkinder mit der Zeit auch weitere Mognar-Portale, die vor allem nach [Venoxi](/content/Himmelskoerper_/Venoxi/index.md) und [Collot & Linunar](/content/Himmelskoerper_/Collot_und_Linunar/index.md) führten.
+Da keiner dieser Himmelskörper auch nur annähernd die Fülle und Bewohnbarkeit Navuras bot, blieb es dort bei kleinen Stützpunkten zur Erkundung, ohne dass sich daraus ein offener Krieg entwickelte.
 
 Obwohl Mognar selbst weitgehend lebensfeindlich blieb, gewann der Planet durch die Drachenkinder, ihre Hauptstadt Zanguor und die dortigen Blutvulkane erhebliche historische Bedeutung.
 Über Mognar liefen später auch jene Verknüpfungen, durch welche die [Ikusation](/content/Ereignis_/Ikusation.md) mittelbar mit dem [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) verbunden wurde.

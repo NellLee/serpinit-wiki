@@ -1,15 +1,15 @@
 
 # Zirkel-Wettstreit
 
+<!-- event: start=-3.1412 category="Aridess" text="Ausrichtung des Zirkel-Wettstreits durch die Familie Krolpin" -->
+
 Der Zirkel-Wettstreit ist eine Veranstaltung der [Varnop](/content/Volk_/Varnops/index.md)-Familie [Krolpin](/content/Volk_/Varnops/Politik/Familie_/Krolpin_Zirkelgruender/index.md), welche im [Zirkel-Gebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/index.md) am nördlichen Pol des Planeten [Aridess](/content/Himmelskoerper_/Aridess/index.md) stattfindet.
 Der Wettstreit ist ein wichtiger Meilenstein in der Geschichte der Varnops.
 Ziel ist die Entwicklung von mechanischen Erfindungen, die von so fundamentaler Nützlichkeit sind, dass sie Einfluss auf den gesamten Planeten nehmen können und so einerseits zur [Globalisierung von Aridess](../Globalisierung-Aridess.md) beitragen sollen und andererseits die Entstehung der [12 Varnop-Zirkel](/content/Volk_/Varnops/Politik/Zirkel_/index.md) bedingen.
 Um den Wettstreit zu bewerben müssen die Krolpins ihre Position als Hauptversorger für Metalle voll ausnutzen.
 Für die Verkündung werden insgesamt Tausende Handzettel erstellt, welche allen Handelspartnern der Krolpins für die Weiterverbreitung mitgegeben werden.
-:::figure{style="width: 400px;"}
+<!-- display: figure -->
 ![Flyer für die Werbung des Zirkel-Wettstreits](./images/Flyer_Werbung.png)
-::figcaption[Flyer für die Werbung des Zirkel-Wettstreits]
-:::
 Dabei sind die bestehenden Handelsrouten auf Aridess zu großen Teilen stark vernestelt und dadurch nicht selten recht ineffizient.
 Die von den Krolpins gewählte Vorlaufzeit von 10 Zyklen soll daher sicherstellen, dass die Kunde sich möglichst weit verbreitet und mögliche Teilnehmer genug Zeit für die Anreise haben.
 Schließlich finden sich 158 teilnehmende Gruppen (insgesamt über 650 Varnops) für den Wettstreit im Tal des Zirkelgebirges ein.

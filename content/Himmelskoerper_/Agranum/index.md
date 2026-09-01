@@ -22,12 +22,12 @@ Der Hauptartikel dazu ist [Impuls-Eruption](/content/Ereignis_/Impuls-Eruption.m
 
 ## Die Gravidblase und die Gravitationsozeane
 
-Die schwebenden Kontinente Agranums werden bis heute von der [Gravidblase von Agranum](/content/Himmelskoerper_/Agranum/Gravidblase.md) getragen.
-Diese Zone annullierter und teilweise umgekehrter Gravitation hebt die Landmassen an, lässt sie jedoch zugleich in eine eigene Schwereordnung einsinken.
-Daraus entstehen die für Agranum typischen Gravitationsozeane, besondere Küstenformen und eine insgesamt hochgradig unnatürliche, aber stabile Umwelt.
+Die schwebenden Kontinente Agranums werden bis heute von der [Gravidblase von Agranum](/content/Himmelskoerper_/Agranum/Gravidblase.md) getragen — einer gewaltigen, magisch verdichteten Gasschicht, dicht genug, dass Gestein darauf schwimmt statt zu sinken, ganz gewöhnlicher Auftrieb, nur mit einem außergewöhnlichen Medium.
+Kontinente sinken je nach Gewicht unterschiedlich tief ein, Wasser sammelt sich darüber in den entstehenden Vertiefungen — daraus entstehen die für Agranum typischen Gravitationsozeane, besondere Küstenformen und eine insgesamt hochgradig unnatürliche, aber stabile Umwelt.
+Genau diese schwebenden Landmassen, angeordnet in einer eigenen Schicht zwischen dem heißen inneren Kern und der dünnen äußeren Atmosphäre, gaben Agranum seinen Beinamen als Gürtelplanet.
 
-Auch die Atmosphäre, die Verteilung schwerer Gase und die Sonderstellung des inneren Wüstenkerns hängen unmittelbar mit dieser Struktur zusammen.
-Der innere Kern Agranums blieb nach der Umgestaltung lebensfeindlich und wird bis heute vor allem mit Tjosandansammlungen, Hitze und [Elementaren](/content/Volk_/Elementare/index.md) verbunden.
+Auch die Verteilung schwerer Gase und die Sonderstellung des inneren Wüstenkerns hängen unmittelbar mit dieser Struktur zusammen.
+Der innere Kern Agranums blieb nach der Umgestaltung lebensfeindlich und wird bis heute vor allem mit Tjosandansammlungen, Hitze und [Elementaren](/content/Volk_/Elementare/index.md) verbunden — seine Wärme treibt zugleich die ständige, langsame Konvektion an, die die Gravidblase in andauernder Bewegung hält.
 
 # Bedeutung
 

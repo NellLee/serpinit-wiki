@@ -28,6 +28,8 @@ Aus diesem Grund werden Lebewesen die ein Chaos-Portal durchqueren meist schlich
 Darüber hinaus macht die Existenz der Chaos-Portale auch das Reisen mit vollkommen intakten Portalen äußerst gefährlich.
 Ein Chaos-Portal bildet beim Verbindungsaufbau mit einem anderen Portal für kurze Zeit ein gerichtetes Teleportations-Dreieck mit dem Ziel-Portal und seinem eigentlichen Gegenstück.
 Sollte also ein Lebewesen gerade auf dem regulären Weg zum Ziel-Portal sein, so kann es ebenfalls vom Chaos-Portal zerrissen werden.
+<!-- event: start=-0.6943464122282921 category="Agranum" text="Erster Erfolg beim Reisen durch ein Chaos-Portal" -->
+
 Die Conius-Lateralen fanden schließlich einen Weg dieses Phänomen zu unterbinden und starteten darauf basierend schließlich die [Ikusation](/content/Ereignis_/Ikusation.md).
 Die frühen Expeditionen der Ikusation zeigten jedoch auch, dass selbst gesicherte Portale nur einen Teil des Risikos beseitigen.
 Ein Zielort konnte weiterhin durch Klima, Gifte, Fauna oder politische Umstände unbenutzbar bleiben, wie sich etwa an den ersten Routen über [Aridess](/content/Himmelskoerper_/Aridess/index.md) und [Venoxi](/content/Himmelskoerper_/Venoxi/index.md) deutlich zeigte.

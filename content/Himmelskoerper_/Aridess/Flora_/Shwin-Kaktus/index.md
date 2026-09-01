@@ -1,9 +1,7 @@
 # Shwin-Kaktus
 
-:::figure
+<!-- display: figure -->
 ![Eine Höhle voller Shwin-Kakteen und ihren Fäden](./images/Shwin-Kaktus_Spinnenstachel-Kaktus.png)
-::figcaption[Eine Höhle voller Shwin-Kakteen und ihren Fäden]
-:::
 
 ## Beschreibung
 

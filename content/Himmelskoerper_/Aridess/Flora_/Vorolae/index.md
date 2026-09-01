@@ -1,9 +1,7 @@
 # Vorolae
 
-:::figure
+<!-- display: figure -->
 ![Eine Vorolae im Lockmodus](./images/Vorolae_Lock-Modus_Wasser-Frucht.png)
-::figcaption[Eine Vorolae im Lockmodus]
-:::
 
 ## Beschreibung
 Die Vorolae ist eine faszinierende fleischfressende Pflanze, die auf Aridess gedeiht.

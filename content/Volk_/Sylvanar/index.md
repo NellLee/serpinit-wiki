@@ -160,12 +160,6 @@ Normalerweise sehen Sylvanars aber davon ab ihre Kraft für Vorgänge zu nutzen 
 
 ## Traditionen
 
-### Artefakte
-
-Der ältere Konzeptbestand der Sylvanars enthält zudem die Vorstellung, dass sie ihre Magie teilweise in persönliche Trägerobjekte überführen können.
-Dieser Strang ist noch nicht endgültig mit dem restlichen Magiesystem harmonisiert und bleibt deshalb als markierter Altbestand erhalten.
-Der zusammenhängende Überblick dazu steht im Artikel [Sylvanar-Artefakte](/content/Volk_/Sylvanar/Artefakte.md).
-
 ### Prosadúr
 
 So wird die erste Serpe eines Sylvanar-Babys genannt, ausgenommen einer anfänglichen Säuglings-Phase.
@@ -187,14 +181,50 @@ Ab diesem Zeitpunkt beginnt die letzte Phase der Prosadúr, der Cre'Athem.
 
 ### Cre'Athem
 
-<!-- callout: note -->
-> **Note:** Die folgenden Traditionen hängen am vorläufig nicht abschließend geklärten Artefakt-Konzept und gelten daher bis auf Weiteres nicht als vollständig gesicherter Kernkanon.
-Der Cre'Athem ist im älteren Konzept der Akt des Schaffens eines persönlichen Artefaktes.
-Er umfasst die letzten 10 Zyklen der Prosadúr und wird von der Indux-Zeremonie abgeschlossen.
+Der Cre'Athem umfasst die letzten 10 Zyklen der Prosadúr.
+Er beginnt, wenn ein Ältester das isolierte Kind aufsucht und ihm die Grundlagen der sylvanarischen Katalyse vermittelt: Atemrhythmus, Grundbewegungen und die "Tonlage" des Collektivora.
+Die eigentlichen Stammesgesänge lehrt der Älteste jedoch nicht.
+Stattdessen formt das Kind in den verbleibenden Zyklen seiner Isolation daraus einen eigenen, persönlichen Gesang und Tanz — seinen individuellen Beitrag zum späteren gemeinsamen Klang des Stammes.
+Da das Kind allein und noch nicht Teil eines Kollektivs wirkt, entsteht dabei kein tatsächlicher magischer Effekt; geübt wird die eigene Ausdrucksform, nicht ihre Wirkung.
+
+Zugleich zieht das Kind während dieser Zeit einen Sprössling jener Pflanze groß, die seiner angestrebten zukünftigen Rolle im Stamm entspricht.
+Die Schwierigkeit, einen solchen Sprössling gedeihen zu lassen, steigt mit dem Ansehen und den magischen Anforderungen der jeweiligen Rolle.
+Wer sich für die Rolle des Heilers entscheidet, zieht beispielsweise eine [Sangurel](/content/Himmelskoerper_/Navura/Flora_/Sangurel/index.md) groß und muss dabei schon früh lernen, mit ihrer Gefährlichkeit präzise und behutsam umzugehen.
+Wer die anspruchsvollere Rolle des Hüters anstrebt, zieht stattdessen eine [Pulmira](/content/Himmelskoerper_/Navura/Flora_/Pulmira/index.md) groß, die nur bei anhaltender Ruhe und Disziplin gedeiht.
+Angehende Krieger ziehen einen [Krallith](/content/Himmelskoerper_/Navura/Flora_/Krallith/index.md) groß, dessen schmerzhafte Rückschläge Schmerztoleranz und Durchsetzungskraft verlangen.
+Wer sich für die Rolle des Läufers entscheidet, verbringt den Cre'Athem stattdessen mit der Suche nach einer reifenden [Faelune](/content/Himmelskoerper_/Navura/Flora_/Faelune/index.md) und muss sie rechtzeitig vor dem [Chitrel](/content/Himmelskoerper_/Navura/Fauna_/Chitrel/index.md)-Schwarm im richtigen Reifezustand ernten.
+Angehende Handwerker erproben an den nahegelegenen Beständen des [Ilmerak](/content/Himmelskoerper_/Navura/Flora_/Ilmerak/index.md) verschiedenste Techniken, bevor sie gegen Ende des Cre'Athem einen eigenen Sprössling für ihr Gesellenstück pflanzen.
 
 ### Indux-Zeremonie
 
-<!-- callout: note -->
-> **Note:** Dieser Abschnitt bleibt aus Gründen der Nachvollziehbarkeit erhalten, ist aber bis zur späteren Kanonklärung der Sylvanar-Artefakte nicht als fester Kanon zu behandeln.
-Dieses Ereignis beendet in der älteren Konzeption die Prosadúr und gleichzeitig auch das Kindesalter eines Sylvanars.
-Nach der Indux-Zeremonie gelten Sylvanars als Jugendliche und somit als vollwertige Stammesmitglieder.
+Die Indux-Zeremonie beschließt die Prosadúr und markiert den Übergang zum Jugendlichen.
+Der Stamm versammelt sich und führt einen echten, bewusst zurückgenommenen Naturzauber aus: Melodie und Rhythmus der übrigen Sylvanars bleiben betont passiv und dienen nur der sicheren Führung des Rituals, während dem Kind der größte gestalterische Anteil überlassen wird.
+In diesen geführten Rahmen webt das Kind seinen während des Cre'Athem geformten persönlichen Gesang und Tanz ein und drückt darin die Eigenschaften aus, die seine gewählte Rolle verkörpert.
+
+Der Zauber selbst hebt den mitgeführten Sprössling in seinen ausgewachsenen Zustand.
+Gelingt dies, bestätigt der Stamm damit gleichzeitig die Eignung des Kindes für die gewählte Rolle.
+Scheitert das Kind erkennbar daran, seine Rolle im Tanz auszudrücken oder den Sprössling zum Wachstum zu bewegen, wird die Zeremonie abgebrochen.
+Das Kind kehrt für eine weitere Zeit in die Wildnis zurück und wählt für den nächsten Versuch in der Regel den Sprössling einer weniger anspruchsvollen Rolle.
+
+Rangfolge der Rollen nach Anspruch (höchster zuerst): **Hüter, Heiler, Krieger, Läufer, Handwerker/Baumeister.**
+Weitere Rollen sind denkbar, aber bisher nicht ausdefiniert.
+
+Nach bestandener Indux-Zeremonie gilt ein Sylvanar als Jugendlicher, vollwertiges Stammesmitglied und beginnt die Ausbildung in seiner bestätigten Rolle.
+
+### Baumperlen
+
+Baumperlen sind knollenartige Holzwucherungen, die ein Baum um eine alte Verletzung oder einen Fremdkörper herum bildet.
+Solange eine solche Wucherung noch mit dem übrigen Baum verbunden bleibt, wächst sie über Jahrzehnte langsam heran, genährt vom umliegenden Gewebe, und sammelt dabei nach und nach das süße Harz des Baumes in ihrem Inneren.
+
+Den eigentlichen Übergang zur reifen Baumperle markiert eine Erntezeremonie: Der Stamm besingt den ausgewählten Baum gemeinsam, bis sich die Wucherung vollständig von ihm abkapselt und ihr Harz luftdicht verschließt.
+Erst von diesem Moment an beginnt das eingeschlossene Harz zu gären, ganz ähnlich einem reifenden Wein.
+
+Das Harz einer geernteten Baumperle wird zu zwei ganz unterschiedlichen Zeitpunkten genutzt: Manche werden kurz nach der Ernte geöffnet, wenn das Harz noch frisch und besonders süß ist, andere reifen dagegen viele Zyklen ungeöffnet weiter, bevor sie für ihr tief gegorenes, weinähnliches Aroma aufgebrochen werden.
+
+Größe, Aussehen und die genaue Technik der Erntezeremonie unterscheiden sich stark von Stamm zu Stamm, je nachdem, welche Baumarten in der jeweiligen Region wachsen.
+Manche Stämme ziehen so über Generationen faustgroße Perlen an schnell wachsenden Bäumen heran, andere pflegen stattdessen wenige, dafür gewaltige Baumperlen an uralten Riesenbäumen — jede Region hat dabei ihre eigene Variante der Grundtechnik entwickelt.
+
+Die eigentliche Erntezeremonie, wenn eine Baumperle endlich reif genug dafür ist, wird zu einem gemeinschaftlichen Fest des ganzen Stammes — der Lohn einer über Generationen gepflegten Arbeit.
+
+Innerhalb eines Stammes gilt die Zahl und das Alter noch ungeöffneter Baumperlen als sichtbares Zeichen von Geduld, Zusammenhalt und Ahnenerbe — sie werden oft über Generationen weitergereicht wie ein Familienschatz.
+Bei wichtigen Anlässen zwischen verschiedenen Stämmen, etwa Bündnissen, Hochzeiten oder der Beilegung von Streitigkeiten, werden besonders alte Baumperlen zudem als bedeutsames Geschenk überreicht — eine Art diplomatische Währung zwischen den sonst verstreut lebenden Sylvanar-Stämmen, auch wenn es dafür keinen eigentlichen Markt gibt.

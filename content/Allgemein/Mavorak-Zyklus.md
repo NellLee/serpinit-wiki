@@ -1,13 +1,13 @@
 # Mavorak-Zyklus
 
 Der Mavorak-Zyklus ist die am weitesten verbreitete größere historische Zeiteinheit des Serpinit-Systems.
-Er basiert auf einer Umdrehung des schwarzen Loches [Mavorak](/content/Himmelskoerper_/Mavorak/index.md) und des Sterns [Ikus](/content/Himmelskoerper_/Ikus/index.md) um ihr gemeinsames Baryzentrum.
+Er basiert auf einer Umdrehung des Neutronensterns [Mavorak](/content/Himmelskoerper_/Mavorak/index.md) und des Sterns [Ikus](/content/Himmelskoerper_/Ikus/index.md) um ihr gemeinsames Baryzentrum.
 Ein solcher Umlauf dauert etwa 52 Erd-Tage.
 
 ## Wahrnehmung
 
 Der Zyklus wird auf den verschiedenen Planeten nicht völlig gleich erlebt.
-Je nach planetarer Umlaufbahn und Sichtbedingungen erscheint der Moment, in dem Mavorak sich wieder vor Ikus schiebt, leicht unterschiedlich.
+Je nach Entfernung und Beobachtungsbedingungen erscheint das Fanal — das kurze, harte Aufhellen und Weißwerden von Ikus' sonst purpurnem Licht beim Periastrondurchgang Mavoraks — unterschiedlich stark ausgeprägt.
 Gerade deshalb war der Mavorak-Zyklus zugleich astronomische Realität und kulturell interpretierte Beobachtungseinheit.
 
 Da viele Völker lange Zeit annahmen, Ikus bilde das klare Zentrum des Systems und Mavorak kreise lediglich um diesen Stern, setzte sich die Bezeichnung Mavorak-Zyklus historisch durch, obwohl das Verhältnis physikalisch genauer als binäres System zu beschreiben ist.

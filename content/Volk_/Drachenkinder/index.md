@@ -6,6 +6,8 @@ Ihre Geschichte ist eng mit dem [Krieg um Navura](/content/Ereignis_/Krieg-um-Na
 
 # Entstehung
 
+<!-- event: start=-12.577508819600794 category="Mognar" text="Die Drachenkinder entstehen" -->
+
 Die Drachenkinder entstanden nicht wie die anderen modernen Völker durch natürliche Evolution.
 Ignatius nutzte die Körper verbannter Sylvanars und füllte ihr Blut mit seiner wutverzerrten Magie.
 So entstand ein neues Volk, das äußerlich deutlich an Drachen erinnert und dessen innere Magiestruktur von Anfang an unausgewogen war.

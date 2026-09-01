@@ -1,5 +1,7 @@
 # Erstkontakt mit den Varnops
 
+<!-- event: start=0.024 category="Aridess" text="Erstkontakt mit den Varnops" -->
+
 Als Erstkontakt mit den [Varnops](/content/Volk_/Varnops/index.md) wird jene frühe Phase der [Ikusation](/content/Ereignis_/Ikusation.md) bezeichnet, in der eine laterale Expedition von Agranum aus erstmals gesichert auf [Aridess](/content/Himmelskoerper_/Aridess/index.md) operierte und dort in diplomatisch belastbaren Austausch mit Varnop-Gruppen trat.
 
 ## Vorgeschichte

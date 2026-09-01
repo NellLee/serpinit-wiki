@@ -1,5 +1,7 @@
 # Impuls-Eruption
 
+<!-- event: start=-349703.9995 category="Agranum" text="Impuls-Eruption auf Agranum" -->
+
 Als Impuls-Eruption wird das katastrophale Ereignis bezeichnet, bei dem der Elementardrache [Aerion](/content/Allgemein/Aerion.md) die auf [Agranum](/content/Himmelskoerper_/Agranum/index.md) verbliebenen [Sgrisignier](/content/Volk_/Sgrisignier/index.md) vernichtete und dabei die Oberfläche des Planeten dauerhaft veränderte.
 Die Impuls-Eruption markiert einen der tiefsten Einschnitte der gesamten Geschichte des Serpinit-Systems.
 
@@ -21,8 +23,8 @@ Sie zerriss weite Teile der Oberfläche Agranums und machte den Planeten selbst 
 
 ## Entstehung der Gravidblase
 
-Um die übrigen Lebewesen Agranums wenigstens teilweise vor den Folgen seines Handelns zu bewahren, entlud Aerion zusätzlich einen sphärischen Schub annullierter Gravitation.
-Daraus entstand die [Gravidblase von Agranum](/content/Himmelskoerper_/Agranum/Gravidblase.md), welche die verbliebenen Kontinentalplatten in große Höhe hob.
+Um die übrigen Lebewesen Agranums wenigstens teilweise vor den Folgen seines Handelns zu bewahren, wandelte Aerion zugleich einen gewaltigen Teil seiner eigenen magischen Substanz aktiv in Gas um — eine schlagartig entstehende, ungeheure Gasmasse, dicht genug, um selbst Gestein zu tragen.
+Daraus entstand die [Gravidblase von Agranum](/content/Himmelskoerper_/Agranum/Gravidblase.md), welche die verbliebenen Kontinentalplatten auffing und in schwebender Ordnung stabilisierte.
 Nur ein Bruchteil des ursprünglichen Lebens überdauerte diesen Übergang.
 
 Die Impuls-Eruption ist deshalb kein bloßer Vernichtungsschlag gegen ein einzelnes Volk.

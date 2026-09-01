@@ -1,5 +1,7 @@
 # Polarisierung der Drachenkinder
 
+<!-- event: start=0.19642655464612768 end=1.5430230896416435 category="Navura" text="(14)Polarisierung der Drachenkinder" -->
+
 Als Polarisierung der Drachenkinder wird jene späte Phase des [Krieges um Navura](/content/Ereignis_/Krieg-um-Navura.md) bezeichnet, in der das Volk der [Drachenkinder](/content/Volk_/Drachenkinder/index.md) nicht mehr nur gegen äußere Gegner kämpfte, sondern zugleich in einen offenen Richtungsstreit über seine eigene Zukunft geriet.
 
 ## Ursachen
@@ -21,7 +23,13 @@ Ihre spätere Anerkennung als Königin beendete die Polarisierung nicht, sondern
 Viele Drachenkinder hofften nun auf eine Befriedung.
 Andere deuteten ihre Herrschaft als Verrat an Blut, Herkunft und göttlichem Anspruch.
 
+Die Spannung erreichte ihren Höhepunkt, als nach ihrem Aufstieg bekannt wurde, dass Elikta selbst keine geborene Drachentochter, sondern eine Sodili-Laterale war, die ihre Herkunft hinter ihrem drachenähnlichen Micu verborgen hatte.
+Für kriegsmüde und jüngere Gruppen änderte diese Enthüllung wenig, da sie ihr weiterhin nach ihren Taten vertrauten.
+Für konservative Kreise bestätigte sie hingegen den lange gehegten Verdacht, dass Eliktas Herrschaft von Anfang an unrechtmäßig erschlichen worden war, und lieferte den endgültigen Anlass zum offenen Bruch.
+
 ## Zuspitzung und Abspaltung
+
+<!-- event: start=1.5577254667248868 category="Interplanetar" text="(14)Das Volk der Drachenkinder teilt sich" -->
 
 Aus dem Richtungsstreit gingen schließlich offen abtrünnige Gruppen hervor.
 Sie akzeptierten die neue Ordnung nicht und setzten weiterhin auf bewaffnete Angriffe gegen die Bewohner Navuras.

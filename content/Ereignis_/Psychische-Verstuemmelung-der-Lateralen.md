@@ -1,5 +1,7 @@
 # Psychische Verstümmelung der Lateralen
 
+<!-- event: start=-349703.999 category="Agranum" text="Psychische Verstümmelung der Lateralen" -->
+
 Als psychische Verstümmelung der Lateralen wird jene tiefgreifende magische Beschädigung bezeichnet, die im Zuge der [Impuls-Eruption](/content/Ereignis_/Impuls-Eruption.md) die Vorfahren der späteren [Lateralen](/content/Volk_/Lateralen_/index.md) traf.
 Sie markiert den eigentlichen Ursprung der späteren geistigen Spaltung dieses Volkes.
 

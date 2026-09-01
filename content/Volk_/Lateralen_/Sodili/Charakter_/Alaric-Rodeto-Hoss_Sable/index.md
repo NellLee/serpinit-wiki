@@ -1,9 +1,7 @@
 # Die Conius-Lateralen
 
-:::figure{style="width: 400px;"}
-![](./images/Beispielbild.png)
-::figcaption[Typischer Vertreter des Volkes]
-:::
+<!-- display: figure -->
+![Typischer Vertreter des Volkes](./images/Beispielbild.png)
 
 Conius-Lateralen sind jene Vertreter ihres Volkes, bei welchen die angeborene geistige Spaltung bereits im Kindesalter gezielt therapiert wird.
 Sie gelten unter den Lateralen als besonders klar im Geist und als das Volk mit dem tiefsten wissenschaftlichen Verständnis der Magie.

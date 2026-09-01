@@ -24,6 +24,12 @@ Navura gehört zu jenen Welten, deren planetare Identität ohne den im Kern ruhe
 Die Gegenwart [Silvaas](/content/Allgemein/Silvaa.md) erscheint hier nicht als offenes Eingreifen, sondern als fortwährende Fruchtbarkeit, als rhythmisches Pulsieren und als enge Bindung zwischen Landschaft und Leben.
 Gerade deshalb wird Silvaa von vielen Bewohnern Navuras weniger als ferne Gottheit denn als ständig spürbarer Grundzustand ihrer Welt verstanden.
 
+Dieser Puls ist mehr als eine bloße Wahrnehmung: Er ist Navuras tatsächlicher, nie aussetzender Herzschlag, der den ganzen Planeten durchdringt.
+In den unberührten, von keinem intelligenten Volk erschlossenen Wäldern Navuras trifft dieser Herzschlag gelegentlich auf gewöhnliche, spontan entstandene magische Substanz — ein an sich seltenes, aber überall im System mögliches Naturphänomen.
+Fast überall kühlt solche Substanz binnen kürzester Zeit wieder ab.
+Nur in Reichweite von Navuras Herzschlag kann sie sich stattdessen mit seinem Takt synchronisieren und wird so mit jedem Schlag knapp erneut über ihre Substanzkonstante gehoben, bevor sie abkühlen kann.
+Genau auf diese Weise entstehen die [Spirits](/content/Volk_/Spirits/index.md).
+
 ## Rolle in der frühen Ikusation
 
 Navura wurde den Lateralen bereits in einer sehr frühen Phase der [Ikusation](/content/Ereignis_/Ikusation.md) indirekt bekannt.

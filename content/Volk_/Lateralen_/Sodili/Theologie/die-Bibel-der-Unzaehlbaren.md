@@ -42,8 +42,8 @@ Die göttlichen Fußabdrücke nahmen einen Teil des unendlichen Lichtes und der 
 Schließlich kam die Dreifaltigkeit zum Stehen.
 Ersaspial webte die ewige Zeit und das unendliche Lichts in die Gestalt zweier mächtiger Entitäten an seiner Seite.
 Ikus ward zur unermüdlich blau strahlenden Sonne, dessen Glanz die Finsternis endgültig verscheuchte.
-Mavorak ward zum schwarzen Loch, fortan der offene Verkünder der Zeit selbst.
-Sein Blinzeln vor Ikus formt das ewige Metronom der Existenz.
+Mavorak ward zu einem unsichtbaren, doch unermesslich schweren Kern, fortan der offene Verkünder der Zeit selbst.
+Sein Fanal vor Ikus formt das ewige Metronom der Existenz.
 
 So ward die Ära der Schöpfung eingeläutet in der die Welt unter den drei Mächten erblühte.
 Durch das Ineinanderfließen von Licht und Zeit, geleitet durch die unermessliche Kraft, legte Ersaspial den Grundstein für alles was je sein sollte.

@@ -1,5 +1,7 @@
 # Ikusation
 
+<!-- event: start=0 category="Ikusation" text="Beginn der Ikusation" -->
+
 Als Ikusation ist der historische Prozess bekannt, bei dem die [Lateralen](/content/Volk_/Lateralen_/index.md) erstmals lernten, die [Sgrisignier-Portale](/content/Allgemein/Magie/Sgrisignier-Portale.md) gegen [Chaos-Interferenzen](/content/Allgemein/Magie/Sgrisignier-Portale.md#chaos-interferenzen) zu sichern und dadurch eine kontrollierte interplanetare Erschließung des Serpinit-Systems zu beginnen.
 Die Ikusation gilt als Wendepunkt der modernen Geschichte, da sie den isolierten Völkern der habitablen Planeten erstmalig einen dauerhaften Kontakt ermöglichte.
 
@@ -10,6 +12,15 @@ Dort gelang es den Conius-Lateralen, aus der Untersuchung beschädigter Portalst
 
 Besonders wichtig war die Erkenntnis, dass Chaos-Interferenzen kein bösartiger Wesenskern eines Portals sind, sondern das Ergebnis äußerer Einflüsse mehrerer konkurrierender Verbindungen.
 Auf dieser Grundlage entwickelten die Conius ein Verfahren, mit dem die Ziel-Rune eines Portals durch eine zusätzliche zweidimensionale Sicherungsrune zeitweise abgeschirmt werden konnte.
+
+## Portal-Ferntests
+
+Da ein unvorbereitetes Durchschreiten selbst gesicherter Portale riskant blieb, entwickelten die Lateralen ein Verfahren zur Einschätzung der Zielumgebung, ohne den Zielort tatsächlich zu betreten.
+Dabei wurden verschiedene Gegenstände nur teilweise durch die Portalmembran gehalten und ihre Reaktion beobachtet:
+eine Kerze zeigte per Flammenverhalten Atmosphäre und Wind an, ein Pendel ließ Rückschlüsse auf die Zielgravitation zu, ein erhitzter sowie ein gekühlter Metallstab machten Temperaturunterschiede sichtbar, Wasser verriet durch Verfärbung mögliche Schadstoffe, und mitgeführte Pflanzen zeigten erste Reaktionen auf die fremde magische Prägung.
+
+Jedes auf diese Weise getestete Portal mit einer Zielverbindung nach [Mognar](/content/Himmelskoerper_/Mognar/index.md) ergab eindeutig lebensfeindliche Werte.
+Die Lateralen brachen die entsprechenden Routen daraufhin ab, ohne sie selbst zu betreten, und ließen ihr verbrauchtes Testmaterial an den Portalen zurück.
 
 ## Politische Vorbereitung
 
@@ -59,6 +70,12 @@ Dieses Vorgehen sollte verhindern, dass eine einzige Fehlentscheidung mehrere Si
 
 Erst nach weiteren Fortschritten gelang es den Conius-Lateralen, auch bestimmte Chaos-Portale so weit zu verlangsamen, dass eine einzelne Durchquerung möglich wurde.
 Dadurch wuchs das erreichbare Portalnetz mit der Zeit erheblich schneller als in den ersten Jahren der Ikusation.
+
+## Berichterstattung
+
+Da ein einzelner Kurierweg durch ein gesichertes Portal riskant und selten blieb, etablierte die Ikusation von Anfang an feste Meldeketten statt improvisierter Einzelberichte.
+Jede gesicherte Station meldete ihren Stand in regelmäßigen Abständen an die nächstgelegene Station zurück, bis die Information stufenweise wieder in Carpebur ankam.
+Erst dieses System aus verlässlichen, kleinen Etappen statt riskanter Einzelreisen machte eine wirklich stabile interplanetare Kommunikation möglich — und lieferte zugleich die Blaupause für die spätere reguläre Handels- und Versorgungsinfrastruktur der Ikusation.
 
 ## Folgen
 
