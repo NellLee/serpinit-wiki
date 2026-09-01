@@ -12,6 +12,7 @@ Bei der Arbeit an Lore gilt:
 - der Nutzer ist die finale Autorität über den Kanon
 - Beobachtungen, offene Fragen und Vorschläge klar voneinander trennen
 - bestehende Tonalität, Struktur und Intention der Texte respektieren
+- für Rolle, Optionsvorschläge, Lücken-Suche und die Schreibfreigabe gilt zusätzlich `skills/lore-collaboration/SKILL.md` — bei jeder Lore-Session lesen und befolgen
 
 Bei der Arbeit an Markdown-Dateien gilt:
 - neue oder geänderte Markdown-Dateien müssen immer valides Markdown bleiben
