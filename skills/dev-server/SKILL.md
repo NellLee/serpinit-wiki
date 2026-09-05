@@ -50,4 +50,13 @@ Stop the dev server (and any Monitor watching it) with TaskStop when the task or
 
 ## What this does not replace
 
-A rendering correctly is not the same as a rendering correctly *and* passing its tests/typecheck. This skill is about live visibility, not correctness verification - keep running `yarn test` / `yarn check` as their own step.
+A rendering correctly is not the same as a rendering correctly *and* passing its tests/typecheck. This skill is about live visibility, not correctness verification - keep running `yarn test` / `yarn typecheck` as their own step. (Use `yarn typecheck`, not `yarn check` - the latter is Yarn's own built-in dependency checker, not this project's script.)
+
+## Verifying liveness from inside a Claude Code session
+
+A short-timeout `curl localhost:<port>` right after starting the dev server can time out with 0 bytes received, even though the server is up. This is not a networking problem - it is a slow first request. This repo lives on `/mnt/d` (a Windows drive mounted into WSL as DrvFs), and DrvFs file access is much slower than native Linux disk. Vite's dependency pre-bundling and first-page compile read many small files, so the *first* request after a cold start (or after `Re-optimizing dependencies because lockfile has changed`) can take 20-30 seconds; every request after that is near-instant.
+
+To verify liveness from inside the session:
+- Wait for the `ready in`/`Local:` line in the server's log (via Monitor) before curling at all.
+- Give the *first* `curl` a generous timeout, e.g. `curl -m 60 ...` - it will return once the cold compile finishes.
+- A `curl` that returns instantly on the second call but hung on the first is expected, not a bug.

@@ -19,6 +19,17 @@ module.exports = {
 		es2017: true,
 		node: true
 	},
+	rules: {
+		'no-restricted-syntax': [
+			'error',
+			{
+				selector:
+					"CallExpression[callee.property.name=/^(substring|slice)$/][callee.object.property.name='pathname']",
+				message:
+					"Manual pathname string surgery (e.g. new URL('.', import.meta.url).pathname.substring(1)) is a Windows-only trick that breaks under WSL, where the path is already POSIX-absolute. Use path.dirname(fileURLToPath(import.meta.url)) from 'node:url' instead."
+			}
+		]
+	},
 	overrides: [
 		{
 			files: ['*.ts'],
