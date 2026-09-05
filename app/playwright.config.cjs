@@ -2,6 +2,7 @@ const { defineConfig, devices } = require("@playwright/test");
 
 module.exports = defineConfig({
 	testDir: "./e2e",
+	globalSetup: "./e2e/global-setup.cjs",
 	timeout: 30_000,
 	expect: {
 		timeout: 10_000
