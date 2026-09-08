@@ -26,10 +26,16 @@ Die Lateralen brachen die entsprechenden Routen daraufhin ab, ohne sie selbst zu
 
 Die Tragweite dieser Erkenntnisse war den Forschenden sofort bewusst.
 Aus Angst vor Panik, unkontrollierten Versuchen und einem möglichen Krieg hielten die Conius ihre praktischen Fortschritte zunächst streng geheim.
-Erst nachdem die Grundidee als belastbar galt, suchte [Vorian Sierfehl](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) im Namen der Akademie den Kontakt zum Königshaus der Sodili.
+Erst nachdem die Grundidee als belastbar galt, suchte [Vorian Sierfehl](/content/Volk_/Lateralen_/Conius/Charakter_/Vorian-Sierfehl/index.md) im Namen der Akademie den Kontakt zum Königshaus der Sodili.
 
 Im [Kapis-Schloss](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) wurde daraufhin eine geheime Beratung einberufen.
 [König Thalmar Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md), sein Hofstaat und ausgewählte Vertreter der Akademie beschlossen dort gemeinsam, die Theorie der Conius unter strenger Aufsicht erstmals in die Praxis zu überführen.
+
+Die Standpunkte am Hof gingen dabei weit auseinander.
+[Lord Andor](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/Charakter_/Lord-Andor/index.md), ein konservativer Berater des Königs, warnte vor den Gefahren der Portale und forderte, sich aus diesen "Conius-Angelegenheiten" herauszuhalten.
+[Lady Lira](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/Charakter_/Lady-Lira/index.md), eine angesehene Händlerin Carpeburs, sprach sich dagegen für die neuen Handelsmöglichkeiten aus, die eine Erschließung eröffnen würde.
+[Ingvor Nemet Mandijit](/content/Volk_/Lateralen_/Conius/Charakter_/Ingvor-Nemet-Mandijit/index.md) stellte dem Hofstaat schließlich jene Gruppe vor, die sich später als Kern der Expedition bewähren sollte, während [Elara Stenimal](/content/Volk_/Lateralen_/Conius/Charakter_/Elara-Stenimal/index.md) von der Akademie zur Vorsicht mahnte und auf eine gründliche Untersuchung der Portale vor jedem weiteren Schritt bestand.
+
 Der König bestand darauf, dass eine sodilische Begleitung an jeder ersten Erschließung teilnahm und die Sicherheit der Unternehmung nicht allein in Händen der Akademie lag.
 
 ## Auslöser der Expedition

@@ -9,6 +9,8 @@ Als Aridess-Expedition wird die frühe Phase der [Ikusation](/content/Ereignis_/
 Nach der Sicherung des ersten Portals nach Aridess entstand um den Übergang ein provisorisches Lager mit Zelten, Feuerstelle, Vorräten und doppeltem Barrikadenring.
 Die Expedition wollte damit zugleich einen möglichen Angriff aus der Umgebung und eine unerwartete Bedrohung direkt aus dem Portal abfangen.
 
+Kurz nach der Ankunft beobachtete die Expedition ein [Ikus' Fanal](/content/Himmelskoerper_/Mavorak/index.md), dessen Zeitpunkt jedoch nicht mit ihrer aus Agranum vertrauten Zeitrechnung übereinstimmte — ein erster kleiner Hinweis darauf, wie fremd diese Welt tatsächlich war.
+
 Schon diese erste Phase machte deutlich, dass Aridess nicht bloß ein exotischer Zielort, sondern eine echte Überlebensprüfung war.
 Hitze, Wassermangel und die Unberechenbarkeit der Landschaft zwangen die Expedition dazu, jeden weiteren Schritt vorsichtiger zu planen als ursprünglich angenommen.
 

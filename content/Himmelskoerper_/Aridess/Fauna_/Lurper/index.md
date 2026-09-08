@@ -12,6 +12,7 @@ Sein länglicher Kopf und der kräftige Rüssel sind darauf spezialisiert, sukku
 Trotz dieser spezialisierten Ernährungsweise sind Lurper keineswegs harmlos.
 Sie verhalten sich stark territorial und greifen Eindringlinge an, wenn sie ihre Futterplätze, Nistbereiche oder Jungtiere bedroht sehen.
 Besonders in felsigen Übergangszonen zwischen Savanne und Wüste klettern sie überraschend geschickt und nutzen ihre Masse, um Gegner mit plötzlichen Vorstößen zu vertreiben.
+Auf Distanz schleudern sie mit ihrem Rüssel auch gezielt Steine gegen Eindringlinge, die sich ihrem Revier nicht sofort nähern.
 
 ## Lebensraum
 

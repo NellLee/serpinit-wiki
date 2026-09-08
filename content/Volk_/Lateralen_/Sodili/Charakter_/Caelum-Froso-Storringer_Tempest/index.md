@@ -58,6 +58,7 @@ Caelum verfügt über keine aktiven magischen Fähigkeiten.
 Caelums Micu ist ein imposantes Krokodil namens Tempest.
 Mit seiner beeindruckenden Größe und Agilität im Wasser ist Tempest ein mächtiger Verbündeter.
 Seine bloße Präsenz kann Gegner einschüchtern, und im Kampf ist Tempest sowohl an Land als auch im Wasser eine unaufhaltsame Kraft.
+Trotz seiner Größe kann Tempest reglos und nahezu unsichtbar in hohem Gras, Gebüsch oder im Wasser auf Beute lauern.
 Darüber hinaus ist die Hybridform von Caelum und Tempest unglaubglich stark im direkten Kampf.
 
 ### Talente

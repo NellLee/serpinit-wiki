@@ -64,3 +64,14 @@ Teilweise wird auch Bestechung und Erpressung genutzt, um korrupte Beamte und Wa
 # Das Hauptquartier
 
 Ihr Hauptquartier liegt tief in den Schwarztunneln und kann nur von jenen gefunden werden, die es schaffen in der völligen Dunkelheit die gezackten Ringe in den Tunnelwänden zu erkennen und ihnen durch die verworrenen Gänge und Tunnel zu folgen.
+
+## Aufnahme neuer Mitglieder
+
+![](./images/Eingang_Tuer_Symbol_Raetsel.png)
+
+Wer das Hauptquartier sucht, findet zunächst nur eine abgewetzte Holztür mit einem eingeritzten, gezackten Kreis, umgeben von Diebesschrift in den Tunnelwänden.
+Über der Tür steht geschrieben, man solle die bedeutsamen Zacken des Ring-Symbols in der richtigen Reihenfolge berühren, und drei versteckte Hinweise in der Nähe verraten, welche das sind.
+Wer das Rätsel löst, dem öffnet sich die Tür zu einem schlaksigen Sodili in heruntergekommener Kleidung, der die Absichten des Ankömmlings erfragt, bevor er ihn ins Innere lässt.
+
+Im Inneren erwartet Neuankömmlinge ein verrauchtes Gewölbe voller zwielichtiger Gestalten, wo einer der Schmutzfinger sie in Empfang nimmt und ihnen die Hierarchie des Rings erklärt.
+So wurde etwa der Sodili Alaric Rodeto Hoss auf diesem Weg vom Schmutzfinger Jolint als Rekrut aufgenommen: ohne Entlohnung, mit der Pflicht, sämtliche Diebesgüter direkt abzuliefern, aber mit der Aussicht, sich durch erfüllte Aufträge einen höheren Rang zu erarbeiten.

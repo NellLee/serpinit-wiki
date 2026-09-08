@@ -23,3 +23,7 @@ Gemeinsam bilden sie ein mächtiges und respektiertes Team, das oft als Symbol f
 Einfluss und Bedeutung: Als König der Sodili hat Thalmar Balena Akilonis einen enormen Einfluss auf das politische, kulturelle und spirituelle Leben seines Volkes.
 Seine Entscheidungen prägen die Geschicke des Reiches und beeinflussen das Leben aller Sodili.
 Darüber hinaus ist er auch auf internationaler Ebene ein angesehener und respektierter Staatsmann, der sich für Frieden, Zusammenarbeit und gegenseitiges Verständnis einsetzt.
+
+# Familie
+Thalmar hat zwei Kinder, Prinzessin [Alyra](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/Charakter_/Prinzessin-Alyra/index.md) mit ihrer Schildkröten-Micu Tira und Prinz [Harvik](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/Charakter_/Prinz-Harvik/index.md) mit seinem Hai-Micu Varun.
+Beide erscheinen regelmäßig an seiner Seite am Hof.
