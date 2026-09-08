@@ -55,6 +55,8 @@ In seiner Schulzeit hatte Ingvor nur wenige Freunde, da er sich vollends auf sei
 Gegen Ende seiner Ausbildung verstarben Ingvors Eltern bei einer Epidemie, was ihn dazu brachte, auch nach seinem Abschluss an der Resrubor-Akademie zu verbleiben.
 Ingvor wurde ein erfolgreicher Lehrer und Forscher an der Akademie, bekannt für seine Expertise in der Beschwörung und Stabilisierung von Elementaren.
 Nach einigen Jahren verließ Ingvor die Akademie, da ihm die Forschungspolitik zu träge war, und zog sich an den [See Kulios](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/See_Kulios/index.md) zurück, wo er seine Forschungen privat fortführte.
+Diese Version blieb lange unangefochten, verschwieg jedoch, dass Ingvor schon an der Akademie heimlich dieselbe Art riskanter Forschung betrieben hatte.
+Ein eskalierter Streit deckte dies auf und machte seinen Weggang faktisch unausweichlich, auch wenn er ihn seither als freie Entscheidung darstellt.
 Ein missglückter Versuch mit einer instabilen Rune führte dort zum [Kulios-Zwischenfall](/content/Ereignis_/Kulios-Zwischenfall.md), bei dem ein riesiger Wasserelementar den See und das nahe [Akuelon](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Dorf_Akuelon/index.md) bedrohte.
 
 ### Aktuelle Situation
@@ -71,7 +73,7 @@ Gerade weil seine Forschungen die Gefahren komplexer Runen so deutlich offenlegt
 - **Kollegen:** Einige seiner früheren Kollegen an der Resrubor-Akademie, die seine Arbeit respektieren, auch wenn sie seine Entscheidung, die Akademie zu verlassen, nicht nachvollziehen konnten.
 
 ### Feinde
-- **Bürgermeister Stavros:** Ein langjähriger Rivale und Feind, mit dem Ingvor häufig Streitigkeiten hat.
+- **Bürgermeister Stavros:** Ein langjähriger Rivale und Feind. Stavros durchschaute die öffentliche Version von Ingvors Weggang und stellte ihn damit zur Rede, was die Feindschaft zwischen ihnen erst begründete.
 
 ### Romantische Beziehungen
 Ingvor hat derzeit keine romantischen Beziehungen, da er seine Energie und Zeit vollständig seinen Forschungen und seiner Magie widmet.
