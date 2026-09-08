@@ -2,7 +2,11 @@
 	import EllipsisText from './EllipsisText.svelte';
 	import Card from './Card.svelte';
 
-	export let namedLinkList: NamedLinkList;
+	interface Props {
+		namedLinkList: NamedLinkList;
+	}
+
+	let { namedLinkList }: Props = $props();
 </script>
 
 {#if namedLinkList.linkList.length > 0}

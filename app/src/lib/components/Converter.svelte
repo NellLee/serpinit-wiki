@@ -7,14 +7,20 @@
 		fromBase: (value: number) => number;
 	}
 
-	export let systems: Unit[];
+	interface Props {
+		systems: Unit[];
+	}
+
+	let { systems }: Props = $props();
+	// eslint-disable-next-line svelte/valid-compile -- intentional initial-value-only read, not reactive to prop changes
 	let baseUnit = systems[0];
+	// eslint-disable-next-line svelte/valid-compile -- intentional initial-value-only read, not reactive to prop changes
 	let otherUnits = systems.slice(1);
 
 	let sampleValues: number[] = [1, 5, 10, 15, 20, 30, 50, 100, 1000];
-	let convertedValues: number[][] = [];
-	let inputValue: number = 1;
-	let inputConvertedValues: number[] = [];
+	let convertedValues: number[][] = $state([]);
+	let inputValue: number = $state(1);
+	let inputConvertedValues: number[] = $state([]);
 
 	function convertSampleValues() {
 		convertedValues = sampleValues.map((value) => [
@@ -47,7 +53,7 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td><input type="number" bind:value={inputValue} on:input={convertInputValue} /></td>
+			<td><input type="number" bind:value={inputValue} oninput={convertInputValue} /></td>
 			{#each inputConvertedValues.slice(1) as cell}
 				<td>{cell}</td>
 			{/each}

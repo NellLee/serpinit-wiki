@@ -1,13 +1,18 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
 
-	let container: HTMLDivElement;
-	let textOverflows = false;
-	let tooltipStyle = {
+	let { children }: Props = $props();
+
+	let container: HTMLDivElement | undefined = $state();
+	let textOverflows = $state(false);
+	let tooltipStyle = $state({
 		top: '0',
 		left: '0',
 		maxWidth: '0'
-	};
+	});
 
 	function checkOverflow() {
 		if (container) {
@@ -18,12 +23,12 @@
 	onMount(() => {
 		checkOverflow();
 		const resizeObserver = new ResizeObserver(checkOverflow);
-		resizeObserver.observe(container);
+		resizeObserver.observe(container!);
 		return () => resizeObserver.disconnect();
 	});
 
 	function handleMouseEnter() {
-		if (textOverflows) {
+		if (textOverflows && container) {
 			const rect = container.getBoundingClientRect();
 
 			let top = rect.top;
@@ -39,19 +44,19 @@
 	}
 </script>
 
-<!-- svelte-ignore a11y-no-static-element-interactions -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
 	bind:this={container}
 	class="container {textOverflows ? 'hoverable' : ''}"
-	on:mouseenter={handleMouseEnter}
+	onmouseenter={handleMouseEnter}
 >
-	<slot />
+	{@render children?.()}
 	{#if textOverflows}
 		<div
 			class="tooltip"
 			style="top: {tooltipStyle.top}; left: {tooltipStyle.left}; max-width: {tooltipStyle.maxWidth};"
 		>
-			<slot />
+			{@render children?.()}
 		</div>
 	{/if}
 </div>

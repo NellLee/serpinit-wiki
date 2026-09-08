@@ -1,5 +1,6 @@
 import { MarkdownPage } from '$lib/markdownPage';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { getFilePathsInFolder, getFrontendSafePath } from './utilities/files';
 import { error } from '@sveltejs/kit';
 import fs from 'fs';
@@ -26,7 +27,7 @@ import type {
 
 export const wiki: Map<string, MarkdownPage> = new Map();
 export const cache: Map<string, string> = new Map();
-const __dirname = new URL('.', import.meta.url).pathname.substring(1);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 let initialized = false;
 let initializationPromise: Promise<void> | null = null;

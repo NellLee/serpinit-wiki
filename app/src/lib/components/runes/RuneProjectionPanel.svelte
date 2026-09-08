@@ -1,18 +1,29 @@
 <script lang="ts">
 	import type { RunicDocument } from '$lib/runes/contracts';
 
-	export let document: RunicDocument;
+	interface Props {
+		document: RunicDocument;
+	}
+
+	let { document }: Props = $props();
 </script>
 
 <section class="detail-panel">
 	<h2>Projektion</h2>
-	<p><strong>Ausrichtung:</strong> {document.projection2d.system.orientationFrame.gravityReference} / {document.projection2d.system.orientationFrame.anchorReference}</p>
+	<p>
+		<strong>Ausrichtung:</strong>
+		{document.projection2d.system.orientationFrame.gravityReference} / {document.projection2d.system
+			.orientationFrame.anchorReference}
+	</p>
 	<p>{document.projection2d.system.orientationFrame.notes}</p>
 
 	<div class="detail-block">
 		<h3>Projektionssystem</h3>
 		<p><strong>Schalen:</strong> {document.projection2d.system.layerCount}</p>
-		<p><strong>Sektoren:</strong> {document.projection2d.system.sectors.map((sector) => sector.name).join(', ')}</p>
+		<p>
+			<strong>Sektoren:</strong>
+			{document.projection2d.system.sectors.map((sector) => sector.name).join(', ')}
+		</p>
 	</div>
 
 	<div class="detail-block">
@@ -21,7 +32,8 @@
 			{#each document.projection2d.placements as placement}
 				<li>
 					<strong>{placement.ref}</strong>
-					-&gt; Schale {placement.layer}, Sektor {placement.sector}, Spannen {placement.radialSpan} radial / {placement.sectorSpan} sektoral, Wirkform {placement.shapeFamily}
+					-&gt; Schale {placement.layer}, Sektor {placement.sector}, Spannen {placement.radialSpan} radial
+					/ {placement.sectorSpan} sektoral, Wirkform {placement.shapeFamily}
 				</li>
 			{/each}
 		</ul>
@@ -34,7 +46,9 @@
 				<li>Keine Beziehungsbahnen</li>
 			{:else}
 				{#each document.projection2d.relationPaths as path}
-					<li><strong>{path.relationId}</strong> -&gt; {path.mode} ({path.source} -&gt; {path.target})</li>
+					<li>
+						<strong>{path.relationId}</strong> -&gt; {path.mode} ({path.source} -&gt; {path.target})
+					</li>
 				{/each}
 			{/if}
 		</ul>

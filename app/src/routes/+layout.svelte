@@ -2,8 +2,13 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import { onMount } from 'svelte';
 	import { Icon, ChevronUp } from 'svelte-hero-icons';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
 
-	let scrollY = 0;
+	let { children }: Props = $props();
+
+	let scrollY = $state(0);
 
 	const handleScroll = () => {
 		scrollY = window.scrollY;
@@ -61,10 +66,10 @@
 	/>
 
 	<main class="page-shell">
-		<slot />
+		{@render children?.()}
 	</main>
 
-	<button id="scroll-to-top" class:show={scrollY > 100} on:click={scrollToTop}>
+	<button id="scroll-to-top" class:show={scrollY > 100} onclick={scrollToTop}>
 		<Icon src={ChevronUp} solid size="20" />
 		Zurück nach oben
 		<Icon src={ChevronUp} solid size="20" />
@@ -140,8 +145,7 @@
 		line-height: 1.6;
 		color: var(--primary-color);
 		background-color: var(--primary-background-color);
-		background-image:
-			radial-gradient(circle at top, rgba(170, 135, 73, 0.14), transparent 32%),
+		background-image: radial-gradient(circle at top, rgba(170, 135, 73, 0.14), transparent 32%),
 			linear-gradient(180deg, #f7f0e4 0%, #f2ebdf 40%, #efe5d6 100%);
 		margin: 0;
 		min-height: 100vh;

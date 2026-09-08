@@ -1,8 +1,12 @@
 <script lang="ts">
 	import type { ResolvedRunicLibraryGroup } from '$lib/runes/contracts';
 
-	export let groups: ResolvedRunicLibraryGroup[];
-	export let selectedId: string;
+	interface Props {
+		groups: ResolvedRunicLibraryGroup[];
+		selectedId: string;
+	}
+
+	let { groups, selectedId }: Props = $props();
 </script>
 
 <nav class="library-panel" aria-label="Runic library">

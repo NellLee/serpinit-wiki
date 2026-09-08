@@ -2,16 +2,28 @@
 	import { buildHighlightedHtml, type HighlightRange } from '$lib/searchCore';
 	import { ChevronDown, ChevronUp, Icon } from 'svelte-hero-icons';
 
-	export let title: string;
-	export let href: string;
-	export let excerpts: string[];
-	export let titleHighlights: HighlightRange[] = [];
-	export let domainLabel = '';
-	export let pageType = '';
-	export let categories: string[] = [];
+	interface Props {
+		title: string;
+		href: string;
+		excerpts: string[];
+		titleHighlights?: HighlightRange[];
+		domainLabel?: string;
+		pageType?: string;
+		categories?: string[];
+	}
 
-	let expanded = false;
-	let containerRef: HTMLDivElement | null = null;
+	let {
+		title,
+		href,
+		excerpts,
+		titleHighlights = [],
+		domainLabel = '',
+		pageType = '',
+		categories = []
+	}: Props = $props();
+
+	let expanded = $state(false);
+	let containerRef: HTMLDivElement | null = $state(null);
 	const maxHeight = 300;
 	const fuzzyAllowedHeightOffset = 40;
 
@@ -19,10 +31,11 @@
 		expanded = !expanded;
 	}
 
-	$: shouldShowExpandButton =
-		containerRef &&
-		containerRef.scrollHeight > containerRef.clientHeight + fuzzyAllowedHeightOffset;
-	$: titleHtml = buildHighlightedHtml(title, titleHighlights);
+	let shouldShowExpandButton = $derived.by(() => {
+		if (!containerRef) return false;
+		return containerRef.scrollHeight > containerRef.clientHeight + fuzzyAllowedHeightOffset;
+	});
+	let titleHtml = $derived(buildHighlightedHtml(title, titleHighlights));
 </script>
 
 <div class="search-result">
@@ -65,7 +78,7 @@
 	{/if}
 
 	{#if expanded || shouldShowExpandButton}
-		<button id="result-expander" on:click={toggleExpand}>
+		<button id="result-expander" onclick={toggleExpand}>
 			{#if expanded}
 				<Icon src={ChevronUp} solid size="16" />
 				Weniger anzeigen

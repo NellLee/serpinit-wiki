@@ -1,5 +1,11 @@
 <script lang="ts">
-	export let contentWidth: 'standard' | 'wide' = 'wide';
+	interface Props {
+		contentWidth?: 'standard' | 'wide';
+		head?: import('svelte').Snippet;
+		content?: import('svelte').Snippet;
+	}
+
+	let { contentWidth = 'wide', head, content }: Props = $props();
 </script>
 
 <div
@@ -8,10 +14,10 @@
 	class:wide={contentWidth === 'wide'}
 >
 	<div id="head">
-		<slot name="head" />
+		{@render head?.()}
 	</div>
 	<div id="content">
-		<slot name="content" />
+		{@render content?.()}
 	</div>
 </div>
 

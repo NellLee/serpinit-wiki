@@ -14,14 +14,16 @@
 		text: string;
 	};
 
-	let searchText = '';
-	let searchResults: SearchResultPreview[] = [];
-	let showResults = false;
-	let isFocused = false;
+	let searchText = $state('');
+	let searchResults: SearchResultPreview[] = $state([]);
+	let showResults = $state(false);
+	let isFocused = $state(false);
 
 	const handleSearchInput = debounce(async () => {
 		if (searchText.trim().length > 0) {
-			const response = await fetch(`/api/search?q=${encodeURIComponent(searchText.trim())}&preview=true`);
+			const response = await fetch(
+				`/api/search?q=${encodeURIComponent(searchText.trim())}&preview=true`
+			);
 			const previewResponse = (await response.json()) as SearchPreviewResponse;
 			searchResults = previewResponse.results.map((result) => {
 				const item = JSON.parse(result.item) as SearchPreviewItem;
@@ -58,15 +60,15 @@
 	};
 </script>
 
-<form id="searchbar" action="/content/search" method="get" on:submit={submitHandler}>
+<form id="searchbar" action="/content/search" method="get" onsubmit={submitHandler}>
 	<input
 		type="text"
 		name="q"
 		placeholder="Im Wiki suchen..."
 		bind:value={searchText}
-		on:input={handleSearchInput}
-		on:focus={handleFocus}
-		on:blur={handleBlur}
+		oninput={handleSearchInput}
+		onfocus={handleFocus}
+		onblur={handleBlur}
 		autocomplete="off"
 	/>
 	<button type="submit">
@@ -79,7 +81,7 @@
 				<ul>
 					{#each searchResults as result}
 						<li>
-							<a href={result.href} on:focus={handleFocus} on:blur={handleBlur}>
+							<a href={result.href} onfocus={handleFocus} onblur={handleBlur}>
 								<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 								{@html result.text}
 							</a>

@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { RunePresentation } from './runePresentation';
 
-	export let presentation: RunePresentation;
+	interface Props {
+		presentation: RunePresentation;
+	}
+
+	let { presentation }: Props = $props();
 </script>
 
 <section class="detail-panel">

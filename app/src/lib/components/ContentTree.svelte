@@ -1,6 +1,10 @@
 <script lang="ts">
 	import ContentTreeNode from './ContentTreeNode.svelte';
-	export let linkTree: LinkTree;
+	interface Props {
+		linkTree: LinkTree;
+	}
+
+	let { linkTree }: Props = $props();
 </script>
 
 <div id="table-of-content" class="table-of-content">
