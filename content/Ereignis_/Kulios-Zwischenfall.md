@@ -16,7 +16,7 @@ Dadurch wurde im See ein ungewöhnlich mächtiger Wasserelementar gespeist, dess
 ## Auswirkungen auf Akuelon
 
 Besonders betroffen war das nahe Dorf [Akuelon](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Dorf_Akuelon/index.md).
-Die Bewohner litten unter ausbleibenden Fängen, zerstörerischem Wetter und mehreren verschwundenen Dorfbewohnern, die den Elementar aus eigener Kraft hatten bekämpfen wollen.
+Die Bewohner litten unter ausbleibenden Fängen, zerstörerischem Wetter und mehreren verschwundenen Dorfbewohnern — Lianell, Farosch und Grill —, die den Elementar aus eigener Kraft hatten bekämpfen wollen.
 Weil die Ursache zunächst unbekannt blieb, wurde das Phänomen erst als Zorn eines Elementars und später als unbegreifliche Fehlentwicklung des Sees selbst gedeutet.
 
 ## Aufdeckung
@@ -24,6 +24,10 @@ Weil die Ursache zunächst unbekannt blieb, wurde das Phänomen erst als Zorn ei
 Zur Zeit des Zwischenfalls kreuzten sich die Wege von [Taeron Kalidorvus](/content/Volk_/Lateralen_/Conius/Charakter_/Taeron-Kalidorvus/index.md), [Valeria Wulfryn Liek](/content/Volk_/Lateralen_/Sodili/Charakter_/Valeria-Wulfryn-Liek_Nalius/index.md) und [Alaric Rodeto Hoss](/content/Volk_/Lateralen_/Sodili/Charakter_/Alaric-Rodeto-Hoss_Sable/index.md) in der Region.
 Gemeinsam folgten sie den Anzeichen der Störung bis zu Ingvors Anwesen und schließlich in dessen unterirdische Versuchsanlagen.
 Dort fanden sie mehrere Kammern mit künstlich stabilisierten Elementaren und die missglückte Hauptrune, die nicht nur den Wasserelementar speiste, sondern auch Ingvor selbst allmählich auszehrte.
+
+In der letzten Kammer erkannte Ingvor zunächst nicht, dass es sein eigener Neffe Widim war, dem die Rune die Kraft entzog, und vermutete stattdessen einen Angriff auf seine Familie.
+Erst nachdem er beruhigt werden konnte, ließ er sich auf ein Gespräch ein.
+Von den Auswirkungen des Wasserelementars auf Akuelon wusste er nichts, und nur mit Mühe ließ er sich davon überzeugen, die Rune abzuschalten, statt sie mit einem großen Tier weiter zu nähren.
 
 ## Rettung Widims
 
@@ -34,6 +38,8 @@ Sein Überleben hing letztlich davon ab, dass die Rune nicht blind zerstört, so
 ## Ausgang
 
 Die Abschaltung der Rune schwächte den Wasserelementar im See schrittweise, sodass sich die Lage am Kulios nach und nach beruhigte.
+Zurück im Dorf belohnte Bürgermeister Stavros die Gruppe mit Gold und versicherte ihnen dauerhafte Gastfreundschaft.
+Ingvor selbst blieb bewusst außerhalb Akuelons, um kein Aufsehen zu erregen.
 Ingvor überlebte den Zwischenfall und wurde mit den Folgen seiner Forschung konfrontiert.
 Widim überlebte ebenfalls, blieb jedoch körperlich und geistig für längere Zeit gezeichnet.
 Die Resrubor-Akademie zog ihn daraufhin aus allen weiteren Außeneinsätzen ab und hielt ihn nach dem Vorfall bewusst von der späteren Feldarbeit der Ikusation fern.

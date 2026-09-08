@@ -62,6 +62,11 @@ Ein missglückter Versuch mit einer instabilen Rune führte dort zum [Kulios-Zwi
 ### Aktuelle Situation
 Nach dem Kulios-Zwischenfall steht Ingvor im Spannungsfeld zwischen fachlicher Unersetzlichkeit und tiefem Misstrauen gegenüber seiner Verantwortung.
 Gerade weil seine Forschungen die Gefahren komplexer Runen so deutlich offenlegten, wurde er später in den engeren Kreis der frühen [Ikusation](/content/Ereignis_/Ikusation.md) eingebunden.
+Den Anstoß dazu gab ein Geheimbrief des Königshauses Akilonis, der höchste Diskretion verlangte:
+
+> "Du wurdest als einer der weisesten Conius, der die Rätsel der Magie tief erforscht hat und die Geheimnisse der magischen Runen versteht, auserwählt, dem Ruf des Wals zu folgen."
+
+Der "Ruf des Wals" verweist vermutlich auf König [Thalmar Akilonis](/content/Volk_/Lateralen_/Sodili/Charakter_/Thalmar-Balena-Akilonis_Ondor/index.md) selbst und seinen Wal-Micu Ondor.
 
 ## Beziehungen
 

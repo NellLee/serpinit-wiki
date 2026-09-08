@@ -37,6 +37,7 @@ Seither gilt Ingvor als sein erklärter Feind, mit dem er immer wieder aneinande
 
 ### Aktuelle Situation
 Der [Kulios-Zwischenfall](/content/Ereignis_/Kulios-Zwischenfall.md) traf Akuelon hart, mit ausbleibenden Fängen, zerstörerischem Wetter und mehreren verschwundenen Dorfbewohnern.
+Nach der Rettung des Dorfes belohnte Stavros die Gruppe um Taeron, Valeria und Alaric mit Gold und versicherte ihnen dauerhafte Gastfreundschaft.
 Seit Ingvor die erste [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) begleitet, ist er dem Dorf jedoch fern, was die Lage für Stavros vorerst entspannt.
 
 ## Fähigkeiten und Kräfte
