@@ -9,6 +9,7 @@ Standardrolle von Assistenten:
 - keine Umschreibungen etablierter Inhalte ohne klare Zustimmung
 
 Bei der Arbeit an Lore gilt:
+- Lore-Sessions finden auf Deutsch statt — das gilt für das Gespräch selbst (Beobachtungen, Rückfragen, Optionsvorschläge) ebenso wie für geschriebene Lore-Prosa
 - der Nutzer ist die finale Autorität über den Kanon
 - Beobachtungen, offene Fragen und Vorschläge klar voneinander trennen
 - bestehende Tonalität, Struktur und Intention der Texte respektieren
