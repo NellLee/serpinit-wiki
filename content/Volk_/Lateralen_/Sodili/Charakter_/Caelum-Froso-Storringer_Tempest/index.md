@@ -50,9 +50,12 @@ Auf [Aridess](/content/Himmelskoerper_/Aridess/index.md) tritt er immer wieder a
 ### Physische Fähigkeiten
 Caelum ist ein erfahrener Kämpfer, dessen Stärke und Geschicklichkeit ihn zu einem beeindruckenden Gegner im Kampf machen.
 Er kann vor Allem durch physische Stärke glänzen, weshalb er besonders gut darin ist seine Mitstreiter zu beschützen und Gegner aufzuhalten.
+Zusätzlich hat er in der Garde ein geschultes Gespür für nahende Bedrohungen entwickelt, das ihm hilft, Gefahr frühzeitig zu erkennen.
+Verwundete Kameraden kann er mit gezielten Handgriffen und einfachen Feldverbänden erstaunlich wirkungsvoll versorgen, und seine trainierten Schwerthiebe treffen im entscheidenden Moment mit außergewöhnlicher Wucht.
 
 ### Magische Fähigkeiten
 Caelum verfügt über keine aktiven magischen Fähigkeiten.
+Was manche für magisches Talent halten könnten, besteht er, sei allein das Ergebnis harten Trainings.
 
 #### Micu
 Caelums Micu ist ein imposantes Krokodil namens Tempest.

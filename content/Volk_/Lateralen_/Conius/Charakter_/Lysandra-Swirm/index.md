@@ -86,7 +86,7 @@ Sie hat außerdem meist eine kleine Tasche dabei, gefüllt mit kleinen Leckereie
 Lysandra hat keine direkten Feinde, aber sie hatte schon des öfteren einige Spannungen mit Sodili, die misstrauisch ihrem übermäßigen Interesse gegenüber Micus sind.
 
 ### Romantische Beziehungen
-Lysandra flirtet ab und zu mit Thoren, ist jedoch nicht wirklich an einer Beziehung interessiert.
+Lysandra flirtet ab und zu mit Rian, ist jedoch nicht wirklich an einer Beziehung interessiert.
 
 ## Zitate
   
