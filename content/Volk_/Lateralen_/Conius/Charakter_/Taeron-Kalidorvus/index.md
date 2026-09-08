@@ -12,4 +12,5 @@ Gerade dadurch fiel er in akademischen Kreisen gleichzeitig als brillanter Forsc
 ## Historische Rolle
 
 Zu den frühesten bekannten Stationen seiner späteren Wanderjahre zählen seine Beteiligung am [Kulios-Zwischenfall](/content/Ereignis_/Kulios-Zwischenfall.md) sowie seine spätere Mitwirkung an der frühen [Ikusation](/content/Ereignis_/Ikusation.md).
+Beim Kulios-Zwischenfall stand er gemeinsam mit der Sodili [Valeria Wulfryn Liek](/content/Volk_/Lateralen_/Sodili/Charakter_/Valeria-Wulfryn-Liek_Nalius/index.md) und dem Sodili [Alaric Rodeto Hoss](/content/Volk_/Lateralen_/Sodili/Charakter_/Alaric-Rodeto-Hoss_Sable/index.md) im Zentrum des Geschehens.
 Im Rahmen der Ikusation gehörte Taeron zu jenen Mitgliedern der Expedition, die Runenstrukturen nicht nur theoretisch verstanden, sondern auch unter unsicheren Bedingungen lesen und deuten konnten.
