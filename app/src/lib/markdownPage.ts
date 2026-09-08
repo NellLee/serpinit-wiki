@@ -14,6 +14,31 @@ import { applyMarkdownRenderHooks } from './markdownRenderHooks';
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m;
 
+// Configuring a Marked instance (directive/katex extensions, custom renderer) does real
+// setup work - reuse one across every page instead of rebuilding it per page. Rebuilding
+// per page was the dominant cost in initWiki()'s one-time load of the full content tree.
+const markdownRenderer = new marked.Renderer();
+markdownRenderer.listitem = function (text) {
+	if (text.includes('<p>')) {
+		text = text.replace(/<\/?p>/g, '');
+	}
+	return `<li>${text}</li>\n`;
+};
+
+const level4Container: DirectiveConfig = {
+	level: 'container',
+	marker: '::::'
+};
+
+const configuredMarked = new Marked()
+	.setOptions({ renderer: markdownRenderer })
+	.use(createDirectives([...presetDirectiveConfigs, level4Container]))
+	.use(
+		markedKatex({
+			throwOnError: false
+		})
+	);
+
 class DOMPart {
 	cheerio: cheerio.CheerioAPI;
 
@@ -189,36 +214,8 @@ export class MarkdownPage {
 	}
 
 	generateInitialDOM(): SectionizedDOM {
-		const overview: DOMPart | null = null;
-		const renderer = new marked.Renderer();
-
-		const level4Container: DirectiveConfig = {
-			level: 'container',
-			marker: '::::'
-		};
-
-		renderer.listitem = function (text) {
-			if (text.includes('<p>')) {
-				text = text.replace(/<\/?p>/g, '');
-			}
-			return `<li>${text}</li>\n`;
-		};
-
-		const content = new DOMPart(
-			new Marked()
-				.setOptions({
-					renderer
-				})
-				.use(createDirectives([...presetDirectiveConfigs, level4Container]))
-				.use(
-					markedKatex({
-						throwOnError: false
-					})
-				)
-				.parse(this.markdown) as string
-		);
-
-		return new SectionizedDOM(content, overview);
+		const content = new DOMPart(configuredMarked.parse(this.markdown) as string);
+		return new SectionizedDOM(content, null);
 	}
 
 	generateImages(): LinkObject[] {

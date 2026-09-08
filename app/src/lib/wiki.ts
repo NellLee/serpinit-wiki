@@ -1,7 +1,13 @@
 import { MarkdownPage } from '$lib/markdownPage';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getFilePathsInFolder, getFrontendSafePath } from './utilities/files';
+import {
+	beginFolderListingBatch,
+	endFolderListingBatch,
+	getFilePathsInFolder,
+	getFrontendSafePath
+} from './utilities/files';
+import { beginFileLinkBatch, endFileLinkBatch } from './fileLink';
 import { error } from '@sveltejs/kit';
 import fs from 'fs';
 import * as cheerio from 'cheerio';
@@ -41,8 +47,15 @@ export async function initWiki() {
 		console.log('Initializing all wiki pages');
 		await initTimeline();
 		const files = getFilePathsInFolder(WIKI_PATH, ['.md']);
-		for (const file of files) {
-			loadMarkdownPage(path.resolve(WIKI_PATH, file.substring(1)));
+		beginFolderListingBatch();
+		beginFileLinkBatch();
+		try {
+			for (const file of files) {
+				loadMarkdownPage(path.resolve(WIKI_PATH, file.substring(1)));
+			}
+		} finally {
+			endFolderListingBatch();
+			endFileLinkBatch();
 		}
 		initialized = true;
 	}
