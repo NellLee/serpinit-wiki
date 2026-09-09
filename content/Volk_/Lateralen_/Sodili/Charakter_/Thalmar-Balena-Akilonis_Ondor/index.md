@@ -1,4 +1,4 @@
-# Thalmar Balena Akilonis, König der Sodili, Herrscher von Carpebur
+# König Thalmar Akilonis
 
 # Herkunft
 Thalmar Balena Akilonis entstammt der angesehenen [Dynastie Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md), die seit Generationen über die Sodili herrscht.

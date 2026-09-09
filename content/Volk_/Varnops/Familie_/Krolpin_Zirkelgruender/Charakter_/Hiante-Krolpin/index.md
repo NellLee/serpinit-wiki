@@ -1,4 +1,4 @@
-# Hiante Krolpin, Zirkelgründerin
+# Hiante Krolpin
 
 <!-- layout: overview -->
 

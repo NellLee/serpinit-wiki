@@ -1,4 +1,4 @@
-# Jolint Wolenson (Rekrutierer) & Suul (Aal)
+# Jolint Wolenson
 
 * **Stärken**: Kann sich ausgesprochen gut herausreden und verhandlen.
 * **Schwächen**: Ist sehr gierig.

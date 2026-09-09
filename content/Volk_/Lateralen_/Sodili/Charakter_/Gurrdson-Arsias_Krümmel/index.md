@@ -1,4 +1,4 @@
-# Gurrdson Arsias & Krümmel
+# Gurrdson Arsias
 
 * **Stärken**: Gurrdson ist ein erfahrener Kämpfer mit ausgezeichneten Fähigkeiten im Umgang mit Schwert und Schild. Sein defensiver Kampfstil macht ihn zu einem hervorragenden Beschützer seiner Gefährten. Er ist auch sehr loyal und steht seinen Verbündeten in jeder Situation zur Seite.
 

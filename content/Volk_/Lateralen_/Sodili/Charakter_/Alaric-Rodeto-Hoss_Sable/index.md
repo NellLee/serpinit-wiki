@@ -1,4 +1,4 @@
-# Alaric Hoss & Sable
+# Alaric Hoss
 
 ![Alaric Rodeto Hoss](./images/Sodili-Lateral_Alaric-Rodeto-Hoss.png)
 

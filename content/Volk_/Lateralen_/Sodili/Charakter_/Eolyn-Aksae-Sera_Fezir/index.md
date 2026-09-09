@@ -1,4 +1,4 @@
-# Eolyn Sera & Fezir
+# Eolyn Sera
 
 <!-- layout: overview -->
 

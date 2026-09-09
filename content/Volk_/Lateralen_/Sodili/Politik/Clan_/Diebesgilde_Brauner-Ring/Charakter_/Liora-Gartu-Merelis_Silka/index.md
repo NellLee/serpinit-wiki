@@ -1,4 +1,4 @@
-# Liora Merelis (Taschendiebin) & Silka (Katze)
+# Liora Merelis
 
 * **Stärken**: Geschicktes Taschendiebstahlhandwerk, Flinkheit, Beweglichkeit in Menschenmengen.
 * **Schwächen**: Potenziell zu übermütig in riskanten Situationen.

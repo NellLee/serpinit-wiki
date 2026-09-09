@@ -17,3 +17,11 @@ Da Gurontis mit Abstand der größte Kontinent ist, besteht seitdem keine nennen
 Aus diesem Grund wird diese Dynastie oft als das Königshaus des gesamten Sodili-Volkes bezeichnet.
 Sie leben seit jeher in Carpebur und haben über Generationen hinweg die Stadt zu einer florierenden Hauptstadt geformt.
 Die Familie Akilonis ist dafür bekannt vor allem Micu-Formen von Wasser-Lebewesen zu haben.
+
+# Charaktere
+
+* [König Thalmar Akilonis](/content/Volk_/Lateralen_/Sodili/Charakter_/Thalmar-Balena-Akilonis_Ondor/index.md)
+* [Prinz Harvik Akilonis](./Charakter_/Prinz-Harvik/index.md)
+* [Prinzessin Alyra Akilonis](./Charakter_/Prinzessin-Alyra/index.md)
+* [Lady Lira](./Charakter_/Lady-Lira/index.md)
+* [Lord Andor](./Charakter_/Lord-Andor/index.md)

@@ -31,7 +31,7 @@ Von den Auswirkungen des Wasserelementars auf Akuelon wusste er nichts, und nur 
 
 ## Rettung Widims
 
-Während der Eskalation geriet auch [Widim Mandijit](/content/Volk_/Lateralen_/Conius/Charakter_/Widim-Mandejit/index.md), Ingvors junger Neffe und Bote der Resrubor-Akademie, in unmittelbare Lebensgefahr.
+Während der Eskalation geriet auch [Widim Mandijit](/content/Volk_/Lateralen_/Conius/Charakter_/Widim-Mandijit/index.md), Ingvors junger Neffe und Bote der Resrubor-Akademie, in unmittelbare Lebensgefahr.
 Um die Krafteinwirkung der Rune von anderen abzulenken, brachte er sich in großer Hast selbst näher an die Quelle und wurde dadurch beinahe vollständig ausgesaugt.
 Sein Überleben hing letztlich davon ab, dass die Rune nicht blind zerstört, sondern unter massivem Druck kontrolliert deaktiviert wurde.
 

@@ -1,4 +1,4 @@
-# Caelum Storringer & Tempest
+# Caelum Storringer
 
 ![Caelum Storringer](./images/Sodili-Lateral_Caelum-Froso-Storringer.png)
 

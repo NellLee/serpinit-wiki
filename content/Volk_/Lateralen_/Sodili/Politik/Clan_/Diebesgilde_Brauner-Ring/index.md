@@ -23,11 +23,11 @@ Wer sich Schmutzfinger nennen darf, der bekommt seine Aufträge direkt von Brovi
 
 ### Charaktere
 
-* [Jolint Wolenson (Rekrutierer) & Suul (Aal)](./Charakter/Jolint-Enol-Wolenson_Suul/index.md)
-* [Liora Merelis (Taschendiebin) & Silka (Katze)](./Charakter/Liora-Gartu-Merelis_Silka/index.md)
-* [Kellan Drasus (Einbrecher) & Rollo (Hund)](./Charakter/Kellan-Duk-Drasus_Rollo/index.md)
-* [Saria Nitak (Späherin) & Nula (Fledermaus)](./Charakter/Saria-Nasit-Nitak_Nula/index.md)
-* [Garrick Tornbad (Schmuggler) & Sneaks (Spinne)](./Charakter/Garrick-Filben-Tornbad_Sneaks/index.md)
+* [Jolint Wolenson](./Charakter_/Jolint-Enol-Wolenson_Suul/index.md)
+* [Liora Merelis](./Charakter_/Liora-Gartu-Merelis_Silka/index.md)
+* [Kellan Drasus](./Charakter_/Kellan-Duk-Drasus_Rollo/index.md)
+* [Saria Nitak](./Charakter_/Saria-Nasit-Nitak_Nula/index.md)
+* [Garrick Tornbad](./Charakter_/Garrick-Filben-Tornbad_Sneaks/index.md)
 
 ## Ausrichtungen
         

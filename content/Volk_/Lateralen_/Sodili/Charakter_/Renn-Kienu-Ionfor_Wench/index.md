@@ -1,4 +1,4 @@
-# Renn Ionfor (Schiffsmechaniker) & Wench (Anglerfisch)
+# Renn Ionfor
 
 * **Stärken**: Umfassendes Wissen über jedes Teil des Schiffes, Fähigkeit, jedes Problem zu beheben und das Schiff in Topform zu halten, selbst in den widrigsten Bedingungen.
 * **Schwächen**: Möglicherweise zu sehr darauf fokussiert, mechanische Probleme zu lösen, vernachlässigt dabei aber vielleicht die zwischenmenschlichen Beziehungen oder andere wichtige Aspekte des Schiffsbetriebs.

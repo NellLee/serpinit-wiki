@@ -1,4 +1,4 @@
-# Jaghati Kayn & Odin
+# Jaghati Kayn
 
 Jaghati Kayn ist ein erfahrener Sodili-Seemann, der lange auf Handels- und Versorgungsschiffen im Einflussbereich von Carpebur gearbeitet hat.
 Sein Micu Odin ist ein kluger Rabe, der ihm auf Reisen als Späher und unruhiges Gewissen dient.

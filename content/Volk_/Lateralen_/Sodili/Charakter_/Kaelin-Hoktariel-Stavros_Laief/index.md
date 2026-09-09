@@ -1,4 +1,4 @@
-# Kaelin Stavros & Laief
+# Kaelin Stavros
 
 **Name:** Kaelin Hoktariel Stavros**Rolle:** Bürgermeister**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Sodili-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** [Akuelon](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Dorf_Akuelon/index.md)**Beruf:** Bürgermeister von Akuelon, vormals Bootsbauer
 

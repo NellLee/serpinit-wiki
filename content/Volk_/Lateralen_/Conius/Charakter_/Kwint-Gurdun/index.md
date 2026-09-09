@@ -1,5 +1,4 @@
 # Kwint Gurdun
-![Bild des Charakters](Link-zum-Bild)
 
 **Name:** Kwint Gurdun**Rolle:** Professor für explorative Forschung**Alter:** Hohes Alter**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** Resrubor Akademie**Beruf:** Professor
 

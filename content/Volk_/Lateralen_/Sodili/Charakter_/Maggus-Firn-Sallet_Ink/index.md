@@ -1,4 +1,4 @@
-# Maggus Sallet (Koch) & Ink (Tintenfisch)
+# Maggus Sallet
 
 * **Stärken**: Talent für die Zubereitung von köstlichen Mahlzeiten auf hoher See, seine Kreationen sind legendär und tragen dazu bei, den moralischen der Mannschaft hoch zu halten.
 * **Schwächen**: Möglicherweise zu sehr darauf bedacht, perfekte Mahlzeiten zu zaubern, was zu Stress und Frustration führen könnte, wenn die Bedingungen auf See ungünstig sind.
