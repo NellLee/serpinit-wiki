@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { run } from 'svelte/legacy';
-
 	import * as d3 from 'd3';
 	import { getTextMeasure, partitionArray } from '$lib/utilities/utilities';
 
@@ -55,8 +53,10 @@
 		currency: ['€', '']
 	});
 
-	let initialXAxisOffset: number | undefined = $state();
-	let initialYAxisOffset: number | undefined = $state();
+	let initialXAxisOffset = $derived(
+		effectiveWidth === undefined ? undefined : (initialViewOffset ?? 0) - effectiveWidth / 2
+	);
+	let initialYAxisOffset = $derived(effectiveHeight && effectiveHeight / 2);
 
 	let initialised = $state(false);
 
@@ -450,14 +450,7 @@
 			}
 		}
 	}
-	run(() => {
-		initialXAxisOffset =
-			effectiveWidth === undefined ? undefined : (initialViewOffset ?? 0) - effectiveWidth / 2;
-	});
-	run(() => {
-		initialYAxisOffset = effectiveHeight && effectiveHeight / 2;
-	});
-	run(() => {
+	$effect(() => {
 		if (effectiveWidth && effectiveHeight) {
 			if (!initialised) {
 				console.log('Initialising');
