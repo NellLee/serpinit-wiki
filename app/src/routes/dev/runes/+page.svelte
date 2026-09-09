@@ -5,7 +5,7 @@
 	import RuneProjectionPanel from '$lib/components/runes/RuneProjectionPanel.svelte';
 	import RuneStructurePanel from '$lib/components/runes/RuneStructurePanel.svelte';
 
-	export let data;
+	let { data } = $props();
 </script>
 
 <svelte:head>

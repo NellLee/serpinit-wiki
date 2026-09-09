@@ -9,12 +9,12 @@
 	import SmallNamedCard from '$lib/components/Card.svelte';
 	import { onMount } from 'svelte';
 
-	export let data;
+	let { data } = $props();
 
-	$: presentation = data.presentation;
-	$: pageClass = presentation.pageClass;
-	$: showLeftRail = presentation.showToc;
-	$: showRightRail = presentation.showContextRail;
+	let presentation = $derived(data.presentation);
+	let pageClass = $derived(presentation.pageClass);
+	let showLeftRail = $derived(presentation.showToc);
+	let showRightRail = $derived(presentation.showContextRail);
 
 	onMount(() => {
 		if ('scrollRestoration' in history) {
@@ -57,13 +57,16 @@
 
 	<div class="main-column">
 		<MidPanel contentWidth={data.presentation.contentWidth}>
-			<Breadcrumbs slot="head" linkList={data.page.breadcrumbs} />
-			<ContentCard
-				slot="content"
-				title={data.page.title}
-				contentHtml={data.page.contentHtml}
-				overviewHtml={data.page.overviewHtml}
-			/>
+			{#snippet head()}
+				<Breadcrumbs linkList={data.page.breadcrumbs} />
+			{/snippet}
+			{#snippet content()}
+				<ContentCard
+					title={data.page.title}
+					contentHtml={data.page.contentHtml}
+					overviewHtml={data.page.overviewHtml}
+				/>
+			{/snippet}
 		</MidPanel>
 	</div>
 

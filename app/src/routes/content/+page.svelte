@@ -1,9 +1,9 @@
 <script lang="ts">
 	import SearchBar from '$lib/components/Searchbar.svelte';
 
-	export let data;
+	let { data } = $props();
 
-	$: homepage = data.homepage;
+	let homepage = $derived(data.homepage);
 </script>
 
 <svelte:head>
@@ -92,8 +92,7 @@
 			content: '';
 			position: absolute;
 			inset: 0;
-			background:
-				radial-gradient(circle at top right, rgba(176, 140, 78, 0.16), transparent 28%),
+			background: radial-gradient(circle at top right, rgba(176, 140, 78, 0.16), transparent 28%),
 				radial-gradient(circle at bottom left, rgba(143, 110, 57, 0.1), transparent 32%);
 			pointer-events: none;
 		}

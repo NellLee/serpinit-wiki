@@ -2,7 +2,7 @@
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import Converter from '$lib/components/Converter.svelte';
 
-	export let data;
+	let { data } = $props();
 
 	const lengthSystems = [
 		{
@@ -41,31 +41,35 @@
 
 <div class="utility-page convert-page">
 	<MidPanel contentWidth={data.presentation.contentWidth}>
-		<div class="utility-head" slot="head">
-			<p class="eyebrow">Werkzeug</p>
-			<h1>Convert</h1>
-			<p class="lede">
-				Nutze fokussierte Werkzeugflächen statt Artikellayouts für wiederholte Umrechnungen.
-			</p>
-		</div>
+		{#snippet head()}
+			<div class="utility-head">
+				<p class="eyebrow">Werkzeug</p>
+				<h1>Convert</h1>
+				<p class="lede">
+					Nutze fokussierte Werkzeugflächen statt Artikellayouts für wiederholte Umrechnungen.
+				</p>
+			</div>
+		{/snippet}
 
-		<div class="convert-layout" slot="content">
-			<section class="converter-panel">
-				<div class="panel-copy">
-					<h2>Length</h2>
-					<p>Vergleiche gebräuchliche Längeneinheiten in einer kompakten Arbeitsfläche.</p>
-				</div>
-				<Converter systems={lengthSystems} />
-			</section>
+		{#snippet content()}
+			<div class="convert-layout">
+				<section class="converter-panel">
+					<div class="panel-copy">
+						<h2>Length</h2>
+						<p>Vergleiche gebräuchliche Längeneinheiten in einer kompakten Arbeitsfläche.</p>
+					</div>
+					<Converter systems={lengthSystems} />
+				</section>
 
-			<section class="converter-panel">
-				<div class="panel-copy">
-					<h2>Planetary Years</h2>
-					<p>Wechsle zwischen Umlaufjahres-Systemen, ohne die Arbeitsfläche zu verlassen.</p>
-				</div>
-				<Converter systems={planetaryYearSystems} />
-			</section>
-		</div>
+				<section class="converter-panel">
+					<div class="panel-copy">
+						<h2>Planetary Years</h2>
+						<p>Wechsle zwischen Umlaufjahres-Systemen, ohne die Arbeitsfläche zu verlassen.</p>
+					</div>
+					<Converter systems={planetaryYearSystems} />
+				</section>
+			</div>
+		{/snippet}
 	</MidPanel>
 </div>
 

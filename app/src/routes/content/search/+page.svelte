@@ -1,18 +1,22 @@
 <script lang="ts">
+	import { preventDefault } from 'svelte/legacy';
+
 	import { goto } from '$app/navigation';
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import SearchEntry from '$lib/components/SearchEntry.svelte';
 	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
 
-	export let data;
+	let { data } = $props();
 
-	let searchInput = data.query;
-	let includeCategories = data.activeFilters.includeCategories;
-	let includeContent = data.activeFilters.includeContent;
-	let sortInput = data.sort;
-	let selectedDomains = [...data.activeFilters.domains];
-	let selectedPageTypes = [...data.activeFilters.pageTypes];
-	let selectedCategories = [...data.activeFilters.categories];
+	/* eslint-disable svelte/valid-compile -- intentional initial-value-only reads, not reactive to prop changes */
+	let searchInput = $state(data.query);
+	let includeCategories = $state(data.activeFilters.includeCategories);
+	let includeContent = $state(data.activeFilters.includeContent);
+	let sortInput = $state(data.sort);
+	let selectedDomains = $state([...data.activeFilters.domains]);
+	let selectedPageTypes = $state([...data.activeFilters.pageTypes]);
+	let selectedCategories = $state([...data.activeFilters.categories]);
+	/* eslint-enable svelte/valid-compile */
 
 	function findFacetLabel(
 		facets: Array<{ key: string; label: string }>,
@@ -22,7 +26,7 @@
 		return facets.find((facet) => facet.key === key)?.label ?? fallback;
 	}
 
-	$: activeChips = [
+	let activeChips = $derived([
 		...selectedDomains.map((value) => ({
 			kind: 'domain',
 			value,
@@ -63,12 +67,13 @@
 			value,
 			label: `-${value}`
 		}))
-	];
+	]);
 
-	$: hasFacets =
+	let hasFacets = $derived(
 		data.facets.domains.length > 0 ||
-		data.facets.pageTypes.length > 0 ||
-		data.facets.categories.length > 0;
+			data.facets.pageTypes.length > 0 ||
+			data.facets.categories.length > 0
+	);
 
 	function toggleFilterValue(values: string[], value: string) {
 		return values.includes(value) ? values.filter((entry) => entry !== value) : [...values, value];
@@ -125,156 +130,125 @@
 
 <div class="utility-page search-page">
 	<MidPanel contentWidth={data.presentation.contentWidth}>
-		<div class="utility-head" slot="head">
-			<p class="eyebrow">Werkzeug</p>
-			<h1>{title}</h1>
-			<p class="lede">
-				Durchsuche das Wiki mit Bereichen, Seitentypen, Kategorien und einer knappen
-				Erweiterungssyntax.
-			</p>
-		</div>
+		{#snippet head()}
+			<div class="utility-head">
+				<p class="eyebrow">Werkzeug</p>
+				<h1>{title}</h1>
+				<p class="lede">
+					Durchsuche das Wiki mit Bereichen, Seitentypen, Kategorien und einer knappen
+					Erweiterungssyntax.
+				</p>
+			</div>
+		{/snippet}
 
-		<div class="utility-content search-layout" slot="content">
-			<section class="search-main">
-				<section class="search-controls">
-					<form on:submit|preventDefault={newSearch} id="searchbar">
-						<input type="text" bind:value={searchInput} placeholder="Im Wiki suchen..." />
-						<button type="submit" aria-label="Suche ausführen">
-							<Icon src={MagnifyingGlass} solid size="16" />
-						</button>
-					</form>
+		{#snippet content()}
+			<div class="utility-content search-layout">
+				<section class="search-main">
+					<section class="search-controls">
+						<form onsubmit={preventDefault(newSearch)} id="searchbar">
+							<input type="text" bind:value={searchInput} placeholder="Im Wiki suchen..." />
+							<button type="submit" aria-label="Suche ausführen">
+								<Icon src={MagnifyingGlass} solid size="16" />
+							</button>
+						</form>
 
-					<div class="syntax-help" id="syntax-help">
-						<strong>Feldfilter:</strong>
-						<span>"Zitat"</span>
-						<span>-Ausschluss</span>
-						<span>title:</span>
-						<span>category:</span>
-						<span>path:</span>
-						<span>type:</span>
-					</div>
+						<div class="syntax-help" id="syntax-help">
+							<strong>Feldfilter:</strong>
+							<span>"Zitat"</span>
+							<span>-Ausschluss</span>
+							<span>title:</span>
+							<span>category:</span>
+							<span>path:</span>
+							<span>type:</span>
+						</div>
 
-					<div class="toolbar-row">
-						<div id="search-options">
-							<p>Suchen in</p>
-							<label>
-								<input type="checkbox" bind:checked={includeCategories} on:change={newSearch} />
-								Kategorien
-							</label>
-							<label>
-								<input type="checkbox" bind:checked={includeContent} on:change={newSearch} />
-								Inhalt
+						<div class="toolbar-row">
+							<div id="search-options">
+								<p>Suchen in</p>
+								<label>
+									<input type="checkbox" bind:checked={includeCategories} onchange={newSearch} />
+									Kategorien
+								</label>
+								<label>
+									<input type="checkbox" bind:checked={includeContent} onchange={newSearch} />
+									Inhalt
+								</label>
+							</div>
+
+							<label class="sort-control">
+								<span>Sortierung</span>
+								<select bind:value={sortInput} onchange={newSearch}>
+									<option value="relevance">Relevanz</option>
+									<option value="title-asc">Titel A-Z</option>
+									<option value="domain">Bereich</option>
+								</select>
 							</label>
 						</div>
 
-						<label class="sort-control">
-							<span>Sortierung</span>
-							<select bind:value={sortInput} on:change={newSearch}>
-								<option value="relevance">Relevanz</option>
-								<option value="title-asc">Titel A-Z</option>
-								<option value="domain">Bereich</option>
-							</select>
-						</label>
-					</div>
-
-					{#if activeChips.length > 0}
-						<div class="active-chips" id="active-chips">
-							{#each activeChips as chip}
-								<span class="chip">{chip.label}</span>
-							{/each}
-						</div>
-					{/if}
-				</section>
-
-				<section id="results" aria-live="polite">
-					<div class="results-header">
-						{#if data.query}
-							<h2>Treffer für "{data.query}"</h2>
-							<p>{data.results.length} Ergebnis{data.results.length === 1 ? '' : 'se'}</p>
-						{:else}
-							<h2>Suche starten</h2>
-							<p>Gib einen Begriff ein oder nutze Filter, um die Suche vorzubereiten.</p>
+						{#if activeChips.length > 0}
+							<div class="active-chips" id="active-chips">
+								{#each activeChips as chip}
+									<span class="chip">{chip.label}</span>
+								{/each}
+							</div>
 						{/if}
-					</div>
+					</section>
 
-					{#if !data.query}
-						<div class="empty-state prose-state">
-							<p>Die Suchseite durchsucht standardmäßig Titel, Kategorien und Artikelinhalte.</p>
-							<p>Mit Filtern und Syntax lässt sich die Suche gezielt eingrenzen.</p>
-						</div>
-					{:else if data.results.length === 0}
-						<div class="empty-state">
-							<p>Keine Treffer gefunden.</p>
-							{#if data.suggestions.broadenSearch}
-								<p>Die Suche kann erweitert werden, indem Filter oder Ausschlüsse entfernt werden.</p>
-							{/if}
-							{#if data.suggestions.nearbyQueries.length > 0}
-								<p>Nahe Suchanfragen: {data.suggestions.nearbyQueries.join(', ')}</p>
+					<section id="results" aria-live="polite">
+						<div class="results-header">
+							{#if data.query}
+								<h2>Treffer für "{data.query}"</h2>
+								<p>{data.results.length} Ergebnis{data.results.length === 1 ? '' : 'se'}</p>
+							{:else}
+								<h2>Suche starten</h2>
+								<p>Gib einen Begriff ein oder nutze Filter, um die Suche vorzubereiten.</p>
 							{/if}
 						</div>
-					{:else}
-						{#each data.results as result}
-							<SearchEntry
-								title={result.item.title}
-								href={result.item.href}
-								excerpts={result.excerpts}
-								titleHighlights={result.titleHighlights ?? []}
-								domainLabel={result.domain?.label ?? ''}
-								pageType={result.pageType ?? ''}
-								categories={result.categories ?? []}
-							/>
-						{/each}
-					{/if}
+
+						{#if !data.query}
+							<div class="empty-state prose-state">
+								<p>Die Suchseite durchsucht standardmäßig Titel, Kategorien und Artikelinhalte.</p>
+								<p>Mit Filtern und Syntax lässt sich die Suche gezielt eingrenzen.</p>
+							</div>
+						{:else if data.results.length === 0}
+							<div class="empty-state">
+								<p>Keine Treffer gefunden.</p>
+								{#if data.suggestions.broadenSearch}
+									<p>
+										Die Suche kann erweitert werden, indem Filter oder Ausschlüsse entfernt werden.
+									</p>
+								{/if}
+								{#if data.suggestions.nearbyQueries.length > 0}
+									<p>Nahe Suchanfragen: {data.suggestions.nearbyQueries.join(', ')}</p>
+								{/if}
+							</div>
+						{:else}
+							{#each data.results as result}
+								<SearchEntry
+									title={result.item.title}
+									href={result.item.href}
+									excerpts={result.excerpts}
+									titleHighlights={result.titleHighlights ?? []}
+									domainLabel={result.domain?.label ?? ''}
+									pageType={result.pageType ?? ''}
+									categories={result.categories ?? []}
+								/>
+							{/each}
+						{/if}
+					</section>
 				</section>
-			</section>
 
-			{#if data.query && hasFacets}
-				<aside class="facet-rail">
-					<section class="facet-group">
-						<h3>Bereiche</h3>
-						<div class="facet-list">
-							{#each data.facets.domains as facet}
-								<label class="facet-option">
-									<input
-										type="checkbox"
-										checked={selectedDomains.includes(facet.key)}
-										on:change={() => toggleDomain(facet.key)}
-									/>
-									<span>{facet.label}</span>
-									<small>{facet.count}</small>
-								</label>
-							{/each}
-						</div>
-					</section>
-
-					<section class="facet-group">
-						<h3>Seitentypen</h3>
-						<div class="facet-list">
-							{#each data.facets.pageTypes as facet}
-								<label class="facet-option">
-									<input
-										type="checkbox"
-										checked={selectedPageTypes.includes(facet.key)}
-										on:change={() => togglePageType(facet.key)}
-									/>
-									<span>{facet.label}</span>
-									<small>{facet.count}</small>
-								</label>
-							{/each}
-						</div>
-					</section>
-
-					{#if data.facets.categories.length > 0}
+				{#if data.query && hasFacets}
+					<aside class="facet-rail">
 						<section class="facet-group">
-							<h3>Suche verfeinern</h3>
-							<p class="facet-copy">Handverlesene Kategorien mit echtem Mehrwert für die Suche.</p>
+							<h3>Bereiche</h3>
 							<div class="facet-list">
-								{#each data.facets.categories as facet}
+								{#each data.facets.domains as facet}
 									<label class="facet-option">
 										<input
 											type="checkbox"
-											checked={selectedCategories.includes(facet.key)}
-											on:change={() => toggleCategory(facet.key)}
+											checked={selectedDomains.includes(facet.key)}
+											onchange={() => toggleDomain(facet.key)}
 										/>
 										<span>{facet.label}</span>
 										<small>{facet.count}</small>
@@ -282,10 +256,49 @@
 								{/each}
 							</div>
 						</section>
-					{/if}
-				</aside>
-			{/if}
-		</div>
+
+						<section class="facet-group">
+							<h3>Seitentypen</h3>
+							<div class="facet-list">
+								{#each data.facets.pageTypes as facet}
+									<label class="facet-option">
+										<input
+											type="checkbox"
+											checked={selectedPageTypes.includes(facet.key)}
+											onchange={() => togglePageType(facet.key)}
+										/>
+										<span>{facet.label}</span>
+										<small>{facet.count}</small>
+									</label>
+								{/each}
+							</div>
+						</section>
+
+						{#if data.facets.categories.length > 0}
+							<section class="facet-group">
+								<h3>Suche verfeinern</h3>
+								<p class="facet-copy">
+									Handverlesene Kategorien mit echtem Mehrwert für die Suche.
+								</p>
+								<div class="facet-list">
+									{#each data.facets.categories as facet}
+										<label class="facet-option">
+											<input
+												type="checkbox"
+												checked={selectedCategories.includes(facet.key)}
+												onchange={() => toggleCategory(facet.key)}
+											/>
+											<span>{facet.label}</span>
+											<small>{facet.count}</small>
+										</label>
+									{/each}
+								</div>
+							</section>
+						{/if}
+					</aside>
+				{/if}
+			</div>
+		{/snippet}
 	</MidPanel>
 </div>
 

@@ -1,11 +1,17 @@
 <script lang="ts">
+	import ContentTreeNode from './ContentTreeNode.svelte';
 	import EllipsisText from './EllipsisText.svelte';
 	import { ChevronRight, Icon } from 'svelte-hero-icons';
 
-	export let node: LinkNode;
-	export let level = 0;
+	interface Props {
+		node: LinkNode;
+		level?: number;
+	}
 
-	let isCollapsed = node.children.length != 0 && level > 1;
+	let { node, level = 0 }: Props = $props();
+
+	// eslint-disable-next-line svelte/valid-compile -- intentional initial-value-only read, not reactive to prop changes
+	let isCollapsed = $state(node.children.length != 0 && level > 1);
 
 	function toggleCollapse() {
 		if (node.children.length == 0) {
@@ -17,7 +23,7 @@
 
 <div class="link-node" style="--indentation: {level * 8}px">
 	<div class="node-content">
-		<button class="toggle-button {isCollapsed ? 'collapsed' : ''}" on:click={toggleCollapse}>
+		<button class="toggle-button {isCollapsed ? 'collapsed' : ''}" onclick={toggleCollapse}>
 			<Icon src={ChevronRight} solid size="14" />
 		</button>
 		<a href={node.link.href}><EllipsisText>{node.link.text}</EllipsisText></a>
@@ -27,7 +33,7 @@
 		<ul>
 			{#each node.children as child}
 				<li>
-					<svelte:self node={child} level={level + 1} />
+					<ContentTreeNode node={child} level={level + 1} />
 				</li>
 			{/each}
 		</ul>

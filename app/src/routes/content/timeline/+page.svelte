@@ -6,11 +6,13 @@
 
 	const title = 'Timeline';
 
-	export let data;
+	let { data } = $props();
 
-	let selectedEvent: TimelineEvent | null = null;
-	let linkedPage: string | null;
-	$: linkedPage = selectedEvent?.href ?? null;
+	let selectedEvent: TimelineEvent | null = $state(null);
+	let linkedPage: string | null = $derived.by(() => {
+		if (!selectedEvent) return null;
+		return selectedEvent.href;
+	});
 
 	onMount(() => {
 		selectedEvent = data.selectedEvent;
@@ -23,51 +25,55 @@
 
 <div class="utility-page timeline-page">
 	<MidPanel contentWidth={data.presentation.contentWidth}>
-		<div class="utility-head" slot="head">
-			<p class="eyebrow">Werkzeug</p>
-			<h1>{title}</h1>
-			<p class="lede">
-				Erkunde die Zeitleiste visuell und prüfe danach das aktuell ausgewählte Ereignis.
-			</p>
-		</div>
+		{#snippet head()}
+			<div class="utility-head">
+				<p class="eyebrow">Werkzeug</p>
+				<h1>{title}</h1>
+				<p class="lede">
+					Erkunde die Zeitleiste visuell und prüfe danach das aktuell ausgewählte Ereignis.
+				</p>
+			</div>
+		{/snippet}
 
-		<div class="timeline-layout" slot="content">
-			<section class="timeline-surface">
-				<div id="timeline">
-					<Timeline
-						bind:selectedEvent
-						timeline={data.timeline}
-						initialViewOffset={data.selectedEvent?.start ?? null}
-					/>
-				</div>
-			</section>
-
-			<section class="event-panel">
-				<Card name="Ausgewähltes Ereignis">
-					<div id="event-card-content">
-						{#if selectedEvent}
-							<h2 id="event-title">{selectedEvent.text}</h2>
-							<p class="event-range">
-								{selectedEvent.start}
-								{#if selectedEvent.end}
-									<span> bis {selectedEvent.end}</span>
-								{/if}
-							</p>
-							{#if selectedEvent.description}
-								<p class="event-description">{selectedEvent.description}</p>
-							{/if}
-							{#if linkedPage}
-								<a id="page-link" href={linkedPage}>Artikel öffnen</a>
-							{/if}
-						{:else}
-							<p class="empty-state">
-								Wähle ein Ereignis in der Zeitleiste aus, um es hier anzuzeigen.
-							</p>
-						{/if}
+		{#snippet content()}
+			<div class="timeline-layout">
+				<section class="timeline-surface">
+					<div id="timeline">
+						<Timeline
+							bind:selectedEvent
+							timeline={data.timeline}
+							initialViewOffset={data.selectedEvent?.start ?? null}
+						/>
 					</div>
-				</Card>
-			</section>
-		</div>
+				</section>
+
+				<section class="event-panel">
+					<Card name="Ausgewähltes Ereignis">
+						<div id="event-card-content">
+							{#if selectedEvent}
+								<h2 id="event-title">{selectedEvent.text}</h2>
+								<p class="event-range">
+									{selectedEvent.start}
+									{#if selectedEvent.end}
+										<span> bis {selectedEvent.end}</span>
+									{/if}
+								</p>
+								{#if selectedEvent.description}
+									<p class="event-description">{selectedEvent.description}</p>
+								{/if}
+								{#if linkedPage}
+									<a id="page-link" href={linkedPage}>Artikel öffnen</a>
+								{/if}
+							{:else}
+								<p class="empty-state">
+									Wähle ein Ereignis in der Zeitleiste aus, um es hier anzuzeigen.
+								</p>
+							{/if}
+						</div>
+					</Card>
+				</section>
+			</div>
+		{/snippet}
 	</MidPanel>
 </div>
 

@@ -2,7 +2,11 @@
 	import { page } from '$app/stores';
 	import SearchBar from '$lib/components/Searchbar.svelte';
 
-	export let items: LinkObject[];
+	interface Props {
+		items: LinkObject[];
+	}
+
+	let { items }: Props = $props();
 
 	function isActive(href: string, currentPath: string): boolean {
 		if (href === '/content') {

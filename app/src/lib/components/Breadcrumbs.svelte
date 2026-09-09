@@ -1,7 +1,11 @@
 <script lang="ts">
 	import { Home, Icon } from 'svelte-hero-icons';
 
-	export let linkList: LinkObject[];
+	interface Props {
+		linkList: LinkObject[];
+	}
+
+	let { linkList }: Props = $props();
 </script>
 
 {#if linkList.length > 0}

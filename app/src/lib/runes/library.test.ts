@@ -1,4 +1,5 @@
 import { describe, expect, test } from 'vitest';
+import type { ShapeFamily } from './contracts';
 import {
 	assertNoDeprecatedCanonicalVocabulary,
 	assertRunicDocumentIntegrity,
@@ -30,7 +31,10 @@ describe('runic library loading', () => {
 
 	test('loads the expanded controlling primitive inventory', () => {
 		const library = loadResolvedRunicLibrary({ forceReload: true });
-		const primitiveIds = library.groups.find((group) => group.kind === 'primitive')?.entries.map((entry) => entry.id) ?? [];
+		const primitiveIds =
+			library.groups
+				.find((group) => group.kind === 'primitive')
+				?.entries.map((entry) => entry.id) ?? [];
 
 		expect(primitiveIds).toEqual(
 			expect.arrayContaining([
@@ -53,7 +57,9 @@ describe('runic library loading', () => {
 		};
 
 		expect(validateRunicDocumentData(malformed)).toBe(false);
-		expect(() => assertValidRunicDocumentData(malformed, 'inline')).toThrow(/Invalid runic document/);
+		expect(() => assertValidRunicDocumentData(malformed, 'inline')).toThrow(
+			/Invalid runic document/
+		);
 	});
 
 	test('rejects projection paths that reference missing placements', () => {
@@ -78,7 +84,7 @@ describe('runic library loading', () => {
 
 	test('rejects deprecated English canonical vocabulary in inline documents', () => {
 		const broken = structuredClone(getRunicDocumentById('primitive.leitbahn'));
-		broken.projection2d.placements[0].shapeFamily = 'channel';
+		broken.projection2d.placements[0].shapeFamily = 'channel' as ShapeFamily;
 
 		expect(() => assertNoDeprecatedCanonicalVocabulary(broken, 'inline')).toThrow(
 			/deprecated canonical vocabulary/i

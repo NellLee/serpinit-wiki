@@ -4,11 +4,21 @@
 	import { onMount } from 'svelte';
 	import Card from './Card.svelte';
 
-	export let title: string;
-	export let fancyBoxGallery: boolean = true;
-	export let contentHtml: string;
-	export let overviewHtml: string | null;
-	export let contentMinHeight: string = '70vh';
+	interface Props {
+		title: string;
+		fancyBoxGallery?: boolean;
+		contentHtml: string;
+		overviewHtml: string | null;
+		contentMinHeight?: string;
+	}
+
+	let {
+		title,
+		fancyBoxGallery = true,
+		contentHtml,
+		overviewHtml,
+		contentMinHeight = '70vh'
+	}: Props = $props();
 
 	onMount(() => {
 		if (fancyBoxGallery) {
@@ -49,8 +59,7 @@
 	.content-card {
 		#content-body {
 			width: 100%;
-			background:
-				linear-gradient(180deg, rgba(255, 250, 241, 0.96), rgba(248, 241, 228, 0.96));
+			background: linear-gradient(180deg, rgba(255, 250, 241, 0.96), rgba(248, 241, 228, 0.96));
 			padding: 1.35rem;
 			border-radius: 1rem;
 			border: 1px solid var(--border-subtle);
@@ -131,19 +140,19 @@
 			}
 
 			@media (min-width: 960px) {
-				&:has(#overview) {
+				&:global(:has(#overview)) {
 					display: grid;
 					grid-template-columns: minmax(0, 1fr) minmax(18rem, 22rem);
 					column-gap: clamp(1.5rem, 2vw, 2.5rem);
 					align-items: start;
 				}
 
-				&:has(#overview) .header,
-				&:has(#overview) #content {
+				&:global(:has(#overview)) .header,
+				&:global(:has(#overview)) #content {
 					grid-column: 1;
 				}
 
-				&:has(#overview) #overview {
+				&:global(:has(#overview)) #overview {
 					grid-column: 2;
 					grid-row: 1 / span 2;
 					float: none;
@@ -296,7 +305,7 @@
 				gap: 1.4rem;
 
 				:global(a[data-fancybox]) {
-					&:not(:is(figure *) > a[data-fancybox]) {
+					&:global(:not(:is(figure *) > a[data-fancybox])) {
 						width: min(100%, 15rem);
 					}
 				}

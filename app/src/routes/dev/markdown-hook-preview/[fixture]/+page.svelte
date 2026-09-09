@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let data;
+	let { data } = $props();
 </script>
 
 <svelte:head>
@@ -9,6 +9,7 @@
 {#if data.page.overviewHtml}
 	<div id="overview">
 		<div id="overview-html">
+			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 			{@html data.page.overviewHtml}
 		</div>
 	</div>
@@ -17,5 +18,6 @@
 <h1>{data.page.title}</h1>
 
 <div id="content-html">
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 	{@html data.page.contentHtml}
 </div>

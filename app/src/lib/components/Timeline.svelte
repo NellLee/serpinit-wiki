@@ -1,10 +1,16 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import * as d3 from 'd3';
 	import { getTextMeasure, partitionArray } from '$lib/utilities/utilities';
 
-	export let timeline: Timeline;
-	export let selectedEvent: TimelineEvent | null = null; // Exported variable for selected event
-	export let initialViewOffset: number | null = null;
+	interface Props {
+		timeline: Timeline;
+		selectedEvent?: TimelineEvent | null; // Exported variable for selected event
+		initialViewOffset?: number | null;
+	}
+
+	let { timeline, selectedEvent = $bindable(null), initialViewOffset = null }: Props = $props();
 
 	type RowConfig = {
 		start: number;
@@ -26,21 +32,21 @@
 		text: string;
 	};
 
-	let svg: SVGSVGElement;
+	let svg: SVGSVGElement | undefined = $state();
 
 	// 2 below: bound, not available until AFTER first mount hook
-	let effectiveWidth: number | undefined;
-	let effectiveHeight: number | undefined;
+	let effectiveWidth: number | undefined = $state();
+	let effectiveHeight: number | undefined = $state();
 
 	let zoomScale = 1;
-	let translateX: number | undefined;
-	let translateY: number | undefined;
-	let lastTranslateY: number | null = null;
+	let translateX: number | undefined = $state();
+	let translateY: number | undefined = $state();
+	let lastTranslateY: number | null = $state(null);
 
 	let scale: d3.ScaleLinear<number, number>;
 	let axis: d3.Axis<d3.NumberValue>;
 	let zoom: d3.ZoomBehavior<SVGSVGElement, unknown>;
-	let zoomIdentityY = d3.zoomIdentity;
+	let zoomIdentityY = $state(d3.zoomIdentity);
 	let zoomIdentityX = d3.zoomIdentity;
 	let localeFormatter = d3.formatLocale({
 		decimal: ',',
@@ -49,36 +55,13 @@
 		currency: ['€', '']
 	});
 
-	let initialXAxisOffset: number | undefined;
-	$: initialXAxisOffset =
-		effectiveWidth === undefined ? undefined : (initialViewOffset ?? 0) - effectiveWidth / 2;
-	let initialYAxisOffset: number | undefined;
-	$: initialYAxisOffset = effectiveHeight && effectiveHeight / 2;
+	let initialXAxisOffset: number | undefined = $state();
+	let initialYAxisOffset: number | undefined = $state();
 
-	let initialised = false;
-	$: if (effectiveWidth && effectiveHeight) {
-		if (!initialised) {
-			console.log('Initialising');
-
-			if (translateX === undefined) {
-				translateX = initialXAxisOffset;
-			}
-			if (translateY === undefined) {
-				translateY = initialYAxisOffset;
-			}
-			lastTranslateY = initialYAxisOffset!;
-
-			initialised = true;
-		}
-		renderTimeline();
-	}
+	let initialised = $state(false);
 
 	const maxEventScale = 1;
 	const minEventScale = 1;
-	$: eventZoomScale = Math.min(Math.max(zoomIdentityY.k, minEventScale), maxEventScale);
-	$: eventHeight = 20 * eventZoomScale;
-	$: eventRowSpacing = 5 * eventZoomScale;
-	$: eventAxisOffset = 30 * eventZoomScale;
 	const flagWidth = 7;
 	const eventTextPadding = 5;
 	const defaultMeasureFont = '14px Arial';
@@ -90,7 +73,7 @@
 			.range([0, effectiveWidth!]);
 
 		axis = d3.axisBottom(scale).tickFormat(localeFormatter.format(','));
-		const axisGroup = d3.select(svg).select<SVGGElement>('g.axis');
+		const axisGroup = d3.select(svg!).select<SVGGElement>('g.axis');
 		axisGroup.transition().duration(10).call(axis);
 		axisGroup.attr('transform', `translate(0, ${translateY})`);
 
@@ -119,7 +102,7 @@
 				renderTimeline();
 				renderCursor(mousePos);
 			});
-		d3.select(svg).call(zoom);
+		d3.select(svg!).call(zoom);
 
 		const timelineDiv = document.getElementsByClassName('timeline')[0];
 		if (!(timelineDiv instanceof HTMLElement)) {
@@ -137,9 +120,9 @@
 	}
 
 	function renderCursor(mousePos: [number, number]) {
-		d3.select(svg).selectAll('line.cursor-line').remove();
+		d3.select(svg!).selectAll('line.cursor-line').remove();
 		if (mousePos) {
-			d3.select(svg)
+			d3.select(svg!)
 				.append('line')
 				.attr('class', 'cursor-line')
 				.attr('x1', mousePos[0])
@@ -153,10 +136,10 @@
 	}
 
 	function renderTickLines() {
-		d3.select(svg).selectAll('line.tick').remove();
-		d3.select(svg).selectAll('line.zero-line').remove();
+		d3.select(svg!).selectAll('line.tick').remove();
+		d3.select(svg!).selectAll('line.zero-line').remove();
 
-		d3.select(svg)
+		d3.select(svg!)
 			.selectAll('line.tick')
 			.data(scale.ticks())
 			.enter()
@@ -171,7 +154,7 @@
 			.attr('stroke-opacity', 0.5);
 
 		const zeroTick = scale(0);
-		d3.select(svg)
+		d3.select(svg!)
 			.append('line')
 			.attr('class', 'zero-line')
 			.attr('x1', zeroTick)
@@ -184,13 +167,13 @@
 	}
 
 	function renderEvents() {
-		const eventGroup = d3.select(svg).select<SVGGElement>('.events');
+		const eventGroup = d3.select(svg!).select<SVGGElement>('.events');
 
 		if (!eventGroup.empty()) {
 			eventGroup.remove();
 		}
 
-		const events = d3.select(svg).append('g').attr('class', 'events');
+		const events = d3.select(svg!).append('g').attr('class', 'events');
 
 		const eventData: EventConfig[] = timeline.map((event) => {
 			let isContainer = false;
@@ -467,6 +450,35 @@
 			}
 		}
 	}
+	run(() => {
+		initialXAxisOffset =
+			effectiveWidth === undefined ? undefined : (initialViewOffset ?? 0) - effectiveWidth / 2;
+	});
+	run(() => {
+		initialYAxisOffset = effectiveHeight && effectiveHeight / 2;
+	});
+	run(() => {
+		if (effectiveWidth && effectiveHeight) {
+			if (!initialised) {
+				console.log('Initialising');
+
+				if (translateX === undefined) {
+					translateX = initialXAxisOffset;
+				}
+				if (translateY === undefined) {
+					translateY = initialYAxisOffset;
+				}
+				lastTranslateY = initialYAxisOffset!;
+
+				initialised = true;
+			}
+			renderTimeline();
+		}
+	});
+	let eventZoomScale = $derived(Math.min(Math.max(zoomIdentityY.k, minEventScale), maxEventScale));
+	let eventHeight = $derived(20 * eventZoomScale);
+	let eventRowSpacing = $derived(5 * eventZoomScale);
+	let eventAxisOffset = $derived(30 * eventZoomScale);
 </script>
 
 <div class="timeline" bind:clientWidth={effectiveWidth} bind:clientHeight={effectiveHeight}>

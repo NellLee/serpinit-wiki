@@ -1,7 +1,11 @@
 ﻿<script lang="ts">
 	import type { RunicDocument } from '$lib/runes/contracts';
 
-	export let document: RunicDocument;
+	interface Props {
+		document: RunicDocument;
+	}
+
+	let { document }: Props = $props();
 </script>
 
 <section class="detail-panel">
@@ -20,7 +24,10 @@
 		<p><strong>Rueckfluss:</strong> {document.topology.flow.allowsReturn ? 'ja' : 'nein'}</p>
 		<p><strong>Elemente:</strong> {document.topology.elements.length}</p>
 		<p><strong>Beziehungen:</strong> {document.topology.relations.length}</p>
-		<p><strong>Schalen:</strong> {document.topology.layers.map((layer) => `${layer.index}:${layer.name}`).join(' · ')}</p>
+		<p>
+			<strong>Schalen:</strong>
+			{document.topology.layers.map((layer) => `${layer.index}:${layer.name}`).join(' · ')}
+		</p>
 	</div>
 
 	{#if document.instances?.length}
