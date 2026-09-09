@@ -16,16 +16,51 @@ describe('apiInitialization', () => {
 		);
 	});
 
-	test('awaits ensureWikiInitialized in API routes without direct initWiki calls', () => {
+	test('exports loadSingleMarkdownPage from the wiki module', () => {
+		const wikiSource = readAppFile('src/lib/wiki.ts');
+		expect(wikiSource).toMatch(
+			/export\s+function\s+loadSingleMarkdownPage|export\s+async\s+function\s+loadSingleMarkdownPage/
+		);
+	});
+
+	test('no route calls the raw initWiki() full-corpus loader directly', () => {
 		for (const routePath of [
 			'src/routes/api/page/+server.ts',
 			'src/routes/api/search/+server.ts',
 			'src/routes/api/timeline/+server.ts'
 		]) {
 			const routeSource = readAppFile(routePath);
-			expect(routeSource).not.toMatch(/^\s*initWiki\(\)/m);
-			expect(routeSource).toMatch(/ensureWikiInitialized/);
-			expect(routeSource).toMatch(/await\s+ensureWikiInitialized\(\)/);
+			expect(routeSource).not.toMatch(/\binitWiki\(\)/);
 		}
+	});
+
+	test('the server never eagerly pre-loads the whole wiki at boot', () => {
+		const hooksPath = path.resolve(APP_ROOT, 'src/hooks.server.ts');
+		if (!fs.existsSync(hooksPath)) {
+			return;
+		}
+		const hooksSource = fs.readFileSync(hooksPath, 'utf8');
+		expect(hooksSource).not.toMatch(/\binitWiki\(\)/);
+	});
+
+	test('search awaits the full-corpus ensureWikiInitialized, since it needs every page', () => {
+		const routeSource = readAppFile('src/routes/api/search/+server.ts');
+		expect(routeSource).toMatch(/await\s+ensureWikiInitialized\(\)/);
+	});
+
+	test('page and timeline routes await only initTimeline, not the full-corpus batch', () => {
+		for (const routePath of [
+			'src/routes/api/page/+server.ts',
+			'src/routes/api/timeline/+server.ts'
+		]) {
+			const routeSource = readAppFile(routePath);
+			expect(routeSource).toMatch(/await\s+initTimeline\(\)/);
+			expect(routeSource).not.toMatch(/ensureWikiInitialized/);
+		}
+	});
+
+	test('page route loads its single page through the batched, cached loader', () => {
+		const routeSource = readAppFile('src/routes/api/page/+server.ts');
+		expect(routeSource).toMatch(/loadSingleMarkdownPage/);
 	});
 });

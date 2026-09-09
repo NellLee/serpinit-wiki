@@ -61,6 +61,17 @@ export async function initWiki() {
 	}
 }
 
+export function loadSingleMarkdownPage(fullPath: string): MarkdownPage {
+	beginFolderListingBatch();
+	beginFileLinkBatch();
+	try {
+		return loadMarkdownPage(fullPath);
+	} finally {
+		endFolderListingBatch();
+		endFileLinkBatch();
+	}
+}
+
 export async function ensureWikiInitialized() {
 	if (initialized) {
 		return;
