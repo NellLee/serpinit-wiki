@@ -22,6 +22,7 @@ Bei der Arbeit an Markdown-Dateien gilt:
 
 Implementation-specific instructions:
 - All implementation-oriented communication, plans, specs, code comments, and technical documentation must be written in English.
+- The language split is decided by the task, not by the language of a document being read or discussed. A discussion about tooling, workflow, or repo instructions stays in English even when it references a German-language file such as this one.
 - Treat implementation work as separate from lore and content work whenever practical.
 - Do not mix implementation refactors with ongoing lore/content edits unless the user explicitly asks for both in the same change.
 - Repo-local skills for this project live under `skills/`. When a repo-local skill is relevant, assistants must read and follow its `SKILL.md`.
@@ -29,7 +30,9 @@ Implementation-specific instructions:
 - Multiple agents may work in parallel in the same working tree, on files the user has scoped to be non-overlapping. Unrelated uncommitted changes elsewhere in the tree are expected in that case and are not, by themselves, a reason to stop or to flag friction.
 - If a task actually needs to touch a file that is already dirty from another agent's work, would switch the checked-out branch, or otherwise collides with another agent's in-flight work, stop immediately and ask the user how to proceed. Do not resolve the collision unprompted — no stashing, no branching, no guessing.
 - Some project aspects have a standing branch and worktree under `.worktrees/<name>`, set up deliberately per aspect rather than as a blanket default. Currently: lore work uses branch `aspect/lore` at `.worktrees/lore`, website work uses branch `aspect/website` at `.worktrees/website`.
-- Assistants do not choose or switch into an aspect worktree on their own. The human starts each session already positioned in the correct one. If an agent's current working directory does not match the aspect it is asked to work on, treat that as a probable mistake and surface it to the human — do not relocate or proceed.
+- Every session starts in the default working directory (this repo's root, on `master`), never pre-positioned inside an aspect worktree by the human.
+- Once it is clear a task belongs to an aspect with a standing worktree, the assistant switches into it itself, using `EnterWorktree` with `path` set to that worktree's path (e.g. `.worktrees/lore`). Do this before starting substantive work for that aspect, not mid-task.
+- If a session already inside an aspect worktree gets a task for a different aspect, or a task that is not aspect-scoped, exit back to the default working directory first (`ExitWorktree` with `action: "keep"` — these are standing worktrees, never remove them), then switch into the new target if needed.
 - When a standing aspect worktree has a meaningful chunk of finished work, the agent should propose merging it into `master` and ask for approval, rather than merging unprompted or leaving it to drift unmerged.
 - The default working directory (outside any aspect worktree) is for exploration, analysis, and discussion-driven work, and stays on `master`. Once an aspect has a dedicated worktree, that aspect's substantive work must happen there, not in the default working directory.
 - Implementation work should happen on a deliberate branch, not casually on `master` or `main`, unless the user explicitly asks for direct work there.
