@@ -1,5 +1,15 @@
 # Liora Merelis
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Liora Gartu Merelis |
+| **Rolle:** | Taschendiebin |
+| **Geschlecht:** | Weiblich |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Beruf:** | Taschendiebin der Diebesgilde Brauner-Ring |
+
 * **Stärken**: Geschicktes Taschendiebstahlhandwerk, Flinkheit, Beweglichkeit in Menschenmengen.
 * **Schwächen**: Potenziell zu übermütig in riskanten Situationen.
 * **Beschreibung**: Liora ist eine geschickte Taschendiebin, die sich auf das Stehlen von Wertsachen aus den feinsten Gesellschaftskreisen der Sodili spezialisiert hat. Sie ist schlau und flink und kann sich mühelos durch Menschenmengen bewegen, ohne entdeckt zu werden.

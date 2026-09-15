@@ -20,7 +20,7 @@ Die Familie Akilonis ist dafür bekannt vor allem Micu-Formen von Wasser-Lebewes
 
 # Charaktere
 
-* [König Thalmar Akilonis](/content/Volk_/Lateralen_/Sodili/Charakter_/Thalmar-Balena-Akilonis_Ondor/index.md)
+* [König Thalmar Akilonis](./Charakter_/Thalmar-Balena-Akilonis_Ondor/index.md)
 * [Prinz Harvik Akilonis](./Charakter_/Prinz-Harvik/index.md)
 * [Prinzessin Alyra Akilonis](./Charakter_/Prinzessin-Alyra/index.md)
 * [Lady Lira](./Charakter_/Lady-Lira/index.md)

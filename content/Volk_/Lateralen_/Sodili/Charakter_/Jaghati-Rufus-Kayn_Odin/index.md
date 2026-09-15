@@ -1,5 +1,16 @@
 # Jaghati Kayn
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Jaghati Rufus Kayn |
+| **Rolle:** | Seemann |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Carpebur (Einflussbereich) |
+| **Beruf:** | Seemann auf Handels- und Versorgungsschiffen |
+
 Jaghati Kayn ist ein erfahrener Sodili-Seemann, der lange auf Handels- und Versorgungsschiffen im Einflussbereich von Carpebur gearbeitet hat.
 Sein Micu Odin ist ein kluger Rabe, der ihm auf Reisen als Späher und unruhiges Gewissen dient.
 

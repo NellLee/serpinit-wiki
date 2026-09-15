@@ -1,5 +1,16 @@
 # Lady Lira
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Lady Lira |
+| **Rolle:** | Beraterin am Hof |
+| **Geschlecht:** | Weiblich |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Carpebur |
+| **Beruf:** | Händlerin und Beraterin der Dynastie Akilonis |
+
 Lady Lira ist eine der angesehensten Händlerinnen Carpeburs und Beraterin am Hof der [Dynastie Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md), begleitet von ihrer Katzen-Micu Kirea.
 
 ## Haltung zur Ikusation

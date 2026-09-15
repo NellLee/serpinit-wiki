@@ -1,5 +1,15 @@
 # Renn Ionfor
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Renn Kienu Ionfor |
+| **Rolle:** | Schiffsmechaniker |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Beruf:** | Schiffsmechaniker |
+
 * **Stärken**: Umfassendes Wissen über jedes Teil des Schiffes, Fähigkeit, jedes Problem zu beheben und das Schiff in Topform zu halten, selbst in den widrigsten Bedingungen.
 * **Schwächen**: Möglicherweise zu sehr darauf fokussiert, mechanische Probleme zu lösen, vernachlässigt dabei aber vielleicht die zwischenmenschlichen Beziehungen oder andere wichtige Aspekte des Schiffsbetriebs.
 * **Beschreibung**: Renn ist ein begabter Schiffsmechaniker, der sich mit jedem Teil des Schiffes bestens auskennt. Von den Masten bis zum Rumpf, von den Segeln bis zu den Rudern - Renn weiß, wie man jedes Problem behebt und das Schiff in Topform hält, selbst in den widrigsten Bedingungen. Seine Erfahrung und sein Geschick machen ihn zu einem unverzichtbaren Mitglied der Crew, auf das sich alle verlassen können, wenn es um Reparaturen und Wartung geht.

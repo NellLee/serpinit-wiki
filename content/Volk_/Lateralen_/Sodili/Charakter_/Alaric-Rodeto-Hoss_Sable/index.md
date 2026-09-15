@@ -1,6 +1,16 @@
 # Alaric Hoss
 
+<!-- layout: overview -->
+
 ![Alaric Rodeto Hoss](./images/Sodili-Lateral_Alaric-Rodeto-Hoss.png)
+
+| | |
+| --- | --- |
+| **Name:** | Alaric Rodeto Hoss |
+| **Rolle:** | Rekrut der Diebesgilde Brauner-Ring |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Beruf:** | Rekrut der Diebesgilde Brauner-Ring |
 
 Alaric Rodeto Hoss ist ein erfahrener [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md), dessen Ruf bereits in der Gemeinschaft bekannt war, noch bevor die Ereignisse um den [Kulios-Zwischenfall](/content/Ereignis_/Kulios-Zwischenfall.md) begannen.
 Seine Ratte-Micu Sable sitzt für gewöhnlich auf seiner Schulter und schnüffelt neugierig in die Luft.

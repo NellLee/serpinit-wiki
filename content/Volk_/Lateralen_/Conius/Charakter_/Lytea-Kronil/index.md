@@ -1,5 +1,16 @@
 # Lytea Kronil
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Lytea Kronil |
+| **Rolle:** | Wandernde Heilerin |
+| **Geschlecht:** | Weiblich |
+| **Spezies / Rasse:** | [Conius-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Keine feste Heimat, zieht seither durch die Welt |
+| **Beruf:** | Heilerin, spezialisiert auf unterstützende Zaubersprüche |
+
 Lytea Kronil ist eine talentierte Conius-Laterale.
 Sie wurde von ihren Eltern intensiv in der Kunst der Magie ausgebildet und hat daher nicht die Resrubor-Akademie besucht.
 Während ihrer familiären Ausbildungszeit entwickelte sie ein breites Spektrum an magischen Fähigkeiten, da ihre beiden Elternteile ebenfalls gute Magier waren.

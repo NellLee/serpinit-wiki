@@ -1,6 +1,16 @@
 # Jopun Krolpin
 
+<!-- layout: overview -->
+
 ![Jopun Krolpin](./images/Jopin-Krolpin.png)
+
+| | |
+| --- | --- |
+| **Name:** | Jopun Krolpin |
+| **Rolle:** | Organisator und Bote |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Varnops](/content/Volk_/Varnops/index.md) |
+| **Beruf:** | Organisator und diplomatischer Vertreter der Krolpins |
 
 Jopun Krolpin ist ein jüngerer Sohn von [Hiante Krolpin](/content/Volk_/Varnops/Familie_/Krolpin_Zirkelgruender/Charakter_/Hiante-Krolpin/index.md) und gehört zur Generation der Krolpins, die bereits im Umfeld des [Zirkel-Wettstreits](/content/Ereignis_/Zirkel-Wettstreit/index.md) aufwächst, ohne selbst noch die isolierte Frühzeit des Zirkelgebirges erlebt zu haben.
 

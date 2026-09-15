@@ -1,5 +1,16 @@
 # Elikta
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Elikta |
+| **Rolle:** | Königin der Drachenkinder (seit der Ikusation) |
+| **Geschlecht:** | Weiblich |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/Sodili/index.md) |
+| **Heimat:** | Navura (seit der Ikusation) |
+| **Beruf:** | Vermittlerin zwischen Sodili und Drachenkindern |
+
 Elikta ist eine [Sodili-Laterale](/content/Volk_/Lateralen_/Sodili/index.md), die im späteren Verlauf der [Ikusation](/content/Ereignis_/Ikusation.md) nach [Navura](/content/Himmelskoerper_/Navura/index.md) gelangte und dort zu einer Schlüsselfigur der späten [Navura-Kriege](/content/Ereignis_/Krieg-um-Navura.md) wurde.
 
 ## Rolle in der Ikusation

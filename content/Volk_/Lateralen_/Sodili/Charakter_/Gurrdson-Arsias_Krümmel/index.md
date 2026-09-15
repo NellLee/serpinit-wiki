@@ -1,5 +1,17 @@
 # Gurrdson Arsias
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Gurrdson Arsias |
+| **Rolle:** | Verbannter Krieger |
+| **Alter:** | Etwa 45 Jahre |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) (Vikinger-Sodili) |
+| **Heimat:** | Verbannt aus der Heimat der Vikinger-Sodili |
+| **Beruf:** | Ehemaliger Beschützer des Vikinger-Königs |
+
 * **Stärken**: Gurrdson ist ein erfahrener Kämpfer mit ausgezeichneten Fähigkeiten im Umgang mit Schwert und Schild. Sein defensiver Kampfstil macht ihn zu einem hervorragenden Beschützer seiner Gefährten. Er ist auch sehr loyal und steht seinen Verbündeten in jeder Situation zur Seite.
 
 * **Schwächen**: Trotz seiner Kampferfahrung leidet Gurrdson unter Schuldgefühlen und Versagensangst aufgrund seines vermeintlichen Versagens, den Vikinger-König zu beschützen. Sein pessimistischer Blick auf die Welt macht es manchmal schwer für ihn, Hoffnung zu finden.

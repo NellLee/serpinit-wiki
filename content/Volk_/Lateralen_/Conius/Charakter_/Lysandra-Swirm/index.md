@@ -1,8 +1,18 @@
 # Lysandra Swirm
 
+<!-- layout: overview -->
+
 ![Lysandra Swirm](./images/Conius-Lateral_Lysandra-Swirm.png)
 
-**Name:** Lysandra Swirm**Rolle:** Runenkundige mit Schwerpunkt Wasser**Alter:** Junge Erwachsene**Geschlecht:** Weiblich**Spezies/Rasse:** [Conius-Laterale](/content/Volk_/Lateralen_/index.md)**Heimat:** Carpebur**Beruf:** Besitzerin einer Unterkunft am Kapis-Schloss
+| | |
+| --- | --- |
+| **Name:** | Lysandra Swirm |
+| **Rolle:** | Runenkundige mit Schwerpunkt Wasser |
+| **Alter:** | Junge Erwachsene |
+| **Geschlecht:** | Weiblich |
+| **Spezies / Rasse:** | [Conius-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Carpebur |
+| **Beruf:** | Besitzerin einer Unterkunft am Kapis-Schloss |
 
 ## Allgemein
 

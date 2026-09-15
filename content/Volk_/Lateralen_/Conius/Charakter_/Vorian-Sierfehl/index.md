@@ -1,5 +1,17 @@
 # Vorian Sierfehl
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Vorian Sierfehl |
+| **Rolle:** | Leiter der Resrubor-Akademie |
+| **Alter:** | Höheres Alter |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Resrubor-Akademie |
+| **Beruf:** | Leiter der Resrubor-Akademie |
+
 Vorian Sierfehl ist ein älterer Conius-Lateraler und Leiter der [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md).
 
 ## Rolle in der Ikusation

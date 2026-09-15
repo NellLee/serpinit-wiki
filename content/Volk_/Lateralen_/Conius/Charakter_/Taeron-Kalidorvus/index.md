@@ -1,5 +1,16 @@
 # Taeron Kalidorvus
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Taeron Kalidorvus |
+| **Rolle:** | Wanderforscher |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Ehemals Resrubor-Akademie, nun umherziehend |
+| **Beruf:** | Ehemaliger Lehrer der Lumesya-Fraktion, unabhängiger Forscher |
+
 Taeron Kalidorvus ist ein Conius-Lateraler, der sowohl in den Fraktionen Lumesya als auch Audentra wirkte.
 Für einige Zeit lehrte er in der Lumesya-Fraktion, bevor er die Resrubor-Akademie verließ, um außerhalb ihrer Mauern weitere Erkenntnisse über die Sgrisignier und die Struktur der Magie zu gewinnen.
 

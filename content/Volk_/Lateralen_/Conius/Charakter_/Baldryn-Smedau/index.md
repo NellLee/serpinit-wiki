@@ -1,6 +1,16 @@
 # Baldryn Smedau
 
-**Name:** Baldryn Smedau**Rolle:** Meister der Artefakte**Alter:** Verstorben im hohen Alter**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateraler](/content/Volk_/Lateralen_/index.md)**Heimat:** Conius-Gemeinschaft (Herkunft)**Beruf:** Unabhängiger Erfinder und Artefaktschöpfer
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Baldryn Smedau |
+| **Rolle:** | Meister der Artefakte |
+| **Alter:** | Verstorben im hohen Alter |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Conius-Gemeinschaft (Herkunft) |
+| **Beruf:** | Unabhängiger Erfinder und Artefaktschöpfer |
 
 
 Baldryn Smedau war ein herausragender Conius-Lateraler, der für seine einzigartigen Beiträge zur Magie und die Entwicklung faszinierender Artefakte bekannt war.

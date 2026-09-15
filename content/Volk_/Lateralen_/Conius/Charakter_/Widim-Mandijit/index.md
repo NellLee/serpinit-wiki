@@ -1,5 +1,17 @@
 # Widim Mandijit
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Widim Mandijit |
+| **Rolle:** | Schüler und Bote |
+| **Alter:** | Jugendlich |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Conius](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Resrubor-Akademie |
+| **Beruf:** | Schüler und vertraulicher Bote der Resrubor-Akademie |
+
 Widim Mandijit ist ein junger Conius und der Neffe von [Ingvor Nemet Mandijit](/content/Volk_/Lateralen_/Conius/Charakter_/Ingvor-Nemet-Mandijit/index.md).
 Als begabter Schüler der Resrubor-Akademie wurde er früh mit vertraulichen Botengängen betraut, da man ihm Disziplin, Verschwiegenheit und ernsthafte Wissbegier zuschrieb.
 

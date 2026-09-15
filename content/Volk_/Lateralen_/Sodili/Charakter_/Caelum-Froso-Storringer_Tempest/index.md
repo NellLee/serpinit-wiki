@@ -1,8 +1,18 @@
 # Caelum Storringer
 
+<!-- layout: overview -->
+
 ![Caelum Storringer](./images/Sodili-Lateral_Caelum-Froso-Storringer.png)
 
-**Name:** Caelum Froso Storringer**Rolle:** Gardist des Königshauses**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Sodili-Lateral](/content/Volk_/Lateralen_/index.md)**Heimat:** [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)**Beruf:** Mitglied der königlichen Garde
+| | |
+| --- | --- |
+| **Name:** | Caelum Froso Storringer |
+| **Rolle:** | Gardist des Königshauses |
+| **Alter:** | Mittleren Alters |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Sodili-Lateral](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) |
+| **Beruf:** | Mitglied der königlichen Garde |
 
 ## Allgemein
 

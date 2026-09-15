@@ -1,8 +1,18 @@
 # Ingvor-Nemet Mandijit
 
+<!-- layout: overview -->
+
 ![Ingvor-Nemet Mandijit](./images/Conius-Lateral_Ingvor-Nemet-Mandijit.png)
 
-**Name:** Ingvor-Nemet Mandijit**Rolle:** Elementarforscher**Alter:** Mittleren Alters**Geschlecht:** Männlich**Spezies/Rasse:** [Conius-Lateraler](/content/Volk_/Lateralen_/index.md)**Heimat:** Villa am See Kulios**Beruf:** Ehemaliger Lehrer an der Resrubor-Akademie, unabhängiger Forscher
+| | |
+| --- | --- |
+| **Name:** | Ingvor-Nemet Mandijit |
+| **Rolle:** | Elementarforscher |
+| **Alter:** | Mittleren Alters |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Villa am See Kulios |
+| **Beruf:** | Ehemaliger Lehrer an der Resrubor-Akademie, unabhängiger Forscher |
 
 ## Allgemein
 
@@ -66,7 +76,7 @@ Den Anstoß dazu gab ein Geheimbrief des Königshauses Akilonis, der höchste Di
 
 > "Du wurdest als einer der weisesten Conius, der die Rätsel der Magie tief erforscht hat und die Geheimnisse der magischen Runen versteht, auserwählt, dem Ruf des Wals zu folgen."
 
-Der "Ruf des Wals" verweist vermutlich auf König [Thalmar Akilonis](/content/Volk_/Lateralen_/Sodili/Charakter_/Thalmar-Balena-Akilonis_Ondor/index.md) selbst und seinen Wal-Micu Ondor.
+Der "Ruf des Wals" verweist vermutlich auf König [Thalmar Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/Charakter_/Thalmar-Balena-Akilonis_Ondor/index.md) selbst und seinen Wal-Micu Ondor.
 
 ## Beziehungen
 

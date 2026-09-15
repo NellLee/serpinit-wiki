@@ -1,5 +1,16 @@
 # Lord Andor
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Lord Andor |
+| **Rolle:** | Berater am Hof |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Carpebur |
+| **Beruf:** | Adliger Berater der Dynastie Akilonis |
+
 Lord Andor ist ein adliger Berater am Hof der [Dynastie Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md) in Carpebur, begleitet von seiner Fisch-Micu Lonne.
 
 ## Haltung zur Ikusation
