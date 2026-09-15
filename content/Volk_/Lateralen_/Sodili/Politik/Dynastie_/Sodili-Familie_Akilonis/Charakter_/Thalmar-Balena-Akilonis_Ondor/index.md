@@ -1,5 +1,16 @@
 # König Thalmar Akilonis
 
+<!-- layout: overview -->
+
+| | |
+| --- | --- |
+| **Name:** | Thalmar Balena Akilonis |
+| **Rolle:** | König der Sodili |
+| **Geschlecht:** | Männlich |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Heimat:** | Kapis-Schloss, Carpebur |
+| **Beruf:** | Herrscher von Carpebur, spiritueller Führer der Sodili |
+
 # Herkunft
 Thalmar Balena Akilonis entstammt der angesehenen [Dynastie Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md), die seit Generationen über die Sodili herrscht.
 Geboren als Erbe der Krone, wurde er in Carpebur, der Hauptstadt des Sodili-Reiches, geboren und wuchs im prächtigen Kapis-Schloss auf.
