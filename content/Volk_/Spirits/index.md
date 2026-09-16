@@ -18,3 +18,8 @@ Die große Bandbreite ihrer Kräfte spiegelt wider, wie viel Substanz sich auf d
 
 Oft ähneln Spirits kleinen Tieren wie Katzen, Füchsen, Ottern oder Vögeln, doch bereits auf dem ersten Blick erkennt man ihre offensichtlich magische Natur.
 Viele Spirits sind in ihrer Erscheinung sehr farbenfroh, einige sehen sogar aus als würden sie aus purem Licht (oder Schatten) bestehen, andere wiederum sind von Blumen und Pflanzen bewachsen oder weisen ein ähnlich ungewöhnliches Fell oder Federkleid auf.
+
+Im [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) hielten sich die Spirits zunächst vollständig heraus.
+Sie ergriffen für keine der beiden Kriegsparteien Partei, ganz gleich wie lange der Konflikt andauerte.
+Mit den Zyklen wuchs jedoch ihr Groll: Die fortschreitende Zerstörung der Wälder und die Respektlosigkeit vieler Drachenkinder gegenüber der lebendigen Natur Navuras ließen ihre Zurückhaltung bröckeln.
+Als die Sylvanars schließlich zum entscheidenden Bann gegen die Drachenkinder ansetzten, schlossen sich mehrere Spirits diesem Ritual aus eigenem Willen an.

@@ -33,7 +33,10 @@ So wurde Navura für die Angreifer nie zu einer stabil beherrschbaren Beute, son
 
 Zum entscheidenden Wendepunkt wurde schließlich ein besonders großer sylvanarischer Naturzauber.
 Mehrere Stämme bündelten ihre Kräfte, um nicht bloß einen Angriff abzuwehren, sondern die magische Struktur der eindringenden Drachenkinder selbst zu treffen.
+Aus Groll über die fortschreitende Zerstörung ihrer Wälder schlossen sich diesem Ritual erstmals auch mehrere [Spirits](/content/Volk_/Spirits/index.md) an, deren Beteiligung dem Bann eine bis dahin unerreichte Wucht verlieh.
 Dieser Bann kappte deren Kraft nicht vollständig, störte aber jene von Ignatius geprägte Lebendigkeit, durch welche Feueratem und Schwingen möglich gewesen waren.
+
+Wie genau sich diese Störung dauerhaft und über das gesamte Volk der Drachenkinder hinweg auswirken konnte, ist noch nicht abschließend geklärt. <span style="color: red;">(TODO)</span>
 
 Mit diesem Schlag verloren die Drachenkinder einen wesentlichen Teil ihrer ursprünglichen Magie.
 Der Krieg endete damit nicht sofort, doch das Kräfteverhältnis verschob sich dauerhaft.

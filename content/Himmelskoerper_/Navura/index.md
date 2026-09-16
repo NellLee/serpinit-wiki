@@ -12,7 +12,7 @@ Zusammen mit der Magie die den gesamten Planeten durchdringt haben sich so sehr 
 Navura ist ein Planet der zu großen Teilen von der wilden, ungezähmten Natur definiert wird.
 Viele Waldgebiete wurden bisher von keinem intelligenten Lebewesen genauer erkundet, geschweige denn erschlossen.
 Eine Ausnahme bilden hier die Spirits.
-Es gibt ganze Städte dieses Volkes in den geheimnisvollen Wäldern, da sie die magische und unberührte Natur dieser Wälder bevorzugen.
+Sie durchstreifen diese geheimnisvollen Wälder als ortlose, mystische Erscheinungen, ohne sich an einem festen Ort niederzulassen, da sie die magische und unberührte Natur dieser Wälder bevorzugen.
 Die Magie Silvaas, welche die Erdreiche Navuras durchdringt, wird von unterschiedlichen sensiblen Lebensformen als ein leichtes Pulsieren wahrgenommen.
 Aus diesem Grunde und auch aufgrund der starken Fruchtbarkeit des Planeten wurde die Analogie zu einem lebendigen Herzen hergestellt.
 Dieser Rhythmus der Magie ist äußerst regelmäßig und wird sogar für die interplanetare Zeitrechnung genutzt.

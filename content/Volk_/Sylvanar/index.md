@@ -73,6 +73,7 @@ Verhandlungen mit diesem Volk finden daher auf dafür vorgesehenen rituellen Pl�
 
 Das einzige Volk welches die Sylvanars ohne Einschränkung innerhalb ihrer Grenzen akzeptieren ist das der Spirits.
 Die Sylvanars zollen ihnen großen Respekt und sehen ihre Gesellschaft als Ehre.
+Dieser Respekt geht auch auf ihre Rolle im [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) zurück, in dem sich mehrere Spirits den Sylvanars anschlossen.
 
 # Aussehen
 
