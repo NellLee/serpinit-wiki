@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { preventDefault } from 'svelte/legacy';
-
 	import { goto } from '$app/navigation';
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import SearchEntry from '$lib/components/SearchEntry.svelte';
@@ -145,7 +143,13 @@
 			<div class="utility-content search-layout">
 				<section class="search-main">
 					<section class="search-controls">
-						<form onsubmit={preventDefault(newSearch)} id="searchbar">
+						<form
+						onsubmit={(event) => {
+							event.preventDefault();
+							newSearch();
+						}}
+						id="searchbar"
+					>
 							<input type="text" bind:value={searchInput} placeholder="Im Wiki suchen..." />
 							<button type="submit" aria-label="Suche ausführen">
 								<Icon src={MagnifyingGlass} solid size="16" />
