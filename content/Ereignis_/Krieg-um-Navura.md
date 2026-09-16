@@ -8,11 +8,11 @@ Der Krieg prägte sowohl die politische Ordnung Navuras als auch die spätere En
 ## Ausgangslage
 
 Die besondere Schärfe des Konflikts hängt eng mit der Entstehung der Drachenkinder zusammen.
-Sie wurden auf [Mognar](/content/Himmelskoerper_/Mognar/index.md) aus verbannten Sylvanars neu geformt und trugen in den ersten Generationen noch Erinnerungsreste und emotionale Bindungen aus ihrem früheren Leben in sich.
+Sie wurden auf [Mognar](/content/Himmelskoerper_/Mognar/index.md) aus verbannten Sylvanars neu geformt; die Gründergeneration behielt dabei ihre volle Erinnerung an das frühere Leben, die sich über die folgenden Generationen zu Mythos und Legende wandelte.
 Gerade daraus wuchs ein widersprüchliches Verhältnis zu Navura:
 der Planet erschien zugleich als verlorene Herkunft, begehrter Lebensraum und vermeintlich geraubtes Erbe.
 
-Den Anstoß zum Kontakt lieferte dabei ausgerechnet zurückgelassenes Testmaterial der [Ikusation](/content/Ereignis_/Ikusation.md): Neugierig auf die von den Lateralen liegen gelassenen Gegenstände an einem Mognar-Portal, wagten die ersten Drachenkinder den Schritt durch ein anderes, ungetestetes Portal und entdeckten so Navura (siehe [Mognar](/content/Himmelskoerper_/Mognar/index.md#entdeckung-navuras)).
+Den Anstoß zum Kontakt lieferte dabei ausgerechnet zurückgelassenes Testmaterial der [Ikusation](/content/Ereignis_/Ikusation.md): Neugierig auf die von den Lateralen liegen gelassenen Gegenstände an einem Mognar-Portal, wagten Nachfahren der ersten Drachenkinder den Schritt durch ein anderes, ungetestetes Portal und entdeckten so Navura (siehe [Mognar](/content/Himmelskoerper_/Mognar/index.md#entdeckung-navuras)).
 
 Diese Deutung wurde später theologisch zugespitzt.
 Viele Drachenkinder leiteten aus ihrer Nähe zu Ignatius und aus ihrer drachenähnlichen Gestalt einen Anspruch auf Navura ab und verstanden die Sylvanars nicht als rechtmäßige Bewohner, sondern als Hindernis.

@@ -8,12 +8,43 @@ Ihre Geschichte ist eng mit dem [Krieg um Navura](/content/Ereignis_/Krieg-um-Na
 
 <!-- event: start=-12.577508819600794 category="Mognar" text="Die Drachenkinder entstehen" -->
 
-Die Drachenkinder entstanden nicht wie die anderen modernen Völker durch natürliche Evolution.
-Ignatius nutzte die Körper verbannter Sylvanars und füllte ihr Blut mit seiner wutverzerrten Magie.
-So entstand ein neues Volk, das äußerlich deutlich an Drachen erinnert und dessen innere Magiestruktur von Anfang an unausgewogen war.
+Die Drachenkinder entstanden nicht wie die anderen modernen Völker durch natürliche Evolution, sondern durch eine gewaltsame, auf wenige Wochen komprimierte Verwandlung.
 
-Gerade die ersten Generationen trugen noch Erinnerungsreste und emotionale Spannungen aus ihrem früheren Leben in sich.
-Aus dieser deformierten Herkunft erwuchs der tiefe Hass vieler Drachenkinder auf die Sylvanars und die Fixierung auf [Navura](/content/Himmelskoerper_/Navura/index.md), das sie zugleich als verlorene Heimat und als rechtmäßiges Erbe deuteten.
+## Verbannung
+
+Am Ursprung stand eine kleine Gruppe von etwa zwölf sylvanarischen Kriegern.
+Sie hatten sich heimlich einer verbotenen Praxis bedient: Sie entzogen ihrer Umgebung gezielt Kraft, um sich selbst zu stärken, etwa ihr eigenes Muskelwachstum zu beschleunigen.
+Unter den Sylvanars gilt ein solcher Eingriff als schwerer Verstoß gegen die Naturverbundenheit, die den Kern ihrer Lebensweise bildet.
+
+Als Strafe wurden die Krieger durch ein altes, ihnen unbekanntes Sgrisignier-Portal geschickt.
+Die Sylvanars kannten die Eigenschaften solcher Portale nicht und nahmen die Chaos-Interferenzen des Steinbogens nur als hochgefährliches Phänomen wahr.
+Durch einen glücklichen Zufall war die Lücke zwischen den Interferenzen in diesem Moment ungewöhnlich groß: Nur wenige der Gruppe wurden beim Durchgang zerrissen, die meisten kamen unversehrt auf der anderen Seite an.
+
+## Ankunft auf Mognar
+
+Die andere Seite des Portals führte nach [Mognar](/content/Himmelskoerper_/Mognar/index.md).
+Die brütende Hitze des Planeten hätte die Überlebenden binnen weniger Minuten getötet.
+Trotz der völligen Abwesenheit vertrauter Fauna nahmen sie dort eine ungewöhnlich starke Präsenz des Collektivoras wahr — tatsächlich handelte es sich um die Abstrahlung [Ignatius'](/content/Allgemein/Ignatius.md), die sich für sie ähnlich wie Navuras Herzschlag anfühlte, jedoch stärker und durchgehend statt pulsierend.
+
+In ihrer Verzweiflung griffen die Krieger noch einmal zu derselben Technik, die zu ihrer Verbannung geführt hatte: Sie versuchten, diese Kraft anzuzapfen, um ihre eigene Körpertemperatur zu senken und so zu überleben.
+Der Zauber gelang und rettete sie tatsächlich vor dem Hitzetod — doch er ließ sie zugleich in eine tiefe Trance fallen.
+
+## Die Verwandlung
+
+Über die Trance floss nun ein stetiger Strom von Ignatius' roher, niemals zur Ruhe kommender Substanz in ihre Körper — anders als auf Navura, wo sich Kraft im Rhythmus eines Pulses überträgt.
+Dieser andauernde Zustrom löste eine verquere, extrem beschleunigte Form arcanogener Evolution aus, die sich normalerweise über unzählige Generationen erstreckt, hier aber innerhalb weniger Wochen Körper und Erbgut der Krieger direkt umformte.
+
+Da die Verwandlung nicht kontrolliert, sondern chaotisch verlief, prägten Persönlichkeit, Unterbewusstsein und ursprüngliches Aussehen jedes einzelnen Sylvanar die Form mit, die sein Körper annahm.
+Von Anfang an entstand so keine einheitliche Gestalt, sondern eine Bandbreite unterschiedlicher Varianten — von dunkler, vulkangesteinartiger Haut bis zu feuertoniger Färbung mit glühenden Zeichnungen, und allen erdenklichen Mischformen dazwischen.
+
+## Erinnerung und Zivilisation
+
+Die Krieger erwachten aus der Verwandlung mit vollständiger, klarer Erinnerung an ihr früheres Leben als Sylvanars und an die Ereignisse ihrer Verbannung.
+Sie bauten auf Mognar eine eigene Zivilisation auf.
+Mit jeder folgenden Generation verblasste diese Erinnerung jedoch weiter zu Erzählung und Mythos, oft verzerrt gegenüber dem, was die Gründer tatsächlich erlebt hatten.
+Aus dieser sich wandelnden Überlieferung erwuchs bei vielen Drachenkindern ein tiefer Groll gegen die Sylvanars und eine Fixierung auf [Navura](/content/Himmelskoerper_/Navura/index.md), das in den Erzählungen zugleich als verlorene Heimat und als rechtmäßiges Erbe erschien.
+
+Erst viele Generationen später, noch vor der [Ikusation](/content/Ereignis_/Ikusation.md), stießen Nachfahren der Gründergeneration zufällig auf ein Portal nach Navura und begannen, den Planeten zu erkunden.
 
 # Lebensraum
 
@@ -42,6 +73,8 @@ Eine späte Folge des Navura-Konflikts war zudem die [Polarisierung der Drachenk
 Sie machte sichtbar, dass das Volk nicht mehr geschlossen denselben Anspruch auf Krieg, Herkunft und Zukunft teilte.
 
 # Aussehen
+
+Weder ihre Färbung noch ihre Hauttextur sind einheitlich: Sie reichen von dunklem, vulkangesteinartigem Grau bis zu feuertoniger, von glühenden Zeichnungen durchzogener Haut, mit vielen Mischformen dazwischen — eine Vielfalt, die bereits bei der Gründergeneration entstand.
 
 Drachenkinder sind größer als die meisten Vertreter der anderen Völker.
 Ihre Wirbelsäule geht in einen langen, stachelbesetzten Schwanz über.

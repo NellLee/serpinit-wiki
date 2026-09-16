@@ -3,8 +3,9 @@
 ![Mognar](./images/Mognar_Planet_Weltraum-Ansicht.png)
 
 Mognar ist ein steiniger Lavaplanet und der erste Planet im Orbit von [Ikus](/content/Himmelskoerper_/Ikus/index.md).
-Durch die extremen Bedingungen hat sich auf Mognar kein natürliches Ökosystem entwickelt.
-Sämtliche bekannten Aktivitäten an seiner Oberfläche stammen im Wesentlichen von vulkanischen Prozessen, [Feuer-Elementaren](/content/Volk_/Elementare/index.md) und später von den [Drachenkindern](/content/Volk_/Drachenkinder/index.md).
+Die extremen Bedingungen lassen nur ein extrem karges, hochspezialisiertes Ökosystem zu, das sich auf die selteneren, stabileren Nischen zwischen den dichten Feuer-Elementar-Zonen beschränkt — darunter hitzeresistente Schnecken und korallenartige, knöcherne Sträucher.
+Die [Drachenkinder](/content/Volk_/Drachenkinder/index.md) entwickelten früh spezialisierte Zucht- und Haltungstechniken, um allein aus diesem kargen Ökosystem eine ganze Zivilisation zu ernähren.
+Sämtliche bekannten Aktivitäten an seiner Oberfläche stammen im Wesentlichen von vulkanischen Prozessen, [Feuer-Elementaren](/content/Volk_/Elementare/index.md), diesem kargen Ökosystem und den Drachenkindern.
 
 ## Planetare Prägung
 
