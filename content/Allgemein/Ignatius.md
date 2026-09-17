@@ -20,21 +20,21 @@ Mognar erscheint dadurch nicht als bloßer Lavaplanet, sondern als Welt, in der 
 
 Gerade deshalb gilt Ignatius im heutigen Bestand weniger als Schöpfer einer ganzen Weltordnung denn als latente, gefährliche Quelle ungerichteter Macht.
 
-## Die Drachenkinder
+## Die Vorenkai
 
-Die wichtigste direkte historische Folge seines Handelns ist die Entstehung der [Drachenkinder](/content/Volk_/Drachenkinder/index.md).
+Die wichtigste direkte historische Folge seines Handelns ist die Entstehung der [Vorenkai](/content/Volk_/Vorenkai/index.md).
 Als verbannte [Sylvanars](/content/Volk_/Sylvanar/index.md) auf Mognar zugrunde gingen und in ihrer Not noch einmal nach magischer Hilfe griffen, antwortete nicht Silvaa oder ein neutrales Naturprinzip, sondern Ignatius.
 Er füllte die sterbenden Körper mit seiner wutverzerrten Magie und formte sie zu einem neuen Volk um.
 
 Diese Herkunft blieb nicht folgenlos.
-Die instinktive Magie der Drachenkinder, ihr Verhältnis zu Feuer und Blut sowie ihr späterer Rückgriff auf [Blutrituale](/content/Volk_/Drachenkinder/Blutrituale.md) stehen in direkter Verbindung zu Ignatius' Eingriff.
-Auch der [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) hängt mittelbar mit ihm zusammen, da viele Drachenkinder ihren eigenen Anspruch auf Herkunft und Herrschaft aus ihrer Nähe zu ihm ableiteten.
+Die instinktive Magie der Vorenkai, ihr Verhältnis zu Feuer und Blut sowie ihr späterer Rückgriff auf [Blutrituale](/content/Volk_/Vorenkai/Blutrituale.md) stehen in direkter Verbindung zu Ignatius' Eingriff.
+Auch der [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) hängt mittelbar mit ihm zusammen, da viele Vorenkai ihren eigenen Anspruch auf Herkunft und Herrschaft aus ihrer Nähe zu ihm ableiteten.
 
 ## Religiöse Deutung
 
 In älteren serpinitären Lehren wurde Ignatius zeitweise mit dem Stern [Ikus](/content/Himmelskoerper_/Ikus/index.md) verwechselt oder unmittelbar mit ihm verbunden.
-Erst das Auftreten der Drachenkinder machte deutlich, dass der Feueraspekt Creapatos' tatsächlich im Kern Mognars ruht.
+Erst das Auftreten der Vorenkai machte deutlich, dass der Feueraspekt Creapatos' tatsächlich im Kern Mognars ruht.
 Damit wurde Ignatius stärker als planetarer Kernaspekt und weniger als kosmische Lichtquelle verstanden.
 
-Für die Drachenkinder selbst blieb er dennoch weit mehr als bloße Ursprungsgestalt.
+Für die Vorenkai selbst blieb er dennoch weit mehr als bloße Ursprungsgestalt.
 Er ist für sie Quelle ihres Feuers, ihres Blutes und ihrer besonderen Stellung unter den Völkern, auch wenn ihre theologische Selbstdeutung deutlich über das hinausgeht, was der Bestand als gesichert erkennen lässt.

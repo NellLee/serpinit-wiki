@@ -27,7 +27,7 @@ Kulturell erscheint Ikus dennoch meist als das offen sichtbare Zentrum, während
 ## Mythologische Deutung
 
 In älteren serpinitären Lehren wurde Ikus zeitweise direkt mit [Ignatius](/content/Allgemein/Ignatius.md), dem Feueraspekt Creapatos', verbunden.
-Erst mit dem Auftreten der [Drachenkinder](/content/Volk_/Drachenkinder/index.md) wurde klarer, dass Ignatius nicht im Stern, sondern im Kern von [Mognar](/content/Himmelskoerper_/Mognar/index.md) ruht.
+Erst mit dem Auftreten der [Vorenkai](/content/Volk_/Vorenkai/index.md) wurde klarer, dass Ignatius nicht im Stern, sondern im Kern von [Mognar](/content/Himmelskoerper_/Mognar/index.md) ruht.
 Ikus ist demnach keine personifizierte Ausgeburt göttlicher Rage, sondern eine von Creapatos geschaffene kosmische Konstante.
 
 Diese Korrektur schwächte die symbolische Bedeutung des Sterns jedoch nicht.

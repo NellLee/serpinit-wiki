@@ -23,5 +23,5 @@ Für mehrere Völker Navuras ist Silvaa daher weniger bloß ein theologischer Na
 ## Umkämpfte Deutung
 
 Gerade weil Silvaa mit Navura verbunden wird, spielt ihr Name auch in politischen und religiösen Fehlansprüchen eine Rolle.
-Teile der [Drachenkinder](/content/Volk_/Drachenkinder/index.md) leiteten aus ihr einen vermeintlich rechtmäßigen Anspruch auf Navura ab.
+Teile der [Vorenkai](/content/Volk_/Vorenkai/index.md) leiteten aus ihr einen vermeintlich rechtmäßigen Anspruch auf Navura ab.
 Im Bestand erscheint dies jedoch als ideologische Umdeutung, nicht als belastbare Bestätigung durch Silvaa selbst.

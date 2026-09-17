@@ -155,7 +155,7 @@ Stattdessen greifen die Sylvanars auf bereits vorhandene magische Muster des Leb
 Gerade deshalb wirkt ihre Magie in fruchtbaren Gebieten besonders stark, während sie in lebensarmen Regionen wie Aridess nur eingeschränkt zur Verfügung steht.
 
 Einige wenige Male haben Sylvanar-Stämme ihre Kraft auch für starke Bannflüche genutzt die gegen andere Völkergruppen gerichtet waren.
-So wurden z.B. die Drachenkinder um ihre Magie gebracht, da sie die Sylvanars schon viele Zyklen terrorisiert und bekämpft hatten.
+So wurden z.B. die Vorenkai um ihre Magie gebracht, da sie die Sylvanars schon viele Zyklen terrorisiert und bekämpft hatten.
 Ein solcher Bannfluch richtet sich nicht gegen eine abstrakte Zauberkraft, sondern gegen die lebendige magische Struktur des betroffenen Volkes selbst.
 Normalerweise sehen Sylvanars aber davon ab ihre Kraft für Vorgänge zu nutzen die sich außerhalb ihres Territoriums ereignen.
 

@@ -21,5 +21,5 @@ Viele Spirits sind in ihrer Erscheinung sehr farbenfroh, einige sehen sogar aus 
 
 Im [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) hielten sich die Spirits zunächst vollständig heraus.
 Sie ergriffen für keine der beiden Kriegsparteien Partei, ganz gleich wie lange der Konflikt andauerte.
-Mit den Zyklen wuchs jedoch ihr Groll: Die fortschreitende Zerstörung der Wälder und die Respektlosigkeit vieler Drachenkinder gegenüber der lebendigen Natur Navuras ließen ihre Zurückhaltung bröckeln.
-Als die Sylvanars schließlich zum entscheidenden Bann gegen die Drachenkinder ansetzten, schlossen sich mehrere Spirits diesem Ritual aus eigenem Willen an.
+Mit den Zyklen wuchs jedoch ihr Groll: Die fortschreitende Zerstörung der Wälder und die Respektlosigkeit vieler Vorenkai gegenüber der lebendigen Natur Navuras ließen ihre Zurückhaltung bröckeln.
+Als die Sylvanars schließlich zum entscheidenden Bann gegen die Vorenkai ansetzten, schlossen sich mehrere Spirits diesem Ritual aus eigenem Willen an.

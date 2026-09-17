@@ -9,7 +9,7 @@ Von hier aus gelangst du sowohl zu den großen Spezies als auch zu Untergruppen 
 
 # Die modernen Völker
 
-- [Die Drachenkinder](./Drachenkinder/index.md)
+- [Die Vorenkai](./Vorenkai/index.md)
 - [Die Elementare](./Elementare/index.md)
 - [Die Lateralen](Lateralen_/index.md)
 - [Die Momensi](./Momensi/index.md)
@@ -20,4 +20,4 @@ Von hier aus gelangst du sowohl zu den großen Spezies als auch zu Untergruppen 
 
 ## Schnellstart
 
-Für moderne Perspektiven eignen sich besonders [Die Lateralen](Lateralen_/index.md), [Die Drachenkinder](./Drachenkinder/index.md) und [Die Fluctro](./Fluctro/index.md).
+Für moderne Perspektiven eignen sich besonders [Die Lateralen](Lateralen_/index.md), [Die Vorenkai](./Vorenkai/index.md) und [Die Fluctro](./Fluctro/index.md).

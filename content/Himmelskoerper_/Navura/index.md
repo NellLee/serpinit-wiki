@@ -40,12 +40,12 @@ Gleichzeitig deutete sich damit an, dass Navura lange vor einem belastbaren Erst
 ## Kriegsschauplatz und Befriedung
 
 Navura war nicht nur Ziel neugieriger oder diplomatischer Annäherung, sondern über viele Zyklen auch Schauplatz eines zermürbenden Grenz- und Invasionskonflikts.
-Im [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) versuchten die [Drachenkinder](/content/Volk_/Drachenkinder/index.md), den Planeten gegen die [Sylvanars](/content/Volk_/Sylvanar/index.md) zu behaupten oder neu zu gewinnen.
+Im [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) versuchten die [Vorenkai](/content/Volk_/Vorenkai/index.md), den Planeten gegen die [Sylvanars](/content/Volk_/Sylvanar/index.md) zu behaupten oder neu zu gewinnen.
 Die dichte, magisch geprägte Natur Navuras wurde dabei selbst zu einem strategischen Faktor und spielte den sylvanarischen Verteidigern dauerhaft in die Hände.
 
-In der späten Kriegsphase verlagerte sich der Konflikt teilweise in das Drachenkinder-Volk selbst.
+In der späten Kriegsphase verlagerte sich der Konflikt teilweise in das Vorenkai-Volk selbst.
 Mit [Elikta](/content/Volk_/Lateralen_/Sodili/Charakter_/Elikta/index.md) trat eine Vermittlungsfigur auf, an der sich Hoffnung auf Befriedung und konservativer Widerstand zugleich bündelten.
-Der innere Zerfall dieser Kriegsordnung ist im Artikel [Polarisierung der Drachenkinder](/content/Ereignis_/Polarisierung-der-Drachenkinder.md) zusammengefasst.
+Der innere Zerfall dieser Kriegsordnung ist im Artikel [Polarisierung der Vorenkai](/content/Ereignis_/Polarisierung-der-Vorenkai.md) zusammengefasst.
 
 # Kristallmond
 
