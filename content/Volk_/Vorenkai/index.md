@@ -77,9 +77,14 @@ Sie machte sichtbar, dass das Volk nicht mehr geschlossen denselben Anspruch auf
 
 Weder ihre Färbung noch ihre Hauttextur sind einheitlich: Sie reichen von dunklem, vulkangesteinartigem Grau bis zu feuertoniger, von glühenden Zeichnungen durchzogener Haut, mit vielen Mischformen dazwischen — eine Vielfalt, die bereits bei der Gründergeneration entstand.
 
-Vorenkai sind größer als die meisten Vertreter der anderen Völker.
-Ihre Wirbelsäule geht in einen langen, stachelbesetzten Schwanz über.
-Auch Rücken, Kopf und Extremitäten erinnern eher an drachische als an humanoide Formen.
+Vorenkai sind größer als die meisten Vertreter der anderen Völker und durchgehend massig und kräftig gebaut.
+Ihre Wirbelsäule geht in einen langen, stachelbesetzten Schwanz über, dessen Reihe sich auch über den Rücken fortsetzt.
+Unabhängig davon verdickt sich bei manchen Individuen zusätzlich der Schädelknochen zu kleinen, unregelmäßigen Wülsten, während er bei anderen kaum hervortritt.
+Auch Rücken und Extremitäten erinnern eher an drachische als an humanoide Formen; ihr Kopf trägt jedoch einen kurzen, kräftigen Kiefer statt einer langgezogenen Schnauze.
+
+Ihre Augen haben schlitzförmige Pupillen, die ihnen auf Mognar den Wechsel zwischen gleißender Lava und dunklen Tunneln erleichtern.
+Ihr Gebiss ist gemischt: Die vorderen Zähne sind kräftig und kampftauglich, die hinteren eher stumpf und zum Zermahlen fester Nahrung geeignet.
+Ihre Krallen sind ebenso scharf und kampftauglich.
 
 Die ursprünglichen Vorenkai besaßen außerdem große Schwingen und konnten Feuer speien.
 Von diesen Merkmalen blieben nach dem großen sylvanarischen Bann nur rudimentäre Knochenstummel unterhalb der Schulterblätter und die Erinnerung an verlorene Fähigkeiten.
