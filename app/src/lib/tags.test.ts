@@ -38,10 +38,17 @@ describe('resolveTags: name tags', () => {
 		expect(texts(['Allgemein', 'Vorenkai', 'index.md'])).toEqual(['Vorenkai']);
 	});
 
-	test('names are split at underscores', () => {
+	test('names are split at underscores, so a Micu name becomes its own tag', () => {
 		expect(
-			texts(['Himmelskoerper', 'Agranum', 'Kontinent', 'Gurontis', 'Dorf_Akuelon', 'index.md'])
-		).toEqual(['Dorf', 'Akuelon']);
+			texts([
+				'Volk',
+				'Lateralen',
+				'Sodili',
+				'Charakter',
+				'Garrick-Filben-Tornbad_Sneaks',
+				'index.md'
+			])
+		).toEqual(['Garrick-Filben-Tornbad', 'Sneaks', 'Charakter']);
 	});
 
 	test('the content root index has no tags', () => {
@@ -85,7 +92,7 @@ describe('resolveTags: folder tags are flat', () => {
 			'Sodili',
 			'Politik',
 			'Clan',
-			'Diebesgilde_Brauner-Ring',
+			'Brauner-Ring',
 			'Charakter',
 			'Garrick',
 			'index.md'
@@ -100,12 +107,12 @@ describe('resolveTags: folder tags are flat', () => {
 
 	test('a tag folder name with underscores becomes a tag with spaces', () => {
 		const result = resolve(
-			['Politik', 'Diebesgilde_Brauner-Ring', 'Garrick', 'index.md'],
+			['Politik', 'Blaue_Gilde', 'Garrick', 'index.md'],
 			{},
-			(folder) => folder.at(-1) === 'Diebesgilde_Brauner-Ring'
+			(folder) => folder.at(-1) === 'Blaue_Gilde'
 		);
 
-		expect(result.tags.map((tag) => tag.text)).toEqual(['Garrick', 'Diebesgilde Brauner-Ring']);
+		expect(result.tags.map((tag) => tag.text)).toEqual(['Garrick', 'Blaue Gilde']);
 	});
 
 	test('only marked folders give tags', () => {

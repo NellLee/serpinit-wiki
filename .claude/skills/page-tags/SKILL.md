@@ -41,7 +41,8 @@ Items in the `tags:` list that contain `=` are options. Everything else is a tag
 ```
 
   `render: folder-index` keeps the automatic list of the folder's contents.
-- **Folder names are plain.** No trailing `_`. A `_` inside a name is a space in the tag (`Diebesgilde_Brauner-Ring` gives the tag `Diebesgilde Brauner-Ring`). Umlauts are allowed in folder names.
+- **Folder names are plain and carry no type.** Do not write the type into the name (`Dorf_Akuelon`). Name the folder `Akuelon` and add `<!-- tags: Dorf -->` to its `index.md`. Use hyphens, not underscores, to join words (`Collot-und-Linunar`). Umlauts are allowed in folder names.
+- **An `_` in a name is a real separator.** Sodili characters use `Vorname-Mittelname-Nachname_MicuName` (`Garrick-Filben-Tornbad_Sneaks`), where the part after `_` is the name of their Micu. Name tags split at `_`, so the Micu name becomes its own tag. The name of a tag folder is different: its `_` turns into a space in the tag.
 
 ## Checking
 
