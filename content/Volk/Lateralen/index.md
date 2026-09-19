@@ -19,7 +19,7 @@ Das ihnen fortan angeborene psychische Trauma führt im Allgemeinen noch vor der
 Der Grund dafür liegt nicht allein in einer psychischen Beschädigung.
 Vielmehr wurde durch Aerions Impuls bei den Nachfahren der betroffenen *homo primian* eine kleine, aber folgenreiche Fehlstelle im Gehirn hinterlassen, an welcher durchgehend magische Potenz aus dem Wymen in die natürlichen Denkvorgänge einwirkt.
 Diese stetige Fehlkopplung verstärkt die angeborene Zweiteilung des Geistes immer weiter.
-Der zusammenhängende Bruch wird im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstuemmelung-der-Lateralen.md) gebündelt.
+Der zusammenhängende Bruch wird im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstümmelung-der-Lateralen.md) gebündelt.
 Hinzu kommt, dass der Bruch des Planeten Agranum nicht nur ein Massenaussterben nach sich zieht, welches die meisten Lebewesen auf Agranum umbringt, sondern für die übrigen Lebewesen einen komplett neuen Lebensraum schafft, an den diese sich anpassen müssen.
 
 ## Evolution der Sodili-Lateralen

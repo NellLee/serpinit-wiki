@@ -26,7 +26,7 @@ Aerion vernichtete dabei die auf Agranum verbliebenen Sgrisignier, zerriss groß
 Im Anschluss setzte er zusätzlich jene Kräfte frei, aus denen die [Gravidblase von Agranum](/content/Himmelskörper/Agranum/Gravidblase.md) hervorging.
 
 Der Schlag traf jedoch nicht nur sein eigentliches Ziel.
-Weil die Sgrisignier zuvor bereits tiefe Spuren in den Vorfahren der Lateralen hinterlassen hatten, wirkte Aerions Impuls auch auf diese Lebewesen ein und führte zur später sogenannten [Psychischen Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstuemmelung-der-Lateralen.md).
+Weil die Sgrisignier zuvor bereits tiefe Spuren in den Vorfahren der Lateralen hinterlassen hatten, wirkte Aerions Impuls auch auf diese Lebewesen ein und führte zur später sogenannten [Psychischen Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstümmelung-der-Lateralen.md).
 
 ## Ambivalente Deutung
 

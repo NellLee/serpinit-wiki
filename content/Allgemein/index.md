@@ -6,7 +6,7 @@ Hier finden sich Themen, die nicht primär an einen einzelnen Ort oder ein einze
 ## Zentrale Themen
 
 - [Die Theorie der Magie](./Magie/index.md)
-- [Die Schöpfungsgeschichte des Universums](./Schoepfungsgeschichte.md)
+- [Die Schöpfungsgeschichte des Universums](./Schöpfungsgeschichte.md)
 
 ## Geplante Erweiterungen
 

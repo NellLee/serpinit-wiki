@@ -23,10 +23,10 @@
 Das Königshaus, siehe auch die [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/index.md).
 
 * [König Thalmar Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Thalmar-Balena-Akilonis_Ondor/index.md)
-* [Prinz Harvik Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinz-Harvik/index.md)
-* [Prinzessin Alyra Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinzessin-Alyra/index.md)
-* [Lady Lira](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lady-Lira/index.md)
-* [Lord Andor](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lord-Andor/index.md)
+* [Prinz Harvik Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinz-Harvik_Varun/index.md)
+* [Prinzessin Alyra Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinzessin-Alyra_Tira/index.md)
+* [Lady Lira](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lady-Lira_Kirea/index.md)
+* [Lord Andor](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lord-Andor_Lonne/index.md)
 
 ## Diebesgilde Brauner-Ring
 

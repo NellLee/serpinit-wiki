@@ -13,7 +13,7 @@ Fluero prägt damit nicht nur einzelne magische Phänomene, sondern den planetar
 
 Die anhaltende Bindung gewaltiger Wassermassen an einen vergleichsweise kleinen Kern macht Luqua zu einem Sonderfall unter den Welten des Serpinit-Systems.
 Im Bestand wird dieser Zusammenhang ausdrücklich mit der Magie des im Kern ruhenden Wasserdrachen verbunden.
-Auch die Entwicklung der [Fluctro](/content/Volk/Fluctro/index.md) wird in der [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) auf den langfristigen Einfluss Flueros zurückgeführt.
+Auch die Entwicklung der [Fluctro](/content/Volk/Fluctro/index.md) wird in der [Schöpfungsgeschichte](/content/Allgemein/Schöpfungsgeschichte.md) auf den langfristigen Einfluss Flueros zurückgeführt.
 
 ## Offene Konturen
 

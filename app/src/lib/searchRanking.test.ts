@@ -36,9 +36,9 @@ const records = [
 	},
 	{
 		title: 'Akils-Anfänge',
-		href: '/content/Stories/Akils-Anfaenge.md',
-		path: 'content/Stories/Akils-Anfaenge.md',
-		domain: deriveDomainInfo('content/Stories/Akils-Anfaenge.md'),
+		href: '/content/Stories/Akils-Anfänge.md',
+		path: 'content/Stories/Akils-Anfänge.md',
+		domain: deriveDomainInfo('content/Stories/Akils-Anfänge.md'),
 		pageClass: 'article' as const,
 		categories: ['Charakter'],
 		contentText: 'Do Uspil ist für Akil prägend.',

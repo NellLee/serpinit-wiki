@@ -7,7 +7,7 @@ Sie markiert den eigentlichen Ursprung der späteren geistigen Spaltung dieses V
 
 ## Ausgangslage
 
-Vor der Katastrophe lebten auf [Agranum](/content/Himmelskörper/Agranum/index.md) Vorformen der späteren Lateralen, die in der [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) als _homo primian_ beschrieben werden.
+Vor der Katastrophe lebten auf [Agranum](/content/Himmelskörper/Agranum/index.md) Vorformen der späteren Lateralen, die in der [Schöpfungsgeschichte](/content/Allgemein/Schöpfungsgeschichte.md) als _homo primian_ beschrieben werden.
 Die [Sgrisignier](/content/Volk/Sgrisignier/index.md) hatten an ihnen jedoch bereits magische Experimente vorgenommen und damit Spuren in ihrer Entwicklung hinterlassen.
 Gerade diese Vorprägung wurde den Betroffenen zum Verhängnis, als [Aerion](/content/Allgemein/Aerion.md) gegen die Sgrisignier auf Agranum vorging.
 

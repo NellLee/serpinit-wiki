@@ -5,7 +5,7 @@ Er ruht im Kern von [Mognar](/content/Himmelskörper/Mognar/index.md) und verkö
 
 ## Stellung unter den Elementardrachen
 
-In der überlieferten [Schöpfungsgeschichte](/content/Allgemein/Schoepfungsgeschichte.md) gilt Ignatius als jener Teil Creapatos', der mit Feuer, Hitze, Wut und impulsiver Veränderung verbunden ist.
+In der überlieferten [Schöpfungsgeschichte](/content/Allgemein/Schöpfungsgeschichte.md) gilt Ignatius als jener Teil Creapatos', der mit Feuer, Hitze, Wut und impulsiver Veränderung verbunden ist.
 Wie [Aerion](/content/Ereignis/Impuls-Eruption.md), [Fluero](/content/Himmelskörper/Luqua/index.md) und Silvaa prägt auch Ignatius einen der ovelären Planeten nicht durch ständige sichtbare Manifestation, sondern vor allem durch die im Planetenkern ruhende göttliche Substanz.
 
 Gerade im Unterschied zu den anderen drei Aspekten wird Ignatius im Bestand als besonders von Neid und aufgestauter Einflusslosigkeit geprägt beschrieben.

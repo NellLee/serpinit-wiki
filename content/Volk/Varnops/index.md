@@ -6,7 +6,7 @@
 Die Varnops sind das vorherrschende Volk auf [Aridess](/content/Himmelskörper/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse.
 Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften dominiert werden.
 Ihre Kultur ist geprägt von Anpassungsfähigkeit und pragmatischer Ingenieurskunst, die es ihnen ermöglicht, selbst unter den widrigsten Bedingungen zu florieren.
-Da Aridess nicht [ovelärer](/content/Allgemein/Schoepfungsgeschichte.md#die-ovelären-planeten--die-elementdrachen) ist, haben die Varnops niemals magische Fähigkeiten durch eine [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution) entwickelt.
+Da Aridess nicht [ovelärer](/content/Allgemein/Schöpfungsgeschichte.md#die-ovelären-planeten--die-elementdrachen) ist, haben die Varnops niemals magische Fähigkeiten durch eine [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution) entwickelt.
 Sie fanden jedoch mit der Zeit trotzdem Möglichkeiten, die magische Energie des Serpinit-Systems technisch zu binden.
 Diese Tradition wird im Allgemeinen als [Gemtech](/content/Volk/Varnops/Gemtech.md) bezeichnet.
 

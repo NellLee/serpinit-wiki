@@ -35,7 +35,7 @@ Sie war zugleich Planetenspaltung, Massensterben und Geburtsmoment des späteren
 Die Magie Aerions traf nicht nur die Sgrisignier.
 Da deren frühere Eingriffe bereits Spuren in den Vorfahren der späteren [Lateralen](/content/Volk/Lateralen/index.md) hinterlassen hatten, wirkte der Impuls auch auf diese Lebewesen ein.
 Bei den Überlebenden und ihren Nachfahren blieb eine folgenschwere Fehlkopplung im Gehirn zurück, die später für Micu, [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) und conische Therapien zentral wurde.
-Der zusammenhängende historische Zusammenhang ist im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstuemmelung-der-Lateralen.md) beschrieben.
+Der zusammenhängende historische Zusammenhang ist im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstümmelung-der-Lateralen.md) beschrieben.
 
 Die Impuls-Eruption ist deshalb nicht nur für die Planetengeschichte Agranums bedeutsam, sondern auch für die gesamte spätere Entwicklung der Lateralen.
 

@@ -1,7 +1,7 @@
 ﻿# Wymen
 
 Wymen ist das serpinitäre Energienetz, welches das gesamte Planetensystem durchzieht und die theoretische Grundlage fast aller sterblich nutzbaren Magie bildet.
-Es kann als dreidimensionales Feld aus theoretischer magischer Potenz verstanden werden, das unmittelbar auf die von [Creapatos](/content/Allgemein/Schoepfungsgeschichte.md) geschaffene Ordnung des Systems zurückgeht.
+Es kann als dreidimensionales Feld aus theoretischer magischer Potenz verstanden werden, das unmittelbar auf die von [Creapatos](/content/Allgemein/Schöpfungsgeschichte.md) geschaffene Ordnung des Systems zurückgeht.
 
 ## Funktion
 

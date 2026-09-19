@@ -21,7 +21,7 @@ Die vier ovelären Planeten sind für viele magische und geschichtliche Entwickl
 
 ## Schnellstart
 
-Wenn du einen schnellen Überblick willst, beginne mit [Agranum](./Agranum/index.md), [Aridess](./Aridess/index.md) und der [Schöpfungsgeschichte](../Allgemein/Schoepfungsgeschichte.md).
+Wenn du einen schnellen Überblick willst, beginne mit [Agranum](./Agranum/index.md), [Aridess](./Aridess/index.md) und der [Schöpfungsgeschichte](../Allgemein/Schöpfungsgeschichte.md).
 
 <span style="color: red;">*</span> = Oveläre Planeten.
 Die vier Planeten tragen seit Creapatos' Teilung ein Drachenei aus magischer Substanz in sich.

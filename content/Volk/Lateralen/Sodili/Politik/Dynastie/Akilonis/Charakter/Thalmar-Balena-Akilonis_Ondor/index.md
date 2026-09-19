@@ -36,5 +36,5 @@ Seine Entscheidungen prägen die Geschicke des Reiches und beeinflussen das Lebe
 Darüber hinaus ist er auch auf internationaler Ebene ein angesehener und respektierter Staatsmann, der sich für Frieden, Zusammenarbeit und gegenseitiges Verständnis einsetzt.
 
 # Familie
-Thalmar hat zwei Kinder, Prinzessin [Alyra](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinzessin-Alyra/index.md) mit ihrer Schildkröten-Micu Tira und Prinz [Harvik](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinz-Harvik/index.md) mit seinem Hai-Micu Varun.
+Thalmar hat zwei Kinder, Prinzessin [Alyra](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinzessin-Alyra_Tira/index.md) mit ihrer Schildkröten-Micu Tira und Prinz [Harvik](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinz-Harvik_Varun/index.md) mit seinem Hai-Micu Varun.
 Beide erscheinen regelmäßig an seiner Seite am Hof.

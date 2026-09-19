@@ -17,7 +17,7 @@ Der magische Impuls zerriss die Oberfläche des Planeten und machte aus dem eins
 
 Dieses Ereignis ist nicht nur für die Geografie Agranums bedeutsam.
 Es bildet auch den entscheidenden Hintergrund für die spätere Entwicklung der [Lateralen](/content/Volk/Lateralen/index.md), deren Vorfahren dabei auf folgenschwere Weise magisch verletzt wurden.
-Diese Beschädigung wird im Bestand als [Psychische Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstuemmelung-der-Lateralen.md) gefasst.
+Diese Beschädigung wird im Bestand als [Psychische Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstümmelung-der-Lateralen.md) gefasst.
 Der Hauptartikel dazu ist [Impuls-Eruption](/content/Ereignis/Impuls-Eruption.md).
 
 ## Die Gravidblase und die Gravitationsozeane

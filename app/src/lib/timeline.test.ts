@@ -25,7 +25,7 @@ describe('extractEventsFromRawMarkdown', () => {
 
 	test('captures the immediately following paragraph as description', () => {
 		const markdown = `<!-- event: start=-21006404 category="Interplanetar" text="Creapatos erschafft das Serpinit-Sonnensystem" -->\nDie Gottheit [Creapatos](/content/Allgemein/Aerion.md) formt ein eigenes Sonnensystem.\nUnd definiert magische Gesetze.\n`;
-		const events = extractEventsFromRawMarkdown(markdown, '/content/Allgemein/Schoepfungsgeschichte.md');
+		const events = extractEventsFromRawMarkdown(markdown, '/content/Allgemein/Schöpfungsgeschichte.md');
 
 		expect(events[0].description).toBe(
 			'Die Gottheit Creapatos formt ein eigenes Sonnensystem. Und definiert magische Gesetze.'

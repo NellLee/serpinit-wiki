@@ -32,8 +32,8 @@ Im [Kapis-Schloss](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Carpebur/i
 [König Thalmar Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/index.md), sein Hofstaat und ausgewählte Vertreter der Akademie beschlossen dort gemeinsam, die Theorie der Conius unter strenger Aufsicht erstmals in die Praxis zu überführen.
 
 Die Standpunkte am Hof gingen dabei weit auseinander.
-[Lord Andor](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lord-Andor/index.md), ein konservativer Berater des Königs, warnte vor den Gefahren der Portale und forderte, sich aus diesen "Conius-Angelegenheiten" herauszuhalten.
-[Lady Lira](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lady-Lira/index.md), eine angesehene Händlerin Carpeburs, sprach sich dagegen für die neuen Handelsmöglichkeiten aus, die eine Erschließung eröffnen würde.
+[Lord Andor](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lord-Andor_Lonne/index.md), ein konservativer Berater des Königs, warnte vor den Gefahren der Portale und forderte, sich aus diesen "Conius-Angelegenheiten" herauszuhalten.
+[Lady Lira](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lady-Lira_Kirea/index.md), eine angesehene Händlerin Carpeburs, sprach sich dagegen für die neuen Handelsmöglichkeiten aus, die eine Erschließung eröffnen würde.
 [Ingvor Nemet Mandijit](/content/Volk/Lateralen/Conius/Charakter/Ingvor-Nemet-Mandijit/index.md) stellte dem Hofstaat schließlich jene Gruppe vor, die sich später als Kern der Expedition bewähren sollte, während [Elara Stenimal](/content/Volk/Lateralen/Conius/Charakter/Elara-Stenimal/index.md) von der Akademie zur Vorsicht mahnte und auf eine gründliche Untersuchung der Portale vor jedem weiteren Schritt bestand.
 
 Der König bestand darauf, dass eine sodilische Begleitung an jeder ersten Erschließung teilnahm und die Sicherheit der Unternehmung nicht allein in Händen der Akademie lag.
