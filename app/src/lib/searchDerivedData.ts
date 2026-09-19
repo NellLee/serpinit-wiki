@@ -2,9 +2,6 @@ import type { PageClass } from './presentation/pagePresentation';
 import { normalizeSearchText } from './searchCore';
 
 const MEDIA_BRANCHES = new Set(['gallery', 'galleries', 'images']);
-const DOMAIN_LABEL_OVERRIDES: Record<string, string> = {
-	Himmelskoerper_: 'Himmelskörper'
-};
 const CURATED_CATEGORY_DEFINITIONS = [
 	{ key: 'charaktere', label: 'Charaktere', sourceKeys: ['charakter', 'charaktere'] },
 	{ key: 'clans', label: 'Clans', sourceKeys: ['clan'] },
@@ -75,19 +72,10 @@ function compareGermanLabels(left: string, right: string): number {
 }
 
 function toContentRelativeSegments(pagePath: string): string[] {
-	return pagePath
-		.replace(/\\/g, '/')
-		.replace(/^\/+/, '')
-		.split('/')
-		.filter(Boolean);
+	return pagePath.replace(/\\/g, '/').replace(/^\/+/, '').split('/').filter(Boolean);
 }
 
 function normalizeDomainLabel(segment: string): string {
-	const override = DOMAIN_LABEL_OVERRIDES[segment];
-	if (override) {
-		return override;
-	}
-
 	return segment.replace(/_+/g, ' ').trim().replace(/\s+/g, ' ');
 }
 
@@ -126,7 +114,9 @@ export function deriveDomainInfo(pagePath: string): SearchDomainInfo {
 }
 
 function buildFacetValues(counts: Map<string, SearchFacetValue>): SearchFacetValue[] {
-	return Array.from(counts.values()).sort((left, right) => compareGermanLabels(left.label, right.label));
+	return Array.from(counts.values()).sort((left, right) =>
+		compareGermanLabels(left.label, right.label)
+	);
 }
 
 export function buildFacetCatalogs(entries: SearchFacetSource[]): SearchFacetCatalogs {

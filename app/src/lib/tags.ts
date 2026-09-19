@@ -36,7 +36,7 @@ class TagCollector {
 }
 
 function folderNameToTagText(folderName: string): string {
-	return folderName.replace(/_+$/, '').replaceAll('_', ' ').trim();
+	return folderName.replaceAll('_', ' ').trim();
 }
 
 export function resolveTags(input: {

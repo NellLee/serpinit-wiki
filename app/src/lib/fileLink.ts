@@ -77,9 +77,6 @@ export class FileLink {
 		} else if (this.fileName == 'index') {
 			this.text = this.path.substring(this.path.lastIndexOf(path.sep) + 1);
 		}
-		if (this.text.endsWith('_')) {
-			this.text = this.text.slice(0, -1) + ' Index';
-		}
 
 		this.href = '/' + relPath.replaceAll(path.sep, '/');
 
@@ -95,27 +92,6 @@ export class FileLink {
 					decodeURIComponent(this.href.split('/').at(-3) ?? '') + ' > Gallerie';
 			}
 		}
-	}
-
-	getCategories() {
-		const result: string[] = [];
-		const segments = this.href.split('/').reverse();
-		let currIndex = 0;
-		let segment = decodeURIComponent(segments[currIndex]);
-		if (segment.startsWith('index')) {
-			currIndex++;
-			segment = decodeURIComponent(segments[currIndex]);
-		} else if (segment.endsWith('.md')) {
-			segment = segment.substring(0, segment.lastIndexOf('.'));
-		}
-		do {
-			if (segment && segment != 'content') {
-				result.push(...segment.split('_').filter((s) => s != ''));
-			}
-			currIndex++;
-			segment = decodeURIComponent(segments[currIndex]);
-		} while (segment.endsWith('_'));
-		return result;
 	}
 
 	getFolderCategory() {

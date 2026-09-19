@@ -102,7 +102,6 @@ export class MarkdownPage {
 	images: LinkObject[];
 	toc: LinkTree;
 	tags: Tag[];
-	categories: LinkObject[];
 	references: NamedLinkList[];
 	contentHtml: string;
 	overviewHtml: string | null;
@@ -193,7 +192,6 @@ export class MarkdownPage {
 		this.toc = this.generateTOC();
 		const resolvedTags = MarkdownPage.resolveTags(filePath, rawMarkdown);
 		this.tags = resolvedTags.tags;
-		this.categories = this.generateCategories();
 		for (const warning of resolvedTags.warnings) {
 			console.warn(`[tags] ${fileLink.href}: ${warning}`);
 		}
@@ -412,20 +410,12 @@ export class MarkdownPage {
 		return mentioned;
 	}
 
-	generateCategories() {
-		return this.tags.map((tag) => ({
-			href: '/content/search?q=' + encodeURIComponent(tag.text),
-			text: tag.text
-		}));
-	}
-
 	toJSON() {
 		const result = {
 			events: this.events,
 			markdown: this.markdown,
 			breadcrumbs: this.breadcrumbs,
 			title: this.title,
-			categories: this.categories,
 			toc: this.toc,
 			references: this.references,
 			href: this.href,

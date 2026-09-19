@@ -1,4 +1,5 @@
-import { FileLink } from '$lib/fileLink';
+import { FileLink, readContentFile } from '$lib/fileLink';
+import { parseTagHooks } from '$lib/tagHooks';
 import path from 'path';
 import { WIKI_PATH } from '../wiki';
 import { WIKI_URL } from '$lib/constants';
@@ -26,8 +27,13 @@ export function linkTreeToList(linkTree: LinkTree, name: string, depth = 0) {
 	return namedLinkList;
 }
 
+function isTagFolder(linkedFolderPath: string): boolean {
+	const indexMarkdown = readContentFile(path.join(linkedFolderPath, 'index.md'));
+	return parseTagHooks(indexMarkdown, { isIndexPage: true }).folderTag;
+}
+
 export function generateBreadcrumbs(url: string) {
-	let breadcrumbs = [];
+	let breadcrumbs: LinkObject[] = [];
 	let constructed = '';
 	const segments = url.split('/').filter((segment) => segment !== '' && !segment.endsWith('.md'));
 	for (const segment of segments) {
@@ -39,7 +45,8 @@ export function generateBreadcrumbs(url: string) {
 		}
 		breadcrumbs.push({
 			text,
-			href: constructed
+			href: constructed,
+			tagFolder: isTagFolder(linkedFilePath)
 		});
 	}
 	if (breadcrumbs.length <= 1) {

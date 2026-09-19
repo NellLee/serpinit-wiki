@@ -147,7 +147,7 @@ function ensureSearchState() {
 			href: page.href,
 			path: page.href,
 			pageClass: getContentPagePresentation(page.href).pageClass as PageClass,
-			categories: page.categories.map((category) => category.text),
+			categories: page.tags.map((tag) => tag.text),
 			contentText: extractSearchableText(page),
 			contentHtml: page.contentHtml
 		})
@@ -259,7 +259,7 @@ export function searchPreview(query: string): SearchPreviewResponse {
 function extractSearchableText(page: MarkdownPage): string {
 	const content = cheerio.load(page.contentHtml).text();
 	const overview = page.overviewHtml ? cheerio.load(page.overviewHtml).text() : '';
-	return [page.title, ...page.categories.map((category) => category.text), overview, content]
+	return [page.title, ...page.tags.map((tag) => tag.text), overview, content]
 		.filter(Boolean)
 		.join(' ');
 }

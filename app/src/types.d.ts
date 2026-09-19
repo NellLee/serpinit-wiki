@@ -1,6 +1,7 @@
 type LinkObject = {
 	href: string;
 	text: string;
+	tagFolder?: boolean;
 };
 
 type NamedLinkList = {

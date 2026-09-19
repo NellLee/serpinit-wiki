@@ -23,7 +23,7 @@
 				{/if}
 				<li class="delimiter">
 					{#if i != linkList.length - 1}
-						{link.text.endsWith('_') ? '-' : '/'}
+						{link.tagFolder ? '-' : '/'}
 					{/if}
 				</li>
 			{/each}
