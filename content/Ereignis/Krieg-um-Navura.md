@@ -46,7 +46,7 @@ Von da an konnten die Vorenkai Navura nicht mehr mit derselben Wucht angreifen w
 
 In der späteren Phase des Konflikts gewann die Frage an Gewicht, ob der Krieg überhaupt noch fortgeführt werden sollte.
 Jüngere Vorenkai, die Navura nicht mehr als verlorene Heimat der eigenen Erinnerung kannten, stellten zunehmend den Sinn des Dauerkonflikts infrage.
-Mit dem Auftreten [Eliktas](/content/Volk/Lateralen/Sodili/Charakter/Elikta/index.md) erhielt diese Entwicklung erstmals eine politisch greifbare Figur.
+Mit dem Auftreten [Eliktas](/content/Volk/Lateralen/Sodili/Charakter/Elikta_Sepdra/index.md) erhielt diese Entwicklung erstmals eine politisch greifbare Figur.
 
 Die Auseinandersetzung verlagerte sich damit teilweise nach innen.
 Aus dem Krieg gegen äußere Gegner wurde zusätzlich ein Streit um Herrschaft, Identität und Zukunft des eigenen Volkes.

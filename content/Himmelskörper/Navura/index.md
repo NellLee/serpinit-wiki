@@ -44,7 +44,7 @@ Im [Krieg um Navura](/content/Ereignis/Krieg-um-Navura.md) versuchten die [Voren
 Die dichte, magisch geprägte Natur Navuras wurde dabei selbst zu einem strategischen Faktor und spielte den sylvanarischen Verteidigern dauerhaft in die Hände.
 
 In der späten Kriegsphase verlagerte sich der Konflikt teilweise in das Vorenkai-Volk selbst.
-Mit [Elikta](/content/Volk/Lateralen/Sodili/Charakter/Elikta/index.md) trat eine Vermittlungsfigur auf, an der sich Hoffnung auf Befriedung und konservativer Widerstand zugleich bündelten.
+Mit [Elikta](/content/Volk/Lateralen/Sodili/Charakter/Elikta_Sepdra/index.md) trat eine Vermittlungsfigur auf, an der sich Hoffnung auf Befriedung und konservativer Widerstand zugleich bündelten.
 Der innere Zerfall dieser Kriegsordnung ist im Artikel [Polarisierung der Vorenkai](/content/Ereignis/Polarisierung-der-Vorenkai.md) zusammengefasst.
 
 # Kristallmond

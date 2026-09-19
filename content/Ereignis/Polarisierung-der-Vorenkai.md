@@ -15,7 +15,7 @@ So entstand eine Spaltung zwischen jenen, die die Kriegslogik aufrechterhalten w
 
 ## Rolle Eliktas
 
-Mit [Elikta](/content/Volk/Lateralen/Sodili/Charakter/Elikta/index.md) trat schließlich eine Figur auf, an der sich dieser Konflikt bündelte.
+Mit [Elikta](/content/Volk/Lateralen/Sodili/Charakter/Elikta_Sepdra/index.md) trat schließlich eine Figur auf, an der sich dieser Konflikt bündelte.
 Ihre Bereitschaft, zwischen Vorenkai-Fraktionen und den übrigen Gruppen Navuras zu vermitteln, verschaffte ihr Zuspruch unter den Erschöpften und Jüngeren.
 Gerade dadurch wurde sie für konservative Kreise zum Feindbild.
 

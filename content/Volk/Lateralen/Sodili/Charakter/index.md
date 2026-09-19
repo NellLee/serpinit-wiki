@@ -5,7 +5,7 @@
 
 * [Alaric Hoss](/content/Volk/Lateralen/Sodili/Charakter/Alaric-Rodeto-Hoss_Sable/index.md)
 * [Caelum Storringer](/content/Volk/Lateralen/Sodili/Charakter/Caelum-Froso-Storringer_Tempest/index.md)
-* [Elikta](/content/Volk/Lateralen/Sodili/Charakter/Elikta/index.md)
+* [Elikta](/content/Volk/Lateralen/Sodili/Charakter/Elikta_Sepdra/index.md)
 * [Eolyn Sera](/content/Volk/Lateralen/Sodili/Charakter/Eolyn-Aksae-Sera_Fezir/index.md)
 * [Erisa Sturint](/content/Volk/Lateralen/Sodili/Charakter/Erisa-Ikal-Sturint_Gale/index.md)
 * [Galwin Leison](/content/Volk/Lateralen/Sodili/Charakter/Galwin-Urma-Leison_Kuill/index.md)
