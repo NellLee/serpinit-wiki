@@ -7,10 +7,13 @@ import * as cheerio from 'cheerio';
 import { generateHeaderId, resolveRelativeUrl } from '$lib/utilities/utilities';
 import { generateBreadcrumbs, getLinkedFilePath } from './utilities/links';
 import { getFilePathsInFolder, getFolderPathsInFolder } from './utilities/files';
-import { FileLink } from './fileLink';
+import { FileLink, readContentFile } from './fileLink';
 import markedKatex from 'marked-katex-extension';
 import { timeline } from './timeline';
 import { applyMarkdownRenderHooks } from './markdownRenderHooks';
+import { resolvePageTags } from './pageTags';
+import type { Tag } from './tags';
+import { WIKI_PATH } from './wiki';
 
 export const REGEX_FIRST_HEADER = /^# (.+)$/m;
 
@@ -98,6 +101,7 @@ export class MarkdownPage {
 	title: string;
 	images: LinkObject[];
 	toc: LinkTree;
+	tags: Tag[];
 	categories: LinkObject[];
 	references: NamedLinkList[];
 	contentHtml: string;
@@ -114,6 +118,13 @@ export class MarkdownPage {
 			return new MarkdownPage(folderPath, constructedMarkdown);
 		}
 		return new MarkdownPage(filePath, constructedMarkdown);
+	}
+
+	static resolveTags(filePath: string, rawMarkdown: string) {
+		return resolvePageTags(filePath, rawMarkdown, {
+			contentRoot: WIKI_PATH,
+			readFile: readContentFile
+		});
 	}
 
 	static createIndexContent(folderPath: string): string {
@@ -161,6 +172,7 @@ export class MarkdownPage {
 
 		this.events = timeline.filter((event) => event.href == fileLink.href);
 		this.markdown = customMarkdown != null ? customMarkdown : fs.readFileSync(filePath, 'utf-8');
+		const rawMarkdown = this.markdown;
 
 		const galleryPath = fileLink.path + path.sep + 'images';
 		const galleryFiles = fs.existsSync(galleryPath)
@@ -179,7 +191,12 @@ export class MarkdownPage {
 		this.title = this.extractTitle();
 		this.images = this.generateImages();
 		this.toc = this.generateTOC();
+		const resolvedTags = MarkdownPage.resolveTags(filePath, rawMarkdown);
+		this.tags = resolvedTags.tags;
 		this.categories = this.generateCategories();
+		for (const warning of resolvedTags.warnings) {
+			console.warn(`[tags] ${fileLink.href}: ${warning}`);
+		}
 
 		this.extractOverviewSection();
 		this.processImages();
@@ -396,10 +413,9 @@ export class MarkdownPage {
 	}
 
 	generateCategories() {
-		const categories = this.#fileLink.getCategories();
-		return categories.map((tag) => ({
-			href: '/content/search?q=' + encodeURIComponent(tag),
-			text: tag
+		return this.tags.map((tag) => ({
+			href: '/content/search?q=' + encodeURIComponent(tag.text),
+			text: tag.text
 		}));
 	}
 

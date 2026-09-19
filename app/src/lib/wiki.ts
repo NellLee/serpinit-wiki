@@ -109,6 +109,13 @@ export function loadMarkdownPage(fullPath: string): MarkdownPage {
 				);
 			}
 			page = wiki.get(fullPath)!;
+			const currentTags = MarkdownPage.resolveTags(fullPath, markdownForCache).tags;
+			if (JSON.stringify(currentTags) !== JSON.stringify(page.tags)) {
+				console.log(
+					`Tags of "${getFrontendSafePath(fullPath)}" changed through another page; rebuilding it.`
+				);
+				page = new MarkdownPage(fullPath);
+			}
 		} else {
 			console.log(
 				`First page load for "${getFrontendSafePath(fullPath)}" or markdown content has changed.`
