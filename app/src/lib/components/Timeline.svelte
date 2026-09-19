@@ -36,16 +36,14 @@
 	let effectiveWidth: number | undefined = $state();
 	let effectiveHeight: number | undefined = $state();
 
-	let zoomScale = 1;
-	let translateX: number | undefined = $state();
-	let translateY: number | undefined = $state();
-	let lastTranslateY: number | null = $state(null);
-
-	let scale: d3.ScaleLinear<number, number>;
-	let axis: d3.Axis<d3.NumberValue>;
-	let zoom: d3.ZoomBehavior<SVGSVGElement, unknown>;
-	let zoomIdentityY = $state(d3.zoomIdentity);
-	let zoomIdentityX = d3.zoomIdentity;
+	// Everything below is a plain variable on purpose: the zoom handler calls renderTimeline()
+	// directly, so only size, selection and data changes should re-run the render effect.
+	let viewLeft = 0; // year at the left edge of the initial (unzoomed, unpanned) view
+	let baseScale: d3.ScaleLinear<number, number>; // year -> pixel scale for the identity transform
+	let scale: d3.ScaleLinear<number, number>; // baseScale with the current zoom/pan applied
+	let viewTransform = d3.zoomIdentity;
+	let translateY = 0;
+	let initialised = false;
 	let localeFormatter = d3.formatLocale({
 		decimal: ',',
 		thousands: '.',
@@ -53,68 +51,54 @@
 		currency: ['€', '']
 	});
 
-	let initialXAxisOffset = $derived(
-		effectiveWidth === undefined ? undefined : (initialViewOffset ?? 0) - effectiveWidth / 2
-	);
-	let initialYAxisOffset = $derived(effectiveHeight && effectiveHeight / 2);
-
-	let initialised = $state(false);
-
-	const maxEventScale = 1;
-	const minEventScale = 1;
 	const flagWidth = 7;
 	const eventTextPadding = 5;
 	const defaultMeasureFont = '14px Arial';
+	const eventHeight = 20;
+	const eventRowSpacing = 5;
+	const eventAxisOffset = 30;
 
-	function renderTimeline() {
-		scale = d3
-			.scaleLinear()
-			.domain([translateX! / zoomScale, (translateX! + effectiveWidth!) / zoomScale])
-			.range([0, effectiveWidth!]);
+	function initialiseView(svgElement: SVGSVGElement) {
+		viewLeft = (initialViewOffset ?? 0) - effectiveWidth! / 2;
+		translateY = effectiveHeight! / 2;
 
-		axis = d3.axisBottom(scale).tickFormat(localeFormatter.format(','));
-		const axisGroup = d3.select(svg!).select<SVGGElement>('g.axis');
-		axisGroup.transition().duration(10).call(axis);
-		axisGroup.attr('transform', `translate(0, ${translateY})`);
-
-		zoom = d3
+		const zoom = d3
 			.zoom<SVGSVGElement, unknown>()
 			.on('zoom', (event: d3.D3ZoomEvent<SVGSVGElement, unknown>) => {
-				let mousePos = d3.pointer(event);
-
-				let eventTrans = event.transform;
-				if (!effectiveWidth || !effectiveHeight) {
-					console.error('Timeline cannot be zoomed: container has effective size 0');
-					return;
+				const next = event.transform;
+				// Only a pure pan moves the axis vertically. A zoom changes next.y too (d3 keeps
+				// the point under the pointer fixed), but the timeline only scales along time.
+				if (next.k === viewTransform.k) {
+					translateY += next.y - viewTransform.y;
 				}
-				translateX = initialXAxisOffset! - eventTrans.x - zoomIdentityX.x;
-				if (zoomScale == eventTrans.k) {
-					// console.log("Panning")
-					mousePos[0] -= 280; // ???
-					translateY = lastTranslateY! + eventTrans.y - zoomIdentityY.y;
-				} else {
-					// console.log("Zooming")
-					zoomIdentityY = eventTrans;
-					lastTranslateY = translateY!;
-				}
-				zoomIdentityX = eventTrans;
-				zoomScale = eventTrans.k;
+				viewTransform = next;
 				renderTimeline();
-				renderCursor(mousePos);
+				// d3-zoom swallows mousemove events during a drag, so follow the pointer from here.
+				if (event.sourceEvent instanceof MouseEvent) {
+					renderCursor(d3.pointer(event.sourceEvent, svgElement));
+				}
 			});
-		d3.select(svg!).call(zoom);
+		d3.select(svgElement)
+			.call(zoom)
+			.on('mousemove', (event: MouseEvent) => renderCursor(d3.pointer(event, svgElement)));
 
-		const timelineDiv = document.getElementsByClassName('timeline')[0];
-		if (!(timelineDiv instanceof HTMLElement)) {
-			throw new Error('Timeline container is missing');
-		}
+		initialised = true;
+	}
 
-		timelineDiv.addEventListener('mousemove', (event: MouseEvent) => {
-			const rect = timelineDiv.getBoundingClientRect();
-			const x = event.clientX - rect.left;
-			const y = event.clientY - rect.top;
-			renderCursor([x, y]);
-		});
+	function renderTimeline() {
+		baseScale = d3
+			.scaleLinear()
+			.domain([viewLeft, viewLeft + effectiveWidth!])
+			.range([0, effectiveWidth!]);
+		scale = viewTransform.rescaleX(baseScale);
+
+		const axisGroup = d3.select(svg!).select<SVGGElement>('g.axis');
+		axisGroup
+			.transition()
+			.duration(10)
+			.call(d3.axisBottom(scale).tickFormat(localeFormatter.format(',')));
+		axisGroup.attr('transform', `translate(0, ${translateY})`);
+
 		renderTickLines();
 		renderEvents();
 	}
@@ -190,7 +174,7 @@
 				text = event.text.slice(containerReferenceMatch[0].length);
 			}
 
-			let y = translateY!;
+			let y = translateY;
 			let width = scale(event.end) - scale(event.start);
 			let isMoment = width === 0;
 			if (isMoment) {
@@ -240,7 +224,7 @@
 				result = containedEvents.find((c) => c.containerId == d.containerId)?.y;
 			}
 			if (result == null) {
-				result = translateY!;
+				result = translateY;
 			} else {
 				result -= 2;
 			}
@@ -254,7 +238,6 @@
 			} else {
 				selectedEvent = null; // Deselect if already selected
 			}
-			renderEvents();
 		};
 
 		const conditionalSelectedColor = (d: EventConfig) =>
@@ -450,28 +433,16 @@
 			}
 		}
 	}
+
 	$effect(() => {
-		if (effectiveWidth && effectiveHeight) {
-			if (!initialised) {
-				console.log('Initialising');
-
-				if (translateX === undefined) {
-					translateX = initialXAxisOffset;
-				}
-				if (translateY === undefined) {
-					translateY = initialYAxisOffset;
-				}
-				lastTranslateY = initialYAxisOffset!;
-
-				initialised = true;
-			}
-			renderTimeline();
+		if (!svg || !effectiveWidth || !effectiveHeight) {
+			return;
 		}
+		if (!initialised) {
+			initialiseView(svg);
+		}
+		renderTimeline();
 	});
-	let eventZoomScale = $derived(Math.min(Math.max(zoomIdentityY.k, minEventScale), maxEventScale));
-	let eventHeight = $derived(20 * eventZoomScale);
-	let eventRowSpacing = $derived(5 * eventZoomScale);
-	let eventAxisOffset = $derived(30 * eventZoomScale);
 </script>
 
 <div class="timeline" bind:clientWidth={effectiveWidth} bind:clientHeight={effectiveHeight}>
