@@ -1,6 +1,9 @@
 # TODO
 
-Folgende Themen/Ideen/Anregungen müssen umgesetzt und sortiert werden:
+- Tag-System für Seiten
+    - Für z.B. Zugehörigkeit von Charakteren zu Familien, Gruppen, etc.
+
+- Optional sichtbare TODO Kommentare
 
 ## Timeline
 

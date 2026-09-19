@@ -1,21 +1,22 @@
 # Die Vorenkai
 
-Die Vorenkai sind ein künstlich geschaffenes Volk des Serpinit-Systems.
-Sie wurden auf [Mognar](/content/Himmelskoerper_/Mognar/index.md) durch Ignatius aus verbannten [Sylvanars](/content/Volk_/Sylvanar/index.md) neu geformt und tragen bis heute die Folgen dieser gewaltsamen Herkunft.
-Ihre Geschichte ist eng mit dem [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md), dem Verlust ihrer ursprünglichen Magie und dem Aufstieg der [Blutrituale](/content/Volk_/Vorenkai/Blutrituale.md) verbunden.
-Andere Völker des Serpinit-Systems nennen sie im Alltag meist schlicht Drachenkinder.
+Die Vorenkai sind eine der intelligenten Spezies des Serpinit-Systems, wobei sie eine durchaus einzigartige Entstehungsgeschichte unter den modernen Völkern aufweisen.
+Sie entwickelten sich auf [Mognar](/content/Himmelskoerper_/Mognar/index.md), wo sie durch Ignatius magischen Einfluss aus verbannten [Sylvanars](/content/Volk_/Sylvanar/index.md) geformt wurden.
+Seit jeher prägen sowohl ihre traumatischen Ursprünge als auch ihre lebensfeindliche Heimat maßgeblich die Gesellschaft und Geschichte dieser Spezies.
+Die Vorenkai lösten nach dem Beginn der Ikusation den [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) aus, gefolgt von ihrer späteren genetischen Verstümmelung und der darauffolgenden Entwicklung der [Blutrituale](/content/Volk_/Vorenkai/Blutrituale.md).
+Umgangssprachlich werden die Vorenkai auch häufig als "Drachenkinder" bezeichnet.
 
 # Entstehung
 
 <!-- event: start=-12.577508819600794 category="Mognar" text="Die Vorenkai entstehen" -->
 
-Die Vorenkai entstanden nicht wie die anderen modernen Völker durch natürliche Evolution, sondern durch eine gewaltsame, auf wenige Wochen komprimierte Verwandlung.
+Die Vorenkai entstanden nicht wie die anderen modernen Völker durch natürliche (arcanogene) Evolution, sondern durch eine gewaltsame, auf wenige Wochen komprimierte Mutation.
 
 ## Verbannung
 
-Am Ursprung stand eine kleine Gruppe von etwa zwölf sylvanarischen Kriegern.
-Sie hatten sich heimlich einer verbotenen Praxis bedient: Sie entzogen ihrer Umgebung gezielt Kraft, um sich selbst zu stärken, etwa ihr eigenes Muskelwachstum zu beschleunigen.
-Unter den Sylvanars gilt ein solcher Eingriff als schwerer Verstoß gegen die Naturverbundenheit, die den Kern ihrer Lebensweise bildet.
+Am Ursprung stand eine kleine Gruppe von zwölf sylvanarischen Kriegern. <!-- todo: Welcher Stamm? Link zu den Charakterseiten. -->
+Sie hatten sich heimlich einer verbotenen Praxis bedient: Sie entzogen ihrer Umgebung gezielt Kraft, um sich selbst zu stärken, unter Anderem um zum Beispiel ihr eigenes Muskelwachstum zu beschleunigen.
+Unter den Sylvanars gilt ein solcher Eingriff als schwerer Verstoß gegen die Grundprinzipien der Naturverbundenheit.
 
 Als Strafe wurden die Krieger durch ein altes, ihnen unbekanntes Sgrisignier-Portal geschickt.
 Die Sylvanars kannten die Eigenschaften solcher Portale nicht und nahmen die Chaos-Interferenzen des Steinbogens nur als hochgefährliches Phänomen wahr.
