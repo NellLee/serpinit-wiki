@@ -17,6 +17,21 @@ export function endFileLinkBatch() {
 	contentCache = null;
 }
 
+export function readContentFile(fullPath: string): string {
+	if (contentCache?.has(fullPath)) {
+		return contentCache.get(fullPath)!;
+	}
+
+	let content = '';
+	try {
+		content = fs.readFileSync(fullPath, 'utf-8');
+	} catch {
+		// A missing file reads as empty, like in the FileLink constructor.
+	}
+	contentCache?.set(fullPath, content);
+	return content;
+}
+
 export class FileLink {
 	href: string;
 	text: string;
