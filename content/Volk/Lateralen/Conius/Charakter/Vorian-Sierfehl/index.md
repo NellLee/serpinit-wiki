@@ -16,7 +16,7 @@ Vorian Sierfehl ist ein älterer Conius-Lateraler und Leiter der [Resrubor-Akade
 
 ## Rolle in der Ikusation
 
-Sierfehl war es, der im Namen der Akademie den geheimen Durchbruch bei der Sicherung der [Sgrisignier-Portale](/content/Allgemein/Magie/Sgrisignier-Portale.md) vor dem versammelten Hofstaat der [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/index.md) im Kapis-Schloss vortrug.
+Sierfehl war es, der im Namen der Akademie den geheimen Durchbruch bei der Sicherung der [Sgrisignier-Portale](/content/Allgemein/Magie/Sgrisignier-Portale.md) vor dem versammelten Hofstaat der [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/index.md) im Kapis-Schloss vortrug.
 Mit ruhiger, betont freundlicher Stimme warb er um das Vertrauen der Versammlung und verwies auf das seit Langem gewachsene Bündnis zwischen Akademie und Königshaus.
 Er machte deutlich, dass die Akademie jede praktische Erprobung bislang bewusst unterlassen hatte, um unvorhergesehene Folgen zu vermeiden.
 

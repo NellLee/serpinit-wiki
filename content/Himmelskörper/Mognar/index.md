@@ -36,7 +36,7 @@ Als Nachfahren der ersten Vorenkai auf die von den Lateralen zurückgelassenen T
 
 ## Bedeutung im späteren Bestand
 
-Neben dem Portal nach Navura erschlossen die Vorenkai mit der Zeit auch weitere Mognar-Portale, die vor allem nach [Venoxi](/content/Himmelskörper/Venoxi/index.md) und [Collot & Linunar](/content/Himmelskörper/Collot_und_Linunar/index.md) führten.
+Neben dem Portal nach Navura erschlossen die Vorenkai mit der Zeit auch weitere Mognar-Portale, die vor allem nach [Venoxi](/content/Himmelskörper/Venoxi/index.md) und [Collot & Linunar](/content/Himmelskörper/Collot-und-Linunar/index.md) führten.
 Da keiner dieser Himmelskörper auch nur annähernd die Fülle und Bewohnbarkeit Navuras bot, blieb es dort bei kleinen Stützpunkten zur Erkundung, ohne dass sich daraus ein offener Krieg entwickelte.
 
 Obwohl Mognar selbst weitgehend lebensfeindlich blieb, gewann der Planet durch die Vorenkai, ihre Hauptstadt Zanguor und die dortigen Blutvulkane erhebliche historische Bedeutung.

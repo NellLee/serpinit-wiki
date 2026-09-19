@@ -1,3 +1,4 @@
+<!-- tags: Insel-Kette -->
 # Die Piere-Inseln
 
 Diese Inselkette liegt isoliert und weit nordöstlich von Gurontis.

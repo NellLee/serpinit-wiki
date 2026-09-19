@@ -2,7 +2,7 @@
 
 <!-- event: start=-0.01 category="Agranum" text="Kulios-Zwischenfall" -->
 
-Als Kulios-Zwischenfall wird jene Verkettung von Ereignissen bezeichnet, die am [See Kulios](/content/Himmelskörper/Agranum/Kontinent/Gurontis/See_Kulios/index.md) beinahe zur Entstehung einer regionalen Katastrophe führte und später zu einem wichtigen Vorlauf der [Ikusation](/content/Ereignis/Ikusation.md) wurde.
+Als Kulios-Zwischenfall wird jene Verkettung von Ereignissen bezeichnet, die am [See Kulios](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Kulios/index.md) beinahe zur Entstehung einer regionalen Katastrophe führte und später zu einem wichtigen Vorlauf der [Ikusation](/content/Ereignis/Ikusation.md) wurde.
 
 ## Ursache
 
@@ -15,7 +15,7 @@ Dadurch wurde im See ein ungewöhnlich mächtiger Wasserelementar gespeist, dess
 
 ## Auswirkungen auf Akuelon
 
-Besonders betroffen war das nahe Dorf [Akuelon](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Dorf_Akuelon/index.md).
+Besonders betroffen war das nahe Dorf [Akuelon](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Akuelon/index.md).
 Die Bewohner litten unter ausbleibenden Fängen, zerstörerischem Wetter und mehreren verschwundenen Dorfbewohnern — Lianell, Farosch und Grill —, die den Elementar aus eigener Kraft hatten bekämpfen wollen.
 Weil die Ursache zunächst unbekannt blieb, wurde das Phänomen erst als Zorn eines Elementars und später als unbegreifliche Fehlentwicklung des Sees selbst gedeutet.
 

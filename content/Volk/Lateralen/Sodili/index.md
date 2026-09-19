@@ -13,7 +13,7 @@ Während es zu Beginn nur wenige, kleine Populationen gab die weit über die sch
 Dabei leben häufig Laterale mit ähnlichen Hybridformen in kleineren Dörfern oder Städten zusammen.
 Nach der [Ikusation](/content/Ereignis/Ikusation.md) breiteten sich die Sodili-Lateralen sogar auf den anderen Planeten rapide aus, während die Conius-Lateralen hauptsächlich auf Agranum blieben.
 
-Trotz der starken Streuung der Sodili blieb ihre Hauptstadt [Carpebur](../../Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) Wohnsitz eines großen Teils ihrer Bevölkerung.
+Trotz der starken Streuung der Sodili blieb ihre Hauptstadt [Carpebur](../../Himmelskörper/Agranum/Kontinent/Gurontis/Carpebur/index.md) Wohnsitz eines großen Teils ihrer Bevölkerung.
 Sie ist darauf ausgelegt der großen Diversität an Micu und Hybridformen gerecht zu werden.
 
 # Entwicklung & Geschichte

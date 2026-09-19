@@ -13,7 +13,7 @@ Die vier ovelären Planeten sind für viele magische und geschichtliche Entwickl
 
 - [Agranum](./Agranum/index.md)<span style="color: red;">*</span>, der Gürtelplanet
 - [Aridess](./Aridess/index.md), der Wüstenplanet
-- [Collot & Linunar](./Collot_und_Linunar/index.md), der Gasriese und sein Mondplanet
+- [Collot & Linunar](./Collot-und-Linunar/index.md), der Gasriese und sein Mondplanet
 - [Luqua](./Luqua/index.md)<span style="color: red;">*</span>, die Eiswüste
 - [Mognar](./Mognar/index.md)<span style="color: red;">*</span>, der Magmaplanet
 - [Navura](./Navura/index.md)<span style="color: red;">*</span>, der Herzplanet

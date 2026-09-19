@@ -64,10 +64,10 @@ In seiner Schulzeit hatte Ingvor nur wenige Freunde, da er sich vollends auf sei
 ### Wichtige Ereignisse
 Gegen Ende seiner Ausbildung verstarben Ingvors Eltern bei einer Epidemie, was ihn dazu brachte, auch nach seinem Abschluss an der Resrubor-Akademie zu verbleiben.
 Ingvor wurde ein erfolgreicher Lehrer und Forscher an der Akademie, bekannt für seine Expertise in der Beschwörung und Stabilisierung von Elementaren.
-Nach einigen Jahren verließ Ingvor die Akademie, da ihm die Forschungspolitik zu träge war, und zog sich an den [See Kulios](/content/Himmelskörper/Agranum/Kontinent/Gurontis/See_Kulios/index.md) zurück, wo er seine Forschungen privat fortführte.
+Nach einigen Jahren verließ Ingvor die Akademie, da ihm die Forschungspolitik zu träge war, und zog sich an den [See Kulios](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Kulios/index.md) zurück, wo er seine Forschungen privat fortführte.
 Diese Version blieb lange unangefochten, verschwieg jedoch, dass Ingvor schon an der Akademie heimlich dieselbe Art riskanter Forschung betrieben hatte.
 Ein eskalierter Streit deckte dies auf und machte seinen Weggang faktisch unausweichlich, auch wenn er ihn seither als freie Entscheidung darstellt.
-Ein missglückter Versuch mit einer instabilen Rune führte dort zum [Kulios-Zwischenfall](/content/Ereignis/Kulios-Zwischenfall.md), bei dem ein riesiger Wasserelementar den See und das nahe [Akuelon](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Dorf_Akuelon/index.md) bedrohte.
+Ein missglückter Versuch mit einer instabilen Rune führte dort zum [Kulios-Zwischenfall](/content/Ereignis/Kulios-Zwischenfall.md), bei dem ein riesiger Wasserelementar den See und das nahe [Akuelon](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Akuelon/index.md) bedrohte.
 
 ### Aktuelle Situation
 Nach dem Kulios-Zwischenfall steht Ingvor im Spannungsfeld zwischen fachlicher Unersetzlichkeit und tiefem Misstrauen gegenüber seiner Verantwortung.
@@ -76,7 +76,7 @@ Den Anstoß dazu gab ein Geheimbrief des Königshauses Akilonis, der höchste Di
 
 > "Du wurdest als einer der weisesten Conius, der die Rätsel der Magie tief erforscht hat und die Geheimnisse der magischen Runen versteht, auserwählt, dem Ruf des Wals zu folgen."
 
-Der "Ruf des Wals" verweist vermutlich auf König [Thalmar Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Thalmar-Balena-Akilonis_Ondor/index.md) selbst und seinen Wal-Micu Ondor.
+Der "Ruf des Wals" verweist vermutlich auf König [Thalmar Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Thalmar-Balena-Akilonis_Ondor/index.md) selbst und seinen Wal-Micu Ondor.
 
 ## Beziehungen
 

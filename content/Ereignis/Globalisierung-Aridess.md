@@ -16,7 +16,7 @@ Wer Metalle, Werkzeuge und Transportkapazitäten kontrollierte, bestimmte häufi
 
 ## Rolle des Zirkel-Wettstreits
 
-Der von der Familie [Krolpin](/content/Volk/Varnops/Familie/Krolpin_Zirkelgruender/index.md) ausgerichtete Zirkel-Wettstreit schuf erstmals einen institutionellen Rahmen, in dem Innovation nicht nur ausgezeichnet, sondern sofort in planetare Verantwortung überführt wurde.
+Der von der Familie [Krolpin](/content/Volk/Varnops/Familie/Krolpin/index.md) ausgerichtete Zirkel-Wettstreit schuf erstmals einen institutionellen Rahmen, in dem Innovation nicht nur ausgezeichnet, sondern sofort in planetare Verantwortung überführt wurde.
 Die Gewinner-Erfindungen sollten nicht bloß beeindrucken, sondern praktische Infrastruktur für ganz Aridess schaffen.
 
 Damit war der Wettstreit mehr als ein technisches Turnier.

@@ -13,7 +13,7 @@ Sie kanalisiert vielmehr einen ohnehin anstehenden magischen Prozess in eine For
 
 ## Ablauf
 
-Zum Eintritt in das Jugendalter pilgert ein Sodili nach [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md), wo die Do-Uspil unter Aufsicht des Königs vorbereitet wird.
+Zum Eintritt in das Jugendalter pilgert ein Sodili nach [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Carpebur/index.md), wo die Do-Uspil unter Aufsicht des Königs vorbereitet wird.
 Der Betroffene wird in einen Trancezustand geführt, in dem er seiner inneren Gegenpersönlichkeit erstmals in klarer, tierischer Form begegnet.
 
 Entscheidend ist dabei nicht bloß das Sehen des Micu, sondern dessen Anerkennung.

@@ -1,3 +1,4 @@
+<!-- tags: Sodili-Hauptstadt -->
 
 # Carpebur, die vielschichtige Sodili-Hauptstadt
 
@@ -5,12 +6,12 @@ Carpebur ist die Hauptstadt der [Sodili-Lateralen].
 Sie liegt am Rande des Kontinents [Gurontis] auf dem Planeten [Agranum].
 Die Stadt ist für ihre unglaubliche Vielfalt bekannt.
 Hier leben seit jeher die unterschiedlichsten Sodili Seite an Seite.
-Darüber hinaus ist Carpebur der stetige Wohnsitz des Königshauses der Sodili,die [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/index.md).
+Darüber hinaus ist Carpebur der stetige Wohnsitz des Königshauses der Sodili,die [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/index.md).
 
 # Entstehung
 
 Carpebur entstand ursprünglich aus zwei unterschiedlichen Gemeinschaften, die immer weiter zusammenwuchsen und irgendwann nicht mehr einzeln zu identifizieren waren.
-Zum einen gab es ursprünglich das Dorf **Kapis** am nordöstlichen Ufer des [Hudori](../See_Hudori/index.md)-Sees im [Lifus-Plateau-Tal].
+Zum einen gab es ursprünglich das Dorf **Kapis** am nordöstlichen Ufer des [Hudori](../Hudori/index.md)-Sees im [Lifus-Plateau-Tal].
 Hier lebten vor allem Sodili mit wasserbewohnenden Micus, wie in den meisten Fischerdörfern auf Agranum.
 Zum anderen bildete sich später **Eburin** am Rande von Gurontis.
 Gegründet wurde Eburin von einer Gruppe reisender, flugfähiger Sodili welche ursprünglich von Kapis aus die [Liere]-Inseln in den [Leeren] erkundeten und dort eine besonders nährreiche Algenart entdeckten, welche nur dort gedeiht.

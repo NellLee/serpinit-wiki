@@ -1,6 +1,7 @@
+<!-- tags: Dorf -->
 # Akuelon
 
-Akuelon liegt auf [Gurontis](/content/Himmelskörper/Agranum/Kontinent/Gurontis/index.md) am Ufer des [Sees Kulios](/content/Himmelskörper/Agranum/Kontinent/Gurontis/See_Kulios/index.md).
+Akuelon liegt auf [Gurontis](/content/Himmelskörper/Agranum/Kontinent/Gurontis/index.md) am Ufer des [Sees Kulios](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Kulios/index.md).
 Das Dorf lebt von Fischerei und Bootsbau und gilt, wie die meisten kleineren Siedlungen der Sodili, als politisch autonom.
 
 ## Gesellschaft und Glaube

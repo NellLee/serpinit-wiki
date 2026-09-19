@@ -26,7 +26,7 @@ Da die meisten Erzvorkommen in den nördlichsten Gebirgen des Planeten verortet 
 
 ## Globalisierung
 Ein wichtiger Meilenstein in der Geschichte der Varnops ist die Austragung des [Zirkel-Wettstreits](/content/Ereignis/Zirkel-Wettstreit/index.md) und der darauffolgende technologische Aufschwung.
-Mit den innovativen Erfindungen und der neu gewonnenen gemeinschaftlichen Koordination schaffen es die Varnops unter der Führung der [Krolpin-Familie](./Familie/Krolpin_Zirkelgruender/index.md), ausgehend vom [Zirkelgebirge](/content/Himmelskörper/Aridess/Kontinent/Unol/Gebirge_Zirkelgebirge/index.md), eine Globalisierung des Planeten Aridess zu starten.
+Mit den innovativen Erfindungen und der neu gewonnenen gemeinschaftlichen Koordination schaffen es die Varnops unter der Führung der [Krolpin-Familie](./Familie/Krolpin/index.md), ausgehend vom [Zirkelgebirge](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/index.md), eine Globalisierung des Planeten Aridess zu starten.
 Diese ermöglicht erstmalig eine effektive Vernetzung der Nordhalbkugel, von den Zirkelgebirgen am Nordpol bis zu den grünen Schluchten des Äquators.
 Eine Ausdehnung auf die Südhalbkugel erfolgt verzögert, bedingt durch die weiten Handelswege und die natürlichen Schwierigkeiten der Überquerung der grünen Schluchten.
 Der übergeordnete historische Zusammenhang dieses Umbruchs ist im Artikel [Globalisierung von Aridess](/content/Ereignis/Globalisierung-Aridess.md) beschrieben.

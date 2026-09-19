@@ -39,7 +39,7 @@ Valeria wuchs früh ohne Familie auf.
 Ihre Bindung zu Nalius wurde zu dem, was ihr am nächsten kommt, einer eigentlichen Familie.
 
 ### Wichtige Ereignisse
-Auf der Suche nach einem tieferen Verständnis ihrer Bindung zu Nalius brach Valeria in Richtung [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) auf.
+Auf der Suche nach einem tieferen Verständnis ihrer Bindung zu Nalius brach Valeria in Richtung [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Carpebur/index.md) auf.
 Unterwegs begegnete sie dem Conius [Taeron Kalidorvus](/content/Volk/Lateralen/Conius/Charakter/Taeron-Kalidorvus/index.md), eine Begegnung, die ihre Sicht auf sich selbst und ihren Micu veränderte.
 Gemeinsam mit Taeron und dem Sodili [Alaric Rodeto Hoss](/content/Volk/Lateralen/Sodili/Charakter/Alaric-Rodeto-Hoss_Sable/index.md) erreichte sie das vom [Kulios-Zwischenfall](/content/Ereignis/Kulios-Zwischenfall.md) bedrohte Akuelon.
 Sie war es, die gemeinsam mit Nalius das wachsende Ungleichgewicht im nahen Wald zuerst bemerkte und bis zum See zurückverfolgte.

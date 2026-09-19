@@ -28,12 +28,12 @@ Die Tragweite dieser Erkenntnisse war den Forschenden sofort bewusst.
 Aus Angst vor Panik, unkontrollierten Versuchen und einem möglichen Krieg hielten die Conius ihre praktischen Fortschritte zunächst streng geheim.
 Erst nachdem die Grundidee als belastbar galt, suchte [Vorian Sierfehl](/content/Volk/Lateralen/Conius/Charakter/Vorian-Sierfehl/index.md) im Namen der Akademie den Kontakt zum Königshaus der Sodili.
 
-Im [Kapis-Schloss](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) wurde daraufhin eine geheime Beratung einberufen.
-[König Thalmar Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/index.md), sein Hofstaat und ausgewählte Vertreter der Akademie beschlossen dort gemeinsam, die Theorie der Conius unter strenger Aufsicht erstmals in die Praxis zu überführen.
+Im [Kapis-Schloss](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Carpebur/index.md) wurde daraufhin eine geheime Beratung einberufen.
+[König Thalmar Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/index.md), sein Hofstaat und ausgewählte Vertreter der Akademie beschlossen dort gemeinsam, die Theorie der Conius unter strenger Aufsicht erstmals in die Praxis zu überführen.
 
 Die Standpunkte am Hof gingen dabei weit auseinander.
-[Lord Andor](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Lord-Andor/index.md), ein konservativer Berater des Königs, warnte vor den Gefahren der Portale und forderte, sich aus diesen "Conius-Angelegenheiten" herauszuhalten.
-[Lady Lira](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Lady-Lira/index.md), eine angesehene Händlerin Carpeburs, sprach sich dagegen für die neuen Handelsmöglichkeiten aus, die eine Erschließung eröffnen würde.
+[Lord Andor](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lord-Andor/index.md), ein konservativer Berater des Königs, warnte vor den Gefahren der Portale und forderte, sich aus diesen "Conius-Angelegenheiten" herauszuhalten.
+[Lady Lira](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lady-Lira/index.md), eine angesehene Händlerin Carpeburs, sprach sich dagegen für die neuen Handelsmöglichkeiten aus, die eine Erschließung eröffnen würde.
 [Ingvor Nemet Mandijit](/content/Volk/Lateralen/Conius/Charakter/Ingvor-Nemet-Mandijit/index.md) stellte dem Hofstaat schließlich jene Gruppe vor, die sich später als Kern der Expedition bewähren sollte, während [Elara Stenimal](/content/Volk/Lateralen/Conius/Charakter/Elara-Stenimal/index.md) von der Akademie zur Vorsicht mahnte und auf eine gründliche Untersuchung der Portale vor jedem weiteren Schritt bestand.
 
 Der König bestand darauf, dass eine sodilische Begleitung an jeder ersten Erschließung teilnahm und die Sicherheit der Unternehmung nicht allein in Händen der Akademie lag.
@@ -65,7 +65,7 @@ Diese Episode gilt rückblickend als einer der moralisch dunkelsten Punkte der f
 ## Varnop-Erstkontakt
 
 Von Aridess aus gelang der Expedition schließlich der erste gesicherte Kontakt mit den [Varnops](/content/Volk/Varnops/index.md).
-Die Begegnung begann mit kleineren Gruppen aus dem Umfeld des späteren Zirkel-Systems und mündete schließlich in diplomatische Gespräche mit [Hiante Krolpin](/content/Volk/Varnops/Familie/Krolpin_Zirkelgruender/Charakter/Hiante-Krolpin/index.md) im Zirkelgebirge.
+Die Begegnung begann mit kleineren Gruppen aus dem Umfeld des späteren Zirkel-Systems und mündete schließlich in diplomatische Gespräche mit [Hiante Krolpin](/content/Volk/Varnops/Familie/Krolpin/Charakter/Hiante-Krolpin/index.md) im Zirkelgebirge.
 Dieser [Erstkontakt mit den Varnops](/content/Ereignis/Erstkontakt-Varnops.md) schuf die Grundlage für spätere Handelsbeziehungen zwischen Aridess und Agranum und veränderte die politische Einordnung der Ikusation dauerhaft.
 
 ## Weitere Ausweitung

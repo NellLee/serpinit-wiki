@@ -9,7 +9,7 @@
 | **Alter:** | Mittleren Alters |
 | **Geschlecht:** | Männlich |
 | **Spezies / Rasse:** | [Sodili-Lateral](/content/Volk/Lateralen/index.md) |
-| **Heimat:** | [Akuelon](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Dorf_Akuelon/index.md) |
+| **Heimat:** | [Akuelon](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Akuelon/index.md) |
 | **Beruf:** | Bürgermeister von Akuelon, vormals Bootsbauer |
 
 ## Allgemein

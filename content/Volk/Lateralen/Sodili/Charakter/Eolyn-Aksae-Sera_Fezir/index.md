@@ -11,7 +11,7 @@
 | **Alter:**           | Junge Erwachsene                                                                                        |
 | **Geschlecht:**      | Weiblich                                                                                                |
 | **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk/Lateralen/index.md)                                                    |
-| **Heimat:**          | [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)    |
+| **Heimat:**          | [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Carpebur/index.md)    |
 | **Beruf:**           | Handelsvertreterin der Familie Sera                                                                     |
 
 ## Allgemein

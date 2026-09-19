@@ -11,7 +11,7 @@
 | **Heimat:** | Carpebur |
 | **Beruf:** | Adliger Berater der Dynastie Akilonis |
 
-Lord Andor ist ein adliger Berater am Hof der [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/index.md) in Carpebur, begleitet von seiner Fisch-Micu Lonne.
+Lord Andor ist ein adliger Berater am Hof der [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/index.md) in Carpebur, begleitet von seiner Fisch-Micu Lonne.
 
 ## Haltung zur Ikusation
 

@@ -1,3 +1,4 @@
+<!-- tags: Diebesgilde -->
 # Der Braune Ring
 
 Der braune Ring ist eine geheime Diebesgilde welche sich in den Tiefen der Kanalisation von Carpebur versteckt.

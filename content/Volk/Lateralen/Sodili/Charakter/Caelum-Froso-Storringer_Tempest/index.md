@@ -11,7 +11,7 @@
 | **Alter:** | Mittleren Alters |
 | **Geschlecht:** | Männlich |
 | **Spezies / Rasse:** | [Sodili-Lateral](/content/Volk/Lateralen/index.md) |
-| **Heimat:** | [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) |
+| **Heimat:** | [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Carpebur/index.md) |
 | **Beruf:** | Mitglied der königlichen Garde |
 
 ## Allgemein

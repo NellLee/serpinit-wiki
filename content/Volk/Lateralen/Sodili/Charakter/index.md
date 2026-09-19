@@ -20,20 +20,20 @@
 
 ## Dynastie Akilonis
 
-Das Königshaus, siehe auch die [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/index.md).
+Das Königshaus, siehe auch die [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/index.md).
 
-* [König Thalmar Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Thalmar-Balena-Akilonis_Ondor/index.md)
-* [Prinz Harvik Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Prinz-Harvik/index.md)
-* [Prinzessin Alyra Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Prinzessin-Alyra/index.md)
-* [Lady Lira](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Lady-Lira/index.md)
-* [Lord Andor](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Lord-Andor/index.md)
+* [König Thalmar Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Thalmar-Balena-Akilonis_Ondor/index.md)
+* [Prinz Harvik Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinz-Harvik/index.md)
+* [Prinzessin Alyra Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Prinzessin-Alyra/index.md)
+* [Lady Lira](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lady-Lira/index.md)
+* [Lord Andor](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Akilonis/Charakter/Lord-Andor/index.md)
 
 ## Diebesgilde Brauner-Ring
 
-Mitglieder der [Diebesgilde Brauner-Ring](/content/Volk/Lateralen/Sodili/Politik/Clan/Diebesgilde_Brauner-Ring/index.md).
+Mitglieder der [Diebesgilde Brauner-Ring](/content/Volk/Lateralen/Sodili/Politik/Clan/Brauner-Ring/index.md).
 
-* [Jolint Wolenson](/content/Volk/Lateralen/Sodili/Politik/Clan/Diebesgilde_Brauner-Ring/Charakter/Jolint-Enol-Wolenson_Suul/index.md)
-* [Liora Merelis](/content/Volk/Lateralen/Sodili/Politik/Clan/Diebesgilde_Brauner-Ring/Charakter/Liora-Gartu-Merelis_Silka/index.md)
-* [Kellan Drasus](/content/Volk/Lateralen/Sodili/Politik/Clan/Diebesgilde_Brauner-Ring/Charakter/Kellan-Duk-Drasus_Rollo/index.md)
-* [Saria Nitak](/content/Volk/Lateralen/Sodili/Politik/Clan/Diebesgilde_Brauner-Ring/Charakter/Saria-Nasit-Nitak_Nula/index.md)
-* [Garrick Tornbad](/content/Volk/Lateralen/Sodili/Politik/Clan/Diebesgilde_Brauner-Ring/Charakter/Garrick-Filben-Tornbad_Sneaks/index.md)
+* [Jolint Wolenson](/content/Volk/Lateralen/Sodili/Politik/Clan/Brauner-Ring/Charakter/Jolint-Enol-Wolenson_Suul/index.md)
+* [Liora Merelis](/content/Volk/Lateralen/Sodili/Politik/Clan/Brauner-Ring/Charakter/Liora-Gartu-Merelis_Silka/index.md)
+* [Kellan Drasus](/content/Volk/Lateralen/Sodili/Politik/Clan/Brauner-Ring/Charakter/Kellan-Duk-Drasus_Rollo/index.md)
+* [Saria Nitak](/content/Volk/Lateralen/Sodili/Politik/Clan/Brauner-Ring/Charakter/Saria-Nasit-Nitak_Nula/index.md)
+* [Garrick Tornbad](/content/Volk/Lateralen/Sodili/Politik/Clan/Brauner-Ring/Charakter/Garrick-Filben-Tornbad_Sneaks/index.md)
