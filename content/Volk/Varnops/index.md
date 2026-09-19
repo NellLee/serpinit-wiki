@@ -1,7 +1,7 @@
 # Die Varnops
 
 <!-- display: figure -->
-![Männlicher Varnop des Phoriat-Zirkels](./images/Varnop_maennlich_Zirkel-des-Phoriats.png)
+![Männlicher Varnop des Phoriat-Zirkels](./images/Varnop_männlich_Zirkel-des-Phoriats.png)
 
 Die Varnops sind das vorherrschende Volk auf [Aridess](/content/Himmelskörper/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse.
 Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften dominiert werden.

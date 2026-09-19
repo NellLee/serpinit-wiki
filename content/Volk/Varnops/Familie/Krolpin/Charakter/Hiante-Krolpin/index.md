@@ -2,7 +2,7 @@
 
 <!-- layout: overview -->
 
-![Hiante Krolpin](./images/Hiante-Krolpin_Zirkelgruenderin.png)
+![Hiante Krolpin](./images/Hiante-Krolpin_Zirkelgründerin.png)
  
 |                      |                                                                                                         |
 | -------------------- | ------------------------------------------------------------------------------------------------------- |

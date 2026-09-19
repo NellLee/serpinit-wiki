@@ -68,7 +68,7 @@ Ihr Hauptquartier liegt tief in den Schwarztunneln und kann nur von jenen gefund
 
 ## Aufnahme neuer Mitglieder
 
-![](./images/Eingang_Tuer_Symbol_Raetsel.png)
+![](./images/Eingang_Tür_Symbol_Rätsel.png)
 
 Wer das Hauptquartier sucht, findet zunächst nur eine abgewetzte Holztür mit einem eingeritzten, gezackten Kreis, umgeben von Diebesschrift in den Tunnelwänden.
 Über der Tür steht geschrieben, man solle die bedeutsamen Zacken des Ring-Symbols in der richtigen Reihenfolge berühren, und drei versteckte Hinweise in der Nähe verraten, welche das sind.

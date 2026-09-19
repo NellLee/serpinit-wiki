@@ -29,7 +29,7 @@ Tjosand ist ein Stoff welcher hauptsächlich in den Wüsten Agranums vorkommt.
 Tiefliegender Tjosand wird dabei manchmal aufgrund von nahegelegenen unterirdischen Gaskammern mit hohem Druck und hohen Temperaturen zuerst eingeschmolzen und schließlich durch entweichende Gase an die Oberfläche gedrückt.
 Dabei entstehen Strukturen, die in ihrem Aussehen an geblasenes Glas erinnern.
 
-![Natürliche Tjosand Vorkommen](./images/Agranum_Wueste_natuerlich_Tjosand-Quarz.png)
+![Natürliche Tjosand Vorkommen](./images/Agranum_Wüste_natürlich_Tjosand-Quarz.png)
 
 
 

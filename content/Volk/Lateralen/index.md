@@ -61,7 +61,7 @@ Die [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resru
 
 # Aussehen
 
-![](./images/Lateral_Maennlich_Portrait_Entwicklungskonzept.png)
+![](./images/Lateral_Männlich_Portrait_Entwicklungskonzept.png)
 Typischer, moderner, männlicher Lateraler (rechts) und sein evolutionärer Vorgänger *homo primian fractus* (links)
 
 Laterale zeigen ihre Gefühle generell weniger offen als andere Völker.
