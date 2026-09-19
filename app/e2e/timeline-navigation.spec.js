@@ -413,3 +413,109 @@ test.describe('user-reported scenarios', () => {
 		});
 	});
 });
+
+test('clicking an event selects it even though the cursor line follows the pointer', async ({
+	page
+}) => {
+	const target = await page.evaluate(() => {
+		const svg = document.querySelector('.timeline svg').getBoundingClientRect();
+		for (const label of document.querySelectorAll('.timeline text.event-label')) {
+			const box = label.getBoundingClientRect();
+			const insideView =
+				box.left > svg.left + 10 &&
+				box.right < svg.right - 10 &&
+				box.top > svg.top &&
+				box.bottom < svg.bottom;
+			if (box.width > 20 && insideView) {
+				return { x: box.left + box.width / 2, y: box.top + box.height / 2 };
+			}
+		}
+		return null;
+	});
+	expect(target, 'the default view should show at least one event').not.toBeNull();
+
+	await page.mouse.click(target.x, target.y);
+
+	await expect(page.locator('#event-title')).toBeVisible({ timeout: 2000 });
+});
+
+async function findEventPoint(page, selector) {
+	return page.evaluate((selector) => {
+		const svg = document.querySelector('.timeline svg').getBoundingClientRect();
+		// Event bars are narrow in the default view, labels and flags are wide.
+		const minWidth = selector === 'rect.event' ? 10 : 25;
+		for (const element of document.querySelectorAll(`.timeline svg ${selector}`)) {
+			const box = element.getBoundingClientRect();
+			const insideView =
+				box.left > svg.left + 20 &&
+				box.right < svg.right - 60 &&
+				box.top > svg.top + 5 &&
+				box.bottom < svg.bottom - 5;
+			if (box.width < minWidth || box.height < 10 || !insideView) continue;
+			// Shapes carry their label in the middle, so aim at the corner to hit the shape itself.
+			return selector.startsWith('text')
+				? { x: box.left + box.width / 2, y: box.top + box.height / 2 }
+				: { x: box.left + 3, y: box.top + 3 };
+		}
+		return null;
+	}, selector);
+}
+
+test.describe('selecting events', () => {
+	for (const [name, selector] of [
+		['an event bar', 'rect.event'],
+		['a moment flag', 'path.moment-flag'],
+		['an event label', 'text.event-label']
+	]) {
+		test(`clicking ${name} selects its event`, async ({ page }) => {
+			const point = await findEventPoint(page, selector);
+			expect(point, `the default view should show ${name}`).not.toBeNull();
+
+			await page.mouse.move(point.x, point.y);
+			await page.mouse.down();
+			await page.mouse.up();
+
+			await expect(page.locator('#event-title')).toBeVisible({ timeout: 2000 });
+		});
+
+		test(`clicking ${name} with a slightly moving mouse still selects its event`, async ({
+			page
+		}) => {
+			const point = await findEventPoint(page, selector);
+			expect(point, `the default view should show ${name}`).not.toBeNull();
+
+			await page.mouse.move(point.x, point.y);
+			await page.mouse.down();
+			await page.mouse.move(point.x + 2, point.y + 1);
+			await page.mouse.up();
+
+			await expect(page.locator('#event-title')).toBeVisible({ timeout: 2000 });
+		});
+	}
+
+	test('dragging from an event pans the timeline instead of selecting it', async ({ page }) => {
+		const point = await findEventPoint(page, 'rect.event');
+		expect(point, 'the default view should show an event bar').not.toBeNull();
+
+		await page.mouse.move(point.x, point.y);
+		await page.mouse.down();
+		await page.mouse.move(point.x + 60, point.y, { steps: 6 });
+		await page.mouse.up();
+
+		await expect(page.locator('#event-title')).toHaveCount(0);
+	});
+
+	test('clicking a selected event again deselects it', async ({ page }) => {
+		const point = await findEventPoint(page, 'text.event-label');
+		expect(point, 'the default view should show an event label').not.toBeNull();
+
+		await page.mouse.move(point.x, point.y);
+		await page.mouse.down();
+		await page.mouse.up();
+		await expect(page.locator('#event-title')).toBeVisible({ timeout: 2000 });
+
+		await page.mouse.down();
+		await page.mouse.up();
+		await expect(page.locator('#event-title')).toHaveCount(0);
+	});
+});

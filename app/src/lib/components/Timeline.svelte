@@ -80,9 +80,43 @@
 			});
 		d3.select(svgElement)
 			.call(zoom)
-			.on('mousemove', (event: MouseEvent) => renderCursor(d3.pointer(event, svgElement)));
+			.on('mousemove', (event: MouseEvent) => renderCursor(d3.pointer(event, svgElement)))
+			.on('pointerdown.select', (event: PointerEvent) => {
+				const pressedEvent = eventAtTarget(event.target);
+				pressed = pressedEvent ? { event: pressedEvent, x: event.clientX, y: event.clientY } : null;
+			})
+			.on('pointerup.select', (event: PointerEvent) => {
+				const distance = pressed
+					? Math.hypot(event.clientX - pressed.x, event.clientY - pressed.y)
+					: 0;
+				if (pressed && distance < clickDistance) {
+					toggleEventSelection(pressed.event);
+				}
+				pressed = null;
+			});
 
 		initialised = true;
+	}
+
+	// A click is decided from the press and release positions instead of the browser's click event:
+	// every zoom event rebuilds the event elements, and a rebuilt element never receives the click.
+	const clickDistance = 5;
+	let pressed: { event: TimelineEvent; x: number; y: number } | null = null;
+
+	function eventAtTarget(target: EventTarget | null): TimelineEvent | null {
+		const element = (target as Element | null)?.closest?.('.event, .moment-flag, .event-label');
+		return element ? d3.select<Element, EventConfig>(element).datum().event : null;
+	}
+
+	// The page keeps the selection in $state, which hands out a proxy, so identity checks never match.
+	function isSameEvent(a: TimelineEvent | null | undefined, b: TimelineEvent | null | undefined) {
+		return (
+			!!a && !!b && a.start === b.start && a.end === b.end && a.text === b.text && a.href === b.href
+		);
+	}
+
+	function toggleEventSelection(event: TimelineEvent) {
+		selectedEvent = isSameEvent(selectedEvent, event) ? null : event;
 	}
 
 	function renderTimeline() {
@@ -115,7 +149,9 @@
 				.attr('y2', effectiveHeight!)
 				.attr('stroke', 'blue')
 				.attr('stroke-width', 1)
-				.attr('stroke-opacity', 0.5);
+				.attr('stroke-opacity', 0.5)
+				// The line follows the pointer, so it must not catch the clicks meant for the events.
+				.attr('pointer-events', 'none');
 		}
 	}
 
@@ -231,18 +267,10 @@
 			return result;
 		};
 
-		const handleEventClick = (_clickEvent: MouseEvent, eventConfig: EventConfig) => {
-			// Handle click event
-			if (selectedEvent !== eventConfig.event) {
-				selectedEvent = timeline.find((event) => event == eventConfig.event)!;
-			} else {
-				selectedEvent = null; // Deselect if already selected
-			}
-		};
-
 		const conditionalSelectedColor = (d: EventConfig) =>
-			d.event == selectedEvent ? 'red' : 'black';
-		const conditionalSelectedWidth = (d: EventConfig) => (d.event == selectedEvent ? 3 : 1);
+			isSameEvent(d.event, selectedEvent) ? 'red' : 'black';
+		const conditionalSelectedWidth = (d: EventConfig) =>
+			isSameEvent(d.event, selectedEvent) ? 3 : 1;
 
 		events
 			.selectAll('line.moment')
@@ -282,7 +310,6 @@
 			.attr('fill', (d) => d.event.category!.color) //TODO
 			.attr('stroke', conditionalSelectedColor)
 			.attr('stroke-width', conditionalSelectedWidth)
-			.on('click', handleEventClick)
 			.style('cursor', 'pointer')
 			.append('title')
 			.text((d) => d.event.text ?? '');
@@ -300,7 +327,6 @@
 			.attr('fill', (d) => d.event.category!.color) //TODO
 			.attr('stroke', conditionalSelectedColor)
 			.attr('stroke-width', conditionalSelectedWidth)
-			.on('click', handleEventClick)
 			.style('cursor', 'pointer')
 			.append('title')
 			.text((d) => d.event.text ?? '');
@@ -320,7 +346,6 @@
 			.attr('fill', (d) => d.event.category!.font_color) //TODO
 			.text((d) => d.text)
 			.each((d, i, nodes) => stripText(nodes[i], d.width))
-			.on('click', handleEventClick)
 			.style('cursor', 'pointer')
 			.append('title')
 			.text((d) => d.event.text ?? '');
