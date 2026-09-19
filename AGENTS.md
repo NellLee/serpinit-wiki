@@ -18,6 +18,7 @@ Bei der Arbeit an Lore gilt:
 Bei der Arbeit an Markdown-Dateien gilt:
 - neue oder geänderte Markdown-Dateien müssen immer valides Markdown bleiben
 - projektspezifische Syntax wie `:::`, `§imglink`, Tabellen und HTML-Kommentare darf nicht beschädigt werden
+- Tag-Hooks (`<!-- tags: … -->`, `<!-- folder-tag -->`) stehen im Hook-Block ganz oben in der Datei; Syntax und Regeln stehen in `.claude/skills/page-tags/SKILL.md`
 - Fließtext im etablierten Satz-pro-Zeile-Stil schreiben
 - bei Unsicherheit bestehende Struktur bevorzugen statt Formatierung zu erzwingen
 
