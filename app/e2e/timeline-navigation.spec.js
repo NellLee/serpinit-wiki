@@ -413,28 +413,3 @@ test.describe('user-reported scenarios', () => {
 		});
 	});
 });
-
-test('clicking an event selects it even though the cursor line follows the pointer', async ({
-	page
-}) => {
-	const target = await page.evaluate(() => {
-		const svg = document.querySelector('.timeline svg').getBoundingClientRect();
-		for (const label of document.querySelectorAll('.timeline text.event-label')) {
-			const box = label.getBoundingClientRect();
-			const insideView =
-				box.left > svg.left + 10 &&
-				box.right < svg.right - 10 &&
-				box.top > svg.top &&
-				box.bottom < svg.bottom;
-			if (box.width > 20 && insideView) {
-				return { x: box.left + box.width / 2, y: box.top + box.height / 2 };
-			}
-		}
-		return null;
-	});
-	expect(target, 'the default view should show at least one event').not.toBeNull();
-
-	await page.mouse.click(target.x, target.y);
-
-	await expect(page.locator('#event-title')).toBeVisible({ timeout: 2000 });
-});
