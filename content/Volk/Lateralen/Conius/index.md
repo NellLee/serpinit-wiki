@@ -9,13 +9,13 @@ Sie gelten unter den Lateralen als besonders klar im Geist und als das Volk mit 
 
 # Lebensraum
 
-Das gesellschaftliche und wissenschaftliche Zentrum der Conius ist die [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) auf Agranum.
+Das gesellschaftliche und wissenschaftliche Zentrum der Conius ist die [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/index.md) auf Agranum.
 
 # Entwicklung & Geschichte
 
 Die Conius entstanden aus einer Gruppierung von Lateralen, welche das eigene Doppelleben nicht als göttliche Fügung, sondern als Folge einer schweren Störung begriffen.
 Durch frühe Selbstversuche erkannten sie, dass nicht nur die zweite Persönlichkeit selbst problematisch ist, sondern auch jene magische Fehlkopplung im Geist, welche diese dauerhaft nährt.
-Auf dieser Erkenntnis bauten sie mit der Zeit Verfahren auf, die später als [Therapie der Conius](/content/Volk_/Lateralen_/Conius/Therapie.md) zum Kern ihrer Identität wurden.
+Auf dieser Erkenntnis bauten sie mit der Zeit Verfahren auf, die später als [Therapie der Conius](/content/Volk/Lateralen/Conius/Therapie.md) zum Kern ihrer Identität wurden.
 
 # Gesellschaft
 
@@ -46,4 +46,4 @@ Gerade deshalb sind Conius in der Lage ihre magische Intelligenz mit Bildung deu
 
 Aus diesem Umstand erwuchs schließlich auch das besondere Talent der Conius für die Erforschung von Runen, Runenschatten und anderen magischen Phänomenen.
 Während Sodili die Magie ihres eigenen Wesens vor allem erfahren und leben, zerlegen die Conius dieselben Naturgesetze in beobachtbare Muster und nutzen dieses Wissen für eine gezielte, wissenschaftliche Form der Magie.
-Ein großer Teil dieses Wissens bündelt sich heute in der [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md).
+Ein großer Teil dieses Wissens bündelt sich heute in der [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/index.md).

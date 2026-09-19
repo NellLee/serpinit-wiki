@@ -17,7 +17,7 @@ Einmal von der Mutterpflanze gelöst, verlieren die Blütenblätter ihren parasi
 In dieser Form dienen sie den Sylvanars als essentielles Heilmittel: Auf eine Wunde aufgebracht, verbinden sie sich damit innerhalb von Sekunden und verschließen sie zuverlässig, ohne die gefährlichen Nachwirkungen des Kontakts mit der lebenden Pflanze.
 
 Die Sangurel ist eng mit der Heiler-Rolle der Sylvanars verknüpft.
-Wer sich während des [Cre'Athem](/content/Volk_/Sylvanar/index.md#cre-athem) für diese Rolle entscheidet, zieht als Sprössling eine junge Sangurel groß und muss dabei lernen, sie zu pflegen, ohne sich selbst durch unachtsamen Kontakt zu verletzen — ein früher Ausdruck jener Präzision und Sanftheit, die die Rolle später verlangt.
+Wer sich während des [Cre'Athem](/content/Volk/Sylvanar/index.md#cre-athem) für diese Rolle entscheidet, zieht als Sprössling eine junge Sangurel groß und muss dabei lernen, sie zu pflegen, ohne sich selbst durch unachtsamen Kontakt zu verletzen — ein früher Ausdruck jener Präzision und Sanftheit, die die Rolle später verlangt.
 
 ## Lebensraum
 Die Sangurel findet sich vor allem in den sumpfnahen Wäldern Navuras, wo hohe Luftfeuchtigkeit und häufig geschwächte, morsche Bäume ideale Wirte bieten.

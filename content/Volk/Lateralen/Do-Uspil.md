@@ -1,7 +1,7 @@
 # Do-Uspil
 
-Die Do-Uspil ist das sodilische Übergangsritual, bei dem die zweite Persönlichkeit eines jungen [Lateralen](/content/Volk_/Lateralen_/index.md) unter geordneten Bedingungen in die äußere Gestalt eines Micu überführt wird.
-Für die [Sodili](/content/Volk_/Lateralen_/Sodili/index.md) ist sie zugleich religiöser Prüfpunkt, politischer Machtakt und lebenspraktische Notwendigkeit.
+Die Do-Uspil ist das sodilische Übergangsritual, bei dem die zweite Persönlichkeit eines jungen [Lateralen](/content/Volk/Lateralen/index.md) unter geordneten Bedingungen in die äußere Gestalt eines Micu überführt wird.
+Für die [Sodili](/content/Volk/Lateralen/Sodili/index.md) ist sie zugleich religiöser Prüfpunkt, politischer Machtakt und lebenspraktische Notwendigkeit.
 
 ## Funktion
 
@@ -13,7 +13,7 @@ Sie kanalisiert vielmehr einen ohnehin anstehenden magischen Prozess in eine For
 
 ## Ablauf
 
-Zum Eintritt in das Jugendalter pilgert ein Sodili nach [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md), wo die Do-Uspil unter Aufsicht des Königs vorbereitet wird.
+Zum Eintritt in das Jugendalter pilgert ein Sodili nach [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md), wo die Do-Uspil unter Aufsicht des Königs vorbereitet wird.
 Der Betroffene wird in einen Trancezustand geführt, in dem er seiner inneren Gegenpersönlichkeit erstmals in klarer, tierischer Form begegnet.
 
 Entscheidend ist dabei nicht bloß das Sehen des Micu, sondern dessen Anerkennung.
@@ -37,7 +37,7 @@ Gerade diese Gefahr erklärt, warum die Pilgerreise nach Carpebur trotz regional
 
 ## Verhältnis zu den Conius
 
-Die [Conius](/content/Volk_/Lateralen_/Conius/index.md) lehnen die Grundannahme der Do-Uspil nicht in jedem kulturellen Detail ab, wohl aber ihre Notwendigkeit.
+Die [Conius](/content/Volk/Lateralen/Conius/index.md) lehnen die Grundannahme der Do-Uspil nicht in jedem kulturellen Detail ab, wohl aber ihre Notwendigkeit.
 Aus ihrer Sicht wird hier ein pathologischer Zustand rituell stabilisiert, den man besser frühzeitig therapieren sollte.
 Gerade an dieser Frage zeigt sich die tiefste kulturelle Spaltung innerhalb der Lateralen:
 Was den Sodili als heilige Ordnung gilt, erscheint den Conius als geordnetes Fortleben einer uralten Beschädigung.

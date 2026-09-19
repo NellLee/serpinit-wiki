@@ -8,7 +8,7 @@
 | **Rolle:** | Waldläuferin |
 | **Alter:** | Junge Erwachsene |
 | **Geschlecht:** | Weiblich |
-| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | ein entfernter Wald auf Gurontis |
 | **Beruf:** | ohne festen Beruf, lebt als Waldläuferin |
 
@@ -39,13 +39,13 @@ Valeria wuchs früh ohne Familie auf.
 Ihre Bindung zu Nalius wurde zu dem, was ihr am nächsten kommt, einer eigentlichen Familie.
 
 ### Wichtige Ereignisse
-Auf der Suche nach einem tieferen Verständnis ihrer Bindung zu Nalius brach Valeria in Richtung [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) auf.
-Unterwegs begegnete sie dem Conius [Taeron Kalidorvus](/content/Volk_/Lateralen_/Conius/Charakter_/Taeron-Kalidorvus/index.md), eine Begegnung, die ihre Sicht auf sich selbst und ihren Micu veränderte.
-Gemeinsam mit Taeron und dem Sodili [Alaric Rodeto Hoss](/content/Volk_/Lateralen_/Sodili/Charakter_/Alaric-Rodeto-Hoss_Sable/index.md) erreichte sie das vom [Kulios-Zwischenfall](/content/Ereignis_/Kulios-Zwischenfall.md) bedrohte Akuelon.
+Auf der Suche nach einem tieferen Verständnis ihrer Bindung zu Nalius brach Valeria in Richtung [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) auf.
+Unterwegs begegnete sie dem Conius [Taeron Kalidorvus](/content/Volk/Lateralen/Conius/Charakter/Taeron-Kalidorvus/index.md), eine Begegnung, die ihre Sicht auf sich selbst und ihren Micu veränderte.
+Gemeinsam mit Taeron und dem Sodili [Alaric Rodeto Hoss](/content/Volk/Lateralen/Sodili/Charakter/Alaric-Rodeto-Hoss_Sable/index.md) erreichte sie das vom [Kulios-Zwischenfall](/content/Ereignis/Kulios-Zwischenfall.md) bedrohte Akuelon.
 Sie war es, die gemeinsam mit Nalius das wachsende Ungleichgewicht im nahen Wald zuerst bemerkte und bis zum See zurückverfolgte.
 
 ### Aktuelle Situation
-Valeria zählt zu den prägenden Mitgliedern der frühen [Ikusation](/content/Ereignis_/Ikusation.md).
+Valeria zählt zu den prägenden Mitgliedern der frühen [Ikusation](/content/Ereignis/Ikusation.md).
 
 ## Fähigkeiten und Kräfte
 
@@ -80,7 +80,7 @@ Valeria hat keine eigene Familie.
 Nalius ist ihr das, was einer Familie am nächsten kommt.
 
 ### Freunde
-[Taeron Kalidorvus](/content/Volk_/Lateralen_/Conius/Charakter_/Taeron-Kalidorvus/index.md) und [Alaric Rodeto Hoss](/content/Volk_/Lateralen_/Sodili/Charakter_/Alaric-Rodeto-Hoss_Sable/index.md), echte Weggefährten seit dem Kulios-Zwischenfall.
+[Taeron Kalidorvus](/content/Volk/Lateralen/Conius/Charakter/Taeron-Kalidorvus/index.md) und [Alaric Rodeto Hoss](/content/Volk/Lateralen/Sodili/Charakter/Alaric-Rodeto-Hoss_Sable/index.md), echte Weggefährten seit dem Kulios-Zwischenfall.
 
 ### Feinde
 Wilderer und andere, die die Natur rücksichtslos zerstören.

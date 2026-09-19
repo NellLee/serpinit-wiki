@@ -13,5 +13,5 @@ Wo der Mavorak-Zyklus bereits eine gemeinsame historische Basiseinheit bildet, s
 Im Alltag verwenden nicht alle Völker dieselben Großmaßstäbe.
 Trotzdem taucht die Serpe in vielen späteren Formulierungen als übergreifende Zeitspanne auf, gerade wenn sehr lange Wachstums-, Bildungs- oder Traditionszeiträume beschrieben werden.
 
-Im Bestand des Wikis zeigt sich dies bereits daran, dass etwa die [Sylvanars](/content/Volk_/Sylvanar/index.md) bestimmte Lebensphasen in Serpen beschreiben.
+Im Bestand des Wikis zeigt sich dies bereits daran, dass etwa die [Sylvanars](/content/Volk/Sylvanar/index.md) bestimmte Lebensphasen in Serpen beschreiben.
 Die Serpe fungiert damit als Brücke zwischen abstrakter Chronologie und kulturell gelebter Dauer.

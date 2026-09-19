@@ -1,11 +1,11 @@
 # Hybridisierung der Sodili
 
-Als Hybridisierung wird die Fähigkeit eines [Sodili](/content/Volk_/Lateralen_/Sodili/index.md) bezeichnet, sich zeitweise mit dem eigenen Micu zu einer gemeinsamen Gestalt zu verbinden.
-Sie gehört zu den prägendsten magischen Eigenschaften der Sodili-Lateralen und erklärt einen großen Teil ihrer ökologischen und kulturellen Vielfalt auf [Agranum](/content/Himmelskoerper_/Agranum/index.md).
+Als Hybridisierung wird die Fähigkeit eines [Sodili](/content/Volk/Lateralen/Sodili/index.md) bezeichnet, sich zeitweise mit dem eigenen Micu zu einer gemeinsamen Gestalt zu verbinden.
+Sie gehört zu den prägendsten magischen Eigenschaften der Sodili-Lateralen und erklärt einen großen Teil ihrer ökologischen und kulturellen Vielfalt auf [Agranum](/content/Himmelskörper/Agranum/index.md).
 
 ## Grundprinzip
 
-Sodili und Micu sind nach der [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) keine unabhängigen Wesen im gewöhnlichen Sinn, sondern zwei bleibend verbundene Ausprägungen desselben Lebens.
+Sodili und Micu sind nach der [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) keine unabhängigen Wesen im gewöhnlichen Sinn, sondern zwei bleibend verbundene Ausprägungen desselben Lebens.
 Ihre Geister bleiben auch in getrennter Gestalt eng gekoppelt.
 Die Hybridisierung ist deshalb keine Verschmelzung zufälliger Partner, sondern eine zeitweise Rückkopplung zweier Formen, die ohnehin auf tiefer Ebene zusammengehören.
 

@@ -2,7 +2,7 @@
 
 <!-- event: start=0.19642655464612768 end=1.5430230896416435 category="Navura" text="(14)Polarisierung der Vorenkai" -->
 
-Als Polarisierung der Vorenkai wird jene späte Phase des [Krieges um Navura](/content/Ereignis_/Krieg-um-Navura.md) bezeichnet, in der das Volk der [Vorenkai](/content/Volk_/Vorenkai/index.md) nicht mehr nur gegen äußere Gegner kämpfte, sondern zugleich in einen offenen Richtungsstreit über seine eigene Zukunft geriet.
+Als Polarisierung der Vorenkai wird jene späte Phase des [Krieges um Navura](/content/Ereignis/Krieg-um-Navura.md) bezeichnet, in der das Volk der [Vorenkai](/content/Volk/Vorenkai/index.md) nicht mehr nur gegen äußere Gegner kämpfte, sondern zugleich in einen offenen Richtungsstreit über seine eigene Zukunft geriet.
 
 ## Ursachen
 
@@ -15,7 +15,7 @@ So entstand eine Spaltung zwischen jenen, die die Kriegslogik aufrechterhalten w
 
 ## Rolle Eliktas
 
-Mit [Elikta](/content/Volk_/Lateralen_/Sodili/Charakter_/Elikta/index.md) trat schließlich eine Figur auf, an der sich dieser Konflikt bündelte.
+Mit [Elikta](/content/Volk/Lateralen/Sodili/Charakter/Elikta/index.md) trat schließlich eine Figur auf, an der sich dieser Konflikt bündelte.
 Ihre Bereitschaft, zwischen Vorenkai-Fraktionen und den übrigen Gruppen Navuras zu vermitteln, verschaffte ihr Zuspruch unter den Erschöpften und Jüngeren.
 Gerade dadurch wurde sie für konservative Kreise zum Feindbild.
 

@@ -3,12 +3,12 @@
 <!-- display: figure -->
 ![Männlicher Varnop des Phoriat-Zirkels](./images/Varnop_maennlich_Zirkel-des-Phoriats.png)
 
-Die Varnops sind das vorherrschende Volk auf [Aridess](/content/Himmelskoerper_/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse.
+Die Varnops sind das vorherrschende Volk auf [Aridess](/content/Himmelskörper/Aridess/index.md), bekannt für ihre robuste Natur und technische Raffinesse.
 Diese kleinen, kräftigen Wesen haben sich perfekt an die extremen Umweltbedingungen ihrer Heimat angepasst, die von gnadenloser Hitze und endlosen Wüstenlandschaften dominiert werden.
 Ihre Kultur ist geprägt von Anpassungsfähigkeit und pragmatischer Ingenieurskunst, die es ihnen ermöglicht, selbst unter den widrigsten Bedingungen zu florieren.
 Da Aridess nicht [ovelärer](/content/Allgemein/Schoepfungsgeschichte.md#die-ovelären-planeten--die-elementdrachen) ist, haben die Varnops niemals magische Fähigkeiten durch eine [arcanogene Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution) entwickelt.
 Sie fanden jedoch mit der Zeit trotzdem Möglichkeiten, die magische Energie des Serpinit-Systems technisch zu binden.
-Diese Tradition wird im Allgemeinen als [Gemtech](/content/Volk_/Varnops/Gemtech.md) bezeichnet.
+Diese Tradition wird im Allgemeinen als [Gemtech](/content/Volk/Varnops/Gemtech.md) bezeichnet.
 
 # Lebensraum
 Die meisten Varnops leben lange Zeit hauptsächlich in Ansammlungen von Höhlen und unterirdischen Tunnelsystemen, die Schutz vor den Elementen bieten, oder aber in Siedlungen in Oasen, wo fruchtbarer Boden und frisches Wasser zu finden sind.
@@ -25,18 +25,18 @@ Einen besonderen Stellenwert nehmen daher die Erzlieferanten auf Aridess ein.
 Da die meisten Erzvorkommen in den nördlichsten Gebirgen des Planeten verortet sind, haben viele der komplexen Handelsstrukturen hier ihren Ursprung.
 
 ## Globalisierung
-Ein wichtiger Meilenstein in der Geschichte der Varnops ist die Austragung des [Zirkel-Wettstreits](/content/Ereignis_/Zirkel-Wettstreit/index.md) und der darauffolgende technologische Aufschwung.
-Mit den innovativen Erfindungen und der neu gewonnenen gemeinschaftlichen Koordination schaffen es die Varnops unter der Führung der [Krolpin-Familie](./Familie_/Krolpin_Zirkelgruender/index.md), ausgehend vom [Zirkelgebirge](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/index.md), eine Globalisierung des Planeten Aridess zu starten.
+Ein wichtiger Meilenstein in der Geschichte der Varnops ist die Austragung des [Zirkel-Wettstreits](/content/Ereignis/Zirkel-Wettstreit/index.md) und der darauffolgende technologische Aufschwung.
+Mit den innovativen Erfindungen und der neu gewonnenen gemeinschaftlichen Koordination schaffen es die Varnops unter der Führung der [Krolpin-Familie](./Familie/Krolpin_Zirkelgruender/index.md), ausgehend vom [Zirkelgebirge](/content/Himmelskörper/Aridess/Kontinent/Unol/Gebirge_Zirkelgebirge/index.md), eine Globalisierung des Planeten Aridess zu starten.
 Diese ermöglicht erstmalig eine effektive Vernetzung der Nordhalbkugel, von den Zirkelgebirgen am Nordpol bis zu den grünen Schluchten des Äquators.
 Eine Ausdehnung auf die Südhalbkugel erfolgt verzögert, bedingt durch die weiten Handelswege und die natürlichen Schwierigkeiten der Überquerung der grünen Schluchten.
-Der übergeordnete historische Zusammenhang dieses Umbruchs ist im Artikel [Globalisierung von Aridess](/content/Ereignis_/Globalisierung-Aridess.md) beschrieben.
+Der übergeordnete historische Zusammenhang dieses Umbruchs ist im Artikel [Globalisierung von Aridess](/content/Ereignis/Globalisierung-Aridess.md) beschrieben.
 
 ## Ikusation
 Die Varnops profitieren insgesamt außerordentlich von den Folgen der Ikusation.
 Zum einen liefert die Erschließung der Sgrisignier-Portale den Varnops eine Vielzahl an neuen Handelsmöglichkeiten.
 Zum anderen können die Varnops mit [Tjosand](/content/Allgemein/Magie/Tjosand.md) ihre gesamte Technologie schließlich zusätzlich stark verbessern.
 
-Der erste belastbare Kontakt zwischen Varnops und Lateralen wird im Rahmen der frühen [Ikusation](/content/Ereignis_/Ikusation.md) hergestellt und ist als [Erstkontakt mit den Varnops](/content/Ereignis_/Erstkontakt-Varnops.md) überliefert.
+Der erste belastbare Kontakt zwischen Varnops und Lateralen wird im Rahmen der frühen [Ikusation](/content/Ereignis/Ikusation.md) hergestellt und ist als [Erstkontakt mit den Varnops](/content/Ereignis/Erstkontakt-Varnops.md) überliefert.
 
 # Gesellschaft
 
@@ -46,7 +46,7 @@ Weibliche Varnops können einen eigenen Familienamen wählen, wenn sie eine neue
 Diesen Namen geben sie bei der Zeugung von Kindern sowohl an ihren Partner als auch an ihre gemeinsamen Nachkommen weiter.
 Bei Varnops, welche auch im Erwachsenenalter noch unter dem Namen ihrer Mutter leben, wird dem Familiennamen der Präfix "Hin-" angefügt.
 
-Die Varnops leben seit dem Zirkel-Wettstreit und der Globalisierung in Zugehörigkeit zu einem jeweiligen [Zirkel](./Politik/Zirkel_/index.md).
+Die Varnops leben seit dem Zirkel-Wettstreit und der Globalisierung in Zugehörigkeit zu einem jeweiligen [Zirkel](./Politik/Zirkel/index.md).
 Die Zirkel entstehen zwar ursprünglich aus den gewinnenden Gruppen des Zirkel-Wettstreits, sind jedoch insbesondere durch Aridess' Globalisierung nicht mehr an diese Grenzen gebunden.
 Stattdessen entstehen Zugehörigkeiten unterschiedlicher Orte zu einem Zirkel, wenn eine jeweilige Zirkel-Erfindung ausschlaggebende Auswirkungen auf die Ökonomie und Kultur ihrer Population hat.
 
@@ -55,13 +55,13 @@ Stattdessen entstehen Zugehörigkeiten unterschiedlicher Orte zu einem Zirkel, w
 Die Varnops haben keine frei formulierbaren magischen Fähigkeiten und begegnen der allgemeinen Theorie der Magie erst vergleichsweise spät in systematischer Form.
 Ihre religiösen Traditionen sind deshalb stärker durch Umwelt, Materialkultur und Überleben geprägt als durch offen wirksame Zauberkunst.
 Eine Sonderstellung nehmen die [Sgrisignier-Portale](/content/Allgemein/Magie/Sgrisignier-Portale.md) ein, die vielerorts als gefährliche, ehrfurchtgebietende Reste einer älteren Ordnung gedeutet wurden.
-Eine genauere Einordnung ist in der [Theologie der Varnops](/content/Volk_/Varnops/Theologie.md) beschrieben.
+Eine genauere Einordnung ist in der [Theologie der Varnops](/content/Volk/Varnops/Theologie.md) beschrieben.
 
 ## Gemtech
 Die varnopische Nutzung von Magie geschieht vor allem in technischer Form.
 Geladene Edelsteine, Metallmechanik und tjosandhaltige Leiterstoffe werden zu Maschinen, Werkzeugen und Infrastrukturen verbunden, deren Wirkung weit über bloße Handwerkskunst hinausgeht.
 Gerade diese Verbindung aus Materialverständnis, Speichertechnik und praktischer Ingenieurskultur machte die Varnops zu einer der technologisch prägendsten Zivilisationen des Systems.
-Der Hauptartikel dazu ist [Gemtech der Varnops](/content/Volk_/Varnops/Gemtech.md).
+Der Hauptartikel dazu ist [Gemtech der Varnops](/content/Volk/Varnops/Gemtech.md).
 
 # Aussehen
 

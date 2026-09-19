@@ -9,7 +9,7 @@ Die schlagartige Farbänderung ist ein unmissverständliches Signal: Da das idea
 Zusätzlich verströmt die reifende Frucht einen intensiven, weithin wahrnehmbaren Duft, der mit fortschreitender Überreife noch zunimmt.
 Da einzelne Faelune-Pflanzen weit verstreut in den Wäldern Navuras wachsen und zeitlich versetzt zueinander fruchten, ist irgendwo im Territorium eines Stammes praktisch immer eine Frucht kurz vor oder in ihrem optimalen Reifezustand zu finden.
 
-Der Duft der leicht überreifen Frucht zieht insbesondere den [Chitrel](/content/Himmelskoerper_/Navura/Fauna_/Chitrel/index.md) an, einen schwärmenden, feenhaften Schmetterling, der sich von ihrem zuckerreichen, angegorenen Fruchtfleisch ernährt.
+Der Duft der leicht überreifen Frucht zieht insbesondere den [Chitrel](/content/Himmelskörper/Navura/Fauna/Chitrel/index.md) an, einen schwärmenden, feenhaften Schmetterling, der sich von ihrem zuckerreichen, angegorenen Fruchtfleisch ernährt.
 Sobald ein einzelner Chitrel eine reife Faelune entdeckt, ruft er über ein Lockpheromon den Rest seines Schwarms herbei, der die Frucht binnen kürzester Zeit restlos vertilgt.
 
 ## Nutzung

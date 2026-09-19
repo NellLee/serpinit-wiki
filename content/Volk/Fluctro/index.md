@@ -1,7 +1,7 @@
 # Die Fluctro
 
 Die Fluctro sind das einzige intelligente Volk, welches sich nicht aus dem Homo Primian entwickelt hat.
-Ihr evolutionärer Vorgänger war eine spezielle Art der Oktopi, welche nur auf [Luqua](/content/Himmelskoerper_/Luqua/index.md) vorkommt.
+Ihr evolutionärer Vorgänger war eine spezielle Art der Oktopi, welche nur auf [Luqua](/content/Himmelskörper/Luqua/index.md) vorkommt.
 
 ## Lebensweise
 

@@ -7,7 +7,7 @@
 | **Name:** | Jolint Enol Wolenson |
 | **Rolle:** | Rekrutierer |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Beruf:** | Rekrutierer der Diebesgilde Brauner-Ring |
 
 * **Stärken**: Kann sich ausgesprochen gut herausreden und verhandlen.

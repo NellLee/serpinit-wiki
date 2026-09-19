@@ -7,7 +7,7 @@
 | **Name:** | Saria Nasit Nitak |
 | **Rolle:** | Späherin |
 | **Geschlecht:** | Weiblich |
-| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk/Lateralen/index.md) |
 | **Beruf:** | Späherin der Diebesgilde Brauner-Ring |
 
 * **Stärken**: Spähen, Tarnung, Informationssammlung.

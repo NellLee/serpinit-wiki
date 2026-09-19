@@ -10,7 +10,7 @@
 | **Rolle:** | Runenkundige mit Schwerpunkt Wasser |
 | **Alter:** | Junge Erwachsene |
 | **Geschlecht:** | Weiblich |
-| **Spezies / Rasse:** | [Conius-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Conius-Laterale](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Carpebur |
 | **Beruf:** | Besitzerin einer Unterkunft am Kapis-Schloss |
 
@@ -51,9 +51,9 @@ Nachdem sie auf der Straße einige Zeit Micu-Pflege angeboten hatte und so genug
 Ihre Unterkunft wurde schnell beliebt, besonders bei wohlhabenden Sodili die das Schloss besuchten.
 
 ### Aktuelle Situation
-Varion Sierfehl suchte Lysandra auf und bat sie, an der geheimen [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) teilzunehmen, da sie als eine der wenigen Conius gilt, die das Vertrauen der Sodili gewonnen hat.
+Varion Sierfehl suchte Lysandra auf und bat sie, an der geheimen [Ikusations-Expedition](/content/Ereignis/Ikusation.md) teilzunehmen, da sie als eine der wenigen Conius gilt, die das Vertrauen der Sodili gewonnen hat.
 Sie versucht dabei eine wertneutrale Berichterstattung zu gewährleisten, um keinen Konflikt zwischen Resrubor und Carpebur entstehen zu lassen.
-Beim [Erstkontakt mit den Varnops](/content/Ereignis_/Erstkontakt-Varnops.md) bleibt Lysandra zunächst im Zirkel-Tal zurück und wird so zu einer der ersten Lateralen, die über längere Zeit unmittelbar unter Varnops leben.
+Beim [Erstkontakt mit den Varnops](/content/Ereignis/Erstkontakt-Varnops.md) bleibt Lysandra zunächst im Zirkel-Tal zurück und wird so zu einer der ersten Lateralen, die über längere Zeit unmittelbar unter Varnops leben.
 
 ## Fähigkeiten und Kräfte
 

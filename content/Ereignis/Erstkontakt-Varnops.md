@@ -2,11 +2,11 @@
 
 <!-- event: start=0.024 category="Aridess" text="Erstkontakt mit den Varnops" -->
 
-Als Erstkontakt mit den [Varnops](/content/Volk_/Varnops/index.md) wird jene frühe Phase der [Ikusation](/content/Ereignis_/Ikusation.md) bezeichnet, in der eine laterale Expedition von Agranum aus erstmals gesichert auf [Aridess](/content/Himmelskoerper_/Aridess/index.md) operierte und dort in diplomatisch belastbaren Austausch mit Varnop-Gruppen trat.
+Als Erstkontakt mit den [Varnops](/content/Volk/Varnops/index.md) wird jene frühe Phase der [Ikusation](/content/Ereignis/Ikusation.md) bezeichnet, in der eine laterale Expedition von Agranum aus erstmals gesichert auf [Aridess](/content/Himmelskörper/Aridess/index.md) operierte und dort in diplomatisch belastbaren Austausch mit Varnop-Gruppen trat.
 
 ## Vorgeschichte
 
-Nach der ersten erfolgreichen Sicherung eines Portals nach Aridess errichtete die Expedition um [Kwint Gurdun](/content/Volk_/Lateralen_/Conius/Charakter_/Kwint-Gurdun/index.md) einen provisorischen Stützpunkt am Zielort.
+Nach der ersten erfolgreichen Sicherung eines Portals nach Aridess errichtete die Expedition um [Kwint Gurdun](/content/Volk/Lateralen/Conius/Charakter/Kwint-Gurdun/index.md) einen provisorischen Stützpunkt am Zielort.
 Von dort aus erkundeten die Lateralen zunächst die nähere Umgebung, suchten Wasserquellen und versuchten weitere Portale der Region zu orten.
 Die Expedition stieß dabei auf lebensfeindliche Hitze, räuberische Fauna, giftige Flora, Ruinen alter Bergbauversuche und eine Landschaft, deren Gefahren sich kaum mit agranischen Maßstäben erfassen ließen.
 
@@ -24,15 +24,15 @@ Umgekehrt verstanden die Lateralen, dass die Ortskenntnis der Varnops für jede 
 
 Schließlich schlossen sich Teile der Expedition einer Varnop-Gruppe aus dem Umfeld des späteren Silberspiegel-Zirkels an.
 Während der mehrtägigen Reise lernten beide Seiten durch Benennen von Dingen erste Wörter der jeweils fremden Sprache.
-Auf diesem Weg erreichten die Lateralen über die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md) das Lager des [Zirkel-Wettstreits](/content/Ereignis_/Zirkel-Wettstreit/index.md).
+Auf diesem Weg erreichten die Lateralen über die [Kharrak-Mine](/content/Himmelskörper/Aridess/Kontinent/Unol/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md) das Lager des [Zirkel-Wettstreits](/content/Ereignis/Zirkel-Wettstreit/index.md).
 
 ## Gespräch mit Hiante Krolpin
 
 Im Zirkel-Tal kam es schließlich zur ersten hochrangigen diplomatischen Begegnung zwischen Lateralen und Varnops.
-[Hiante Krolpin](/content/Volk_/Varnops/Familie_/Krolpin_Zirkelgruender/Charakter_/Hiante-Krolpin/index.md) erkannte früh, dass die Fremden nicht nur Kuriositäten aus einer fernen Wüste waren, sondern Vertreter einer völlig neuen interplanetaren Ordnung.
+[Hiante Krolpin](/content/Volk/Varnops/Familie/Krolpin_Zirkelgruender/Charakter/Hiante-Krolpin/index.md) erkannte früh, dass die Fremden nicht nur Kuriositäten aus einer fernen Wüste waren, sondern Vertreter einer völlig neuen interplanetaren Ordnung.
 Die Gespräche zwischen Hiante und den Expeditionsmitgliedern kreisten um Magie, Handel, Reisewege, politische Verantwortung und die Möglichkeit einer dauerhaften Verbindung zwischen Aridess und Agranum.
 
-Obwohl [Kwint Gurdun](/content/Volk_/Lateralen_/Conius/Charakter_/Kwint-Gurdun/index.md) eine längere Teilnahme am Wettstreit ablehnte, um das übergeordnete Ziel der Expedition nicht aus den Augen zu verlieren, wurde das Treffen als großer diplomatischer Erfolg gewertet.
+Obwohl [Kwint Gurdun](/content/Volk/Lateralen/Conius/Charakter/Kwint-Gurdun/index.md) eine längere Teilnahme am Wettstreit ablehnte, um das übergeordnete Ziel der Expedition nicht aus den Augen zu verlieren, wurde das Treffen als großer diplomatischer Erfolg gewertet.
 Beide Seiten erkannten im jeweils anderen Volk einen möglichen Partner beim Aufbau neuer Handels- und Wissensnetze.
 
 ## Spannungen im Lager
@@ -44,14 +44,14 @@ Obwohl es nicht zu offener Gewalt kam, zeigt diese Episode, dass der Erstkontakt
 
 ## Rückweg
 
-Für den Rückweg wurde [Jopun Krolpin](/content/Volk_/Varnops/Familie_/Krolpin_Zirkelgruender/Charakter_/Jopun-Krolpin/index.md) als Vertreter der Varnops bestimmt.
+Für den Rückweg wurde [Jopun Krolpin](/content/Volk/Varnops/Familie/Krolpin_Zirkelgruender/Charakter/Jopun-Krolpin/index.md) als Vertreter der Varnops bestimmt.
 Die Expedition verließ das Zirkel-Tal daraufhin ohne den später diskutierten Hinterhalt, der in manchen frühen Notizen noch als Möglichkeit auftaucht.
 Der unmittelbare Abschluss des Kontakts blieb damit diplomatisch gespannt, aber kontrolliert.
 
 ## Austausch von Abgesandten
 
 Um das neu entstandene Vertrauen noch vor einer festen Handelsroute zu verstetigen, einigten sich beide Seiten auf einen Austausch von Vertretern.
-[Lysandra Swirm](/content/Volk_/Lateralen_/Conius/Charakter_/Lysandra-Swirm/index.md) blieb vorerst im Zirkel-Tal zurück, während [Jopun Krolpin](/content/Volk_/Varnops/Familie_/Krolpin_Zirkelgruender/Charakter_/Jopun-Krolpin/index.md) die Rückreise der Expedition begleiten sollte.
+[Lysandra Swirm](/content/Volk/Lateralen/Conius/Charakter/Lysandra-Swirm/index.md) blieb vorerst im Zirkel-Tal zurück, während [Jopun Krolpin](/content/Volk/Varnops/Familie/Krolpin_Zirkelgruender/Charakter/Jopun-Krolpin/index.md) die Rückreise der Expedition begleiten sollte.
 Dieser Schritt war für beide Völker von hoher symbolischer Bedeutung, da er den Erstkontakt von einer bloßen Begegnung zu einer bewusst gepflegten Beziehung erhob.
 
 ## Bedeutung

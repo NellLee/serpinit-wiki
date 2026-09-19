@@ -7,7 +7,7 @@
 | **Name:** | Garrick Filben Tornbad |
 | **Rolle:** | Schmuggler |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Beruf:** | Schmuggler der Diebesgilde Brauner-Ring |
 
 * **Stärken**: Schmuggelrouten, Listigkeit, Schleichen.

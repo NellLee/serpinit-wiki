@@ -2,7 +2,7 @@
 # Die Sodili-Lateralen
 
 Als Sodili werden jene Lateralen bezeichnet, die seit der [arcanogenen Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution) eine zweite Persönlichkeit entwickelt haben.
-Wie alle Lateralen leben die Sodili bis zur [Ikusation](/content/Ereignis_/Ikusation.md) ausschließlich auf [Agranum](/content/Himmelskoerper_/Agranum/index.md), wo sie sich insbesondere aufgrund der Fähigkeit zur [Hybridisierung](/content/Volk_/Lateralen_/Hybridisierung.md) auch nach der Impuls-Eruption wieder äußerst effektiv verbreiten konnten.
+Wie alle Lateralen leben die Sodili bis zur [Ikusation](/content/Ereignis/Ikusation.md) ausschließlich auf [Agranum](/content/Himmelskörper/Agranum/index.md), wo sie sich insbesondere aufgrund der Fähigkeit zur [Hybridisierung](/content/Volk/Lateralen/Hybridisierung.md) auch nach der Impuls-Eruption wieder äußerst effektiv verbreiten konnten.
 Eine Differenzierung von Sodili und Conius sowie deren Entwicklungsgeschichte ist im [Hauptartikel der Lateralen](../index.md) einzusehen.
 
 # Lebensraum
@@ -11,9 +11,9 @@ Die schwebenden Kontinente von Agranum waren nach der Spaltung des Planeten eine
 Trotzdem haben es die Lateralen geschafft sich an die neuen Bedingungen anzupassen.
 Während es zu Beginn nur wenige, kleine Populationen gab die weit über die schwebenden Kontinente verstreut waren, führte die Hybridisierung der Lateralen dazu, dass mit der Zeit auch die letzten Winkel der schwebenden Kontinente von Lateralen besiedelt wurden.
 Dabei leben häufig Laterale mit ähnlichen Hybridformen in kleineren Dörfern oder Städten zusammen.
-Nach der [Ikusation](/content/Ereignis_/Ikusation.md) breiteten sich die Sodili-Lateralen sogar auf den anderen Planeten rapide aus, während die Conius-Lateralen hauptsächlich auf Agranum blieben.
+Nach der [Ikusation](/content/Ereignis/Ikusation.md) breiteten sich die Sodili-Lateralen sogar auf den anderen Planeten rapide aus, während die Conius-Lateralen hauptsächlich auf Agranum blieben.
 
-Trotz der starken Streuung der Sodili blieb ihre Hauptstadt [Carpebur](../../Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) Wohnsitz eines großen Teils ihrer Bevölkerung.
+Trotz der starken Streuung der Sodili blieb ihre Hauptstadt [Carpebur](../../Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) Wohnsitz eines großen Teils ihrer Bevölkerung.
 Sie ist darauf ausgelegt der großen Diversität an Micu und Hybridformen gerecht zu werden.
 
 # Entwicklung & Geschichte
@@ -24,7 +24,7 @@ Sie ist darauf ausgelegt der großen Diversität an Micu und Hybridformen gerech
 
 Die Lateralen leben in einer Monarchie.
 Es gibt zu jeder Zeit einen König der in einem großen Palast in Carpebur lebt.
-Der König vertritt die Lateralen im politischen Sinne und führt außerdem die [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) aus, für die jeder Laterale einmal in seinem Leben zu der Hauptstadt pilgern muss.
+Der König vertritt die Lateralen im politischen Sinne und führt außerdem die [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) aus, für die jeder Laterale einmal in seinem Leben zu der Hauptstadt pilgern muss.
 Gerade für die Sodili liegt in dieser Aufgabe weit mehr als ein bloßer Brauch.
 Der König gilt ihnen als jenes Wesen, welches die gefährliche Magie in einem jungen Lateralen zu ordnen vermag, damit aus innerem Zwiespalt ein lebensfähiger Micu hervorgeht.
 
@@ -46,7 +46,7 @@ Vor allem in den Dörfern der Sodili leben nach der Ikusation häufig auch Vertr
 Für die Sodili sind Glaube und Magie kaum voneinander zu trennen.
 Die zweite Persönlichkeit wird von ihnen nicht als bloße Krankheit verstanden, sondern als ein ihnen innewohnendes Gegenüber, welches nur darauf wartet im rechten Augenblick erkannt zu werden.
 Dass ein ungeordneter Umgang mit diesem inneren Wesen zu Leid, Wahnsinn oder einem qualvollen Schlaf führen kann, ist dabei im allgemeinen Bewusstsein fest verankert.
-Entsprechend ranken sich um die [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) zahllose religiöse Vorstellungen, welche den König nicht als Schöpfer des Micu, sondern als rechtmäßigen Führer durch einen gefährlichen Übergang deuten.
+Entsprechend ranken sich um die [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) zahllose religiöse Vorstellungen, welche den König nicht als Schöpfer des Micu, sondern als rechtmäßigen Führer durch einen gefährlichen Übergang deuten.
 
 # Aussehen
 
@@ -59,9 +59,9 @@ Entsprechend ranken sich um die [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md
 Die Magie der Sodili äußert sich zunächst nicht in Runen, Artefakten oder anderen bewusst gewirkten Zaubern.
 Sie liegt im eigenen Geist begründet.
 Seit der Impuls-Eruption wirkt bei ihnen fortwährend Magie auf die Denkprozesse ein, wodurch sich früh eine zweite Persönlichkeit ausbildet.
-Die [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) bringt diese bereits gewachsene Persönlichkeit schließlich in eine dauerhafte äußere Form.
+Die [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) bringt diese bereits gewachsene Persönlichkeit schließlich in eine dauerhafte äußere Form.
 Der Micu ist somit keineswegs nur Begleiter oder Symbolbild, sondern eine tatsächlich abgespaltene, eigenständige Persönlichkeit desselben Wesens.
 
 Nach einer erfolgreichen Do-Uspil bleibt die tiefe magische Verbindung zwischen Sodili und Micu bestehen.
 Zwar wird der Geist des Sodili durch die äußere Manifestation stark entlastet, doch beide Wesen bleiben weiterhin so eng miteinander verknüpft, dass sie Gefühle, innere Spannungen und mitunter sogar Gedanken des jeweils anderen intuitiv erfassen.
-Aus dieser bleibenden Bindung ergibt sich auch die Möglichkeit der [Hybridisierung](/content/Volk_/Lateralen_/Hybridisierung.md), bei welcher Sodili und Micu ihre getrennten Gestalten zeitweise wieder enger aneinander koppeln.
+Aus dieser bleibenden Bindung ergibt sich auch die Möglichkeit der [Hybridisierung](/content/Volk/Lateralen/Hybridisierung.md), bei welcher Sodili und Micu ihre getrennten Gestalten zeitweise wieder enger aneinander koppeln.

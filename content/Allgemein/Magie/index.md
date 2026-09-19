@@ -57,9 +57,9 @@ Je weiter diese Entwicklung fortschritt, desto feiner konnten Wesen magische Vor
 Dies bedeutet jedoch nicht, dass jedes oveläre Volk Magie auf dieselbe Art nutzt.
 Die modernen Magieformen des Serpinit-Systems folgen zwar denselben Naturgesetzen, unterscheiden sich aber stark darin, auf welche Weise sie vorhandene Potenz überhaupt in eine belastbare Form bringen.
 
-So nutzen die Sodili-Lateralen eine pathologische, im Ritual der [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) geordnete Fehlkopplung ihres eigenen Geistes.
+So nutzen die Sodili-Lateralen eine pathologische, im Ritual der [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) geordnete Fehlkopplung ihres eigenen Geistes.
 Die Sylvanars beeinflussen durch Gesänge und Tänze bereits bestehende magische Muster lebendiger Wesen in ihrer Umgebung.
-Auch die [Blutrituale der Vorenkai](/content/Volk_/Vorenkai/Blutrituale.md), die [Gemtech der Varnops](/content/Volk_/Varnops/Gemtech.md), der elektrische Kabelstrom der [Fluctro](/content/Volk_/Fluctro/index.md) und die emotionsgebundene Gestaltwandlung der [Momensi](/content/Volk_/Momensi/index.md) folgen letztlich denselben Grundlagen, sind jedoch an sehr spezielle Trägerstoffe und biologische Voraussetzungen gebunden.
+Auch die [Blutrituale der Vorenkai](/content/Volk/Vorenkai/Blutrituale.md), die [Gemtech der Varnops](/content/Volk/Varnops/Gemtech.md), der elektrische Kabelstrom der [Fluctro](/content/Volk/Fluctro/index.md) und die emotionsgebundene Gestaltwandlung der [Momensi](/content/Volk/Momensi/index.md) folgen letztlich denselben Grundlagen, sind jedoch an sehr spezielle Trägerstoffe und biologische Voraussetzungen gebunden.
 
 ## Wiederentdeckung der Runenlehre
 
@@ -67,9 +67,9 @@ Die Existenz der Sgrisignier-Runen und der damit verbundenen magischen Macht war
 Viele Lebewesen konnten die aktiven Runensteine der Sgrisignier-Portale oder die Überreste der Magie in antiken Sgrisignier-Strukturen zwar prinzipiell spüren, jedoch reichte ihre Wahrnehmung meist nicht aus um die Feinheiten komplexer Runen zu erfassen.
 
 Die Lateralen entdeckten schließlich als erstes Volk das Phänomen der [Runenschatten](/content/Allgemein/Magie/Tjosand.md#magische-eigenschaften) in einer antiken Tjosand-Mine der Sgrisignier auf Agranum.
-Mit den [Conius-Lateralen](/content/Volk_/Lateralen_/Conius/index.md) entwickelte sich daraus ein systematisches Forschungsprogramm.
-In der [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) wurden immer mehr Querschnitte von Sgrisignier-Runen entschlüsselt und einzelnen Effekten zugeordnet.
-Dies befähigte die Conius-Lateralen mit der Zeit zumindest eine reduzierte Form der Runenmagie für sich zu nutzen und schuf die theoretische Grundlage der späteren [Ikusation](/content/Ereignis_/Ikusation.md).
+Mit den [Conius-Lateralen](/content/Volk/Lateralen/Conius/index.md) entwickelte sich daraus ein systematisches Forschungsprogramm.
+In der [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/index.md) wurden immer mehr Querschnitte von Sgrisignier-Runen entschlüsselt und einzelnen Effekten zugeordnet.
+Dies befähigte die Conius-Lateralen mit der Zeit zumindest eine reduzierte Form der Runenmagie für sich zu nutzen und schuf die theoretische Grundlage der späteren [Ikusation](/content/Ereignis/Ikusation.md).
 
 ## Mögliche Magieformen <span style="color: red;">(TODO)</span>
 
@@ -94,10 +94,10 @@ Zusammenhang mit lebendigen, bereits vorstrukturierten magischen Mustern.
 
 ### Elektrisch
 
-→ siehe [Fluctro](/content/Volk_/Fluctro/index.md)
+→ siehe [Fluctro](/content/Volk/Fluctro/index.md)
 
 ### Emotional
 
-→ siehe [Momensi](/content/Volk_/Momensi/index.md)
+→ siehe [Momensi](/content/Volk/Momensi/index.md)
 
 ### ...

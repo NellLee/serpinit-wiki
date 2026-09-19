@@ -7,7 +7,7 @@
 | **Name:** | Tales Schanbick |
 | **Rolle:** | Bürgermeister |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Felaris |
 | **Beruf:** | Bürgermeister der Handelsstadt Felaris |
 

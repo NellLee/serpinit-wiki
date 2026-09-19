@@ -17,7 +17,7 @@ Solche Risse besitzen einen selbstheilenden Charakter und schließen sich wieder
 Gerade deshalb sind viele spontane magische Phänomene kurzlebig oder örtlich gebunden.
 
 Wymen-Risse gelten für viele Völker als natürliche Gefahrenzeichen.
-Wo der Potenzpunkt eines Materials unerwartet überschritten wird, können Hitze, Materialveränderungen oder die Bildung von [Elementaren](/content/Volk_/Elementare/index.md) folgen.
+Wo der Potenzpunkt eines Materials unerwartet überschritten wird, können Hitze, Materialveränderungen oder die Bildung von [Elementaren](/content/Volk/Elementare/index.md) folgen.
 
 ## Verhältnis zu Runen
 
@@ -36,4 +36,4 @@ Die Sgrisignier-Runenschrift greift also nicht einfach auf Wymen zu, sondern dr�
 
 Die modernen Völker nehmen Wymen nur indirekt wahr.
 Viele erkennen seine Wirkung erst an Folgen wie erhöhten Potenzwerten, ungewöhnlicher Materialreaktion oder instabilen Naturphänomenen.
-Die [Conius-Lateralen](/content/Volk_/Lateralen_/Conius/index.md) näherten sich dem Phänomen als erstes Volk systematisch an und machten Wymen damit von einem mythischen Hintergrundprinzip zu einer beschreibbaren Größe der Magietheorie.
+Die [Conius-Lateralen](/content/Volk/Lateralen/Conius/index.md) näherten sich dem Phänomen als erstes Volk systematisch an und machten Wymen damit von einem mythischen Hintergrundprinzip zu einer beschreibbaren Größe der Magietheorie.

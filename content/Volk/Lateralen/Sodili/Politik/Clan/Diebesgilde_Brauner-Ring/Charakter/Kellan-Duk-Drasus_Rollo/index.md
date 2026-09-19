@@ -7,7 +7,7 @@
 | **Name:** | Kellan Duk Drasus |
 | **Rolle:** | Einbrecher |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Beruf:** | Einbrecher der Diebesgilde Brauner-Ring |
 
 * **Stärken**: Einbruchstechniken, körperliche Stärke, Schlösserknacken.

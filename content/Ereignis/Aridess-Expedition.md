@@ -2,14 +2,14 @@
 
 <!-- event: start=0.012 category="Aridess" text="Aridess-Expedition" -->
 
-Als Aridess-Expedition wird die frühe Phase der [Ikusation](/content/Ereignis_/Ikusation.md) bezeichnet, in der die Lateralen den ersten dauerhaft gesicherten Portalzugang nach [Aridess](/content/Himmelskoerper_/Aridess/index.md) nutzten, dort einen Stützpunkt errichteten und die unmittelbare Umgebung des ersten Übergangs erschlossen.
+Als Aridess-Expedition wird die frühe Phase der [Ikusation](/content/Ereignis/Ikusation.md) bezeichnet, in der die Lateralen den ersten dauerhaft gesicherten Portalzugang nach [Aridess](/content/Himmelskörper/Aridess/index.md) nutzten, dort einen Stützpunkt errichteten und die unmittelbare Umgebung des ersten Übergangs erschlossen.
 
 ## Erstes Lager
 
 Nach der Sicherung des ersten Portals nach Aridess entstand um den Übergang ein provisorisches Lager mit Zelten, Feuerstelle, Vorräten und doppeltem Barrikadenring.
 Die Expedition wollte damit zugleich einen möglichen Angriff aus der Umgebung und eine unerwartete Bedrohung direkt aus dem Portal abfangen.
 
-Kurz nach der Ankunft beobachtete die Expedition ein [Ikus' Fanal](/content/Himmelskoerper_/Mavorak/index.md), dessen Zeitpunkt jedoch nicht mit ihrer aus Agranum vertrauten Zeitrechnung übereinstimmte — ein erster kleiner Hinweis darauf, wie fremd diese Welt tatsächlich war.
+Kurz nach der Ankunft beobachtete die Expedition ein [Ikus' Fanal](/content/Himmelskörper/Mavorak/index.md), dessen Zeitpunkt jedoch nicht mit ihrer aus Agranum vertrauten Zeitrechnung übereinstimmte — ein erster kleiner Hinweis darauf, wie fremd diese Welt tatsächlich war.
 
 Schon diese erste Phase machte deutlich, dass Aridess nicht bloß ein exotischer Zielort, sondern eine echte Überlebensprüfung war.
 Hitze, Wassermangel und die Unberechenbarkeit der Landschaft zwangen die Expedition dazu, jeden weiteren Schritt vorsichtiger zu planen als ursprünglich angenommen.
@@ -26,10 +26,10 @@ Diese Entscheidung gilt heute als einer der dunkelsten moralischen Punkte der ge
 
 Vom ersten Portal aus erschloss die Expedition mehrere markante Richtungen der umliegenden Landschaft.
 Im Westen wurde eine Wasserquelle entdeckt, die sich als lebenswichtig für den weiteren Vorstoß erwies.
-Im Süden und Osten stieß man auf rote Felsformationen, verlassene Minen und hochspezialisierte Wüstenflora wie den [Shwin-Kaktus](/content/Himmelskoerper_/Aridess/Flora_/Shwin-Kaktus/index.md).
+Im Süden und Osten stieß man auf rote Felsformationen, verlassene Minen und hochspezialisierte Wüstenflora wie den [Shwin-Kaktus](/content/Himmelskörper/Aridess/Flora/Shwin-Kaktus/index.md).
 
 Die offenen Dünenfelder im Nordosten galten dagegen trotz scheinbarer Leere als kaum begehbar.
-Dort wurden unter anderem [Saoloms](/content/Himmelskoerper_/Aridess/Fauna_/Saolom/index.md) beobachtet, deren Tarnung als wandernde Düne viele frühe Einschätzungen der Region erschwerte.
+Dort wurden unter anderem [Saoloms](/content/Himmelskörper/Aridess/Fauna/Saolom/index.md) beobachtet, deren Tarnung als wandernde Düne viele frühe Einschätzungen der Region erschwerte.
 
 ## Obskuli am Horizont
 
@@ -48,4 +48,4 @@ Die Expedition entschied sich schrittweise für eine vorsichtige Annäherung üb
 
 Die Aridess-Expedition war mehr als nur eine erste Portalerkundung.
 Sie zeigte, dass interplanetare Erschließung weder rein magische noch rein logistische Arbeit war, sondern beides zugleich.
-Zugleich bereitete sie den Boden für den späteren [Erstkontakt mit den Varnops](/content/Ereignis_/Erstkontakt-Varnops.md), durch den aus einer riskanten Expedition schließlich eine historische Verbindung zwischen zwei Welten wurde.
+Zugleich bereitete sie den Boden für den späteren [Erstkontakt mit den Varnops](/content/Ereignis/Erstkontakt-Varnops.md), durch den aus einer riskanten Expedition schließlich eine historische Verbindung zwischen zwei Welten wurde.

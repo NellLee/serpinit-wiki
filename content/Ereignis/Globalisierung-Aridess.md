@@ -2,8 +2,8 @@
 
 <!-- event: start=-3.13 end=0.18 category="Aridess" text="Globalisierung von Aridess" fuzzy -->
 
-Als Globalisierung von Aridess wird jener langfristige historische Prozess bezeichnet, in dem die [Varnops](/content/Volk_/Varnops/index.md) von einem Netz regional begrenzter Gruppen zu einer planetar weit verzahnten Zivilisation zusammenwuchsen.
-Ausgelöst wurde dieser Wandel vor allem durch den [Zirkel-Wettstreit](/content/Ereignis_/Zirkel-Wettstreit/index.md), die daraus hervorgehenden [Zirkel](/content/Volk_/Varnops/Politik/Zirkel_/index.md) und die zunehmende Verbreitung varnopischer [Gemtech](/content/Volk_/Varnops/Gemtech.md).
+Als Globalisierung von Aridess wird jener langfristige historische Prozess bezeichnet, in dem die [Varnops](/content/Volk/Varnops/index.md) von einem Netz regional begrenzter Gruppen zu einer planetar weit verzahnten Zivilisation zusammenwuchsen.
+Ausgelöst wurde dieser Wandel vor allem durch den [Zirkel-Wettstreit](/content/Ereignis/Zirkel-Wettstreit/index.md), die daraus hervorgehenden [Zirkel](/content/Volk/Varnops/Politik/Zirkel/index.md) und die zunehmende Verbreitung varnopischer [Gemtech](/content/Volk/Varnops/Gemtech.md).
 
 ## Ausgangslage
 
@@ -16,7 +16,7 @@ Wer Metalle, Werkzeuge und Transportkapazitäten kontrollierte, bestimmte häufi
 
 ## Rolle des Zirkel-Wettstreits
 
-Der von der Familie [Krolpin](/content/Volk_/Varnops/Familie_/Krolpin_Zirkelgruender/index.md) ausgerichtete Zirkel-Wettstreit schuf erstmals einen institutionellen Rahmen, in dem Innovation nicht nur ausgezeichnet, sondern sofort in planetare Verantwortung überführt wurde.
+Der von der Familie [Krolpin](/content/Volk/Varnops/Familie/Krolpin_Zirkelgruender/index.md) ausgerichtete Zirkel-Wettstreit schuf erstmals einen institutionellen Rahmen, in dem Innovation nicht nur ausgezeichnet, sondern sofort in planetare Verantwortung überführt wurde.
 Die Gewinner-Erfindungen sollten nicht bloß beeindrucken, sondern praktische Infrastruktur für ganz Aridess schaffen.
 
 Damit war der Wettstreit mehr als ein technisches Turnier.
@@ -40,11 +40,11 @@ Maße, Wartungswissen, Rufnamen, Handelsabsprachen und Zirkelzugehörigkeiten wu
 Trotzdem löschte die Globalisierung ältere regionale Identitäten nicht aus.
 Sie überlagerte diese vielmehr mit einer neuen Ebene planetarer Zugehörigkeit.
 
-Gerade dadurch konnten die Varnops später auf den [Erstkontakt mit den Varnops](/content/Ereignis_/Erstkontakt-Varnops.md) deutlich strukturierter reagieren, als es einer rein lokal organisierten Welt möglich gewesen wäre.
+Gerade dadurch konnten die Varnops später auf den [Erstkontakt mit den Varnops](/content/Ereignis/Erstkontakt-Varnops.md) deutlich strukturierter reagieren, als es einer rein lokal organisierten Welt möglich gewesen wäre.
 Als die Lateralen auf Aridess eintrafen, existierten bereits Kommunikations- und Einflusswege, über die sich die Bedeutung dieses Kontakts weit über den unmittelbaren Begegnungsort hinaus ausbreiten konnte.
 
 ## Verhältnis zur Ikusation
 
-Die Globalisierung begann vor der [Ikusation](/content/Ereignis_/Ikusation.md), erhielt durch sie jedoch zusätzlichen Schub.
+Die Globalisierung begann vor der [Ikusation](/content/Ereignis/Ikusation.md), erhielt durch sie jedoch zusätzlichen Schub.
 Neue Stoffe, neue Wissensformen und interplanetare Handelsaussichten verstärkten den praktischen Nutzen eines bereits verdichteten Planetennetzes.
 Umgekehrt war gerade dieses Netz ein Grund dafür, dass die Varnops den historischen Kontakt mit Agranum nicht bloß als lokale Kuriosität, sondern als planetar relevantes Ereignis verarbeiten konnten.

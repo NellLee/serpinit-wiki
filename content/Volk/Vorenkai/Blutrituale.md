@@ -1,12 +1,12 @@
 # Blutrituale der Vorenkai
 
-Als Blutrituale werden jene magischen Verfahren bezeichnet, mit denen die [Vorenkai](/content/Volk_/Vorenkai/index.md) nach dem Verlust großer Teile ihrer ursprünglichen Magie weiterhin Zauber wirken konnten.
+Als Blutrituale werden jene magischen Verfahren bezeichnet, mit denen die [Vorenkai](/content/Volk/Vorenkai/index.md) nach dem Verlust großer Teile ihrer ursprünglichen Magie weiterhin Zauber wirken konnten.
 Sie bilden den Kern der späteren Vorenkai-Magiepraxis.
 
 ## Entstehung
 
 Die ursprünglichen Vorenkai verfügten über von Ignatius geprägte Instinktmagie, zu der insbesondere Feueratem und große Schwingen gehörten.
-Erst die schweren Niederlagen im [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) und der sylvanarische Bann gegen ihre magische Struktur zwangen sie dazu, andere Zugänge zu ihrer Kraft zu suchen.
+Erst die schweren Niederlagen im [Krieg um Navura](/content/Ereignis/Krieg-um-Navura.md) und der sylvanarische Bann gegen ihre magische Struktur zwangen sie dazu, andere Zugänge zu ihrer Kraft zu suchen.
 
 Dabei blieb eine Grundlage erhalten:
 das eigene Blut.
@@ -14,7 +14,7 @@ Es trug weiterhin jene von Ignatius veränderte lebendige Magiestruktur in sich,
 
 ## Blutvulkane
 
-Im Zentrum der späteren Blutrituale stehen die Blutvulkane von [Mognar](/content/Himmelskoerper_/Mognar/index.md).
+Im Zentrum der späteren Blutrituale stehen die Blutvulkane von [Mognar](/content/Himmelskörper/Mognar/index.md).
 In ihnen wird die Vorenkai-Blutmagie mit der feuermagischen Prägung des Planeten gekoppelt und in ritualisierter Form nutzbar gemacht.
 Der bedeutendste dieser Vulkane befindet sich im Herrschaftszentrum von Zanguor.
 

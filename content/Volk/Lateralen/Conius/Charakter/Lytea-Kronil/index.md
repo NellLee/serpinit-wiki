@@ -7,7 +7,7 @@
 | **Name:** | Lytea Kronil |
 | **Rolle:** | Wandernde Heilerin |
 | **Geschlecht:** | Weiblich |
-| **Spezies / Rasse:** | [Conius-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Conius-Laterale](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Keine feste Heimat, zieht seither durch die Welt |
 | **Beruf:** | Heilerin, spezialisiert auf unterstützende Zaubersprüche |
 

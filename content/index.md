@@ -19,8 +19,8 @@ Die Schöpfungsgeschichte
 
 ## Große Einstiege
 
-- [Die 9 Himmelskörper](/content/Himmelskoerper_/index.md)
-- [Die 9 Völker](/content/Volk_/index.md)
+- [Die 9 Himmelskörper](/content/Himmelskörper/index.md)
+- [Die 9 Völker](/content/Volk/index.md)
 - [Die Timeline](/content/timeline)
 - [Die Suche](/content/search)
 

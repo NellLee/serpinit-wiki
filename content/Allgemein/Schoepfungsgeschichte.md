@@ -48,27 +48,27 @@ Im Detail begann das aufgeladene Wymen in Wechselwirkung mit einigen Himmelskör
 Im Kern dieser Planeten manifestierte sich jeweils ein Teil göttliche magische Substanz, aus welcher auch Creapatos selbst gemacht ist.
 Dies passierte insbesondere in den folgenden Himmelskörpern des Planetensystems:
 
-- [Agranum](../Himmelskoerper_/Agranum/index.md)
-- [Luqua](../Himmelskoerper_/Luqua/index.md)
-- [Mognar](../Himmelskoerper_/Mognar/index.md)
-- [Navura](../Himmelskoerper_/Navura/index.md)
+- [Agranum](../Himmelskörper/Agranum/index.md)
+- [Luqua](../Himmelskörper/Luqua/index.md)
+- [Mognar](../Himmelskörper/Mognar/index.md)
+- [Navura](../Himmelskörper/Navura/index.md)
 
 Diese 4 Planeten nahmen die Kraft Creapatos' in ihren Kern auf und wurden zu den vier **Ovelären** Himmelskörpern.
 Jeder der 4 göttlichen Kerne repräsentiert zum einen eines der 4 Elemente und zum anderen einen Persönlichkeitsaspekt des ursprünglichen Drachengottes.
 Dabei kann man sich jeden dieser 4 Planetenkerne als ein riesiges Drachenei bestehend aus göttlicher magischer Substanz vorstellen.
 Die Persönlichkeiten, die in ihnen existieren, sind die Elementardrachen:
 
-- Luft: [**Aerion**](/content/Allgemein/Aerion.md), das Vertrauen ([Agranum](../Himmelskoerper_/Agranum/index.md))
-- Wasser: [**Fluero**](/content/Allgemein/Fluero.md), die Wehmut ([Luqua](../Himmelskoerper_/Luqua/index.md))
-- Feuer: [**Ignatius**](/content/Allgemein/Ignatius.md), die Rage ([Mognar](../Himmelskoerper_/Mognar/index.md))
-- Erde: [**Silvaa**](/content/Allgemein/Silvaa.md), die Güte ([Navura](../Himmelskoerper_/Navura/index.md))
+- Luft: [**Aerion**](/content/Allgemein/Aerion.md), das Vertrauen ([Agranum](../Himmelskörper/Agranum/index.md))
+- Wasser: [**Fluero**](/content/Allgemein/Fluero.md), die Wehmut ([Luqua](../Himmelskörper/Luqua/index.md))
+- Feuer: [**Ignatius**](/content/Allgemein/Ignatius.md), die Rage ([Mognar](../Himmelskörper/Mognar/index.md))
+- Erde: [**Silvaa**](/content/Allgemein/Silvaa.md), die Güte ([Navura](../Himmelskörper/Navura/index.md))
 
 Seit jeher fürchten die modernen Völker, dass die göttlichen Elementardrachen eines Tages aus ihren Eiern schlüpfen und sich unvorhergesehene Folgen für das gesamte Serpinit-System manifestieren.
 Doch schon der magische Einfluss der Eier innerhalb ihres jeweiligen Planeten veränderte diese mit den Jahrtausenden grundlegend.
 <!-- event: start=-349704 category="Agranum" text="Detonation der Agranum-Rune" -->
 
 Da die Sgrisignier auf Agranum jedoch nach Creapatos Spaltung eine riesige Rune anbrachten, um den Kern aus göttlicher magischer Substanz zu bannen, waren auf Agranum deutlich schneller Veränderungen zu spüren als auf den anderen Ovelären Planeten.
-(siehe [Agranum](../Himmelskoerper_/Agranum/index.md))
+(siehe [Agranum](../Himmelskörper/Agranum/index.md))
 
 ### Evolution
 

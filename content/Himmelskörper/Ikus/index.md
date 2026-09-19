@@ -10,7 +10,7 @@
 |**Abstand zu Mavorak:**|$0.95 AU$|
 
 Ikus wird der Purpurstern genannt.
-Er bildet gemeinsam mit [Mavorak](/content/Himmelskoerper_/Mavorak/index.md) das Zentrum des Serpinit-Systems.
+Er bildet gemeinsam mit [Mavorak](/content/Himmelskörper/Mavorak/index.md) das Zentrum des Serpinit-Systems.
 Ikus ist ein Stern der Spektralklasse O, dessen physikalische Entwicklung durch uralte göttliche Magie dauerhaft stabilisiert wird.
 Er wandert nicht wie gewöhnliche Sterne über das Hertzsprung-Russell-Diagramm und entwickelt sich nicht zu einer Supernova.
 
@@ -27,7 +27,7 @@ Kulturell erscheint Ikus dennoch meist als das offen sichtbare Zentrum, während
 ## Mythologische Deutung
 
 In älteren serpinitären Lehren wurde Ikus zeitweise direkt mit [Ignatius](/content/Allgemein/Ignatius.md), dem Feueraspekt Creapatos', verbunden.
-Erst mit dem Auftreten der [Vorenkai](/content/Volk_/Vorenkai/index.md) wurde klarer, dass Ignatius nicht im Stern, sondern im Kern von [Mognar](/content/Himmelskoerper_/Mognar/index.md) ruht.
+Erst mit dem Auftreten der [Vorenkai](/content/Volk/Vorenkai/index.md) wurde klarer, dass Ignatius nicht im Stern, sondern im Kern von [Mognar](/content/Himmelskörper/Mognar/index.md) ruht.
 Ikus ist demnach keine personifizierte Ausgeburt göttlicher Rage, sondern eine von Creapatos geschaffene kosmische Konstante.
 
 Diese Korrektur schwächte die symbolische Bedeutung des Sterns jedoch nicht.

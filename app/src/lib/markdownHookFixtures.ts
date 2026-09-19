@@ -43,7 +43,7 @@ const galleryMarkdown = `# Markdown Hook Preview
 
 export function buildMarkdownHookFixture(fixture: string) {
 	let markdown = overviewMarkdown;
-	let fakePath = path.resolve(WIKI_PATH, "Himmelskoerper_", "__markdown-hook-preview__.md");
+	let fakePath = path.resolve(WIKI_PATH, "Himmelskörper", "__markdown-hook-preview__.md");
 
 	if (fixture === "folder-index") {
 		markdown = folderIndexMarkdown;
@@ -53,7 +53,7 @@ export function buildMarkdownHookFixture(fixture: string) {
 		markdown = cardLinkMarkdown;
 	} else if (fixture === "gallery") {
 		markdown = galleryMarkdown;
-		fakePath = path.resolve(WIKI_PATH, "Himmelskoerper_", "Aridess", "__markdown-hook-preview__.md");
+		fakePath = path.resolve(WIKI_PATH, "Himmelskörper", "Aridess", "__markdown-hook-preview__.md");
 	} else if (fixture !== "overview") {
 		throw error(404, `Unknown markdown hook fixture: ${fixture}`);
 	}

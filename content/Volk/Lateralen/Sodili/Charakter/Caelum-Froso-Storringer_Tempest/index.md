@@ -10,8 +10,8 @@
 | **Rolle:** | Gardist des Königshauses |
 | **Alter:** | Mittleren Alters |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateral](/content/Volk_/Lateralen_/index.md) |
-| **Heimat:** | [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateral](/content/Volk/Lateralen/index.md) |
+| **Heimat:** | [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md) |
 | **Beruf:** | Mitglied der königlichen Garde |
 
 ## Allgemein
@@ -50,10 +50,10 @@ Als Caelum dabei erwischt wurde, wie er einer der königlichen Patroullien nachs
 Er nahm ihn in der Jugendgarde auf und wurde fortan zu seinem Mentor welcher ihm Recht und Ordnung beibrachte.
 
 ### Aktuelle Situation
-Seine Loyalität und sein Gerechtigkeitssinn brachten Caelum den Respekt des Königs ein, weshalb er auf Empfehlung persönlich vom König für die [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) ausgewählt wurde.
+Seine Loyalität und sein Gerechtigkeitssinn brachten Caelum den Respekt des Königs ein, weshalb er auf Empfehlung persönlich vom König für die [Ikusations-Expedition](/content/Ereignis/Ikusation.md) ausgewählt wurde.
 Die Teilnahme an der Expedition ist für Caelum eine Ehre und möglicherweise sein letzter Schritt, bevor er zum Truppführer befördert wird.
 Neben der Aufgabe, die Gruppe zu schützen, soll er die Conius-Lateralen überwachen, eine Verantwortung, die er ernst nimmt, trotz oder gerade wegen seiner inneren Ängste gegenüber Magie.
-Auf [Aridess](/content/Himmelskoerper_/Aridess/index.md) tritt er immer wieder als jene Person hervor, die das unmittelbare Überleben der Gruppe über wissenschaftliche Neugier stellt.
+Auf [Aridess](/content/Himmelskörper/Aridess/index.md) tritt er immer wieder als jene Person hervor, die das unmittelbare Überleben der Gruppe über wissenschaftliche Neugier stellt.
 
 ## Fähigkeiten und Kräfte
 

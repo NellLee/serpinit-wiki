@@ -7,7 +7,7 @@ Sie entsprangen alle aus den Todestränen des dreibeinigen Lindwurms Ersaspial.
 Bei Ersaspial handelt es sich um eine stark aus den Emotionen und Erlebnissen des Sodili-Volkes mutierten Version von [Creapatos](/content/Allgemein/Schoepfungsgeschichte.md#creapatos).
 In der Religion der Sodili hat dieser Ur-Gott Ersaspial seinen eigenen Körper aufgeopfert und dabei aus seinen Tränen eine Unzahl an Tiergöttern geboren.
 Aus seiner Leiche ist das Übel dieser Welt entsprungen, in Form der tausenden **Roiatinen**, große *Steinmaden*.
-Diese geschlüpften Geschöpfe haben sich auf dem Planeten verteilt und sich an unterschiedlichen Stellen zu den Steinportalen (bzw. den [Sgrisignier-Portalen](/content/Volk_/Sgrisignier/index.md#portale)) zusammengerollt.
+Diese geschlüpften Geschöpfe haben sich auf dem Planeten verteilt und sich an unterschiedlichen Stellen zu den Steinportalen (bzw. den [Sgrisignier-Portalen](/content/Volk/Sgrisignier/index.md#portale)) zusammengerollt.
 Jeder aus Ersaspials Tränen geborene Tiergott stellt einen anderen Aspekt des Universums dar und sie haben gemeinsam die "Welt" (aus Sicht der Sodili vor der Erschließung der Portale, also letztendlich nur Agranum) mit ihrer vielfältigen Fauna befüllt.
 Die stärksten 6 Tiergötter haben sich schließlich außerdem zusammengetan um eine gemeinsame Spezies mit hoher Intelligenz zu schaffen, die Sodili.
 Dieses innere Pantheon besteht aus:

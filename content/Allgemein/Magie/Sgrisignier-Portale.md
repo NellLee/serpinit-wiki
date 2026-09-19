@@ -30,9 +30,9 @@ Ein Chaos-Portal bildet beim Verbindungsaufbau mit einem anderen Portal für kur
 Sollte also ein Lebewesen gerade auf dem regulären Weg zum Ziel-Portal sein, so kann es ebenfalls vom Chaos-Portal zerrissen werden.
 <!-- event: start=-0.6943464122282921 category="Agranum" text="Erster Erfolg beim Reisen durch ein Chaos-Portal" -->
 
-Die Conius-Lateralen fanden schließlich einen Weg dieses Phänomen zu unterbinden und starteten darauf basierend schließlich die [Ikusation](/content/Ereignis_/Ikusation.md).
+Die Conius-Lateralen fanden schließlich einen Weg dieses Phänomen zu unterbinden und starteten darauf basierend schließlich die [Ikusation](/content/Ereignis/Ikusation.md).
 Die frühen Expeditionen der Ikusation zeigten jedoch auch, dass selbst gesicherte Portale nur einen Teil des Risikos beseitigen.
-Ein Zielort konnte weiterhin durch Klima, Gifte, Fauna oder politische Umstände unbenutzbar bleiben, wie sich etwa an den ersten Routen über [Aridess](/content/Himmelskoerper_/Aridess/index.md) und [Venoxi](/content/Himmelskoerper_/Venoxi/index.md) deutlich zeigte.
+Ein Zielort konnte weiterhin durch Klima, Gifte, Fauna oder politische Umstände unbenutzbar bleiben, wie sich etwa an den ersten Routen über [Aridess](/content/Himmelskörper/Aridess/index.md) und [Venoxi](/content/Himmelskörper/Venoxi/index.md) deutlich zeigte.
 
 ## Aufbau
 
@@ -45,4 +45,4 @@ Wird eines dieser Segmente beschädigt oder falsch überlagert, kann das Portal 
 
 Gerade auf dieser Einsicht beruhte später die Arbeit der Conius-Lateralen.
 Sie lernten nicht, vollständige Sgrisignier-Portale selbst zu bauen, wohl aber zu unterscheiden, welche Teile eines bestehenden Portals für Zielbindung, Stabilität und [Chaos-Interferenzen](#chaos-interferenzen) entscheidend sind.
-Dies war eine der wichtigsten Voraussetzungen für die [Ikusation](/content/Ereignis_/Ikusation.md).
+Dies war eine der wichtigsten Voraussetzungen für die [Ikusation](/content/Ereignis/Ikusation.md).

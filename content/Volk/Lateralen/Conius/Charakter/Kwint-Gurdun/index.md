@@ -8,7 +8,7 @@
 | **Rolle:** | Professor für explorative Forschung |
 | **Alter:** | Hohes Alter |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Conius-Lateral](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Conius-Lateral](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Resrubor Akademie |
 | **Beruf:** | Professor |
 
@@ -40,7 +40,7 @@ Der genaue Hintergrund von Kwint Gurdun ist unbekannt, aber es wird angenommen, 
 
 ### Wichtige Ereignisse
 Kwint Gurdun wurde zum leitenden Professor für explorative Forschung an der Resrubor Akademie ernannt, wo er seitdem sein umfassendes Wissen und seine Leidenschaft für die Wissenschaft weitergibt.
-Später gehörte er zu den entscheidenden Köpfen der frühen [Ikusation](/content/Ereignis_/Ikusation.md) und übernahm dort eine führende Rolle bei Planung, Sicherung und praktischer Auswertung der ersten Portalerschließungen.
+Später gehörte er zu den entscheidenden Köpfen der frühen [Ikusation](/content/Ereignis/Ikusation.md) und übernahm dort eine führende Rolle bei Planung, Sicherung und praktischer Auswertung der ersten Portalerschließungen.
 
 ### Aktuelle Situation
 Kwint widmet sein Leben der Forschung und Lehre an der Resrubor Akademie.

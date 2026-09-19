@@ -25,7 +25,7 @@ Ein Teil des freiwerdenden Dampfes entkommt dabei sogar ins All — Luquas gerin
 Auf der jeweils abgewandten Seite und an den Polen wirkt das Eis dagegen als Kältefalle: Wandernder Dampf setzt sich dort ab und gefriert erneut, dauerhaft.
 
 Unter dieser globalen Eisdecke, geschützt und von Flueros hydrothermalen Quellen erwärmt, erstreckt sich der eigentliche Ozean Luquas bis hinab zum Planetenkern.
-In der Nähe dieser Schlotfelder liegen vermutlich die Siedlungsräume der [Fluctro](/content/Volk_/Fluctro/index.md).
+In der Nähe dieser Schlotfelder liegen vermutlich die Siedlungsräume der [Fluctro](/content/Volk/Fluctro/index.md).
 Für die frühen Erkunder der Ikusation blieb Luqua dadurch zunächst eine augenscheinlich lebensfeindliche, unbewohnte Eiswüste — wodurch und wann genau später Kontakt zu den Fluctro entstand, ist noch offen.
 
 ## Besondere Flora

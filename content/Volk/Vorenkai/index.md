@@ -1,9 +1,9 @@
 # Die Vorenkai
 
 Die Vorenkai sind eine der intelligenten Spezies des Serpinit-Systems, wobei sie eine durchaus einzigartige Entstehungsgeschichte unter den modernen Völkern aufweisen.
-Sie entwickelten sich auf [Mognar](/content/Himmelskoerper_/Mognar/index.md), wo sie durch Ignatius magischen Einfluss aus verbannten [Sylvanars](/content/Volk_/Sylvanar/index.md) geformt wurden.
+Sie entwickelten sich auf [Mognar](/content/Himmelskörper/Mognar/index.md), wo sie durch Ignatius magischen Einfluss aus verbannten [Sylvanars](/content/Volk/Sylvanar/index.md) geformt wurden.
 Seit jeher prägen sowohl ihre traumatischen Ursprünge als auch ihre lebensfeindliche Heimat maßgeblich die Gesellschaft und Geschichte dieser Spezies.
-Die Vorenkai lösten nach dem Beginn der Ikusation den [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) aus, gefolgt von ihrer späteren genetischen Verstümmelung und der darauffolgenden Entwicklung der [Blutrituale](/content/Volk_/Vorenkai/Blutrituale.md).
+Die Vorenkai lösten nach dem Beginn der Ikusation den [Krieg um Navura](/content/Ereignis/Krieg-um-Navura.md) aus, gefolgt von ihrer späteren genetischen Verstümmelung und der darauffolgenden Entwicklung der [Blutrituale](/content/Volk/Vorenkai/Blutrituale.md).
 Umgangssprachlich werden die Vorenkai auch häufig als "Drachenkinder" bezeichnet.
 
 # Entstehung
@@ -24,7 +24,7 @@ Durch einen glücklichen Zufall war die Lücke zwischen den Interferenzen in die
 
 ## Ankunft auf Mognar
 
-Die andere Seite des Portals führte nach [Mognar](/content/Himmelskoerper_/Mognar/index.md).
+Die andere Seite des Portals führte nach [Mognar](/content/Himmelskörper/Mognar/index.md).
 Die brütende Hitze des Planeten hätte die Überlebenden binnen weniger Minuten getötet.
 Trotz der völligen Abwesenheit vertrauter Fauna nahmen sie dort eine ungewöhnlich starke Präsenz des Collektivoras wahr — tatsächlich handelte es sich um die Abstrahlung [Ignatius'](/content/Allgemein/Ignatius.md), die sich für sie ähnlich wie Navuras Herzschlag anfühlte, jedoch stärker und durchgehend statt pulsierend.
 
@@ -44,9 +44,9 @@ Von Anfang an entstand so keine einheitliche Gestalt, sondern eine Bandbreite un
 Die Krieger erwachten aus der Verwandlung mit vollständiger, klarer Erinnerung an ihr früheres Leben als Sylvanars und an die Ereignisse ihrer Verbannung.
 Sie bauten auf Mognar eine eigene Zivilisation auf.
 Mit jeder folgenden Generation verblasste diese Erinnerung jedoch weiter zu Erzählung und Mythos, oft verzerrt gegenüber dem, was die Gründer tatsächlich erlebt hatten.
-Aus dieser sich wandelnden Überlieferung erwuchs bei vielen Vorenkai ein tiefer Groll gegen die Sylvanars und eine Fixierung auf [Navura](/content/Himmelskoerper_/Navura/index.md), das in den Erzählungen zugleich als verlorene Heimat und als rechtmäßiges Erbe erschien.
+Aus dieser sich wandelnden Überlieferung erwuchs bei vielen Vorenkai ein tiefer Groll gegen die Sylvanars und eine Fixierung auf [Navura](/content/Himmelskörper/Navura/index.md), das in den Erzählungen zugleich als verlorene Heimat und als rechtmäßiges Erbe erschien.
 
-Erst viele Generationen später, noch vor der [Ikusation](/content/Ereignis_/Ikusation.md), stießen Nachfahren der Gründergeneration zufällig auf ein Portal nach Navura und begannen, den Planeten zu erkunden.
+Erst viele Generationen später, noch vor der [Ikusation](/content/Ereignis/Ikusation.md), stießen Nachfahren der Gründergeneration zufällig auf ein Portal nach Navura und begannen, den Planeten zu erkunden.
 
 # Lebensraum
 
@@ -56,7 +56,7 @@ Trotz dieser eigenen Welt blieb Navura über viele Zyklen der entscheidende Bezu
 
 Der Krieg gegen die Bewohner Navuras war daher nie nur ein äußerer Feldzug.
 Er war für viele Vorenkai ein Versuch, die eigene Herkunft umzudeuten und ihre Stellung im Serpinit-System gewaltsam zu behaupten.
-Der historische Zusammenhang wird im Artikel [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) beschrieben.
+Der historische Zusammenhang wird im Artikel [Krieg um Navura](/content/Ereignis/Krieg-um-Navura.md) beschrieben.
 
 # Gesellschaft
 
@@ -69,9 +69,9 @@ Gerade seit der großen Niederlage auf Navura hängt Herrschaft eng mit der Kont
 
 Aus dieser Ordnung ging auch der Blutzoll hervor.
 Er bindet den Bestand Zanguors materiell und magisch an den jeweiligen Herrscher.
-Die politische und magische Logik dahinter wird im Überblick zu den [Blutritualen](/content/Volk_/Vorenkai/Blutrituale.md) zusammengefasst.
+Die politische und magische Logik dahinter wird im Überblick zu den [Blutritualen](/content/Volk/Vorenkai/Blutrituale.md) zusammengefasst.
 
-Eine späte Folge des Navura-Konflikts war zudem die [Polarisierung der Vorenkai](/content/Ereignis_/Polarisierung-der-Vorenkai.md).
+Eine späte Folge des Navura-Konflikts war zudem die [Polarisierung der Vorenkai](/content/Ereignis/Polarisierung-der-Vorenkai.md).
 Sie machte sichtbar, dass das Volk nicht mehr geschlossen denselben Anspruch auf Krieg, Herkunft und Zukunft teilte.
 
 # Aussehen
@@ -112,4 +112,4 @@ Diese Fähigkeiten wurden ihnen im Verlauf des Navura-Krieges durch einen starke
 
 Statt ihre Magie gänzlich zu verlieren, verlagerten die Vorenkai ihren Zugriff auf die im eigenen Blut verbliebene magische Struktur.
 So entstanden Blutvulkane, Blutzoll und eine ritualisierte Form der Macht, mit der auch größere Zauber weiterhin möglich blieben.
-Der zusammenhängende Überblick dazu steht im Artikel [Blutrituale der Vorenkai](/content/Volk_/Vorenkai/Blutrituale.md).
+Der zusammenhängende Überblick dazu steht im Artikel [Blutrituale der Vorenkai](/content/Volk/Vorenkai/Blutrituale.md).

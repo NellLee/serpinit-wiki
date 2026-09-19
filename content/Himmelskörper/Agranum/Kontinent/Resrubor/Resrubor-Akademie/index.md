@@ -2,7 +2,7 @@
 
 <!-- event: start=-1.699240658925089 category="Agranum" text="Gründung der Resrubor-Akademie" -->
 
-Die Resrubor-Akademie ist das gesellschaftliche und wissenschaftliche Zentrum der [Conius-Lateralen](/content/Volk_/Lateralen_/Conius/index.md).
+Die Resrubor-Akademie ist das gesellschaftliche und wissenschaftliche Zentrum der [Conius-Lateralen](/content/Volk/Lateralen/Conius/index.md).
 Hier werden junge Laterale therapiert und ausgewachsene Conius in der Theorie der Magie ausgebildet.
 
 ## Rolle
@@ -43,9 +43,9 @@ Die Resrubor-Akademie war geboren, und sie zog begabte Sodili und spätere Coniu
 
 Mit der Zeit wurde Resrubor zum wichtigsten Ort moderner Runenforschung.
 Gerade hier setzte sich die Einsicht durch, dass die [Sgrisignier-Runen](/content/Allgemein/Magie/Sgrisignier-Runen.md) dreidimensional aufgebaut sind und dass die sichtbaren Querschnitte antiker Runen nur reduzierte Schatten größerer Strukturen darstellen.
-Diese Arbeiten ebneten den Weg für große Teile der späteren lateralen Magietheorie und schufen die Grundlage der [Ikusation](/content/Ereignis_/Ikusation.md).
+Diese Arbeiten ebneten den Weg für große Teile der späteren lateralen Magietheorie und schufen die Grundlage der [Ikusation](/content/Ereignis/Ikusation.md).
 
 ## Fraktionen
 
 Innerhalb der Akademie bestehen mehrere traditionsreiche Lehrlager mit unterschiedlichen Schwerpunkten.
-Eine Übersicht findet sich im Hauptartikel [Fraktionen der Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/Fraktionen.md).
+Eine Übersicht findet sich im Hauptartikel [Fraktionen der Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/Fraktionen.md).

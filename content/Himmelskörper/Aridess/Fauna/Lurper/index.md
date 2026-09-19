@@ -21,6 +21,6 @@ Sie folgen dabei weniger offenen Dünenmeeren als jenen Zonen, in denen genügen
 
 ## Beziehung zum Shwin-Kaktus
 
-Gerade weil Lurper auf wasserhaltige Pflanzen spezialisiert sind, gehören [Shwin-Kakteen](/content/Himmelskoerper_/Aridess/Flora_/Shwin-Kaktus/index.md) zu ihren gefährlichsten natürlichen Gegenspielern.
+Gerade weil Lurper auf wasserhaltige Pflanzen spezialisiert sind, gehören [Shwin-Kakteen](/content/Himmelskörper/Aridess/Flora/Shwin-Kaktus/index.md) zu ihren gefährlichsten natürlichen Gegenspielern.
 Immer wieder werden verletzte oder tote Lurper in der Nähe dichter Kaktusfelder gefunden, deren Hinterläufe oder Flanken von Stachelgiften durchsetzt sind.
 Solche Funde gelten unter Reisenden als deutlicher Hinweis darauf, dass ein Gebiet nicht nur trocken, sondern auch biologisch hochgradig wehrhaft ist.

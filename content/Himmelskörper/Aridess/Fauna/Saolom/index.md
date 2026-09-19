@@ -29,5 +29,5 @@ Ihr Bewegungsmuster ist so gleichmäßig, dass unerfahrene Beobachter wandernde 
 
 ## Begegnungen mit Reisenden
 
-Seit der frühen [Ikusation](/content/Ereignis_/Ikusation.md) gehören Saoloms zu den bekanntesten Gefahrenberichten über die weiten offenen Wüsten von Aridess.
+Seit der frühen [Ikusation](/content/Ereignis/Ikusation.md) gehören Saoloms zu den bekanntesten Gefahrenberichten über die weiten offenen Wüsten von Aridess.
 Gerade in den ersten Beschreibungen fremder Expeditionen tauchen sie als Grund auf, warum ein scheinbar freier Weg durch die Dünen dennoch als nahezu unpassierbar galt.

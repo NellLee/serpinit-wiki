@@ -7,7 +7,7 @@
 | **Name:** | Renn Kienu Ionfor |
 | **Rolle:** | Schiffsmechaniker |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Beruf:** | Schiffsmechaniker |
 
 * **Stärken**: Umfassendes Wissen über jedes Teil des Schiffes, Fähigkeit, jedes Problem zu beheben und das Schiff in Topform zu halten, selbst in den widrigsten Bedingungen.

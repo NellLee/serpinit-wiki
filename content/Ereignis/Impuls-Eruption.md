@@ -2,7 +2,7 @@
 
 <!-- event: start=-349703.9995 category="Agranum" text="Impuls-Eruption auf Agranum" -->
 
-Als Impuls-Eruption wird das katastrophale Ereignis bezeichnet, bei dem der Elementardrache [Aerion](/content/Allgemein/Aerion.md) die auf [Agranum](/content/Himmelskoerper_/Agranum/index.md) verbliebenen [Sgrisignier](/content/Volk_/Sgrisignier/index.md) vernichtete und dabei die Oberfläche des Planeten dauerhaft veränderte.
+Als Impuls-Eruption wird das katastrophale Ereignis bezeichnet, bei dem der Elementardrache [Aerion](/content/Allgemein/Aerion.md) die auf [Agranum](/content/Himmelskörper/Agranum/index.md) verbliebenen [Sgrisignier](/content/Volk/Sgrisignier/index.md) vernichtete und dabei die Oberfläche des Planeten dauerhaft veränderte.
 Die Impuls-Eruption markiert einen der tiefsten Einschnitte der gesamten Geschichte des Serpinit-Systems.
 
 ## Vorgeschichte
@@ -24,7 +24,7 @@ Sie zerriss weite Teile der Oberfläche Agranums und machte den Planeten selbst 
 ## Entstehung der Gravidblase
 
 Um die übrigen Lebewesen Agranums wenigstens teilweise vor den Folgen seines Handelns zu bewahren, wandelte Aerion zugleich einen gewaltigen Teil seiner eigenen magischen Substanz aktiv in Gas um — eine schlagartig entstehende, ungeheure Gasmasse, dicht genug, um selbst Gestein zu tragen.
-Daraus entstand die [Gravidblase von Agranum](/content/Himmelskoerper_/Agranum/Gravidblase.md), welche die verbliebenen Kontinentalplatten auffing und in schwebender Ordnung stabilisierte.
+Daraus entstand die [Gravidblase von Agranum](/content/Himmelskörper/Agranum/Gravidblase.md), welche die verbliebenen Kontinentalplatten auffing und in schwebender Ordnung stabilisierte.
 Nur ein Bruchteil des ursprünglichen Lebens überdauerte diesen Übergang.
 
 Die Impuls-Eruption ist deshalb kein bloßer Vernichtungsschlag gegen ein einzelnes Volk.
@@ -33,9 +33,9 @@ Sie war zugleich Planetenspaltung, Massensterben und Geburtsmoment des späteren
 ## Folgen für die Lateralen
 
 Die Magie Aerions traf nicht nur die Sgrisignier.
-Da deren frühere Eingriffe bereits Spuren in den Vorfahren der späteren [Lateralen](/content/Volk_/Lateralen_/index.md) hinterlassen hatten, wirkte der Impuls auch auf diese Lebewesen ein.
-Bei den Überlebenden und ihren Nachfahren blieb eine folgenschwere Fehlkopplung im Gehirn zurück, die später für Micu, [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) und conische Therapien zentral wurde.
-Der zusammenhängende historische Zusammenhang ist im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis_/Psychische-Verstuemmelung-der-Lateralen.md) beschrieben.
+Da deren frühere Eingriffe bereits Spuren in den Vorfahren der späteren [Lateralen](/content/Volk/Lateralen/index.md) hinterlassen hatten, wirkte der Impuls auch auf diese Lebewesen ein.
+Bei den Überlebenden und ihren Nachfahren blieb eine folgenschwere Fehlkopplung im Gehirn zurück, die später für Micu, [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) und conische Therapien zentral wurde.
+Der zusammenhängende historische Zusammenhang ist im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstuemmelung-der-Lateralen.md) beschrieben.
 
 Die Impuls-Eruption ist deshalb nicht nur für die Planetengeschichte Agranums bedeutsam, sondern auch für die gesamte spätere Entwicklung der Lateralen.
 

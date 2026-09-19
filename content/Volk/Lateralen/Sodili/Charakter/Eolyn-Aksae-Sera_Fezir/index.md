@@ -10,8 +10,8 @@
 | **Rolle:**           | Kundschafterin und Handelsvertreterin                                                                   |
 | **Alter:**           | Junge Erwachsene                                                                                        |
 | **Geschlecht:**      | Weiblich                                                                                                |
-| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/index.md)                                                    |
-| **Heimat:**          | [Carpebur](/content/Himmelskoerper_/Agranum/Kontinent_/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)    |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk/Lateralen/index.md)                                                    |
+| **Heimat:**          | [Carpebur](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Sodili-Hauptstadt_Carpebur/index.md)    |
 | **Beruf:**           | Handelsvertreterin der Familie Sera                                                                     |
 
 ## Allgemein
@@ -52,9 +52,9 @@ Mit fortschreitendem Alter verließen ihre Eltern selbst immer seltener die Stad
 Als Eolyn von ihren Eltern zur offiziellen Handelsvertreterin der Familie Sera ernannt wurde, war dies ein wichtiger Meilenstein in ihrem Leben.
 
 ### Aktuelle Situation
-Eolyns Teilnahme an der königlichen [Ikusations-Expedition](/content/Ereignis_/Ikusation.md) ist sowohl eine Ehre als auch eine Herausforderung.
+Eolyns Teilnahme an der königlichen [Ikusations-Expedition](/content/Ereignis/Ikusation.md) ist sowohl eine Ehre als auch eine Herausforderung.
 Sie sieht es als ihre Aufgabe, nicht nur die Interessen ihrer Familie zu vertreten, sondern auch ihren eigenen Wissensdurst zu stillen und ihre Fähigkeiten weiter zu verfeinern.
-Während der frühen Erschließung von [Aridess](/content/Himmelskoerper_/Aridess/index.md) gehört Eolyn zu den wichtigsten Späherinnen der Expedition.
+Während der frühen Erschließung von [Aridess](/content/Himmelskörper/Aridess/index.md) gehört Eolyn zu den wichtigsten Späherinnen der Expedition.
 Insbesondere Fezirs scharfer Blick spielt eine entscheidende Rolle beim rechtzeitigen Erkennen von Bedrohungen und bei der ersten Annäherung an fremde Gruppen.
 
 ## Fähigkeiten und Kräfte

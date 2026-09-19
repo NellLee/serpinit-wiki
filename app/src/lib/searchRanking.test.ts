@@ -6,9 +6,9 @@ import { runSearchRanking } from './searchRanking';
 const records = [
 	{
 		title: 'Dur-Uspil Zeremonien',
-		href: '/content/Volk_/Lateralen_/Sodili/Dur-Uspil.md',
-		path: 'content/Volk_/Lateralen_/Sodili/Dur-Uspil.md',
-		domain: deriveDomainInfo('content/Volk_/Lateralen_/Sodili/Dur-Uspil.md'),
+		href: '/content/Volk/Lateralen/Sodili/Dur-Uspil.md',
+		path: 'content/Volk/Lateralen/Sodili/Dur-Uspil.md',
+		domain: deriveDomainInfo('content/Volk/Lateralen/Sodili/Dur-Uspil.md'),
 		pageClass: 'article' as const,
 		categories: ['Rituale'],
 		contentText: 'Die Dur-Uspil führt tief in die Tradition der Sodili.',
@@ -16,9 +16,9 @@ const records = [
 	},
 	{
 		title: 'Sodili Übersicht',
-		href: '/content/Volk_/Lateralen_/Sodili/index.md',
-		path: 'content/Volk_/Lateralen_/Sodili/index.md',
-		domain: deriveDomainInfo('content/Volk_/Lateralen_/Sodili/index.md'),
+		href: '/content/Volk/Lateralen/Sodili/index.md',
+		path: 'content/Volk/Lateralen/Sodili/index.md',
+		domain: deriveDomainInfo('content/Volk/Lateralen/Sodili/index.md'),
 		pageClass: 'index' as const,
 		categories: ['Kulturen'],
 		contentText: 'Die Sodili sind ein Volk der Lateralen.',
@@ -26,9 +26,9 @@ const records = [
 	},
 	{
 		title: 'Arkten',
-		href: '/content/Himmelskoerper_/Arkten.md',
-		path: 'content/Himmelskoerper_/Arkten.md',
-		domain: deriveDomainInfo('content/Himmelskoerper_/Arkten.md'),
+		href: '/content/Himmelskörper/Arkten.md',
+		path: 'content/Himmelskörper/Arkten.md',
+		domain: deriveDomainInfo('content/Himmelskörper/Arkten.md'),
 		pageClass: 'article' as const,
 		categories: ['Orte'],
 		contentText: 'Arkten ist ein Himmelskörper.',

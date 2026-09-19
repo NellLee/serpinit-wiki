@@ -49,11 +49,11 @@ runTest('limits staged file checks to content markdown files', () => {
 		'content/Allgemein/images/test.png',
 		'content/Allgemein/TODO.txt',
 		'app/src/lib/wiki.ts',
-		'content/Volk_/Spirits/index.md'
+		'content/Volk/Spirits/index.md'
 	]);
 
 	assert.deepEqual(paths, [
 		'content/Allgemein/TODO.md',
-		'content/Volk_/Spirits/index.md'
+		'content/Volk/Spirits/index.md'
 	]);
 });

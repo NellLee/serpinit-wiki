@@ -51,7 +51,7 @@ describe('markdownRenderHooks', () => {
 	test('injects generated folder index content', () => {
 		const transformedFolderIndex = applyMarkdownRenderHooks(folderIndexMarkdown, {
 			folderIndexMarkdown:
-				'* [Agranum](/content/Himmelskoerper_/Agranum/index.md)\n* [Aridess](/content/Himmelskoerper_/Aridess/index.md)\n'
+				'* [Agranum](/content/Himmelskörper/Agranum/index.md)\n* [Aridess](/content/Himmelskörper/Aridess/index.md)\n'
 		});
 
 		expect(transformedFolderIndex.includes('<!-- INDEX -->')).toBe(false);

@@ -6,15 +6,15 @@ Einige Einheiten sind astronomisch geprägt, andere gehen auf planetare Magierhy
 ## Mavorak-Zyklus
 
 Die am weitesten verbreitete größere historische Zeiteinheit ist der [Mavorak-Zyklus](/content/Allgemein/Mavorak-Zyklus.md).
-Er beruht auf der Umlaufbewegung von [Mavorak](/content/Himmelskoerper_/Mavorak/index.md) und [Ikus](/content/Himmelskoerper_/Ikus/index.md) um ihr gemeinsames Baryzentrum und dauert etwa 52 Erd-Tage.
+Er beruht auf der Umlaufbewegung von [Mavorak](/content/Himmelskörper/Mavorak/index.md) und [Ikus](/content/Himmelskörper/Ikus/index.md) um ihr gemeinsames Baryzentrum und dauert etwa 52 Erd-Tage.
 
 Gerade weil dieser Zyklus über viele Welten hinweg beobachtbar blieb, eignete er sich früh als gemeinsame Makroeinheit der Chronologie.
 
 ## Pulsene
 
 Die kleinste zuverlässig konstante Zeiteinheit ist die [Pulsene](/content/Allgemein/Pulsene.md).
-Sie wird vom Herzschlag [Navuras](/content/Himmelskoerper_/Navura/index.md) abgeleitet und dauert exakt 1,8675 Erd-Sekunden.
-Interplanetar wurde sie jedoch erst nach der [Ikusation](/content/Ereignis_/Ikusation.md) zu einem belastbaren Standard.
+Sie wird vom Herzschlag [Navuras](/content/Himmelskörper/Navura/index.md) abgeleitet und dauert exakt 1,8675 Erd-Sekunden.
+Interplanetar wurde sie jedoch erst nach der [Ikusation](/content/Ereignis/Ikusation.md) zu einem belastbaren Standard.
 
 ## Serpe
 

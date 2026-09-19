@@ -1,7 +1,7 @@
 ﻿# Sgrisignier-Runen
 
 Die Sgrisignier-Runen sind die präziseste bekannte Schnittstelle zur Magie im Serpinit-System.
-Sie wurden von Creapatos für die [Sgrisignier](/content/Volk_/Sgrisignier/index.md) geschaffen, damit sterbliche Wesen die Potenz des [Wymen](/content/Allgemein/Magie/Wymen.md) in stabile, komplexe Wirkungen überführen konnten.
+Sie wurden von Creapatos für die [Sgrisignier](/content/Volk/Sgrisignier/index.md) geschaffen, damit sterbliche Wesen die Potenz des [Wymen](/content/Allgemein/Magie/Wymen.md) in stabile, komplexe Wirkungen überführen konnten.
 
 ## Grundprinzip
 
@@ -33,7 +33,7 @@ Erst aus ihrer Anordnung entsteht eine vollständige runische Aussage.
 
 Die volle Struktur einer Sgrisignier-Rune ist dreidimensional.
 Gerade diese Eigenschaft blieb den modernen Völkern lange verborgen, weil sie meist nur zweidimensionale Schatten oder Teilmuster wahrnehmen konnten.
-Erst die [Conius-Lateralen](/content/Volk_/Lateralen_/Conius/index.md) erkannten, dass die sichtbaren Querschnitte antiker Runensteine nur Ausschnitte einer räumlich viel komplexeren Gesamtform darstellen.
+Erst die [Conius-Lateralen](/content/Volk/Lateralen/Conius/index.md) erkannten, dass die sichtbaren Querschnitte antiker Runensteine nur Ausschnitte einer räumlich viel komplexeren Gesamtform darstellen.
 
 Diese Erkenntnis war einer der größten Fortschritte der modernen Magietheorie.
 Sie machte verständlich, warum viele früh nachgeahmte Runen zwar einzelne Effekte auslösen konnten, aber nie die Präzision oder Stabilität echter Sgrisignier-Arbeiten erreichten.

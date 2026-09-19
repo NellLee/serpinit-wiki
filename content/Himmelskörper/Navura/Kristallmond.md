@@ -1,6 +1,6 @@
 # Der Kristallmond von Navura
 
-Der Kristallmond ist der markanteste natürliche Trabant von [Navura](/content/Himmelskoerper_/Navura/index.md) und eine der auffälligsten astronomischen Besonderheiten des Serpinit-Systems.
+Der Kristallmond ist der markanteste natürliche Trabant von [Navura](/content/Himmelskörper/Navura/index.md) und eine der auffälligsten astronomischen Besonderheiten des Serpinit-Systems.
 Sein Gestein besitzt einen ungewöhnlich hohen Kristallanteil, wodurch ein Teil der Strahlung von Ikus beim Durchgang, bei Brechung und in periodischen Abschattungen anders verteilt wird als bei gewöhnlichen Felsmonden.
 
 ## Optische Wirkung

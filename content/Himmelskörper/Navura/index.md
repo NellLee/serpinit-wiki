@@ -28,24 +28,24 @@ Dieser Puls ist mehr als eine bloße Wahrnehmung: Er ist Navuras tatsächlicher,
 In den unberührten, von keinem intelligenten Volk erschlossenen Wäldern Navuras trifft dieser Herzschlag gelegentlich auf gewöhnliche, spontan entstandene magische Substanz — ein an sich seltenes, aber überall im System mögliches Naturphänomen.
 Fast überall kühlt solche Substanz binnen kürzester Zeit wieder ab.
 Nur in Reichweite von Navuras Herzschlag kann sie sich stattdessen mit seinem Takt synchronisieren und wird so mit jedem Schlag knapp erneut über ihre Substanzkonstante gehoben, bevor sie abkühlen kann.
-Genau auf diese Weise entstehen die [Spirits](/content/Volk_/Spirits/index.md).
+Genau auf diese Weise entstehen die [Spirits](/content/Volk/Spirits/index.md).
 
 ## Rolle in der frühen Ikusation
 
-Navura wurde den Lateralen bereits in einer sehr frühen Phase der [Ikusation](/content/Ereignis_/Ikusation.md) indirekt bekannt.
-Hinter einem giftigen Zwischenportal auf [Venoxi](/content/Himmelskoerper_/Venoxi/index.md) wurde von dort aus ein weiteres Portal nach Navura sichtbar.
+Navura wurde den Lateralen bereits in einer sehr frühen Phase der [Ikusation](/content/Ereignis/Ikusation.md) indirekt bekannt.
+Hinter einem giftigen Zwischenportal auf [Venoxi](/content/Himmelskörper/Venoxi/index.md) wurde von dort aus ein weiteres Portal nach Navura sichtbar.
 Damit zeichnete sich früh ab, dass die Portalrouten des Serpinit-Systems nicht nur direkte Verbindungen zwischen habitablen Welten, sondern auch lebensfeindliche Übergangsräume enthalten konnten.
 Gleichzeitig deutete sich damit an, dass Navura lange vor einem belastbaren Erstkontakt bereits als ferne, grüne Zielwelt in den strategischen Horizont der Ikusation trat.
 
 ## Kriegsschauplatz und Befriedung
 
 Navura war nicht nur Ziel neugieriger oder diplomatischer Annäherung, sondern über viele Zyklen auch Schauplatz eines zermürbenden Grenz- und Invasionskonflikts.
-Im [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) versuchten die [Vorenkai](/content/Volk_/Vorenkai/index.md), den Planeten gegen die [Sylvanars](/content/Volk_/Sylvanar/index.md) zu behaupten oder neu zu gewinnen.
+Im [Krieg um Navura](/content/Ereignis/Krieg-um-Navura.md) versuchten die [Vorenkai](/content/Volk/Vorenkai/index.md), den Planeten gegen die [Sylvanars](/content/Volk/Sylvanar/index.md) zu behaupten oder neu zu gewinnen.
 Die dichte, magisch geprägte Natur Navuras wurde dabei selbst zu einem strategischen Faktor und spielte den sylvanarischen Verteidigern dauerhaft in die Hände.
 
 In der späten Kriegsphase verlagerte sich der Konflikt teilweise in das Vorenkai-Volk selbst.
-Mit [Elikta](/content/Volk_/Lateralen_/Sodili/Charakter_/Elikta/index.md) trat eine Vermittlungsfigur auf, an der sich Hoffnung auf Befriedung und konservativer Widerstand zugleich bündelten.
-Der innere Zerfall dieser Kriegsordnung ist im Artikel [Polarisierung der Vorenkai](/content/Ereignis_/Polarisierung-der-Vorenkai.md) zusammengefasst.
+Mit [Elikta](/content/Volk/Lateralen/Sodili/Charakter/Elikta/index.md) trat eine Vermittlungsfigur auf, an der sich Hoffnung auf Befriedung und konservativer Widerstand zugleich bündelten.
+Der innere Zerfall dieser Kriegsordnung ist im Artikel [Polarisierung der Vorenkai](/content/Ereignis/Polarisierung-der-Vorenkai.md) zusammengefasst.
 
 # Kristallmond
 
@@ -58,4 +58,4 @@ Da die meisten magischen Pflanzen auf Navura autofluoreszent sind, also von selb
 Außerdem steigt die Sensibilität der Pflanzen, sodass sie auf das Pulsieren von Navura während der Finsternis visuell reagieren.
 Sie schütten mit jedem Impuls vergrößerte Mengen ihres fluoreszierenden Stoffes aus, wodurch es jedem Lebewesen möglich ist den Herzschlag des Planeten während der Mondfinsternis wahrzunehmen.
 Dieses Ereignis wird von vielen als atemberaubend schön beschrieben und hat einen hohen spirituellen Stellenwert bei den modernen Völkern.
-Der astronomische und kulturelle Zusammenhang ist im Hauptartikel [Kristallmond von Navura](/content/Himmelskoerper_/Navura/Kristallmond.md) zusammengefasst.
+Der astronomische und kulturelle Zusammenhang ist im Hauptartikel [Kristallmond von Navura](/content/Himmelskörper/Navura/Kristallmond.md) zusammengefasst.

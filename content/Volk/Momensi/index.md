@@ -42,7 +42,7 @@ Anders als bei den Sylvanars, die mit Gesang und Tanz die magischen Muster ihrer
 
 # Lebensraum
 
-Momensi leben auf [Navura](/content/Himmelskoerper_/Navura/index.md) in blütenreichen Lichtungen und Wiesen, abseits der dichten Wälder, die von den [Sylvanars](/content/Volk_/Sylvanar/index.md) bevorzugt werden.
+Momensi leben auf [Navura](/content/Himmelskörper/Navura/index.md) in blütenreichen Lichtungen und Wiesen, abseits der dichten Wälder, die von den [Sylvanars](/content/Volk/Sylvanar/index.md) bevorzugt werden.
 Sie versammeln sich dort in kleinen, losen Schwärmen wechselnder Zusammensetzung.
 Erwachsene Sylvanars halten sich von Momensi eher fern: Zum einen gelten sie als "verräterisch", da ihre unmittelbare emotionale Reaktion die eigenen, eigentlich verborgenen Gefühle eines Sylvanars sichtbar machen kann. Zum anderen werden sie schlicht oft als lästig empfunden.
 

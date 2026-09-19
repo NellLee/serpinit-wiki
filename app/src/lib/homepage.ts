@@ -31,15 +31,15 @@ export function getHomepageData(): HomepageData {
 			{
 				title: 'Himmelskörper',
 				description: 'Planeten, Monde, Orte und Regionen des Serpinit-Systems.',
-				href: '/content/Himmelskoerper_/index.md',
-				imageSrc: '/Himmelskoerper_/Ikus/images/Ikus_Stern_Weltraum-Ansicht.png',
+				href: '/content/Himmelskörper/index.md',
+				imageSrc: '/Himmelskörper/Ikus/images/Ikus_Stern_Weltraum-Ansicht.png',
 				imageAlt: 'Ikus im Weltraum'
 			},
 			{
 				title: 'Völker',
 				description: 'Die intelligenten Spezies, ihre Ableger und ihre großen Kulturräume.',
-				href: '/content/Volk_/index.md',
-				imageSrc: '/Volk_/Lateralen_/Conius/Charakter_/Lysandra-Swirm/images/Conius-Lateral_Lysandra-Swirm.png',
+				href: '/content/Volk/index.md',
+				imageSrc: '/Volk/Lateralen/Conius/Charakter/Lysandra-Swirm/images/Conius-Lateral_Lysandra-Swirm.png',
 				imageAlt: 'Charakterillustration'
 			},
 			{
@@ -53,7 +53,7 @@ export function getHomepageData(): HomepageData {
 				title: 'Charaktere',
 				description: 'Ein Sammelpunkt für wichtige Figuren und spätere Charakterübersichten.',
 				href: '/content/Charaktere.md',
-				imageSrc: '/Volk_/Lateralen_/Conius/Charakter_/Ingvor-Nemet-Mandijit/images/Conius-Lateral_Ingvor-Nemet-Mandijit.png',
+				imageSrc: '/Volk/Lateralen/Conius/Charakter/Ingvor-Nemet-Mandijit/images/Conius-Lateral_Ingvor-Nemet-Mandijit.png',
 				imageAlt: 'Conius-Lateraler Charakter'
 			}
 		],

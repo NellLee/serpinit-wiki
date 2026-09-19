@@ -3,12 +3,12 @@ import { buildFacetCatalogs, deriveDomainInfo } from './searchDerivedData';
 
 describe('searchDerivedData', () => {
 	test('derives domain metadata from content paths', () => {
-		expect(deriveDomainInfo('content/Volk_/Lateralen_/Sodili/index.md')).toEqual({
+		expect(deriveDomainInfo('content/Volk/Lateralen/Sodili/index.md')).toEqual({
 			key: 'volk',
 			label: 'Volk'
 		});
 
-		expect(deriveDomainInfo('content/Himmelskoerper_/index.md')).toEqual({
+		expect(deriveDomainInfo('content/Himmelskörper/index.md')).toEqual({
 			key: 'himmelskoerper',
 			label: 'Himmelskörper'
 		});
@@ -18,7 +18,7 @@ describe('searchDerivedData', () => {
 			label: 'Allgemein'
 		});
 
-		expect(deriveDomainInfo('content/Volk_/gallery/index.md')).toEqual({
+		expect(deriveDomainInfo('content/Volk/gallery/index.md')).toEqual({
 			key: 'volk',
 			label: 'Volk'
 		});

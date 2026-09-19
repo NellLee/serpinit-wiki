@@ -10,8 +10,8 @@
 | **Rolle:**           | Zirkelgründerin                                                                                         |
 | **Alter:**           | Erwachsene                                                                                              |
 | **Geschlecht:**      | Weiblich                                                                                                |
-| **Spezies / Rasse:** | [Varnops](/content/Volk_/Varnops/index.md)                                                              |
-| **Heimat:**          | [Nördliche Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md)      |
+| **Spezies / Rasse:** | [Varnops](/content/Volk/Varnops/index.md)                                                              |
+| **Heimat:**          | [Nördliche Wüste Frilach](/content/Himmelskörper/Aridess/Kontinent/Unol/Wüste_Frilach/index.md)      |
 | **Beruf:**           | Handelsstrategin, Metallurgin                                                                           |
 
 # Allgemein
@@ -43,7 +43,7 @@ Obwohl sie wenig offene Feinde hat, steht sie Personen skeptisch gegenüber, die
 
 ## Frühes Leben
 Hiante wird im 253.
-Zyklus vor der Ikusation in den nördlichen Ebenen der [Wüste Frilach](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Wüste_Frilach/index.md) von [Aridess](/content/Himmelskoerper_/Aridess/index.md) geboren.
+Zyklus vor der Ikusation in den nördlichen Ebenen der [Wüste Frilach](/content/Himmelskörper/Aridess/Kontinent/Unol/Wüste_Frilach/index.md) von [Aridess](/content/Himmelskörper/Aridess/index.md) geboren.
 Ihre Geburts-Familie [Kriolen](../../../Kriolen_Wüstenstamm/index.md) siedelt dort als eigenständiger Stamm im Schatten der nördlichen Berge.
 Die Gemeinschaft ist klein und lebt hauptsächlich vom Jagen und Sammeln, hat jedoch mit der Zeit auch einige rudimentäre Handelsbeziehungen zu den nördlichen liegenden Bergketten aufgebaut.
 Meist ertauschen sich die Kriolen dabei verarbeitetes Metall in Form von Waffen und Werkzeugen mit dem Leder und Fleisch ihrer letzten Jagdzüge.
@@ -59,7 +59,7 @@ Sie hegen zwar keinen Groll gegenüber fremden Dingen, doch versuchen sie stets 
 Hiante kennt lange Zeit also nur ein kleines, wohlvertrautes Umfeld, bis ihre Neugierde sie schließlich hinaus in die Welt treibt.
 
 ### Familiengründung
-Im Zirkelgebirge findet Hiante zuerst die [Kharrak-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
+Im Zirkelgebirge findet Hiante zuerst die [Kharrak-Mine](/content/Himmelskörper/Aridess/Kontinent/Unol/Gebirge_Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
 Dort beginnt sie 96 Zyklen vor der Ikusation eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Mine, und zeugt zweieinhalb Zyklen später ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md) welcher somit schließlich im 87.
 Zyklus vor der Ikusation auf die Welt kommt.
 Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum einen die Grundlagen der Metallurgie näher kennenlernt und zum anderen liebevoll ihren ersten Sohn großzieht.
@@ -67,14 +67,14 @@ Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum
 In Grishams Jugend erkundet sie schließlich die weiteren Minen des Zirkelgebirges und etabliert polyamore Beziehungen mit noch weiteren führenden Männern der Region.
 Sie reist fortan viel zwischen den Minen umher und wird dabei immer mal wieder von Grisham und später auch von ihren anderen Nachkommen begleitet.
 
-Hiantes zweiter Mann ist [Torval](../Torval-Krolpin), der Leiter der [Drakar-Mine](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Drakar-Mine/index.md), mit welchem sie ihre Zwillings-Töchter [Jell](../Jell-Krolpin) und [Liss](../Liss-Krolpin) zeugt.
+Hiantes zweiter Mann ist [Torval](../Torval-Krolpin), der Leiter der [Drakar-Mine](/content/Himmelskörper/Aridess/Kontinent/Unol/Gebirge_Zirkelgebirge/Drakar-Mine/index.md), mit welchem sie ihre Zwillings-Töchter [Jell](../Jell-Krolpin) und [Liss](../Liss-Krolpin) zeugt.
 In der Drakar-Mine wird hauptsächlich Kupfer abgebaut und zu Bronze (später auch Messing) verarbeitet.
 
 Auf Torval folgt [Fynrik](../Fynrik-Krolpin), der Leiter der Murgath-Stollen.
 Diese Stollen haben sich aus den ersten Edelstein- und Goldfunden in den Flussbetten der Gebirge gebildet, welche bei indigeneren Stämmen für die Herstellung von Schmuck sehr beliebt waren.
 Hier wird Hiantes dritte Tochter [Legartha](../Legartha-Krolpin) geboren.
 
-Im Zyklus -24 entsteht nahe Arides' Nordpol der Hauptsitz der Krolpin-Familie: [Dronak](/content/Himmelskoerper_/Aridess/Kontinent_/Unol/Gebirge_Zirkelgebirge/Dronak/index.md).
+Im Zyklus -24 entsteht nahe Arides' Nordpol der Hauptsitz der Krolpin-Familie: [Dronak](/content/Himmelskörper/Aridess/Kontinent/Unol/Gebirge_Zirkelgebirge/Dronak/index.md).
 Diese Residenz ensteht aus der Zusammenarbeit aller Männer von Hiante und soll fortan als Koordinierungszentrum für die immer komplexer werdenden Handelsbeziehungen dienen.
 In den nachfolgenden Zyklen zeugt Hiante mit ihren Männern noch drei weitere Söhne: [Jopun](../Jopun-Krolpin), [Flort](../Flort-Krolpin) und [Brill](../Brill-Krolpin), welche zu großen Teilen in Dronak aufwachsen und neben Hinate auch viel von Jell und Liss erzogen werden.
 
@@ -82,11 +82,11 @@ In den nachfolgenden Zyklen zeugt Hiante mit ihren Männern noch drei weitere S�
 Im Zyklus -15 initiiert Hiante die Planung einer Globalisierung von Aridess.
 Sie ist unzufrieden mit den ineffizienten Handelswegen der nördlichen Minen und versucht Veränderung auf den Weg zu bringen.
 Während ihre Männer der Überzeugung sind, dass alle ihnen zur Verfügung stehenden Mittel bereits voll ausschöpft werden, hat Hiante aufgrund ihres persönlichen Hintergrunds und ihres Ursprungs im Kriolen-Stamm den festen Glauben, dass ein engerer Außtausch mit Populationen außerhalb des Zirkel-Gebirges viele ihrer Probleme lösen könnte.
-Aus diesem Grund plant sie den [Zirkel-Wettstreit](/content/Ereignis_/Zirkel-Wettstreit/index.md) um ihrem Ziel einer Globalisierung näherzukommen.
+Aus diesem Grund plant sie den [Zirkel-Wettstreit](/content/Ereignis/Zirkel-Wettstreit/index.md) um ihrem Ziel einer Globalisierung näherzukommen.
 Eine der teilnehmenden Gruppen lässt Hiante von ihrem Sohn Grisham aufstellen, sie selbst nimmt jedoch den gesamten Wettstreit über eine neutrale Position als Ausrichterin ein.
 
 Nach dem Wettstreit veranlasst Hiante die Konstruktion von 11 weiteren Residenzen am Nordpol, eine für jeden Zirkel.
-Natürlich wird Dronrak als der Krolpin-Familiensitz die Residenz des [Erzphoriat-Zirkels](/content/Volk_/Varnops/Politik/Zirkel_/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
+Natürlich wird Dronrak als der Krolpin-Familiensitz die Residenz des [Erzphoriat-Zirkels](/content/Volk/Varnops/Politik/Zirkel/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
 
 ## Spätes Leben
 Zum Zeitpunkt ihres Todes im Zyklus 72 hat Hiante ihre Familie zu einer der einflussreichsten auf Aridess gemacht.
@@ -96,7 +96,7 @@ Ihre Nachkommen verwalten weiterhin die Minen und Handelsposten, die Hiante aufg
 
 ## Physische Fähigkeiten
 Hiante ist körperlich sehr robust, stark und besitzt eine große Ausdauer, was von ihrer Erziehung im Kriolen-Stamm herrührt.
-In ihrer Jugend hat sie gelernt [Sterosse](/content/Himmelskoerper_/Aridess/Fauna_/Sterros/index.md) zu reiten, eine Aktivität welcher sie noch bis ins hohe Alter gerne nachgeht.
+In ihrer Jugend hat sie gelernt [Sterosse](/content/Himmelskörper/Aridess/Fauna/Sterros/index.md) zu reiten, eine Aktivität welcher sie noch bis ins hohe Alter gerne nachgeht.
 Hiante ist jedoch weder ein gute Kämpferin noch eine Jägerin.
 Während ihrer Jugend im Kriolen-Stamm sträubt sie sich gegen alle Lehreinheiten die mit dem Erlegen eines Tiers oder dem Führen einer Waffe zu tun haben.
 All das vermisst sie auch nicht im entferntesten, als sie ihren Stamm schließlich verlässt.

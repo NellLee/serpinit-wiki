@@ -47,11 +47,11 @@
 				text: 'Start'
 			},
 			{
-				href: '/content/Himmelskoerper_/index.md',
+				href: '/content/Himmelskörper/index.md',
 				text: 'Himmelskörper'
 			},
 			{
-				href: '/content/Volk_/index.md',
+				href: '/content/Volk/index.md',
 				text: 'Völker'
 			},
 			{

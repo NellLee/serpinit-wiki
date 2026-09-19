@@ -7,7 +7,7 @@
 | **Name:** | Noor Esmae Watts |
 | **Rolle:** | Angehender Kopfgeldjäger |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Carpebur |
 | **Beruf:** | Auszubildender im "roten Ring", Carpebur |
 

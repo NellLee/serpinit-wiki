@@ -9,9 +9,9 @@ Dies ist nur deshalb möglich, weil die ursprünglichen Erbauer des Systems deut
 
 ## Rolle in der Ikusation
 
-Während der frühen [Ikusation](/content/Ereignis_/Ikusation.md) wurde Venoxi erstmals als giftiges Zwischenziel einer Portalroute erkannt.
-Ein von [Aridess](/content/Himmelskoerper_/Aridess/index.md) aus untersuchtes Portal führte auf eine öde, von grünlichem Nebel überzogene Fläche Venoxis.
-Von dort aus war in geringer Entfernung bereits ein weiteres Portal sichtbar, das nach [Navura](/content/Himmelskoerper_/Navura/index.md) weiterführte.
+Während der frühen [Ikusation](/content/Ereignis/Ikusation.md) wurde Venoxi erstmals als giftiges Zwischenziel einer Portalroute erkannt.
+Ein von [Aridess](/content/Himmelskörper/Aridess/index.md) aus untersuchtes Portal führte auf eine öde, von grünlichem Nebel überzogene Fläche Venoxis.
+Von dort aus war in geringer Entfernung bereits ein weiteres Portal sichtbar, das nach [Navura](/content/Himmelskörper/Navura/index.md) weiterführte.
 
 Gerade weil Venoxi selbst für die Expedition nicht sicher betretbar war, wurde der Planet zu einem der frühesten Beispiele dafür, dass ein Portalnetzwerk nicht nur nutzbare Wege, sondern auch tödliche Zwischenräume enthalten konnte.
-Diese Erkenntnis prägte sowohl die Sicherheitslogik der [Ikusation](/content/Ereignis_/Ikusation.md) als auch die spätere strategische Einschätzung [Navuras](/content/Himmelskoerper_/Navura/index.md), das zunächst nur als fernes Ziel hinter einem unbenutzbaren Zwischenraum sichtbar war.
+Diese Erkenntnis prägte sowohl die Sicherheitslogik der [Ikusation](/content/Ereignis/Ikusation.md) als auch die spätere strategische Einschätzung [Navuras](/content/Himmelskörper/Navura/index.md), das zunächst nur als fernes Ziel hinter einem unbenutzbaren Zwischenraum sichtbar war.

@@ -10,7 +10,7 @@
 | **Rolle:** | Alchemist |
 | **Alter:** | Teenager |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Conius-Lateral](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Conius-Lateral](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Resrubor-Akademie |
 | **Beruf:** | Schüler und Nachwuchsforscher an der Resrubor-Akademie |
 
@@ -45,10 +45,10 @@ Schon in jungen Jahren zeigte Draven eine bemerkenswerte Begabung für die Alche
 ### Wichtige Ereignisse
 Draven begann sein Studium in Runenmagie, wandte sich aber schnell der Alchemie zu, sehr zum Missfallen seines Vaters.
 Draven entwickelte einen besonders wirksamen Heiltrank, der ihm Anerkennung unter den wenigen alchemieaffinen Professoren einbrachte.
-Auf Drängen seines Vaters wurde Draven in eine geheime Expedition (die [Ikusations-Expedition](/content/Ereignis_/Ikusation.md)) unter der Leitung von Vorian Sierfehl aufgenommen, in der Hoffnung, dass er die Bedeutung der Runenmagie erkennt.
+Auf Drängen seines Vaters wurde Draven in eine geheime Expedition (die [Ikusations-Expedition](/content/Ereignis/Ikusation.md)) unter der Leitung von Vorian Sierfehl aufgenommen, in der Hoffnung, dass er die Bedeutung der Runenmagie erkennt.
 
 ### Aktuelle Situation
-Draven soll sich während der [Ikusation](/content/Ereignis_/Ikusation.md) an [Kwint Gurdun](/content/Volk_/Lateralen_/Conius/Charakter_/Kwint-Gurdun/index.md) halten und möglichst viel über die Runenmagie lernen.
+Draven soll sich während der [Ikusation](/content/Ereignis/Ikusation.md) an [Kwint Gurdun](/content/Volk/Lateralen/Conius/Charakter/Kwint-Gurdun/index.md) halten und möglichst viel über die Runenmagie lernen.
 Obwohl ihm dies missfällt, möchte er seinen Vater nicht wieder enttäuschen.
 Trotzdem versucht er die Expedition auch zu seinen Gunsten zu nutzen und sammelt unterwegs heimlich Kräuter, tierische Stoffe und andere Zutaten, die er für alchemistische Zwecke gebrauchen könnte.
 Gerade auf Aridess schärft die Expedition sein Verständnis dafür, dass Alchemie und Runenforschung nicht als getrennte Welten behandelt werden können.

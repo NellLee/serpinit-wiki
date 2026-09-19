@@ -17,10 +17,10 @@ Die Angriffe sind blitzschnell und können tief in Haut oder Fell eindringen, wo
 
 ## Verbreitung und Lebensraum
 
-Die meisten Shwin-Kakteen sind in den trockenen und felsigen Regionen von [Aridess](/content/Himmelskoerper_/Aridess/index.md) anzutreffen.
+Die meisten Shwin-Kakteen sind in den trockenen und felsigen Regionen von [Aridess](/content/Himmelskörper/Aridess/index.md) anzutreffen.
 Die Pflanze bevorzugt windgeschützte Lebensräume in Felsspalten, Höhleneingängen und ähnlichen Nischen, wo ihre Fäden nicht zu schnell zerreißen oder verwehen.
 
-Diese Abwehrstrategie gilt als evolutionäre Antwort auf Fressfeinde wie den [Lurper](/content/Himmelskoerper_/Aridess/Fauna_/Lurper/index.md), der den hohen Wassergehalt vieler Wüstenpflanzen ausnutzt.
+Diese Abwehrstrategie gilt als evolutionäre Antwort auf Fressfeinde wie den [Lurper](/content/Himmelskörper/Aridess/Fauna/Lurper/index.md), der den hohen Wassergehalt vieler Wüstenpflanzen ausnutzt.
 
 ## Nutzung und Gefahren
 
@@ -29,5 +29,5 @@ Niedrig dosiert soll sein Gift gegen Arthritis helfen, doch lohnt sich der Aufwa
 
 ## Historische Einordnung
 
-In den frühen Berichten der [Ikusation](/content/Ereignis_/Ikusation.md) wird der Shwin-Kaktus mehrfach als Grund genannt, warum verlassene Minen und schattige Felsspalten auf Aridess keineswegs automatisch sichere Zufluchtsorte darstellen.
+In den frühen Berichten der [Ikusation](/content/Ereignis/Ikusation.md) wird der Shwin-Kaktus mehrfach als Grund genannt, warum verlassene Minen und schattige Felsspalten auf Aridess keineswegs automatisch sichere Zufluchtsorte darstellen.
 Gerade erschöpfte Reisende unterschätzen häufig die Reichweite und Reaktionsgeschwindigkeit seiner Fäden.

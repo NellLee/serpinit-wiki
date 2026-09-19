@@ -1,7 +1,7 @@
 # Therapie der Conius
 
 Als Therapie der Conius werden jene Verfahren bezeichnet, mit denen junge Laterale vor der späteren Abspaltung eines Micu gezielt behandelt werden, um die angeborene geistige Spaltung zu schließen oder zumindest so weit zu stabilisieren, dass keine eigenständige zweite Gestalt mehr heranwächst.
-Für die [Conius-Lateralen](/content/Volk_/Lateralen_/Conius/index.md) bildet diese Therapie den Ursprung ihrer gesamten kulturellen Identität.
+Für die [Conius-Lateralen](/content/Volk/Lateralen/Conius/index.md) bildet diese Therapie den Ursprung ihrer gesamten kulturellen Identität.
 
 ## Ausgangspunkt
 
@@ -22,7 +22,7 @@ Die frühen Conius erreichten ihre ersten Fortschritte durch radikale Selbstvers
 Später entstanden daraus geordnetere Verfahren, die Beobachtung, Gespräch, mentale Disziplin, kontrollierte Magieeinwirkung und theoretische Schulung verbinden.
 Entscheidend ist dabei nicht nur das Unterdrücken unerwünschter Impulse, sondern die bewusste Integration eines bereits gespaltenen Innenlebens, bevor dieses eine äußere Eigenform gewinnt.
 
-Die [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) wurde zum wichtigsten Zentrum dieser Praxis, weil dort therapeutische Erfahrung und magietheoretische Analyse erstmals dauerhaft zusammengeführt wurden.
+Die [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/index.md) wurde zum wichtigsten Zentrum dieser Praxis, weil dort therapeutische Erfahrung und magietheoretische Analyse erstmals dauerhaft zusammengeführt wurden.
 
 ## Gesellschaftlicher Konflikt
 
@@ -32,6 +32,6 @@ Gerade deshalb markiert die Therapie der Conius nicht nur eine medizinisch-magis
 
 ## Folgen
 
-Wer erfolgreich therapiert wird, kann später keine [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) mehr durchlaufen, weil keine abgespaltene zweite Gestalt mehr vorhanden ist.
+Wer erfolgreich therapiert wird, kann später keine [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) mehr durchlaufen, weil keine abgespaltene zweite Gestalt mehr vorhanden ist.
 Dafür gewinnen Conius im Allgemeinen größere geistige Geschlossenheit und eine schärfere magitive Wahrnehmung.
 Diese Verschiebung der inneren Kräfte war eine der wichtigsten Voraussetzungen dafür, dass die Conius zu den präzisesten Magietheoretikern der modernen Völker wurden.

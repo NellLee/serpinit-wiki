@@ -20,7 +20,7 @@ Die Pflanze sondert dann Verdauungsenzyme ab, die das gefangene Tier zersetzen u
 ## Lebensraum
 Die Vorolae bevorzugt trockene, schattige Umgebungen.
 Je trockener, desto effektiver ist ihre Jagdmethode, doch vermeidet sie es ihre Frucht in der prallen Sonne auszufahren, damit diese nicht austrocknet.
-Man findet Vorolaen häufig in den vielen trockenen Felsspalten und Savannen von [](/content/Himmelskoerper_/Aridess/index.md).
+Man findet Vorolaen häufig in den vielen trockenen Felsspalten und Savannen von [](/content/Himmelskörper/Aridess/index.md).
 
 ## Nutzung
 In den Kulturen der Varnops wird die Vorolae wegen ihrer Wasserfrucht geschätzt.

@@ -3,8 +3,8 @@
 
 # Allgemein
 
-Die **Zirkel** der Varnops sind spezialisierte, organisatorische Einheiten, die durch den historischen [Zirkel-Wettstreit](/content/Ereignis_/Zirkel-Wettstreit/index.md) ins Leben gerufen wurden.
-Jeder Zirkel ist verantwortlich für die Weiterentwicklung, Implementierung und den Erhalt einer bestimmten Erfindung, die im Zuge des Wettstreits als von fundamentaler Bedeutung für die [Globalisierung von Aridess](/content/Ereignis_/Globalisierung-Aridess.md) erachtet wurde.
+Die **Zirkel** der Varnops sind spezialisierte, organisatorische Einheiten, die durch den historischen [Zirkel-Wettstreit](/content/Ereignis/Zirkel-Wettstreit/index.md) ins Leben gerufen wurden.
+Jeder Zirkel ist verantwortlich für die Weiterentwicklung, Implementierung und den Erhalt einer bestimmten Erfindung, die im Zuge des Wettstreits als von fundamentaler Bedeutung für die [Globalisierung von Aridess](/content/Ereignis/Globalisierung-Aridess.md) erachtet wurde.
 
 ## Die 12 Zirkel
 

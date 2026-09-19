@@ -17,14 +17,14 @@ function readAppFile(relativePath: string): string {
 const documents = [
 	{
 		title: 'Himmelskörper',
-		href: '/content/Himmelskoerper_/index.md',
+		href: '/content/Himmelskörper/index.md',
 		categories: ['Orte'],
 		contentText: 'Das Planetensystem umfasst neun Himmelskörper.',
 		contentHtml: '<p>Das Planetensystem umfasst neun Himmelskörper.</p>'
 	},
 	{
 		title: 'Völker',
-		href: '/content/Volk_/index.md',
+		href: '/content/Volk/index.md',
 		categories: ['Kulturen'],
 		contentText: 'Die Völker des Systems besitzen vielfältige Geschichte.',
 		contentHtml: '<p>Die Völker des Systems besitzen vielfältige Geschichte.</p>'

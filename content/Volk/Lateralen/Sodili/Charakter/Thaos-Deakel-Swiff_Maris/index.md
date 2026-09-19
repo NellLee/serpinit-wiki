@@ -7,7 +7,7 @@
 | **Name:** | Thaos Deakel Swiff |
 | **Rolle:** | Steuermann und Navigator |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Beruf:** | Steuermann und Navigator auf hoher See |
 
 * **Stärken**: Meisterhafte Navigation auf hoher See, kennt die Gewässer wie seine Westentasche, kann selbst die schwierigsten Kurse sicher durchführen. Thaos bleibt ruhig und besonnen, auch in den stürmischsten Momenten.

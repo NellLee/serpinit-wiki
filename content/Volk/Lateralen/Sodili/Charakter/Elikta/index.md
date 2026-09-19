@@ -7,11 +7,11 @@
 | **Name:** | Elikta |
 | **Rolle:** | Königin der Vorenkai (seit der Ikusation) |
 | **Geschlecht:** | Weiblich |
-| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/Sodili/index.md) |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk/Lateralen/Sodili/index.md) |
 | **Heimat:** | Navura (seit der Ikusation) |
 | **Beruf:** | Vermittlerin zwischen Sodili und Vorenkai |
 
-Elikta ist eine [Sodili-Laterale](/content/Volk_/Lateralen_/Sodili/index.md), die im späteren Verlauf der [Ikusation](/content/Ereignis_/Ikusation.md) nach [Navura](/content/Himmelskoerper_/Navura/index.md) gelangte und dort zu einer Schlüsselfigur der späten [Navura-Kriege](/content/Ereignis_/Krieg-um-Navura.md) wurde.
+Elikta ist eine [Sodili-Laterale](/content/Volk/Lateralen/Sodili/index.md), die im späteren Verlauf der [Ikusation](/content/Ereignis/Ikusation.md) nach [Navura](/content/Himmelskörper/Navura/index.md) gelangte und dort zu einer Schlüsselfigur der späten [Navura-Kriege](/content/Ereignis/Krieg-um-Navura.md) wurde.
 
 ## Rolle in der Ikusation
 
@@ -41,7 +41,7 @@ Während jüngere oder kriegsmüde Gruppen ihr trotz der Täuschung weiter vertr
 ## Bedeutung
 
 Elikta steht damit an einem Übergang:
-zwischen Ikusation und Navura, zwischen Vermittlung und Herrschaft, zwischen äußerem Krieg und innerer [Polarisierung der Vorenkai](/content/Ereignis_/Polarisierung-der-Vorenkai.md).
+zwischen Ikusation und Navura, zwischen Vermittlung und Herrschaft, zwischen äußerem Krieg und innerer [Polarisierung der Vorenkai](/content/Ereignis/Polarisierung-der-Vorenkai.md).
 Sie ist weniger als klassische Eroberin oder Feldherrin bedeutsam, sondern als jene Figur, an der sichtbar wurde, dass der Navura-Konflikt nicht mehr allein militärisch zu beantworten war.
 
 ## Offene Konturen

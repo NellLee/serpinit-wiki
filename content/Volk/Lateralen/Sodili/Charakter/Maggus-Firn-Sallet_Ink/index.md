@@ -7,7 +7,7 @@
 | **Name:** | Maggus Firn Sallet |
 | **Rolle:** | Schiffskoch |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Beruf:** | Koch auf hoher See |
 
 * **Stärken**: Talent für die Zubereitung von köstlichen Mahlzeiten auf hoher See, seine Kreationen sind legendär und tragen dazu bei, den moralischen der Mannschaft hoch zu halten.

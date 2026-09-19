@@ -8,7 +8,7 @@
 | **Rolle:** | Verbannter Krieger |
 | **Alter:** | Etwa 45 Jahre |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) (Vikinger-Sodili) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) (Vikinger-Sodili) |
 | **Heimat:** | Verbannt aus der Heimat der Vikinger-Sodili |
 | **Beruf:** | Ehemaliger Beschützer des Vikinger-Königs |
 

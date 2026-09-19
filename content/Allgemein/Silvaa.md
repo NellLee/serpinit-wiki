@@ -1,7 +1,7 @@
 # Silvaa
 
 Silvaa ist der erdelementare Aspekt des in vier Teile gespaltenen Drachengottes Creapatos.
-Sie ruht im Kern von [Navura](/content/Himmelskoerper_/Navura/index.md) und verkörpert unter den Elementardrachen die Güte.
+Sie ruht im Kern von [Navura](/content/Himmelskörper/Navura/index.md) und verkörpert unter den Elementardrachen die Güte.
 
 ## Planetare Prägung
 
@@ -16,12 +16,12 @@ Auch kulturell wirkt sie dadurch eher als stilles Fundament denn als dramatische
 
 Viele Eigenheiten Navuras werden mittelbar auf Silvaa zurückgeführt:
 die starke Flora, die ungewöhnliche Fruchtbarkeit des Planeten und der regelmäßig wahrnehmbare Herzschlag seiner Magie.
-Selbst der [Kristallmond von Navura](/content/Himmelskoerper_/Navura/Kristallmond.md) gewinnt einen Teil seiner kulturellen Bedeutung erst dadurch, dass er diesen sonst eher gefühlten Rhythmus sichtbar macht.
+Selbst der [Kristallmond von Navura](/content/Himmelskörper/Navura/Kristallmond.md) gewinnt einen Teil seiner kulturellen Bedeutung erst dadurch, dass er diesen sonst eher gefühlten Rhythmus sichtbar macht.
 
 Für mehrere Völker Navuras ist Silvaa daher weniger bloß ein theologischer Name als eine im Alltag erfahrbare planetare Gegenwart.
 
 ## Umkämpfte Deutung
 
 Gerade weil Silvaa mit Navura verbunden wird, spielt ihr Name auch in politischen und religiösen Fehlansprüchen eine Rolle.
-Teile der [Vorenkai](/content/Volk_/Vorenkai/index.md) leiteten aus ihr einen vermeintlich rechtmäßigen Anspruch auf Navura ab.
+Teile der [Vorenkai](/content/Volk/Vorenkai/index.md) leiteten aus ihr einen vermeintlich rechtmäßigen Anspruch auf Navura ab.
 Im Bestand erscheint dies jedoch als ideologische Umdeutung, nicht als belastbare Bestätigung durch Silvaa selbst.

@@ -1,7 +1,7 @@
 # Mavorak-Zyklus
 
 Der Mavorak-Zyklus ist die am weitesten verbreitete größere historische Zeiteinheit des Serpinit-Systems.
-Er basiert auf einer Umdrehung des Neutronensterns [Mavorak](/content/Himmelskoerper_/Mavorak/index.md) und des Sterns [Ikus](/content/Himmelskoerper_/Ikus/index.md) um ihr gemeinsames Baryzentrum.
+Er basiert auf einer Umdrehung des Neutronensterns [Mavorak](/content/Himmelskörper/Mavorak/index.md) und des Sterns [Ikus](/content/Himmelskörper/Ikus/index.md) um ihr gemeinsames Baryzentrum.
 Ein solcher Umlauf dauert etwa 52 Erd-Tage.
 
 ## Wahrnehmung
@@ -21,7 +21,7 @@ Wo einzelne Völker ihre eigenen Kalender und Unterteilungen beibehielten, dient
 ## Wissenschaftliche Präzisierung
 
 Die exakte Umlaufzeit lässt sich astronomisch berechnen und wurde im Verlauf der Geschichte zunehmend feiner bestimmt.
-Gerade in der [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) gewannen solche Korrekturen an Bedeutung, weil dort Zeitmessung nicht nur rituell oder traditionell, sondern als Frage exakter Vergleichbarkeit behandelt wurde.
+Gerade in der [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/index.md) gewannen solche Korrekturen an Bedeutung, weil dort Zeitmessung nicht nur rituell oder traditionell, sondern als Frage exakter Vergleichbarkeit behandelt wurde.
 
 ## Verhältnis zu kleineren Einheiten
 

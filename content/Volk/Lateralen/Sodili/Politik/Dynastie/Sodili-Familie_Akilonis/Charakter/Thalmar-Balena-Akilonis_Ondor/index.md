@@ -7,12 +7,12 @@
 | **Name:** | Thalmar Balena Akilonis |
 | **Rolle:** | König der Sodili |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Kapis-Schloss, Carpebur |
 | **Beruf:** | Herrscher von Carpebur, spiritueller Führer der Sodili |
 
 # Herkunft
-Thalmar Balena Akilonis entstammt der angesehenen [Dynastie Akilonis](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/index.md), die seit Generationen über die Sodili herrscht.
+Thalmar Balena Akilonis entstammt der angesehenen [Dynastie Akilonis](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/index.md), die seit Generationen über die Sodili herrscht.
 Geboren als Erbe der Krone, wurde er in Carpebur, der Hauptstadt des Sodili-Reiches, geboren und wuchs im prächtigen Kapis-Schloss auf.
 Seine Familie ist bekannt für ihre enge Bindung zu wasserbasierten Micus, die eine zentrale Rolle in ihrem Leben und ihrer Kultur spielen.
 
@@ -36,5 +36,5 @@ Seine Entscheidungen prägen die Geschicke des Reiches und beeinflussen das Lebe
 Darüber hinaus ist er auch auf internationaler Ebene ein angesehener und respektierter Staatsmann, der sich für Frieden, Zusammenarbeit und gegenseitiges Verständnis einsetzt.
 
 # Familie
-Thalmar hat zwei Kinder, Prinzessin [Alyra](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/Charakter_/Prinzessin-Alyra/index.md) mit ihrer Schildkröten-Micu Tira und Prinz [Harvik](/content/Volk_/Lateralen_/Sodili/Politik/Dynastie_/Sodili-Familie_Akilonis/Charakter_/Prinz-Harvik/index.md) mit seinem Hai-Micu Varun.
+Thalmar hat zwei Kinder, Prinzessin [Alyra](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Prinzessin-Alyra/index.md) mit ihrer Schildkröten-Micu Tira und Prinz [Harvik](/content/Volk/Lateralen/Sodili/Politik/Dynastie/Sodili-Familie_Akilonis/Charakter/Prinz-Harvik/index.md) mit seinem Hai-Micu Varun.
 Beide erscheinen regelmäßig an seiner Seite am Hof.

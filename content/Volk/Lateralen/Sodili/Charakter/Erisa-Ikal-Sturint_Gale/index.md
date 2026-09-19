@@ -7,7 +7,7 @@
 | **Name:** | Erisa Ikal Sturint |
 | **Rolle:** | Kapitänin |
 | **Geschlecht:** | Weiblich |
-| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Laterale](/content/Volk/Lateralen/index.md) |
 | **Beruf:** | Kapitänin eines Handelsschiffs |
 
 * **Beschreibung**: Erisa ist eine erfahrene und respektierte Kapitänin, bekannt für ihre ruhige Hand und ihre unerschütterliche Entschlossenheit. Sie hat die sieben Meere bereist und zahlreiche Abenteuer erlebt. Ihr Ziel ist es, die Crew sicher durch jede Gefahr zu führen und das Schiff erfolgreich zu steuern. Ihre charakteristische Merkmale sind ihre stets präsente Gelassenheit und ihre Fähigkeit, auch in den stürmischsten Zeiten klare Entscheidungen zu treffen.

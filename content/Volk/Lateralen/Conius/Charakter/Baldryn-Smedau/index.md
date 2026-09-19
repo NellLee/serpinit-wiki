@@ -8,7 +8,7 @@
 | **Rolle:** | Meister der Artefakte |
 | **Alter:** | Verstorben im hohen Alter |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Conius-Gemeinschaft (Herkunft) |
 | **Beruf:** | Unabhängiger Erfinder und Artefaktschöpfer |
 

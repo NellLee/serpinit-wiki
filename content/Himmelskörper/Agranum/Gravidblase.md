@@ -1,6 +1,6 @@
 # Die Gravidblase von Agranum
 
-Die Gravidblase ist die gewaltige, magisch verdichtete Gasschicht, die seit der [Impuls-Eruption](/content/Ereignis_/Impuls-Eruption.md) die Kontinentalplatten von [Agranum](/content/Himmelskoerper_/Agranum/index.md) trägt.
+Die Gravidblase ist die gewaltige, magisch verdichtete Gasschicht, die seit der [Impuls-Eruption](/content/Ereignis/Impuls-Eruption.md) die Kontinentalplatten von [Agranum](/content/Himmelskörper/Agranum/index.md) trägt.
 Sie ist eines der ungewöhnlichsten planetaren Phänomene des Serpinit-Systems und prägt Geografie, Klima und Lebensweise Agranums bis in die Gegenwart.
 
 ## Entstehung

@@ -8,11 +8,11 @@
 | **Rolle:** | Schüler und Bote |
 | **Alter:** | Jugendlich |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Conius](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Conius](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Resrubor-Akademie |
 | **Beruf:** | Schüler und vertraulicher Bote der Resrubor-Akademie |
 
-Widim Mandijit ist ein junger Conius und der Neffe von [Ingvor Nemet Mandijit](/content/Volk_/Lateralen_/Conius/Charakter_/Ingvor-Nemet-Mandijit/index.md).
+Widim Mandijit ist ein junger Conius und der Neffe von [Ingvor Nemet Mandijit](/content/Volk/Lateralen/Conius/Charakter/Ingvor-Nemet-Mandijit/index.md).
 Als begabter Schüler der Resrubor-Akademie wurde er früh mit vertraulichen Botengängen betraut, da man ihm Disziplin, Verschwiegenheit und ernsthafte Wissbegier zuschrieb.
 
 ## Persönlichkeit
@@ -23,12 +23,12 @@ Sein starkes Pflichtgefühl hängt auch mit dem Wunsch zusammen, dem Namen seine
 
 ## Rolle vor der Ikusation
 
-Noch vor Beginn der [Ikusation](/content/Ereignis_/Ikusation.md) wurde Widim von der Leitung der Resrubor-Akademie zu Ingvor geschickt.
+Noch vor Beginn der [Ikusation](/content/Ereignis/Ikusation.md) wurde Widim von der Leitung der Resrubor-Akademie zu Ingvor geschickt.
 Er sollte eine streng vertrauliche Nachricht über den bevorstehenden Durchbruch in der Portal-Forschung überbringen und Ingvor in den engeren Kreis der geheimen Vorbereitungen einbinden.
 
 ## Der Kulios-Zwischenfall
 
-Während des [Kulios-Zwischenfalls](/content/Ereignis_/Kulios-Zwischenfall.md) geriet Widim selbst in die Wirkung der instabilen Rune seines Onkels.
+Während des [Kulios-Zwischenfalls](/content/Ereignis/Kulios-Zwischenfall.md) geriet Widim selbst in die Wirkung der instabilen Rune seines Onkels.
 In einem Akt panischer Selbstaufopferung brachte er sich näher an die Quelle der magischen Entladung und wurde dadurch beinahe vollständig ausgesaugt.
 Nur die kontrollierte Abschaltung der Rune rettete ihm das Leben.
 

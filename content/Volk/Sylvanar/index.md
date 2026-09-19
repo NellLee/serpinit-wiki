@@ -65,7 +65,7 @@ Der einzige Grund weshalb sie in der Hierarchie ganz unten stehen ist der, dass 
 Zwischen den Stämmen herrschen teilweise sehr komplizierte Beziehungen die auf jahrelangen Rivalitäten und Bündnissen aufbauen.
 Dies und der natürliche Kampfgeist der Sylvanars führten dazu, dass es bereits unzählige Sylvanar-Kriege in der Geschichte von Navura gab.
 
-Nach den komplizierten anfänglichen Kontakten durch die [Ikusation](/content/Ereignis_/Ikusation.md) begegneten Sylvanars den Angehörigen anderer Völker meist mit einer gewissen Gleichgültigkeit.
+Nach den komplizierten anfänglichen Kontakten durch die [Ikusation](/content/Ereignis/Ikusation.md) begegneten Sylvanars den Angehörigen anderer Völker meist mit einer gewissen Gleichgültigkeit.
 Das unerlaubte Eindringen in ihre Territorien wird aber von keinem Sylvanar toleriert.
 Solche Eindringlinge werden ohne Fragen mit dem Tod bestraft.
 Auch wer der Natur nicht genügend Respekt entgegenbringt zieht den Zorn der Sylvanars auf sich.
@@ -73,7 +73,7 @@ Verhandlungen mit diesem Volk finden daher auf dafür vorgesehenen rituellen Pl�
 
 Das einzige Volk welches die Sylvanars ohne Einschränkung innerhalb ihrer Grenzen akzeptieren ist das der Spirits.
 Die Sylvanars zollen ihnen großen Respekt und sehen ihre Gesellschaft als Ehre.
-Dieser Respekt geht auch auf ihre Rolle im [Krieg um Navura](/content/Ereignis_/Krieg-um-Navura.md) zurück, in dem sich mehrere Spirits den Sylvanars anschlossen.
+Dieser Respekt geht auch auf ihre Rolle im [Krieg um Navura](/content/Ereignis/Krieg-um-Navura.md) zurück, in dem sich mehrere Spirits den Sylvanars anschlossen.
 
 # Aussehen
 
@@ -127,7 +127,7 @@ Die Mitglieder der Ältestenräte schmücken sich wiederum mit Farngewächsen.
 
 # Theologie
 
-Die Sylvanars verehren das [Collektivora](/content/Volk_/Sylvanar/Collektivora.md).
+Die Sylvanars verehren das [Collektivora](/content/Volk/Sylvanar/Collektivora.md).
 Diese Macht lässt sich in ihrer eigenen Lehre als das magische Potential aller lebendigen Energie in einem bestimmten Umkreis beschreiben, ob von Flora oder Fauna.
 
 Die Religion der Sylvanars bezieht lange Zeit keine klare Stellung zu dem weit verbreiteten Glauben, dass im Inneren der Planeten die Elementardrachen leben.
@@ -190,11 +190,11 @@ Da das Kind allein und noch nicht Teil eines Kollektivs wirkt, entsteht dabei ke
 
 Zugleich zieht das Kind während dieser Zeit einen Sprössling jener Pflanze groß, die seiner angestrebten zukünftigen Rolle im Stamm entspricht.
 Die Schwierigkeit, einen solchen Sprössling gedeihen zu lassen, steigt mit dem Ansehen und den magischen Anforderungen der jeweiligen Rolle.
-Wer sich für die Rolle des Heilers entscheidet, zieht beispielsweise eine [Sangurel](/content/Himmelskoerper_/Navura/Flora_/Sangurel/index.md) groß und muss dabei schon früh lernen, mit ihrer Gefährlichkeit präzise und behutsam umzugehen.
-Wer die anspruchsvollere Rolle des Hüters anstrebt, zieht stattdessen eine [Pulmira](/content/Himmelskoerper_/Navura/Flora_/Pulmira/index.md) groß, die nur bei anhaltender Ruhe und Disziplin gedeiht.
-Angehende Krieger ziehen einen [Krallith](/content/Himmelskoerper_/Navura/Flora_/Krallith/index.md) groß, dessen schmerzhafte Rückschläge Schmerztoleranz und Durchsetzungskraft verlangen.
-Wer sich für die Rolle des Läufers entscheidet, verbringt den Cre'Athem stattdessen mit der Suche nach einer reifenden [Faelune](/content/Himmelskoerper_/Navura/Flora_/Faelune/index.md) und muss sie rechtzeitig vor dem [Chitrel](/content/Himmelskoerper_/Navura/Fauna_/Chitrel/index.md)-Schwarm im richtigen Reifezustand ernten.
-Angehende Handwerker erproben an den nahegelegenen Beständen des [Ilmerak](/content/Himmelskoerper_/Navura/Flora_/Ilmerak/index.md) verschiedenste Techniken, bevor sie gegen Ende des Cre'Athem einen eigenen Sprössling für ihr Gesellenstück pflanzen.
+Wer sich für die Rolle des Heilers entscheidet, zieht beispielsweise eine [Sangurel](/content/Himmelskörper/Navura/Flora/Sangurel/index.md) groß und muss dabei schon früh lernen, mit ihrer Gefährlichkeit präzise und behutsam umzugehen.
+Wer die anspruchsvollere Rolle des Hüters anstrebt, zieht stattdessen eine [Pulmira](/content/Himmelskörper/Navura/Flora/Pulmira/index.md) groß, die nur bei anhaltender Ruhe und Disziplin gedeiht.
+Angehende Krieger ziehen einen [Krallith](/content/Himmelskörper/Navura/Flora/Krallith/index.md) groß, dessen schmerzhafte Rückschläge Schmerztoleranz und Durchsetzungskraft verlangen.
+Wer sich für die Rolle des Läufers entscheidet, verbringt den Cre'Athem stattdessen mit der Suche nach einer reifenden [Faelune](/content/Himmelskörper/Navura/Flora/Faelune/index.md) und muss sie rechtzeitig vor dem [Chitrel](/content/Himmelskörper/Navura/Fauna/Chitrel/index.md)-Schwarm im richtigen Reifezustand ernten.
+Angehende Handwerker erproben an den nahegelegenen Beständen des [Ilmerak](/content/Himmelskörper/Navura/Flora/Ilmerak/index.md) verschiedenste Techniken, bevor sie gegen Ende des Cre'Athem einen eigenen Sprössling für ihr Gesellenstück pflanzen.
 
 ### Indux-Zeremonie
 

@@ -1,7 +1,7 @@
 <!-- folder-tag -->
 # Die Lateralen
 
-Die Lateralen sind das intelligente Volk des Planeten [Agranum](/content/Himmelskoerper_/Agranum/index.md).
+Die Lateralen sind das intelligente Volk des Planeten [Agranum](/content/Himmelskörper/Agranum/index.md).
 Der außergewöhnlichen Geschichte dieses Planeten entsprechend, verzeichnet das Volk der Lateralen im Vergleich zu den anderen Völkern des Serpinit-Systems eine einzigartige Entwicklung.
 
 Im Allgemeinen wird bei Lateralen zwischen [Sodili](./Sodili/index.md) und [Conius](./Conius/index.md) unterschieden.
@@ -10,16 +10,16 @@ Im Allgemeinen wird bei Lateralen zwischen [Sodili](./Sodili/index.md) und [Coni
 
 ## Entstehung des *homo primian fractus*
 
-Schon früh experimentieren die [Sgrisignier](/content/Volk_/Sgrisignier/index.md) zu ihrer persönlichen Belustigung auf magische Weise mit den *homo primian* auf Agranum.
+Schon früh experimentieren die [Sgrisignier](/content/Volk/Sgrisignier/index.md) zu ihrer persönlichen Belustigung auf magische Weise mit den *homo primian* auf Agranum.
 Sie erschaffen dafür kleine Runensteine, welche bei Berührung den Betroffenen temporär in ein vordefiniertes Tier verwandeln.
 Zuerst sind die Affenartigen mit dem Kontakt zur Magie überfordert, doch nach einiger Zeit fangen sie an den Effekt der Runensteine zu verstehen und sie schließlich für die Jagd zu nutzen.
-Als die Sgrisignier schließlich von [Aerion](/content/Allgemein/Aerion.md) im Zuge der [Impuls-Eruption](/content/Ereignis_/Impuls-Eruption.md) vernichtet werden, richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in ihrer Genetik hinterlassen.
+Als die Sgrisignier schließlich von [Aerion](/content/Allgemein/Aerion.md) im Zuge der [Impuls-Eruption](/content/Ereignis/Impuls-Eruption.md) vernichtet werden, richtet sich dieser Angriff kollateral auch gegen die unschuldigen *homo primian* von Agranum, denn die Magie der Sgrisignier hat direkte Spuren in ihrer Genetik hinterlassen.
 Zwar werden sie durch die Magie Aerions nicht vernichtet, doch der magische Impuls hat zur Folge, dass alle gegenwärtigen und künftig gezeugten *homo primian* eine Spaltung ihres Geistes durchmachen müssen, weshalb sie seit diesem Ereignis auch als *homo primian fractus* bezeichnet werden.
 Das ihnen fortan angeborene psychische Trauma führt im Allgemeinen noch vor der Geburt zur Bildung einer zweiten inneren Persönlichkeit.
 Der Grund dafür liegt nicht allein in einer psychischen Beschädigung.
 Vielmehr wurde durch Aerions Impuls bei den Nachfahren der betroffenen *homo primian* eine kleine, aber folgenreiche Fehlstelle im Gehirn hinterlassen, an welcher durchgehend magische Potenz aus dem Wymen in die natürlichen Denkvorgänge einwirkt.
 Diese stetige Fehlkopplung verstärkt die angeborene Zweiteilung des Geistes immer weiter.
-Der zusammenhängende Bruch wird im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis_/Psychische-Verstuemmelung-der-Lateralen.md) gebündelt.
+Der zusammenhängende Bruch wird im Artikel [Psychische Verstümmelung der Lateralen](/content/Ereignis/Psychische-Verstuemmelung-der-Lateralen.md) gebündelt.
 Hinzu kommt, dass der Bruch des Planeten Agranum nicht nur ein Massenaussterben nach sich zieht, welches die meisten Lebewesen auf Agranum umbringt, sondern für die übrigen Lebewesen einen komplett neuen Lebensraum schafft, an den diese sich anpassen müssen.
 
 ## Evolution der Sodili-Lateralen
@@ -35,7 +35,7 @@ Sie ist der Moment, in dem der stetige magische Zufluss im Geist des Betroffenen
 Die Lateralen werden ab diesem Evolutionsschritt als **Sodili-Laterale** bezeichnet, während die Verkörperung der zweiten Persönlichkeit **Micu** genannt wird.
 Der Körper aller Micu ist dabei ausschließlich von entsprechender, tierischer Natur.
 Die Geister der beiden Lebewesen sind auch nach der Abspaltung weiterhin untrennbar miteinander verbunden, da sie nach wie vor zwei Persönlichkeiten desselben Wesens darstellen.
-Außerdem ist jedem Sodili eine [Hybridisierung](/content/Volk_/Lateralen_/Hybridisierung.md) mit seiner manifestierten, zweiten Persönlichkeit möglich.
+Außerdem ist jedem Sodili eine [Hybridisierung](/content/Volk/Lateralen/Hybridisierung.md) mit seiner manifestierten, zweiten Persönlichkeit möglich.
 Diese Form der Hybridisierung führt zu einer ungeahnten Vielfalt, wodurch die Sodili-Lateralen schließlich auch nach der Impuls-Eruption wieder ganz Agranum besiedeln können.
 
 ## Abspaltung der Conius
@@ -51,13 +51,13 @@ Die Therapie der Conius zielt dabei letztendlich darauf ab, die betroffene Fehls
 So erreichen die Conius-Lateralen eine Ausprägung der magitiven Wahrnehmung, welche es ihnen ermöglicht nicht nur die magische Potenz ihrer Umgebung, sondern auch Sgrisignier-Runen und andere magische Phänomene zu erfühlen.
 Damit verstehen sie die Magie des Serpinit-Systems besser als jedes andere moderne Volk und können fortan auf äußerst wissenschaftliche Art und Weise weitere Erkenntnisse gewinnen.
 Besonders bedeutend ist dabei die Erkenntnis über die Dreidimensionalität der Sgrisignier-Runen.
-Das Wissen der Conius findet insbesondere nach der [Ikusation](/content/Ereignis_/Ikusation.md) Einzug in die magischen Theorien der meisten intelligenten Völker, da eine wissenschaftliche Korrektheit im Grunde nicht anzuzweifeln ist.
+Das Wissen der Conius findet insbesondere nach der [Ikusation](/content/Ereignis/Ikusation.md) Einzug in die magischen Theorien der meisten intelligenten Völker, da eine wissenschaftliche Korrektheit im Grunde nicht anzuzweifeln ist.
 
 # Lebensraum
 
 Die Lebensräume der Lateralen sind so vielfältig wie ihre innere Spaltung.
-Sodilische Gemeinschaften prägen weite Teile Agranums und haben sich dank [Hybridisierung](/content/Volk_/Lateralen_/Hybridisierung.md) an sehr unterschiedliche Regionen angepasst.
-Die [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) bildet zugleich das gesellschaftliche und wissenschaftliche Zentrum der Conius-Lateralen.
+Sodilische Gemeinschaften prägen weite Teile Agranums und haben sich dank [Hybridisierung](/content/Volk/Lateralen/Hybridisierung.md) an sehr unterschiedliche Regionen angepasst.
+Die [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/index.md) bildet zugleich das gesellschaftliche und wissenschaftliche Zentrum der Conius-Lateralen.
 
 # Aussehen
 
@@ -101,11 +101,11 @@ Es entstand ein riesiges magisches Vokabular in der Resrubor-Akademie welches ni
 
 ## Do-Uspil
 
-Die [Do-Uspil](/content/Volk_/Lateralen_/Do-Uspil.md) ist das zentrale Übergangsritual der Sodili.
+Die [Do-Uspil](/content/Volk/Lateralen/Do-Uspil.md) ist das zentrale Übergangsritual der Sodili.
 In ihr wird die zweite Persönlichkeit eines jungen Lateralen unter geordneten Bedingungen in die äußere Gestalt eines Micu überführt.
 Sie ist zugleich religiöser, politischer und magischer Kern sodilischer Selbstdeutung.
 
 ## Hybridisierung
 
-Die [Hybridisierung](/content/Volk_/Lateralen_/Hybridisierung.md) beschreibt die zeitweilige gemeinsame Gestalt von Sodili und Micu.
+Die [Hybridisierung](/content/Volk/Lateralen/Hybridisierung.md) beschreibt die zeitweilige gemeinsame Gestalt von Sodili und Micu.
 Sie ist einer der wichtigsten Gründe dafür, dass sich sodilische Lebensformen auf Agranum in einer so großen ökologischen und kulturellen Bandbreite ausprägen konnten.

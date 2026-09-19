@@ -1,6 +1,6 @@
 # Fraktionen der Resrubor-Akademie
 
-Innerhalb der [Resrubor-Akademie](/content/Himmelskoerper_/Agranum/Kontinent_/Resrubor/Resrubor-Akademie/index.md) bestehen mehrere Fraktionen, die unterschiedliche geistige Ideale und Ausbildungsschwerpunkte verkörpern.
+Innerhalb der [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/index.md) bestehen mehrere Fraktionen, die unterschiedliche geistige Ideale und Ausbildungsschwerpunkte verkörpern.
 Sie sind keine vollständig voneinander getrennten Schulen, sondern eher traditionsreiche Lager innerhalb derselben Institution.
 
 ## Funktion

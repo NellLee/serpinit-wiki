@@ -7,7 +7,7 @@
 | **Name:** | Jaghati Rufus Kayn |
 | **Rolle:** | Seemann |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Sodili-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Carpebur (Einflussbereich) |
 | **Beruf:** | Seemann auf Handels- und Versorgungsschiffen |
 
@@ -22,7 +22,7 @@ Gerade darin liegt ein Spannungsfeld seines Charakters: Er will Verantwortung ü
 
 ## Hintergrund
 
-Vor seiner Beteiligung an der [Ikusation](/content/Ereignis_/Ikusation.md) verbrachte Jaghati einen großen Teil seines Lebens auf See.
+Vor seiner Beteiligung an der [Ikusation](/content/Ereignis/Ikusation.md) verbrachte Jaghati einen großen Teil seines Lebens auf See.
 Er arbeitete auf Schiffen unterschiedlicher Qualität und lernte dabei sowohl ehrbare Handelsrouten als auch die zwielichtigeren Ränder des maritimen Lebens kennen.
 Diese Vergangenheit machte ihn misstrauisch, zäh und anpassungsfähig, ohne dass er dauerhaft in offene Gesetzlosigkeit abglitt.
 

@@ -7,7 +7,7 @@
 | **Name:** | Taeron Kalidorvus |
 | **Rolle:** | Wanderforscher |
 | **Geschlecht:** | Männlich |
-| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk_/Lateralen_/index.md) |
+| **Spezies / Rasse:** | [Conius-Lateraler](/content/Volk/Lateralen/index.md) |
 | **Heimat:** | Ehemals Resrubor-Akademie, nun umherziehend |
 | **Beruf:** | Ehemaliger Lehrer der Lumesya-Fraktion, unabhängiger Forscher |
 
@@ -22,6 +22,6 @@ Gerade dadurch fiel er in akademischen Kreisen gleichzeitig als brillanter Forsc
 
 ## Historische Rolle
 
-Zu den frühesten bekannten Stationen seiner späteren Wanderjahre zählen seine Beteiligung am [Kulios-Zwischenfall](/content/Ereignis_/Kulios-Zwischenfall.md) sowie seine spätere Mitwirkung an der frühen [Ikusation](/content/Ereignis_/Ikusation.md).
-Beim Kulios-Zwischenfall stand er gemeinsam mit der Sodili [Valeria Wulfryn Liek](/content/Volk_/Lateralen_/Sodili/Charakter_/Valeria-Wulfryn-Liek_Nalius/index.md) und dem Sodili [Alaric Rodeto Hoss](/content/Volk_/Lateralen_/Sodili/Charakter_/Alaric-Rodeto-Hoss_Sable/index.md) im Zentrum des Geschehens.
+Zu den frühesten bekannten Stationen seiner späteren Wanderjahre zählen seine Beteiligung am [Kulios-Zwischenfall](/content/Ereignis/Kulios-Zwischenfall.md) sowie seine spätere Mitwirkung an der frühen [Ikusation](/content/Ereignis/Ikusation.md).
+Beim Kulios-Zwischenfall stand er gemeinsam mit der Sodili [Valeria Wulfryn Liek](/content/Volk/Lateralen/Sodili/Charakter/Valeria-Wulfryn-Liek_Nalius/index.md) und dem Sodili [Alaric Rodeto Hoss](/content/Volk/Lateralen/Sodili/Charakter/Alaric-Rodeto-Hoss_Sable/index.md) im Zentrum des Geschehens.
 Im Rahmen der Ikusation gehörte Taeron zu jenen Mitgliedern der Expedition, die Runenstrukturen nicht nur theoretisch verstanden, sondern auch unter unsicheren Bedingungen lesen und deuten konnten.

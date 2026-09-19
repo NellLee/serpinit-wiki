@@ -1,7 +1,7 @@
 # Pulsene
 
 Die Pulsene ist die kleinste zuverlässig konstante Zeiteinheit des Serpinit-Systems.
-Sie beruht auf dem regelmäßig wahrnehmbaren Herzschlag von [Navura](/content/Himmelskoerper_/Navura/index.md) und dauert exakt 1,8675 Erd-Sekunden.
+Sie beruht auf dem regelmäßig wahrnehmbaren Herzschlag von [Navura](/content/Himmelskörper/Navura/index.md) und dauert exakt 1,8675 Erd-Sekunden.
 
 ## Ursprung
 
@@ -11,7 +11,7 @@ Lange bevor die Pulsene interplanetar verbreitet war, stellte sie für navurisch
 
 ## Interplanetare Bedeutung
 
-Systemweit durchgesetzt wurde die Pulsene jedoch erst nach der [Ikusation](/content/Ereignis_/Ikusation.md).
+Systemweit durchgesetzt wurde die Pulsene jedoch erst nach der [Ikusation](/content/Ereignis/Ikusation.md).
 Erst die dauerhafteren Verbindungen zwischen den Völkern machten es sinnvoll und möglich, eine gemeinsame Kleinstzeiteinheit über planetare Grenzen hinweg zu etablieren.
 
 Gerade für Berechnung, Navigation, Runenforschung und präzise Vergleichbarkeit wurde die Pulsene damit zu einem wichtigen Standard.
