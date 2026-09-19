@@ -1,3 +1,4 @@
+<!-- folder-tag -->
 # Die Lateralen
 
 Die Lateralen sind das intelligente Volk des Planeten [Agranum](/content/Himmelskoerper_/Agranum/index.md).

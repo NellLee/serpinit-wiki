@@ -1,3 +1,4 @@
+<!-- folder-tag -->
 # Die 9 Himmelskörper
 
 Dieser Bereich sammelt die großen Himmelskörper des Serpinit-Systems sowie ihre wichtigsten Einordnungen.

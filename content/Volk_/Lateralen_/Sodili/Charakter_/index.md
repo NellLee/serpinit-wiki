@@ -1,3 +1,4 @@
+<!-- folder-tag -->
 # Charakter Index
 
 ## Hauptfiguren
