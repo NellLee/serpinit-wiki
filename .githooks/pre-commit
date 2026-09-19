@@ -8,3 +8,4 @@ if [ -z "$files" ]; then
 fi
 
 node scripts/check-content-mojibake.mjs --files $files
+node scripts/check-content-tags.mjs --files $files
