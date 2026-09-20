@@ -1,3 +1,4 @@
+<!-- tags: Seefahrt, Handel, inherit=1 -->
 # Erisa Sturint
 
 <!-- layout: overview -->

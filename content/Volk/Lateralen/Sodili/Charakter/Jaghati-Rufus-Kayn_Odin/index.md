@@ -1,3 +1,4 @@
+<!-- tags: Seefahrt, Handel, inherit=1 -->
 # Jaghati Kayn
 
 <!-- layout: overview -->

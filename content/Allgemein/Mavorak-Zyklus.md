@@ -1,3 +1,4 @@
+<!-- tags: Zeit -->
 # Mavorak-Zyklus
 
 Der Mavorak-Zyklus ist die am weitesten verbreitete größere historische Zeiteinheit des Serpinit-Systems.

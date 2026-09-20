@@ -1,3 +1,4 @@
+<!-- tags: Cre'Athem, Gefährliche Pflanze, Wald, inherit=1 -->
 # Sangurel
 
 ## Beschreibung

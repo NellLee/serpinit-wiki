@@ -1,3 +1,4 @@
+<!-- tags: Elementardrache, Mognar -->
 # Ignatius
 
 Ignatius ist der feuerelementare Aspekt des in vier Teile gespaltenen Drachengottes Creapatos.

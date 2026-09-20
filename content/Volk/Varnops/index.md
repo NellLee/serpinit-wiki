@@ -1,3 +1,5 @@
+<!-- folder-tag -->
+<!-- tags: Aridess, Handel -->
 # Die Varnops
 
 <!-- display: figure -->

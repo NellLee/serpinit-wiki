@@ -1,3 +1,4 @@
+<!-- tags: Zeit -->
 # Serpe
 
 Die Serpe ist eine größere Sammelzeiteinheit der späteren systemweiten Zeitordnung.

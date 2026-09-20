@@ -1,3 +1,5 @@
+<!-- folder-tag -->
+<!-- tags: Navura, Krieg, Cre'Athem -->
 # Die Sylvanars
 
 # Lebensraum

@@ -1,3 +1,4 @@
+<!-- tags: Theologie -->
 # Das Collektivora
 
 Das Collektivora ist der zentrale religiöse und magische Leitbegriff der [Sylvanars](/content/Volk/Sylvanar/index.md).

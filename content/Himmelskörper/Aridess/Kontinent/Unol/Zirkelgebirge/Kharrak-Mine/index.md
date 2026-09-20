@@ -1,3 +1,4 @@
+<!-- tags: Bergbau, Krolpin, Aridess -->
 # Kharrak Minen
 
 Die Kharrak-Minen befinden sich in einem der äußeren Berge der nördlichen Gebirge.

@@ -1,3 +1,4 @@
+<!-- tags: inherit=1 -->
 # Valeria Liek
 
 <!-- layout: overview -->

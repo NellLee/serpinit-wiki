@@ -1,3 +1,4 @@
+<!-- tags: Seefahrt, inherit=1 -->
 # Maggus Sallet
 
 <!-- layout: overview -->

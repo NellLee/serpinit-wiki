@@ -1,3 +1,4 @@
+<!-- tags: Fleischfressende Pflanze, Gefährliche Pflanze, Savanne, inherit=1 -->
 # Vorolae
 
 <!-- display: figure -->

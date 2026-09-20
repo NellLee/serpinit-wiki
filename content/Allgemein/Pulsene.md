@@ -1,3 +1,4 @@
+<!-- tags: Zeit, Navura -->
 # Pulsene
 
 Die Pulsene ist die kleinste zuverlässig konstante Zeiteinheit des Serpinit-Systems.

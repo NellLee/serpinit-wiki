@@ -1,3 +1,4 @@
+<!-- tags: Wald, inherit=1 -->
 # Chitrel
 
 ## Beschreibung

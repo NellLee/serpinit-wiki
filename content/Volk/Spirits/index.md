@@ -1,3 +1,4 @@
+<!-- tags: Navura -->
 # Die Spirits
 
 Spirits sind Geistwesen, die eine sehr enge Verbindung zur Magie selbst haben.

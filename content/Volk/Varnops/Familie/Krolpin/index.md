@@ -1,4 +1,4 @@
-<!-- tags: Zirkelgründer -->
+<!-- tags: Zirkelgründer, Handel, Bergbau, inherit=1 -->
 # Varnop-Familie Krolpin, Begründer der 12 Zirkel
 
 Die Krolpins sind eine Varnop-Familie welche in den [Zirkelgebirgen](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/index.md) von [Aridess](/content/Himmelskörper/Aridess/index.md) leben.

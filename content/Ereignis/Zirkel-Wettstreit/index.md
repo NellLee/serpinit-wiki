@@ -1,3 +1,4 @@
+<!-- tags: Aridess, Varnops, Krolpin -->
 
 # Zirkel-Wettstreit
 

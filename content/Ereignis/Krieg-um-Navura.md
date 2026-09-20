@@ -1,3 +1,4 @@
+<!-- tags: Navura, Vorenkai, Sylvanar, Krieg -->
 # Krieg um Navura
 
 <!-- event: start=-12.230136219371174 end=1.5577254667248868 category="Navura" text="[14]Krieg um Navura" -->

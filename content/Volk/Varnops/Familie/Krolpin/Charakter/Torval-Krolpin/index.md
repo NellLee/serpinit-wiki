@@ -1,3 +1,4 @@
+<!-- tags: Varnops, Krolpin, Bergbau -->
 # Torval Krolpin
 
 <!-- layout: overview -->

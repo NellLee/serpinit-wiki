@@ -1,3 +1,4 @@
+<!-- tags: Politik, inherit=1 -->
 # Kaelin Stavros
 
 <!-- layout: overview -->

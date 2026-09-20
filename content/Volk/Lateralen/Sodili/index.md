@@ -1,4 +1,5 @@
-<!-- tags: inherit=1 -->
+<!-- folder-tag -->
+<!-- tags: Micu, Agranum, inherit=1 -->
 # Die Sodili-Lateralen
 
 Als Sodili werden jene Lateralen bezeichnet, die seit der [arcanogenen Evolution](/content/Allgemein/Magie/index.md#arcanogene-evolution) eine zweite Persönlichkeit entwickelt haben.

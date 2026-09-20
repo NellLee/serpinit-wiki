@@ -1,3 +1,4 @@
+<!-- tags: Navura, Vorenkai, Krieg, Politik -->
 # Polarisierung der Vorenkai
 
 <!-- event: start=0.19642655464612768 end=1.5430230896416435 category="Navura" text="(14)Polarisierung der Vorenkai" -->

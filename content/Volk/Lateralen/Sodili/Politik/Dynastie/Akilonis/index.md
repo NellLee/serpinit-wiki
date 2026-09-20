@@ -1,4 +1,4 @@
-<!-- tags: Sodili-Familie -->
+<!-- tags: Politik, inherit=1 -->
 # Sodili-Dynastie Akilonis
 
 Die Familie Akilonis ist das führende Königshaus des Sodili-Volkes.

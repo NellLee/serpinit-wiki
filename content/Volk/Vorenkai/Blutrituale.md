@@ -1,3 +1,4 @@
+<!-- tags: Magie, Ritual -->
 # Blutrituale der Vorenkai
 
 Als Blutrituale werden jene magischen Verfahren bezeichnet, mit denen die [Vorenkai](/content/Volk/Vorenkai/index.md) nach dem Verlust großer Teile ihrer ursprünglichen Magie weiterhin Zauber wirken konnten.

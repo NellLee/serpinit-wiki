@@ -1,3 +1,4 @@
+<!-- tags: Fleischfressende Pflanze, Gefährliche Pflanze, inherit=1 -->
 # Shwin-Kaktus
 
 <!-- display: figure -->

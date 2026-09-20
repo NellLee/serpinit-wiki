@@ -1,4 +1,4 @@
-<!-- tags: Insel-Kette -->
+<!-- tags: Landschaft, Agranum -->
 # Die Liere-Inseln
 
 Diese Inselkette liegt isoliert und weit nordöstlich von Gurontis.

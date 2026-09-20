@@ -1,3 +1,4 @@
+<!-- tags: Krolpin, Bergbau, Handel, inherit=1 -->
 # Zirkel des Erz-Phoriats
 Das Erz-Phoriat ist letztendlich der älteste und einflussreichste Zirkel der Varnops und wird angefürt von der Familie [Krolpin](Familie/Krolpin/index.md).
 Noch lange bevor sich die anderen Zirkel bilden, besiedeln die Stämme des Erz-Phoriats bereits die nördlichen Gebirgsketten.

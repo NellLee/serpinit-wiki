@@ -1,3 +1,4 @@
+<!-- tags: Raubtier, Wüste, inherit=1 -->
 # Saolom
 
 ## Beschreibung

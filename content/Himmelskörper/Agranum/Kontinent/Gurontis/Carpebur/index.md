@@ -1,4 +1,4 @@
-<!-- tags: Sodili-Hauptstadt -->
+<!-- tags: Stadt, Sodili, Handel, Politik, Agranum -->
 
 # Carpebur, die vielschichtige Sodili-Hauptstadt
 

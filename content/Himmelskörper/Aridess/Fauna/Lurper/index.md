@@ -1,3 +1,4 @@
+<!-- tags: Pflanzenfresser, Wüste, Savanne, inherit=1 -->
 # Lurper
 
 ![](./images/Lurper.png)

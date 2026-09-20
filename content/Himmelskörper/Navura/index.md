@@ -1,3 +1,5 @@
+<!-- folder-tag -->
+<!-- tags: Planet, Ovelär -->
 # Navura, der Herzplanet
 
 ![Navura](./images/Navura_Planet_Weltraum-Ansicht.png)

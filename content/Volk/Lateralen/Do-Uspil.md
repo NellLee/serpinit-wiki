@@ -1,3 +1,4 @@
+<!-- tags: Sodili, Micu, Ritual, Theologie -->
 # Do-Uspil
 
 Die Do-Uspil ist das sodilische Übergangsritual, bei dem die zweite Persönlichkeit eines jungen [Lateralen](/content/Volk/Lateralen/index.md) unter geordneten Bedingungen in die äußere Gestalt eines Micu überführt wird.

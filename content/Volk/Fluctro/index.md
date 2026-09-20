@@ -1,3 +1,4 @@
+<!-- tags: Luqua -->
 # Die Fluctro
 
 Die Fluctro sind das einzige intelligente Volk, welches sich nicht aus dem Homo Primian entwickelt hat.

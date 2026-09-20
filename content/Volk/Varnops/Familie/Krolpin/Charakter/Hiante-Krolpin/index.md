@@ -1,3 +1,4 @@
+<!-- tags: Varnops, Krolpin, Zirkelgründer, Handel, Bergbau -->
 # Hiante Krolpin
 
 <!-- layout: overview -->

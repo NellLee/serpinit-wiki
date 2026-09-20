@@ -1,3 +1,4 @@
+<!-- tags: Aridess, Varnops, Handel -->
 # Globalisierung von Aridess
 
 <!-- event: start=-3.13 end=0.18 category="Aridess" text="Globalisierung von Aridess" fuzzy -->

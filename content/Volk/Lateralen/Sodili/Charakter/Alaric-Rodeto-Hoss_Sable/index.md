@@ -1,3 +1,4 @@
+<!-- tags: Brauner-Ring, Kriminalität, inherit=1 -->
 # Alaric Hoss
 
 <!-- layout: overview -->

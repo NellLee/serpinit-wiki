@@ -1,3 +1,4 @@
+<!-- tags: Sodili, Micu, Magie -->
 # Hybridisierung der Sodili
 
 Als Hybridisierung wird die Fähigkeit eines [Sodili](/content/Volk/Lateralen/Sodili/index.md) bezeichnet, sich zeitweise mit dem eigenen Micu zu einer gemeinsamen Gestalt zu verbinden.

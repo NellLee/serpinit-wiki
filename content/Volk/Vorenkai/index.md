@@ -1,3 +1,5 @@
+<!-- folder-tag -->
+<!-- tags: Mognar, Navura, Krieg -->
 # Die Vorenkai
 
 Die Vorenkai sind eine der intelligenten Spezies des Serpinit-Systems, wobei sie eine durchaus einzigartige Entstehungsgeschichte unter den modernen Völkern aufweisen.

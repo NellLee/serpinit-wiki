@@ -1,3 +1,4 @@
+<!-- tags: Elementardrache, Luqua -->
 # Fluero
 
 Fluero ist der wasserelementare Aspekt des in vier Teile gespaltenen Drachengottes Creapatos.

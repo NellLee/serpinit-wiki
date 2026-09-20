@@ -9,7 +9,7 @@ describe('generateBreadcrumbs', () => {
 			['Home', false],
 			['Volk', true],
 			['Lateralen', true],
-			['Conius', false]
+			['Conius', true]
 		]);
 	});
 

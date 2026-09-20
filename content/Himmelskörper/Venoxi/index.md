@@ -1,3 +1,4 @@
+<!-- tags: Planet, Portale -->
 # Venoxi, der Giftriese
 
 Venoxi ist ein lebensfeindlicher Planet des Serpinit-Systems, dessen oberflächennahe Regionen von giftigen Gasen, aggressiven chemischen Reaktionen und einer für moderne Lebewesen kaum erträglichen Atmosphäre geprägt sind.

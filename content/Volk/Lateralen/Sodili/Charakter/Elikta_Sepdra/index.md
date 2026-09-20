@@ -1,3 +1,4 @@
+<!-- tags: Vorenkai, Navura, Politik, inherit=1 -->
 # Elikta
 
 <!-- layout: overview -->

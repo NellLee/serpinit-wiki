@@ -1,4 +1,4 @@
-<!-- tags: See -->
+<!-- tags: See, Agranum -->
 # See Kulios
 
 Der See Kulios liegt auf [Gurontis](/content/Himmelskörper/Agranum/Kontinent/Gurontis/index.md) unweit des Dorfes [Akuelon](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Akuelon/index.md).

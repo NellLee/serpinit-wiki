@@ -1,3 +1,4 @@
+<!-- tags: Handel, inherit=1 -->
 # Eolyn Sera
 
 <!-- layout: overview -->

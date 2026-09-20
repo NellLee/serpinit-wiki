@@ -1,3 +1,4 @@
+<!-- tags: inherit=1 -->
 # Lytea Kronil
 
 <!-- layout: overview -->

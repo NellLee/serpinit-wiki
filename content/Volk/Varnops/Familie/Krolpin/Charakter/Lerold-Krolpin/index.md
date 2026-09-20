@@ -1,3 +1,4 @@
+<!-- tags: Varnops, Krolpin, Bergbau -->
 # Lerold Krolpin
 
 <!-- layout: overview -->

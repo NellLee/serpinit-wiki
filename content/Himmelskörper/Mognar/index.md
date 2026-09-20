@@ -1,3 +1,4 @@
+<!-- tags: Planet, Ovelär, Portale -->
 # Mognar, der Magmaplanet
 
 ![Mognar](./images/Mognar_Planet_Weltraum-Ansicht.png)

@@ -1,3 +1,4 @@
+<!-- tags: Micu, Magie -->
 # Therapie der Conius
 
 Als Therapie der Conius werden jene Verfahren bezeichnet, mit denen junge Laterale vor der späteren Abspaltung eines Micu gezielt behandelt werden, um die angeborene geistige Spaltung zu schließen oder zumindest so weit zu stabilisieren, dass keine eigenständige zweite Gestalt mehr heranwächst.

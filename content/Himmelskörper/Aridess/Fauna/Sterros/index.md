@@ -1,3 +1,4 @@
+<!-- tags: Pflanzenfresser, Savanne, inherit=1 -->
 # Sterros
 
 Ein Sterros ist ein massiges, herbivores Tier mit einem gedrungenen Körperbau und einem breiten massiven Kiefer.

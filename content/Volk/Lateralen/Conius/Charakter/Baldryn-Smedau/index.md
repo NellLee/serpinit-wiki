@@ -1,3 +1,4 @@
+<!-- tags: Resrubor-Akademie, inherit=1 -->
 # Baldryn Smedau
 
 <!-- layout: overview -->

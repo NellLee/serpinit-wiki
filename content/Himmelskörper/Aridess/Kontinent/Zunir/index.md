@@ -1,3 +1,4 @@
+<!-- tags: inherit=1 -->
 # Zunir, der Süd-Kontinent
 
 # Allgemein

@@ -1,3 +1,4 @@
+<!-- tags: inherit=1 -->
 # Galwin Leison
 
 Galwin Urma Leison gehört zu den [Sodili-Lateralen](/content/Volk/Lateralen/Sodili/index.md).

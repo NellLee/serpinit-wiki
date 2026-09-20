@@ -1,3 +1,4 @@
+<!-- tags: Raubtier, inherit=1 -->
 # Fuaga
 Die Fluagas, auch genannt Feuer-Katze ist eine majestätische, mittelgroße Raubkatze, deren rotes Fell im Sonnenlicht schimmert und glüht, als wäre es in Flammen.
 Diese Katzen jagen in geschickten Gruppen und sind bekannt für ihre schnellen und präzisen Angriffe auf Beute.

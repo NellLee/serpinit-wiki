@@ -1,3 +1,4 @@
+<!-- tags: Resrubor-Akademie, Conius, Agranum -->
 # Fraktionen der Resrubor-Akademie
 
 Innerhalb der [Resrubor-Akademie](/content/Himmelskörper/Agranum/Kontinent/Resrubor/Resrubor-Akademie/index.md) bestehen mehrere Fraktionen, die unterschiedliche geistige Ideale und Ausbildungsschwerpunkte verkörpern.

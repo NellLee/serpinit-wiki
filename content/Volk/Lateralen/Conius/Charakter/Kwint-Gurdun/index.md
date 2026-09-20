@@ -1,3 +1,4 @@
+<!-- tags: Resrubor-Akademie, inherit=1 -->
 # Kwint Gurdun
 
 <!-- layout: overview -->

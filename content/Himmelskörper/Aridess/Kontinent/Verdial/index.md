@@ -1,3 +1,4 @@
+<!-- tags: inherit=1 -->
 # Verdial, die Grünen Schluchten
 
 # Allgemein

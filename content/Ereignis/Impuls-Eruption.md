@@ -1,3 +1,4 @@
+<!-- tags: Agranum, Sgrisignier -->
 # Impuls-Eruption
 
 <!-- event: start=-349703.9995 category="Agranum" text="Impuls-Eruption auf Agranum" -->

@@ -1,4 +1,4 @@
-<!-- tags: Dorf -->
+<!-- tags: Dorf, Sodili, Agranum -->
 # Akuelon
 
 Akuelon liegt auf [Gurontis](/content/Himmelskörper/Agranum/Kontinent/Gurontis/index.md) am Ufer des [Sees Kulios](/content/Himmelskörper/Agranum/Kontinent/Gurontis/Kulios/index.md).

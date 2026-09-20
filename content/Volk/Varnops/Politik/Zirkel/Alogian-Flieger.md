@@ -1,3 +1,4 @@
+<!-- tags: inherit=1 -->
 # Zirkel der Alogian-Flieger
 Bei einem Alogien-Flieger handelt es sich um ein kleines, flugfähiges Gerät.
 Es hat einen Korpus aus Kristall und Flügel aus dünnem Aluminium.
