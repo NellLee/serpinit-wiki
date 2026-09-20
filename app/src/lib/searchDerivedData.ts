@@ -119,6 +119,34 @@ function buildFacetValues(counts: Map<string, SearchFacetValue>): SearchFacetVal
 	);
 }
 
+// Every category a page carries explicitly (folder, inherited or hook tag), independent of any
+// search result. Tags that only mirror a page's own name are left out.
+export function buildCategoryCatalog(
+	pageTags: ReadonlyArray<ReadonlyArray<{ text: string; source: string }>>
+): SearchFacetValue[] {
+	const catalog = new Map<string, SearchFacetValue>();
+
+	for (const tags of pageTags) {
+		const seenOnThisPage = new Set<string>();
+		for (const tag of tags) {
+			const key = normalizeSearchText(tag.text);
+			if (tag.source === 'name' || !key || seenOnThisPage.has(key)) {
+				continue;
+			}
+			seenOnThisPage.add(key);
+
+			const entry = catalog.get(key);
+			if (entry) {
+				entry.count++;
+			} else {
+				catalog.set(key, { key, label: tag.text, count: 1 });
+			}
+		}
+	}
+
+	return buildFacetValues(catalog);
+}
+
 export function buildFacetCatalogs(entries: SearchFacetSource[]): SearchFacetCatalogs {
 	const domains = new Map<string, SearchFacetValue>();
 	const pageTypes = new Map<string, SearchFacetValue>();

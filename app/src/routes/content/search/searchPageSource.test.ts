@@ -3,7 +3,10 @@ import path from 'node:path';
 import { expect, test } from 'vitest';
 
 test('keeps the German search page copy in place', () => {
-	const source = fs.readFileSync(path.resolve(process.cwd(), 'src/routes/content/search/+page.svelte'), 'utf8');
+	const source = fs.readFileSync(
+		path.resolve(process.cwd(), 'src/routes/content/search/+page.svelte'),
+		'utf8'
+	);
 
 	expect(source.includes('Suche ausführen')).toBe(true);
 	expect(source.includes('Treffer für')).toBe(true);
@@ -12,4 +15,24 @@ test('keeps the German search page copy in place', () => {
 	expect(source.includes('Ausschlüsse')).toBe(true);
 	expect(source.includes('Suche verfeinern')).toBe(true);
 	expect(source.includes('Feldfilter:')).toBe(true);
+});
+
+test('offers a fuzziness slider', () => {
+	const source = fs.readFileSync(
+		path.resolve(process.cwd(), 'src/routes/content/search/+page.svelte'),
+		'utf8'
+	);
+
+	expect(source.includes('Unschärfe')).toBe(true);
+	expect(source.includes('type="range"')).toBe(true);
+	expect(source).toMatch(/params\.set\('fuzziness'/);
+});
+
+test('does not describe the category filters as hand-picked', () => {
+	const source = fs.readFileSync(
+		path.resolve(process.cwd(), 'src/routes/content/search/+page.svelte'),
+		'utf8'
+	);
+
+	expect(source.includes('Handverlesene')).toBe(false);
 });

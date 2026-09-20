@@ -6,7 +6,7 @@ test('forwards search page parameters to the API route', async () => {
 
 	const result = await load({
 		url: new URL(
-			'http://localhost/content/search?q=Do%20Uspil&includeCategories=false&includeContent=false&sort=domain&domain=volk&pageType=article&category=magie&category=theologie'
+			'http://localhost/content/search?q=Do%20Uspil&includeCategories=false&includeContent=false&sort=domain&domain=volk&pageType=article&category=magie&category=theologie&fuzziness=1'
 		),
 		fetch: async (input: RequestInfo | URL) => {
 			fetchedUrl = String(input);
@@ -32,7 +32,8 @@ test('forwards search page parameters to the API route', async () => {
 						categories: ['magie', 'theologie'],
 						includeTitle: true,
 						includeCategories: false,
-						includeContent: false
+						includeContent: false,
+						fuzziness: 1
 					},
 					sort: 'domain',
 					facets: {
@@ -59,9 +60,11 @@ test('forwards search page parameters to the API route', async () => {
 	expect(apiUrl.searchParams.getAll('domain')).toEqual(['volk']);
 	expect(apiUrl.searchParams.getAll('pageType')).toEqual(['article']);
 	expect(apiUrl.searchParams.getAll('category')).toEqual(['magie', 'theologie']);
+	expect(apiUrl.searchParams.get('fuzziness')).toBe('1');
 
 	expect(result.activeFilters.domains).toEqual(['volk']);
 	expect(result.activeFilters.pageTypes).toEqual(['article']);
 	expect(result.activeFilters.categories).toEqual(['magie', 'theologie']);
+	expect(result.activeFilters.fuzziness).toBe(1);
 	expect(result.sort).toBe('domain');
 });

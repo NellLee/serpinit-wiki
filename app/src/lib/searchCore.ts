@@ -329,13 +329,38 @@ function getLevenshteinDistance(left: string, right: string): number {
 	return distances[right.length];
 }
 
-function getTitleHighlights(result: FuseResult<IndexedSearchDocument>, query: string): HighlightRange[] {
+function getTitleHighlights(
+	result: FuseResult<IndexedSearchDocument>,
+	query: string
+): HighlightRange[] {
 	return findControlledHighlightRanges(result.item.title, query);
 }
 
+// Each level scales the base threshold of a search mode: 0 finds only exact text, level 2 is
+// the behavior from before the slider existed.
+const FUZZINESS_FACTORS = [0, 0.5, 1, 1.5, 2];
+export const DEFAULT_FUZZINESS = 2;
+export const MAX_FUZZINESS = FUZZINESS_FACTORS.length - 1;
+
+export function normalizeFuzziness(value: unknown): number {
+	if (value === null || value === undefined || (typeof value === 'string' && value.trim() === '')) {
+		return DEFAULT_FUZZINESS;
+	}
+
+	const level = Number(value);
+	return Number.isInteger(level) && level >= 0 && level <= MAX_FUZZINESS
+		? level
+		: DEFAULT_FUZZINESS;
+}
+
+export type SearchIndexOptions = {
+	fuzziness?: number;
+};
+
 function createFuse(
 	documents: IndexedSearchDocument[],
-	mode: SearchMode
+	mode: SearchMode,
+	fuzziness: number
 ): Fuse<IndexedSearchDocument> {
 	const keys =
 		mode === 'title'
@@ -353,7 +378,7 @@ function createFuse(
 
 	return new Fuse(documents, {
 		keys,
-		threshold: mode === 'full' ? 0.32 : 0.24,
+		threshold: (mode === 'full' ? 0.32 : 0.24) * FUZZINESS_FACTORS[fuzziness],
 		ignoreLocation: true,
 		includeScore: true,
 		includeMatches: true,
@@ -363,7 +388,11 @@ function createFuse(
 	});
 }
 
-export function buildSearchIndex(documents: SearchDocument[]): SearchCoreIndex {
+export function buildSearchIndex(
+	documents: SearchDocument[],
+	options: SearchIndexOptions = {}
+): SearchCoreIndex {
+	const fuzziness = normalizeFuzziness(options.fuzziness);
 	const indexedDocuments = documents.map((document) => {
 		const normalizedTitle = normalizeSearchTextWithIndexMap(document.title);
 		return {
@@ -377,13 +406,17 @@ export function buildSearchIndex(documents: SearchDocument[]): SearchCoreIndex {
 
 	return {
 		documents: indexedDocuments,
-		titleIndex: createFuse(indexedDocuments, 'title'),
-		titleCategoryIndex: createFuse(indexedDocuments, 'title+categories'),
-		fullIndex: createFuse(indexedDocuments, 'full')
+		titleIndex: createFuse(indexedDocuments, 'title', fuzziness),
+		titleCategoryIndex: createFuse(indexedDocuments, 'title+categories', fuzziness),
+		fullIndex: createFuse(indexedDocuments, 'full', fuzziness)
 	};
 }
 
-export function searchDocuments(index: SearchCoreIndex, query: string, options: SearchOptions = {}) {
+export function searchDocuments(
+	index: SearchCoreIndex,
+	query: string,
+	options: SearchOptions = {}
+) {
 	const normalizedQuery = normalizeSearchText(query);
 	if (normalizedQuery.length === 0) {
 		return [];

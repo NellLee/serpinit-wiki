@@ -23,6 +23,7 @@ export type SearchActiveFilters = {
 	includeTitle: boolean;
 	includeCategories: boolean;
 	includeContent: boolean;
+	fuzziness: number;
 };
 
 export type SearchSuggestions = {
@@ -34,6 +35,10 @@ export type SearchSuggestions = {
 export type SearchFacets = {
 	domains: SearchFacetValue[];
 	pageTypes: SearchFacetValue[];
+	categories: SearchFacetValue[];
+};
+
+export type SearchCatalog = {
 	categories: SearchFacetValue[];
 };
 

@@ -14,18 +14,21 @@ import * as cheerio from 'cheerio';
 import { initTimeline } from './timeline';
 import { createSearchExcerpts } from './searchExcerpt';
 import {
+	buildCategoryCatalog,
 	buildDerivedRecord,
 	buildFacetCatalogs,
 	getPageTypeLabel,
 	type SearchDerivedRecord
 } from './searchDerivedData';
 import { getContentPagePresentation, type PageClass } from './presentation/pagePresentation';
+import { normalizeFuzziness } from './searchCore';
 import { parseSearchQuery } from './searchQuery';
 import { runSearchRanking } from './searchRanking';
 import { buildZeroResultSuggestions } from './searchZeroResults';
 import type {
 	SearchActiveFilters,
 	SearchApiResponse,
+	SearchCatalog,
 	SearchPreviewResponse,
 	SearchResultPayload,
 	SearchSortMode
@@ -133,6 +136,7 @@ type SearchWikiOptions = {
 	includeCategories?: boolean;
 	includeContent?: boolean;
 	sort?: SearchSortMode;
+	fuzziness?: number;
 	activeFilters?: Partial<SearchActiveFilters>;
 };
 
@@ -162,7 +166,8 @@ function createActiveFilters(options: SearchWikiOptions | undefined): SearchActi
 		categories: options?.activeFilters?.categories ?? [],
 		includeTitle: true,
 		includeCategories: options?.includeCategories ?? true,
-		includeContent: options?.includeContent ?? true
+		includeContent: options?.includeContent ?? true,
+		fuzziness: normalizeFuzziness(options?.fuzziness)
 	};
 }
 
@@ -209,6 +214,7 @@ export function search(
 		includeCategories: activeFilters.includeCategories,
 		includeContent: activeFilters.includeContent,
 		sort,
+		fuzziness: activeFilters.fuzziness,
 		activeFilters: {
 			domains: activeFilters.domains,
 			pageTypes: activeFilters.pageTypes,
@@ -238,6 +244,10 @@ export function search(
 			)
 		)
 	};
+}
+
+export function getSearchCatalog(): SearchCatalog {
+	return { categories: buildCategoryCatalog(Array.from(wiki.values()).map((page) => page.tags)) };
 }
 
 export function searchPreview(query: string): SearchPreviewResponse {

@@ -47,6 +47,21 @@ const records = [
 ];
 
 describe('searchRanking', () => {
+	test('passes the fuzziness level on to the text search', () => {
+		const titlesFor = (fuzziness?: number) =>
+			runSearchRanking(records, parseSearchQuery('zeremonjen'), {
+				includeCategories: false,
+				includeContent: false,
+				sort: 'relevance',
+				fuzziness,
+				activeFilters: { domains: [], pageTypes: [], categories: [] }
+			}).results.map((result) => result.item.title);
+
+		expect(titlesFor(0)).toEqual([]);
+		expect(titlesFor(1)).toEqual(['Dur-Uspil Zeremonien']);
+		expect(titlesFor()).toEqual(['Dur-Uspil Zeremonien']);
+	});
+
 	test('matches path and category filters', () => {
 		const pathFiltered = runSearchRanking(records, parseSearchQuery('path:Sodili'), {
 			includeCategories: true,
@@ -63,16 +78,20 @@ describe('searchRanking', () => {
 			'Sodili Übersicht'
 		]);
 
-		const categoryFiltered = runSearchRanking(records, parseSearchQuery('category:Rituale category:Orte'), {
-			includeCategories: true,
-			includeContent: true,
-			sort: 'relevance',
-			activeFilters: {
-				domains: [],
-				pageTypes: [],
-				categories: []
+		const categoryFiltered = runSearchRanking(
+			records,
+			parseSearchQuery('category:Rituale category:Orte'),
+			{
+				includeCategories: true,
+				includeContent: true,
+				sort: 'relevance',
+				activeFilters: {
+					domains: [],
+					pageTypes: [],
+					categories: []
+				}
 			}
-		});
+		);
 		expect(categoryFiltered.results.map((result) => result.item.title)).toEqual([
 			'Dur-Uspil Zeremonien',
 			'Arkten'
@@ -92,16 +111,20 @@ describe('searchRanking', () => {
 		});
 		expect(titleOnlyStillWorks.results.map((result) => result.item.title)).toEqual(['Arkten']);
 
-		const exclusionRemovesMatches = runSearchRanking(records, parseSearchQuery('Sodili -Lateralen'), {
-			includeCategories: true,
-			includeContent: true,
-			sort: 'relevance',
-			activeFilters: {
-				domains: [],
-				pageTypes: [],
-				categories: []
+		const exclusionRemovesMatches = runSearchRanking(
+			records,
+			parseSearchQuery('Sodili -Lateralen'),
+			{
+				includeCategories: true,
+				includeContent: true,
+				sort: 'relevance',
+				activeFilters: {
+					domains: [],
+					pageTypes: [],
+					categories: []
+				}
 			}
-		});
+		);
 		expect(exclusionRemovesMatches.results.map((result) => result.item.title)).toEqual([]);
 	});
 
@@ -147,6 +170,8 @@ describe('searchRanking', () => {
 				categories: ['charaktere']
 			}
 		});
-		expect(curatedCategoryFiltered.results.map((result) => result.item.title)).toEqual(['Akils-Anfänge']);
+		expect(curatedCategoryFiltered.results.map((result) => result.item.title)).toEqual([
+			'Akils-Anfänge'
+		]);
 	});
 });

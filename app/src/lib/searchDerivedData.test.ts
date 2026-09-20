@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { buildFacetCatalogs, deriveDomainInfo } from './searchDerivedData';
+import { buildCategoryCatalog, buildFacetCatalogs, deriveDomainInfo } from './searchDerivedData';
 
 describe('searchDerivedData', () => {
 	test('derives domain metadata from content paths', () => {
@@ -59,5 +59,57 @@ describe('searchDerivedData', () => {
 			{ key: 'magie', label: 'Magie', count: 1 },
 			{ key: 'theologie', label: 'Theologie', count: 1 }
 		]);
+	});
+});
+
+describe('buildCategoryCatalog', () => {
+	const pageTags = [
+		[
+			{ text: 'Garrick-Filben-Tornbad', source: 'name' },
+			{ text: 'Charakter', source: 'folder' }
+		],
+		[
+			{ text: 'Lysandra', source: 'name' },
+			{ text: 'charakter', source: 'folder' }
+		],
+		[
+			{ text: 'Akuelon', source: 'name' },
+			{ text: 'Dorf', source: 'hook' }
+		],
+		[
+			{ text: 'Conius', source: 'name' },
+			{ text: 'Lateralen', source: 'folder' },
+			{ text: 'Volk', source: 'inherit' }
+		]
+	] as const;
+
+	test('lists every explicit tag once with its page count, sorted by label', () => {
+		expect(buildCategoryCatalog(pageTags)).toEqual([
+			{ key: 'charakter', label: 'Charakter', count: 2 },
+			{ key: 'dorf', label: 'Dorf', count: 1 },
+			{ key: 'lateralen', label: 'Lateralen', count: 1 },
+			{ key: 'volk', label: 'Volk', count: 1 }
+		]);
+	});
+
+	test('leaves out tags that only come from page names', () => {
+		const labels = buildCategoryCatalog(pageTags).map((entry) => entry.label);
+
+		expect(labels).not.toContain('Akuelon');
+		expect(labels).not.toContain('Conius');
+	});
+
+	test('sorts German labels with umlauts in place', () => {
+		const catalog = buildCategoryCatalog([
+			[{ text: 'Zirkel', source: 'folder' }],
+			[{ text: 'Ätherwesen', source: 'hook' }],
+			[{ text: 'Fauna', source: 'folder' }]
+		]);
+
+		expect(catalog.map((entry) => entry.label)).toEqual(['Ätherwesen', 'Fauna', 'Zirkel']);
+	});
+
+	test('returns an empty list for pages without tags', () => {
+		expect(buildCategoryCatalog([])).toEqual([]);
 	});
 });

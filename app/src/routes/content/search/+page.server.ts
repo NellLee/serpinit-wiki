@@ -2,11 +2,13 @@ import { SEARCH_API_URL } from '$lib/constants';
 import type { MarkdownPage } from '$lib/markdownPage';
 import { getUtilityPagePresentation } from '$lib/presentation/pagePresentation';
 import type { SearchApiResponse } from '$lib/searchContracts';
+import { normalizeFuzziness } from '$lib/searchCore';
 import { error } from '@sveltejs/kit';
 
 export async function load({ fetch, url }) {
 	const urlParams = url.searchParams;
 	const query = urlParams.get('q')?.trim() ?? '';
+	const fuzziness = normalizeFuzziness(urlParams.get('fuzziness'));
 
 	if (!query) {
 		return {
@@ -41,7 +43,8 @@ export async function load({ fetch, url }) {
 				categories: [],
 				includeTitle: true,
 				includeCategories: true,
-				includeContent: true
+				includeContent: true,
+				fuzziness
 			},
 			includeCategories: true,
 			includeContent: true,
@@ -54,6 +57,7 @@ export async function load({ fetch, url }) {
 	params.set('includeCategories', urlParams.get('includeCategories') ?? 'true');
 	params.set('includeContent', urlParams.get('includeContent') ?? 'true');
 	params.set('sort', urlParams.get('sort') ?? 'relevance');
+	params.set('fuzziness', String(fuzziness));
 
 	for (const domain of urlParams.getAll('domain')) {
 		params.append('domain', domain);

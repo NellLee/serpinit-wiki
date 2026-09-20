@@ -18,6 +18,7 @@ export type SearchRankingOptions = {
 	includeCategories: boolean;
 	includeContent: boolean;
 	sort: SearchSortMode;
+	fuzziness?: number;
 	activeFilters: {
 		domains: string[];
 		pageTypes: string[];
@@ -63,7 +64,9 @@ function matchesTypeFilters(record: SearchRankingRecord, filters: string[]): boo
 		return true;
 	}
 
-	return filters.some((filterValue) => normalizeSearchText(filterValue) === normalizeSearchText(record.pageClass));
+	return filters.some(
+		(filterValue) => normalizeSearchText(filterValue) === normalizeSearchText(record.pageClass)
+	);
 }
 
 function matchesDomainFilters(record: SearchRankingRecord, filters: string[]): boolean {
@@ -180,7 +183,8 @@ export function runSearchRanking(
 			categories: record.categories,
 			contentText: record.contentText,
 			contentHtml: record.contentHtml
-		}))
+		})),
+		{ fuzziness: options.fuzziness }
 	);
 
 	const searchResults = searchDocuments(index, freeTextQuery, {

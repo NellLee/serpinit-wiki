@@ -1,5 +1,9 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
+	import { SEARCH_CATALOG_URL } from '$lib/constants';
+	import HintTooltip from '$lib/components/HintTooltip.svelte';
+	import type { SearchCatalog } from '$lib/searchContracts';
 	import MidPanel from '$lib/components/MidPanel.svelte';
 	import SearchEntry from '$lib/components/SearchEntry.svelte';
 	import { Icon, MagnifyingGlass } from 'svelte-hero-icons';
@@ -11,10 +15,31 @@
 	let includeCategories = $state(data.activeFilters.includeCategories);
 	let includeContent = $state(data.activeFilters.includeContent);
 	let sortInput = $state(data.sort);
+	let fuzzinessInput = $state(data.activeFilters.fuzziness);
 	let selectedDomains = $state([...data.activeFilters.domains]);
 	let selectedPageTypes = $state([...data.activeFilters.pageTypes]);
 	let selectedCategories = $state([...data.activeFilters.categories]);
 	/* eslint-enable svelte/valid-compile */
+
+	const fuzzinessLabels = ['Exakt', 'Streng', 'Normal', 'Locker', 'Sehr locker'];
+
+	// The category list is only needed for the tooltip, so it must not delay the page.
+	let catalog: SearchCatalog | null = $state(null);
+	let catalogFailed = $state(false);
+
+	onMount(async () => {
+		try {
+			const response = await fetch(SEARCH_CATALOG_URL);
+			if (!response.ok) {
+				throw new Error(`Catalog request failed with status ${response.status}`);
+			}
+			catalog = await response.json();
+		} catch {
+			catalogFailed = true;
+		}
+	});
+
+	const asFilterValue = (label: string) => (/\s/.test(label) ? `"${label}"` : label);
 
 	function findFacetLabel(
 		facets: Array<{ key: string; label: string }>,
@@ -88,6 +113,7 @@
 		params.set('includeCategories', includeCategories ? 'true' : 'false');
 		params.set('includeContent', includeContent ? 'true' : 'false');
 		params.set('sort', sortInput);
+		params.set('fuzziness', String(fuzzinessInput));
 
 		for (const domain of selectedDomains) {
 			params.append('domain', domain);
@@ -144,12 +170,12 @@
 				<section class="search-main">
 					<section class="search-controls">
 						<form
-						onsubmit={(event) => {
-							event.preventDefault();
-							newSearch();
-						}}
-						id="searchbar"
-					>
+							onsubmit={(event) => {
+								event.preventDefault();
+								newSearch();
+							}}
+							id="searchbar"
+						>
 							<input type="text" bind:value={searchInput} placeholder="Im Wiki suchen..." />
 							<button type="submit" aria-label="Suche ausführen">
 								<Icon src={MagnifyingGlass} solid size="16" />
@@ -158,12 +184,75 @@
 
 						<div class="syntax-help" id="syntax-help">
 							<strong>Feldfilter:</strong>
-							<span>"Zitat"</span>
-							<span>-Ausschluss</span>
-							<span>title:</span>
-							<span>category:</span>
-							<span>path:</span>
-							<span>type:</span>
+							<HintTooltip id="hint-phrase" label={'"Zitat"'}>
+								<p>
+									Anführungszeichen halten Wörter mit Leerzeichen zusammen, vor allem bei
+									Feldfiltern.
+								</p>
+								<ul class="examples">
+									<li><code>"Krieg um Navura"</code></li>
+									<li><code>title:"Krieg um Navura"</code></li>
+								</ul>
+							</HintTooltip>
+							<HintTooltip id="hint-exclusion" label="-Ausschluss">
+								<p>
+									Schließt Seiten aus, in denen das Wort in Titel, Pfad, Kategorien oder Text
+									vorkommt.
+								</p>
+								<ul class="examples">
+									<li><code>Krieg -Navura</code></li>
+									<li><code>Magie -Rune</code></li>
+								</ul>
+							</HintTooltip>
+							<HintTooltip id="hint-title" label="title:">
+								<p>Nur Seiten, deren Titel den Begriff enthält.</p>
+								<ul class="examples">
+									<li><code>title:Vorenkai</code></li>
+									<li>
+										<code>title:Krieg Navura</code> (Titel enthält „Krieg“, Text enthält „Navura“)
+									</li>
+								</ul>
+							</HintTooltip>
+							<HintTooltip id="hint-category" label="category:">
+								<p>Nur Seiten mit dieser Kategorie. Auch Seitennamen zählen als Kategorie.</p>
+								<p class="hint-heading">Verfügbare Kategorien</p>
+								{#if catalog}
+									<ul class="category-list">
+										{#each catalog.categories as category}
+											<li>
+												<code>{asFilterValue(category.label)}</code><small>{category.count}</small>
+											</li>
+										{/each}
+									</ul>
+								{:else if catalogFailed}
+									<p>Die Kategorien konnten nicht geladen werden.</p>
+								{:else}
+									<p>Die Kategorien werden geladen …</p>
+								{/if}
+								<ul class="examples">
+									<li><code>category:Fauna</code></li>
+								</ul>
+							</HintTooltip>
+							<HintTooltip id="hint-path" label="path:" align="right">
+								<p>Nur Seiten, deren Pfad den Text enthält. Ordner werden mit / getrennt.</p>
+								<ul class="examples">
+									<li><code>path:Volk</code></li>
+									<li><code>path:Sodili/Charakter</code></li>
+									<li><code>path:Himmelskörper/Agranum</code></li>
+								</ul>
+							</HintTooltip>
+							<HintTooltip id="hint-type" label="type:" align="right">
+								<p>Nur Seiten dieses Seitentyps.</p>
+								<ul class="types">
+									<li><code>article</code> Artikel</li>
+									<li><code>index</code> Ordner-Übersicht</li>
+									<li><code>media</code> Galerie</li>
+									<li><code>hub</code> Startseite</li>
+								</ul>
+								<ul class="examples">
+									<li><code>type:index</code></li>
+								</ul>
+							</HintTooltip>
 						</div>
 
 						<div class="toolbar-row">
@@ -186,6 +275,22 @@
 									<option value="title-asc">Titel A-Z</option>
 									<option value="domain">Bereich</option>
 								</select>
+							</label>
+
+							<label
+								class="fuzziness-control"
+								title="Wie tolerant die Suche gegenüber Tippfehlern ist. Exakt findet nur genau den eingegebenen Text."
+							>
+								<span>Unschärfe: <strong>{fuzzinessLabels[fuzzinessInput]}</strong></span>
+								<input
+									type="range"
+									min="0"
+									max={fuzzinessLabels.length - 1}
+									step="1"
+									bind:value={fuzzinessInput}
+									onchange={newSearch}
+									aria-valuetext={fuzzinessLabels[fuzzinessInput]}
+								/>
 							</label>
 						</div>
 
@@ -281,9 +386,6 @@
 						{#if data.facets.categories.length > 0}
 							<section class="facet-group">
 								<h3>Suche verfeinern</h3>
-								<p class="facet-copy">
-									Handverlesene Kategorien mit echtem Mehrwert für die Suche.
-								</p>
 								<div class="facet-list">
 									{#each data.facets.categories as facet}
 										<label class="facet-option">
@@ -393,10 +495,45 @@
 		font-size: 0.88rem;
 		color: rgba(0, 0, 0, 0.68);
 
-		span {
-			padding: 0.25rem 0.5rem;
-			border-radius: 999px;
-			background: rgba(0, 0, 0, 0.04);
+		p {
+			margin: 0;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: grid;
+			gap: 0.25rem;
+		}
+
+		code {
+			padding: 0.05rem 0.3rem;
+			border-radius: 0.35rem;
+			background: rgba(0, 0, 0, 0.06);
+			font-size: 0.84rem;
+		}
+
+		.hint-heading {
+			font-weight: 700;
+		}
+
+		.category-list {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.3rem 0.5rem;
+			max-height: 15rem;
+			overflow-y: auto;
+
+			li {
+				display: inline-flex;
+				gap: 0.25rem;
+				align-items: baseline;
+			}
+
+			small {
+				color: rgba(0, 0, 0, 0.55);
+			}
 		}
 	}
 
@@ -437,6 +574,18 @@
 			border-radius: 0.7rem;
 			border: 1px solid rgba(0, 0, 0, 0.14);
 			background: var(--secondary-background-color);
+		}
+	}
+
+	.fuzziness-control {
+		display: grid;
+		align-content: start;
+		gap: 0.35rem;
+		font-size: 0.92rem;
+
+		input[type='range'] {
+			width: 11rem;
+			margin: 0;
 		}
 	}
 
@@ -490,13 +639,6 @@
 			margin: 0;
 			font-size: 1rem;
 		}
-	}
-
-	.facet-copy {
-		margin: 0;
-		font-size: 0.88rem;
-		color: rgba(0, 0, 0, 0.66);
-		line-height: 1.5;
 	}
 
 	.facet-list {

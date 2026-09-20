@@ -27,6 +27,7 @@ describe('apiInitialization', () => {
 		for (const routePath of [
 			'src/routes/api/page/+server.ts',
 			'src/routes/api/search/+server.ts',
+			'src/routes/api/search/catalog/+server.ts',
 			'src/routes/api/timeline/+server.ts'
 		]) {
 			const routeSource = readAppFile(routePath);
@@ -44,8 +45,13 @@ describe('apiInitialization', () => {
 	});
 
 	test('search awaits the full-corpus ensureWikiInitialized, since it needs every page', () => {
-		const routeSource = readAppFile('src/routes/api/search/+server.ts');
-		expect(routeSource).toMatch(/await\s+ensureWikiInitialized\(\)/);
+		for (const routePath of [
+			'src/routes/api/search/+server.ts',
+			'src/routes/api/search/catalog/+server.ts'
+		]) {
+			const routeSource = readAppFile(routePath);
+			expect(routeSource).toMatch(/await\s+ensureWikiInitialized\(\)/);
+		}
 	});
 
 	test('page and timeline routes await only initTimeline, not the full-corpus batch', () => {
