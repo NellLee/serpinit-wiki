@@ -1,3 +1,4 @@
+<!-- folder-tag -->
 # Die Theorie der Magie
 
 # Allgemein
