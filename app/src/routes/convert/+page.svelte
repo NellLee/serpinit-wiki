@@ -36,7 +36,7 @@
 </script>
 
 <svelte:head>
-	<title>CONVERT</title>
+	<title>UMRECHNER</title>
 </svelte:head>
 
 <div class="utility-page convert-page">
@@ -44,7 +44,7 @@
 		{#snippet head()}
 			<div class="utility-head">
 				<p class="eyebrow">Werkzeug</p>
-				<h1>Convert</h1>
+				<h1>Umrechner</h1>
 				<p class="lede">
 					Nutze fokussierte Werkzeugflächen statt Artikellayouts für wiederholte Umrechnungen.
 				</p>

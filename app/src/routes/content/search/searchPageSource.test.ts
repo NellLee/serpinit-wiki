@@ -13,26 +13,6 @@ test('keeps the German search page copy in place', () => {
 	expect(source.includes('standardmäßig')).toBe(true);
 	expect(source.includes('lässt')).toBe(true);
 	expect(source.includes('Ausschlüsse')).toBe(true);
-	expect(source.includes('Suche verfeinern')).toBe(true);
+	expect(source.includes('Häufige Kategorien')).toBe(true);
 	expect(source.includes('Feldfilter:')).toBe(true);
-});
-
-test('offers a fuzziness slider', () => {
-	const source = fs.readFileSync(
-		path.resolve(process.cwd(), 'src/routes/content/search/+page.svelte'),
-		'utf8'
-	);
-
-	expect(source.includes('Unschärfe')).toBe(true);
-	expect(source.includes('type="range"')).toBe(true);
-	expect(source).toMatch(/params\.set\('fuzziness'/);
-});
-
-test('does not describe the category filters as hand-picked', () => {
-	const source = fs.readFileSync(
-		path.resolve(process.cwd(), 'src/routes/content/search/+page.svelte'),
-		'utf8'
-	);
-
-	expect(source.includes('Handverlesene')).toBe(false);
 });

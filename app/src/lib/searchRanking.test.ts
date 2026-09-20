@@ -47,23 +47,16 @@ const records = [
 ];
 
 describe('searchRanking', () => {
-	test('passes the fuzziness level on to the text search', () => {
-		const titlesFor = (fuzziness?: number) =>
-			runSearchRanking(records, parseSearchQuery('zeremonjen'), {
-				includeCategories: false,
-				includeContent: false,
-				sort: 'relevance',
-				fuzziness,
-				activeFilters: { domains: [], pageTypes: [], categories: [] }
-			}).results.map((result) => result.item.title);
-
-		expect(titlesFor(0)).toEqual([]);
-		expect(titlesFor(1)).toEqual(['Dur-Uspil Zeremonien']);
-		expect(titlesFor()).toEqual(['Dur-Uspil Zeremonien']);
-	});
+	const titlesFor = (query: string, options: { includeContent?: boolean } = {}) =>
+		runSearchRanking(records, parseSearchQuery(query), {
+			includeCategories: true,
+			includeContent: options.includeContent ?? true,
+			sort: 'relevance',
+			activeFilters: { domains: [], pageTypes: [], categories: [] }
+		}).results.map((result) => result.item.title);
 
 	test('matches path and category filters', () => {
-		const pathFiltered = runSearchRanking(records, parseSearchQuery('path:Sodili'), {
+		const pathFiltered = runSearchRanking(records, parseSearchQuery('pfad:Sodili'), {
 			includeCategories: true,
 			includeContent: true,
 			sort: 'relevance',
@@ -80,7 +73,7 @@ describe('searchRanking', () => {
 
 		const categoryFiltered = runSearchRanking(
 			records,
-			parseSearchQuery('category:Rituale category:Orte'),
+			parseSearchQuery('kategorie:Rituale kategorie:Orte'),
 			{
 				includeCategories: true,
 				includeContent: true,
@@ -159,19 +152,23 @@ describe('searchRanking', () => {
 		expect(uiFiltered.results.map((result) => result.item.title)).toEqual(['Dur-Uspil Zeremonien']);
 	});
 
-	test('maps curated category aliases during filtering', () => {
-		const curatedCategoryFiltered = runSearchRanking(records, parseSearchQuery('Do Uspil'), {
-			includeCategories: true,
-			includeContent: true,
-			sort: 'relevance',
-			activeFilters: {
-				domains: [],
-				pageTypes: [],
-				categories: ['charaktere']
-			}
-		});
-		expect(curatedCategoryFiltered.results.map((result) => result.item.title)).toEqual([
-			'Akils-Anfänge'
-		]);
+	test('a quoted phrase must match exactly, without typo tolerance', () => {
+		expect(titlesFor('"Dur Uspil"')).toEqual(['Dur-Uspil Zeremonien']);
+		expect(titlesFor('"Zeremonjen"')).toEqual([]);
+		expect(titlesFor('Zeremonjen')).toEqual(['Dur-Uspil Zeremonien']);
+	});
+
+	test('a phrase narrows the results that the remaining words then rank', () => {
+		expect(titlesFor('"uspil" Sodili')).toEqual(['Dur-Uspil Zeremonien']);
+	});
+
+	test('a phrase only looks where the search looks', () => {
+		expect(titlesFor('"do uspil"', { includeContent: false })).toEqual([]);
+		expect(titlesFor('"do uspil"')).toEqual(['Akils-Anfänge']);
+	});
+
+	test('the type filter accepts the German page type labels', () => {
+		expect(titlesFor('typ:Artikel')).toEqual(['Dur-Uspil Zeremonien', 'Arkten', 'Akils-Anfänge']);
+		expect(titlesFor('typ:Übersicht')).toEqual(['Sodili Übersicht']);
 	});
 });

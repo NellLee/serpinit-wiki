@@ -10,6 +10,7 @@
 		contentHtml: string;
 		overviewHtml: string | null;
 		contentMinHeight?: string;
+		tags?: Array<{ text: string; href: string }>;
 	}
 
 	let {
@@ -17,7 +18,8 @@
 		fancyBoxGallery = true,
 		contentHtml,
 		overviewHtml,
-		contentMinHeight = '70vh'
+		contentMinHeight = '70vh',
+		tags = []
 	}: Props = $props();
 
 	onMount(() => {
@@ -45,6 +47,13 @@
 		{/if}
 		<div class="header">
 			<h1>{title}</h1>
+			{#if tags.length > 0}
+				<ul class="tags" aria-label="Kategorien">
+					{#each tags as tag}
+						<li><a href={tag.href}>{tag.text}</a></li>
+					{/each}
+				</ul>
+			{/if}
 		</div>
 		<div id="content" style="min-height: {contentMinHeight}">
 			<div lang="de" id="content-html">
@@ -93,6 +102,31 @@
 						font-size: clamp(2.1rem, 3.2vw, 3rem);
 						letter-spacing: -0.03em;
 						text-align: left;
+					}
+				}
+
+				.tags {
+					display: flex;
+					flex-wrap: wrap;
+					gap: 0.4rem;
+					margin: 0.7rem 0 0;
+					padding: 0;
+					list-style: none;
+
+					a {
+						display: inline-block;
+						padding: 0.2rem 0.7rem;
+						border: 1px solid var(--border-subtle);
+						border-radius: 999px;
+						background: var(--surface-raised);
+						color: var(--text-muted);
+						font-size: 0.82rem;
+						text-decoration: none;
+
+						&:hover {
+							border-color: var(--primary-color);
+							color: var(--primary-color);
+						}
 					}
 				}
 			}

@@ -14,7 +14,7 @@ describe('generateBreadcrumbs', () => {
 	});
 
 	test('a folder without a folder-tag hook is not a tag folder', () => {
-		const breadcrumbs = generateBreadcrumbs('/content/Allgemein/Magie/index.md');
+		const breadcrumbs = generateBreadcrumbs('/content/Allgemein/Zeit.md');
 
 		expect(breadcrumbs.every((crumb) => crumb.tagFolder === false)).toBe(true);
 	});

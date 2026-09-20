@@ -1,6 +1,11 @@
 import type { ParsedSearchQuery, SearchFieldFilterKey } from './searchContracts';
 
-const FIELD_FILTER_KEYS = new Set<SearchFieldFilterKey>(['title', 'category', 'path', 'type']);
+const FIELD_KEYWORDS: Record<string, SearchFieldFilterKey> = {
+	titel: 'title',
+	kategorie: 'category',
+	pfad: 'path',
+	typ: 'type'
+};
 
 function createEmptyParsedSearchQuery(rawQuery: string): ParsedSearchQuery {
 	return {
@@ -55,7 +60,10 @@ function readTokenValue(query: string, startIndex: number): { value: string; nex
 	};
 }
 
-function readSyntacticUnit(query: string, startIndex: number): {
+function readSyntacticUnit(
+	query: string,
+	startIndex: number
+): {
 	value: string;
 	nextIndex: number;
 	quoted: boolean;
@@ -87,18 +95,15 @@ export function parseSearchQuery(rawQuery: string): ParsedSearchQuery {
 			continue;
 		}
 
-		const fieldMatch = rawQuery.slice(index).match(/^(title|category|path|type):/);
+		const fieldMatch = rawQuery.slice(index).match(/^(titel|kategorie|pfad|typ):/i);
 		if (fieldMatch) {
-			const fieldKey = fieldMatch[1] as SearchFieldFilterKey;
-			if (FIELD_FILTER_KEYS.has(fieldKey)) {
-				const valueStart = index + fieldMatch[0].length;
-				const unit = readSyntacticUnit(rawQuery, valueStart);
-				if (unit.value) {
-					parsedQuery.fieldFilters[fieldKey].push(unit.value);
-				}
-				index = unit.nextIndex;
-				continue;
+			const fieldKey = FIELD_KEYWORDS[fieldMatch[1].toLowerCase()];
+			const unit = readSyntacticUnit(rawQuery, index + fieldMatch[0].length);
+			if (unit.value) {
+				parsedQuery.fieldFilters[fieldKey].push(unit.value);
 			}
+			index = unit.nextIndex;
+			continue;
 		}
 
 		if (rawQuery[index] === '-') {

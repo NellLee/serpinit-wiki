@@ -133,6 +133,15 @@ export function buildHighlightedHtml(text: string, ranges: HighlightRange[]): st
 	return result;
 }
 
+export function getExactHighlightRanges(text: string, phrase: string): HighlightRange[] {
+	const normalizedPhrase = normalizeSearchText(phrase);
+	if (normalizedPhrase.length === 0) {
+		return [];
+	}
+
+	return findExactNormalizedMatchRanges(normalizeSearchTextWithIndexMap(text), normalizedPhrase);
+}
+
 export function getFuzzyHighlightRanges(text: string, query: string): HighlightRange[] {
 	const normalizedQuery = normalizeSearchText(query);
 	if (normalizedQuery.length === 0) {
@@ -336,31 +345,9 @@ function getTitleHighlights(
 	return findControlledHighlightRanges(result.item.title, query);
 }
 
-// Each level scales the base threshold of a search mode: 0 finds only exact text, level 2 is
-// the behavior from before the slider existed.
-const FUZZINESS_FACTORS = [0, 0.5, 1, 1.5, 2];
-export const DEFAULT_FUZZINESS = 2;
-export const MAX_FUZZINESS = FUZZINESS_FACTORS.length - 1;
-
-export function normalizeFuzziness(value: unknown): number {
-	if (value === null || value === undefined || (typeof value === 'string' && value.trim() === '')) {
-		return DEFAULT_FUZZINESS;
-	}
-
-	const level = Number(value);
-	return Number.isInteger(level) && level >= 0 && level <= MAX_FUZZINESS
-		? level
-		: DEFAULT_FUZZINESS;
-}
-
-export type SearchIndexOptions = {
-	fuzziness?: number;
-};
-
 function createFuse(
 	documents: IndexedSearchDocument[],
-	mode: SearchMode,
-	fuzziness: number
+	mode: SearchMode
 ): Fuse<IndexedSearchDocument> {
 	const keys =
 		mode === 'title'
@@ -378,7 +365,7 @@ function createFuse(
 
 	return new Fuse(documents, {
 		keys,
-		threshold: (mode === 'full' ? 0.32 : 0.24) * FUZZINESS_FACTORS[fuzziness],
+		threshold: mode === 'full' ? 0.32 : 0.24,
 		ignoreLocation: true,
 		includeScore: true,
 		includeMatches: true,
@@ -388,11 +375,7 @@ function createFuse(
 	});
 }
 
-export function buildSearchIndex(
-	documents: SearchDocument[],
-	options: SearchIndexOptions = {}
-): SearchCoreIndex {
-	const fuzziness = normalizeFuzziness(options.fuzziness);
+export function buildSearchIndex(documents: SearchDocument[]): SearchCoreIndex {
 	const indexedDocuments = documents.map((document) => {
 		const normalizedTitle = normalizeSearchTextWithIndexMap(document.title);
 		return {
@@ -406,9 +389,9 @@ export function buildSearchIndex(
 
 	return {
 		documents: indexedDocuments,
-		titleIndex: createFuse(indexedDocuments, 'title', fuzziness),
-		titleCategoryIndex: createFuse(indexedDocuments, 'title+categories', fuzziness),
-		fullIndex: createFuse(indexedDocuments, 'full', fuzziness)
+		titleIndex: createFuse(indexedDocuments, 'title'),
+		titleCategoryIndex: createFuse(indexedDocuments, 'title+categories'),
+		fullIndex: createFuse(indexedDocuments, 'full')
 	};
 }
 

@@ -1,6 +1,11 @@
-import { buildSearchIndex, normalizeSearchText, searchDocuments } from './searchCore';
+import {
+	buildSearchIndex,
+	getExactHighlightRanges,
+	normalizeSearchText,
+	searchDocuments
+} from './searchCore';
 import type { PageClass } from './presentation/pagePresentation';
-import { expandCuratedCategoryFilter, type SearchDomainInfo } from './searchDerivedData';
+import { getPageTypeLabel, type SearchDomainInfo } from './searchDerivedData';
 import type { ParsedSearchQuery, SearchSortMode } from './searchContracts';
 
 export type SearchRankingRecord = {
@@ -18,7 +23,6 @@ export type SearchRankingOptions = {
 	includeCategories: boolean;
 	includeContent: boolean;
 	sort: SearchSortMode;
-	fuzziness?: number;
 	activeFilters: {
 		domains: string[];
 		pageTypes: string[];
@@ -46,8 +50,7 @@ function matchesCategoryFilters(record: SearchRankingRecord, filters: string[]):
 		return true;
 	}
 
-	const expandedFilters = filters.flatMap(expandCuratedCategoryFilter);
-	return record.categories.some((category) => matchesAnyNormalizedValue(category, expandedFilters));
+	return record.categories.some((category) => matchesAnyNormalizedValue(category, filters));
 }
 
 function matchesPathFilters(record: SearchRankingRecord, filters: string[]): boolean {
@@ -64,9 +67,8 @@ function matchesTypeFilters(record: SearchRankingRecord, filters: string[]): boo
 		return true;
 	}
 
-	return filters.some(
-		(filterValue) => normalizeSearchText(filterValue) === normalizeSearchText(record.pageClass)
-	);
+	const typeNames = [record.pageClass, getPageTypeLabel(record.pageClass)].map(normalizeSearchText);
+	return filters.some((filterValue) => typeNames.includes(normalizeSearchText(filterValue)));
 }
 
 function matchesDomainFilters(record: SearchRankingRecord, filters: string[]): boolean {
@@ -101,6 +103,29 @@ function matchesExclusion(record: SearchRankingRecord, exclusions: string[]): bo
 		.join(' ');
 
 	return exclusions.some((exclusion) => haystack.includes(normalizeSearchText(exclusion)));
+}
+
+// Quoted phrases are exact: they must appear (ignoring case, umlauts and punctuation) in the
+// fields the search looks at, and they get no typo tolerance.
+function matchesPhrases(
+	record: SearchRankingRecord,
+	phrases: string[],
+	options: { includeCategories: boolean; includeContent: boolean }
+): boolean {
+	if (phrases.length === 0) {
+		return true;
+	}
+
+	const fields = [
+		record.title,
+		...(options.includeCategories ? record.categories : []),
+		...(options.includeContent ? [record.contentText] : [])
+	].map(normalizeSearchText);
+
+	return phrases.every((phrase) => {
+		const normalizedPhrase = normalizeSearchText(phrase);
+		return fields.some((field) => field.includes(normalizedPhrase));
+	});
 }
 
 function compareGerman(left: string, right: string): number {
@@ -160,20 +185,29 @@ export function runSearchRanking(
 		if (matchesExclusion(record, parsedQuery.exclusions)) {
 			return false;
 		}
+		if (!matchesPhrases(record, parsedQuery.phrases, options)) {
+			return false;
+		}
 
 		return true;
 	});
 
-	const freeTextQuery = [...parsedQuery.freeTextTerms, ...parsedQuery.phrases].join(' ').trim();
+	const freeTextQuery = parsedQuery.freeTextTerms.join(' ').trim();
 	if (!freeTextQuery) {
-		return {
-			results: sortResults(
-				filteredRecords.map((record) => ({
-					item: record
-				})),
-				options.sort
-			)
-		};
+		const phraseResults = filteredRecords.map((record) => {
+			const titleHighlights = parsedQuery.phrases.flatMap((phrase) =>
+				getExactHighlightRanges(record.title, phrase)
+			);
+			return {
+				item: record,
+				titleHighlights: titleHighlights.length > 0 ? titleHighlights : undefined
+			};
+		});
+		// Pages that carry the phrase in their title come first (the sort is stable).
+		phraseResults.sort(
+			(left, right) => Number(right.titleHighlights != null) - Number(left.titleHighlights != null)
+		);
+		return { results: sortResults(phraseResults, options.sort) };
 	}
 
 	const index = buildSearchIndex(
@@ -183,8 +217,7 @@ export function runSearchRanking(
 			categories: record.categories,
 			contentText: record.contentText,
 			contentHtml: record.contentHtml
-		})),
-		{ fuzziness: options.fuzziness }
+		}))
 	);
 
 	const searchResults = searchDocuments(index, freeTextQuery, {

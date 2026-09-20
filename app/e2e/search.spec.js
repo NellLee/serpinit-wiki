@@ -18,12 +18,8 @@ test.describe('search page hints', () => {
 		await page.waitForLoadState('networkidle');
 	});
 
-	test('no longer calls the category filters hand-picked', async ({ page }) => {
-		await expect(page.getByText('Handverlesene')).toHaveCount(0);
-	});
-
-	test('the category: hint lists all available categories on hover', async ({ page }) => {
-		await hint(page, 'category:').hover();
+	test('the kategorie: hint lists all available categories on hover', async ({ page }) => {
+		await hint(page, 'kategorie:').hover();
 		const tooltip = page.locator('#hint-category');
 
 		await expect(tooltip).toBeVisible();
@@ -31,13 +27,15 @@ test.describe('search page hints', () => {
 		await expect(tooltip.locator('.category-list li', { hasText: 'Fauna' })).toBeVisible(SLOW);
 		await expect(tooltip.locator('.category-list li', { hasText: 'Charakter' })).toBeVisible();
 		await expect(tooltip.locator('.category-list li', { hasText: 'Zirkelgründer' })).toBeVisible();
+		await expect(tooltip.locator('.category-list li', { hasText: 'Magie' })).toBeVisible();
+		await expect(tooltip.locator('.category-list li', { hasText: 'Theologie' })).toBeVisible();
 	});
 
-	test('the path: hint shows examples', async ({ page }) => {
-		await hint(page, 'path:').hover();
+	test('the pfad: hint shows examples', async ({ page }) => {
+		await hint(page, 'pfad:').hover();
 
 		await expect(page.locator('#hint-path')).toBeVisible();
-		await expect(page.locator('#hint-path')).toContainText('path:Sodili/Charakter');
+		await expect(page.locator('#hint-path')).toContainText('pfad:Sodili/Charakter');
 	});
 
 	test('the -Ausschluss hint shows examples', async ({ page }) => {
@@ -47,12 +45,12 @@ test.describe('search page hints', () => {
 		await expect(page.locator('#hint-exclusion')).toContainText('Krieg -Navura');
 	});
 
-	test('the type: hint names the page types', async ({ page }) => {
-		await hint(page, 'type:').hover();
+	test('the typ: hint names the page types', async ({ page }) => {
+		await hint(page, 'typ:').hover();
 		const tooltip = page.locator('#hint-type');
 
 		await expect(tooltip).toBeVisible();
-		for (const type of ['article', 'index', 'media', 'hub']) {
+		for (const type of ['Artikel', 'Übersicht']) {
 			await expect(tooltip.locator('code', { hasText: new RegExp(`^${type}$`) })).toBeVisible();
 		}
 	});
@@ -60,7 +58,7 @@ test.describe('search page hints', () => {
 	test('a hint stays hidden until it is hovered or focused', async ({ page }) => {
 		await expect(page.locator('#hint-title')).toBeHidden();
 
-		await page.getByRole('button', { name: 'title:', exact: true }).focus();
+		await page.getByRole('button', { name: 'titel:', exact: true }).focus();
 		await expect(page.locator('#hint-title')).toBeVisible();
 
 		await page.keyboard.press('Escape');
@@ -68,46 +66,49 @@ test.describe('search page hints', () => {
 	});
 
 	test('a tooltip stays open while the pointer moves into it', async ({ page }) => {
-		await hint(page, 'path:').hover();
+		await hint(page, 'pfad:').hover();
 		await page.locator('#hint-path .tooltip-box').hover();
 
 		await expect(page.locator('#hint-path')).toBeVisible();
 	});
 });
 
-test.describe('search fuzziness', () => {
-	test('starts at the normal level and shows its name', async ({ page }) => {
-		await page.goto('/content/search');
+test.describe('search behavior', () => {
+	test('a quoted phrase finds only the exact wording', async ({ page }) => {
+		await page.goto('/content/search?q=%22Krieg+um+Navura%22');
+		await expect(page.locator('.results-header p')).toContainText('Ergebnis', SLOW);
+		await expect(page.getByText('Keine Treffer gefunden.')).toHaveCount(0);
 
-		await expect(page.locator('.fuzziness-control input[type="range"]')).toHaveValue('2');
-		await expect(page.locator('.fuzziness-control strong')).toHaveText('Normal');
-	});
-
-	test('a typo is found at the normal level but not at the exact level', async ({ page }) => {
-		await page.goto('/content/search?q=Vorenkei');
-		await page.waitForLoadState('networkidle');
-		await expect(page.getByText('Keine Treffer gefunden.')).toHaveCount(0, SLOW);
-		await expect(page.locator('.results-header h2')).toContainText('Treffer für "Vorenkei"', SLOW);
-
-		const slider = page.locator('.fuzziness-control input[type="range"]');
-		await slider.focus();
-		await page.keyboard.press('Home');
-
-		await expect(page).toHaveURL(/fuzziness=0/);
-		await expect(page.locator('.fuzziness-control strong')).toHaveText('Exakt');
+		await page.goto('/content/search?q=%22Krieg+um+Navora%22');
 		await expect(page.getByText('Keine Treffer gefunden.')).toBeVisible(SLOW);
 	});
 
-	test('the chosen level survives a reload', async ({ page }) => {
-		await page.goto('/content/search?q=Vorenkai&fuzziness=1');
+	test('a typo is still forgiven without quotes', async ({ page }) => {
+		await page.goto('/content/search?q=Krieg+um+Navurra');
 
-		await expect(page.locator('.fuzziness-control input[type="range"]')).toHaveValue('1');
-		await expect(page.locator('.fuzziness-control strong')).toHaveText('Streng');
+		await expect(page.locator('.results-header p')).toContainText('Ergebnis', SLOW);
+		await expect(page.getByText('Keine Treffer gefunden.')).toHaveCount(0);
 	});
 
-	test('an invalid level falls back to the normal level', async ({ page }) => {
-		await page.goto('/content/search?q=Vorenkai&fuzziness=99');
+	test('lists the frequent categories under the results', async ({ page }) => {
+		await page.goto('/content/search?q=Vorenkai');
 
-		await expect(page.locator('.fuzziness-control input[type="range"]')).toHaveValue('2');
+		const group = page.locator('.facet-group', { hasText: 'Häufige Kategorien' });
+		await expect(group).toBeVisible(SLOW);
+		await expect(group.locator('.facet-option', { hasText: 'Charakter' })).toBeVisible();
+	});
+});
+
+test.describe('category chips on a page', () => {
+	test('a page shows its explicit tags and links to the filtered search', async ({ page }) => {
+		await page.goto('/content/Himmelskörper/Agranum/Fauna/Fantohler/index.md');
+		const chip = page.locator('.content-card .tags a', { hasText: 'Fauna' });
+
+		await expect(chip).toBeVisible(SLOW);
+		await expect(page.locator('.content-card .tags a', { hasText: 'Fantohler' })).toHaveCount(0);
+
+		await chip.click();
+		await expect(page).toHaveURL(/kategorie/);
+		await expect(page.locator('.results-header h2')).toContainText('kategorie:Fauna', SLOW);
 	});
 });

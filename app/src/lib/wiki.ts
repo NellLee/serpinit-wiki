@@ -18,10 +18,10 @@ import {
 	buildDerivedRecord,
 	buildFacetCatalogs,
 	getPageTypeLabel,
+	selectFrequentCategories,
 	type SearchDerivedRecord
 } from './searchDerivedData';
 import { getContentPagePresentation, type PageClass } from './presentation/pagePresentation';
-import { normalizeFuzziness } from './searchCore';
 import { parseSearchQuery } from './searchQuery';
 import { runSearchRanking } from './searchRanking';
 import { buildZeroResultSuggestions } from './searchZeroResults';
@@ -29,6 +29,7 @@ import type {
 	SearchActiveFilters,
 	SearchApiResponse,
 	SearchCatalog,
+	SearchFacetValue,
 	SearchPreviewResponse,
 	SearchResultPayload,
 	SearchSortMode
@@ -42,6 +43,7 @@ let initialized = false;
 let initializationPromise: Promise<void> | null = null;
 let searchIndexDirty = true;
 let searchRecords: SearchDerivedRecord[] = [];
+let frequentCategories: SearchFacetValue[] = [];
 
 export const WIKI_PATH = path.resolve(__dirname, '../../../content');
 
@@ -136,7 +138,6 @@ type SearchWikiOptions = {
 	includeCategories?: boolean;
 	includeContent?: boolean;
 	sort?: SearchSortMode;
-	fuzziness?: number;
 	activeFilters?: Partial<SearchActiveFilters>;
 };
 
@@ -156,6 +157,7 @@ function ensureSearchState() {
 			contentHtml: page.contentHtml
 		})
 	);
+	frequentCategories = selectFrequentCategories(getSearchCatalog().categories);
 	searchIndexDirty = false;
 }
 
@@ -166,8 +168,7 @@ function createActiveFilters(options: SearchWikiOptions | undefined): SearchActi
 		categories: options?.activeFilters?.categories ?? [],
 		includeTitle: true,
 		includeCategories: options?.includeCategories ?? true,
-		includeContent: options?.includeContent ?? true,
-		fuzziness: normalizeFuzziness(options?.fuzziness)
+		includeContent: options?.includeContent ?? true
 	};
 }
 
@@ -214,14 +215,16 @@ export function search(
 		includeCategories: activeFilters.includeCategories,
 		includeContent: activeFilters.includeContent,
 		sort,
-		fuzziness: activeFilters.fuzziness,
 		activeFilters: {
 			domains: activeFilters.domains,
 			pageTypes: activeFilters.pageTypes,
 			categories: activeFilters.categories
 		}
 	});
-	const responseFacets = buildFacetCatalogs(rankingOutput.results.map((result) => result.item));
+	const responseFacets = buildFacetCatalogs(
+		rankingOutput.results.map((result) => result.item),
+		frequentCategories
+	);
 
 	return {
 		query,

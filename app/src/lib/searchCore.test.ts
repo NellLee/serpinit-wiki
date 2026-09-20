@@ -4,8 +4,6 @@ import { describe, expect, test } from 'vitest';
 import {
 	buildHighlightedHtml,
 	buildSearchIndex,
-	DEFAULT_FUZZINESS,
-	normalizeFuzziness,
 	normalizeSearchText,
 	searchDocuments
 } from './searchCore';
@@ -111,49 +109,5 @@ describe('searchCore', () => {
 		const searchbarSource = readAppFile('src/lib/components/Searchbar.svelte');
 		expect(searchbarSource).toMatch(/SearchPreviewResponse/);
 		expect(searchbarSource).toMatch(/previewResponse\.results/);
-	});
-});
-
-describe('search fuzziness', () => {
-	const titlesFound = (fuzziness: number, query: string) =>
-		searchDocuments(buildSearchIndex(documents, { fuzziness }), query).map(
-			(result) => result.item.title
-		);
-
-	test('level 0 only finds text that matches exactly', () => {
-		expect(titlesFound(0, 'himmelskoerper')).toEqual(['Himmelskörper']);
-		expect(titlesFound(0, 'zeremon')).toEqual(['Dur-Uspil Zeremonien']);
-		expect(titlesFound(0, 'himmelskoper')).toEqual([]);
-	});
-
-	test('level 1 forgives one typo but not two', () => {
-		expect(titlesFound(1, 'himmelskoper')).toEqual(['Himmelskörper']);
-		expect(titlesFound(1, 'himmalskoper')).toEqual([]);
-	});
-
-	test('level 2 forgives two typos', () => {
-		expect(titlesFound(2, 'himmalskoper')).toEqual(['Himmelskörper']);
-	});
-
-	test('higher levels find more than lower levels', () => {
-		expect(titlesFound(1, 'himel')).toEqual([]);
-		expect(titlesFound(3, 'himel')).toEqual(['Himmelskörper']);
-	});
-
-	test('the default level equals the behavior before the slider existed', () => {
-		expect(DEFAULT_FUZZINESS).toBe(2);
-		for (const query of ['himmelskoper', 'himmalskoper', 'voelker', 'zeremon']) {
-			expect(searchDocuments(buildSearchIndex(documents), query)).toEqual(
-				searchDocuments(buildSearchIndex(documents, { fuzziness: DEFAULT_FUZZINESS }), query)
-			);
-		}
-	});
-
-	test('invalid levels fall back to the default level', () => {
-		expect(normalizeFuzziness('3')).toBe(3);
-		expect(normalizeFuzziness(0)).toBe(0);
-		for (const invalid of [-1, 5, 1.5, 'abc', '', null, undefined, NaN]) {
-			expect(normalizeFuzziness(invalid)).toBe(DEFAULT_FUZZINESS);
-		}
 	});
 });

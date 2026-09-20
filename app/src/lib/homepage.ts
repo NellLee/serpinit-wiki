@@ -59,7 +59,7 @@ export function getHomepageData(): HomepageData {
 		],
 		utilityLinks: [
 			{
-				title: 'Timeline',
+				title: 'Zeitleiste',
 				description: 'Geschichte visuell erkunden.',
 				href: '/content/timeline'
 			},
@@ -69,7 +69,7 @@ export function getHomepageData(): HomepageData {
 				href: '/content/search'
 			},
 			{
-				title: 'Converter',
+				title: 'Umrechner',
 				description: 'Zwischen Schriftsystemen und Formaten wechseln.',
 				href: '/convert'
 			}

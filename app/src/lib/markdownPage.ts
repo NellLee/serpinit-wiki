@@ -416,6 +416,7 @@ export class MarkdownPage {
 			markdown: this.markdown,
 			breadcrumbs: this.breadcrumbs,
 			title: this.title,
+			tags: this.tags,
 			toc: this.toc,
 			references: this.references,
 			href: this.href,

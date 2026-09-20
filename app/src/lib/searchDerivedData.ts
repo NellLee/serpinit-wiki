@@ -2,23 +2,8 @@ import type { PageClass } from './presentation/pagePresentation';
 import { normalizeSearchText } from './searchCore';
 
 const MEDIA_BRANCHES = new Set(['gallery', 'galleries', 'images']);
-const CURATED_CATEGORY_DEFINITIONS = [
-	{ key: 'charaktere', label: 'Charaktere', sourceKeys: ['charakter', 'charaktere'] },
-	{ key: 'clans', label: 'Clans', sourceKeys: ['clan'] },
-	{ key: 'dynastien', label: 'Dynastien', sourceKeys: ['dynastie'] },
-	{ key: 'familien', label: 'Familien', sourceKeys: ['familie'] },
-	{ key: 'fauna', label: 'Fauna', sourceKeys: ['fauna'] },
-	{ key: 'flora', label: 'Flora', sourceKeys: ['flora'] },
-	{ key: 'gebirge', label: 'Gebirge', sourceKeys: ['gebirge'] },
-	{ key: 'kontinente', label: 'Kontinente', sourceKeys: ['kontinent'] },
-	{ key: 'doerfer', label: 'Dörfer', sourceKeys: ['dorf'] },
-	{ key: 'seen', label: 'Seen', sourceKeys: ['see'] },
-	{ key: 'magie', label: 'Magie', sourceKeys: ['magie'] },
-	{ key: 'theologie', label: 'Theologie', sourceKeys: ['theologie'] }
-] as const;
-const CURATED_CATEGORY_SOURCE_KEYS = new Map<string, string[]>(
-	CURATED_CATEGORY_DEFINITIONS.map((definition) => [definition.key, [...definition.sourceKeys]])
-);
+// A category counts as frequent when more than this many pages carry it.
+const FREQUENT_CATEGORY_THRESHOLD = 1;
 
 export type SearchDomainInfo = {
 	key: string;
@@ -53,18 +38,14 @@ export type SearchDerivedRecord = SearchFacetSource & {
 
 const PAGE_TYPE_LABELS: Record<PageClass, string> = {
 	article: 'Artikel',
-	hub: 'Hub',
-	index: 'Index',
+	hub: 'Startseite',
+	index: 'Übersicht',
 	media: 'Medien',
 	utility: 'Werkzeug'
 };
 
 export function getPageTypeLabel(pageClass: PageClass): string {
 	return PAGE_TYPE_LABELS[pageClass];
-}
-
-export function expandCuratedCategoryFilter(filterKey: string): string[] {
-	return CURATED_CATEGORY_SOURCE_KEYS.get(filterKey) ?? [filterKey];
 }
 
 function compareGermanLabels(left: string, right: string): number {
@@ -147,10 +128,17 @@ export function buildCategoryCatalog(
 	return buildFacetValues(catalog);
 }
 
-export function buildFacetCatalogs(entries: SearchFacetSource[]): SearchFacetCatalogs {
+export function selectFrequentCategories(catalog: SearchFacetValue[]): SearchFacetValue[] {
+	return catalog.filter((category) => category.count > FREQUENT_CATEGORY_THRESHOLD);
+}
+
+export function buildFacetCatalogs(
+	entries: SearchFacetSource[],
+	categoryCatalog: SearchFacetValue[] = []
+): SearchFacetCatalogs {
 	const domains = new Map<string, SearchFacetValue>();
 	const pageTypes = new Map<string, SearchFacetValue>();
-	const rawCategoryCounts = new Map<string, number>();
+	const categoryCounts = new Map<string, number>();
 
 	for (const entry of entries) {
 		const domainFacet = domains.get(entry.domain.key) ?? {
@@ -169,20 +157,14 @@ export function buildFacetCatalogs(entries: SearchFacetSource[]): SearchFacetCat
 		pageTypeFacet.count++;
 		pageTypes.set(entry.pageClass, pageTypeFacet);
 
-		for (const category of entry.categories) {
-			const categoryKey = normalizeSearchText(category);
-			rawCategoryCounts.set(categoryKey, (rawCategoryCounts.get(categoryKey) ?? 0) + 1);
+		for (const categoryKey of new Set(entry.categories.map(normalizeSearchText))) {
+			categoryCounts.set(categoryKey, (categoryCounts.get(categoryKey) ?? 0) + 1);
 		}
 	}
 
-	const categories = CURATED_CATEGORY_DEFINITIONS.map((definition) => ({
-		key: definition.key,
-		label: definition.label,
-		count: definition.sourceKeys.reduce(
-			(total, sourceKey) => total + (rawCategoryCounts.get(sourceKey) ?? 0),
-			0
-		)
-	})).filter((facet) => facet.count > 0);
+	const categories = categoryCatalog
+		.map((category) => ({ ...category, count: categoryCounts.get(category.key) ?? 0 }))
+		.filter((facet) => facet.count > 0);
 
 	return {
 		domains: buildFacetValues(domains),
@@ -205,7 +187,8 @@ export function buildDerivedRecord(entry: {
 		href: entry.href,
 		path: entry.path,
 		domain: deriveDomainInfo(entry.path),
-		pageClass: entry.pageClass,
+		// The start page is the only hub, and a filter with a single page is of no use.
+		pageClass: entry.pageClass === 'hub' ? 'index' : entry.pageClass,
 		categories: entry.categories,
 		contentText: entry.contentText,
 		contentHtml: entry.contentHtml

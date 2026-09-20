@@ -17,9 +17,9 @@ describe('homepage', () => {
 		expect(homepageData.utilityLinks.length).toBe(3);
 		expect(homepageData.stats.length).toBe(0);
 		expect(homepageData.utilityLinks.map((item) => item.title)).toEqual([
-			'Timeline',
+			'Zeitleiste',
 			'Suche',
-			'Converter'
+			'Umrechner'
 		]);
 
 		for (const item of homepageData.primaryBrowse) {

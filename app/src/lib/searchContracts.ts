@@ -23,7 +23,6 @@ export type SearchActiveFilters = {
 	includeTitle: boolean;
 	includeCategories: boolean;
 	includeContent: boolean;
-	fuzziness: number;
 };
 
 export type SearchSuggestions = {

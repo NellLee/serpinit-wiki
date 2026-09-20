@@ -15,13 +15,10 @@
 	let includeCategories = $state(data.activeFilters.includeCategories);
 	let includeContent = $state(data.activeFilters.includeContent);
 	let sortInput = $state(data.sort);
-	let fuzzinessInput = $state(data.activeFilters.fuzziness);
 	let selectedDomains = $state([...data.activeFilters.domains]);
 	let selectedPageTypes = $state([...data.activeFilters.pageTypes]);
 	let selectedCategories = $state([...data.activeFilters.categories]);
 	/* eslint-enable svelte/valid-compile */
-
-	const fuzzinessLabels = ['Exakt', 'Streng', 'Normal', 'Locker', 'Sehr locker'];
 
 	// The category list is only needed for the tooltip, so it must not delay the page.
 	let catalog: SearchCatalog | null = $state(null);
@@ -68,22 +65,22 @@
 		...data.parsedQuery.fieldFilters.title.map((value) => ({
 			kind: 'title',
 			value,
-			label: `title:${value}`
+			label: `titel:${value}`
 		})),
 		...data.parsedQuery.fieldFilters.category.map((value) => ({
 			kind: 'query-category',
 			value,
-			label: `category:${value}`
+			label: `kategorie:${value}`
 		})),
 		...data.parsedQuery.fieldFilters.path.map((value) => ({
 			kind: 'path',
 			value,
-			label: `path:${value}`
+			label: `pfad:${value}`
 		})),
 		...data.parsedQuery.fieldFilters.type.map((value) => ({
 			kind: 'type',
 			value,
-			label: `type:${value}`
+			label: `typ:${value}`
 		})),
 		...data.parsedQuery.exclusions.map((value) => ({
 			kind: 'query',
@@ -113,7 +110,6 @@
 		params.set('includeCategories', includeCategories ? 'true' : 'false');
 		params.set('includeContent', includeContent ? 'true' : 'false');
 		params.set('sort', sortInput);
-		params.set('fuzziness', String(fuzzinessInput));
 
 		for (const domain of selectedDomains) {
 			params.append('domain', domain);
@@ -186,12 +182,12 @@
 							<strong>Feldfilter:</strong>
 							<HintTooltip id="hint-phrase" label={'"Zitat"'}>
 								<p>
-									Anführungszeichen halten Wörter mit Leerzeichen zusammen, vor allem bei
-									Feldfiltern.
+									Findet genau diese Wortfolge, ohne Fehlertoleranz. Auch für Feldfilter mit
+									Leerzeichen.
 								</p>
 								<ul class="examples">
 									<li><code>"Krieg um Navura"</code></li>
-									<li><code>title:"Krieg um Navura"</code></li>
+									<li><code>titel:"Krieg um Navura"</code></li>
 								</ul>
 							</HintTooltip>
 							<HintTooltip id="hint-exclusion" label="-Ausschluss">
@@ -204,16 +200,16 @@
 									<li><code>Magie -Rune</code></li>
 								</ul>
 							</HintTooltip>
-							<HintTooltip id="hint-title" label="title:">
+							<HintTooltip id="hint-title" label="titel:">
 								<p>Nur Seiten, deren Titel den Begriff enthält.</p>
 								<ul class="examples">
-									<li><code>title:Vorenkai</code></li>
+									<li><code>titel:Vorenkai</code></li>
 									<li>
-										<code>title:Krieg Navura</code> (Titel enthält „Krieg“, Text enthält „Navura“)
+										<code>titel:Krieg Navura</code> (Titel enthält „Krieg“, Text enthält „Navura“)
 									</li>
 								</ul>
 							</HintTooltip>
-							<HintTooltip id="hint-category" label="category:">
+							<HintTooltip id="hint-category" label="kategorie:">
 								<p>Nur Seiten mit dieser Kategorie. Auch Seitennamen zählen als Kategorie.</p>
 								<p class="hint-heading">Verfügbare Kategorien</p>
 								{#if catalog}
@@ -230,27 +226,25 @@
 									<p>Die Kategorien werden geladen …</p>
 								{/if}
 								<ul class="examples">
-									<li><code>category:Fauna</code></li>
+									<li><code>kategorie:Fauna</code></li>
 								</ul>
 							</HintTooltip>
-							<HintTooltip id="hint-path" label="path:" align="right">
+							<HintTooltip id="hint-path" label="pfad:" align="right">
 								<p>Nur Seiten, deren Pfad den Text enthält. Ordner werden mit / getrennt.</p>
 								<ul class="examples">
-									<li><code>path:Volk</code></li>
-									<li><code>path:Sodili/Charakter</code></li>
-									<li><code>path:Himmelskörper/Agranum</code></li>
+									<li><code>pfad:Volk</code></li>
+									<li><code>pfad:Sodili/Charakter</code></li>
+									<li><code>pfad:Himmelskörper/Agranum</code></li>
 								</ul>
 							</HintTooltip>
-							<HintTooltip id="hint-type" label="type:" align="right">
+							<HintTooltip id="hint-type" label="typ:" align="right">
 								<p>Nur Seiten dieses Seitentyps.</p>
 								<ul class="types">
-									<li><code>article</code> Artikel</li>
-									<li><code>index</code> Ordner-Übersicht</li>
-									<li><code>media</code> Galerie</li>
-									<li><code>hub</code> Startseite</li>
+									<li><code>Artikel</code> normale Seiten</li>
+									<li><code>Übersicht</code> Ordner-Übersichten und Startseite</li>
 								</ul>
 								<ul class="examples">
-									<li><code>type:index</code></li>
+									<li><code>typ:Übersicht</code></li>
 								</ul>
 							</HintTooltip>
 						</div>
@@ -275,22 +269,6 @@
 									<option value="title-asc">Titel A-Z</option>
 									<option value="domain">Bereich</option>
 								</select>
-							</label>
-
-							<label
-								class="fuzziness-control"
-								title="Wie tolerant die Suche gegenüber Tippfehlern ist. Exakt findet nur genau den eingegebenen Text."
-							>
-								<span>Unschärfe: <strong>{fuzzinessLabels[fuzzinessInput]}</strong></span>
-								<input
-									type="range"
-									min="0"
-									max={fuzzinessLabels.length - 1}
-									step="1"
-									bind:value={fuzzinessInput}
-									onchange={newSearch}
-									aria-valuetext={fuzzinessLabels[fuzzinessInput]}
-								/>
 							</label>
 						</div>
 
@@ -385,7 +363,7 @@
 
 						{#if data.facets.categories.length > 0}
 							<section class="facet-group">
-								<h3>Suche verfeinern</h3>
+								<h3>Häufige Kategorien</h3>
 								<div class="facet-list">
 									{#each data.facets.categories as facet}
 										<label class="facet-option">
@@ -574,18 +552,6 @@
 			border-radius: 0.7rem;
 			border: 1px solid rgba(0, 0, 0, 0.14);
 			background: var(--secondary-background-color);
-		}
-	}
-
-	.fuzziness-control {
-		display: grid;
-		align-content: start;
-		gap: 0.35rem;
-		font-size: 0.92rem;
-
-		input[type='range'] {
-			width: 11rem;
-			margin: 0;
 		}
 	}
 

@@ -4,7 +4,7 @@
 	import { onMount } from 'svelte';
 	import Card from '$lib/components/Card.svelte';
 
-	const title = 'Timeline';
+	const title = 'Zeitleiste';
 
 	let { data } = $props();
 

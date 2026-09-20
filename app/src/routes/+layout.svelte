@@ -56,11 +56,11 @@
 			},
 			{
 				href: '/content/timeline',
-				text: 'Timeline'
+				text: 'Zeitleiste'
 			},
 			{
 				href: '/convert',
-				text: 'Converter'
+				text: 'Umrechner'
 			}
 		]}
 	/>

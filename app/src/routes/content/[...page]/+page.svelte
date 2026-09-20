@@ -12,6 +12,18 @@
 	let { data } = $props();
 
 	let presentation = $derived(data.presentation);
+	// Tags that only repeat the page name say nothing, so only explicit tags become chips.
+	let categoryChips = $derived(
+		data.page.tags
+			.filter((tag) => tag.source !== 'name')
+			.map((tag) => {
+				const filterValue = /\s/.test(tag.text) ? `"${tag.text}"` : tag.text;
+				return {
+					text: tag.text,
+					href: `/content/search?q=${encodeURIComponent(`kategorie:${filterValue}`)}`
+				};
+			})
+	);
 	let pageClass = $derived(presentation.pageClass);
 	let showLeftRail = $derived(presentation.showToc);
 	let showRightRail = $derived(presentation.showContextRail);
@@ -65,6 +77,7 @@
 					title={data.page.title}
 					contentHtml={data.page.contentHtml}
 					overviewHtml={data.page.overviewHtml}
+					tags={categoryChips}
 				/>
 			{/snippet}
 		</MidPanel>
@@ -74,7 +87,7 @@
 		<div class="rail rail-right">
 			<Sidebar>
 				{#if data.page.events.length > 0}
-					<SmallNamedCard name="Timeline">
+					<SmallNamedCard name="Zeitleiste">
 						{#each data.page.events as event}
 							<a href="{TIMELINE_URL}?selected={encodeURIComponent(event.text)}">{event.text}</a>
 						{/each}

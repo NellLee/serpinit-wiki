@@ -1,5 +1,11 @@
 import { describe, expect, test } from 'vitest';
-import { buildCategoryCatalog, buildFacetCatalogs, deriveDomainInfo } from './searchDerivedData';
+import {
+	buildCategoryCatalog,
+	buildDerivedRecord,
+	buildFacetCatalogs,
+	deriveDomainInfo,
+	selectFrequentCategories
+} from './searchDerivedData';
 
 describe('searchDerivedData', () => {
 	test('derives domain metadata from content paths', () => {
@@ -25,23 +31,30 @@ describe('searchDerivedData', () => {
 	});
 
 	test('builds normalized facet catalogs from records', () => {
-		const facets = buildFacetCatalogs([
-			{
-				domain: { key: 'volk', label: 'Volk' },
-				pageClass: 'article',
-				categories: ['Charakter', 'Magie', '2024.10.03', 'TODO']
-			},
-			{
-				domain: { key: 'volk', label: 'Volk' },
-				pageClass: 'index',
-				categories: ['Charaktere', 'Theologie', 'und']
-			},
-			{
-				domain: { key: 'himmelskoerper', label: 'Himmelskörper' },
-				pageClass: 'article',
-				categories: ['Fauna', 'images']
-			}
-		]);
+		const frequentCategories = [
+			{ key: 'charakter', label: 'Charakter', count: 41 },
+			{ key: 'fauna', label: 'Fauna', count: 6 }
+		];
+		const facets = buildFacetCatalogs(
+			[
+				{
+					domain: { key: 'volk', label: 'Volk' },
+					pageClass: 'article',
+					categories: ['Charakter', 'Magie', '2024.10.03', 'TODO']
+				},
+				{
+					domain: { key: 'volk', label: 'Volk' },
+					pageClass: 'index',
+					categories: ['charakter', 'Theologie', 'und']
+				},
+				{
+					domain: { key: 'himmelskoerper', label: 'Himmelskörper' },
+					pageClass: 'article',
+					categories: ['Fauna', 'images']
+				}
+			],
+			frequentCategories
+		);
 
 		expect(facets.domains).toEqual([
 			{ key: 'himmelskoerper', label: 'Himmelskörper', count: 1 },
@@ -50,15 +63,37 @@ describe('searchDerivedData', () => {
 
 		expect(facets.pageTypes).toEqual([
 			{ key: 'article', label: 'Artikel', count: 2 },
-			{ key: 'index', label: 'Index', count: 1 }
+			{ key: 'index', label: 'Übersicht', count: 1 }
 		]);
 
 		expect(facets.categories).toEqual([
-			{ key: 'charaktere', label: 'Charaktere', count: 2 },
-			{ key: 'fauna', label: 'Fauna', count: 1 },
-			{ key: 'magie', label: 'Magie', count: 1 },
-			{ key: 'theologie', label: 'Theologie', count: 1 }
+			{ key: 'charakter', label: 'Charakter', count: 2 },
+			{ key: 'fauna', label: 'Fauna', count: 1 }
 		]);
+	});
+
+	test('the start page is listed as an overview page', () => {
+		const record = buildDerivedRecord({
+			title: 'Start',
+			href: '/content/index.md',
+			path: '/content/index.md',
+			pageClass: 'hub',
+			categories: [],
+			contentText: '',
+			contentHtml: ''
+		});
+
+		expect(record.pageClass).toBe('index');
+	});
+
+	test('only categories with more than one page count as frequent', () => {
+		expect(
+			selectFrequentCategories([
+				{ key: 'charakter', label: 'Charakter', count: 41 },
+				{ key: 'dorf', label: 'Dorf', count: 1 },
+				{ key: 'see', label: 'See', count: 2 }
+			]).map((category) => category.label)
+		).toEqual(['Charakter', 'See']);
 	});
 });
 

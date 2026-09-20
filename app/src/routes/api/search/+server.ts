@@ -1,4 +1,3 @@
-import { normalizeFuzziness } from '$lib/searchCore';
 import { ensureWikiInitialized, search, searchPreview } from '$lib/wiki';
 import { json } from '@sveltejs/kit';
 
@@ -17,14 +16,12 @@ export async function GET({ url }) {
 	const domains = url.searchParams.getAll('domain');
 	const pageTypes = url.searchParams.getAll('pageType');
 	const categories = url.searchParams.getAll('category');
-	const fuzziness = normalizeFuzziness(url.searchParams.get('fuzziness'));
 
 	return json(
 		search(query, {
 			includeCategories,
 			includeContent,
 			sort,
-			fuzziness,
 			activeFilters: {
 				domains,
 				pageTypes,
