@@ -83,7 +83,7 @@ Rules for a plan:
 ## Checklist before you answer
 
 - Parameters last, in the form `--ar x:y --s n --raw --p`. No `--v`. Nothing after them. In an edit prompt add `--ar` only when the ratio should change.
-- The prompt names a medium or style, because `--raw` is on.
+- The prompt names a medium or style, because `--raw` is on. Use the user's own words, else the default from the motif table in `house-style.md`.
 - The first noun phrase is the focus. Short sentences. Visible language. No commands (except in edit prompts). No negation.
 - No lore proper nouns as the only descriptor. Visual facts trace back to the wiki page or to the user.
 - No rendering words such as `4K`, `octane`, `trending on ArtStation`.
