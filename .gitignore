@@ -1,3 +1,6 @@
 node_modules/
 /blender
 .worktrees/
+
+# Raw Midjourney FAQ exports (third-party content, see .claude/skills/midjourney/SKILL.md)
+.claude/skills/midjourney/archive/
