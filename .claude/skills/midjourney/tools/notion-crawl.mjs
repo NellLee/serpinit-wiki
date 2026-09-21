@@ -50,6 +50,58 @@ async function loadPage(id) {
 	return blocks;
 }
 
+const SKIP_TITLE = /^Russian Translation/i; // translated copies, not needed
+const titleOf = (v) => (v.properties?.title ?? []).map((s) => s[0]).join('');
+
+async function syncBlocks(name, ids, spaceId) {
+	const file = path.join(outDir, 'api', name + '.json');
+	let json;
+	try {
+		json = JSON.parse(await readFile(file, 'utf8'));
+	} catch {
+		await sleep(DELAY_MS);
+		const res = await fetch(HOST + '/api/v3/syncRecordValuesMain', {
+			method: 'POST',
+			headers: { 'content-type': 'application/json' },
+			body: JSON.stringify({
+				requests: ids.map((id) => ({ pointer: { table: 'block', id, spaceId }, version: -1 }))
+			})
+		});
+		if (!res.ok) throw new Error(`Notion answered ${res.status} for ${name}`);
+		json = await res.json();
+		await writeFile(file, JSON.stringify(json));
+	}
+	return json.recordMap?.block ?? {};
+}
+
+// A page load leaves the children of collapsed toggles out. Fetch them until nothing reachable is missing.
+async function fillMissing(pageId, blocks) {
+	const tried = new Set();
+	const spaceId = blocks[pageId]?.spaceId ?? '839bc13f-c545-40f7-b18f-97f19b99163b';
+	for (let round = 0; round < 12; round++) {
+		const missing = new Set();
+		const walk = (id, isRoot) => {
+			const v = val(blocks[id]);
+			if (!v?.type || (v.type === 'page' && !isRoot) || v.type === 'alias') return;
+			if (SKIP_TITLE.test(titleOf(v))) return;
+			for (const c of v.content ?? []) {
+				if (blocks[c]) walk(c, false);
+				else if (!tried.has(c)) missing.add(c);
+			}
+		};
+		walk(pageId, true);
+		if (!missing.size) return;
+		const ids = [...missing];
+		ids.forEach((i) => tried.add(i));
+		for (let i = 0; i < ids.length; i += 50) {
+			Object.assign(
+				blocks,
+				await syncBlocks(`sync_${pageId}_${round}_${i / 50}`, ids.slice(i, i + 50), spaceId)
+			);
+		}
+	}
+}
+
 // The blocks that belong to one page, plus the child pages and alias targets it links to.
 function collect(pageId, blocks) {
 	const root = val(blocks[pageId]);
@@ -60,6 +112,7 @@ function collect(pageId, blocks) {
 		const v = val(blocks[id]);
 		if (!v?.type) return;
 		mine[id] = v;
+		if (SKIP_TITLE.test(titleOf(v))) return;
 		if (v.type === 'page') {
 			kids.push(id);
 			return;
@@ -90,7 +143,9 @@ while (queue.length) {
 	const id = queue.shift();
 	if (seen.has(id)) continue;
 	seen.add(id);
-	const c = collect(id, await loadPage(id));
+	const blocks = await loadPage(id);
+	await fillMissing(id, blocks);
+	const c = collect(id, blocks);
 	if (!c) {
 		skipped.push(id);
 		continue;

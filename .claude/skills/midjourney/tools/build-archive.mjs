@@ -1,8 +1,10 @@
-// Turns the raw Discord and Notion exports into readable Markdown files plus an index.
-// Input:  <archive>/raw/discord/*.json (browser export), <archive>/raw/notion/pages/*.json (notion-crawl.mjs)
-// Output: <archive>/md/discord/*.md, <archive>/md/notion/*.md, <archive>/md/index.md, <archive>/md/index.json
+// Turns the raw Discord, Notion and official docs exports into readable Markdown files plus an index.
+// Input:  <archive>/raw/discord/*.json (browser export), <archive>/raw/notion/pages/*.json (notion-crawl.mjs),
+//         <archive>/raw/docs/articles-*.json (docs-crawl.mjs)
+// Output: <archive>/md/{discord,notion,docs}/*.md, <archive>/md/index.md, <archive>/md/index.json
 // Usage:  node .claude/skills/midjourney/tools/build-archive.mjs [archiveDir]
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { createRequire } from 'node:module';
 import path from 'node:path';
 
 const root = process.argv[2] ?? '.claude/skills/midjourney/archive';
@@ -145,6 +147,7 @@ function block(id, ctx, depth) {
 	const b = ctx.blocks[id];
 	if (!b) return [];
 	const text = rich(b.properties?.title, ctx).trim();
+	if (/^Russian Translation/i.test(text)) return [];
 	const ind = '  '.repeat(depth);
 	const kids = (d) => (b.content ?? []).flatMap((c) => block(c, ctx, d));
 	switch (b.type) {
@@ -276,6 +279,140 @@ function sniff(props) {
 	return meta;
 }
 
+// ---------- Official docs ----------
+
+// cheerio is a dependency of the website, so it is loaded from there.
+const cheerio = createRequire(path.resolve('app/package.json'))('cheerio');
+// Articles about billing, policies and account handling do not help with prompting.
+const DOCS_SKIP =
+	/subscri|payment|refund|\btax\b|billing|charge|privacy|terms of service|cookie|trademark|guidelines|\bdata\b|support|renewal|invoice|\bplans?\b|fast time|nitro|store orders|magazine|trial|educational|group plans|ab2013|public summary|authenticity|purchase order|currency|logging in|reporting|commercially|add midjourney|direct messages|quick start|discord overview|hosting images|transitioning|complete tasks|folders|organizing|stealth|private|info command|show command/i;
+const absUrl = (u) => (u.startsWith('/') ? 'https://docs.midjourney.com' + u : u);
+
+function docsToMarkdown(html) {
+	const $ = cheerio.load(html ?? '', null, false);
+	const node = (n, depth = 0) => {
+		if (n.type === 'text') return n.data.replace(/​/g, '');
+		if (n.type !== 'tag') return '';
+		const kids = (d = depth) => (n.children ?? []).map((c) => node(c, d)).join('');
+		const text = () => $(n).text();
+		switch (n.name) {
+			case 'script':
+			case 'style':
+				return '';
+			case 'h1':
+			case 'h2':
+				return '\n\n## ' + kids().trim() + '\n\n';
+			case 'h3':
+				return '\n\n### ' + kids().trim() + '\n\n';
+			case 'h4':
+				return '\n\n#### ' + kids().trim() + '\n\n';
+			case 'h5':
+			case 'h6':
+				return '\n\n##### ' + kids().trim() + '\n\n';
+			case 'p': {
+				const t = kids().trim();
+				return t ? t + '\n\n' : '';
+			}
+			case 'br':
+				return '\n';
+			case 'hr':
+				return '\n\n---\n\n';
+			case 'strong':
+			case 'b':
+				return wrap(kids(), '**');
+			case 'em':
+			case 'i':
+				return wrap(kids(), '*');
+			case 'code':
+				return '`' + text() + '`';
+			case 'pre':
+				return '\n```\n' + text().replace(/\n$/, '') + '\n```\n';
+			case 'a': {
+				const t = kids().trim();
+				const href = absUrl(n.attribs?.href ?? '');
+				return !href || href.startsWith('#') ? t : !t || t === href ? href : `[${t}](${href})`;
+			}
+			case 'img': {
+				const alt = n.attribs?.alt ?? '';
+				if (/thumb-up/.test(alt)) return '👍 ';
+				if (/thumb-down/.test(alt)) return '👎 ';
+				return /\.svg$/.test(alt) || !alt ? '' : `[image: ${alt}]`;
+			}
+			case 'iframe':
+			case 'video':
+				return `[video: ${n.attribs?.src ?? ''}]\n\n`;
+			case 'ul':
+			case 'ol': {
+				const items = (n.children ?? []).filter((c) => c.name === 'li');
+				return (
+					'\n' +
+					items
+						.map(
+							(li) =>
+								'  '.repeat(depth) +
+								(n.name === 'ol' ? '1. ' : '- ') +
+								(li.children ?? [])
+									.map((c) => node(c, depth + 1))
+									.join('')
+									.trim()
+						)
+						.join('\n') +
+					'\n'
+				);
+			}
+			case 'blockquote':
+				return (
+					'\n' +
+					kids()
+						.trim()
+						.split('\n')
+						.map((l) => '> ' + l)
+						.join('\n') +
+					'\n\n'
+				);
+			case 'summary':
+				return '**' + kids().trim() + '**\n\n';
+			case 'table': {
+				const rows = $(n)
+					.find('tr')
+					.toArray()
+					.map((tr) =>
+						$(tr)
+							.children('th,td')
+							.toArray()
+							.map((c) => node(c, 0).replace(/\s+/g, ' ').replace(/\|/g, '\\|').trim())
+					);
+				if (!rows.length) return '';
+				return (
+					'\n\n| ' +
+					rows[0].join(' | ') +
+					' |\n| ' +
+					rows[0].map(() => '---').join(' | ') +
+					' |\n' +
+					rows
+						.slice(1)
+						.map((r) => '| ' + r.join(' | ') + ' |')
+						.join('\n') +
+					'\n\n'
+				);
+			}
+			default:
+				return kids();
+		}
+	};
+	const md = $.root()
+		.contents()
+		.toArray()
+		.map((n) => node(n))
+		.join('');
+	return (
+		md
+			.replace(/[ \t]+\n/g, '\n')
+			.replace(/\n{3,}/g, '\n\n')
+			.trim() + '\n'
+	);
+}
+
 // ---------- main ----------
 
 await rm(out, { recursive: true, force: true });
@@ -402,6 +539,46 @@ for (const { entry, meta, url, body } of notionOut) {
 	);
 }
 
+// Official docs
+await mkdir(path.join(out, 'docs'), { recursive: true });
+const docsEntries = [];
+const docsSkipped = [];
+const docsDir = path.join(root, 'raw/docs');
+const docsFiles = (await readdir(docsDir).catch(() => []))
+	.filter((n) => n.startsWith('articles-'))
+	.sort();
+for (const f of docsFiles) {
+	for (const a of JSON.parse(await readFile(path.join(docsDir, f), 'utf8')).articles) {
+		if (a.draft) continue;
+		if (DOCS_SKIP.test(a.title)) {
+			docsSkipped.push(a.title);
+			continue;
+		}
+		const body = docsToMarkdown(a.body);
+		const entry = {
+			source: 'docs',
+			file: `docs/o-${slug(a.title)}.md`,
+			title: a.title.trim(),
+			chars: body.length,
+			updated: a.updated_at.slice(0, 10)
+		};
+		docsEntries.push(entry);
+		await writeFile(
+			path.join(out, entry.file),
+			front({
+				source: 'docs',
+				title: entry.title,
+				url: a.html_url,
+				updated_at: a.updated_at,
+				outdated: a.outdated,
+				labels: a.label_names
+			}) +
+				`# ${entry.title}\n\n` +
+				body
+		);
+	}
+}
+
 // Index
 const excluded = JSON.parse(await readFile(path.join(rawDir, 'index.json'), 'utf8'))
 	.posts.filter((p) => /archived/i.test(p.label))
@@ -411,8 +588,14 @@ const kb = (n) => (n / 1000).toFixed(1) + 'k';
 const md = [
 	'# Archive index (generated by build-archive.mjs)',
 	'',
-	`Discord posts: ${discordEntries.length}. Notion pages: ${notionEntries.length}. Pairs linked by the Notion page's Discord link: ${discordEntries.filter((d) => d.notion.length).length}.`,
-	'The Notion FAQ is the maintained, current-version source. The Discord posts are the older, longer archive with community Q&A.',
+	`Official docs articles: ${docsEntries.length}. Discord posts: ${discordEntries.length}. Notion pages: ${notionEntries.length}. Pairs linked by the Notion page's Discord link: ${discordEntries.filter((d) => d.notion.length).length}.`,
+	'Trust order for the current model version: official docs, then the Notion FAQ, then the Discord posts (older, longer, with community Q&A).',
+	'',
+	'## Official docs (docs.midjourney.com)',
+	'',
+	row(['file', 'title', 'updated', 'chars']),
+	row(['---', '---', '---', '---']),
+	...docsEntries.map((d) => row([d.file, d.title, d.updated, kb(d.chars)])),
 	'',
 	'## Notion pages',
 	'',
@@ -460,14 +643,19 @@ const md = [
 	'## Left out on purpose',
 	'',
 	'Archived Discord posts (marked in the title): ' + excluded.join('; ') + '.',
-	'Notion sub-pages without public access (private examples and synced blocks).'
+	'Notion sub-pages without public access (private examples and synced blocks).',
+	'Docs articles about billing, policies and account handling: ' + docsSkipped.join('; ') + '.'
 ].join('\n');
 await writeFile(path.join(out, 'index.md'), md + '\n');
 await writeFile(
 	path.join(out, 'index.json'),
-	JSON.stringify({ discord: discordEntries, notion: notionEntries, excluded }, null, 1)
+	JSON.stringify(
+		{ docs: docsEntries, discord: discordEntries, notion: notionEntries, excluded },
+		null,
+		1
+	)
 );
 console.log(
-	`Archive built: ${discordEntries.length} Discord posts, ${notionEntries.length} Notion pages. Unhandled Notion block types:`,
+	`Archive built: ${docsEntries.length} docs articles, ${discordEntries.length} Discord posts, ${notionEntries.length} Notion pages. Unhandled Notion block types:`,
 	skipped
 );
