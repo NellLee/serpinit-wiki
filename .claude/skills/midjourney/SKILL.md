@@ -21,7 +21,7 @@ Read these files on demand, not all at once:
 | `references/edit-workflows.md` | Process mode, or the user wants to change an existing image. |
 | `references/troubleshooting.md` | A result went wrong. |
 | `references/parameters.md` | A parameter beyond the defaults is needed. |
-| `references/sources.md` | You must look up details in the archive, or check the current model. |
+| `references/sources.md` | You must look up details in the archive, or check the current model. Its coverage list says what the references do not contain. |
 
 ## Workflow
 
@@ -33,6 +33,17 @@ Read these files on demand, not all at once:
 6. **Iterate.** The user comes back with a result (a description, a screenshot, or a file path that you can read). Diagnose with `troubleshooting.md`. Change one thing at a time.
 
 Ask at most three questions at a time, each with options and a reason, when facts are missing. Do not ask when a sensible default exists.
+
+## When the references are not enough
+
+Search the archive before you answer from memory. Do this when a parameter, tool, button or model is not in the references, when a UI step is unclear, when the user names a feature that you cannot place, or when a result problem is not in `troubleshooting.md`.
+
+1. `grep -ril "<term>" .claude/skills/midjourney/archive/md`. Check the docs first, then Notion, then Discord (trust order in `references/sources.md`).
+2. Read the hit. Take syntax and rules from docs or Notion. Discord posts are V3 to V6 ideas: use them as a suggestion and say that they are untested for V8.2.
+3. Name the source and its date in the answer, for example "Quelle: Notion, Stand 2026-08-28".
+4. If the `archive/` folder is missing (it is not in git), rebuild it as described in `references/sources.md`, or say that you answer from the references only.
+
+Never state a parameter or button from memory when the archive can confirm it.
 
 ## Mode: direct or process
 
@@ -91,7 +102,7 @@ Rules for a plan:
 
 ## Freshness
 
-Midjourney and its FAQ change quickly. Statements in the references carry dates. The Editor mask problem, for example, is from 2026-08-28. If a date is old and the topic is volatile, say "Stand <Datum>" in the answer. If the user says the default model changed, check the docs (`references/sources.md`) and update `house-style.md`.
+Midjourney and its FAQ change quickly. Statements in the references carry dates. The Editor mask problem, for example, is from 2026-08-28. If a date is old and the topic is volatile, say "Stand <Datum>" in the answer. If the user says the default model changed, or names a new model (V8.3, V9, Niji 8), check the docs and the newest Office Hours notes (`references/sources.md`, section Early warning) and update `house-style.md`.
 
 ## Example
 

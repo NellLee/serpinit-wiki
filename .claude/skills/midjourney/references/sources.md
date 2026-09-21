@@ -41,6 +41,24 @@ grep -ril "centaur" .claude/skills/midjourney/archive/md
 grep -rn "Last edited" .claude/skills/midjourney/archive/md/notion | head
 ```
 
+## What the references cover
+
+The references are a distillation, not a copy of the archive. Status on 2026-09-21.
+
+**Read and distilled:**
+- Docs: Version, Edit Model, Editor, Parameter List, Stylize, Raw, Aspect Ratio, Chaos, Weird, No, Quality, Seeds, Text Generation, Multi-Prompts, Draft & Conversational, Image Prompts, Describe, Style Creator, Style Reference, Personalization, Moodboards, Art of Prompting, Prompt Basics, and the headings of Legacy Features.
+- Notion: Prompting Guide v8.2, V8.2 release notes, Edit Images, Direct vs Process, Multiple Subjects, Prompt Ordering / Length, Emphasis, Archetypes, Troublesome Tokens, Camera Myths, Style Glossary, Layers in the Editor, External Image References, `--style raw`, `--sref` (top), Full-Body Portraits, Character Sheets, Coherency, Centaurs, Cyclops, Camera Angle, Poses, and the newest Office Hours entries.
+- Discord: the TLDR of all 29 posts that have one, and the Guide text of Maps, Weapons, Props, Original Creatures, Hybrids, Fantasy Skin Colors, Ethnicities, Magical FX and Aesthetics.
+
+**Not read or only skimmed. Search here before you answer on these topics:**
+- Notion: Video Prompting Guide, `--oref`, `--cref`, `--p` (profiles), `--draft`, `--stop`, `--preview`, Conversational Mode and its multi-image tutorial, Prompting in Patchwork, Create a Photograph, Create Text, Remove Text, Coloring Book Pages, Style Tools pages, the commands (`/describe`, `/settings`, `/shorten`), List of Parameters, and most older Office Hours entries.
+- Docs: Video, Omni Reference, Vary Region, Remix, Profiles, Creating on Web, Modifying Your Creations, Upscalers, Variations, Pan, Zoom Out, Repeat, Permutations, Tile, Getting Started, Web vs Discord, Website Overview.
+- Discord: about 75 posts without a TLDR, mostly V3 to V6 tools (Remix, Vary Region, upscales, rerolls, seeds, scaffolding, puppeteering, archetype methods). They rarely help for V8.2.
+
+## Early warning
+
+`notion/n-office-hours-notes.md` records the Midjourney office hours. As of 2026-09-03 it says: V9 is in development, an interim V8.3 is possible, an improved edit model is in development, Niji 8 is approaching, and the alpha website changes often. When one of these ships, the references need a check. Read the newest entries when the user mentions a new model.
+
 ## Check the current model
 
 Before you rely on version details, or when the user says the default changed:

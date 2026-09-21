@@ -62,6 +62,7 @@ Sourced: Notion "Create Centaurs" (2026-03-20), "Create a Cyclops" (2026-07-23).
 - Check the other controls. A profile, moodboard or sref pulls strongly. Test the words with default parameters first.
 - Both FAQ pages recommend `--niji 7` for centaurs and cyclops. The house style does not use Niji. Offer it as an option for mythical hybrids, and say that the interplay with `--raw` and `--p` is not documented.
 - Several tries are normal. The FAQ says a prompt may need a few chances.
+- **Original creatures and hybrids.** Sourced ideas from the Discord posts "Create Original Creatures" and "Hybrids" (V3 to V6 era, test in V8.2). Describe a blend of two known animals: `a monster blended from a scorpion and a rabbit`, `a hybrid rabbit-scorpion`, `a horse/bunny hybrid`, `a horse-bunny chimera`, `a spiky elephant-like monster`. Add an "unlock" word that gives the model permission to leave the archetype: `fantasy`, `surreal`, `mythical`, `fantastical`, `supernatural`, `legendary`. A helper trick for a missing part: `a mermaid wearing a mermaid tail` creates the tail. Reroll a few times, then revise.
 
 ## Items, props and weapons
 
@@ -95,10 +96,25 @@ Skill guidance. No FAQ page covers these.
 - Planet: one sphere in the middle. Describe surface color, features, atmosphere and where the light comes from. Use `--s 50` to stay realistic.
 - Rune or symbol: name the material and the carving method (`carved into dark basalt`, `glowing copper inlay`), and describe the shape in plain words. The model may not reproduce an exact glyph. Plan on the Editor or on a later manual fix.
 
+## Magic and energy effects
+
+Sourced idea, Discord "Magical FX" (V5 era, test in V8.2). To make a spell come from a caster, use a joining verb: `contains`, `grown from`. For a shaft of light or energy, name a physical shape (`shaft`, `spear`, `whip`) and add a magic word (`magical shimmershaft`, `neon sparklewhip`). To give the spell a target and a direction, use an aggressive verb and a target (`attacks a wall`). Add `action shot, dynamic pose` for a dynamic figure. If three to five rerolls fail, revise the prompt.
+
+## Isolated objects, icons and stickers
+
+Sourced ideas, Discord "Create Blank Backgrounds (V5)" and "Create Logos Icons Stickers". Add `isolated on a blank white background` (any color works). For an icon, sticker or logo, open with the design type (`icon`, `sticker`, `logo`, `vector`), then a simple subject: `sticker sheet of cute fluffy puffs`. The model is bad at text, so aim for the image and add any lettering later.
+
+## Photographic look
+
+Sourced, Discord "Create a Photograph" (2023). Use photo words (`photograph`, `film`, `cinematic still shot`), or a source (`photographed by National Geographic`). `--raw` is already on and helps photo-like results. Camera and film names are unreliable, see `prompt-craft.md`.
+
 ## Peoples and their looks
 
 Skill guidance. The lore decides the traits, never the skill.
 
 - Describe body, skin, hair and clothing as visible facts from the wiki page. One trait per sentence.
+- Fantasy skin colors (Discord "Create Fantasy Skin Colors", V5 era, test in V8.2): add `fantasy` or `surreal` so the model may break archetypes. Write the color as an adjective (`blue-skinned`, not `with blue skin`). Invoke an archetype that has the color (`devil` for red skin). Use materials (`eyes made of ruby`) or wording like `dyed black`, `stained red`. Reroll to give the prompt more than one chance.
+- Body types: name them in plain words (`plus-sized`) or start from a fitting archetype. If it does not show, describe it more or adjust the emphasis.
+- Real-world ethnic, cultural or national terms invoke real appearances. Use them only when the lore points to a real culture.
 - Keep the same trait sentences across all images of a people. This helps consistency without a style anchor.
 - If the wiki gives no visible facts, ask the user. Do not invent them.

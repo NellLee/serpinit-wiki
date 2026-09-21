@@ -27,7 +27,7 @@ The defaults per motif are in `house-style.md`. `--v` is omitted, so the default
 | `--c N` (`--chaos`) | Variety between the four images. | 0 to 100, default 0. High values follow the prompt less. |
 | `--w N` (`--weird`) | Quirky, unusual results. | 0 to 3000, default 0. Experimental. Not fully compatible with seeds. |
 | `--no a, b` | Excludes things. | Same as a weight of -0.5. Prefer describing what is present. |
-| `--sref <code or URL>` | Style reference: colors, medium, texture, light. Not objects. | Write simple prompts. Describe content, not instructions. |
+| `--sref <code or URL>` | Style reference: colors, medium, texture, light. Not objects. | A code is a short number, `--sref random` picks one. Write simple prompts. Describe content, not instructions. The FAQ page for `--sref` is marked "updating for V8". |
 | `--sw N` | Style reference weight. | 0 to 1000, default 100 |
 | `--seed N` | Locks the start noise for tests. | 0 to 4294967295. It does not save a style or a character. Not with Turbo. |
 | `--q N` | GPU time for the first four images. | Values 1, 2, 4. Docs state the default for V7. |
@@ -38,10 +38,27 @@ The defaults per motif are in `house-style.md`. `--v` is omitted, so the default
 | `--edit` | Edit model, used with images. | See `edit-workflows.md`. On the website the Attach to prompt tile does the job. |
 | `--draft` | Fast, cheap batch of 24 low-resolution images (V8.1 and V8.2, website only). | Good for testing wording, not for final images. |
 
+## Style tools, from specific to general
+
+Source: Notion "Using External Image References" (edited 2026-03-12) and the docs. The tools form a spectrum. Combine them only on purpose, because they compete.
+
+| Tool | What it carries over | Where it goes |
+| --- | --- | --- |
+| Image prompt | Composition, subject and some style of one picture | URL at the front of the prompt, weight `--iw` (0.5 to 3.0) |
+| Style reference URL | The look of one image, not its objects | `--sref <URL>` at the end, weight `--sw` |
+| `--sref` code | A saved, reusable style as a short code | `--sref <code>` |
+| Moodboard | A broader visual world from a chosen set of images | `--p <mID>` |
+| Profile | Your learned taste | `--p` or `--p <ID>` |
+
+If a prompt goes wrong, test the words with default parameters first. A profile, moodboard or sref pulls strongly, and so do `--c` and `--w`.
+
 ## Legacy, do not use for V8.2
 
 - Multi-prompts with `::` and weights work in versions up to 6.1. The docs list no later version.
-- Omni Reference (`--oref`), Character Reference (`--cref`) and the Retexture tool are replaced by the Edit model in V8.2.
+- Omni Reference (`--oref`, V7), Character Reference (`--cref`, `--cw`, V6) and the Retexture tool (V7 and earlier) are replaced by the Edit model in V8.X.
+- Listed as legacy in the docs: style tuner codes (`--style <code>`), `--test`, `--testp`, `--creative`, `--sameseed`, `--uplight`, `--stop`. The Notion FAQ still explains `--stop`, but treat it as legacy.
+- Deprecated: `--width`, `--height`, `--hq`, `--newclip`, `--nostretch`, `--old`, `--upbeta`, `--upanime`.
+- Remix, Vary Region as a button, scaffolding and low variation mode belong to V4 to V6 workflows. Edit model results cannot be used with Remix.
 - Pan and Zoom Out use the Edit model in V8.2.
 - `--exp` appears in the FAQ for V7. The docs chart does not confirm it for V8.2. Do not use it unless the user asks.
 - `--niji` is a separate anime-focused model line.

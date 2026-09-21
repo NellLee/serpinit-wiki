@@ -49,6 +49,10 @@ If a motif mixes types, the dominant subject decides. A character in a landscape
 
 ## Slots the user may fill later
 
-- Style anchor: `--sref <code>` or moodboard `--p <mID>`. Empty.
+- Style anchor: `--sref <code>` or moodboard `--p <mID>`. Empty. Ways to make one without existing images:
+  - **Style Creator** (website menu): enter a simple prompt, pick sample styles from the grids, and get a reusable `--sref` code. The previews use GPU time and run in V7. `--draft` saves time.
+  - **Moodboard** (Moodboards page): collect images and get a code per version. Good for a broad look.
+  - `--sref random` explores random style codes.
+  - Retest any anchor in V8.2. Old ones may behave differently.
 - Default personalization profile: the user's own, applied by `--p`. No ID needed.
 - Motif rules the user has learned, for example a stylize value that works well for their planets. Add them to the table above.

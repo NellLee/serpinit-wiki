@@ -15,6 +15,10 @@ Change one thing at a time. Then judge again.
 | The prompt is too long | Cut redundancy. Stay under about 1,000 characters. |
 | Faces or hands are wrong | Try a subtle variation or a creative upscale. Fix the area in the Editor and describe the whole scene there. Remove the mention of hands or smiles, or describe them in more detail with an attitude, emotion or activity. Raise `--s`. The FAQ names 800 to 1000 for badly placed characters, at the cost of literal control. |
 | The whole body is not in the frame | Use the full-length checklist in `motif-recipes.md`. |
+| An unwanted frame, border or panels appear | Frames: an art-object word in the prompt (for example `map`, `painting`) invites a frame, so change the wording, or add `--no interior decor, product shot`. Borders: match `--ar` to any attached image, or add `scan of`, `borderless`, `close-up`. Panels: write clear grammar, not a list. Source: Discord "No Frames, No Panels" (V4 to V5 era). |
+| Unwanted text appears | Avoid text words such as `logo`, `sign`, `poster`, `book`. Use `--no text`, or name the kind of text (`title`, `caption`, `watermark`). |
+| Faces show doodle-like marks or odd details | Add your own style words instead of relying on the default look. Remove `detailed` and any 3D, video or photo tokens. Source: Discord "Create Clear Faces". |
+| The same element repeats | Change the aspect ratio to remove extra canvas. Say what fills the empty areas. Prefer adjectives to nouns that imply more subjects. |
 | Text is wrong | Quotation marks, a short word, `with the words`, lower `--s`, or fix it in the Editor. |
 | Everything looks the same | Add variety in the words. Raise `--c` a little. Change one trait per attempt. |
 | Traits mix between two characters | Describe each character in its own sentence and anchor them by position. In an edit, combine the characters in one reference image. |

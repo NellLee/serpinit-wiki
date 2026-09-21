@@ -70,6 +70,31 @@ Use it for a selected region, inpainting, outpainting and layers.
 
 Check whether the problem is fixed before you rely on the workaround. The FAQ page `notion/n-edit-images-editor-and-edit.md` holds the newest text.
 
+## The Editor on the website
+
+Source: docs "Editor". Inpainting and outpainting use the Edit model in V8.X.
+
+- **Two versions.** A light Editor opens from an image on Create or Organize (Edit button under Creation Actions). The full Edit tab (website menu, Edit) also takes uploaded images or a pasted URL and has Layers, custom ratios and Suggest Prompt. Use Open in Edit tab to move from the light one to the full one.
+- **Tools.** Undo, Redo, Reset. Move / Resize (move, scale, rotate, change the aspect ratio with presets or by dragging the gray bars). Paint with an Erase and a Restore brush. Smart Select for a mask. Suggest Prompt (Describe). Layers. Export.
+- **Apply the mask.** After Smart Select, press Erase Selection or Erase Background. If green highlight is still visible, the mask is not applied.
+- **Add something new.** First widen the canvas with the aspect ratio so there is room. Erase the area. Describe what you want to see there in the Imagine bar. Press Submit Edit. Results appear as four images, and each new edit adds to the panel.
+- **Whole-image retexture.** Prompt a description of the finished image without erasing or selecting anything, for example `watercolor painting of a black cat with green eyes wearing a gold crown`. The edit applies to the whole image.
+- **Export.** Upscale to Gallery, or Download Image with Save Original Generation and Save Current Edit (a transparent PNG of the erased areas). Edits with layers or uploaded images do not show on Create or Organize until you upscale them.
+- Images made with Omni Reference open only in the Edit tab. Remove Omni Reference and `--ow` before you submit.
+- A community note (Office Hours 2026-08-26, not in the docs) says the Edit model can also work as an upscaler when asked for a higher-resolution version. Treat it as unconfirmed.
+- The interface changes fast. Office Hours notes mention an alpha website with frequent changes. Button names in a plan may differ. Say so when unsure.
+
+## Layers in the Editor (photobashing)
+
+Source: Notion "Use Layers in the Editor" (edited 2026-03-12). The Edit tab on the website lets you place and mask several images as layers, then blend them with a prompt.
+
+- The prompt must describe the **finished** combined image or its anchor points. `A greyscale photographic angel with hawk-feathered wings, isolated on a colorful gradient background`, not `blend the angel with the background`. A vague prompt gives a fight between two images.
+- Method 1: add the layers, position them, mask every layer (foreground and background), take a few pixels off the subject edge to feather it, then write the prompt.
+- Method 2: flatten first by submitting an edit without a mask, then mask and prompt the flat image.
+- Optional: clear space in the background before you add the foreground layer.
+- Download offers the original generation (before layers were flattened) or the current edit.
+- Layers are for basic photobashing. Expect to fix seams with a second Editor pass.
+
 ## Diagnosing a failed edit
 
 Find out what failed. Do not repeat the same prompt louder.

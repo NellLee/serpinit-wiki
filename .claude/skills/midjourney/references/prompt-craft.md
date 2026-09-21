@@ -35,7 +35,9 @@ A red fox with wet fur stands on a mossy riverbank. Its paws press into dark mud
 6. **Reduce redundancy.** Do not spend words on what the subject already implies. `a bayou with cypress knees, floating duckweed, dark green water`, not `a swampy bayou with swamp plants and swamp water`. Repeat a detail only to fix one that gets dropped.
 7. **Use exact numbers.** `three cats`, not `cats`. Collective nouns work too: `a flock of birds`.
 8. **Order sets the focus.** Earlier words get slightly more influence. The grammatical subject decides what the image is about: `A duck standing in a field.` focuses on the duck, `A field with a duck standing in it.` treats the duck as part of the landscape.
-9. **Length.** The prompt shortener starts above 1,024 characters and may drop details. The v8.2 guide also names about 1,300 characters as a comfort zone. The two figures conflict, so stay under about 1,000 characters.
+9. **Length.** The prompt shortener starts above 1,024 characters and may drop details. The v8.2 guide also names about 1,300 characters as a comfort zone. The Notion page "Prompt Ordering / Length" says V8 has a soft limit of about 250 words (a rumor). It depends more on the number of subjects, details and style terms than on the word count. The figures conflict, so stay under about 1,000 characters. If the image turns muddy or details vanish, the prompt is probably too full.
+10. **Rich visual words.** Prepositions of place (`above, beside, behind, across`), descriptive adjectives (`weathered, glossy, serene`), concrete nouns, and references to art movements, craft techniques, historical periods, architectural styles or cultures carry weight. Filler words carry little: `extra, ultra, super, hyper, insanely, extremely, quite, rather, somewhat, notably`, and connectors such as `moreover, furthermore, nevertheless, while, during`. Remove them.
+11. **Style first if it gets lost.** If the style fades at the end of a long prompt, open with the style phrase: `A surprised man, candid photography.` A missing detail can move to the front the same way. Write sentences that grammatically feature what the image should feature.
 
 ## Lore names
 
@@ -51,21 +53,73 @@ Made-up names such as `Sgrisignier` or `Tjosand` mean nothing to the model. Neve
 - Colors: millennial pink, acid green, sepia, duotone, pastel, neon, grayscale, iridescent.
 - Environments: tundra, salt flat, jungle, desert, forest, cave, crystal forest, city, garden, ocean.
 
+### Combining style words
+
+Source: Discord "Create Aesthetics w/Words" and "Craft Aesthetic w/Words (V6)", written for older versions. Combine **two or more** of these to build a look: art movements (`Impressionism`, `Surrealism`), techniques (`impasto`, `pencil sketch`, `watercolor`), genres, media types (`concept art`, `storyboard`, `sculpture`), time periods, and adjectives or adverbs. Media titles and artist names also steer the look. Naming living artists or franchises is the user's decision, so the skill uses movements, techniques and media types by default. If the style does not show, repeat the style phrase, or lower `--s` (about 75 worked in V6).
+
+### Colors
+
+Source: Discord "Control Colors (V5)". The model does not read HEX or RGB values. Use plain color names. Describe eye color with a gem (`sapphire eyes`). Colors often bleed into other objects, and long color lists fail. Use `dark` and `light` instead of a color where you can, and let materials suggest color (`leather` for brown).
+
 ## Words that do not help
 
 `4K`, `8K`, `HD`, `HDR`, `ultra`, `insanely`, `octane`, `unreal`, `v-ray`, `lumion`, `dpi`, `1080p`, camera numbers such as focal length or aperture, and `trending on ArtStation` do not raise quality or resolution. They pull in whatever training images carry those labels, such as screenshots and ads, and can cause blur and broken coherence. Use them only for their style effect. When an image looks off, remove them first.
+
+## Camera metadata and lighting jargon
+
+Notion "Midjourney Myths: Camera Control" (edited 2026-03-30): the model does not simulate a camera or a studio. `85mm`, `f/1.4`, `ISO 100`, `rim light`, `Rembrandt lighting` are style hints at best, and they work only when the look is iconic enough. They do not enforce anything. Prefer plain words for the look (`soft overcast light`, `low camera looking up at`). The closest thing to real steering is the Edit model and retexture, which keep the structure.
+
+Notion "Style Glossary" (in progress, 2026-02-24): there is no reliable glossary of magic words. A word works through the whole prompt, its position, the prompt length and the parameters. Test a whole prompt, not single words.
+
+The docs tool **Describe** turns an image into four prompt ideas (right-click an image, or drag it to the Imagine bar). Use it to find words. The results do not copy the image.
 
 ## Text in images
 
 Put the text in double quotation marks. Single quotes do not work. Use the Latin alphabet, keep it short, and add `with the words` or `written`. If the text fails, lower `--s`, keep `--raw`, or fix it in the Editor.
 
+## Archetypes: invoke or break
+
+An archetype is the most common look of a thing in the training data. The model offers it unless you steer away. This matters a lot for lore, because made-up creatures and peoples have no archetype.
+
+- **Invoke** for common things. Name the stereotype and let the model fill in the details: `a lumberjack`, `a swordsman`, `a picnic`, `a family`. This is shorter and works well.
+- **Break** for things that must differ. Describe every detail you want, and avoid the word that pulls the default in. `Cafe` puts coffee cups everywhere. `Alien` brings the usual alien look. Recreate the scene without the word: `a woman sitting in a wooden chair at an empty round table in front of a window looking out on a rainy sidewalk`.
+- **Swap the archetype.** If the resisting archetype cannot do it, pick one that can. A glass anchor becomes `a glass sculpture in the shape of a ship's anchor`. A cat with one eye becomes `a cyclops cat`.
+- Lore subjects are almost always break cases: describe them in full and keep the trait sentences the same across images.
+
+Source: Notion "Understand & Use Archetypes" (edited 2026-03-20).
+
 ## Several subjects
 
-Start with the group, then anchor each important subject by position:
+Sources: Notion "Multiple Subjects" (written for V6, edited 2026-03-20, with V8 numbers) and the v8.2 guide.
 
-`Three musicians perform on a small jazz club stage. The musician on the left plays upright bass. The musician in the center sings into a silver microphone. The musician on the right plays a red drum kit.`
+How many subjects: about 1 to 20 in V8, up to 40 with careful prompting. The page counts subjects plus the details you control. In V6 it was 1 to 2, in V7 1 to 3.
+
+Formula: `[set up a generic scene with keywords] [add details by calling back to those keywords] [describe the rest of the image] [describe the vibe or style]`
+
+1. **Compositional archetype.** Open with the generic scene: `Three different best friends sitting close together on a park bench.` `Different` stops the figures from looking alike.
+2. **Lexical anchoring.** Repeat the same keyword in each detail sentence, as a short simple sentence: `The friend in the middle is a cheerful blonde woman wearing jeans and a green tank-top.` Names alone (`Jennifer is in the middle`) or a long inverted sentence work less well.
+3. **Differentiating archetypes.** If the figures still blend, do not repeat a shared word such as `character` or `friend`. Give each a different role: `On the middle-left a short human cleric ...`, `On the right a tall elf wizard ...`.
+4. **Rest of the image** near the end, so background details do not spill into the figures: `In the foreground, two pigeons on the sidewalk. In the background, the empty park with old oak trees.`
+5. **Vibe and style last.**
+
+The steps are a remedy, not a rule. Use them when the plain prompt fails. Roll specifics back if the image turns incoherent. If the shared word carries a strong look, avoid it (`alien` brings the alien archetype).
 
 For a crowd, name the few important subjects first and push the crowd into the background. If a scene with several focal points still fails, switch to process prompting.
+
+## When a detail is dropped
+
+Source: Notion "Create Emphasis & De-Emphasis" (V6 and V7 era, edited 2026-03-26).
+
+The model's attention is limited. Try in this order:
+
+1. **Remove competing details** to free attention for the stubborn one.
+2. **Spend more words on it.** `a cat sleeps lying down with his head down, closed eyes, napping, slumbering` beats `a sleeping cat`.
+3. **Say it twice in different words.** `A man wears a hat.` plus `A hat is worn by a man.` Synonyms help too.
+4. **Lower `--s`** to 50 to 75 for more adherence.
+5. **Rewrite from scratch** to rebalance attention, instead of patching.
+6. **Give room.** A wider or taller `--ar` lets the model show what it missed. Crop later.
+
+One or two good images in a batch of four is a sign of a well-made prompt. Look at the whole batch before you change anything.
 
 ## Direct and process prompting
 
