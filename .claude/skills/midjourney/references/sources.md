@@ -50,10 +50,16 @@ The references are a distillation, not a copy of the archive. Status on 2026-09-
 - Notion: Prompting Guide v8.2, V8.2 release notes, Edit Images, Direct vs Process, Multiple Subjects, Prompt Ordering / Length, Emphasis, Archetypes, Troublesome Tokens, Camera Myths, Style Glossary, Layers in the Editor, External Image References, `--style raw`, `--sref` (top), Full-Body Portraits, Character Sheets, Coherency, Centaurs, Cyclops, Camera Angle, Poses, and the newest Office Hours entries.
 - Discord: the TLDR of all 29 posts that have one, and the Guide text of Maps, Weapons, Props, Original Creatures, Hybrids, Fantasy Skin Colors, Ethnicities, Magical FX and Aesthetics.
 
-**Not read or only skimmed. Search here before you answer on these topics:**
-- Notion: Video Prompting Guide, `--oref`, `--cref`, `--p` (profiles), `--draft`, `--stop`, `--preview`, Conversational Mode and its multi-image tutorial, Prompting in Patchwork, Create a Photograph, Create Text, Remove Text, Coloring Book Pages, Style Tools pages, the commands (`/describe`, `/settings`, `/shorten`), List of Parameters, and most older Office Hours entries.
-- Docs: Video, Omni Reference, Vary Region, Remix, Profiles, Creating on Web, Modifying Your Creations, Upscalers, Variations, Pan, Zoom Out, Repeat, Permutations, Tile, Getting Started, Web vs Discord, Website Overview.
-- Discord: about 75 posts without a TLDR, mostly V3 to V6 tools (Remix, Vary Region, upscales, rerolls, seeds, scaffolding, puppeteering, archetype methods). They rarely help for V8.2.
+**Read in a second pass (2026-09-21):**
+- All remaining Notion pages, except the Patchwork guide and the video pages, which were read only in part.
+- The older Office Hours entries, back to 2026-03.
+- The remaining docs articles that matter: Omni Reference, Video, Vary Region, Remix, Upscalers, Variations, Pan, Zoom Out, Repeat, Permutations, Tile, Creating on Web, Modifying Your Creations, Getting Started, Web vs Discord, Website Overview, GPU Speed, Image Size.
+- The Guide text of the Discord posts that have no Notion counterpart.
+
+**Only skimmed or skipped. Search here before you answer on these topics:**
+- Notion: the Patchwork guide (a story tool, not image prompting), the video pages beyond their start, and the Style Tools and Style Exploration entries (they hold only file links).
+- Docs: the Discord-only pages (Command List, Creation Settings, Using Midjourney in Discord, Blend Images, Discord Direct Messages), the account details of Profiles, and the fine print of Pan and Zoom Out.
+- Discord: a few older versions of pages that Notion covers (Rerolls, Corrective Upscales, Puppeteering, Remastering, Text with an image reference). They are V3 to V6 tools that V8.2 has replaced.
 
 ## Early warning
 
