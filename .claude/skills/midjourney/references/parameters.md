@@ -52,6 +52,18 @@ Source: Notion "Using External Image References" (edited 2026-03-12) and the doc
 
 If a prompt goes wrong, test the words with default parameters first. A profile, moodboard or sref pulls strongly, and so do `--c` and `--w`.
 
+## Running many variants
+
+- **Permutations** put options in curly braces: `a {red, green, yellow} bird`, or in parameters: `--ar {1:1, 2:3, 3:5}`. One permutation prompt makes up to 4 (Basic), 10 (Standard) or 40 (Pro, Mega) prompts, only in Fast and Turbo modes. Each prompt costs GPU time. Source: docs "Permutations".
+- **`--repeat N`** (`--r`) runs one prompt several times with the same plan limits. The parameter is stripped from the finished image, so add it again when you rerun.
+- **`--tile`** makes one tile. Upscaling usually breaks the seams. On the website, click the tile image twice to preview the pattern.
+- Turbo mode is not supported in V8.1 (docs "GPU Speed").
+- Uploads may be at most 10 MB. Ctrl or Cmd plus Enter runs a prompt and keeps its text in the Imagine bar.
+
+## Video, in short
+
+Not the focus of the skill. Source: docs "Video" and Notion "Midjourney Video Prompting Guide". Video starts from a still starting frame and makes a 5-second clip. Animate Manually lets you write a motion prompt. Video accepts only `--motion low`, `--motion high`, `--raw`, `--loop`, `--end` and `--bs`. Choose a starting frame that already holds the composition, pose and props. Prompt one concrete, visible motion (`steam rises, candle flickers`), and avoid reasoning words (`remains still`). Sequence words such as `then` are weak. A video can be extended up to four times by about 4 seconds each.
+
 ## Legacy, do not use for V8.2
 
 - Multi-prompts with `::` and weights work in versions up to 6.1. The docs list no later version.
@@ -61,7 +73,9 @@ If a prompt goes wrong, test the words with default parameters first. A profile,
 - Remix, Vary Region as a button, scaffolding and low variation mode belong to V4 to V6 workflows. Edit model results cannot be used with Remix.
 - Pan and Zoom Out use the Edit model in V8.2.
 - `--exp` appears in the FAQ for V7. The docs chart does not confirm it for V8.2. Do not use it unless the user asks.
-- `--niji` is a separate anime-focused model line.
+- `--niji` is a separate anime-focused model line (Niji 7 exists, Niji 8 is announced).
+- `--stop` does not exist in V7 and V8. `--preview` was an early access to V8.2 and is obsolete now.
+- Conversational Mode (an LLM writes the prompt from your chat) is listed for V7 and V8.1 in the docs. The skill does not use it, because the agent writes the prompt.
 - Video parameters (`--motion`, `--loop`, `--bs`, `--video`) belong to the video workflow. `--video` cannot share a prompt with `--edit`.
 
 ## Check before you trust

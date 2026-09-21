@@ -95,6 +95,20 @@ Source: Notion "Use Layers in the Editor" (edited 2026-03-12). The Edit tab on t
 - Download offers the original generation (before layers were flattened) or the current edit.
 - Layers are for basic photobashing. Expect to fix seams with a second Editor pass.
 
+## Retexture and structure
+
+Source: Discord "Retexturing" (V6 era) and the docs. A base image works as scaffolding: the composition stays, the prompt decides what things become (three glass spheres plus `three hedgehogs` gives three hedgehogs). Restate in the prompt what must stay: text, colors, expressions. If the edit adds an unwanted detail, prompt for what you want instead (`empty sky`, not `no birds`).
+
+## Consistency with reference images
+
+Source: Notion FAQ pages for `--cref` and `--oref`, written for those older tools. The Edit model replaces them, so treat this as a hint, not a rule. **Big signature features** carry over well: teal curly hair, pink sunglasses, a floor-length trench coat. **Small details drift**: a pendant with eight tiny jewels, a jacket with lettering. Anchor the important traits in the prompt as well. The likeness is never exact. The older tools combined with other tools that compete: to keep the reference, lower the weight of style references, image prompts and stylize.
+
+## Fixing without editing
+
+- **Variations** on the website: Subtle changes little, Strong changes more. Remix lets you change the prompt with a variation. Edit-model results cannot be used with Remix.
+- **Upscale**: SD images start at 1024 px (1:1) and the upscalers (Subtle, Creative) double them to 2048 px. HD images are 2048 px from the start and cannot be upscaled further. In V8.2 a 2:3 image is 896 x 1344 px (SD) and 1792 x 2688 px (upscaled or HD). Upscales cost GPU minutes, up to twice the cost of the first images.
+- The docs say Pan and Zoom Out use V6.1, and their own chart says the Edit model does the job in V8.2. The two statements conflict. Prefer the Editor and check the result.
+
 ## Diagnosing a failed edit
 
 Find out what failed. Do not repeat the same prompt louder.

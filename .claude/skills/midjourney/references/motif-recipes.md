@@ -22,6 +22,7 @@ Example: `Illustration in detailed comic style of a full-length female elf with 
 Sourced: Notion "Control Poses" (edited 2026-03-12).
 
 - Describe the pose type, an emotion or activity, and facial features together.
+- For action, Discord "Dynamic Poses" (V3 to V5 era) suggests `dynamic pose` plus verbs before the noun (`dancing elf`, `attacking knight`).
 - Pose words: `profile shot`, `three-quarter shot`, `head-tilt pose`, `hands-on-hips pose`, `leaning pose`, `S-curve pose`, `crossed-arms pose`, `hands-in-pockets pose`, `sitting pose`, `reclining pose`.
 - If a pose word fails, add a matching emotion or attitude (`bashful`, `sleepy`, `intense`, `fierce`) and facial details (`bright eyes`, `intense gaze`, `straight nose`). Do both.
 
@@ -106,7 +107,15 @@ Sourced ideas, Discord "Create Blank Backgrounds (V5)" and "Create Logos Icons S
 
 ## Photographic look
 
-Sourced, Discord "Create a Photograph" (2023). Use photo words (`photograph`, `film`, `cinematic still shot`), or a source (`photographed by National Geographic`). `--raw` is already on and helps photo-like results. Camera and film names are unreliable, see `prompt-craft.md`.
+Sourced: Notion "Create a Photograph" (edited 2026-03-02) and Discord "Create a Photograph". Say it: `photograph of a cat`. Use photo words (`photo`, `film`, `snapshot`, `cinematic still shot`) or a source (`photographed by National Geographic`). **Do not write `photorealistic`.** It is an art style for realistic paintings. Genres steer the look: editorial, product, fine art, conceptual, portrait, fashion, documentary, street, landscape, minimalist, surreal, fantasy photography. `--raw` is already on and helps photo-like results. Camera and film names are noise, see `prompt-craft.md`.
+
+## Line art and coloring pages
+
+Sourced: Notion "Create Coloring Book Pages" (edited 2026-06-08). Name the look: `coloring page`, `black and white line drawing`, `black outline on white background`, `flat vector` or `ink`, `simple, minimal, clean` or `detailed, intricate`. Repeat key words if needed. `--no gradient, shading` removes shading, and `--raw` raises adherence. `--hd` makes the lines crisper (V8.x). Other archetypes to mix in: `logo`, `sticker`, `icon`, `comic`, `stained glass`, `mandala`, `pattern`.
+
+## Color palettes
+
+Sourced idea, Discord "Create a Color Palette" (V5 era, test in V8.2). Template: `palette, the color scheme of a cozy library`. Guide the colors with two colors: `..., shades of mint green and yellow`. More than two colors blend. A color word with a second meaning (`coral pink`) may show the object. Exact colors, hex codes and the order of colors cannot be set.
 
 ## Peoples and their looks
 

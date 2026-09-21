@@ -10,7 +10,7 @@ Defaults for every prompt the skill writes. The user decided the rules in the fi
 | `--p` | On every prompt | Applies the user's default personalization profile. If the Personalization button on the website is already on, `--p` is redundant but harmless. The docs say the global V7 profile works in V8.2. The community release notes advise a new profile made for V8.2, because old profiles, moodboards and srefs can behave differently. |
 | `--v` | Omitted | The default model applies. It is V8.2 since 2026-07-24 (docs article "Version", checked 2026-09-01). If the user says the default changed, read the current docs first and update this file. |
 | `--ar` | Chosen per motif, with a one-line reason | See the table below. |
-| `--s` | Chosen per motif, with a one-line reason | Default 100, range 0 to 1000. Low follows the prompt words closely, high gives more artistic freedom. The V8.2 release notes say V8.1 and V8.2 lean toward aesthetics at a small cost to adherence. A value below 100 and `--raw` win adherence back. |
+| `--s` | Chosen per motif, with a one-line reason | Default 100, range 0 to 1000. Low follows the prompt words closely, high gives more artistic freedom. With Personalization on (`--p`) stylize behaves differently, and the website renamed its label "Stylized Strength" for that reason (office hours 2026-08-13). Test a value with and without `--p`. The V8.2 release notes say V8.1 and V8.2 lean toward aesthetics at a small cost to adherence. A value below 100 and `--raw` win adherence back. |
 | Medium and style words | Two defaults, see the motif table. The user's own style words always win. | `--raw` is on, so the words decide the look. **Painterly** = `Painterly fantasy illustration`, plus a light word such as `soft evening light`. **Concept** = `Ink and watercolor concept art with visible linework`. |
 | Style anchor | None yet | No `--sref` code and no moodboard is defined. The wiki images are not a style source. If the user adds one, write it into the slot below. |
 
@@ -54,5 +54,7 @@ If a motif mixes types, the dominant subject decides. A character in a landscape
   - **Moodboard** (Moodboards page): collect images and get a code per version. Good for a broad look.
   - `--sref random` explores random style codes.
   - Retest any anchor in V8.2. Old ones may behave differently.
+  - A style expresses itself most consistently across prompts that resemble the prompt it was made with, in wording and in meaning (Discord "Using Styles Across Prompts", V5.2 era). Keep that sample prompt as a template and swap only the subject.
+  - Office hours 2026-08-05 note a possible issue with V8.2 personalization profiles. If `--p` results look odd, test without `--p`.
 - Default personalization profile: the user's own, applied by `--p`. No ID needed.
 - Motif rules the user has learned, for example a stylize value that works well for their planets. Add them to the table above.

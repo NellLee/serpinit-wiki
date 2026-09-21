@@ -19,6 +19,9 @@ Change one thing at a time. Then judge again.
 | Unwanted text appears | Avoid text words such as `logo`, `sign`, `poster`, `book`. Use `--no text`, or name the kind of text (`title`, `caption`, `watermark`). |
 | Faces show doodle-like marks or odd details | Add your own style words instead of relying on the default look. Remove `detailed` and any 3D, video or photo tokens. Source: Discord "Create Clear Faces". |
 | The same element repeats | Change the aspect ratio to remove extra canvas. Say what fills the empty areas. Prefer adjectives to nouns that imply more subjects. |
+| The subject is cropped at the edge | Say the background is tall, wide or large. Say the subject is small compared to the background, `isolated`, or `beneath a night sky`. Use a wider ratio. Or widen the canvas in the Editor. Source: Discord "Fix Cropping Issues" (V3 to V5 era). |
+| An Editor or region edit invents the wrong thing | Give context. `A green turtle` alone gives the model nothing to place. `A turtle swims in a pond between two trees` lets it find the pond and the trees. Source: Discord "Editor / Vary Region". |
+| A small flaw remains after an otherwise good image | Try a subtle variation, or a creative upscale (it adds small improvements and can be redone several times). If several tries fail, go back to the prompt. Sources: docs "Upscalers", Discord "Subtle & Creative Upscales". |
 | Text is wrong | Quotation marks, a short word, `with the words`, lower `--s`, or fix it in the Editor. |
 | Everything looks the same | Add variety in the words. Raise `--c` a little. Change one trait per attempt. |
 | Traits mix between two characters | Describe each character in its own sentence and anchor them by position. In an edit, combine the characters in one reference image. |

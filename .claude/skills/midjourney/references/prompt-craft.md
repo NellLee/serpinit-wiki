@@ -75,7 +75,18 @@ The docs tool **Describe** turns an image into four prompt ideas (right-click an
 
 ## Text in images
 
-Put the text in double quotation marks. Single quotes do not work. Use the Latin alphabet, keep it short, and add `with the words` or `written`. If the text fails, lower `--s`, keep `--raw`, or fix it in the Editor.
+Sources: docs "Text Generation", Notion "Create Text" (marked "updating for V8", V6 and V7 advice), Discord "Create Text (V6)". The office hours of 2026-08-19 say that text rendering in V8.2 is a known weak point and a possible V8.3 target.
+
+- Put the text in double quotation marks. Single quotes do not work. Use the Latin alphabet and keep it short.
+- The prompt needs a plausible place for the text and words that suggest printed text. Methods: `says`, `printed on`, `entitled`, `inscribed with`, `labeled as`, `engraved with`, `embossed with`, `stamped with`, `lettered with`. Targets: `speech bubble`, `sign`, `poster`, `book cover`, `t-shirt`, `mug`, `billboard`, `ticket`, `business card`, `license plate`.
+- For text alone on a plain ground, add `typography design` and `isolated on a white background`. Leave blank copy space by naming it.
+- If the text does not show, lower `--s` (75 is suggested, the Notion examples use as low as 16) or keep `--raw`, or fix it in the Editor.
+- Symbols: `@` and `+` work in some cases. `# _ - ( ) / * " ' : ;` do not.
+- Punctuation and grammar matter in V6 and later. Write normal sentences with good spelling.
+
+## Composition words
+
+Discord "Control Composition" (V6 and later) and "Prompt Word Order": prepositions place things in relation to each other. These work well: `left`, `right`, `center`, `middle`, `foreground`, `background`, `above`, `below`, `beneath`. Word order still matters: `A cart is pulled by a horse.` shows the cart, `A horse pulls a cart.` may show only the horse.
 
 ## Archetypes: invoke or break
 
@@ -84,6 +95,8 @@ An archetype is the most common look of a thing in the training data. The model 
 - **Invoke** for common things. Name the stereotype and let the model fill in the details: `a lumberjack`, `a swordsman`, `a picnic`, `a family`. This is shorter and works well.
 - **Break** for things that must differ. Describe every detail you want, and avoid the word that pulls the default in. `Cafe` puts coffee cups everywhere. `Alien` brings the usual alien look. Recreate the scene without the word: `a woman sitting in a wooden chair at an empty round table in front of a window looking out on a rainy sidewalk`.
 - **Swap the archetype.** If the resisting archetype cannot do it, pick one that can. A glass anchor becomes `a glass sculpture in the shape of a ship's anchor`. A cat with one eye becomes `a cyclops cat`.
+- **Replace the word.** Change the archetypal token itself: `felinoid` or another coined form instead of `cat` gives the model room for unusual attributes (Discord "Break Archetypes"). This fits lore creatures well.
+- **Use archetypes for props.** To make a figure hold something, use the stereotype that holds it: a knight has a sword, a wizard a wand, a scholar a book. Describing each detail is not needed (Discord "Create Props").
 - Lore subjects are almost always break cases: describe them in full and keep the trait sentences the same across images.
 
 Source: Notion "Understand & Use Archetypes" (edited 2026-03-20).
