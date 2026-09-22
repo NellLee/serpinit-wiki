@@ -26,6 +26,7 @@ Read these files on demand, not all at once:
 ## Workflow
 
 1. **Understand the motif.** If it belongs to a wiki subject, find its page under `content/` and read it. Take visual facts only from the page. If a visual fact is missing, ask the user. Never invent canon. For lore motifs also follow `.claude/skills/lore-collaboration/SKILL.md`: the wiki text is canon, and nothing is written into `content/**.md` without the user's approval.
+   **Recurring subject.** If the user has already generated and kept an accepted image of this exact character or place, ask for it (a file path, or a description) instead of writing trait sentences from scratch. Anchor it as an Edit model reference on the next prompt; see `edit-workflows.md`, "Consistency with reference images".
 2. **Translate lore into visible traits.** Made-up names mean nothing to the model. Describe what is seen.
 3. **Pick the motif type and the mode.** The type sets `--ar` and `--s` (`house-style.md`). Name the mode in one line. The user may override it.
 4. **Write the prompt** with `prompt-craft.md`. Count the characters and stay under about 1,000.
@@ -99,6 +100,7 @@ Rules for a plan:
 - No lore proper nouns as the only descriptor. Visual facts trace back to the wiki page or to the user.
 - No rendering words such as `4K`, `octane`, `trending on ArtStation`.
 - Under about 1,000 characters.
+- No syntax from an older model: `::` weights, `--cref`, `--oref`, `--stop`, `--exp`, `--style raw-<code>`, or word-salad prompts without grammar. The archive is full of these from V3 to V7 examples; `parameters.md` lists what V8.2 replaced them with.
 
 ## Freshness
 
