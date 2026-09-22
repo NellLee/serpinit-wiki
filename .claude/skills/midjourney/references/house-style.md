@@ -27,8 +27,9 @@ The skill states its choices in one line, so the user can override them: `Motiv:
 | Character, full body | 2:3 | 50 | Painterly | A tall frame fits a standing figure. Stated traits such as skin, ears and gear must survive. |
 | Character, portrait or bust | 4:5 | 50 | Painterly | The face fills the frame. Low stylize keeps stated traits. |
 | Character sheet, expressions, turnaround | 3:2 | 50 | Concept | Several views next to each other need width. |
-| Creature or fauna, in its habitat | 3:2 | 100 | Painterly | Organic forms gain from the default freedom. The habitat needs width. |
-| Creature or fauna, single figure | 2:3 | 100 | Painterly | A standing or rearing animal fits a tall frame. |
+| Creature or fauna, isolated specimen (default) | 1:1 | 75 | Concept | A single subject on a plain ground, like a game's creature-design sheet. Keeps focus and anatomy legible. Tested 2026-09-22: a habitat scene with the species as a group produced impossible anatomy. |
+| Creature or fauna, in its habitat (only if a scene is explicitly wanted) | 3:2 | 100 | Painterly | Organic forms gain from the default freedom. The habitat needs width. Riskier for anatomy; see `motif-recipes.md` on anchoring invented creatures to a real body plan. |
+| Flora, single specimen | 1:1 | 75 | Concept | Same reasoning as an isolated creature: one plant, plain ground, no habitat clutter. |
 | Landscape, region, atmosphere | 3:2 | 200 | Painterly | Mood scenes gain from artistic freedom. Single details matter less. |
 | Panorama, vista, large scene | 16:9 | 200 | Painterly | A wide view needs a wide frame. |
 | Architecture, settlement | 3:2 | 100 | Painterly | Buildings need width and a stable form. |

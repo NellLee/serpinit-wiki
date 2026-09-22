@@ -55,6 +55,9 @@ Sourced: Notion "Control Camera Angle" (edited 2026-03-02). Plain wording works.
 
 Sourced: Notion "Create Centaurs" (2026-03-20), "Create a Cyclops" (2026-07-23).
 
+- **Default to an isolated specimen, not a scene.** Tested 2026-09-22: a habitat scene describing several instances of an invented species (`a herd of ... beasts ... each beast has ...`) produced impossible anatomy (limbs and heads in the wrong places). A wiki creature has no archetype of its own to keep several copies of it coherent at once (see below). Show one animal, plain or minimal ground, front or three-quarter view, per `house-style.md`. Use a habitat scene only once a single-specimen prompt already works well, and even then prefer one animal in an environment over several.
+- **Anchor the body plan to a real animal, even for a wholly invented species.** Tested 2026-09-22: describing only invented traits (`stocky`, `wide heavy jaw`, `spines`, `powerful legs`) with no real-world anchor gave the model no coherent skeleton to draw from. Name a real animal whose body plan is close enough, then layer the invented traits on top: `a rhino-like beast with an oversized, spine-covered jaw` keeps four legs and a torso where they belong; the jaw and spines are still the invented part.
+- **Make the defining trait the visual focus, not just a mentioned detail.** If a feature has a specific purpose (a defensive jaw, a venomous stinger), frame the shot so that feature is close to the camera and give it a concrete comparison: `its jaw juts forward like a natural shield, lined with thick defensive spines`. A trait only named in passing competes for attention with everything else in the sentence.
 - **Archetype problem.** The model prefers what the training data shows most: a rider on a horse, two eyes. Words strongly linked to the usual form pull it back. Say `cyclops` and avoid `eye`.
 - Say the species word plainly first, then add details.
 - Prefer `creature`, `monster`, `mythical being` over the name of a real animal.
@@ -96,6 +99,11 @@ Skill guidance. No FAQ page covers these.
 
 - Planet: one sphere in the middle. Describe surface color, features, atmosphere and where the light comes from. Use `--s 50` to stay realistic.
 - Rune or symbol: name the material and the carving method (`carved into dark basalt`, `glowing copper inlay`), and describe the shape in plain words. The model may not reproduce an exact glyph. Plan on the Editor or on a later manual fix.
+- **Planet background must be stated explicitly as black.** Tested 2026-09-22: a prompt naming a toxic green/yellow atmosphere gave the whole image a green-tinted background instead of confining the color to the planet. Say the surrounding space plainly and late in the prompt, as its own clause: `... The planet is small and isolated against a vast, pure black, starlit void of space.` Do not rely on "against a starfield in deep space" alone; name the color of the void itself.
+
+## Flora, single specimen
+
+Skill guidance, tested 2026-09-22. No FAQ page covers plants specifically; treat like an isolated creature specimen (see above): one plant, plain or minimal ground, no habitat scene, no swarm or second creature unless that interaction is the whole point of a separate prompt. Describe one static state of the plant, not a change over time (see `prompt-craft.md`, rule 12).
 
 ## Magic and energy effects
 

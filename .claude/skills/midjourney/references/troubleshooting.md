@@ -26,6 +26,9 @@ Change one thing at a time. Then judge again.
 | Everything looks the same | Add variety in the words. Raise `--c` a little. Change one trait per attempt. |
 | Traits mix between two characters | Describe each character in its own sentence and anchor them by position. In an edit, combine the characters in one reference image. |
 | The look drifts between images | Fix the medium and style words. Reuse the same sentence for style. Later, add a style anchor to the house style. |
+| A color spreads beyond the object it belongs to (a green haze over the whole image, not just on the planet) | Name what should stay a plain color as its own explicit clause, late in the prompt: `the void of space is pure black`. Colors are known to bleed into nearby objects (Discord "Control Colors"); this is the same effect at the scale of the whole canvas. Tested 2026-09-22 on a planet prompt. |
+| An invented creature has anatomy in the wrong places (limbs, heads doubled or misplaced) | The species has no archetype to anchor a coherent body. Anchor it to a real animal's body plan (`a rhino-like beast`) and layer invented traits on top. Also check whether the prompt describes more than one instance of the creature at once; simplify to a single specimen first. Tested 2026-09-22, see `motif-recipes.md`. |
+| A creature or plant image is messy or its defining trait does not read clearly | Isolate the single specimen on a plain or minimal ground; drop habitat details and any second creature. Bring the defining trait close to the camera and give it a concrete comparison (`juts forward like a shield`). Tested 2026-09-22. |
 
 ## Test cheaply
 

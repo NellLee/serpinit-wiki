@@ -101,6 +101,9 @@ Rules for a plan:
 - No rendering words such as `4K`, `octane`, `trending on ArtStation`.
 - Under about 1,000 characters.
 - No parameter syntax the docs mark as legacy or version-locked: `::` weights, `--cref`, `--oref`, `--stop`, old style-tuner codes (`--style raw-<hash>`), `--test`/`--testp`/`--creative`/`--sameseed`/`--uplight`, or word-salad prompts without grammar. `parameters.md` lists what V8.2 replaced them with. This is about the flags only — the wording techniques from the same archive posts (archetypes, camera-angle phrasing, emphasis, and so on) are not version-gated and stay valid; they are already in `prompt-craft.md` and `motif-recipes.md`.
+- No description of a change over time (`as it ripens`, `gradually turning into`, a before/after). Pick the one state that matters. A spatial gradient at a single instant is fine.
+- A creature or plant motif is one specimen on a plain or minimal ground by default, not a scene with several of them (`house-style.md`, `motif-recipes.md`). A wholly invented species is anchored to a real animal's body plan so its anatomy stays coherent.
+- A background or surrounding element that must stay one plain color is named as its own explicit clause (`the void of space is pure black`), not left implied.
 
 ## Freshness
 
