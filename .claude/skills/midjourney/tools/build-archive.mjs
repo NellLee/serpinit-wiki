@@ -44,7 +44,10 @@ const versionsOf = (t) => {
 
 const KIND = /^[\p{Extended_Pictographic}️‍\s ]+/u;
 const isSystem = (t) => /hat den Post-Titel zu .* geändert/.test(t);
-const isBoilerplate = (t) => /What do you think of this FAQ\?|^Have a discovery\?/i.test(t);
+const isBoilerplate = (t) =>
+	/What do you think of this FAQ\?|^Have a discovery\?|^HELLO! Have a question|:?blobparty:?\s*:?blobparty:?|hat eine Nachricht an diesen Kanal angepinnt|Hi\. I'd like to know more about the traffic to this FAQ|If you're reading this FAQ, please give me an emoji|Hey, you made it all the way down here!|📽️\s*Video is coming!|:HeheExcited:\s*Who's looking forward to v7|:sparkles: Wishing everyone a happy new year|#{0,4}\s*🆙\s*Back to top link:/i.test(
+		t
+	);
 
 function renderDiscord(post) {
 	const lines = [];
