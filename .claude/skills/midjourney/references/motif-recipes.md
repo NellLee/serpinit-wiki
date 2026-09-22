@@ -103,7 +103,7 @@ Skill guidance. No FAQ page covers these.
 
 ## Flora, single specimen
 
-Skill guidance, tested 2026-09-22. No FAQ page covers plants specifically; treat like an isolated creature specimen (see above): one plant, plain or minimal ground, no habitat scene, no swarm or second creature unless that interaction is the whole point of a separate prompt. Describe one static state of the plant, not a change over time (see `prompt-craft.md`, rule 12).
+Skill guidance, tested 2026-09-22. No FAQ page covers plants specifically; treat like an isolated creature specimen (see above): one plant, plain or minimal ground, no habitat scene, no swarm or second creature unless that interaction is the whole point of a separate prompt. Describe one static state of the plant, not a change over time (see `prompt-craft.md`, rule 13).
 
 ## Magic and energy effects
 
