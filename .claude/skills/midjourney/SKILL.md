@@ -100,7 +100,7 @@ Rules for a plan:
 - No lore proper nouns as the only descriptor. Visual facts trace back to the wiki page or to the user.
 - No rendering words such as `4K`, `octane`, `trending on ArtStation`.
 - Under about 1,000 characters.
-- No syntax from an older model: `::` weights, `--cref`, `--oref`, `--stop`, `--exp`, `--style raw-<code>`, or word-salad prompts without grammar. The archive is full of these from V3 to V7 examples; `parameters.md` lists what V8.2 replaced them with.
+- No parameter syntax the docs mark as legacy or version-locked: `::` weights, `--cref`, `--oref`, `--stop`, old style-tuner codes (`--style raw-<hash>`), `--test`/`--testp`/`--creative`/`--sameseed`/`--uplight`, or word-salad prompts without grammar. `parameters.md` lists what V8.2 replaced them with. This is about the flags only — the wording techniques from the same archive posts (archetypes, camera-angle phrasing, emphasis, and so on) are not version-gated and stay valid; they are already in `prompt-craft.md` and `motif-recipes.md`.
 
 ## Freshness
 
