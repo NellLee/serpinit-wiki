@@ -56,5 +56,6 @@ If a motif mixes types, the dominant subject decides. A character in a landscape
   - Retest any anchor in V8.2. Old ones may behave differently.
   - A style expresses itself most consistently across prompts that resemble the prompt it was made with, in wording and in meaning (Discord "Using Styles Across Prompts", V5.2 era). Keep that sample prompt as a template and swap only the subject.
   - Office hours 2026-08-05 note a possible issue with V8.2 personalization profiles. If `--p` results look odd, test without `--p`.
+  - A V6.1 global profile code works in V7, but other V6.1 ranked profiles and V7 codes do not cross versions. Retest any inherited code in V8.2 rather than assuming it still applies.
 - Default personalization profile: the user's own, applied by `--p`. No ID needed.
 - Motif rules the user has learned, for example a stylize value that works well for their planets. Add them to the table above.

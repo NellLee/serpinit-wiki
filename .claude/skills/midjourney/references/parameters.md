@@ -27,7 +27,7 @@ The defaults per motif are in `house-style.md`. `--v` is omitted, so the default
 | `--c N` (`--chaos`) | Variety between the four images. | 0 to 100, default 0. High values follow the prompt less. |
 | `--w N` (`--weird`) | Quirky, unusual results. | 0 to 3000, default 0. Experimental. Not fully compatible with seeds. |
 | `--no a, b` | Excludes things. | Same as a weight of -0.5. Prefer describing what is present. |
-| `--sref <code or URL>` | Style reference: colors, medium, texture, light. Not objects. | A code is a short number, `--sref random` picks one. Write simple prompts. Describe content, not instructions. The FAQ page for `--sref` is marked "updating for V8". |
+| `--sref <code or URL>` | Style reference: colors, medium, texture, light. Not objects. | A code is a short number (0 to 4294967295), `--sref random` picks one (not in V6.0). Several URLs are allowed, space-separated; weight one with `--sref URL::2 URL::1`. Write simple prompts with little of their own style, so the reference can carry it. If unwanted content leaks in (the FAQ example: a fox image's moon and night sky bled into an unrelated new prompt), rewrite the prompt to replace it, or lower `--sw`. The FAQ page for `--sref` is marked "updating for V8". |
 | `--sw N` | Style reference weight. | 0 to 1000, default 100 |
 | `--seed N` | Locks the start noise for tests. | 0 to 4294967295. It does not save a style or a character. Not with Turbo. |
 | `--q N` | GPU time for the first four images. | Values 1, 2, 4. Docs state the default for V7. |
@@ -49,6 +49,8 @@ Source: Notion "Using External Image References" (edited 2026-03-12) and the doc
 | `--sref` code | A saved, reusable style as a short code | `--sref <code>` |
 | Moodboard | A broader visual world from a chosen set of images | `--p <mID>` |
 | Profile | Your learned taste | `--p` or `--p <ID>` |
+
+`--p` details (Notion "Parameter: --p", V6/V6.1/V7 sources, likely still valid in spirit for V8.2): `--p none` turns it off for one prompt. Several codes can blend (`--p code1 code2`), with optional weights (`--p code1::1 code2::0.5`, whole numbers only on web). `--p` combines with `--sref`, `--cref`/Edit-model references and image prompts; whichever appears more often, or with a higher weight, dominates. `--p` behaves as a style, so `--s` controls its strength alongside any other style in play. Moodboards tend to override more strongly than profiles ("profiles whisper, moodboards yell") and more strongly than `--sref` or `--p` codes in general — pick a moodboard when you want a strong push, a profile for a light, consistent undercurrent.
 
 If a prompt goes wrong, test the words with default parameters first. A profile, moodboard or sref pulls strongly, and so do `--c` and `--w`.
 

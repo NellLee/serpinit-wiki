@@ -56,8 +56,10 @@ The references are a distillation, not a copy of the archive. Status on 2026-09-
 - The remaining docs articles that matter: Omni Reference, Video, Vary Region, Remix, Upscalers, Variations, Pan, Zoom Out, Repeat, Permutations, Tile, Creating on Web, Modifying Your Creations, Getting Started, Web vs Discord, Website Overview, GPU Speed, Image Size.
 - The Guide text of the Discord posts that have no Notion counterpart.
 
+**Read in full on 2026-09-22:** the rest of `--oref`, `--cref`, `--sref` and `--p` (weighting, blending, best-practice FAQs), and more of the Video Prompting Guide and the Patchwork guide. The "Style Tools" and "Style Exploration" Notion pages have no public content (0 characters on crawl); nothing more to read there.
+
 **Only skimmed or skipped. Search here before you answer on these topics:**
-- Notion: the Patchwork guide (a story tool, not image prompting), the video pages beyond their start, and the Style Tools and Style Exploration entries (they hold only file links).
+- Notion: the rest of the Video Prompting Guide's deep-dive table (per-problem workarounds) and the rest of Patchwork (a story/worldbuilding tool, not image prompting — could matter for a future writing-focused skill, not this one).
 - Docs: the Discord-only pages (Command List, Creation Settings, Using Midjourney in Discord, Blend Images, Discord Direct Messages), the account details of Profiles, and the fine print of Pan and Zoom Out.
 - Discord: a few older versions of pages that Notion covers (Rerolls, Corrective Upscales, Puppeteering, Remastering, Text with an image reference). They are V3 to V6 tools that V8.2 has replaced.
 

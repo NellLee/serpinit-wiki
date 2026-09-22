@@ -101,7 +101,18 @@ Source: Discord "Retexturing" (V6 era) and the docs. A base image works as scaff
 
 ## Consistency with reference images
 
-Source: Notion FAQ pages for `--cref` and `--oref`, written for those older tools. The Edit model replaces them, so treat this as a hint, not a rule. **Big signature features** carry over well: teal curly hair, pink sunglasses, a floor-length trench coat. **Small details drift**: a pendant with eight tiny jewels, a jacket with lettering. Anchor the important traits in the prompt as well. The likeness is never exact. The older tools combined with other tools that compete: to keep the reference, lower the weight of style references, image prompts and stylize.
+Source: Notion FAQ pages for `--cref` and `--oref`, written for those older tools (V6, V7). The Edit model replaces them in V8.X, so treat this as a hint, not a rule for the current model. Still useful for the underlying idea when the user attaches a reference in the Edit model.
+
+- **Big signature features** carry over well: teal curly hair, pink sunglasses, a floor-length trench coat. **Small details drift**: a pendant with eight tiny jewels, a jacket with lettering. Anchor the important traits in the prompt as well. The likeness is never exact.
+- **Three ways to prompt with a reference**, from most to least controlled:
+  1. **Anchor.** Reinforce the signature traits and pose the character explicitly: `Jo is a young woman with blue curly hair, pink sunglasses ... She waits in line at the bank.`
+  2. **Hands-off ("Someone").** Name no traits, just an action: `Someone waits in line at the bank.` Raise the reference weight to compensate.
+  3. **Scene-only.** Describe only the setting; the reference supplies the subject entirely: `An empty cornfield beneath an ominous stormy sky.` Raise `--s` if the result looks incoherent.
+- One reference image is usually enough; a set of images in different poses helps for difficult poses.
+- The reference image needs one clear subject, not obscured or camouflaged. Multiple subjects in a reference confuse the tool.
+- Match the aspect ratio of the reference to the wanted output where possible; a mismatch can cause proportion problems or black bars.
+- The older tools combined with other tools that compete: to keep the reference dominant, lower the weight of style references, image prompts and stylize. To let a semantic idea from the reference override oddities, raising stylize (up to 800) can help but risks incoherence.
+- The reference's own style can leak into the result; lower its weight if that is unwanted.
 
 ## Fixing without editing
 
