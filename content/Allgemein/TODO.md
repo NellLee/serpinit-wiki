@@ -1,13 +1,14 @@
 # TODO
 
-- Tag-System für Seiten
-    - Für z.B. Zugehörigkeit von Charakteren zu Familien, Gruppen, etc.
+- Skills:
+    - Tag knowledge in Seiten Skill
+
+- Fuzzy Suche zu offen
 
 - Optional sichtbare TODO Kommentare
 
-## Timeline
+- Sidebar der page soll gescrolled werden wenn man mit der maus darüber ist (z.B. für lange "Hier erwähnt" listen)
 
-Timeline interaktiv visualisieren
 
 ## Test für Ikusation:
 
@@ -17,9 +18,7 @@ Timeline interaktiv visualisieren
 - Wasser hineinhalten und Verfärbungen o.ä. einschätzen
 - Auswirkungen auf Pflanzen
 
-## 2D Runen?
-
-## Mögliche Zukunft
+## Mögliche ferne Zukunft
 
 Die Varnops entwickeln nach der Ikusation mithilfe der Kenntnis über die Sgrisignier-Runen ausgefeilte magische Technologien.
 Sie "überholen" die anderen Völker in ihrer Macht, als sie es schaffen Tjosand aus Agranums Kern zu extrahieren und in ihren Technologien zu integrieren. ~> Welt wird futuristisch
@@ -28,7 +27,7 @@ Eine Hybridisierung der modernen Völker ist nicht nachhaltig möglich, da keine
 
 # Story-Ideen:
 
-## Sgrisignier der sich zur Insel gemacht hat. (vgl. Vaiana)
+## Sgrisignier der sich zur Insel gemacht hat. (vgl. Vaianas Gottheit)
 
 ## Conius-Lateraler experimentiert mit Runen an Lebewesen
 
