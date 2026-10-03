@@ -1,6 +1,8 @@
 <!-- tags: Raubtier, Wüste, inherit=1 -->
 # Saolom
 
+![](./images/Saolom.png)
+
 ## Beschreibung
 
 Saoloms sind große flache Raubtiere, die in ihrer entspannten Form leicht an überdimensionale Flundern erinnern und in den offenen Wüsten von Aridess leben.
