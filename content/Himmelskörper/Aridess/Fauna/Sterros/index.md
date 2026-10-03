@@ -1,6 +1,8 @@
 <!-- tags: Pflanzenfresser, Savanne, inherit=1 -->
 # Sterros
 
+![](./front-view.png)
+
 Ein Sterros ist ein massiges, herbivores Tier mit einem gedrungenen Körperbau und einem breiten massiven Kiefer.
 Der Kiefer ist mit Stacheln besetzt und äußerst schwer und kräftig, perfekt angepasst, um die harten Pflanzen der Savanne zu zerkleinern und zu fressen.
 Seine mächtigen Beine erlauben es ihm, überraschend schnell zu rennen, wenn es darauf ankommt.
