@@ -14,7 +14,7 @@
         "command": "editor.action.insertSnippet"
     },
     {
-        "key": "alt+shift+9",
+        "key": "alt+g",
         "command": "git-graph.view"
     }
 ]
