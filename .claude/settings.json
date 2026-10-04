@@ -2,5 +2,6 @@
   "enabledMcpjsonServers": [
     "chrome-devtools",
     "svelte"
-  ]
+  ],
+  "outputStyle": "Wait What"
 }

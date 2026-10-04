@@ -7,5 +7,16 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "files.exclude": {
     "app/static/**": true
-  }
+  },
+  "editor.linkedEditing": true,
+  "editor.accessibilitySupport": "off",
+  "files.autoSaveDelay": 300,
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.defaultLocation": "editor",
+  "workbench.browser.openLocalhostLinks": false,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "rename-replace.exclude": ["node_modules", ".git", ".cache"]
 }

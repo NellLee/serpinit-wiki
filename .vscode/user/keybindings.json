@@ -1,0 +1,20 @@
+// Installed into the VS Code user folder by scripts/setup-vscode-user.mjs.
+// Edit this file, not the user copy, then run the script again.
+[
+    {
+        "key": "shift shift",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+oem_2",
+        "command": "editor.action.insertSnippet"
+    },
+    {
+        "key": "alt+shift+9",
+        "command": "git-graph.view"
+    }
+]

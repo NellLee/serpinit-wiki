@@ -5,6 +5,11 @@
     "pivaszbs.svelte-autoimport",
     "antfu.vite",
     "mathiassoeholm.markdown-link-updater",
-    "mhutchie.git-graph"
+    "mhutchie.git-graph",
+    "isudox.vscode-jetbrains-keybindings",
+    "wassim-k.rename-replace-extension",
+    "nick-lvov-dev.typescript-explicit-types",
+    "ms-vsliveshare.vsliveshare",
+    "tomoki1207.pdf"
   ]
 }
