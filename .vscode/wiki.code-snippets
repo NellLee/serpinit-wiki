@@ -1,0 +1,8 @@
+{
+	"TODO": {
+		"scope": "markdown",
+		"prefix": "todo",
+		"body": [":span{.todo}[$1]"],
+		"description": "Red highlighted TODO"
+	}
+}
