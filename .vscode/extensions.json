@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "svelte.svelte-vscode",
+    "ardenivanov.svelte-intellisense",
+    "pivaszbs.svelte-autoimport",
+    "antfu.vite",
+    "mathiassoeholm.markdown-link-updater",
+    "mhutchie.git-graph"
+  ]
+}
