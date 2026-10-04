@@ -4,3 +4,6 @@ node_modules/
 
 # Raw Midjourney FAQ exports (third-party content, see .claude/skills/midjourney/SKILL.md)
 .claude/skills/midjourney/archive/
+
+# Per-machine Claude Code settings
+.claude/settings.local.json
