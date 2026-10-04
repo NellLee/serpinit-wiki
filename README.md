@@ -8,7 +8,7 @@ This file is for the human working in this repo. For the rules an assistant foll
 
 1. Install Node 22 (see `.nvmrc`) and Yarn 1 (`app/package.json` pins `yarn@1.22.19`).
 2. Clone the repo and run `cd app && yarn install`. This also turns on the git pre-commit hook.
-3. Only on Linux/WSL, and only for e2e tests: run `sudo npx playwright install-deps` once from `app/`.
+3. Only on Debian/Ubuntu/WSL, and only for e2e tests: run `sudo npx playwright install-deps` once from `app/`. Fedora does not need this step.
 4. Run `node scripts/setup-vscode-user.mjs`. It installs the keybindings from `.vscode/user/` into VS Code's user folder, and backs up a differing file first.
 5. Open the repo in VS Code and accept "Install recommended extensions". Editor settings and snippets come from `.vscode/`.
 6. Launch Claude Code in the repo root. `.claude/settings.json` pre-enables the `chrome-devtools` and `svelte` MCP servers and sets the "Wait What" output style.

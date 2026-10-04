@@ -27,6 +27,7 @@ Root causes are fixed where possible; these notes explain the fix or the remaini
 ## Playwright and e2e
 
 - **Missing system libraries.** On a fresh Linux/WSL machine Chromium cannot launch. Run `sudo npx playwright install-deps` once from `app/`. An agent cannot do this without sudo; ask the human.
+  `install-deps` only knows apt (Debian/Ubuntu). On Fedora it prints an `apt-get` command that cannot work; skip it. A Fedora desktop already has the libraries Chromium needs, and the e2e suite passes without the step.
 - **First-test flake.** A cold dev server makes the first test time out. `app/e2e/global-setup.cjs` sends a warm-up request first.
 - Run e2e against a running dev server with `E2E_BASE_URL=http://localhost:5173`.
 - Browser tests need `networkidle` before keyboard input.
