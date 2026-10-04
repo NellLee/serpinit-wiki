@@ -28,10 +28,21 @@ Das ist eine vollständig gültige Entscheidung und wird ohne Rückfrage respekt
 Die konkrete Markierungssyntax für "non-canon" ist noch nicht festgelegt (folgt mit der Taxonomie-/Layout-Aspekt-Runde).
 Bis dahin: eine Dekanonisierung im Gespräch festhalten und den Nutzer bei Bedarf fragen, wie sie in der Seite selbst sichtbar werden soll.
 
+## Vor jedem Vorschlag: verbundene Seiten lesen
+
+Bevor der Assistent Lore vorschlägt (auch nur einen Satz), sucht und liest er alle Wiki-Artikel, die mit dem Thema verbunden sind — nicht nur die Seite, die gerade bearbeitet wird.
+Berührt ein Vorschlag ein benanntes Konzept, eine Technologie, ein Ereignis oder eine Institution (z. B. "Gemtech", "die Ikusation", ein Zirkel, eine Familie), werden deren eigene Seiten zuerst gelesen.
+Sonst droht ein Vorschlag, der bestehendem Kanon widerspricht oder ihn doppelt.
+
 ## Bei offenen Entscheidungen: Optionen anbieten
 
 Ist eine Frage erkennbar offen, schlägt der Assistent mehrere Optionen vor, jede mit kurzer Begründung.
 Der Assistent wählt nicht selbst eine Option aus und stellt sie nicht als bereits entschieden dar.
+Optionen werden immer über das AskUserQuestion-Tool angeboten, nicht als Liste im Chat.
+
+Bei Kleinigkeiten hält der Assistent nicht für Bestätigungen an.
+Dazu zählen ein Querverweis-Satz auf bereits festgelegten Kanon, Formulierungsschliff und die Platzierung von Bildern.
+Rückfragen bleiben für substanzielle Entscheidungen — neue Lore-Fakten, offene Weggabelungen.
 
 ## Nach einer Entscheidung: aktiv nach Lücken suchen
 
@@ -64,6 +75,12 @@ Löst der Nutzer das Schreiben aus, läuft es zweistufig:
 2. **Prosa-Diff zur Freigabe.** Erst nach Bestätigung von Schritt 1 formuliert der Assistent die eigentliche Textänderung und legt sie dem Nutzer als Diff vor. Erst nach dessen Freigabe werden die Dateien tatsächlich angefasst.
 
 Beide Stufen sind Pflicht, auch wenn die Entscheidungen im Gespräch schon klar wirken.
+
+**Umfang:** Legt eine Entscheidung neue Fakten über eine bereits bestehende Figur fest, gehört deren Seite in denselben Schreib-Durchgang.
+Sie wird nicht auf "später" verschoben, nur weil gerade eine andere Figur im Fokus steht.
+
+**Kein negatives Framing im Wiki:** Wiki-Seiten erwähnen keine verworfenen Ideen und stellen nichts Entschiedenes als unsicher dar.
+Wirklich offene, noch unfertige Lore darf sichtbar als offen markiert sein, z. B. mit `(TODO)` wie in `content/Allgemein/Magie/index.md`.
 
 ## Verworfene Ideen sauber fallen lassen
 

@@ -105,6 +105,12 @@ Rules for a plan:
 - A creature or plant motif is one specimen on a plain or minimal ground by default, not a scene with several of them (`house-style.md`, `motif-recipes.md`). A wholly invented species is anchored to a real animal's body plan so its anatomy stays coherent.
 - A background or surrounding element that must stay one plain color is named as its own explicit clause (`the void of space is pure black`), not left implied.
 
+## Accepted images
+
+When the user keeps a generated image, place the file yourself in the matching `content/**/images/` folder (or the article root, following that page's existing pattern).
+Do not leave the move to the user.
+Wiring the `![]()` link into the page is a `content/**.md` write and follows the lore-collaboration write gate.
+
 ## Freshness
 
 Midjourney and its FAQ change quickly. Statements in the references carry dates. The Editor mask problem, for example, is from 2026-08-28. If a date is old and the topic is volatile, say "Stand <Datum>" in the answer. If the user says the default model changed, or names a new model (V8.3, V9, Niji 8), check the docs and the newest Office Hours notes (`references/sources.md`, section Early warning) and update `house-style.md`.

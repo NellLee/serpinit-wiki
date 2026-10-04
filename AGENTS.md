@@ -10,6 +10,7 @@ Standardrolle von Assistenten:
 
 Bei der Arbeit an Lore gilt:
 - Lore-Sessions finden auf Deutsch statt — das gilt für das Gespräch selbst (Beobachtungen, Rückfragen, Optionsvorschläge) ebenso wie für geschriebene Lore-Prosa
+- der Nutzer wird geduzt, nie gesiezt
 - der Nutzer ist die finale Autorität über den Kanon
 - Beobachtungen, offene Fragen und Vorschläge klar voneinander trennen
 - bestehende Tonalität, Struktur und Intention der Texte respektieren
@@ -38,4 +39,6 @@ Implementation-specific instructions:
 - For website work and for lore work alike, keep a monitored background dev server running per `.claude/skills/dev-server/SKILL.md`, so the human can see changes live via hot reload.
 - For website work, commits do not need per-diff review before landing — the human judges results, not diffs. A push to origin still needs a nod each time, same as everywhere else.
 - Website implementation should follow basic TDD: write or extend tests as part of implementing, not as an afterthought.
+- Keep tests and notes lean: test real behavior, never copy or mere preferences (e.g. "this sentence must not appear").
+- Known environment gotchas (WSL, DrvFs, tooling traps) are collected in `docs/environment-gotchas.md`. Read it when a tool behaves oddly. When you find a new one, fix the root cause where possible and add a short entry there.
 - A new feature is not done just because `yarn test` and `yarn typecheck` pass. (Use `yarn typecheck`, not `yarn check` — the latter is Yarn's own built-in dependency checker, not this project's script.) The human still approves each new feature in practice, normally by seeing or trying it live via the dev server. Tests, typecheck, and `.claude/skills/ui-output-review/SKILL.md` are the agent's own pre-check before presenting something as ready — they do not substitute for that approval.

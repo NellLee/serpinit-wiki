@@ -60,3 +60,11 @@ To verify liveness from inside the session:
 - Wait for the `ready in`/`Local:` line in the server's log (via Monitor) before curling at all.
 - Give the *first* `curl` a generous timeout, e.g. `curl -m 60 ...` - it will return once the cold compile finishes.
 - A `curl` that returns instantly on the second call but hung on the first is expected, not a bug.
+
+## Verifying a change is actually served
+
+Before telling the human to look at a change, fetch the changed module and grep for a string from the new code, e.g. `curl -s http://127.0.0.1:5173/src/lib/components/X.svelte | grep -c marker`.
+Do not rely on "hot reload" alone: on DrvFs, inotify reports no events, so `app/vite.config.ts` turns on `usePolling` for `/mnt/` paths. If that ever stops working, the server silently serves stale code.
+A Monitor that stays silent after an edit is a warning sign, not a success signal - Vite logs `hmr update` only while a browser holds the module.
+If the human reports "still broken" after a fix, check for stale served code before questioning the fix.
+Editing `vite.config.ts` restarts the dev server; never do it during a test run against that server.
