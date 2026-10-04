@@ -32,3 +32,12 @@ runTest('pre-commit hook is a shebang script git can find and run on any platfor
 		'expected setup script to force the executable bit via git update-index, since core.fileMode=false hides it from plain git add'
 	);
 });
+
+runTest('yarn install in app/ configures the git hooks, so a fresh clone runs them', () => {
+	const appPackage = JSON.parse(fs.readFileSync('app/package.json', 'utf8'));
+	assert.match(
+		appPackage.scripts?.postinstall ?? '',
+		/setup-git-hooks\.mjs/,
+		'expected app/package.json postinstall to run scripts/setup-git-hooks.mjs, since core.hooksPath is local git config and is not cloned'
+	);
+});

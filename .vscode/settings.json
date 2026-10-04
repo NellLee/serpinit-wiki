@@ -1,0 +1,11 @@
+{
+  "svelte.enable-ts-plugin": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "vite.autoStart": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "files.exclude": {
+    "app/static/**": true
+  }
+}

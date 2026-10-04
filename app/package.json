@@ -2,6 +2,7 @@
 	"name": "app",
 	"version": "0.0.1",
 	"private": true,
+	"packageManager": "yarn@1.22.19",
 	"scripts": {
 		"dev": "node scripts/dev-warmup.mjs",
 		"build": "vite build",
@@ -13,7 +14,8 @@
 		"test:watch": "vitest",
 		"test:e2e": "playwright test",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"postinstall": "cd .. && node scripts/setup-git-hooks.mjs"
 	},
 	"devDependencies": {
 		"@playwright/test": "1.44.1",
