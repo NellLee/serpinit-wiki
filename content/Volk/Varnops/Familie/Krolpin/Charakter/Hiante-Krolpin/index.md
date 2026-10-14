@@ -87,7 +87,7 @@ Aus diesem Grund plant sie den [Zirkel-Wettstreit](/content/Ereignis/Zirkel-Wett
 Eine der teilnehmenden Gruppen lässt Hiante von ihrem Sohn Grisham aufstellen, sie selbst nimmt jedoch den gesamten Wettstreit über eine neutrale Position als Ausrichterin ein.
 
 Nach dem Wettstreit veranlasst Hiante die Konstruktion von 11 weiteren Residenzen am Nordpol, eine für jeden Zirkel.
-Natürlich wird Dronrak als der Krolpin-Familiensitz die Residenz des [Erzphoriat-Zirkels](/content/Volk/Varnops/Politik/Zirkel/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
+Natürlich wird Dronak als der Krolpin-Familiensitz die Residenz des [Erzphoriat-Zirkels](/content/Volk/Varnops/Politik/Zirkel/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
 
 ## Spätes Leben
 Zum Zeitpunkt ihres Todes im Zyklus 72 hat Hiante ihre Familie zu einer der einflussreichsten auf Aridess gemacht.

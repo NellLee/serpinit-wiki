@@ -19,5 +19,6 @@ Edelsteine gelten bei ihnen weiterhin vor allem als Wertobjekte und kultische Pr
 
 ## Ressourcen
 
-Das Senduun-Gebirge ist reich an rohen, unverarbeiteten Edelsteinen.
+Auch im Zirkelgebirge gibt es Edelsteine, etwa in den Flussbetten um die Murgath-Stollen, doch bleiben das vereinzelte Funde.
+Das Senduun-Gebirge birgt dagegen ein riesiges, kaum berührtes Vorkommen besonders reiner Edelsteine.
 Dieser Reichtum gilt als einer der Hauptgründe, warum der Norden trotz der schwierigen Querung der Verdialen langfristig an einer Ausdehnung nach Süden interessiert blieb.
