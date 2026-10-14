@@ -1,6 +1,9 @@
 <!-- tags: inherit=1 -->
 # Zunir, der Süd-Kontinent
 
+<!-- display: figure -->
+![Das Senduun-Gebirge am Südpol](./images/Senduun-Gebirge.png)
+
 # Allgemein
 
 Zunir ist einer der zwei Kontinente von Aridess.
