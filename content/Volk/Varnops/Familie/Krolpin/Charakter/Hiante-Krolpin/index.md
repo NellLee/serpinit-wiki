@@ -71,7 +71,7 @@ Sie reist fortan viel zwischen den Minen umher und wird dabei immer mal wieder v
 Hiantes zweiter Mann ist [Torval](../Torval-Krolpin), der Leiter der [Drakar-Mine](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Drakar-Mine/index.md), mit welchem sie ihre Zwillings-Töchter [Jell](../Jell-Krolpin) und [Liss](../Liss-Krolpin) zeugt.
 In der Drakar-Mine wird hauptsächlich Kupfer abgebaut und zu Bronze (später auch Messing) verarbeitet.
 
-Auf Torval folgt [Fynrik](../Fynrik-Krolpin), der Leiter der Murgath-Stollen.
+Auf Torval folgt [Fynrik](../Fynrik-Krolpin), der Leiter der [Murgath-Stollen](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Murgath-Stollen/index.md).
 Diese Stollen haben sich aus den ersten Edelstein- und Goldfunden in den Flussbetten der Gebirge gebildet, welche bei indigeneren Stämmen für die Herstellung von Schmuck sehr beliebt waren.
 Hier wird Hiantes dritte Tochter [Legartha](../Legartha-Krolpin) geboren.
 
@@ -130,7 +130,7 @@ Zudem besitzt sie eine Kartensammlung der Minen, die sie selbst angefertigt hat,
 Hiante hat eine enge und lehrreiche Beziehung zu ihm.
 - **Lerold (Kharrak-Mine):** Grishams Vater und einer der ersten Minenleiter, mit dem Hiante eine Beziehung eingeht.
 Ihre Beziehung basiert auf gegenseitigem Respekt und gemeinsamer Zielstrebigkeit.
-- **Torval (Drakar-Mine) und Fynrik (Murgath-Mine):** Weitere Minenleiter und Väter ihrer Kinder.
+- **Torval (Drakar-Mine) und Fynrik (Murgath-Stollen):** Weitere Minenleiter und Väter ihrer Kinder.
 Die Beziehungen zu ihnen sind geprägt von Vertrauen und strategischer Zusammenarbeit.
 
 ## Freunde

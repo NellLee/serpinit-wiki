@@ -13,5 +13,6 @@
 | **Beruf:** | Leiter der Drakar-Mine |
 
 Torval ist der Leiter der [Drakar-Mine](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Drakar-Mine/index.md), in welcher Kupfer abgebaut und zu Bronze, später auch Messing, verarbeitet wird.
+Das Zinn für die Bronze bezieht er aus den [Murgath-Stollen](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Murgath-Stollen/index.md).
 Er ist Hiante Krolpins zweiter Mann und zeugt mit ihr die Zwillingstöchter [Jell](../Jell-Krolpin/index.md) und [Liss](../Liss-Krolpin/index.md).
 Auf ihn folgt [Fynrik](../Fynrik-Krolpin/index.md) als nächster Mann Hiantes.
