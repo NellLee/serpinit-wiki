@@ -1,7 +1,7 @@
 <!-- tags: Aridess, Varnops, Handel -->
 # Globalisierung von Aridess
 
-<!-- event: start=-3.13 end=0.18 category="Aridess" text="Globalisierung von Aridess" fuzzy -->
+<!-- event: start=-0.0049 end=0.18 category="Aridess" text="Globalisierung von Aridess" fuzzy -->
 
 Als Globalisierung von Aridess wird jener langfristige historische Prozess bezeichnet, in dem die [Varnops](/content/Volk/Varnops/index.md) von einem Netz regional begrenzter Gruppen zu einer planetar weit verzahnten Zivilisation zusammenwuchsen.
 Ausgelöst wurde dieser Wandel vor allem durch den [Zirkel-Wettstreit](/content/Ereignis/Zirkel-Wettstreit/index.md), die daraus hervorgehenden [Zirkel](/content/Volk/Varnops/Politik/Zirkel/index.md) und die zunehmende Verbreitung varnopischer [Gemtech](/content/Volk/Varnops/Gemtech.md).

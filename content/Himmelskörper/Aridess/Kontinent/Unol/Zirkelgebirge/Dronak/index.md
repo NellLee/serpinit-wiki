@@ -8,6 +8,7 @@ Die erhöhte Lage schützt zugleich vor Schmelzwasser und Lawinen, die den Talbo
 
 ## Entstehung
 
+<!-- event: start=-0.0234 category="Aridess" text="Gründung von Dronak" -->
 Dronak entsteht im Zyklus -24 aus der Zusammenarbeit aller Männer von [Hiante Krolpin](/content/Volk/Varnops/Familie/Krolpin/Charakter/Hiante-Krolpin/index.md).
 Die Residenz soll von Beginn an als Koordinierungszentrum für die immer komplexer werdenden Handelsbeziehungen der nördlichen Minen dienen.
 Zunächst ist Dronak ein oberirdisches Bauwerk, das an den Fels der Terrasse angelehnt ist.
