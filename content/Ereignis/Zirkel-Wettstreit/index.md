@@ -2,7 +2,7 @@
 
 # Zirkel-Wettstreit
 
-<!-- event: start=-0.0049 category="Aridess" text="Ausrichtung des Zirkel-Wettstreits durch die Familie Krolpin" fuzzy -->
+<!-- event: start=0.0195 category="Aridess" text="Ausrichtung des Zirkel-Wettstreits durch die Familie Krolpin" fuzzy -->
 
 Der Zirkel-Wettstreit ist eine Veranstaltung der [Varnop](/content/Volk/Varnops/index.md)-Familie [Krolpin](/content/Volk/Varnops/Familie/Krolpin/index.md), welche im [Zirkel-Gebirge](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/index.md) am nördlichen Pol des Planeten [Aridess](/content/Himmelskörper/Aridess/index.md) stattfindet.
 Der Wettstreit ist ein wichtiger Meilenstein in der Geschichte der Varnops.

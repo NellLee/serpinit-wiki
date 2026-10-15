@@ -43,7 +43,7 @@ Obwohl sie wenig offene Feinde hat, steht sie Personen skeptisch gegenüber, die
 # Hintergrundgeschichte
 
 ## Frühes Leben
-Hiante wird im 253.
+Hiante wird im 380.
 Zyklus vor der Ikusation in den nördlichen Ebenen der [Wüste Frilach](/content/Himmelskörper/Aridess/Kontinent/Unol/Frilach/index.md) von [Aridess](/content/Himmelskörper/Aridess/index.md) geboren.
 Ihre Geburts-Familie [Kriolen](../../../Kriolen/index.md) siedelt dort als eigenständiger Stamm im Schatten der nördlichen Berge.
 Die Gemeinschaft ist klein und lebt hauptsächlich vom Jagen und Sammeln, hat jedoch mit der Zeit auch einige rudimentäre Handelsbeziehungen zu den nördlichen liegenden Bergketten aufgebaut.
@@ -61,7 +61,7 @@ Hiante kennt lange Zeit also nur ein kleines, wohlvertrautes Umfeld, bis ihre Ne
 
 ### Familiengründung
 Im Zirkelgebirge findet Hiante zuerst die [Kharrak-Mine](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Kharrak-Mine/index.md), in welcher Eisenerz abgebaut und verarbeitet wird.
-Dort beginnt sie 96 Zyklen vor der Ikusation eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Mine, und zeugt zweieinhalb Zyklen später ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md) welcher somit schließlich im 87.
+Dort beginnt sie 235 Zyklen vor der Ikusation eine Beziehung mit [Lerold](../Lerold-Krolpin/index.md), dem Leiter der Mine, und zeugt zweieinhalb Zyklen später ihren ersten Sohn, [Grisham Krolpin](../Grisham-Krolpin/index.md) welcher somit schließlich im 226.
 Zyklus vor der Ikusation auf die Welt kommt.
 Daraufhin verbringt sie mit Lerold einige glückliche Zyklen, in welchen sie zum einen die Grundlagen der Metallurgie näher kennenlernt und zum anderen liebevoll ihren ersten Sohn großzieht.
 
@@ -75,12 +75,12 @@ Auf Torval folgt [Fynrik](../Fynrik-Krolpin), der Leiter der [Murgath-Stollen](/
 Diese Stollen haben sich aus den ersten Edelstein- und Goldfunden in den Flussbetten der Gebirge gebildet, welche bei indigeneren Stämmen für die Herstellung von Schmuck sehr beliebt waren.
 Hier wird Hiantes dritte Tochter [Legartha](../Legartha-Krolpin) geboren.
 
-Im Zyklus -24 entsteht nahe Arides' Nordpol der Hauptsitz der Krolpin-Familie: [Dronak](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Dronak/index.md).
+Im Zyklus -130 entsteht nahe Arides' Nordpol der Hauptsitz der Krolpin-Familie: [Dronak](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Dronak/index.md).
 Diese Residenz ensteht aus der Zusammenarbeit aller Männer von Hiante und soll fortan als Koordinierungszentrum für die immer komplexer werdenden Handelsbeziehungen dienen.
 In den nachfolgenden Zyklen zeugt Hiante mit ihren Männern noch drei weitere Söhne: [Jopun](../Jopun-Krolpin), [Flort](../Flort-Krolpin) und [Brill](../Brill-Krolpin), welche zu großen Teilen in Dronak aufwachsen und neben Hinate auch viel von Jell und Liss erzogen werden.
 
 ## Aridess' Globalisierung
-Im Zyklus -15 initiiert Hiante die Planung einer Globalisierung von Aridess.
+Im Zyklus 10 initiiert Hiante die Planung einer Globalisierung von Aridess.
 Sie ist unzufrieden mit den ineffizienten Handelswegen der nördlichen Minen und versucht Veränderung auf den Weg zu bringen.
 Während ihre Männer der Überzeugung sind, dass alle ihnen zur Verfügung stehenden Mittel bereits voll ausschöpft werden, hat Hiante aufgrund ihres persönlichen Hintergrunds und ihres Ursprungs im Kriolen-Stamm den festen Glauben, dass ein engerer Außtausch mit Populationen außerhalb des Zirkel-Gebirges viele ihrer Probleme lösen könnte.
 Aus diesem Grund plant sie den [Zirkel-Wettstreit](/content/Ereignis/Zirkel-Wettstreit/index.md) um ihrem Ziel einer Globalisierung näherzukommen.

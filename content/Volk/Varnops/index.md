@@ -73,6 +73,7 @@ Der Hauptartikel dazu ist [Gemtech der Varnops](/content/Volk/Varnops/Gemtech.md
 Die Varnops sind klein und rundlich, mit Händen die an Maulwurfsschaufeln erinnern.
 Ihre Arme, Beine, Hände und Füße sind stark behaart und sie haben eine Fettschicht aufgrund ihrer guten Nahrungsaufnahme.
 Sie entwickeln schon als Kinder, meist im Alter von ca. 8 Zyklen, starken Bartwuchs, dessen Ergebnis nicht selten in kunstvollen Zöpfen zusammengeflochten wird.
+Als erwachsen gelten Varnops ab einem Alter von etwa 140 Zyklen.
 Varnops haben fast ausschließlich braune und rote Haare, die mit dem Alter gräulich werden.
 Seltener werden auch Varnops mit schwarzen Haaren geboren, während blonde Haare bei Varnops gar nicht vorkommen.
 
