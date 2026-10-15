@@ -23,7 +23,7 @@ Umgekehrt verstanden die Lateralen, dass die Ortskenntnis der Varnops für jede 
 
 ## Reise ins Zirkelgebirge
 
-Schließlich schlossen sich Teile der Expedition einer Varnop-Gruppe aus dem Umfeld des späteren Silberspiegel-Zirkels an.
+Schließlich schlossen sich Teile der Expedition einer Varnop-Gruppe aus dem Umfeld des späteren [Sonnenspiegel-Zirkels](/content/Volk/Varnops/Politik/Zirkel/Sonnenspiegel.md) an.
 Während der mehrtägigen Reise lernten beide Seiten durch Benennen von Dingen erste Wörter der jeweils fremden Sprache.
 Auf diesem Weg erreichten die Lateralen über die [Kharrak-Mine](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Kharrak-Mine/index.md) das Lager des [Zirkel-Wettstreits](/content/Ereignis/Zirkel-Wettstreit/index.md).
 
