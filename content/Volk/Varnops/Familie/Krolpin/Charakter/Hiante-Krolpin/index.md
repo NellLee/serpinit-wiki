@@ -77,7 +77,8 @@ Hier wird Hiantes dritte Tochter [Legartha](../Legartha-Krolpin) geboren.
 
 Im Zyklus -130 entsteht nahe Arides' Nordpol der Hauptsitz der Krolpin-Familie: [Dronak](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/Dronak/index.md).
 Diese Residenz ensteht aus der Zusammenarbeit aller Männer von Hiante und soll fortan als Koordinierungszentrum für die immer komplexer werdenden Handelsbeziehungen dienen.
-In den nachfolgenden Zyklen zeugt Hiante mit ihren Männern noch drei weitere Söhne: [Jopun](../Jopun-Krolpin), [Flort](../Flort-Krolpin) und [Brill](../Brill-Krolpin), welche zu großen Teilen in Dronak aufwachsen und neben Hinate auch viel von Jell und Liss erzogen werden.
+In den nachfolgenden Zyklen zeugt Hiante mit ihren Männern noch drei weitere Söhne: [Jopun](../Jopun-Krolpin), [Flort](../Flort-Krolpin) und [Brill](../Brill-Krolpin), welche zu großen Teilen in Dronak aufwachsen und neben Hiante auch viel von Jell und Liss erzogen werden.
+Da Hiantes Männer in Dronak zusammenkommen, ist bei diesen drei Söhnen kein einzelner Vater bekannt, weshalb sie als Söhne aller ihrer Männer gelten.
 
 ## Aridess' Globalisierung
 Im Zyklus 10 initiiert Hiante die Planung einer Globalisierung von Aridess.
@@ -87,7 +88,7 @@ Aus diesem Grund plant sie den [Zirkel-Wettstreit](/content/Ereignis/Zirkel-Wett
 Eine der teilnehmenden Gruppen lässt Hiante von ihrem Sohn Grisham aufstellen, sie selbst nimmt jedoch den gesamten Wettstreit über eine neutrale Position als Ausrichterin ein.
 
 Nach dem Wettstreit veranlasst Hiante die Konstruktion von 11 weiteren Residenzen am Nordpol, eine für jeden Zirkel.
-Natürlich wird Dronak als der Krolpin-Familiensitz die Residenz des [Erzphoriat-Zirkels](/content/Volk/Varnops/Politik/Zirkel/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
+Natürlich wird Dronak als der Krolpin-Familiensitz die Residenz des [Erz-Phoriat-Zirkels](/content/Volk/Varnops/Politik/Zirkel/Erz-Phoriat.md), die siegende Teilnehmergruppe von Grisham.
 
 ## Spätes Leben
 Zum Zeitpunkt ihres Todes im Zyklus 72 hat Hiante ihre Familie zu einer der einflussreichsten auf Aridess gemacht.

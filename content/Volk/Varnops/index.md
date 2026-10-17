@@ -44,6 +44,7 @@ Der erste belastbare Kontakt zwischen Varnops und Lateralen wird im Rahmen der f
 
 Beim Volk der Varnops kommt Frauen und insbesondere Müttern schon immer eine besondere Bedeutung zu, weshalb die varnopische Gesellschaft als matriarchalisch beschrieben werden kann.
 Darüber hinaus ist die Polygamie bei den Varnops schon immer gang und gäbe.
+Ist die Vaterschaft eines Kindes unklar, gilt es als Kind aller Partner seiner Mutter.
 Weibliche Varnops können einen eigenen Familienamen wählen, wenn sie eine neue Familie gründen.
 Diesen Namen geben sie bei der Zeugung von Kindern sowohl an ihren Partner als auch an ihre gemeinsamen Nachkommen weiter.
 Bei Varnops, welche auch im Erwachsenenalter noch unter dem Namen ihrer Mutter leben, wird dem Familiennamen der Präfix "Hin-" angefügt.
