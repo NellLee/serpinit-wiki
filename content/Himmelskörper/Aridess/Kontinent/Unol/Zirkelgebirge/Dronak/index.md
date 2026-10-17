@@ -1,6 +1,8 @@
 <!-- tags: Krolpin, Aridess -->
 # Dronak
 
+![Die Residenz Dronak zur Zeit des Zirkel-Wettstreits](./images/Residenz.png)
+
 Dronak ist der Hauptsitz der [Krolpin-Familie](/content/Volk/Varnops/Familie/Krolpin/index.md) und liegt nahe dem Nordpol von Aridess im [Zirkelgebirge](/content/Himmelskörper/Aridess/Kontinent/Unol/Zirkelgebirge/index.md).
 Die Residenz thront auf einer Felsterrasse an der Flanke des Zirkel-Tals, eines breiten, von Gletschern ausgehobelten Trogtals.
 Durch dieses Tal laufen die natürlichen Wege zwischen den Minen des Gebirges, weshalb sich der Ort früh als Knotenpunkt des Handels anbot.
