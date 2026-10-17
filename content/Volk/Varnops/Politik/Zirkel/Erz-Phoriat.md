@@ -9,6 +9,9 @@ Dabei sind sie besonders bekannt für ihre effizienten Erzbohrungen und die daf�
 <!-- event: start=-1.23 category="Aridess" text="Erste Phoriat-Handbohrer" fuzzy -->
 Die Stämme des Erz-Phoriats entwickeln bereits einige Generationen vor der Familie Krolpin den ersten Phoriat, einen Bohrer, mit dem ein Varnop effektiv in den Boden graben kann und dabei Erde und selbst Stein deutlich schneller durchdringt als mit Hammer und Meißel.
 Der Phoriat ist ein Kurbel-Schlagbohrer aus Bronze: Eine Kurbel hebt über eine Nockenwelle einen schweren Fallhammer, der auf eine eiserne Bohrspitze schlägt, die sich mit jedem Schlag ein Stück weiterdreht.
+
+![Ein aufgestellter Phoriat](./images/Phoriat_stehend.png)
+
 Mit den Bohrern entstehen schließlich die vielen Erzminen in den nördlichen Gebirgen.
 Erst Generationen später übernimmt die Familie Krolpin durch die Beziehungen von [Hiante Krolpin](/content/Volk/Varnops/Familie/Krolpin/Charakter/Hiante-Krolpin/index.md) zu den Minenleitern die Führung dieser Tradition.
 Die Krolpins bauen mit der Zeit immer mehr Handelsbeziehungen auf, da die geschürften Metalle bei den Stämmen außerhalb der Gebirge heiß begehrt sind und nehmen so eine immer mächtiger werdende Position im Zirkelgebirge ein.
