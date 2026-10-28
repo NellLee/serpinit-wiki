@@ -113,6 +113,11 @@
 					padding: 0;
 					list-style: none;
 
+					// The article-wide `li + li` spacing must not push later chips down.
+					li {
+						margin: 0;
+					}
+
 					a {
 						display: inline-block;
 						padding: 0.2rem 0.7rem;
