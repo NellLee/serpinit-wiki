@@ -3,7 +3,20 @@
 
 <span style="color: red;">TODO</span> Bild aus Blender
 
-Luqua lässt sich nur schwer als gewöhnlicher Planet beschreiben, denn dieser Himmelskörper besteht zu 78 % aus Wasser, während seine Oberfläche sogar vollständig davon bedeckt ist.
+Luqua ist der äußerste der habitablen Planeten des Serpinit-Systems.
+Auf diesem Himmelskörper existiert kein bisschen Festland — seine Oberfläche besteht gänzlich aus Wasser. 
+Allerdings ist Luqua auch an der Oberfläche keinesfalls ein typischer Ozean, denn das Gewässer ist von einer durchgehenden Eisschicht überzogen.
+Luquas Ozean ist zudem an den meisten Stellen extrem tief, sodass die Wassermassen insgesamt sogar rund 78 % des Gesamtvolumens dieses Planetens ausmachen.
+
+Auf der jeweils sternzugewandten Seite sublimiert dieses Eis durch Ikus' Strahlen beständig, ohne jemals komplett flüssig zu werden.
+Ein Teil des freiwerdenden Dampfes entkommt dabei sogar ins All — Luquas geringe Temperatur hält seine Atmosphäre so kompakt, dass ihr äußerer Rand ungewöhnlich nah an der Oberfläche liegt, wodurch der ungeschützte Sternwind einen Teil dieses Dampfes endgültig forträgt.
+Auf der jeweils abgewandten Seite und an den Polen wirkt das Eis dagegen als Kältefalle: Wandernder Dampf setzt sich dort ab und gefriert erneut, dauerhaft.
+
+Unter dieser globalen Eisdecke, geschützt und von Flueros hydrothermalen Quellen erwärmt, erstreckt sich der eigentliche Ozean Luquas bis hinab zum Planetenkern.
+In der Nähe dieser Schlotfelder liegen vermutlich die Siedlungsräume der [Fluctro](/content/Volk/Fluctro/index.md).
+Für die frühen Erkunder der Ikusation blieb Luqua dadurch zunächst eine augenscheinlich lebensfeindliche, unbewohnte Eiswüste — wodurch und wann genau später Kontakt zu den Fluctro entstand, ist noch offen.
+
+Luqua lässt sich nur schwer als gewöhnlicher Planet beschreiben, denn 
 Der eigentliche Planet ist nur der Kern dieser gewaltigen Wasserkugel.
 
 ## Flueros Einfluss
@@ -18,16 +31,7 @@ Diese Wassermasse hat sich längst zu einem Gleichgewicht eingependelt: Was Flue
 
 ## Gestalt des Himmelskörpers
 
-Luqua ist der äußerste der habitablen Planeten des Serpinit-Systems.
-Es gibt auf Luqua nirgends offenes, flüssiges Wasser an der Oberfläche: Der gesamte Himmelskörper ist von einer durchgehenden Eisschicht überzogen.
 
-Auf der jeweils sternzugewandten Seite sublimiert dieses Eis durch die Einstrahlung Ikus' beständig, ohne jemals flüssig zu werden.
-Ein Teil des freiwerdenden Dampfes entkommt dabei sogar ins All — Luquas geringe Temperatur hält seine Atmosphäre so kompakt, dass ihr äußerer Rand ungewöhnlich nah an der Oberfläche liegt, wodurch der ungeschützte Sternwind einen Teil dieses Dampfes endgültig forträgt.
-Auf der jeweils abgewandten Seite und an den Polen wirkt das Eis dagegen als Kältefalle: Wandernder Dampf setzt sich dort ab und gefriert erneut, dauerhaft.
-
-Unter dieser globalen Eisdecke, geschützt und von Flueros hydrothermalen Quellen erwärmt, erstreckt sich der eigentliche Ozean Luquas bis hinab zum Planetenkern.
-In der Nähe dieser Schlotfelder liegen vermutlich die Siedlungsräume der [Fluctro](/content/Volk/Fluctro/index.md).
-Für die frühen Erkunder der Ikusation blieb Luqua dadurch zunächst eine augenscheinlich lebensfeindliche, unbewohnte Eiswüste — wodurch und wann genau später Kontakt zu den Fluctro entstand, ist noch offen.
 
 ## Besondere Flora
 
