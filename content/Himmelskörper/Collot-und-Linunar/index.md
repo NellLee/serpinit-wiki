@@ -1,6 +1,7 @@
 <!-- tags: Planet, Mond -->
 # Collot, der Gasriese
 - Gasriese
+- Hält [Luqua](/content/Himmelskörper/Luqua/index.md) in einer stabilen Bahnresonanz und hat dessen Umgebung von Kleinkörpern geräumt
 
 # Linunar, Collots Mondplanet
 - Habitabler Mond von Collot
