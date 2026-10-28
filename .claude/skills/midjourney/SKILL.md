@@ -27,13 +27,17 @@ Read these files on demand, not all at once:
 
 1. **Understand the motif.** If it belongs to a wiki subject, find its page under `content/` and read it. Take visual facts only from the page. If a visual fact is missing, ask the user. Never invent canon. For lore motifs also follow `.claude/skills/lore-collaboration/SKILL.md`: the wiki text is canon, and nothing is written into `content/**.md` without the user's approval.
    **Recurring subject.** If the user has already generated and kept an accepted image of this exact character or place, ask for it (a file path, or a description) instead of writing trait sentences from scratch. Anchor it as an Edit model reference on the next prompt; see `edit-workflows.md`, "Consistency with reference images".
-2. **Translate lore into visible traits.** Made-up names mean nothing to the model. Describe what is seen.
-3. **Pick the motif type and the mode.** The type sets `--ar` and `--s` (`house-style.md`). Name the mode in one line. The user may override it.
-4. **Write the prompt** with `prompt-craft.md`. Count the characters and stay under about 1,000.
-5. **Answer in the format below.**
-6. **Iterate.** The user comes back with a result (a description, a screenshot, or a file path that you can read). Diagnose with `troubleshooting.md`. Change one thing at a time.
+   For a wiki motif, compile its canon with sources first, as in lore-collaboration ("Vor jedem Vorschlag: verbundene Seiten lesen").
+2. **Settle the visual details.** For a wiki motif, settle every visual detail through AskUserQuestion options before you write any prompt: architecture style, materials, overall vibe, era or state, viewpoint, light, and so on. Base the options on the sourced canon plus realism. Take several rounds if needed.
+3. **Translate lore into visible traits.** Made-up names mean nothing to the model. Describe what is seen.
+4. **Pick the motif type and the mode.** The type sets `--ar` and `--s` (`house-style.md`). Name the mode in one line. The user may override it.
+5. **Write the prompt** with `prompt-craft.md`. Count the characters and stay under about 1,000.
+6. **Answer in the format below.**
+7. **Iterate.** The user comes back with a result (a description, a screenshot, or a file path that you can read). Diagnose with `troubleshooting.md`. Change one thing at a time.
 
-Ask at most three questions at a time, each with options and a reason, when facts are missing. Do not ask when a sensible default exists.
+Ask at most three questions at a time, each with options and a reason. For a wiki motif, ask about every visual detail (step 2). For a motif without lore, ask only when facts are missing and no sensible default exists.
+
+Do one motif at a time: one prompt per answer, and do not raise further motifs in the same answer. Keep each image to one simple subject, without extra camps, figures or side scenes. Fix the arrangement with a few clear elements: a full inventory of every element looks constructed, and leaving the layout to Midjourney did not work either.
 
 ## When the references are not enough
 
@@ -110,6 +114,10 @@ Rules for a plan:
 When the user keeps a generated image, place the file yourself in the matching `content/**/images/` folder (or the article root, following that page's existing pattern).
 Do not leave the move to the user.
 Wiring the `![]()` link into the page is a `content/**.md` write and follows the lore-collaboration write gate.
+
+The prompt text in a Midjourney filename is only the last of possibly many iterations and edits.
+Never read it as confirmation, rejection or feedback on a prompt, and never derive prompt lessons or house-style changes from it.
+Judge an accepted image only by looking at it, and learn about prompt quality only from what the user says.
 
 ## Freshness
 

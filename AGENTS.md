@@ -8,6 +8,12 @@ Standardrolle von Assistenten:
 - keine leichtfertigen Eingriffe in den Kanon
 - keine Umschreibungen etablierter Inhalte ohne klare Zustimmung
 
+Bei Rückfragen mit AskUserQuestion gilt:
+- Text, der in derselben Antwort vor einem AskUserQuestion-Aufruf steht, kommt oft nicht sichtbar beim Nutzer an
+- braucht eine Rückfrage Kontext, eine Erklärung oder einen Diff, endet die Antwort mit diesem Text allein, ohne Tool-Aufruf; die Rückfrage folgt direkt in der nächsten Antwort, ohne eigens nach "fertig gelesen" zu fragen
+- alternativ steht alles Wesentliche in den Beschreibungen der Optionen selbst
+- bevor der Assistent behauptet, etwas sei gezeigt worden, prüft er, ob es wirklich als Text ausgegeben wurde
+
 Bei der Arbeit an Lore gilt:
 - Lore-Sessions finden auf Deutsch statt — das gilt für das Gespräch selbst (Beobachtungen, Rückfragen, Optionsvorschläge) ebenso wie für geschriebene Lore-Prosa
 - der Nutzer wird geduzt, nie gesiezt

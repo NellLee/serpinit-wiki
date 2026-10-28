@@ -34,11 +34,19 @@ Bevor der Assistent Lore vorschlägt (auch nur einen Satz), sucht und liest er a
 Berührt ein Vorschlag ein benanntes Konzept, eine Technologie, ein Ereignis oder eine Institution (z. B. "Gemtech", "die Ikusation", ein Zirkel, eine Familie), werden deren eigene Seiten zuerst gelesen.
 Sonst droht ein Vorschlag, der bestehendem Kanon widerspricht oder ihn doppelt.
 
+Vor einer Entscheidung stellt der Assistent den zugehörigen Kanon präzise zusammen: pro Fakt die Quellseite und der genaue Wortlaut.
+Realweltliches Wissen wird nicht so eingemischt, dass es wie Kanon wirkt.
+Daraus leitet er die Optionen ab — nur solche, die zum Kanon passen, mit kurzer Begründung, was passt und was nicht.
+Nach der Zusammenstellung wartet er nicht auf ein "fertig gelesen"; wie Zusammenstellung und Rückfrage zusammen beim Nutzer ankommen, regelt `AGENTS.md` (Text vor AskUserQuestion).
+
 ## Bei offenen Entscheidungen: Optionen anbieten
 
 Ist eine Frage erkennbar offen, schlägt der Assistent mehrere Optionen vor, jede mit kurzer Begründung.
 Der Assistent wählt nicht selbst eine Option aus und stellt sie nicht als bereits entschieden dar.
 Optionen werden immer über das AskUserQuestion-Tool angeboten, nicht als Liste im Chat.
+
+Mehrdeutige Zahlen oder Aussagen legt der Assistent nicht stillschweigend aus, sondern fragt nach.
+Beispiel: Bei "78 % Wasser" ist offen, ob Masse oder Volumen gemeint ist.
 
 Bei Kleinigkeiten hält der Assistent nicht für Bestätigungen an.
 Dazu zählen ein Querverweis-Satz auf bereits festgelegten Kanon, Formulierungsschliff und die Platzierung von Bildern.
@@ -58,6 +66,23 @@ Sobald eine Entscheidung fällt — ob durch eine gewählte Option oder durch ei
 **Tiefe:** Nicht jede Entscheidung braucht einen vollständigen Lücken-Scan. Der Assistent schätzt ein, ob eine Entscheidung substanziell genug ist, um wirklich neue Verzweigungen zu öffnen — bei kleinen, eindeutigen Bestätigungen reicht es, ohne Scan weiterzumachen.
 
 **Form:** Eine gefundene Lücke wird immer benannt. Ob dazu sofort Lösungsoptionen mitgeliefert werden, entscheidet der Assistent von Fall zu Fall — bei einer klaren Weggabelung mit Optionen, bei einer eher offenen/unausgereiften Frage reicht ein reines Benennen ("das ist noch offen, betrifft aber X").
+
+## Realitäts-Checks
+
+Bei einem Realitäts-Check, besonders zu physikalischem Realismus, gelten zusätzlich diese Regeln.
+
+**Ziele zuerst klären.** Früh in der Session legt der Assistent per AskUserQuestion mit Optionen die Ziele fest: die Eigenschaften oder Aspekte, die der Nutzer erreichen will und deren Begründung oder Erklärung erarbeitet wird.
+
+**Nichts ist absolut gesetzt.** Weder bestehender Wiki-Inhalt noch früher im Gespräch Festgelegtes gilt als unverrückbar, wenn etwas anderes sinnvoller oder realistischer ist.
+Der Assistent zeigt, welche Fakten an welcher physikalischen Annahme hängen und was sich pro Option ändert oder bricht, damit wir uns einigen können.
+Das lockert das Kanon-Modell nur für Realitäts-Checks; Änderungen an Seiten laufen weiter über den Schreib-Ablauf.
+
+**Nie selbst entscheiden.** Der Assistent legt nichts eigenmächtig fest und verwirft nichts eigenmächtig.
+Jede solche Weggabelung geht als Optionen über AskUserQuestion an den Nutzer.
+
+**Bei einem Aspekt bleiben.** Ein Aspekt wird bearbeitet, bis er wirklich vollständig geklärt ist.
+Lücken in anderen Aspekten werden höchstens kurz benannt, nicht verfolgt.
+Erst wenn der Aspekt geklärt ist, fragt der Assistent, ob es zum nächsten Aspekt geht.
 
 ## Schreiben nur nach ausdrücklicher Freigabe
 
