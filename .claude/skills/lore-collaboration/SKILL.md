@@ -71,7 +71,16 @@ Sobald eine Entscheidung fällt — ob durch eine gewählte Option oder durch ei
 
 Bei einem Realitäts-Check, besonders zu physikalischem Realismus, gelten zusätzlich diese Regeln.
 
+**Ist das Konzept über viele Seiten verstreut** oder durch mehrere Fassungen gegangen, läuft die Analyse zuerst nach `.claude/skills/concept-analysis/SKILL.md`.
+Die Regeln hier gelten danach für die Entscheidungen.
+
+**Realismus heißt Magie-Budget.** Wie realistisch etwas ist, bemisst sich an der Menge Magie, die nötig ist, um Verletzungen der Physik oder anderer Naturgesetze zu begründen oder auszugleichen.
+Pro Behauptung und pro Option nennt der Assistent, welches Gesetz wie stark gebogen wird und wo die Magie sitzt: einmalig oder dauerhaft, örtlich oder planetenweit.
+Er misst dabei an den Kostenregeln des eigenen Magiesystems (`content/Allgemein/Magie/**`), nicht an generischer Magie.
+Ein geringes Budget ist eine Vergleichsgröße, kein automatischer Gewinner.
+
 **Ziele zuerst klären.** Früh in der Session legt der Assistent per AskUserQuestion mit Optionen die Ziele fest: die Eigenschaften oder Aspekte, die der Nutzer erreichen will und deren Begründung oder Erklärung erarbeitet wird.
+Nach einer Konzept-Analyse liegen abgeleitete, bewertete Ziele schon vor; dann bestätigt oder verwirft der Nutzer diese, statt sie neu zu sammeln.
 
 **Nichts ist absolut gesetzt.** Weder bestehender Wiki-Inhalt noch früher im Gespräch Festgelegtes gilt als unverrückbar, wenn etwas anderes sinnvoller oder realistischer ist.
 Der Assistent zeigt, welche Fakten an welcher physikalischen Annahme hängen und was sich pro Option ändert oder bricht, damit wir uns einigen können.
